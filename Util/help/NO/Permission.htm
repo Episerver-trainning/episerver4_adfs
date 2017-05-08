@@ -1,0 +1,129 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjelp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/Permission.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+	<a href="../SV/Permission.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+    <a href="../NO/Permission.htm">
+    <img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Tilgangskontroll for funksjoner</h1>
+    
+	I EPiServers redigeringsmodus finnes det en del funksjoner som du kan 
+	begrense tilgang til for ulike personer eller grupper. Funksjonene nedenfor kan du tilgangsbeskytte.<br>
+	<h3>Alle funksjoner tilgjengelige i redigeringsprogrammet</h3>
+	Gir en eller flere grupper/personer tilgang til alle knapper/funksjoner i 
+	redigeringsprogrammet. Det er vanlig at man vil skjule visse knapper i visse 
+	maler. Med denne kommandoen kan du tildele alle knapper til visse 
+	personer/grupper. De får da alle knapper mens de øvrige får knappene du har 
+	angitt i den respektive malen.<br>
+	<h3>Detaljerte feilmeldinger for feilsøking</h3>
+	Gir en eller flere grupper/personer tilgang til detaljerte feilmeldinger. 
+	Under Systeminnstillinger kan du aktivere en funksjon som gir besøkende et 
+	skjema som skal fylles ut hvis det oppstår en teknisk feil på webområdet. 
+	Ved å endre rettigheter her kan du spesifisere hvem som skal få et slikt 
+	skjema.<br>
+	<h3>Vise og publisere sider fra Microsoft Office tillegg</h3>
+	gir en eller flere grupper/personer rett til å publisere sider fra Microsoft 
+	Office. For at de skal kunne gjøre dette må det installeres et 
+	tilleggsprogram på den datamaskinen de skal jobbe fra. Du kan lese mer om 
+	dette i Redaktørhåndboken.<p><b>Tillat avansert opplasting av filer, for 
+	eksempel ved hjelp av dra-og-slipp </b><br>
+	gir en gruppe eller bruker å bruke avansert opplasting. Det innebærer for 
+	eksempel at en redaktør kan laste opp flere filer samtidig ved å dra og 
+	slippe filer fra filhåndtereren i Windows til filhåndtereren i EPiServer.<br>
+	</p>
+	<h2>Legg til/endre tilgang til en funksjon for en gruppe/bruker</h2>
+	<ol>
+		<li>Velg Endre etter funksjonen du vil endre.</li>
+		<li>Eksisterende grupper/brukere med tilgang vises i en liste</li>
+		<li>Velg Legg till gruppe hvis du vil legge til en hel gruppe som skal få 
+	tilgang til denne funksjonen.</li>
+		<li>Velg Legg til bruker hvis du vil legge til en 
+	person som skal få tilgang til denne funksjonen. </li>
+		<li>I vinduet som åpnes, vises gruppene eller personene som finnes i systemet. 
+	Dobbeltklikk på navnet for å legge til gruppen/brukeren. </li>
+		<li>Velg OK.</li>
+		<li>Gruppen/brukeren vises i listen med avmerkingsboksen avmerket. Dette 
+	innebærer at gruppen/brukeren har tilgang til funksjonen. </li>
+		<li>Velg Lagre.</li>
+	</ol>
+	<p><img border="0" src="images/admin_atkomst.png" width="490" height="236"></p>
+    <h2>Fjerne tilgang til en funksjon for en gruppe/bruker</h2>
+	<ol>
+		<li>Velg <i>Endre</i> etter funksjonen du vil endre.</li>
+		<li>Eksisterende grupper/bruker med tilgang vises i en liste.</li>
+		<li>Klikk i avmerkingsboksen etter gruppen/brukeren du vil fjerne tilgangen for. 
+	Da fjernes merket fra avmerkingsboksen.</li>
+		<li>Velg <i>Lagre</i>.</li>
+	</ol>
+	<h2>Tilgang til funksjoner i koblingsverktøyet</h2>
+	
+	<p>Fra og med versjon 4.50 av EPiServer ble et nytt 
+	koblingsverktøy introdusert. Koblingsverktøyet er verktøyet som åpnes når en 
+	redaktør skal laste opp et bilde eller et dokument. Hva en redaktør skal få 
+	gjøre og ikke gjøre i det nye verktøyet angis i filhåndtereren ved hjelp av 
+	rettigheter i kataloger. </p>
+	<p>Hvilket koblingsverktøy som skal brukes, er et 
+	konfigureringsspørsmål. Du finner mer informasjon i dokumentet <i>web.config 
+	Settings</i>. Dette innebærer at man kan bruke EPiServer 4.50 eller 4.60 
+	uten å bruke det nye verktøyet. I det eldre koblingsverktøyet er det mulig å 
+	begrense tilgangen til ulike funksjoner som i det nye styres med rettigheter 
+	i kataloger. I det eldre verktøyet finnes knapper for eksempel for å 
+	opprette kataloger, bytte navn og fjerne kataloger og filer. Det er mulig å 
+	fjerne disse funksjonene for grupper eller brukere hvis man vil.</p>
+	<h3>Opprette katalog i lenkeverktøyet</h3>
+	Gir en eller flere grupper/personer rettigheter til å opprette kataloger i 
+	lenkesverktøyet<br>
+	<h3>Slette fil i lenkeverktøyet</h3>
+	Gir en eller flere grupper/personer rettigheter til å fjerne filer i 
+	lenkesverktøyet<br>
+	<h3>Slette katalog i lenkeverktøyet</h3>
+	Gir en eller flere grupper/personer rettigheter til å slette kataloger i 
+	lenkesverktøyet<br>
+	<h3>Endre navn på fil/katalog i lenkeverktøyet</h3>
+	Gir en eller flere grupper/personer rettigheter til å endre navn på filer og 
+	kataloger i lenkesverktøyet<br>
+	<h3>Laste opp til sidens katalog i lenkesverktøyet</h3>
+	Gir en eller flere grupper/personer rettigheter til å laste opp filer til 
+	sidens katalog i lenkesverktøyet. Da opprettes en katalog som er koblet til 
+	den aktuelle siden der alle filer lagres. Katalogens navn består av sifre.
+	<br>
+	<h3>Laste opp til felles katalog i lenkesverktøyet</h3>
+	Gir en eller flere grupper/personer rettigheter til å laste opp filer til 
+	felleskataloger i lenkesverktøyet.
+	&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Les mer i <a href="Redaktørhåndbok_online.pdf">
+    Redaktørhåndbok</a> - Les mer i <a href="Adminhåndbok_online.pdf">
+    Administratørhåndbok</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

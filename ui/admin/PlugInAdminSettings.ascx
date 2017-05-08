@@ -1,0 +1,1 @@
+<%@ Control Language="c#" AutoEventWireup="false" Codebehind="PlugInAdminSettings.ascx.cs" Inherits="EPiServer.Admin.PlugInAdminSettings" TargetSchema="http://schemas.microsoft.com/intellisense/ie5" %>

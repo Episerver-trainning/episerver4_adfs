@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<editorcontent>
+	<contenttable numberofcolumns="5">
+		<contentrow height="40px" class="EPEdit-TitleFrame">
+			<contentcolumn colspan="*">
+				<contenthtml>
+					<img src="../Util/images/titleBar_logo.gif" />
+				</contenthtml>
+			</contentcolumn>
+		</contentrow>
+		<contentrow>
+			<contentcolumn width="270px">
+				<contenttable numberofcolumns="1" style="border-right:solid 1px #000000;">
+					<contentrow height="32px">
+						<contentcolumn style="border-bottom:solid 1px #000000;">
+							<contentframe src="EditCommand.aspx" name="EditCommand"></contentframe>
+						</contentcolumn>
+					</contentrow>
+					<contentrow>
+						<contentcolumn style="border-bottom:solid 1px #000000;">
+							<contentframe src="EditTree.aspx" name="EditTree"></contentframe>
+						</contentcolumn>
+					</contentrow>
+					<contentrow height="43px">
+						<contentcolumn>
+							<contentframe src="QuickSearch.aspx" scrolling="No" name="QuickSearch"></contentframe>
+						</contentcolumn>
+					</contentrow>
+				</contenttable>
+			</contentcolumn>
+			<resizecolumn>
+			</resizecolumn>
+			<contentcolumn>
+				<contentframe src="WorkSpace.aspx" name="EditPanel" onnavigateurl="EditPanel.aspx"></contentframe>
+			</contentcolumn>
+			<resizecolumn>
+			</resizecolumn>
+			<contentcolumn width="200px" Expanded="False">
+				<contentframe src="ActionWindowFrame.aspx" name="epCustomDIV"></contentframe>
+			</contentcolumn>
+		</contentrow>
+	</contenttable>
+</editorcontent>

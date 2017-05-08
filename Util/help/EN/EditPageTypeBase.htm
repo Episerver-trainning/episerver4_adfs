@@ -1,0 +1,103 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Help in EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="EditPageTypeBase.htm">
+    <img border="0" src="images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="../SV/EditPageTypeBase.htm">
+    <img border="0" src="images/sv.gif" alt="Svenska" width="20" height="14"></a>
+     <a href="../NO/EditPageTypeBase.htm">
+    <img border="0" src="images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Create new page type</h1>
+	<p>Administrators do not normally create new page types; this is primarily 
+	the task of developers. Each page type is linked to an aspx page (page 
+	template), where all the functions of the page are programmed. If you do not 
+	have any knowledge about programming in ASP.NET, you should not create new 
+	page types. The fields in the form that are filled in by the editors are 
+	created in admin mode.<br>
+		To create a new page type, select Create new page type from the menu to the 
+	left when in admin mode. Fill in the fields shown on the three tabs: 
+	Information, Default values and Available page types.</p>
+    <h2>Information</h2>
+    <p>
+    <img border="0" src="images/admin_pagetypes_default.png" width="490" height="221"></p>
+    <h3>Name</h3>
+    The page type’s name is entered here.
+    <h3>Description</h3>
+    The text describing the page type is entered here. The name and 
+    description are the information displayed to editors when they decide to 
+    create a new page.
+    <h3>File name</h3>
+    This field is for entering the path and file name for the page which will 
+    create the actual web page shown to the visitors. This name should not be 
+    changed, as each template is linked to a particular page to ensure that it 
+    always has the right layout and comes with the all the relevant information.
+    <h3>Available in edit mode</h3>
+    When you select the option Available in edit mode you are providing the 
+    editors with the possibility to create pages based on this page type. In 
+    some modes it may be appropriate to hide some of the page types from the 
+    editors. This might apply, for instance, to the discussion forum template. 
+    It is quite usual to want to have just one discussion forum on the website, 
+    as opposed to several in different places. In this case, you create a single 
+    forum and then hide the page type. Editors will therefore not be able to 
+    access the template, thereby preventing more than one forum beingcreated.</p>
+    <h3>Sort index</h3>
+    The sort index determines how the various page types will be sor ted in 
+    the list when the editor decides to create a new page. The page type with 
+    the lowest sor t index comes first.
+    <h2>Default values</h2>
+    To help and facilitate the editors’ task, it may be appropriate to use 
+    default values. If you are an administrator you can then customise a 
+    specific page type so that the editor does not need to change much on the 
+    page. This might be the case, for instance, if you want the publishing time 
+    to be entered automatically. You can then decide how long after the page was 
+    created it will start being published.
+    <p>
+    <img border="0" src="images/admin_pagetypes_defaultvalu.png" width="490" height="288"></p>
+    <h2>Available page types</h2>
+    Here you can choose what page types are to be available to the editor 
+    when he creates a sub-page under the page type you are now editing. Choose 
+    all page types or select a few specific ones. This can be appropriate, 
+    particularly under Questionnaire or Calendar. Sub-pages to the page type 
+    Calendar should be of the page type Calendar event. By only providing the 
+    editor with access to this page type, there need never by any mistakes.
+    <img border="0" src="images/admin_pagetypes_avaible.png" width="490" height="367">
+	<h1>Editing page types</h1>
+    To edit a page type, click on the page type’s name on the left side. The 
+    page type’s various properties are listed on the right. If you select 
+    Settings you can change the basic information about the page type to suit 
+    your requirements. The settings for each page type come under three separate 
+    tabs, Information, Default values and Available page types.
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#666666" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Read more in <a href="Editorsmanual_online.pdf">Editor's Manual</a> - Read more in 
+    <a href="Administratorsmanual_online.pdf">Administrator’s Manual</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

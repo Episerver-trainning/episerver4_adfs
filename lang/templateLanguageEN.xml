@@ -1,0 +1,1254 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+	<language name="English" id="EN">
+		<templates>
+			<document>
+				<openinnewwindow>Open in new window</openinnewwindow>
+				<backtolist>Back to list</backtolist>
+			</document>
+			<documentlist>
+				<download>Download document</download>
+			</documentlist>
+			<news>
+				<errorbindingrsssource>	An error occured while binding to rss source</errorbindingrsssource>
+			</news>
+			<form>
+				<numberofvotes>Number of votes: {0}</numberofvotes>
+				<showform>To the form</showform>
+				<requirelogon>This form requires that you have logged on.</requirelogon>
+				<denymultipleposts>You have already answered this form.</denymultipleposts>
+				<postedmessage>Thank you for your answer!</postedmessage>
+				<thankyouforyourreply>Thank you for your reply!</thankyouforyourreply>
+				<showstat>Show statistics</showstat>
+			</form>
+			<register>
+				<invalidemail>Please enter a valid e-mail address so that we can process your application.</invalidemail>
+				<invalidpassword>You must enter a password. Enter the same password in the two text fields.</invalidpassword>
+				<expiredidentity>Your user information has expired. Please log on again.</expiredidentity>
+				<usernotsaved>The user could not be saved. Please try another username.</usernotsaved>
+				<errorwhilesavinguser>An error occured. The user has not been saved.</errorwhilesavinguser>
+				<invalidsettings>All settings for extranet users have not been set.</invalidsettings>
+				<applyemailsubject>A new user has asked for membership.</applyemailsubject>
+				<applyemailbodyprefix>Go to this page to activate the user:</applyemailbodyprefix>
+				<usersaved>You will receive an e-mail as soon as your application has been approved and activated.</usersaved>
+				<usersavedandactivated>You can now log on to the Web site.</usersavedandactivated>
+				<couldnotsave>User could not be created</couldnotsave>
+				<saved>User created</saved>
+				<notallowed>This site does not allow user registration.</notallowed>
+			</register>
+			<page>
+				<readmore>Read more</readmore>
+				<login>Login</login>
+				<logout>Logout</logout>
+				<notproperlyconfigured>Quick search is not properly configured. (Dynamic property "Global search page" must have been defined.)</notproperlyconfigured>
+			</page>
+			
+			<newsgrouplist>
+				<search>Search</search>
+				<subscribe>Subscribe</subscribe>
+				<unsubscribe>Remove Subscription</unsubscribe>
+			</newsgrouplist>
+			<search>
+				<searchfiles>			Search documents and files</searchfiles>
+				<onlywholewords>		Match whole word</onlywholewords>
+				<searchresult>			Search result:</searchresult>
+				<rank>					Rank</rank>
+				<match>					Match</match>
+				<matches>				match(es)</matches>
+				<nomatches>				No matches found. Please try again.</nomatches>
+				<help>
+					&lt;b&gt;Search hints!&lt;/b&gt;
+					&lt;ul&gt;
+					&lt;li&gt;Enter up to 10 words separated with a space, for example &lt;i&gt;&lt;b&gt;&lt;nobr&gt;word1 word2 word33&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br/&gt;&lt;/li&gt;
+					&lt;li&gt;Restrict the search by placing a plus sign (+) in front of the words that must be found to consider the page a match, for example &lt;i&gt;&lt;b&gt;&lt;nobr&gt;+word1 +word2 +word3&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;/li&gt;
+					&lt;li&gt;Restrict the search by placing a minus sign (-) in front of the words that must not occur to consider the page a match, for example &lt;i&gt;&lt;b&gt;&lt;nobr&gt;+word1 +word2 -word3&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;/li&gt;
+					&lt;li&gt;If "Match whole word" is selected, but you still want to match part of a word, place an asterisk(*) at the end of the word, for example &lt;i&gt;&lt;b&gt;&lt;nobr&gt;word1* word2&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt; which will match pages with the words "word123" and "word2", but not "word123" and "word234".&lt;/li&gt;					
+					&lt;/ul&gt;	
+				</help>
+				<indexservererror>		The index engine is not running at the moment and searches against files and documents cannot be done.
+				</indexservererror>
+				<quicksearch>		Quick search</quicksearch>
+				<alllanguages>Search on all languages</alllanguages>
+			</search>
+			<login>
+				<logintitle>Login</logintitle>
+				<loginheading>Protected information. Please login.</loginheading>
+				<username>				Name</username>
+					<password>				Password</password>
+					<persistentlogin>		Enable automatic logon to this Web site</persistentlogin>
+					<usernamerequired>		You must enter a name</usernamerequired>
+					<loginfailed>			Login failed</loginfailed>
+			</login>
+			<calendar>
+				<next>Next</next>
+				<previous>Previous</previous>
+			</calendar>
+			<changedpages>
+				<header>			Last changed files</header>
+				<lastmodified>		Last changed</lastmodified>
+				<page>				Page</page>
+				<updatedpages>		Latest updated pages</updatedpages>
+			</changedpages>
+			<conference>
+				<deleteconfirm>Do you want to delete this item?</deleteconfirm>
+				<createnew>Create new post</createnew>
+				<post>Post</post>
+				<heading>Heading</heading>
+				<message>Message</message>
+				<author>Author</author>
+				<previous>Previous</previous>
+				<next>Next</next>
+				<reply>Reply</reply>
+				<change>Change</change>
+				<delete>Delete</delete>
+				<replies>Replies</replies>
+				<uponelevel>Up one level</uponelevel>
+			</conference>
+			<newsgroupitem>
+				<reply>Reply</reply>
+				<name>Name</name>
+				<email>E-mail</email>
+				<subject>Subject</subject>
+			</newsgroupitem>
+			<newsgrouplist>
+				<newpost>New Subject</newpost>
+				<settings>Settings</settings>
+				<subject>Subject</subject>
+				<author>Author</author>
+				<created>Created</created>
+			</newsgrouplist>
+			<newsgroupsettings>
+				<personalsettings>Personal Settings</personalsettings>
+				<firstname>First name</firstname>
+				<lastname>Last name</lastname>
+				<email>E-mail</email>
+				<interval see="/templates/subscribe/interval"/>
+				<fastaspossible see="/templates/subscribe/fastaspossible"/>
+				<daily see="/templates/subscribe/daily"/>
+				<everysecondday see="/templates/subscribe/everysecondday"/>
+				<weekly see="/templates/subscribe/weekly"/>
+				<everysecondweek see="/templates/subscribe/everysecondweek"/>
+				<everyfourthweek see="/templates/subscribe/everyfourthweek"/>
+			</newsgroupsettings>
+			<newsgrouptree>
+				<back>Back</back>
+			</newsgrouptree>
+			<notimplemented>
+				<notimplemented>This feature is not available yet.</notimplemented>
+			</notimplemented>
+			<subscribe>
+				<interval>Interval</interval>
+				<fastaspossible>As soon as possible</fastaspossible>
+				<daily>Daily</daily>
+				<everysecondday>Every second day</everysecondday>
+				<weekly>Weekly</weekly>
+				<everysecondweek>Every second week</everysecondweek>
+				<everyfourthweek>Every fourth week</everyfourthweek>
+				<subscriptions>Subscriptions</subscriptions>
+			</subscribe>
+			<profile>
+				<image>						Image</image>
+				<profile>					Profile</profile>
+				<department>				Department</department>
+			</profile>
+			<profilefinder>											
+				<limitamountofhits>			Limit number of hits</limitamountofhits>
+				<myprofile>					My profile</myprofile>
+				<backtosearch>				Back to search</backtosearch>
+				<showdetailedlist>			Show detailed list</showdetailedlist>
+			</profilefinder>
+			<emailpage>
+				<to>						To</to>
+				<from>						From</from>
+				<subject>					Subject</subject>
+				<other>						Other</other>
+				<send>						Send</send>
+			</emailpage>
+			<common>
+				<printpage>					Print page</printpage>
+				<emailpage>					Tell a friend about this page</emailpage>
+				<sitemap>					Show site map</sitemap>
+				<register>					Register</register>
+				<editdetails>				Change my details</editdetails>
+				<login>						Log in</login>
+				<logout>					Log out</logout>
+				<numberofhits>				Number of hits</numberofhits>
+				<pagehaschildren>			Page has children</pagehaschildren>
+				<startpage>				Start Page</startpage>
+				<changelanguage>Change language to {0}</changelanguage>
+			</common>
+			<portal>
+				<back>						Back</back>
+				<reloadportal>				Reload portal start page</reloadportal>
+				<opensettingsheader>		Settings</opensettingsheader>
+				<opensettingstooltip>		Open portal settings</opensettingstooltip>
+				<actionrequiresauthentication>This action requires authentication</actionrequiresauthentication>
+				<mysettingprefix>			My settings </mysettingprefix>
+				<myportalsettings>			My portal settings</myportalsettings>
+				<saveresizesettingstooltip> Save settings for height and width</saveresizesettingstooltip>
+				<saveresizesettingsheader>	Save</saveresizesettingsheader>
+				<resetsettings>				Reset settings</resetsettings>
+				<selectedframework>			Selected framework</selectedframework>
+				<advancedframework>			Advanced framework</advancedframework>
+				<simpleframework>			Simple framework</simpleframework>
+				<parts>						Portal sections</parts>
+				<expandregion>				Expand</expandregion>
+				<minimizeregion>			Minimize</minimizeregion>
+				<restoreregion>				Reset size</restoreregion>
+				<refreshregion>				Reload</refreshregion>
+				<regionsettings>			Open settings</regionsettings>
+			</portal>
+			<filelisting>
+				<rootpatherror>				Root folder is not defined</rootpatherror>
+				<sortordername>				Name</sortordername>
+				<sortorderdatecreated>		Created</sortorderdatecreated>
+				<sortorderdatelastaccessed>	Last accessed</sortorderdatelastaccessed>
+				<sortorderdatelastmodified>	Last modified</sortorderdatelastmodified>
+				<sortordertype>				File type</sortordertype>
+				<sortordersize>				Size</sortordersize>
+				<sortordernone>				</sortordernone>
+				<sortordernamedesc>Name descending</sortordernamedesc>
+				<sortorderdatecreateddesc>Created descending</sortorderdatecreateddesc>
+				<sortorderdatelastaccesseddesc>Last accessed descending</sortorderdatelastaccesseddesc>
+				<sortorderdatelastmodifieddesc>Last modifed descending</sortorderdatelastmodifieddesc>
+				<sortordertypedesc>File type descending</sortordertypedesc>
+				<sortordersizedesc>Size descending</sortordersizedesc>
+			</filelisting>
+			<mobileinfo>
+				<maininfo>
+					&lt;b&gt;How to enable WAP functions in EPiServer&lt;/b&gt;
+					&lt;p&gt;Since the WAP/mobile device support in EPiServer is based on the Microsoft 
+						Mobile Internet Toolkit, it is not enabled by default. If you want to activate 
+						the mobile device support, follow the instructions below.&lt;/p&gt;
+					&lt;ul&gt;
+						&lt;li&gt;
+							Download and install the Microsoft Mobile Internet Toolkit on your development 
+							machine. It can be downloaded from &lt;a href="http://www.msdn.microsoft.com/downloads/default.asp?url=/downloads/sample.asp?url=/msdn-files/027/001/817/msdncompositedoc.xml" target="_blank"&gt;
+								http://www.msdn.microsoft.com&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;
+							Go to EPiServer's Admin mode and open the page type definition for Mobile page&lt;/li&gt;
+						&lt;ul&gt;
+							&lt;li&gt;
+								Enter settings for this page type.
+							&lt;/li&gt;
+							&lt;li&gt;
+								Change "File name" to point to templates/Mobile.aspx instead of 
+								templates/MobileInfo.aspx
+							&lt;/li&gt;
+							&lt;li&gt;
+								Save changes.
+							&lt;/li&gt;
+						&lt;/ul&gt;
+						&lt;li&gt;
+							Add a reference to System.Web.Mobile (installed with the Mobile Internet 
+							Toolkit) to your EPiServer development project.&lt;/li&gt;
+						&lt;li&gt;
+							Include the file /templates/Mobile.aspx in your EPiServer development project.&lt;/li&gt;
+						&lt;li&gt;
+							Recompile your EPiServer project.&lt;/li&gt;
+					&lt;/ul&gt;
+				</maininfo>
+			</mobileinfo>
+			<xform>
+				<postedmessage>Thank you for your reply!</postedmessage>
+				<requirelogon>You must be logged on to answer.</requirelogon>
+				<denymultipleposts>You have already filled in this form.</denymultipleposts>
+				<fieldisrequired>Please specify "{0}"</fieldisrequired>
+				<requiredfields>You haven't specified all the mandatory information (marked with *)</requiredfields>
+				<errorpostingtodatabase>The form could not be sent.</errorpostingtodatabase>
+				<errorpostingtoemail>The form could not be sent.</errorpostingtoemail>
+				<errorpostingtocustomurl>The form could not be sent.</errorpostingtocustomurl>
+			</xform>
+			<workroom>
+				<common>
+					<active>Active</active>
+					<captionsingle>Workroom</captionsingle>
+					<captionmany>Workrooms</captionmany>
+					<changed see="/workflow/reportmail/changed" />
+					<createnew>Create New Workroom</createnew>
+					<name see="/workflow/reportmail/taskname" />
+					<owner see="/workflow/reportmail/owner" />
+					<showonlyactive>Show only active workrooms</showonlyactive>
+				</common>
+				<members>
+					<activemembers>Active Members</activemembers>
+					<addmember>Add Members</addmember>
+					<addmembercaption>Add member</addmembercaption>
+					<activemembercaption>Cancel</activemembercaption>
+					<removemembercaption>Remove</removemembercaption>
+					<searchbuttoncaption>Search</searchbuttoncaption>
+					<searchdescription>Search user</searchdescription>
+					<canceleditcaption>Cancel</canceleditcaption>
+					<memberstatusheader>Member status</memberstatusheader>
+					<editmembercaption>Edit</editmembercaption>
+				</members>
+				<memberstatus>
+					<guest>Guest</guest>
+					<administrator>Administrator</administrator>
+					<user>User</user>
+					<none>Not member</none>
+				</memberstatus>				
+				<plugins>
+					<overview>
+						<displayname>Overview</displayname>
+					</overview>
+					<bulletinboard>
+						<displayname>Bulletin Board</displayname>
+					</bulletinboard>
+					<calendar>
+						<displayname>Calendar</displayname>
+						<newentry>New Calendar Entry</newentry>
+						<editentry>Edit Calendar Entry</editentry>
+						<subject>Subject</subject>
+						<starttime>Start time</starttime>
+						<endtime>End time</endtime>
+						<startdategreaterthanenddate>Invalid dates: "{0}" cannot have a later date than "{1}"</startdategreaterthanenddate>
+					</calendar>
+					<document>
+						<displayname>Document</displayname>
+					</document>
+					<forum>
+						<displayname>Discussion Forum</displayname>
+					</forum>
+					<members>
+						<displayname>Members</displayname>
+					</members>
+					<news>
+						<displayname>News</displayname>
+						<newentry>Create New</newentry>
+						<title>Title</title>
+						<mainintro>Intro</mainintro>
+						<mainbody>Body</mainbody>
+					</news>
+					<settings>
+						<displayname>Settings</displayname>
+						<active>is active</active>
+					</settings>
+				</plugins>
+				<unabletocreateworkroom>Unable to create workroom: </unabletocreateworkroom>
+				<unabletofindworkroomtemplates>Cannot find any workroom templates</unabletofindworkroomtemplates>
+				<invalidworkroompage>Page is not a valid workroom page</invalidworkroompage>
+				<invalidpageinstance>The workroom template needs a valid page instance</invalidpageinstance>
+				<invalidrootdir>Cannot access document root directory</invalidrootdir>
+				<undefinedrootdir>Document root directory not defined</undefinedrootdir>
+			</workroom>
+			<logservice>
+				<lastusers>
+					<heading>Last 5 Active Visitors</heading>
+					<totalusers>The site currently has {0} visitor(s).</totalusers>
+					<noconnection>The log service could not be connected.</noconnection>
+				</lastusers> 
+				<pagehits>
+					<heading>Most Visited Pages</heading>
+					<totalpagehits>Currently showing {0} page(s) per minute.</totalpagehits>
+					<noconnection>The log service could not be connected.</noconnection>
+				</pagehits> 
+				<publishedpages>
+					<heading>Last 5 Published Pages</heading>
+					<noconnection>The log service could not be connected.</noconnection>
+				</publishedpages> 
+				<notactive>Statistics are not activated for the Web site.</notactive>
+			</logservice>
+			<wsrp>
+				<common>
+					<configuration>Configuration</configuration>
+				</common>
+				<infoservicecontrol>
+					<selecttitle>Select title: </selecttitle>
+					<selectwidth>List width for maximized/solo state (px): </selectwidth>
+					<selectsinglepage>Show single page in normal mode: </selectsinglepage>
+					<selectchannel>Select Information Channel: </selectchannel>
+					<save>Save</save>
+				</infoservicecontrol>
+				<newscontrol>
+					<selecttitle>Select title: </selecttitle>
+					<selectchannels>Select News Channels: </selectchannels>
+					<selectnoofitems>Number of lines: </selectnoofitems>
+					<selectchannels>Select Information Channel: </selectchannels>
+					<save>Save</save>
+				</newscontrol>
+				<usersettingscontrol>
+					<selecttitle>Select title: </selecttitle>
+					<save>Save</save>
+				</usersettingscontrol>
+				<iframecontrol>
+					<selecttitle>Select title: </selecttitle>
+					<selecturl>Select URL: </selecturl>
+					<selectheight>Select height (px): </selectheight>
+					<save>Save</save>
+				</iframecontrol>
+				<rsscontrol>
+					<selecttitle>Select title: </selecttitle>
+					<selecturl>Select URL: </selecturl>
+					<selectnoofitems>Number of lines: </selectnoofitems>
+					<save>Save</save>
+				</rsscontrol>
+			</wsrp>
+			<wsrpadmin>
+				<heading>WSRP Sources</heading>
+				<info>Define the WSRP sources that should be available to consume</info>
+			</wsrpadmin>
+			<wsrpfx>
+				<admin>
+					<test>Test</test>
+					<delete>Remove</delete>
+					<createnew>New</createnew>
+					<sourcename>Name</sourcename>
+					<markupurl>Markup URL</markupurl>
+					<servicedescriptionurl>Service Description URL</servicedescriptionurl>
+					<registrationurl>Registration URL</registrationurl>
+					<portletmanagementurl>Portlet Management URL</portletmanagementurl>
+					<offeredportletstitle>The following portlets are available from this producer</offeredportletstitle>
+					<messages>
+						<producerinvalid>Producer {0} did not respond as expected</producerinvalid>
+						<producerok>Producer {0} responded as expected</producerok>
+					</messages>
+					<usewsdlradio>Register WSDL</usewsdlradio>
+					<wsdlurl>WSDL</wsdlurl>
+					<useservicesradio>Register Web services</useservicesradio>
+				</admin>
+				<portal>
+					<home>Home</home>
+					<resetportal>Reset my settings</resetportal>
+					<displaymode>View mode</displaymode>
+					<viewmode>
+						<view>Simple page</view>
+						<viewanduse>Portal page</viewanduse>
+						<design>Design</design>
+					</viewmode>
+					<newtab>New tab</newtab>
+					<deletetab>Remove tab</deletetab>
+					<savesource>Save as template</savesource>
+					<tabname>Tab name</tabname>
+					<disposition>Layout</disposition>
+					<savetabsettings>Change</savetabsettings>
+					<selectedportlet>Portlet</selectedportlet>
+					<selectedarea>Area</selectedarea>
+					<addportlet>Add</addportlet>
+					<errorlayoutcontrolls>Problem getting layout controls for the portal consumer.</errorlayoutcontrolls>
+				</portal>
+				<layouts>
+					<wsrpsinglecolumnlayout>
+						<layoutname>One column</layoutname>
+					</wsrpsinglecolumnlayout>
+					<wsrpthreecolumnlayout>
+						<layoutname>Three columns</layoutname>
+					</wsrpthreecolumnlayout>
+				</layouts>
+				<button>
+					<view>View</view>
+					<edit>Edit</edit>
+					<preview>Preview</preview>
+					<help>Help</help>
+					<minimized>Minimize</minimized>
+					<normal>Restore</normal>
+					<maximized>Maximize</maximized>
+					<solo>Solo</solo>
+				</button>	
+			</wsrpfx>
+			<readspeaker>
+				<readme>Read</readme>
+				<readmealttext>Read the selected text/page text</readmealttext>
+			</readspeaker>
+			<webparts>
+				<portal>
+					<displaymode>Display Mode</displaymode>
+					<scope>Scope</scope>
+					<leftzone>Left Column</leftzone>
+					<rightzone>Right Column</rightzone>
+					<catalogzone>Web Part Catalogs</catalogzone>
+					<editorzone>Modify Web Part</editorzone>
+					<connectionzone>Connect Web Parts</connectionzone>
+					<importzone>Import Web Parts</importzone>
+				</portal>
+        <units>
+          <rsscontrol>
+            <emptyurl>URL cannot be empty.</emptyurl>
+          </rsscontrol>
+        </units>
+			</webparts>
+			<blog>
+				<createnewblog>Create New Blog</createnewblog>
+				<name>Name:</name>
+				<createblog>Create Blog</createblog>
+				<archive>Archives</archive>
+				<noarchiveentries>There are no posts for this blog.</noarchiveentries>
+				<rsssource>RSS Source</rsssource>
+				<postcomment>Post a comment</postcomment>
+				<comments>Comments</comments>
+				<title>Title:</title>
+				<createnewpost>Create new post</createnewpost>
+				<post>Post</post>
+				<date>Date</date>
+				<changestatus>Change Status</changestatus>
+			</blog>
+		</templates>
+		<common>
+			<headerimagedescription>Page header, an image with EPiServer logo</headerimagedescription>
+		</common>
+		<pagetypes>
+			<common>
+				<property name="DefaultLanguage">
+					<caption>Default language</caption>
+					<help>The language that the page should use if there is no version of the selected language</help>
+				</property>
+				<property name="AudioFormat">
+					<caption>Audio Format</caption>
+					<help>Choose format for audio. Choose 2 for mp3 and 3 for wav</help>
+				</property> 
+				<property name="ReadspeakerLanguage">
+					<caption>Language for speaker's voice</caption>
+					<help>Choose language that the text will be read in</help>
+				</property> 
+				<property name="Sitemap">
+					<caption>Fetch page with site map from</caption>
+					<help>Specify which page will be shown as site map in quick links</help>
+				</property>
+				<property name="RegisterPage">
+					<caption>Fetch page with my settings from</caption>
+					<help>Specify which page will be shown as my settings in quick links</help>
+				</property>
+				<property name="AllowInPortal">
+					<caption>	Use this page in portal</caption>
+					<help>		Select this option, if you want the page to be displayed in portal status</help>
+				</property>
+				<property name="PersonalizableProperties">
+					<caption>	Properties that portal visitors are to be allowed to change </caption>
+					<help>		Select the options available for personalization on this portal</help>
+				</property>
+				<property name="WebBaseURL">
+					<caption>	Search path to folder to be displayed</caption>
+					<help>		Specify the address of the folder, the content of which is to be displayed in the list</help>
+				</property>
+				<property name="SortFileBy">
+					<caption>	Sort file list by</caption>
+					<help>		Select how the list is to be sorted</help>
+				</property>
+     			<property name="FirstName">
+					<caption>	First name</caption>
+					<help>		Specify the first name for this profile</help>
+				</property>
+    			<property name="LastName">
+					<caption>	Last name</caption>
+					<help>		Specify the last name for this profile</help>
+				</property>¨
+				<property name="Email">
+					<caption>	E-mail address</caption>
+					<help>		Specify the e-mail address for this profile</help>
+				</property>
+				<property name="Company">
+					<caption>	Company</caption>
+					<help>		Specify the company name for this profile</help>
+				</property>
+     			<property name="Sid">
+					<caption>	User name</caption>
+					<help>		Specify the user/login name to be linked to this profile</help>
+				</property>
+				<property name="Profile">
+					<caption>	Profile</caption>
+					<help>		Specify profile/competence for this profile </help>
+				</property>
+				<property name="Title">
+					<caption>	Title</caption>
+					<help>		Specify the title for this profile</help>
+				</property>
+				<property name="AddedPropDepartment">
+					<caption>	Department</caption>
+					<help>		Specify the department for this profile</help>
+				</property>
+				<property name="Image">
+					<caption>	Image</caption>
+					<help>		Specify the image to be displayed with this profile</help>
+				</property>
+				<property name="Telephone">
+					<caption>	Telephone</caption>
+					<help>		Specify the telephone number to be displayed with this profile</help>
+				</property>
+    			<property name="ExternalURL">
+					<caption>	Search path for external link</caption>
+					<help>		Specify the URL for the Web site/page you want to link to. Include http://</help>
+				</property>
+ 				<property name="ListingSlideContainer">
+					<caption>	Downloading presentations</caption>
+					<help>		Select the page you want to download a presentation from</help>
+				</property>
+				<property name="ListingSlideCount">
+					<caption>	Show number of pages in presentation</caption>
+					<help>		In whole numbers, specify how many pages are to be displayed in the presentation</help>
+				</property>
+				<property name="RefreshRate">
+					<caption>	Number of seconds each page is to be displayed</caption>
+					<help>		In whole numbers, specify how many seconds each page is to be displayed in the presentation</help>
+				</property>
+				<property name="RssHeading">
+					<caption>	Heading for RSS source</caption>
+					<help>		Specify a heading to news in RSS format.</help>
+				</property>	
+				<property name="RssUrl">
+					<caption>	Search path to RSS source</caption>
+					<help>		Specify the address to news in RSS format. This is usually an Internet address.</help>
+				</property>
+				<property name="PagingSize">
+					<caption>	Show number of news items in RSS list</caption>
+					<help>		In whole numbers, specify how many news items are to be displayed in the list</help>
+				</property>
+				<property name="OnlyShowHeaders">
+					<caption>	Only show news items in RSS list</caption>
+					<help>		Selecting this option will only display RSS news headlines in the list</help>
+				</property>
+				<property name="ExchangeServer">
+					<caption>	Exchange server</caption>
+					<help>		Specify the name of the server on which Exchange is installed</help>
+				</property>
+				<property name="ExchangeUser">
+					<caption>	User name</caption>
+					<help>		Specify the user name for the Exchange folder to be displayed</help>
+				</property>
+				<property name="ExchangeAction">
+					<caption>	Show Exchange view</caption>
+					<help>		Specify the Exchange view to be displayed, e.g. inbox or calendar</help>
+				</property>
+				<property name="AdvancedPortalModeLeftTopContent">
+					<caption>	Content in top left section</caption>
+					<help>		Specify the page to be displayed as standard in the top left section</help>
+				</property>
+				<property name="AdvancedPortalModeLeftBottomContent">
+					<caption>	Content in bottom left section</caption>
+					<help>		Specify the page to be displayed as standard in the bottom left section</help>
+				</property>
+				<property name="AdvancedPortalModeMainContent">
+					<caption>	Content in main section</caption>
+					<help>		Specify the page to be displayed as standard in the main section</help>
+				</property>
+				<property name="AdvancedPortalModeRightTopContent">
+					<caption>	Content in top right section</caption>
+					<help>		Specify the page to be displayed as standard in the top right section</help>
+				</property>
+				<property name="AdvancedPortalModeRightCenterContent">
+					<caption>	Content in centre right section</caption>
+					<help>		Specify the page to be displayed as standard in the centre right section</help>
+				</property>
+				<property name="AdvancedPortalModeRightBottomContent">
+					<caption>	Content in bottom right section</caption>
+					<help>		Specify the page to be displayed as standard in the bottom right section</help>
+				</property>
+				<property name="SimplePortalModeMainContent">
+					<caption>	Content in main section</caption>
+					<help>		Specify the page to be displayed as standard in the main section</help>
+				</property>
+				<property name="SimplePortalModeRightTopContent">
+					<caption>	Content in top right section</caption>
+					<help>		Specify the page to be displayed as standard in the top right section</help>
+				</property>
+				<property name="SimplePortalModeRightMiddleContent">
+					<caption>	Content in centre right section</caption>
+					<help>		Specify the page to be displayed as standard in the centre right section</help>
+				</property>
+				<property name="SimplePortalModeRightBottomContent">
+					<caption>	Content in bottom right section</caption>
+					<help>		Specify the page to be displayed as standard in the bottom right section</help>
+				</property>
+				<property name="NewsCount">
+					<caption>	Show number of news items in the list</caption>
+					<help>		In whole numbers, specify how many news items are to be displayed</help>
+				</property>
+				<property name="EventsContainer">
+					<caption>	Download calendar events</caption>
+					<help>		Specify the page you want to download calendar events from</help>
+				</property>
+				<property name="EventsCount">
+					<caption>	Show number of calendar events in the list</caption>
+					<help>		In whole numbers, specify how many events are to be displayed</help>
+				</property>
+				<property name="MainImage">
+					<caption>	Main image on start page</caption>
+					<help>		Specify the image to be displayed on the start page</help>
+				</property>
+				<property name="MainNewsItem">
+					<caption>	Main news</caption>
+					<help>		Specify the main news for the start page</help>
+				</property>
+				<property name="HeaderImage">
+					<caption>	Image at top of website</caption>
+					<help>		Specify the image to be displayed as the main image on the website</help>
+				</property>
+				<property name="EPsPortalRegionName">
+					<caption>	Name</caption>
+					<help>		Name of region</help>
+				</property>
+				<property name="EPsPortalRegionColor">
+					<caption>	Color</caption>
+					<help>		Color of region</help>
+				</property>
+				<property name="EPsPortalRegionRefreshRate">
+					<caption>	Refresh rate</caption>
+					<help>		Specify how often this section of the portal is to be updated (minutes). Entering 0 means that the portal section will not be automatically reloaded and is standard</help>
+				</property>
+				<property name="NewsContainer">
+					<caption>	News list</caption>
+					<help>	Specify the page you want to fetch the news listing from</help>
+				</property>	
+				<property name="EmbeddedURL">
+					<caption>Path to Flash movie</caption>
+					<help>Specify path to the Flash movie to be shown by clicking on the button and then select the file.</help>
+				</property>
+				<property name="Height">
+					<caption>Height</caption>
+					<help>Height on the flash movie</help>
+				</property>
+				<property name="Width">
+					<caption>Width</caption>
+					<help>Width on the flash movie</help>
+				</property>
+				<property name="StartPublishOffset">
+					<caption>	"Start publish date" relative to when the page has been created</caption>
+					<help>		Set "Start publish date" relative to when the page has been created</help>
+				</property>
+				<property name="StopPublishOffset">
+					<caption>	"Stop publish date" relative to when the page has been created</caption>
+					<help>		Set "Stop publish date" relative to when the page has been created</help>
+				</property>
+				<property name="MainBody">
+					<caption>Editor</caption>
+					<help>Content of your page. Here you can enter text, insert images, documents, tables, etc.</help>
+				</property>
+				<property name="ListingContainer">
+					<caption>Fetch listing from</caption>
+					<help>Specify the page you want to fetch the listing from</help>
+				</property>
+				<property name="ListingCount">
+					<caption>Display number of pages in the list</caption>
+					<help>Using an integer, specify the number of pages to be displayed in the listing</help>
+				</property>
+				<property name="ListingType">
+					<caption>Type of page in the listing</caption>
+					<help>Specify the page type that is to be shown in the listing</help>
+				</property>
+				<property name="ListingCategoryList">
+					<caption>Display the following categories</caption>
+					<help>Specify the categories that are to be displayed on this page</help>
+				</property>
+				<property name="EPSUBSCRIBE">
+					<caption>Activate as subscription root</caption>
+					<help>Select this check box to allow visitors to subscribe to this page and its children.</help>
+				</property>
+				<property name="WriterName">
+					<caption>Writer</caption>
+					<help>Name of the person who is responsible for the content</help>
+				</property>
+				<property name="MailTo">
+					<caption>E-mail address of the recipient</caption>
+					<help>E-mail address of the person who will receive the information</help>
+				</property>
+				<property name="MainIntro">
+					<caption>Introduction</caption>
+					<help>Introductory text often shown in listings</help>
+				</property>
+				<property name="MainBodyLoggedIn">
+					<caption>Editor for users who are logged in</caption>
+					<help>Description of the choices a user can make when he or she is logged in</help>
+				</property>
+				<property name="MainScope">
+					<caption>Scope for IndexServer search</caption>
+					<help>Specify the folder in which the search will take place. If you leave this field empty, the search will take place in the Upload folder</help>
+				</property>
+				<property name="MainCatalog">
+					<caption>Catalog for the Index Server</caption>
+					<help>Specify the Index Server catalog to search</help>
+				</property>
+				<property name="RecentContainer">
+					<caption>Display pages from</caption>
+					<help>Specify the page from which you want to display the recently changed pages</help>
+				</property>
+				<property name="RecentHours">
+					<caption>Display the pages that have been changed in the past x hours</caption>
+					<help>Specify how far back you want to display changed pages, using an integer for the number of hours</help>
+				</property>
+				<property name="IndexContainer">
+					<caption>Display content from page</caption>
+					<help>Specify the page from which the index will start</help>
+				</property>
+				<property name="IndexLevel">
+					<caption>Display the index with the number of levels down</caption>
+					<help>Specify an integer for the number of sub-levels to be displayed in the index</help>
+				</property>
+				<property name="IndexColumns">
+					<caption>Number of columns for the index</caption>
+					<help>Specify an integer for the number of columns to be displayed in the index</help>
+				</property>
+				<property name="MailFrom">
+					<caption>E-mail sender</caption>
+					<help>E-mail address of the person who will receive the answers on the form</help>
+				</property>
+				<property name="MainForm">
+					<caption>Form</caption>
+					<help>Specify the form that will be shown on this page. By clicking the button, you can create your own forms</help>
+				</property>
+				<property name="EPSUBSCRIBEHIDDEN">
+					<caption>Do not display this on the subscription page</caption>
+					<help>Specify if you want to show this page in the ordinary subscription page </help>
+				</property>
+				<property name="NewsGroupRoot">
+					<caption>Main page for news groups</caption>
+					<help>Specify the page that will be the main page for the news group</help>
+				</property>
+				<property name="NewsGroupPageTypeID">
+					<caption>Page type for news items</caption>
+					<help>Specify the page type that will be used for news items</help>
+				</property>
+				<property name="AllowNewsItem">
+					<caption>Allow news item</caption>
+					<help>Specify if you will allow news item on this page </help>
+				</property>
+				<property name="WriterEmail">
+					<caption>E-mail address</caption>
+					<help>E-mail address of the person who created the news item</help>
+				</property>
+				<property name="NewsGroupContainer">
+					<caption>Belongs to the following news group</caption>
+					<help>Specify the news group that the news item will belong to</help>
+				</property>
+				<property name="MainMenuContainer">
+					<caption>Display menus from</caption>
+					<help>Specify a place in the menu tree from where menus will be displayed on the selected page</help>
+				</property>
+				<property name="MainSearchPage">
+					<caption>Global search page</caption>
+					<help>Specify the page that will be the global search page for the Web site</help>
+				</property>
+				<property name="MetaDescription">
+					<caption>Page description</caption>
+					<help>Describe the content of the page</help>
+				</property>
+				<property name="MetaKeywords">
+					<caption>Standard search words for pages</caption>
+					<help>Specify a comma-separated list of search words that match this page</help>
+				</property>
+				<property name="EventInputGuide">
+					<caption>Recurring activity</caption>
+					<help>Select this box if you want to create a recurring activity</help>
+				</property>
+				<property name="EventStartDate">
+					<caption>Start date</caption>
+					<help>Specify the start date for the activity</help>
+				</property>
+				<property name="EventStopDate">
+					<caption>Stop date</caption>
+					<help>Specify the stop date for the activity</help>
+				</property>
+				<property name="ValidDays">
+					<caption>Recurring day</caption>
+					<help>Specify if the activity is to recur at set intervals</help>
+				</property>
+				<property name="nDaysToRender">
+					<caption>Number of days to show in calendar</caption>
+					<help>Specify an integer for how many days you want to show in the calendar</help>
+				</property>
+				<property name="CalendarType">
+					<caption>Type of pages to show in calendar</caption>
+					<help>Specify which page type to use for calender event</help>
+				</property>
+				<property name="CalendarContainer">
+					<caption>Show calendar information from</caption>
+					<help>Specify a place in the menu tree from where calendar will be displayed</help>
+				</property>
+				<property name="Box1Caption">
+					<caption>1. Heading</caption>
+				</property>
+				<property name="Box1Container">
+					<caption>1. Fetch listing from</caption>
+					<help>Specify the page you want to fetch the listing from</help>
+				</property>
+				<property name="Box1Count">
+					<caption>1. Display number of pages in the list</caption>
+					<help>Using an integer, specify the number of pages to be displayed in the listing</help>
+				</property>
+				<property name="Box1SortOrder">
+					<caption>1. Sort order</caption>
+					<help>Defines the order in which children of this page will be displayed.</help>
+				</property>
+				<property name="Box2Caption">
+					<caption>2. Heading</caption>
+				</property>
+				<property name="Box2Container">
+					<caption>2. Fetch listing from</caption>
+					<help>Specify the page you want to fetch the listing from</help>
+				</property>
+				<property name="Box2Count">
+					<caption>2. Display number of pages in the list</caption>
+					<help>Using an integer, specify the number of pages to be displayed in the listing</help>
+				</property>
+				<property name="Box2SortOrder">
+					<caption>2. Sort order</caption>
+					<help>Defines the order in which children of this page will be displayed.</help>
+				</property>
+				<property name="MailSubject">
+					<caption>	Subject in subscription e-mail</caption>
+					<help>		This is the subject field in the subscription e-mail that will be sent to the subscribers.</help>
+				</property>
+				<property name="MailReadMore">
+					<caption>	Link text in the e-mail</caption>
+					<help>		This text will build the link that the user will be able to click on in the subcription e-mail. </help>
+				</property>
+				<property name="MailBody">
+					<caption>	Introduction text in e-mail</caption>
+					<help>		Enter the text that will be the message body above the list of modified pages sent in the subscription e-mail. </help>
+				</property>
+				<property name="EPSUBSCRIBE-ROOT">
+					<caption>	Subscription root</caption>
+					<help>		Select a starting point for the subscription. A link to each page changed or added below this point in the tree will be sent in the subscription e-mail.</help>
+				</property>
+				<property name="MainContainer">
+					<caption>Start page for the search</caption>
+					<help>If this field is left empty, the search will start from the start page</help>
+				</property>
+				<property name="RightListingContainer">
+					<caption>List to the right</caption>
+					<help>Enter starting point for the help list to the right.</help>
+				</property>
+				<property name="EnableStatistics">
+					<caption>Show statistics on page template</caption>
+					<help>Show statistics on page for visitors.</help>
+				</property>
+				<property name="ConferenceContainer">
+						<caption>Start page for the conference</caption>
+						<help>Specify which page is the first page in this forum (usually this page)</help>
+				</property>
+				<property name="ProfileContainer">
+					<caption>Search profiles from</caption>
+					<help>Specify a place in the menu tree where you want to make your profile search. Usually this page.</help>
+				</property>
+				<property name="DisableName">
+					<caption>Hide username</caption>
+					<help>Do not allow the user to edit name</help>
+				</property>
+				<property name="DisableDescription">
+					<caption>Hide description</caption>
+					<help>Do not allow the user to edit description</help>
+				</property>
+				<property name="DisableFirstname">
+					<caption>Hide first name</caption>
+					<help>Do not allow the user to edit first name</help>
+				</property>
+				<property name="DisableLastname">
+					<caption>Hide last name</caption>
+					<help>Do not allow the user to edit last name</help>
+				</property>
+				<property name="DisableEmail">
+					<caption>Hide e-mail</caption>
+					<help>Do not allow the user to edit e-mail</help>
+				</property>
+				<property name="DisableCompany">
+					<caption>Hide company</caption>
+					<help>Do not allow the user to edit company</help>
+				</property>
+				<property name="DisableTitle">
+					<caption>Hide title</caption>
+					<help>Do not allow the user to edit title</help>
+				</property>
+				<property name="DisableAddress">
+					<caption>Hide address</caption>
+					<help>Do not allow the user to edit address</help>
+				</property>
+				<property name="DisablePostalNumber">
+					<caption>Hide postal number</caption>
+					<help>Do not allow the user to edit postal number</help>
+				</property>
+				<property name="DisableTelephone">
+					<caption>Hide telephone</caption>
+					<help>Do not allow the user to edit telephone</help>
+				</property>
+				<property name="DisableMobile">
+					<caption>Hide mobile</caption>
+					<help>Do not allow the user to edit mobile</help>
+				</property>
+				<property name="DisableLanguage">
+					<caption>Hide language</caption>
+					<help>Do not allow the user to edit language</help>
+				</property>
+				<property name="DisablePassword">
+					<caption>Hide password</caption>
+					<help>Do not allow the user to edit password</help>
+				</property>
+				<property name="DisablePostalAddress">
+					<caption>Hide postal address</caption>
+					<help>Do not allow the user to edit postal address</help>
+				</property>
+				<property name="ProfilePageType">
+					<caption>Type of page to display in profile finder</caption>
+					<help>Choose page type to use as personal page in profile finder</help>
+				</property>
+				<property name="DocumentInternalPath">
+					<caption>Path to document</caption>
+					<help>Path to a copy of the source document, this field will automatically be updated.</help>
+				</property>
+				<property name="DocumentInternalHtmlPath">
+					<caption>Path to HTML edition of document</caption>
+					<help>Path to the complete HTML edition of the source document. This field will automatically be updated.</help>
+				</property>
+				<property name="DocumentExternalPath">
+					<caption>External path to source document</caption>
+					<help>Complete path to the source document that was used to publish this page. This field will automatically be updated.</help>
+				</property>
+				<property name="IsDocumentPageType">
+					<caption>Upload complete HTML edition and copy of source document</caption>
+					<help>Select this option to be able to display the complete HTML edition</help>
+				</property>
+				<property name="AllowDocumentUpdate">
+					<caption>Allow page to be updated from document</caption>
+					<help>Select this option to be able to update this page from the source document</help>
+				</property>
+				<property name="DisplayDownloadLink">
+					<caption>Display download link to source document</caption>
+					<help>Select this option to display a link to the source document</help>
+				</property>
+				<property name="Document">
+					<caption>Path to document</caption>
+					<help>Path to the PDF file to display.</help>
+				</property>
+				<property name="InformationChannel">
+					<caption>Information channel</caption>
+					<help>If selected, the WSRP portlet "Information Viewer" will make this tree branch selectable.</help>
+				</property>
+				<property name="MainXForm">
+					<caption>Form</caption>
+					<help>Specify the form that will be shown on this page. By clicking the button, you can create your own forms</help>
+				</property>
+				<property name="WorkroomsConfigPage">
+					<caption>Fetch template for workroom from</caption>
+					<help>Specify the page that you want to use as a template when creating workrooms.</help>
+				</property>
+				<property name="DocumentRootDirectory">
+					<caption>Folder for document management</caption>
+					<help>Specify the search path to the folder where you want to store documents from the workroom.</help>
+				</property> 
+				<property name="IsActiveWorkroom">
+					<caption>Workroom is active</caption>
+					<help>Select this check box if you want the workroom to be active.</help>
+				</property> 
+				<property name="BulletinBoardContainer">
+					<caption>Fetch the bulletin board from</caption>
+					<help>Specify the page that you want to be the root page for the bulletin board.</help>
+				</property>
+				<property name="IsActiveCalendar">
+					<caption>Calendar is active</caption>
+					<help>Select this check box if you want the calendar to be active.</help>
+				</property>
+				<property name="IsActiveBulletinBoard">
+					<caption>Bulletin board is active</caption>
+					<help>Select this check box if you want the bulletin board to be active.</help>
+				</property>
+				<property name="IsActiveFileList">
+					<caption>Document management is active</caption>
+					<help>Select this check box if you want document management to be active.</help>
+				</property>
+				<property name="IsActiveNewsList">
+					<caption>News list is active</caption>
+					<help>Select this check box if you want the news list to be active.</help>
+				</property>
+				<property name="IsActiveOverview">
+					<caption>Overview is active</caption>
+					<help>Select this check box if you want the overview to be active.</help>
+				</property>
+				<property name="MemberStatusInfo">
+					<caption>Information about member status</caption>
+					<help>Shows information about the status of different members.</help>
+				</property>
+				<property name="FileRoot">
+					<caption>Root folder for workroom</caption>
+					<help>Specify the folder where the workroom sub-folders are to be created.</help>
+				</property>								
+				<property name="_wsrpCommonPortalInfo">
+					<caption>Common portal data</caption>
+					<help>Information about common portal data.</help>
+				</property>				
+				<property name="_wsrpLayoutControl">
+					<caption>Layout controls</caption>
+					<help>Layout controls, comma-separated.</help>
+				</property>	
+				<property name="EPSUBSCRIBE-EXCLUDE">
+					<caption>Block subscription for this page</caption>
+					<help>Select this check box to block subscription updates for this page.</help>
+				</property>
+				<property name="BlogPostForm">
+					<caption>Form for blog posts</caption>
+					<help>Specify the form that will be used for blog posts on this page. By clicking the button, you can create your own forms.</help>
+				</property>			
+				<property name="BlogCommentForm">
+					<caption>Form for comments</caption>
+					<help>Specify the form that will be used for blog post comments on this page. By clicking the button, you can create your own forms.</help>
+				</property>			
+				<property name="BlogListLayout">
+					<caption>Formatting for blog list</caption>
+					<help>Specify the format that will be used for the list of blog posts on this page.</help>
+				</property>		
+			</common>
+			<pagetype name="My Settings">
+					<name>My settings</name>
+					<description>A settings page where users can change their password and other personal settings</description>
+				</pagetype>
+			<pagetype name="Ordinary web page">
+				<name>Ordinary web page</name>
+				<description>Ordinary information page</description>
+			</pagetype>
+			<pagetype name="Subscription">
+				<name>Subscription</name>
+				<description>Page for visitors to select subscription information</description>
+			</pagetype>
+			<pagetype name="Calendar">
+				<name>Calendar</name>
+				<description>Main page for calendar</description>
+			</pagetype>
+			<pagetype name="Calendar event">
+				<name>Calendar event</name>
+				<description>Page for a new event in the calendar</description>
+			</pagetype>
+			<pagetype name="Discussion forum">
+				<name>Discussion forum</name>
+				<description>Main page for creating a discussion forum</description>
+			</pagetype>
+			<pagetype name="Search">
+				<name>Search</name>
+				<description>Page for searching for information on the Web site</description>
+			</pagetype>
+			<pagetype name="Changed recently">
+				<name>Changed recently</name>
+				<description>Page that displays a list of pages that have recently been changed</description>
+			</pagetype>
+			<pagetype name="Index">
+				<name>Index</name>
+				<description>Page that displays the content of all or part of the Web site</description>
+			</pagetype>
+			<pagetype name="File listing">
+				<name>File listing</name>
+				<description>Page that lists files from a folder on the Web server</description>
+			</pagetype>
+			<pagetype name="Start page">
+				<name>Start page</name>
+				<description>Start page on the Web site</description>
+			</pagetype>
+			<pagetype name="News groups, main page">
+				<name>News groups, main page</name>
+				<description>Main page for news groups</description>
+			</pagetype>
+			<pagetype name="News groups, category">
+				<name>News groups, category</name>
+				<description>Category for news groups</description>
+			</pagetype>
+			<pagetype name="News groups, news group">
+				<name>News groups, news group</name>
+				<description>Page for news group</description>
+			</pagetype>
+			<pagetype name="News groups, news item">
+				<name>News groups, news item</name>
+				<description>Page for news item in a news group</description>
+			</pagetype>
+			<pagetype name="Register users">
+				<name>Register users</name>
+				<description>Page where visitors can register themselves on the Web site</description>
+			</pagetype>
+			<pagetype name="Form page">
+				<name>Form page</name>
+				<description>Page which contains a form</description>
+			</pagetype>
+			<pagetype name="Alphabetical index">
+				<name>Alphabetical index</name>
+				<description>Page that lists content in alphabetical order</description>
+			</pagetype>	
+			<pagetype name="Flash page">
+				<name>Flash page</name>
+				<description>Page for loading a flash movie</description>
+			</pagetype>
+			<pagetype name="Vote">
+				<name>Vote</name>
+				<description>Page for creating a type of question</description>	
+			</pagetype>				
+			<pagetype name="Mobile page">
+				<name>Mobile page</name>
+				<description>Page for mobile units</description>
+			</pagetype>	
+			<pagetype name="News list">
+				<name>News list</name>
+				<description>Displays internal news within the Web site or external news from an RSS source</description>
+			</pagetype>
+			<pagetype name="Profile search">
+				<name>Profile search</name>
+				<description>Search page for personnel register</description>
+			</pagetype>
+			<pagetype name="Personal profile">
+				<name>Personal profile</name>
+				<description>Personal page for information about an individual. Used for the personnel register.</description>
+			</pagetype>
+			<pagetype name="Slide show">
+				<name>Slide show</name>
+				<description>Page that displays a number of pages as a presentation, each page changing at pre-determined intervals</description>
+			</pagetype>
+			<pagetype name="EPiServer Portal Framework">
+				<name>EPiServer Portal Framework</name>
+				<description>A portal with standard settings that each visitor can personalize to make it their own portal</description>
+			</pagetype>
+			<pagetype name="RSS source">
+				<name>RSS source</name>
+				<description>Page that displays information from EPiServer in RSS format</description>
+			</pagetype>
+			<pagetype name="External link">
+				<name>External link</name>
+				<description>Page that displays information about another Web site</description>
+			</pagetype>
+			<pagetype name="News page">
+				<name>News page</name>
+				<description>Page for one news item. The page will not be shown in menus.</description>
+			</pagetype>
+			<pagetype name="ReadSpeaker">
+				<name>ReadSpeaker</name>
+				<description>Page where the content can be heard in speakers</description>
+			</pagetype>
+			<pagetype name="Multilanguage page">
+				<name>Multi-language page</name>
+				<description>Page where content can be written in parallel in different languages</description>
+			</pagetype>
+			<pagetype name="Document">
+				<name>Document page</name>
+				<description>Document published from Microsoft Office</description>
+			</pagetype>
+			<pagetype name="Document list">
+				<name>Document list</name>
+				<description>Displays a list of documents published from Microsoft Office</description>
+			</pagetype>
+			<pagetype name="PDF Form">
+				<name>PDF form</name>
+				<description>Page that generates a PDF file with data from the page</description>
+			</pagetype>
+			<pagetype name="WorkroomList">
+				<name>Main page for workrooms</name>
+				<description>Displays a list of workrooms </description>
+			</pagetype>
+			<pagetype name="Workroom">
+				<name>Workroom</name>
+				<description>Page for a workroom</description>
+			</pagetype>
+			<pagetype name="BlogStartPage">
+				<name>Main page for blogs</name>
+				<description>Main page for creating blogs</description>
+			</pagetype>
+			<pagetype name="BlogPage">
+				<name>Blog page</name>
+				<description>Page for a blog</description>
+			</pagetype>
+		</pagetypes>
+		<categories>
+			<category name="News">
+				<description>News</description>
+			</category>
+			<category name="Technical">
+				<description>Technical</description>
+			</category>
+			<category name="Data">
+				<description>Data</description>
+			</category>
+			<category name="Support">
+				<description>Support issues</description>
+			</category>
+		</categories>		
+	</language>
+</languages>

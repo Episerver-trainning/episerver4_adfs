@@ -1,0 +1,333 @@
+<html>
+	<head>
+		<title>Hjälp i EPiServer</title>
+		<meta http-equiv="Content-Language" content="sv">
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+	</head>
+	<body>
+		<table border="0" cellspacing="0" cellpadding="1" width="500">
+			<tr>
+				<td width="100%" align="right">
+					<a href="../EN/contentmirroring.htm"><img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+					<a href="contentmirroring.htm"><img border="0" src="../EN/images/sv.gif" alt="Svenska"></a>
+					<a href="../NO/contentmirroring.htm"><img border="0" src="../EN/images/no.gif" alt="Norsk"></a></td>
+			</tr>
+			<tr>
+				<td width="100%"></FONT>
+					<h1>
+						Speglingsinställningar</h1>
+					<font SIZE="1">
+				<p ALIGN="JUSTIFY">Speglingar är en funktion som innebär att du 
+				kan spegla innehåll från en webbplats till en annan. Med 
+				EPiServer kan du välja att spegla valda delar av en webbplats 
+				eller hela. Du kan låta speglingen göras med automatik eller 
+				starta den manuellt. Du kan välja att spegla från en EPiServer 
+				till en annan EPiServer eller till HTML eller XML. Det är bland 
+				annat till stor nytta om man vill skapa stora delar i en 
+				testmiljö och sedan publicera alla information på en gång den 
+				publika delen. En annan bra funktionalitet är du kan skapa en 
+				html-uppbyggd webbplats av din dynamiska EPiServer, det kan vara 
+				väldigt användbart vid bland annat arkivering.</p>
+				<p ALIGN="JUSTIFY">En spegling från en webbplats till annan 
+				byggs upp genom kanaler på den webbplats som ska skicka 
+				information. Det är möjligt att ha flera olika kanaler 
+				definierade. Varje kanal består av ett antal inställningar för 
+				vilka sidor som ska speglas och vilken typ av dessa sidor som 
+				ska tas med. En av de viktigaste egenskaperna i en kanal är 
+				vilken typ av kanal det är:</p>
+				</font>
+				<ul>
+					<li><b>Träd</b>
+						- denna funktion hittar alla förändringar gjorda i trädet. Den hittar sidor som 
+						är flyttade, raderade, uppdaterade eller skapade. Funktionen hittar alla 
+						förändringar från rotsidan och nedåt i hela strukturen. Den här funktionen 
+						används i första hand där man vill spegla en exakt likadan trädstruktur. Då 
+						exempelvis en borttagen sida på den ena webbplatsen även skall tas bort på 
+						nästa.
+						</li>
+					<li><b>Lista</b>
+						- denna funktion fungerar på samma sätt som trädet med den skillnaden att den 
+						inte tar med förändringar nedåt i strukturen efter första nivån.
+						<li><b>Sökning</b> - denna funktioner hittar ändrade och nya sidor. Den här 
+							funktionen lämpar sig när du vill spegla nyheter från en webbplats till en 
+							annan.</li>
+				</ul>
+				<h2>
+					<b><a name="create_a_channel"></a>Att skapa en kanal </b>
+					</h2>
+					<ol>
+						<li>
+						Välj <i>Speglingsinställningar</i> på fliken <i>Konfig</i>.
+						<li>
+							Klicka på&nbsp; 
+							<STRONG style="font-weight: 400; font-style: italic">Skapa</STRONG>.
+						<li>
+							Ange ett namn på kanalen i fältet 
+							<STRONG style="font-weight: 400; font-style: italic">Namn</STRONG>.
+						<li>
+							Välj varifrån i trädstrukturen som speglingen skall ske i fältet 
+							<i> <STRONG style="font-weight: 400">Startsida</STRONG></i>. 
+						Sidan måste innehålla sidor eller underkataloger.
+						<li>
+							Välj vilken typ av spegling i fältet <i> 
+							<STRONG style="font-weight: 400">Typ av spegling</STRONG></i>: 
+						Träd, Lista eller Sökning.
+						<li>
+							Om du vill att förändringarna ska godkännas med automatik, markera kryssrutan 
+							<i> <STRONG style="font-weight: 400">
+								Godkänn förändringar automatiskt</STRONG></i>.
+						<li>
+							Markera kryssrutan <i> 
+							<STRONG style="font-weight: 400">Inkludera startsidan</STRONG></i>
+						om de ändringar som görs även troligen påverkar startsidan.
+						<li>
+						Välj att antingen spegla informationen som en anonym användare eller ange ett 
+						användarnamn och lösenord.
+						<li>
+							Klicka på <i> <STRONG style="font-weight: 400">Spara</STRONG></i>.</li>
+					</ol>
+					<p>När du har lagrat inställningarna för kanalen måste&nbsp;du skapa en 
+						destination, baserad på informationen och typen av speglingen du vill skapa. 
+						Instruktionerna nedan anger hur du speglar innehåll till en annan EPiServer 
+						webbplats, HTML och XML.</p>
+					<P><A href="#episerver">Att skapa en destination och publicera sidor till en <STRONG>annan 
+								EPiServer</STRONG> webbplats</A><BR>
+						<A href="#html">Att skapa en destination och publicera sidor till <STRONG>HTML</STRONG></A><BR>
+						<A href="#xml">Att skapa en destination och publicera sidor till <STRONG>XML</STRONG></A><BR>
+					</P>
+					<h2><B><A name="episerver"></A>Att skapa en destination till en 
+							annan EPiServer webbplats</B></h2>
+					<OL>
+						<LI>
+							Skapa en kanal enligt instruktionerna i <A href="#create_a_channel">Att skapa en 
+								kanal</A>.
+						<LI>
+							Välj <i> <STRONG style="font-weight: 400">Skapa destination</STRONG> 
+							</i>
+						<LI>
+							<i>Välj </i>&nbsp;&quot;EPiServer&quot; i 
+							fältet 
+							<STRONG style="font-weight: 400; font-style: italic">Välj typ av mottagare</STRONG>.
+						<LI>
+							Välj <i> <STRONG style="font-weight: 400">OK</STRONG></i>.
+						<LI>
+							I fältet <i>Namn</i> anger du ett namn för 
+							destinationen.
+						<LI>
+							Välj vilken webbplats du vill spegla mot <i>
+							<STRONG style="font-weight: 400">Webbplats att spegla mot</STRONG></i>. 
+						(Webbplatsen måste vara konfigurerad i Externa 
+							webbplatser för att den skall visas i listan.)
+						<LI>
+							I&nbsp;fältet <i> <STRONG style="font-weight: 400">Sida att 
+								spegla mot</STRONG>
+						</i>anger du den sidas ID där informationen skall 
+							infogas i den andra webbplatsen.&nbsp;
+						<LI>
+							Markera <i>Publicera sidor</i> om du vill att 
+							sidorna skall publiceras direkt på den mottagande 
+							webbplatsen.<LI>
+							Markera <i>Tillåt mottagaren att hämta länkar från 
+							andra kanaler</i> om du misstänker att sidor som du 
+							kommer att spegla innehåller länkar till sidor som 
+							inte är med i din utvalda kanal. Då kommer även 
+							dessa sidor att hämtas så att inte brutna länkar 
+							uppstår.
+						<LI>
+							Välj <i>Spara</i>.
+						</OL>
+				<h3><b>Publicera sidor till en 
+							annan EPiServer webbplats</b></h3>
+				<OL>
+						<LI>
+							Öppna <i>Åtgärdsfönstret</i> i redigeraläge och välj
+							<i> <STRONG style="font-weight: 400">Godkänn speglingar</STRONG></i>. 
+						En lista med uppdaterade kanaler visas. Din kanal visas med&nbsp;antal 
+						uppdaterade sidor inom parentes. Klicka på din kanal.
+						<LI>
+							Sidorna som ska uppdateras visas och knappen 
+							Publicera visas längst ner på sidan. Välj 
+							<STRONG style="font-weight: 400; font-style: italic">Publicera</STRONG>.
+						<LI>
+							Välj <i>Speglingsinställningar</i> från fliken <i>Konfig</i> 
+							i <i>adminläge</i>. De sidorna som 
+							behöver uppdateras finns listade&nbsp;i <i> 
+							<STRONG style="font-weight: 400">Paket i kö</STRONG></i>. (Om 
+							det jobbet för spegling redan har körts kommer kolumnen 
+						att visa 0.)
+						<LI>
+							Om arkivering av spegling inte är schemalagd, gå till 
+							<i>Arkivering av speglingar</i> 
+							i fliken <i>Admin</i> och välj 
+							<STRONG style="font-weight: 400; font-style: italic">Provkör manuellt</STRONG>.&nbsp;</LI></OL>
+					<h2><STRONG><A name="html"></A>Att skapa en destination och publicera sidor till HTML</STRONG></h2>
+					<OL>
+						<LI>
+							Skapa en kanal enligt instruktionerna i <A href="#create_a_channel">Att skapa en 
+								kanal</A>.
+						<LI>
+							Välj
+							<STRONG style="font-weight: 400; font-style: italic">Skapa destination. </STRONG>
+						<LI>
+							<strong style="font-weight: 400">Välj </strong>&nbsp;"HTML" i fältet 
+							<STRONG style="font-weight: 400; font-style: italic">
+								Välj typ av mottagare</STRONG>.
+						<LI>
+							Välj <i> <STRONG style="font-weight: 400">OK</STRONG></i>.
+						<LI>
+							I fältet <i>Namn</i> anger du ett namn för 
+							destinationen.
+						<LI>
+							Skapa en katalog i ditt filsystem där du vill lagra 
+							dina HTML sidor. 
+							Ange namnet på katalogen i fältet 
+							<STRONG style="font-weight: 400; font-style: italic">Målkatalog på servern</STRONG>, 
+						tex C:\episerverhtml.
+						<LI>
+							Fältet 
+							<STRONG style="font-weight: 400; font-style: italic">Relativ rotsökväg</STRONG>
+						&nbsp;kan du ange prefixet på alla länkar. Ange 
+							ex. "/episerverhtml/" i detta fält om du har valt C:\episerverhtml som målkatalog 
+						och du ska köra den andra webbplatsen från din hårddisk. Om du har en virtual 
+						directory som heter MinHtmlSite, skriv "/MinHtmlSite/".
+						<LI>
+							Ändra&nbsp;<STRONG style="font-weight: 400; font-style: italic">Standardnamn på filer</STRONG>
+						om&nbsp;du vill att dina HTML-filer ska ha ett alternativt namn som 
+						default.&nbsp;
+						<LI>
+							I fältet&nbsp;<STRONG style="font-weight: 400; font-style: italic">Basera sidors katalognamn på följande egenskap</STRONG>
+							kan du ange om du vill att filnamnen ska styras av 
+							annan egenskap än sidans namn, som är standard.
+						<LI>
+							Om kyrssrutan <i> <STRONG style="font-weight: 400">Kontrollera alla sidors checksumma varje gång</STRONG></i>
+						markeras kommer&nbsp;alla sidor att laddas ner varje gång en förändring hittas 
+						på en enda sida. En sida kan förändra många andra sidor i listningar, 
+						webbkartor osv. Speglingen går snabbare om man inte behöver denna funktion.
+						<LI>
+							Markera
+							<STRONG style="font-weight: 400; font-style: italic">Inkludera inte filnamn i länkar</STRONG>
+						om du ska köra HTML webbplatsen från en CD eller hårddisk och vill inkludera 
+						filnamnet i länkar, tex Default.htm. Om du ska köra webbplatsen online, är det 
+						möjligt att endast använda katalognamnet&nbsp;för länkar genom att konfigurera 
+						Default.htm som default dokument i Internet Information Services (IIS).
+						<LI>
+							Det är möjligt att kräva att vissa egenskaper finns 
+							för vissa kanaler. Markera
+							<STRONG style="font-weight: 400; font-style: italic">Applicera kanalens filter på mallarna</STRONG>
+						om du vill aktivera att även listningar och trädet&nbsp;filtreras på samma sätt 
+						när HTML laddas ner från en sida.
+						<LI>
+							Välj <i><STRONG style="font-weight: 400">Spara</STRONG></i>.&nbsp;
+						</OL>
+				<h3><STRONG>Att publicera sidor till HTML</STRONG></h3>
+				<OL>
+						<LI>
+							Öppna <i>Åtgärdsfönstret</i> i redigeraläge och välj
+							<i> <STRONG style="font-weight: 400">Godkänn speglingar</STRONG></i>. 
+						En lista med uppdaterade kanaler visas. Din kanal visas med&nbsp;antal 
+						uppdaterade sidor inom parentes. Klicka på din kanal.
+						<LI>
+							Sidorna som ska uppdateras visas och knappen 
+							Publicera visas längst ner på sidan. Välj 
+							<STRONG style="font-weight: 400; font-style: italic">Publicera</STRONG>.
+						<LI>
+							Välj <i>Speglingsinställningar</i> från fliken <i>Konfig</i> 
+							i <i>adminläge</i>. De sidorna som 
+							behöver uppdateras finns listade&nbsp;i <i> 
+							<STRONG style="font-weight: 400">Paket i kö</STRONG></i>. (Om 
+							det jobbet för spegling redan har körts kommer kolumnen 
+						att visa 0.)
+						<LI>
+							Om arkivering av spegling inte är schemalagd, gå till 
+							<i>Arkivering av speglingar</i> 
+							i fliken <i>Admin</i> och välj 
+							<STRONG style="font-weight: 400; font-style: italic">Provkör manuellt</STRONG>.&nbsp;</LI></OL>
+					<h2><STRONG><A name="xml"></A>Att skapa en destination och publicera sidor till XML</STRONG></h2>
+					<OL>
+						<LI>
+							Skapa en kanal enligt instruktionerna i <A href="#create_a_channel">Att skapa en 
+								kanal</A>.
+						<LI>
+							Välj
+							<STRONG style="font-weight: 400; font-style: italic">Skapa destination. </STRONG>
+						<LI>
+							<strong style="font-weight: 400">Välj </strong>&nbsp;"XML" i fältet 
+							<STRONG style="font-weight: 400; font-style: italic">
+								Välj typ av mottagare</STRONG>.
+						<LI>
+							Välj <i> <STRONG style="font-weight: 400">OK</STRONG></i>.
+						<LI>
+							I fältet <i>Namn</i> anger du ett namn för 
+							destinationen.
+						<LI>
+							Skapa en katalog i ditt filsystem där du vill lagra 
+							dina HTML sidor. 
+							Ange namnet på katalogen i fältet 
+							<STRONG style="font-weight: 400; font-style: italic">Målkatalog på servern</STRONG>, 
+						tex C:\episerverhtml.
+						<LI>
+							Skapa en fil som heter template.xsl under din målkatalog. Fyll filen med 
+							relevant text. (Ett exempel på template.xsl finns i dokumentet Setting Up 
+							EPiServer for Demo.) Ange sökvägen till din XSL fil i fältet<i> 
+							<STRONG style="font-weight: 400">Sökväg till 
+								XSL-mall</STRONG>,</i> tex C:\episerverxml\template.xsl.
+						<LI>
+							Ändra&nbsp;<STRONG style="font-weight: 400; font-style: italic">Standardnamn på filer</STRONG>
+						om&nbsp;du vill att dina HTML-filer ska ha ett alternativt namn som 
+						default.&nbsp;
+						<LI>
+							I fältet&nbsp;<STRONG style="font-weight: 400; font-style: italic">Basera sidors katalognamn på följande egenskap</STRONG>
+							kan du ange om du vill att filnamnen ska styras av 
+							annan egenskap än sidans namn, som är standard.
+						<LI>
+							Markera
+							<STRONG style="font-weight: 400; font-style: italic">Inkludera inte filnamn i länkar</STRONG>
+						om du ska köra XML-filerna från en CD eller hårddisk och vill inkludera 
+						filnamnet i länkar, tex Default.htm. Om du ska köra webbplatsen online, är det 
+						möjligt att endast använda katalognamnet&nbsp;för länkar genom att konfigurera 
+						Default.htm som default dokument i Internet Information Services (IIS).
+						<LI>
+							Välj <i><STRONG style="font-weight: 400">Spara</STRONG></i>.&nbsp;&nbsp;
+						</OL>
+				<h3><STRONG>Att publicera sidor till XML</STRONG></h3>
+				<OL>
+						<LI>
+							Öppna <i>Åtgärdsfönstret</i> i redigeraläge och välj
+							<i> <STRONG style="font-weight: 400">Godkänn speglingar</STRONG></i>. 
+						En lista med uppdaterade kanaler visas. Din kanal visas med&nbsp;antal 
+						uppdaterade sidor inom parentes. Klicka på din kanal.
+						<LI>
+							Sidorna som ska uppdateras visas och knappen 
+							Publicera visas längst ner på sidan. Välj 
+							<STRONG style="font-weight: 400; font-style: italic">Publicera</STRONG>.
+						<LI>
+							Välj <i>Speglingsinställningar</i> från fliken <i>Konfig</i> 
+							i <i>adminläge</i>. De sidorna som 
+							behöver uppdateras finns listade&nbsp;i <i> 
+							<STRONG style="font-weight: 400">Paket i kö</STRONG></i>. (Om 
+							det jobbet för spegling redan har körts kommer kolumnen 
+						att visa 0.)
+						<LI>
+							Om arkivering av spegling inte är schemalagd, gå till 
+							<i>Arkivering av speglingar</i> 
+							i fliken <i>Admin</i> och välj 
+							<STRONG style="font-weight: 400; font-style: italic">Provkör manuellt</STRONG>.&nbsp;</LI></OL>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%">&nbsp;</td>
+			</tr>
+			<tr>
+				<td width="100%"><hr noshade color="#6d8ca8" size="1">
+				</td>
+			</tr>
+			<tr>
+				<td width="100%">
+					<p align="center">Läs mer i <a href="Redaktorshandbok_online.pdf">Redaktörshandboken</a>
+						- Läs mer i <a href="Adminhandbok_online.pdf">Administratörshandboken</a></p>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

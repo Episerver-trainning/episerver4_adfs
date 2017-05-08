@@ -1,0 +1,125 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Help in EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="security.htm">
+    <img border="0" src="images/uk.gif" alt="English" ></a>
+    <a href="../SV/security.htm">
+    <img border="0" src="images/sv.gif" alt="Svenska" ></a>
+	<a href="../NO/Security.htm">
+	<img border="0" src="images/no.gif" alt="Norsk" ></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Set Access Rights</h1>
+    <p>
+    When you have created the group or synchronized the group from another 
+	directory service, it is time to specify where in the tree structure the 
+	group will have authorization. You must also determine what access rights 
+	each group is to have in that part of the structure. <br>
+	EPiServer offers six different levels of functions that a group or user can 
+	perform on a specific page. Each group or user can have different access 
+	rights to each page. There is no hierarchy within these different levels. 
+	This means that a group can have access rights that only allow it to read 
+	and publish pages and not to create, edit and delete them. </p>
+	<ul>
+		<li><b>Read</b> means the group/user has the access rights to read the 
+		current page.</li>
+		<li><b>Create</b> means the group/user has the access rights to create 
+		pages under the current page.</li>
+		<li><b>Edit</b> means the group/user has the access rights to edit the 
+		current page.</li>
+		<li><b>Delete</b> means the group/user has the access rights to delete 
+		the current page.</li>
+		<li><b>Publish</b> means the group/user has the access rights to publish 
+		the current page. </li>
+		<li><b>Administer</b> means the group/user has the access rights to edit 
+		dynamic properties and set access rights for the current page. This 
+		level has nothing to do with admin mode, except to administer one or 
+		several pages in edit mode.</li>
+	</ul>
+	<p><b>Specify access rights for one or several pages as follows:</b></p>
+	<ol>
+		<li>Select Set access rights on the Admin tab. The tree structure is 
+		displayed in the lower section of the window.</li>
+		<li>Mark the page in the tree structure for which you want to set access 
+		rights. When the page is highlighted, the name of the page is displayed 
+		in bold type. </li>
+		<li>Those groups and individuals that have access rights to the 
+		highlighted page are shown with the most recently saved access rights 
+		above the structure. If you also want other groups or individuals to 
+		have these access rights, select Add group or Add user and then select 
+		the ones you want. When you add a group or user, no settings will be 
+		saved; you will only see the information in the window. </li>
+		<li>Specify the level of access rights each group or individual is to 
+		have. </li>
+		<li>Save the new access rights by selecting the correct button above the 
+		groups. The four similar buttons have different functions and are needed 
+		at different times.</li>
+	</ol>
+	<p>
+    <img border="0" src="images/admin_setaccessrights.png" width="490" height="317"></p>
+    <table border="0" cellpadding="2" cellspacing="1" width="100%" style="border-collapse: collapse" bordercolor="#111111">
+      <tr>
+        <td width="16%" valign="top"><b>Save</b></td>
+        <td width="84%" valign="top">If you select Save this means that you are saving the 
+        rights displayed on the screen for the page which is highlighted. Any 
+        rights saved previously are overwritten.</td>
+      </tr>
+      <tr>
+        <td width="16%" valign="top"><b>Recursive</b></td>
+        <td width="84%" valign="top">If you select Recursive this means that you are saving 
+        the rights displayed on the screen for the highlighted page and its 
+        subpages. You can therefore save the access rights for several pages at 
+        the same time. Any rights saved previously are overwritten.</td>
+      </tr>
+      <tr>
+        <td width="16%" valign="top"><b>Recursive add </b> </td>
+        <td width="84%" valign="top">If you select Recursive add this means that you are 
+        adding the rights displayed on the screen for the highlighted page and 
+        its subpages, without changing the rights applicable to other groups/users. 
+        If you remove from the window the groups not to be modified they will 
+        not be affected. When you click on Clear it only means that you are 
+        clearing the group from the display. In other words, you are not 
+        clearing the group from the system. Recursive add is a much more 
+        appropriate option to use if you have many different rights in a 
+        structure and want to add or change one or more groups.</td>
+      </tr>
+      <tr>
+        <td width="16%" valign="top"><b>Recursive remove </b> </td>
+        <td width="84%" valign="top">If you select Recursive remove this means that you are 
+        removing all the rights displayed on the screen for the highlighted page 
+        and its subpages. This option is mainly used if you want to remove all 
+        the rights for an individual group/user.</td>
+      </tr>
+    </table>
+    &nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#666666" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Read more in <a href="Editorsmanual_online.pdf">Editor's Manual</a> - Read more in 
+    <a href="Administratorsmanual_online.pdf">Administrator’s Manual</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

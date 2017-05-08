@@ -1,0 +1,116 @@
+.WF-SelectedCommentHistoryIndex
+{
+	font-weight: bold;
+}
+
+.WF-CommentHistoryIndex
+{
+	font-weight: bold;
+}
+
+.WF-CommentHistoryText
+{
+}
+
+.WF-LeftTab
+{
+	height: 25px;
+	border-color: #6D8CA8;
+	cursor:hand;
+	border-style: solid;
+	border-width:1 1 1 1;	
+	background-color : #eeeeee;
+}
+
+.WF-RightTab
+{
+	height: 25px;
+	border-color: #6D8CA8;
+	cursor:hand;
+	border-style: solid;
+	border-width:1 1 1 0;
+	background-color: #eeeeee;
+}
+
+.WF-LeftTabSelected
+{
+	height: 25px;
+	border-color: #6D8CA8;
+	cursor:hand;
+	border-style: solid;
+	border-width:1 1 0 1;
+	background-color : #ffffff;
+}
+
+.WF-RightTabSelected
+{
+	height: 25px;
+	border-color: #6D8CA8;
+	cursor:hand;
+	border-style: solid;
+	border-width:1 1 0 0;
+	background-color: #ffffff;
+}
+
+.WF-TabBodyVisible
+{
+	display : block;
+}
+
+.WF-TabBodyHidden
+{
+	display : none;
+}
+
+.WF-DimText { color: DimGray; }
+.WF-CurrentTask { font-weight: bold; }
+.WF-HeadingText { font-weight: bold; }
+A.WF-AddressLink
+{
+	font-style:	italic;
+	font-size:	10;
+}
+
+table.WF-Separator
+{ 
+	margin-top:			4; 
+	margin-bottom:		4; 
+	background-color:	#6D8CA8;
+	height:				1px;
+	width:				100%;
+}
+table.WF-Table
+{
+	background-color:	#ECEFF3;
+	border-style:		solid;
+	border-color:		#6D8CA8;
+	border-width:		1px;
+	padding-left:		3px;
+	padding-right:		2px;
+}
+
+tr { vertical-align: top; }
+.WF-Heading
+{
+	background-color:	#7F9DB9;
+	padding-bottom:		2px;
+	padding-top:		1px;
+}
+td.WF-HeadingIcon
+{
+	text-align:		right;
+}
+td.WF-Address
+{
+	text-align:		right;
+}
+td.WF-HeadingPrefix
+{
+	font-weight:	bold;
+	padding-right:	2px;
+}
+td.WF-Remove
+{
+	text-align:	right;
+	width:		100%;
+}

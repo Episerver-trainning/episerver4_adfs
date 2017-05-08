@@ -1,0 +1,74 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjälp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/RobotSearch.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="RobotSearch.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+	<a href="../NO/RobotSearch.htm">
+	<img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Hantera webbadresser</h1>
+ 
+	<p>Adressen till webbplatsen kan visas i adressfältet på tre 
+	olika sätt med EPiServer. Den kan vara helt dynamisk och återge den unika 
+	sidans id-nummer. Den dynamiska adressen kan också anpassas så att 
+	sökmotorer kan indexera webbplatsen. Det är också möjligt att visa adressen 
+	utifrån strukturen på webbplatsen. Detta kan styras genom att redaktören 
+	lägger upp namn för varje sida eller att det styrs av namnet på sidan. </p>
+	<p>De flesta sökmotorer på internet söker av webbplatser 
+	efter information och lagrar informationen i sina databaser. Man brukar 
+	kalla det att indexera webbplatser. De flesta sökmotorer klarar inte av att 
+	indexera webbplatsen där adressen innehåller frågetecken (?). Som standard 
+	innehåller alla adresser till sidor i EPiServer ett frågetecken och likamed 
+	ett unikt nummer. För att sökmotorer ska kunna indexera webbplatsen med 
+	automatik är det därför viktigt att vi ställer om adresserna så sökmotorerna 
+	kan indexera sidan. Om du vill att sökmotorer på internet ska kunna indexera 
+	er webbplats markera alternativet <i>Använd webbadresser som möjliggör för 
+	sökmotorer att indexera webbplatsen</i> och välj <i>Spara</i>. Om du tittar 
+	på adressen till en specifik sida har EPiServer gjort om adressen från 
+	www.foretaget.se/templates/page.aspx?id=1234 till 
+	www.foretaget.se/templates/page____1234.aspx. Det gör att sökmotorerna kan 
+	indexera sidan.</p>
+	<p >Om du vill att adressen ska visas utifrån strukturen så 
+	aktiverar du det genom att markera alternativet <i>Använd webbadresser som 
+	återspeglar webbplatsens struktur</i> och välj <i>Spara</i>. Om du har 
+	uppgraderat en tidigare version av EPiServer till 4.60 är detta alternativ 
+	inte aktivt. För att aktivera det måste du ändra en inställning i 
+	web.config. Läs mer om det i dokumentet <i>web.config settings</i>. </p>
+	</font>
+	<p>
+    <img border="0" src="images/admin_robotsearch.png" width="490" height="191"></td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Läs mer i <a href="Redaktorshandbok_online.pdf">
+    Redaktörshandboken</a> - Läs mer i <a href="Adminhandbok_online.pdf">
+    Administratörshandboken</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

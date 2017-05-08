@@ -1,0 +1,1267 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+	<language name="Dansk" id="DA">
+		<templates>
+			<document>
+				<openinnewwindow>Åbn i et nyt vindue</openinnewwindow>
+				<backtolist>Tilbage til listen</backtolist>
+			</document>
+			<documentlist>
+				<download>Download dokumentet</download>
+			</documentlist>
+			<news>
+				<errorbindingrsssource>	Der opstod en fejl ved hentning af rss-oplysninger</errorbindingrsssource>
+			</news>
+			<form>
+				<numberofvotes>Antal stemmer: {0}</numberofvotes>
+				<showform>Til formularen</showform>
+				<requirelogon>Du skal være logget på for at kunne svare.</requirelogon>
+				<denymultipleposts>Du har allerede svaret på denne formular.</denymultipleposts>
+				<postedmessage>Tak for dit svar!</postedmessage>
+				<thankyouforyourreply>Tak for dit svar!</thankyouforyourreply>
+				<showstat>Vise statistik</showstat>
+			</form>
+			<register>
+				<invalidemail>Du skal angive en gyldig e-mail-adresse, for at vi skal kunne behandle din ansøgning.</invalidemail>
+				<invalidpassword>Du skal angive en adgangskode. Skriv den samme adgangskode i begge tekstfelter.</invalidpassword>
+				<expiredidentity>Du har mistet logonoplysningerne, du skal logge på igen.</expiredidentity>
+				<usernotsaved>Brugeren kunne ikke gemmes, forsøg med et andet brugernavn.</usernotsaved>
+				<errorwhilesavinguser>Der er opstået en fejl, brugeren er ikke gemt.</errorwhilesavinguser>
+				<invalidsettings>Alle indstillinger for selvregistreringen er ikke angivet.</invalidsettings>
+				<applyemailsubject>En ny bruger har ansøgt om en ekstranetskonto.</applyemailsubject>
+				<applyemailbodyprefix>Gå til denne side for at aktivere brugeren:</applyemailbodyprefix>
+				<usersaved>Du modtager en e-mail, når din bruger er blevet godkendt og aktiveret.</usersaved>
+				<usersavedandactivated>Du kan nu logge på webstedet.</usersavedandactivated>
+				<couldnotsave>Brugeren kunne ikke gemmes</couldnotsave>
+				<saved>Brugeren er gemt</saved>
+				<notallowed>Dette websted tillader ikke selvregistrering.</notallowed>
+			</register>
+			<page>
+				<login>Log på</login>
+				<logout>Log af</logout>
+				<notproperlyconfigured>Hurtig søgning er ikke konfigureret. (Den dynamiske egenskab til "Global søgning" skal være defineret)</notproperlyconfigured>
+				<readmore>Læs mere</readmore>
+			</page>
+			<newsgrouplist>
+				<search>Søg</search>
+				<subscribe>Abonnere</subscribe>
+				<unsubscribe>Fjern abonnementet</unsubscribe>
+			</newsgrouplist>
+			<search>
+				<searchfiles>			Søg også i dokumenter og filer</searchfiles>
+				<onlywholewords>		Søg kun efter hele ord</onlywholewords>
+				<searchresult>			Resultat af søgning:</searchresult>
+				<rank>					Placering</rank>
+				<match>					Forekomst</match>
+				<matches>				forekomst(er)</matches>
+				<nomatches>				Søgningen gav ikke noget resultat. Prøv igen</nomatches>
+				<help>
+					&lt;b&gt;Søgetip!&lt;/b&gt;
+					&lt;ul&gt;
+					&lt;li&gt;Angiv op til 10 søgeord adskilt af mellemrum, f.eks. &lt;i&gt;&lt;b&gt;&lt;nobr&gt;søgeord1 søgeord2 søgeord3&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br/&gt;&lt;/li&gt;
+					&lt;li&gt;Begræns søgningen ved at placere et plustegn (+) foran de ord, der skal findes i alle forekomster, f.eks. &lt;i&gt;&lt;b&gt;&lt;nobr&gt;+søgeord1 +søgeord2 +søgeord3&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;/li&gt;
+					&lt;li&gt;Begræns søgningen ved at placere et minustegn (-) foran de ord, der ikke skal findes i nogen forekomster, f.eks. &lt;i&gt;&lt;b&gt;&lt;nobr&gt;+søgeord1 +søgeord2 -søgeord3&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;/li&gt;
+					&lt;li&gt;Hvis du har valgt "Søg kun efter hele ord", men alligevel vil søge efter en del af et ord, skal du placere en stjerne (*) i slutningen af ordet, f.eks. &lt;i&gt;&lt;b&gt;&lt;nobr&gt;ord1* ord2&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;, hvilket giver forekomster som "ord123 ord2", men ikke "ord123 ord234"&lt;/li&gt;
+					&lt;/ul&gt;
+				</help>
+				<indexservererror>		Desværre er søgemaskinen til dokumenter og filer ikke aktiv i øjeblikket. Foreløbig kan der kun foretages søgninger på World Wide Web.</indexservererror>
+				<quicksearch>			Hurtig søgning</quicksearch>
+				<alllanguages>Søg på alle sprog</alllanguages>
+			</search>
+			<login>
+				<logintitle>			Logon</logintitle>
+				<loginheading>			Beskyttede oplysninger – du skal logge på</loginheading>
+				<username>				Navn</username>
+				<password>				Adgangskode</password>
+				<persistentlogin>		Log på dette websted automatisk</persistentlogin>
+				<usernamerequired>		Du skal angive et navn</usernamerequired>
+				<loginfailed>			Logon mislykkedes</loginfailed>
+			</login>
+			<calendar>
+				<next>Næste</next>
+				<previous>Forrige</previous>
+			</calendar>
+			<changedpages>
+				<header>				Senest ændrede filer</header>
+				<lastmodified>			Senest ændrede</lastmodified>
+				<page>					Side</page>
+				<updatedpages>			Senest ændrade side</updatedpages>
+			</changedpages>
+			<conference>
+				<deleteconfirm>Vil du rydde siden?</deleteconfirm>
+				<createnew>Oprette en ny meddelelse</createnew>
+				<post>Meddelelse</post>
+				<heading>Rubrik</heading>
+				<message>Tekst</message>
+				<author>Navn</author>
+				<previous>Forrige</previous>
+				<next>Næste</next>
+				<reply>Svare</reply>
+				<change>Redigere</change>
+				<delete>Slet</delete>
+				<replies>Svar</replies>
+				<uponelevel>Et niveau op</uponelevel>
+			</conference>
+			<newsgroupitem>
+				<reply>Svar</reply>
+				<name>Navn</name>
+				<email>E-mail-adresse</email>
+				<subject>Emne</subject>
+			</newsgroupitem>
+			<newsgrouplist>
+			<newpost>Ny meddelelse</newpost>
+				<settings>Indstillinger</settings>
+				<subject>Emne</subject>
+				<author>Oprettet af</author>
+				<created>Oprettet</created>
+			</newsgrouplist>
+			<newsgroupsettings>
+					<personalsettings>Personlige indstillinger</personalsettings>
+				<firstname>Fornavn</firstname>
+				<lastname>Efternavn</lastname>
+				<email>E-mail-adresse</email>
+				<interval see="/templates/subscribe/interval"/>
+				<fastaspossible see="/templates/subscribe/fastaspossible"/>
+				<daily see="/templates/subscribe/daily"/>
+				<everysecondday see="/templates/subscribe/everysecondday"/>
+				<weekly see="/templates/subscribe/weekly"/>
+				<everysecondweek see="/templates/subscribe/everysecondweek"/>
+				<everyfourthweek see="/templates/subscribe/everyfourthweek"/>
+			</newsgroupsettings>
+			<newsgrouptree>
+				<back>Tilbage</back>
+			</newsgrouptree>
+			<notimplemented>
+			<notimplemented>Denne funktion er ikke tilgængelig endnu</notimplemented>
+			</notimplemented>
+
+			<subscribe>
+				<interval>Interval</interval>
+				<fastaspossible>Så hurtigt som muligt</fastaspossible>
+				<daily>Hver dag</daily>
+				<everysecondday>Hver anden dag</everysecondday>
+				<weekly>Hver uge</weekly>
+				<everysecondweek>Hver anden uge</everysecondweek>
+				<everyfourthweek>Hver fjerde uge</everyfourthweek>
+				<subscriptions>Abonnementer</subscriptions>
+			</subscribe>
+			<profile>
+				<image>						Billede</image>
+				<profile>					Profil</profile>
+				<department>				Afdeling</department>
+			</profile>
+			<profilefinder>											
+				<limitamountofhits>			Begræns antallet af forekomster</limitamountofhits>
+				<myprofile>					Min profil</myprofile>
+				<backtosearch>				Tilbage til søgning</backtosearch>
+				<showdetailedlist>			Vis detaljeret liste</showdetailedlist>
+			</profilefinder>
+			<emailpage>
+				<to>						Til</to>
+				<from>						Fra</from>
+				<subject>					Emne</subject>
+				<other>						Andet</other>
+				<send>						Send</send>
+			</emailpage>
+			<common>
+				<printpage>					Udskriv siden</printpage>
+				<emailpage>					Send denne side som et tip til en ven</emailpage>
+				<sitemap>					Vis webstedets indholdsstruktur</sitemap>
+				<register>					Tilmeld dig</register>
+				<editdetails>				Skift mine opgaver</editdetails>
+				<login>						Log på</login>
+				<logout>					Log ud</logout>
+				<numberofhits>				Antal forekomst(er)</numberofhits>
+				<pagehaschildren>			Siden har undersider</pagehaschildren>
+				<startpage>				Startside</startpage>
+				<changelanguage>Skift sprog til {0}</changelanguage>
+			</common>
+			<portal>
+				<back>						Tilbage</back>
+				<reloadportal>				Indlæs portalens startside</reloadportal>
+				<opensettingsheader>		Indstillinger</opensettingsheader>
+				<opensettingstooltip>		Åbn portalindstillinger</opensettingstooltip>
+				<actionrequiresauthentication>Denne handling kræver logon</actionrequiresauthentication>
+				<mysettingprefix>			Mine indstillinger for </mysettingprefix>
+				<myportalsettings>			Mine portalindstillinger</myportalsettings>
+				<saveresizesettingstooltip> Gem indstillinger for højde og bredde</saveresizesettingstooltip>
+				<saveresizesettingsheader>	Gem</saveresizesettingsheader>
+				<resetsettings>				Nulstil standardindstillinger</resetsettings>
+				<selectedframework>			Valgt ramme</selectedframework>
+				<advancedframework>			Avanceret ramme</advancedframework>
+				<simpleframework>			Enkelt ramme</simpleframework>
+				<parts>						Portaldele</parts>
+				<expandregion>				Udvid</expandregion>
+				<minimizeregion>			Minimer</minimizeregion>
+				<restoreregion>				Nulstil størrelse</restoreregion>
+				<refreshregion>				Indlæs</refreshregion>
+				<regionsettings>			Åbn indstillinger</regionsettings>
+			</portal>
+			<filelisting>
+				<rootpatherror>				Rodbiblioteket er ikke defineret</rootpatherror>
+				<sortordername>				Navn</sortordername>
+				<sortorderdatecreated>		Oprettet</sortorderdatecreated>
+				<sortorderdatelastaccessed>	Sidste adgang</sortorderdatelastaccessed>
+				<sortorderdatelastmodified>	Sidst gemt</sortorderdatelastmodified>
+				<sortordertype>				Filtype</sortordertype>
+				<sortordersize>				Størrelse</sortordersize>
+				<sortordernone>				</sortordernone>
+				<sortordernamedesc>				Navn faldende</sortordernamedesc>
+				<sortorderdatecreateddesc>		Oprettet faldende</sortorderdatecreateddesc>
+				<sortorderdatelastaccesseddesc>	Sidst tilgået faldende</sortorderdatelastaccesseddesc>
+				<sortorderdatelastmodifieddesc>	Sidst gemt faldende</sortorderdatelastmodifieddesc>
+				<sortordertypedesc>				Filtype faldende</sortordertypedesc>
+				<sortordersizedesc>				Størrelse faldende</sortordersizedesc>
+			</filelisting>
+			<mobileinfo>
+				<maininfo>
+					&lt;b&gt;How to enable WAP-functions in EPiServer&lt;/b&gt;
+					&lt;p&gt;Since the wap/mobile device support in EPiServer is based on the Microsoft 
+						Mobile Internet Toolkit it is not enabled by default. If you want to activate 
+						the mobile device support, follow the instructions below.&lt;/p&gt;
+					&lt;ul&gt;
+						&lt;li&gt;
+							Download and install the Microsoft Mobile Internet Toolkit on your development 
+							machine. It can be downloaded from &lt;a href="http://www.msdn.microsoft.com/downloads/default.asp?url=/downloads/sample.asp?url=/msdn-files/027/001/817/msdncompositedoc.xml" target="_blank"&gt;
+								http://www.msdn.microsoft.com&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;
+							Go to EPiServers Admin-mode and open the page type definition for Mobile page&lt;/li&gt;
+						&lt;ul&gt;
+							&lt;li&gt;
+								Enter Settings for this page type.
+							&lt;/li&gt;
+							&lt;li&gt;
+								Change "Filename" to point to templates/Mobile.aspx instead of 
+								templates/MobileInfo.aspx
+							&lt;/li&gt;
+							&lt;li&gt;
+								Save changes.
+							&lt;/li&gt;
+						&lt;/ul&gt;
+						&lt;li&gt;
+							Add a reference to System.Web.Mobile (installed with the Mobile Internet 
+							Toolkit) to your EPiServer devlopment project.&lt;/li&gt;
+						&lt;li&gt;
+							Include the file /templates/Mobile.aspx in your EPiServer development project.&lt;/li&gt;
+						&lt;li&gt;
+							Recompile your EPiServer project.&lt;/li&gt;
+					&lt;/ul&gt;
+				</maininfo>
+			</mobileinfo>
+			<xform>
+				<postedmessage>Tak for dit svar!</postedmessage>
+				<requirelogon>Du skal være logget på for at kunne svare.</requirelogon>
+				<denymultipleposts>Du har allerede udfyldt denne formular.</denymultipleposts>
+				<fieldisrequired>Angiv "{0}"</fieldisrequired>
+				<requiredfields>Du har ikke angivet alle de obligatoriske oplysninger (markeret med *)</requiredfields>
+				<errorpostingtodatabase>Formularen kunne ikke sendes.</errorpostingtodatabase>
+				<errorpostingtoemail>Formularen kunne ikke sendes.</errorpostingtoemail>
+				<errorpostingtocustomurl>Formularen kunne ikke sendes.</errorpostingtocustomurl>
+				<requiredfields>Du har ikke angivet alle de obligatoriske oplysninger (markeret med *)</requiredfields>
+			</xform>
+			<workroom>
+				<common>
+					<active>Aktiv</active>
+					<captionsingle>Arbejdsrum</captionsingle>
+					<captionmany>Arbejdsrum</captionmany>
+					<changed see="/workflow/reportmail/changed"/>
+					<createnew>Opret nyt arbejdsrum</createnew>
+					<name see="/workflow/reportmail/taskname"/>
+					<owner see="/workflow/reportmail/owner"/>
+					<showonlyactive>Vis kun aktive arbejdsrum</showonlyactive>
+				</common>
+				<members>
+					<activemembers>Aktive medlemmer</activemembers>
+					<addmember>Tilføj medlemmer</addmember>
+					<addmembercaption>Tilføj medlem</addmembercaption>
+					<activemembercaption>Annuller</activemembercaption>
+					<removemembercaption>Fjern</removemembercaption>
+					<searchbuttoncaption>Søg</searchbuttoncaption>
+					<searchdescription>Søg efter bruger</searchdescription>
+					<canceleditcaption>Annuller</canceleditcaption>
+					<memberstatusheader>Medlemsstatus</memberstatusheader>
+					<editmembercaption>Rediger</editmembercaption>
+				</members>
+				<memberstatus>
+					<guest>Gæst</guest>
+					<administrator>Administrator</administrator>
+					<user>Bruger</user>
+					<none>Ikke medlem</none>
+				</memberstatus>				
+				<plugins>
+					<overview>
+						<displayname>Oversigt</displayname>
+					</overview>
+					<bulletinboard>
+						<displayname>Opslagstavle</displayname>
+					</bulletinboard>
+					<calendar>
+						<displayname>Kalender</displayname>
+						<newentry>Ny post i kalenderen</newentry>
+						<editentry>Rediger post i kalenderen</editentry>
+						<subject>Emne</subject>
+						<starttime>Starttidspunkt</starttime>
+						<endtime>Sluttidspunkt</endtime>
+						<startdategreaterthanenddate>Ugyldige datoer: Datoen for "{0}" må ikke være senere end "{1}"</startdategreaterthanenddate>
+					</calendar>
+					<document>
+						<displayname>Dokument</displayname>
+					</document>
+					<forum>
+						<displayname>Diskussionsforum</displayname>
+					</forum>
+					<members>
+						<displayname>Medlemmer</displayname>
+					</members>
+					<news>
+						<displayname>Nyheder</displayname>
+						<newentry>Opret ny</newentry>
+						<title>Titel</title>
+						<mainintro>Introduktion</mainintro>
+						<mainbody>Brødtekst</mainbody>
+					</news>
+					<settings>
+						<displayname>Indstillinger</displayname>
+						<active>er aktiv</active>
+					</settings>
+				</plugins>
+				<unabletocreateworkroom>Arbejdsrummet kunne ikke oprettes: </unabletocreateworkroom>
+				<unabletofindworkroomtemplates>Kan ikke finde nogen skabeloner med arbejdsrum</unabletofindworkroomtemplates>
+				<invalidworkroompage>Siden er ikke en gyldig arbejdsrumside</invalidworkroompage>
+				<invalidpageinstance>Arbejdsrumskabelonen skal have en gyldig sideforekomst</invalidpageinstance>
+				<invalidrootdir>Kan ikke åbne dokumentets rodbibliotek</invalidrootdir>
+				<undefinedrootdir>Dokumentets rodbibliotek er ikke defineret</undefinedrootdir>
+			</workroom>
+			<logservice>
+				<lastusers>
+					<heading>Sidste 5 aktive besøgende</heading>
+					<totalusers>Der er i øjeblikket {0} besøgende på stedet.</totalusers>
+					<noconnection>Der kunne ikke oprettes forbindelse til logføringstjenesten.</noconnection>
+				</lastusers> 
+				<pagehits>
+					<heading>Mest besøgte sider</heading>
+					<totalpagehits>Der vises i øjeblikket {0} side(r) i minuttet.</totalpagehits>
+					<noconnection>Der kunne ikke oprettes forbindelse til logføringstjenesten.</noconnection>
+				</pagehits> 
+				<publishedpages>
+					<heading>Sidste 5 udgivne sider</heading>
+					<noconnection>Der kunne ikke oprettes forbindelse til logføringstjenesten.</noconnection>
+				</publishedpages> 
+				<notactive>Statistk er ikke aktiveret for webstedet.</notactive>
+			</logservice>
+			<wsrp>
+				<common>
+					<configuration>Konfiguration</configuration>
+				</common>
+				<infoservicecontrol>
+					<selecttitle>Vælg titel: </selecttitle>
+					<selectwidth>Angiv bredden i maksimeret tilstand og enkelttilstand (px): </selectwidth>
+					<selectsinglepage>Vis enkelt side i normal tilstand: </selectsinglepage>
+					<selectchannel>Vælg informationskanal: </selectchannel>
+					<save>Gem</save>
+				</infoservicecontrol>
+				<newscontrol>
+					<selecttitle>Vælg titel: </selecttitle>
+					<selectchannels>Vælg nyhedskanaler: </selectchannels>
+					<selectnoofitems>Antal linjer: </selectnoofitems>
+					<selectchannels>Vælg informationskanal: </selectchannels>
+					<save>Gem</save>
+				</newscontrol>
+				<usersettingscontrol>
+					<selecttitle>Vælg titel: </selecttitle>
+					<save>Gem</save>
+				</usersettingscontrol>
+				<iframecontrol>
+					<selecttitle>Vælg titel: </selecttitle>
+					<selecturl>Vælg URL: </selecturl>
+					<selectheight>Vælg højde (px): </selectheight>
+					<save>Gem</save>
+				</iframecontrol>
+				<rsscontrol>
+					<selecttitle>Vælg titel: </selecttitle>
+					<selecturl>Vælg URL: </selecturl>
+					<selectnoofitems>Antal linjer: </selectnoofitems>
+					<save>Gem</save>
+				</rsscontrol>
+			</wsrp>
+			<wsrpadmin>
+				<heading>WSRP-kilder</heading>
+				<info>Definer de WSRP-kilder, der skal være tilgængelige til brug</info>
+			</wsrpadmin>
+			<wsrpfx>
+				<admin>
+					<test>Test</test>
+					<delete>Fjern</delete>
+					<createnew>Ny</createnew>
+					<sourcename>Navn</sourcename>
+					<markupurl>URL til markering</markupurl>
+					<servicedescriptionurl>URL til tjenestebeskrivelse</servicedescriptionurl>
+					<registrationurl>URL til registrering</registrationurl>
+					<portletmanagementurl>URL til administration af portlets</portletmanagementurl>
+					<offeredportletstitle>Følgende portlets er tilgængelige fra denne leverandør</offeredportletstitle>
+					<messages>
+						<producerinvalid>Leverandøren {0} svarede ikke som forventet</producerinvalid>
+						<producerok>Leverandøren {0} svarede som forventet</producerok>
+					</messages>
+					<usewsdlradio>Registrer WSDL</usewsdlradio>
+					<wsdlurl>WSDL</wsdlurl>
+					<useservicesradio>Registrer webtjenester</useservicesradio>
+				</admin>
+				<portal>
+					<home>Startside</home>
+					<resetportal>Nulstil mine indstillinger</resetportal>
+					<displaymode>Visningstilstand</displaymode>
+					<viewmode>
+						<view>Simpel side</view>
+						<viewanduse>Portalside</viewanduse>
+						<design>Design</design>
+					</viewmode>
+					<newtab>Ny fane</newtab>
+					<deletetab>Fjern fane</deletetab>
+					<savesource>Gem som skabelon</savesource>
+					<tabname>Fanenavn</tabname>
+					<disposition>Layout</disposition>
+					<savetabsettings>Rediger</savetabsettings>
+					<selectedportlet>Portlet</selectedportlet>
+					<selectedarea>Område</selectedarea>
+					<addportlet>Tilføj</addportlet>
+					<errorlayoutcontrolls>Der opstod et problem ved hentning af layoutkontroller til portalforbrugeren.</errorlayoutcontrolls>
+				</portal>
+				<layouts>
+					<wsrpsinglecolumnlayout>
+						<layoutname>En kolonne</layoutname>
+					</wsrpsinglecolumnlayout>
+					<wsrpthreecolumnlayout>
+						<layoutname>Tre kolonner</layoutname>
+					</wsrpthreecolumnlayout>
+				</layouts>
+				<button>
+					<view>Vis</view>
+					<edit>Rediger</edit>
+					<preview>Gennemse</preview>
+					<help>Hjælp</help>
+					<minimized>Minimer</minimized>
+					<normal>Gendan</normal>
+					<maximized>Maksimer</maximized>
+					<solo>Solo</solo>
+				</button>
+			</wsrpfx>
+			<readspeaker>
+				<readme>Læs</readme>
+				<readmealttext>Læs den markerede tekst/sidetekst</readmealttext>
+			</readspeaker>
+			<webparts>
+				<portal>
+					<displaymode>Visningstilstand</displaymode>
+					<scope>Omfang</scope>
+					 <leftzone>Venstre kolonne</leftzone>
+					<rightzone>Højre kolonne</rightzone>
+					<catalogzone>Webdelskataloger</catalogzone>
+					<editorzone>Rediger webdel</editorzone>
+					<connectionzone>Tilslut webdele</connectionzone>
+					<importzone>Importer webdele</importzone>
+				</portal>
+        <units>
+          <rsscontrol>
+            <emptyurl>URL kan ikke være tom.</emptyurl>
+          </rsscontrol>
+        </units>
+			</webparts>
+			<blog>
+				<createnewblog>Opret ny blog</createnewblog>
+				<name>Navn:</name>
+				<createblog>Opret blog</createblog>
+				<archive>Arkiver</archive>
+				<noarchiveentries>Der er ingen indlæg for denne blog.</noarchiveentries>
+				<rsssource>RSS-kilde</rsssource>
+				<postcomment>Send en kommentar</postcomment>
+				<comments>Kommentarer</comments>
+				<title>Titel:</title>
+				<createnewpost>Opret et nyt indlæg</createnewpost>
+				<post>Indlæg</post>
+				<date>Dato</date>
+				<changestatus>Skift status</changestatus>
+			</blog>
+		</templates>
+		<common>
+			<headerimagedescription>Sidehoved - et billede med EPiServer-logotype</headerimagedescription>
+		</common>
+		<pagetypes>
+			<common>
+				<property name="DefaultLanguage">
+					<caption>Standardsprog</caption>
+					<help>Det sprog, som siden skal vises på, hvis der ikke findes en version af det valgte sprog</help>
+				</property>
+				<property name="AudioFormat">
+					<caption>Lydformat</caption>
+					<help>Angiv et lydformat. Skriv 2 for at vælge mp3, og skriv 3 for at vælge wav</help>
+				</property> 
+				<property name="ReadspeakerLanguage">
+					<caption>Oplæsningssprog</caption>
+					<help>Angiv, hvilket sprog oplæsningen skal foregå på</help>
+				</property> 
+				<property name="nDaysToRender">
+					<caption>Vis antal dage i kalenderen</caption>
+					<help>Angiv med et heltal,hvor mange dage der skal vises, når brugeren får vist kalenderen</help>
+				</property>
+				<property name="CalendarType">
+					<caption>Sidetype, der skal vises i kalenderen</caption>
+					<help>Angiv, hvilken sidetype/skabelon, der skal bruges som hændelse i kalenderen</help>
+				</property>
+				<property name="CalendarContainer">
+					<caption>Vis kalender fra</caption>
+					<help>Angiv en placering på en side i menutræet, hvorfra du vil have vist kalenderen. Normalt denne side.</help>
+				</property>
+				<property name="AllowInPortal">
+					<caption>	Anvend denne side i portal</caption>
+					<help>		Marker dette alternativ, hvis du vil have, at siden skal kunne vises i portaltilstand</help>
+				</property>
+				<property name="WebBaseURL">
+					<caption>	Sti til bibliotek, som skal vises</caption>
+					<help>		Angiv en adresse til det bibliotek, hvis indhold skal vises på listen</help>
+				</property>
+				<property name="SortFileBy">
+					<caption>	Sorter kun filliste</caption>
+					<help>		Vælg, hvordan listen skal sorteres</help>
+				</property>
+     			<property name="FirstName">
+					<caption>	Fornavn</caption>
+					<help>		Angiv et fornavn til denne profil</help>
+				</property>
+    			<property name="LastName">
+					<caption>	Efternavn</caption>
+					<help>		Angiv et efternavn til denne profil</help>
+				</property>¨
+				<property name="Email">
+					<caption>	E-mail-adresse</caption>
+					<help>		Angiv en e-mail-adresse til denne profil</help>
+				</property>
+				<property name="Company">
+					<caption>	Firma</caption>
+					<help>		Angiv et firmanavn til denne profil</help>
+				</property>
+     			<property name="Sid">
+					<caption>	Brugernavn</caption>
+					<help>		Angiv, hvilket bruger-/logonnavn som skal være knyttet til denne profil</help>
+				</property>
+				<property name="Profile">
+					<caption>	Profil</caption>
+					<help>		Angiv profil/kompetence til denne profil </help>
+				</property>
+				<property name="Title">
+					<caption>	Titel</caption>
+					<help>		Angiv en titel til denne profil</help>
+				</property>
+				<property name="AddedPropDepartment">
+					<caption>	Afdeling</caption>
+					<help>		Angiv en afdeling til denne profil</help>
+				</property>
+				<property name="Image">
+					<caption>	Billede</caption>
+					<help>		Angiv, hvilket billede der skal vises på denne profil</help>
+				</property>
+				<property name="Telephone">
+					<caption>	Telefon</caption>
+					<help>		Angiv telefonnummer, som skal vises på denne profil</help>
+				</property>
+     
+    			<property name="ExternalURL">
+					<caption>	Sti til eksternt hyperlink</caption>
+					<help>		Angiv adressen på det websted/den side, som du vil oprette et hyperlink til. Inklusive http://</help>
+				</property>
+ 				<property name="ListingSlideContainer">
+					<caption>	Hent diasshow fra</caption>
+					<help>		Vælg den side, som du vil hente et diasshow fra</help>
+				</property>
+				<property name="ListingSlideCount">
+					<caption>	Vis antal sider i diasshow</caption>
+					<help>		Angiv med et heltal, hvor mange sider der skal vises i diasshowet</help>
+				</property>
+				<property name="RefreshRate">
+					<caption>	Antal sekunder som hver side skal vises i</caption>
+					<help>		Angiv med et heltal, hvor mange sekunder hver side skal vises i diasshowet</help>
+				</property>
+				<property name="PersonalizableProperties">
+					<caption>	Egenskaber som skal ændres af portalbesøgende</caption>
+					<help>		Marker de alternativer, som kan ændres af en portalbesøgende</help>
+				</property>
+				<property name="RssUrl">
+					<caption>	Sti til RSS-kilde</caption>
+					<help>		Angiv adressen til nyhederne i RSS-format. Normalt en webadresse.</help>
+				</property>
+				<property name="RssHeading">
+					<caption>	Overskrift til RSS-kilde</caption>
+					<help>		Angiv overskrift til nyhederne i RSS-format.</help>
+				</property>
+				<property name="PagingSize">
+					<caption>	Vis antal nyheder på RSS-liste</caption>
+					<help>		Angiv med et heltal, hvor mange nyheder der skal vises på listen</help>
+				</property>
+				<property name="OnlyShowHeaders">
+					<caption>	Vis kun overskrifter på RSS-liste</caption>
+					<help>		Marker dette alternativ, så der kun vises overskrifter med RSS-nyheder på listen</help>
+				</property>
+				<property name="ExchangeServer">
+					<caption>	Exchange-server</caption>
+					<help>		Angiv navnet på den server, hvor Exchange er installeret</help>
+				</property>
+				<property name="ExchangeUser">
+					<caption>	Brugernavn</caption>
+					<help>		Angiv brugernavn på det Exchange-bibliotek, som skal vises</help>
+				</property>
+				<property name="ExchangeAction">
+					<caption>	Vis Exchange-visning</caption>
+					<help>		Angiv den visning i Exchange, som skal vises, f.eks. indbakke eller kalender</help>
+				</property>
+				<property name="AdvancedPortalModeLeftTopContent">
+					<caption>	Indhold i området øverst til venstre </caption>
+					<help>		Angiv den side, som skal vises som standard i området øverst til venstre</help>
+				</property>
+				<property name="AdvancedPortalModeLeftBottomContent">
+					<caption>	Indhold i området nederst til venstre </caption>
+					<help>		Angiv den side, som skal vises som standard i området nederst til venstre</help>
+				</property>
+				<property name="AdvancedPortalModeMainContent">
+					<caption>	Indhold i hovedområdet</caption>
+					<help>		Angiv den side, som skal vises som standard i hovedområdet</help>
+				</property>
+				<property name="AdvancedPortalModeRightTopContent">
+					<caption>	Indhold i området øverst til højre </caption>
+					<help>		Angiv den side, som skal vises som standard i området øverst til højre</help>
+				</property>
+				<property name="AdvancedPortalModeRightCenterContent">
+					<caption>	Indhold i området i midten til højre </caption>
+					<help>		Angiv den side, som skal vises som standard i området i midten til højre</help>
+				</property>
+				<property name="AdvancedPortalModeRightBottomContent">
+					<caption>	Indhold i området nederst til højre </caption>
+					<help>		Angiv den side, som skal vises som standard i området nederst til højre</help>
+				</property>
+				<property name="SimplePortalModeMainContent">
+					<caption>	Indhold i hovedområdet</caption>
+					<help>		Angiv den side, som skal vises som standard i hovedområdet</help>
+				</property>
+				<property name="SimplePortalModeRightTopContent">
+					<caption>	Indhold i området øverst til højre </caption>
+					<help>		Angiv den side, som skal vises som standard i området øverst til højre</help>
+				</property>
+				<property name="SimplePortalModeRightMiddleContent">
+					<caption>	Indhold i området i midten til højre </caption>
+					<help>		Angiv den side, som skal vises som standard i området i midten til højre</help>
+				</property>
+				<property name="SimplePortalModeRightBottomContent">
+					<caption>	Indhold i området nederst til højre </caption>
+					<help>		Angiv den side, som skal vises som standard i området nederst til højre</help>
+				</property>
+				<property name="NewsCount">
+					<caption>	Vis antal nyheder på listen</caption>
+					<help>		Angiv med et heltal, hvor mange nyheder der skal vises</help>
+				</property>
+				<property name="EventsContainer">
+					<caption>	Hent kalenderhændelse fra</caption>
+					<help>		Angiv den side, som du vil hente kalenderhændelser fra</help>
+				</property>
+				<property name="EventsCount">
+					<caption>	Vis antal kalenderhændelser på listen</caption>
+					<help>		Angiv med et heltal, hvor mange hændelser der skal vises</help>
+				</property>
+				<property name="MainImage">
+					<caption>	Hovedbillede på startsiden</caption>
+					<help>		Angiv, hvilket billede som skal vises på startsiden</help>
+				</property>
+				<property name="MainNewsItem">
+					<caption>	Hovednyhed</caption>
+					<help>		Angiv en hovednyhed til startsiden</help>
+				</property>
+				<property name="HeaderImage">
+					<caption>	Billede øverst på webstedet</caption>
+					<help>		Angiv, hvilket billede der skal vises som hovedbillede på webstedet</help>
+				</property>
+				<property name="EPsPortalRegionName">
+					<caption>	Navn</caption>
+					<help>		Områdets navn</help>
+				</property>
+				<property name="EPsPortalRegionColor">
+					<caption>	Farve</caption>
+					<help>		Områdets farve</help>
+				</property>
+				<property name="EPsPortalRegionRefreshRate">
+					<caption>	Opdateringshastighed</caption>
+					<help>		Angiv, hvor ofte denne portaldel skal opdateres (minutter). 0 betyder, at portaldelen ikke indlæses automatisk og er standard</help>
+				</property>
+				<property name="NewsContainer">
+					<caption>Nyhedsliste</caption>
+					<help>Angiv den side, du vil hente nyheder fra</help>
+				</property>	
+				<property name="EmbeddedURL">
+					<caption>Sti til flashfilm</caption>
+					<help>Angiv stien til flashfilmen, som indlæses ved at klikke på knappen og markere filen</help>
+				</property>
+					<property name="Height">
+					<caption>Højde</caption>
+					<help>Flashfilmens højde</help>
+				</property>
+				<property name="Width">
+					<caption>Bredde</caption>
+					<help>Flashfilmens bredde</help>
+				</property>
+				<property name="StartPublishOffset">
+					<caption>	Start publicering dato i forhold til hvornår siden er oprettet</caption>
+					<help>		Indstil publiceringsdato i forhold til den dato, hvor siden oprettes</help>
+				</property>
+				<property name="StopPublishOffset">
+					<caption>	Slut publicering dato  i forhold til hvornår siden er oprettet</caption>
+					<help>		Indstil  publiceringsdato i forhold til den dato, hvor siden er oprettet</help>
+				</property>
+				<property name="MainBody">
+					<caption>Editor</caption>
+					<help>Indholdet af din side. Her der det muligt at skrive tekst, indsætte billeder, dokumenter, tabeller mm.</help>
+				</property>
+				<property name="ListingContainer">
+					<caption>Hent liste fra</caption>
+					<help>Anfør den side, hvor du vil hente lister fra</help>
+				</property>
+				<property name="ListingCount">
+					<caption>Vis antal sider i liste</caption>
+					<help>Anfør med heltal, hvor mange sider, der skal vises i liste</help>
+				</property>
+				<property name="ListingType">
+					<caption>Type side i liste</caption>
+					<help>Anfør hvilken sidetype, der skal vises i liste</help>
+				</property>
+				<property name="ListingCategoryList">
+					<caption>Vis følgende kategorier</caption>
+					<help>Anfør hvilke kategorier, der skal vises på denne side</help>
+				</property>
+				<property name="EPSUBSCRIBE">
+					<caption>Aktiver som abonnementrod</caption>
+					<help>Marker dette afkrydsningsfelt for at give besøgende mulighed for at abonnere på denne side og dens underordnede sider.</help>
+				</property>
+				<property name="WriterName">
+					<caption>Skribent</caption>
+					<help>Navn på den person, der er ansvarlig for indholdet</help>
+				</property>
+				<property name="MailTo">
+					<caption>E-mail adresse på modtager</caption>
+					<help>E-mail adresse på den person, der skal tage imod oplysningen</help>
+				</property>
+				<property name="MainIntro">
+					<caption>Indledning</caption>
+					<help>Indledende tekst, der oftest vises på lister</help>
+				</property>
+				<property name="MainBodyLoggedIn">
+					<caption>Editor til påloggede brugere</caption>
+					<help>Beskrivelse af, hvad en pålogget bruger kan vælge</help>
+				</property>
+				<property name="MainScope">
+					<caption>Område for IndexServer søgning</caption>
+					<help>Anfør det bibliotek, som søgningen skal udføres i. Hvis du lader dette felt stå tomt, sker søgningen i Upload biblioteket</help>
+				</property>
+				<property name="MainCatalog">
+					<caption>Bibliotek for Index Server</caption>
+					<help>Anfør det bibliotek, der er anført i Index Server</help>
+				</property>
+				<property name="RecentContainer">
+					<caption>Vis sider fra</caption>
+					<help>Anfør hvilken side, du vil vise de nyligt ændrede sider fra</help>
+				</property>
+				<property name="RecentHours">
+					<caption>Vis sider, der er ændret de seneste x timer</caption>
+					<help>Anfør et helt tal for hvor mange timer tilbage, de ændrede sider skal vises</help>
+				</property>
+				<property name="IndexContainer">
+					<caption>Vis indhold fra side</caption>
+					<help>Anfør hvilken side, indholdsfortegnelsen skal starte med</help>
+				</property>
+				<property name="IndexLevel">
+					<caption>Vis indholdsfortegnelse med antal niveauer ned</caption>
+					<help>Anfør et helt tal for, hvor mange underniveauer, der skal vises i indholdsfortegnelsen</help>
+				</property>
+				<property name="IndexColumns">
+					<caption>Antal kolonner til indholdsfortegnelse</caption>
+					<help>Anfør et helt tal for, hvor mange kolonner, der skal vises i indholdsfortegnelsen</help>
+				</property>
+				<property name="MailFrom">
+					<caption>E-mail afsender</caption>
+					<help>E-mail adresse på den person, der skal tage imod svaret på formularen</help>
+				</property>
+				<property name="MainForm">
+					<caption>Formular</caption>
+					<help>Anfør hvilken formular, der skal vises på siden. Ved at klikke på knappen kan du oprette egne formularer</help>
+				</property>
+				<property name="EPSUBSCRIBEHIDDEN">
+					 <caption>Vis ikke på abonnementsiden</caption>
+     					<help>Angi om du vil at besøkeren skal kunne abonnere på denne siden via den ordinære abonnementssiden</help>
+				</property>
+				<property name="NewsGroupRoot">
+					<caption>Hovedside til nyhedsgrupper</caption>
+					<help>Anfør hvilken side, der er hovedside til nyhedsgruppen</help>
+				</property>
+				<property name="NewsGroupPageTypeID">
+					<caption>Sidetype til indlæg</caption>
+					<help>Anfør hvilken sidetype, der skal anvendes til indlæg</help>
+				</property>
+				<property name="AllowNewsItem">
+					<caption>Tillad indlæg</caption>
+					<help>Ved å markere dette alternativet tillater du innlegg i gruppen</help>
+				</property>
+				<property name="WriterEmail">
+					<caption>E-mail adresse</caption>
+					<help>E-mail adresse på den, der har oprettet indlægget</help>
+				</property>
+				<property name="NewsGroupContainer">
+					<caption>Tilhører følgende nyhedsgruppe</caption>
+					<help>Anfør hvilken nyhedsgruppe, dette indlæg skal tilhøre</help>
+				</property>
+				<property name="MainMenuContainer">
+					<caption>Vis menuer fra</caption>
+					<help>Anfør det sted i menutræet, hvorfra du vil vise menuer på den valgte side</help>
+				</property>
+				<property name="MainSearchPage">
+					<caption>Global søgeside</caption>
+					<help>Anfør hvilken side, der er global søgeside for web-siten</help>
+				</property>
+				<property name="MetaDescription">
+					<caption>Beskrivelse af siden</caption>
+					<help>Angiv en kort beskrivelse af sidens indhold</help>
+				</property>
+				<property name="MetaKeywords">
+					<caption>Standardsøgeord til sider</caption>
+					<help>Anfør, adskilt af et komma, en liste med søgeord, der matcher denne side</help>
+				</property>
+				<property name="EventInputGuide">
+					<caption>Tilbagevendende aktivitet</caption>
+					<help>Ved at markere denne indstilling opretter du en tilbagevendende aktivitet</help>
+				</property>
+				<property name="EventStartDate">
+					<caption>Starttid</caption>
+					<help>Anfør starttid for aktivitet</help>
+				</property>
+				<property name="EventStopDate">
+					<caption>Sluttid</caption>
+					<help>Anfør sluttid for aktivitet</help>
+				</property>
+				<property name="ValidDays">
+					<caption>Tilbagevendende</caption>
+					<help>Angiv, hvilken dag aktiviteten skal gentages med fast interval</help>
+				</property>
+				<property name="nDaysToRender">
+					<caption>Vis antal dage fra</caption>
+					<help/>
+				</property>
+				<property name="CalendarType">
+					<caption>Type sider, der skal vises i kalenderen</caption>
+					<help/>
+				</property>
+				<property name="CalendarContainer">
+					<caption>Vis kalender fra</caption>
+					<help/>
+				</property>
+				<property name="Box1Caption">
+					<caption>1. Navn</caption>
+				</property>
+				<property name="Box1Container">
+					<caption>1. Hent liste fra</caption>
+					<help>Anfør den side, hvor du vil hente lister fra</help>
+				</property>
+				<property name="Box1Count">
+					<caption>1. Vis antal sider i liste</caption>
+					<help>Anfør med heltal, hvor mange sider, der skal vises i liste</help>
+				</property>
+				<property name="Box1SortOrder">
+					<caption>1. Sorteringsorden</caption>
+					<help>Viser i hvilken orden underliggende sider til denne vil blive vist</help>
+				</property>
+				<property name="Box2Caption">
+					<caption>2. Navn</caption>
+				</property>
+				<property name="Box2Container">
+					<caption>2. Hent liste fra</caption>
+					<help>Anfør den side, hvor du vil hente lister fra</help>
+				</property>
+				<property name="Box2Count">
+					<caption>2. Vis antal sider i liste</caption>
+					<help>Anfør med heltal, hvor mange sider, der skal vises i liste</help>
+				</property>
+				<property name="Box2SortOrder">
+					<caption>2. Sorteringsorden</caption>
+					<help>Viser i hvilken orden underliggende sider til denne vil blive vist</help>
+				</property>
+				<property name="MailSubject">
+					<caption>	Emnelinje i e-mail-meddelelse</caption>
+					<help>		Det, som angives her, vil stå i overskriften på de e-mail-meddelelser, der udsendes. </help>
+				</property>
+				<property name="MailReadMore">
+					<caption>	Tekst i e-mail til hyperlinks til sider</caption>
+					<help>		Denne tekst vil fungere som hyperlink til den side, som er ændret, og som abonnementsfunktionen dermed har sendt ud. </help>
+				</property>
+				<property name="MailBody">
+					<caption>	Indledningstekst til e-mail</caption>
+					<help>		Denne tekst er den indledning, som sendes til alle abonnenter, når de får en ny abonnements-e-mail. </help>
+				</property>
+				<property name="EPSUBSCRIBE-ROOT">
+					<caption>	Abonnementsvalg</caption>
+					<help>		Angiv, hvilket startpunkt netop denne abonnementsside skal søge nye og ændrede sider fra. </help>
+				</property>
+				<property name="MainContainer">
+					<caption>			Startside for søgningen</caption>
+					<help>				Hvis dette felt er tomt, starter søgningen fra startsiden</help>
+				</property>
+				<property name="RightListingContainer">
+					<caption>			Liste til højre</caption>
+					<help>				Angiv startpunkt for hjælpelisten til højre.</help>
+				</property>
+				<property name="EnableStatistics">
+					<caption>		Vise statistikken på sideskabelonen</caption>
+					<help>			Viser resultatet af posteringer for besøgende</help>
+				</property>
+				<property name="ConferenceContainer">
+					<caption>Startside for konferencen</caption>
+					<help>Anfør hvilken side, der er den første side på dette forum (oftest denne side)</help>
+				</property>
+				<property name="Sitemap">
+					<caption>Hent siden med sitemap fra</caption>
+					<help>Angiv, hvilken side der skal vises som sitemap i hurtiglinks</help>
+				</property>
+				<property name="RegisterPage">
+					<caption>Hent side med personlig profil fra</caption>
+					<help>Angiv, hvilken side der skal vises som personlig profil i hurtiglinks</help>
+				</property>
+				<property name="ProfileContainer">
+					<caption>Find profiler fra</caption>
+					<help>Angiv den placering i menutræet, som du vil søge efter profiler fra. Normalt denne side.</help>
+				</property>
+				<property name="DisableName">
+					<caption>Gem navn</caption>
+					<help>Tillad ikke brugeren at ændre navn</help>
+				</property>
+				<property name="DisableDescription">
+					<caption>Gem beskrivelse</caption>
+					<help>Tillad ikke brugeren at ændre beskrivelse</help>
+				</property>
+				<property name="DisableFirstname">
+					<caption>Gem fornavn</caption>
+					<help>Tillad ikke brugeren at ændre fornavn</help>
+				</property>
+				<property name="DisableLastname">
+					<caption>Gem efternavn</caption>
+					<help>Tillad ikke brugeren at ændre efternavn</help>
+				</property>
+				<property name="DisableEmail">
+					<caption>Gem e-mail</caption>
+					<help>Tillad ikke brugeren at ændre e-mail</help>
+				</property>
+				<property name="DisableCompany">
+					<caption>Gem firma</caption>
+					<help>Tillad ikke brugeren at ændre firma</help>
+				</property>
+				<property name="DisableTitle">
+					<caption>Gem titel</caption>
+					<help>Tillad ikke brugeren at ændre titel</help>
+				</property>
+				<property name="DisableAddress">
+					<caption>Gem adresse</caption>
+					<help>Tillad ikke brugeren at ændre adresse </help>
+				</property>
+				<property name="DisablePostalNumber">
+					<caption>Gem postnr.</caption>
+					<help>Tillad ikke brugeren at ændre postnr.</help>
+				</property>
+				<property name="DisableTelephone">
+					<caption>Gem telefonnr.</caption>
+					<help>Tillad ikke brugeren at ændre telefonnr.</help>
+				</property>
+				<property name="DisableMobile">
+					<caption>Gem mobilnr.</caption>
+					<help>Tillad ikke brugeren at ændre mobilnr.</help>
+				</property>
+				<property name="DisableLanguage">
+					<caption>Gem sprog</caption>
+					<help>Tillad ikke brugeren at ændre sprog</help>
+				</property>
+				<property name="DisablePassword">
+					<caption>Gem adgangskode</caption>
+					<help>Tillad ikke brugeren at ændre adgangskode</help>
+				</property>
+				<property name="DisablePostalAddress">
+					<caption>Gem postadresse</caption>
+					<help>Tillad ikke brugeren at ændre postadresse</help>
+				</property>
+				<property name="ProfilePageType">
+					<caption>Sidetype der skal vises i kompetencedatabasen</caption>
+					<help>Vælg den sidetype der skal anvendes som personlig side i kompetencedatabasen</help>
+				</property>
+				<property name="DocumentInternalPath">
+					<caption>Sti til dokumentet</caption>
+					<help>Sti til en kopi af kildedokumentet. Dette felt opdateres automatisk.</help>
+				</property>
+				<property name="DocumentInternalHtmlPath">
+					<caption>Sti til HTML-versionen</caption>
+					<help>Sti til den fuldstændige HTML-version af dokumentet. Dette felt opdateres automatisk.</help>
+				</property>
+				<property name="DocumentExternalPath">
+					<caption>Ekstern sti til kildedokumentet</caption>
+					<help>Fuldstændig sti til kildedokumentet, som anvendes til at offentliggøre siden. Dette felt opdateres automatisk.</help>
+				</property>
+				<property name="IsDocumentPageType">
+					<caption>Overfør en fuldstændig HTML-version samt kildedokumentet</caption>
+					<help>Marker dette alternativ, hvis du vil vise den fuldstændige HTML-version</help>
+				</property>
+				<property name="AllowDocumentUpdate">
+					<caption>Tillad, at siden opdateres fra dokumentet</caption>
+					<help>Marker dette alternativ, hvis du vil gemme en reference til denne side i dokumentet</help>
+				</property>
+				<property name="DisplayDownloadLink">
+					<caption>Vis et hyperlink til download af kildedokumentet</caption>
+					<help>Marker dette alternativ for at vise et hyperlink til kildedokumentet på listen</help>
+				</property>
+				<property name="Document">
+					<caption>Sti til dokument</caption>
+					<help>Sti til den pdf-fil, der skal vises.</help>
+				</property>
+				<property name="InformationChannel">
+					<caption>Informationskanal</caption>
+					<help>Hvis WSRP-portletten &quot;Visning af oplysninger&quot; er valgt, kan denne gren i træet vælges.</help>
+				</property>
+				<property name="MainXForm">
+					<caption>Formular</caption>
+					<help>Angiv, hvilken formular der skal vises på denne side. Du kan oprette dine egne formularer ved at klikke på knappen</help>
+				</property>
+				<property name="WorkroomsConfigPage">
+					<caption>Hent skabelon til arbejdsrum fra</caption>
+					<help>Angiv den side, du vil bruge som skabelon, når du opretter arbejdsrum.</help>
+				</property>
+				<property name="DocumentRootDirectory">
+					<caption>Mappe til dokumenthåndtering</caption>
+					<help>Angiv søgestien til den mappe, hvor du vil gemme dokumenter fra arbejdsrummet.</help>
+				</property> 
+				<property name="IsActiveWorkroom">
+					<caption>Arbejdsrummet er aktivt</caption>
+					<help>Marker dette afkrydsningsfelt, hvis arbejdsrummet skal være aktivt.</help>
+				</property> 
+				<property name="BulletinBoardContainer">
+					<caption>Hent BBS fra</caption>
+					<help>Angiv den side, der skal være rodside for BBS&apos;en.</help>
+				</property>
+				<property name="IsActiveCalendar">
+					<caption>Kalenderen er aktiv</caption>
+					<help>Marker dette afkrydsningsfelt, hvis kalenderen skal være aktiv.</help>
+				</property>
+				<property name="IsActiveBulletinBoard">
+					<caption>BBS&apos;en er aktiv</caption>
+					<help>Marker dette afkrydsningsfelt, hvis BBS&apos;en skal være aktiv.</help>
+				</property>
+				<property name="IsActiveFileList">
+					<caption>Dokumenthåndtering er aktiv</caption>
+					<help>Marker dette afkrydsningsfelt, hvis dokumenthånderingen skal være aktiv.</help>
+				</property>
+				<property name="IsActiveNewsList">
+					<caption>Nyhedsliste er aktiv</caption>
+					<help>Marker dette afkrydsningsfelt, hvis nyhedslisten skal være aktiv.</help>
+				</property>
+				<property name="IsActiveOverview">
+					<caption>Oversigt er aktiv</caption>
+					<help>Marker dette afkrydsningsfelt, hvis oversigten skal være aktiv.</help>
+				</property>
+				<property name="MemberStatusInfo">
+					<caption>Oplysninger om medlemsstatus</caption>
+					<help>Viser oplysninger om de forskellige medlemmers status.</help>
+				</property>
+				<property name="FileRoot">
+					<caption>Rodmappe for arbejdsrum</caption>
+					<help>Angiv den mappe, hvor arbejdsrummets undermapper skal oprettes.</help>
+				</property>								
+				<property name="_wsrpCommonPortalInfo">
+					<caption>Fællesportaldata</caption>
+					<help>Oplysninger om fællesportaldata.</help>
+				</property>				
+				<property name="_wsrpLayoutControl">
+					<caption>Layoutkontrolelementer</caption>
+					<help>Layoutkontrolelementer, kommasepareret</help>
+				</property>		
+				<property name="EPSUBSCRIBE-EXCLUDE">
+					<caption>Bloker for abonnementer på denne side</caption>
+					<help>Marker dette afkrydsningsfelt for at blokere for abonnementsopdateringer på denne side.</help>
+				</property>
+				<property name="BlogPostForm">
+					<caption>Formular til blog-indlæg</caption>
+					<help>Angiv den formular, der skal bruges til blog-indlæg på denne side. Hvis du klikker på knappen, kan du oprette dine egne formularer.</help>
+				</property>			
+				<property name="BlogCommentForm">
+					<caption>Formular til kommentarer</caption>
+					<help>Angiv den formular, der skal bruges til kommentarer til blog-indlæg på denne side. Hvis du klikker på knappen, kan du oprette dine egne formularer.</help>
+				</property>			
+				<property name="BlogListLayout">
+					<caption>Formatering af blog-liste</caption>
+					<help>Angiv det format, der skal bruges til listen over blog-indlæg på denne side.</help>
+				</property>		
+			</common>
+			<pagetype name="My Settings">
+				<name>Mine indstillinger</name>
+				<description>En indstillingsside, hvor brugeren bl.a. kan ændre adgangskode og andre personlige indstillinger</description>
+			</pagetype>
+			<pagetype name="Ordinary web page">
+				<name>Normal web-site</name>
+				<description>Normal informationsside</description>
+			</pagetype>
+			<pagetype name="Subscription">
+				<name>Prenumeration</name>
+				<description>Side, hvor den besøgende skal vælge oplysninger om prenumeration</description>
+			</pagetype>
+			<pagetype name="Calendar">
+				<name>Kalender</name>
+				<description>Hovedside for kalender</description>
+			</pagetype>
+			<pagetype name="Calendar event">
+				<name>Kalenderbegivenhed</name>
+				<description>Side til en ny begivenhed i kalenderen</description>
+			</pagetype>
+			<pagetype name="Discussion forum">
+				<name>Diskussionsforum</name>
+				<description>Hovedside til opbygning af diskussionsforum</description>
+			</pagetype>
+			<pagetype name="Search">
+				<name>Søg</name>
+				<description>Side til søgning af oplysninger på web-siten</description>
+			</pagetype>
+			<pagetype name="Changed recently">
+				<name>Ændret for nylig</name>
+				<description>Side, der viser en liste med sider, der for nylig er ændret</description>
+			</pagetype>
+			<pagetype name="Index">
+				<name>Indholdsfortegnelse</name>
+				<description>Side, der viser indholdet af hele eller dele af web-siten</description>
+			</pagetype>
+			<pagetype name="File listing">
+				<name>Filliste</name>
+				<description>Side med liste over filer fra et bibliotek på web-serveren</description>
+			</pagetype>
+			<pagetype name="Start page">
+				<name>Startside</name>
+				<description>Startside på web-siten</description>
+			</pagetype>
+			<pagetype name="News groups, main page">
+				<name>Nyhedsgrupper, hovedside</name>
+				<description>Hovedside for nyhedsgrupper</description>
+			</pagetype>
+			<pagetype name="News groups, category">
+				<name>Nyhedsgrupper, kategori</name>
+				<description>Kategori for nyhedsgrupper</description>
+			</pagetype>
+			<pagetype name="News groups, news group">
+				<name>Nyhedsgrupper, nyhedsgruppe</name>
+				<description>Side for nyhedsgruppe</description>
+			</pagetype>
+			<pagetype name="News groups, news item">
+				<name>Nyhedsgrupper, indlæg</name>
+				<description>Side til indlæg i en nyhedsgruppe</description>
+			</pagetype>
+			<pagetype name="Register users">
+				<name>Registrér brugere</name>
+				<description>Side hvor den besøgende kan registrere sig selv på web-siten</description>
+			</pagetype>
+			<pagetype name="Form page">
+				<name>Formularside</name>
+				<description>Side, der indeholder en formular</description>
+			</pagetype>
+			<pagetype name="Alphabetical index">
+				<name>Alfabetisk indholdsfortegnelse</name>
+				<description>Viser sider sorterede i bogstavsrækkefølge</description>
+			</pagetype>
+			<pagetype name="Flash page">
+				<name>Flashsiden</name>
+				<description>Siden, som indlæser en flashfilm</description>
+			</pagetype>		
+			<pagetype name="Mobile page">
+				<name>Mobile enheder</name>
+				<description>Siden for mobile enheder</description>
+			</pagetype>		
+			<pagetype name="Vote">
+				<name>Afstemning</name>
+				<description>Side, hvor de besøgende kan stemme på et spørgsmål</description>
+			</pagetype>
+			<pagetype name="News list">
+				<name>Nyhedsliste</name>
+				<description>Viser interne nyheder på webstedet eller eksterne nyheder fra en RSS-kilde</description>
+			</pagetype>
+			<pagetype name="Profile search">
+				<name>Kompetencedatabase</name>
+				<description>Søgeside til personligt register</description>
+			</pagetype>
+			<pagetype name="Personal profile">
+				<name>Personlig profil</name>
+				<description>Personlig side til oplysninger om en enkeltperson. Anvendes til personregisteret</description>
+			</pagetype>
+			<pagetype name="Slide show">
+				<name>Diasshow</name>
+				<description>Viser et antal siders indhold som et diasshow med et valgt interval</description>
+			</pagetype>
+			<pagetype name="EPiServer Portal Framework">
+				<name>EPiServer Portal Framework</name>
+				<description>En portal med standardindstillinger som hver besøgende kan tilpasse til sin egen portal</description>
+			</pagetype>
+			<pagetype name="RSS source">
+				<name>RSS-kilde</name>
+				<description>Viser oplysninger fra EPiServer i RSS-format</description>
+			</pagetype>
+			<pagetype name="External link">
+				<name>Eksternt hyperlink</name>
+				<description>Viser oplysninger om et andet websted</description>
+			</pagetype>
+			<pagetype name="News page">
+				<name>Nyhedsside</name>
+				<description>Side til oprettelse af en privat nyhed. Siden vises ikke i menuer</description>
+			</pagetype>
+			<pagetype name="ReadSpeaker">
+				<name>ReadSpeaker</name>
+				<description>En oplysningsside, hvor indholdet kan høres i højttalerne</description>
+			</pagetype>
+			<pagetype name="Multilanguage page">
+				<name>Side med flere sprog</name>
+				<description>En oplysningsside, hvor indholdet kan skrives parallelt på flere sprog </description>
+			</pagetype>
+			<pagetype name="Document">
+				<name>Dokumentside</name>
+				<description>Dokument, som er offentliggjort fra Microsoft Office</description>
+			</pagetype>
+			<pagetype name="Document list">
+				<name>Dokumentliste</name>
+				<description>Viser en liste med dokumenter, der offentliggøres fra Microsoft Office</description>
+			</pagetype>
+			<pagetype name="PDF Form">
+				<name>PDF-formular</name>
+				<description>Side, som genererer en pdf-fil med data fra siden</description>
+			</pagetype>
+			<pagetype name="WorkroomList">
+				<name>Hovedside for arbejdsrum</name>
+				<description>Viser en liste med arbejdsrum</description>
+			</pagetype>
+			<pagetype name="Workroom">
+				<name>Arbejdsrum</name>
+				<description>Side til et arbejdsrum</description>
+			</pagetype>
+			<pagetype name="BlogStartPage">
+				<name>Hovedside for blog-indlæg</name>
+				<description>Hovedside til oprettelse af blog-indlæg</description>
+			</pagetype>
+			<pagetype name="BlogPage">
+				<name>Blog-side</name>
+				<description>Side til en blog</description>
+			</pagetype>					
+		</pagetypes>
+		<categories>
+			<category name="News">
+				<description>Nyheder</description>
+			</category>
+			<category name="Technical">
+				<description>Teknik</description>
+			</category>
+			<category name="Data">
+				<description>Data</description>
+			</category>
+			<category name="Support">
+				<description>Support</description>
+			</category>
+		</categories>		
+	</language>
+</languages>

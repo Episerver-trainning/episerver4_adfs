@@ -1,0 +1,54 @@
+#id_matrix
+{
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: Silver;
+}
+#id_matrix td
+{
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: Silver;
+	width       : 100;
+}
+body 
+{
+	padding: 0.2em;
+	margin: 0.2em;
+	border: none;
+	font: normal 0.7em tahoma;
+	background-color: #ECEFF3;
+	color: black;
+}
+td, select, button, table, input.button
+{
+	font-size: 1em;
+	color: black;
+}
+input.inputtext, textarea.inputtext, select.inputtext
+{
+	font-size: 1em;
+	width: 18em;
+	color: black;
+}
+div.EPEdit-formProperties
+{
+	padding: 5px;
+	background: white;
+	border:solid 1px #6D8CA8;
+	display: none;
+	width: 25em;
+}
+td.editarea
+{
+	padding: 5px;
+	background: white;
+	border:solid 1px #6D8CA8;
+	height: 30em;
+	width: 40em;
+}
+.compactheading
+{
+	padding: 0;
+	margin: 0;
+}

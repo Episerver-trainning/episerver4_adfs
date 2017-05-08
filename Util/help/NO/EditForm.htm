@@ -1,0 +1,181 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjelp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/EditForm.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="In English" width="20" height="14"></a>
+    <a href="../SV/EditForm.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="På svenska" width="20" height="14"></a>
+     <a href="../NO/EditForm.htm">
+    <img border="0" src="../EN/images/no.gif" alt="På norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Skjemainnstillinger</h1>
+    <p>
+			<img border="0" src="images/formular_inst.png" width="255" height="407" align="right"><p>
+	Dialogboksen Skjemainnstillinger brukes til å lage skjemaet. Her bygger du 
+	opp en tabell og legger til skjemafelt. Du kan også velge hvilke egenskaper 
+	de enkelte feltene skal ha. <br>
+	Øverst i vinduet angir du hvordan du vil håndtere informasjonen som sendes.
+	</p>
+	<ol>
+		<li>I feltet <i>Navn på skjemaet</i> angir du et navn for skjemaet. Dette navnet vil 
+	stå på Emne-linjen hvis du sender skjemaet som e-post.</li>
+		<li>I feltet <i>Resultat av sending</i> angir du hva som skal skje når besøkende sender 
+	skjemaet. Du kan velge å lagre dem i database og/eller sende den med e-post. 
+	Du kan også angi å sende skjemaet til en webadresse der du har et eget 
+	program som tar seg av informasjonen.</li>
+		<li>I feltet <i>Side som vises etter svar</i> kan du peke ut en side som skal vises når 
+	besøkende har sendt svaret. Opprett siden ved hjelp av sidemalen Vanlig 
+	webside, og velg siden som takkeside.</li>
+		<li>Merk av i feltet <i>Skjemaet kan sendes anonymt</i> hvis du vil at hvem som helst 
+	på webområdet skal kunne sende skjemaet. Hvis det ikke er merket av for 
+	dette alternativet, må man være logget på for å kunne svare. </li>
+		<li>Merk av i feltet <i>Tillat samme person å sende skjemaet flere ganger</i> hvis du 
+	vil at en og samme person (datamaskin) skal kunne sende skjemaet flere 
+	ganger. Hvis du ikke merker av for dette alternativet, vil skjemaet bare 
+	kunne sendes inn én gang per datamaskin. Dette fungerer ved at en 
+	informasjonskapsel (cookie) plasseres på den besøkendes datamaskin. </li>
+	</ol>
+	<hr size="1" color="6D8CA8">
+	<h2>Bygg opp skjemaet</h2>
+	I den nedre delen av Skjemainnstillinger oppretter du en tabell med knappene 
+	under tabellen. <b>Legg til rad</b> plasseres alltid nederst i tabellen. <b>Legg til 
+	kolonne</b> plasseres alltid lengst til høyre i tabellen. Ved å velge <b>Sett inn 
+	rad</b> kan du sette inn en rad over den merkede raden. <b>Sett inn kolonne</b> setter 
+	inn en kolonne til venstre for den merkede kolonnen. Merk en rad eller 
+	kolonne ved å klikke på et innsatt felt i cellen. Hvis det ikke finnes noen 
+	felt i tabellen, må du begynne med å dra inn et felt. <br>
+	Plasser ulike felt ved å ta tak i feltet fra høyre kant og dra det til 
+	ønsket plass i tabellen. En celle i tabellen kan bare inneholde ett 
+	skjemafelt. 
+	<p>Når du har dratt inn et skjemafelt i cellen, åpnes innstillingene for den 
+	aktuelle felttypen ved siden av tabellen. Innstillingene varierer avhengig 
+	av hvilket felt du har valgt. Alle felt har egenskapen CSS-klasse. Der kan 
+	du fylle ut en CSS-klasse som finnes i CSS-filen som brukes for webområdet. 
+	Kontakt systemansvarlig for å få mer informasjon. Når alle egenskapene for 
+	de respektive felt er fylt ut, bruker du knappen Lagre nederst i vinduet. Du 
+	må lagre hvert enkelt felt og feltinnstillinger. Hvis du vil slette et felt, 
+	velger du knappen Slett under feltinnstillingene. </p>
+	</p>
+	<h3>Ledetekst</h3>
+	<p>Ledetekst er en felttype som brukes for at besøkende skal vite hva de skal 
+	fylle ut i de enkelte feltene.</p>
+	<ol>
+		<li>I feltet <i>Navn</i> angir du teksten som skal vises for besøkende. <br>
+		<br></li>
+	</ol>
+	<h3>Tekstfelt</h3>
+	Tekstfelt er en felttype som gir besøkende et innmatingsfelt i form av en 
+	rad der de kan skrive inn tekst. Denne felttypen brukes for kortere 
+	tekstinformasjon som besøkende angir. 
+	<ol>
+		<li>I feltet <i>Navn</i> angir du et navn for feltet slik at du vet hvilket felt den 
+	besøkende har fylt ut. Det enkleste er å bruke samme eller lignende navn som 
+	det du har brukt i feltets ledetekst. </li>
+		<li>I feltet <i>Bredde</i> angir du hvor mange tegn feltet kan inneholde. <br>Du må merke av i feltet 
+		<i>Verdien må angis</i> hvis du vil at besøkende ikke skal 
+	kunne sende skjemaet uten å fylle ut dette feltet. </li>
+	</ol>
+	<h3>Tekstrute</h3>
+	Tekstrute er en felttype som gir besøkende et stort felt der de kan skrive 
+	inn tekst. Du kan selv bestemme hvor mange tegn og hvor mange rader feltet 
+	skal inneholde. 
+	<ol>
+		<li>I feltet <i>Navn</i> angir du et navn for feltet slik at du vet hvilket felt den 
+	besøkende har fylt ut. Det enkleste er å bruke samme eller lignende navn som 
+	det du har brukt i feltets ledetekst. </li>
+		<li>I feltet <i>Bredde</i> angir du hvor mange tegn feltet kan inneholde.
+		</li>
+		<li>I feltet <i>Høyde</i> angir du hvor mange rader tekstruten skal inneholde.</li>
+		<li>Du må merke av i feltet <i>Verdien må angis</i> hvis du vil at besøkende ikke skal 
+	kunne sende skjemaet uten å fylle ut dette feltet. </li>
+	</ol>
+	<h3>Flervalgsliste</h3>Flervalgsliste er en felttype som gir besøkende en rullegardinmeny der de 
+	kan velge ett av flere alternativer som du har angitt. 
+	<ol>
+		<li>I feltet <i>Navn</i> angir du et navn for feltet slik at du vet hvilket felt den 
+	besøkende har fylt ut. Det enkleste er å bruke samme eller lignende navn som 
+	det du har brukt i feltets ledetekst. </li>
+		<li>I feltet <i>Alternativ</i> angir du de ulike alternativene som besøkende skal kunne 
+	velge blant. Skriv inn alternativene, og trykk på ENTER mellom alternativene 
+	for å skille dem fra hverandre. <br>&nbsp;</li>
+	</ol>
+	<h3>Alternativknapp</h3>Alternativknapp er en felttype som gir besøkende en liste med ulike 
+	alternativer, der de kan velge ett av flere alternativer som du har angitt.
+		<ol>
+		<li>I feltet <i>Navn</i> angir du et navn for feltet slik at du vet hvilket felt den 
+	besøkende har fylt ut. Det enkleste er å bruke samme eller lignende navn som 
+	det du har brukt i feltets ledetekst. </li>
+		<li>I feltet <i>Plassering</i> angir du om alternativene skal vises horisontalt eller 
+	vertikalt.</li>
+		<li>I feltet <i>Alternativ</i> angir du de ulike alternativene som besøkende skal kunne 
+	velge blant. Skriv inn alternativene, og trykk på ENTER mellom alternativene 
+	for å skille dem fra hverandre. </li>
+	</ol>
+	<h3>Avmerkingsboks</h3>Avmerkingsboks er en felttype som gir besøkende en liste med ulike 
+	alternativer, der de kan velge ett eller flere alternativer som du har 
+	angitt. 
+	<ol>
+		<li>I feltet <i>Navn</i> angir du et navn for feltet slik at du vet 
+		hvilket felt den besøkende har fylt ut. Det enkleste er å bruke samme 
+		eller lignende navn som det du har brukt i feltets ledetekst.</li>
+		<li>I feltet <i>Plassering</i> angir du om alternativene skal vises horisontalt eller 
+	vertikalt.</li>
+		<li>I feltet <i>Alternativ</i> angir du de ulike alternativene som besøkende skal kunne 
+	velge blant. Skriv inn alternativene, og trykk på ENTER mellom alternativene 
+	for å skille dem fra hverandre.</ol> <p>Når skjemaet er ferdig og alle felt og feltegenskaper er lagret, lagrer du 
+	hele skjemaet med knappen Lagre midt i dialogboksen Skjemainnstillinger. 
+	Lagre og publiser siden.</p>
+	
+	
+	</h3>
+	<hr size="1" color="6D8CA8">
+	</p>
+	<h2>Fanen Skjemadata</h2>
+	Hvis du i skjemaet har valgt å lagre informasjonen i databasen, kan du 
+	finne alle innsendte skjemaer på fanen Skjemadata. Fanen vises ved siden av 
+	Versjonsliste når du har lagret og publisert skjemasiden.<br>
+	Velg fanen Skjemadata for å få frem et søkeskjema. Der kan du spesifisere om 
+	du vil søke på spesifikke datoer og hvor mange treff du vil ha per side. 
+	Hvis du vil vise alle innlegg, kan du velge knappen Søk direkte. 
+	<p>Når du har søkt på innsendte skjemaer, vises resultatlisten under 
+	søkeskjemaet. Du kan bla gjennom sidene hvis det finnes flere, eller du kan 
+	fjerne synlige innlegg.</p>
+	<p>Hvis du vil bearbeide informasjonen i Microsoft Excel, kan du velge knappen 
+	Eksporter til Excel. Første gang du gjør dette, blir du spurt om du godtar 
+	integrasjon mellom EPiServer og Office. Svar JA på dette spørsmålet, så vil 
+	data fra skjemaet vises i Excel og kunne bearbeides der.</p>
+	</p>
+	<p><img border="0" src="images/form_data.png" width="490" height="256"></p></td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Les mer i <a href="Redaktørhåndbok_online.pdf">
+    Redaktørhåndbok</a> - Les mer i <a href="Adminhåndbok_online.pdf">
+    Administratørhåndbok</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

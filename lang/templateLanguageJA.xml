@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+	<language name="Japanese" id="JA">
+		<templates>
+			<document>
+				<openinnewwindow>新しいウィンドウで開く</openinnewwindow>
+				<backtolist>リストに戻る</backtolist>
+			</document>
+			<documentlist>
+				<download>ドキュメントのダウンロード</download>
+			</documentlist>
+			<news>
+				<errorbindingrsssource>	rss ソースへのバインディング中にエラーが発生しました</errorbindingrsssource>
+			</news>
+			<form>
+				<numberofvotes>投票数: {0}</numberofvotes>
+				<showform>フォームへ</showform>
+				<requirelogon>このフォームではユーザーのログオンが必要です。</requirelogon>
+				<denymultipleposts>このフォームはすでに回答されています。</denymultipleposts>
+				<postedmessage>ご回答ありがとうございます!</postedmessage>
+				<thankyouforyourreply>ご返信ありがとうございます!</thankyouforyourreply>
+				<showstat>統計の表示</showstat>
+			</form>
+			<register>
+				<invalidemail>申し込みを処理できるよう、有効な電子メール アドレスを入力してください。</invalidemail>
+				<invalidpassword>パスワードを入力する必要があります。 2 つのテキスト フィールドに同じパスワードを入力してください。</invalidpassword>
+				<expiredidentity>ユーザー情報の有効期限が切れています。 もう一度ログインしてください。</expiredidentity>
+				<usernotsaved>ユーザーを保存できませんでした。 別のユーザー名を試してください。</usernotsaved>
+				<errorwhilesavinguser>エラーが発生しました。 ユーザーは保存されませんでした。</errorwhilesavinguser>
+				<invalidsettings>エクストラネット ユーザーの設定の一部が行われていません。</invalidsettings>
+				<applyemailsubject>新規ユーザーがメンバシップを要求しました。</applyemailsubject>
+				<applyemailbodyprefix>このページに移動して、ユーザーをアクティブ化してください:</applyemailbodyprefix>
+				<usersaved>申し込みが承認されてアクティブ化されると、電子メールが届きます。</usersaved>
+				<usersavedandactivated>これで、Web サイトにログオンできます。</usersavedandactivated>
+				<couldnotsave>ユーザーを作成できませんでした。</couldnotsave>
+				<saved>ユーザーが作成されました</saved>
+				<notallowed>このサイトではユーザーを登録できません。</notallowed>
+			</register>
+			<page>
+				<readmore>詳細</readmore>
+				<login>ログイン</login>
+				<logout>ログアウト</logout>
+				<notproperlyconfigured>クイック検索が正しく構成されていません。 (動的プロパティ [グローバル検索ページ] を定義しておく必要があります。)</notproperlyconfigured>
+			</page>
+			
+			<newsgrouplist>
+				<search>検索</search>
+				<subscribe>サブスクライブ</subscribe>
+				<unsubscribe>サブスクリプションの削除</unsubscribe>
+			</newsgrouplist>
+			<search>
+				<searchfiles>			ドキュメントとファイルの検索</searchfiles>
+				<onlywholewords>		完全ワード一致</onlywholewords>
+				<searchresult>			検索結果:</searchresult>
+				<rank>					ランク</rank>
+				<match>					一致</match>
+				<matches>				一致</matches>
+				<nomatches>				一致が見つかりませんでした。 再試行してください。</nomatches>
+				<help>
+					&lt;b&gt;検索のヒント!&lt;/b&gt;
+					&lt;ul&gt;
+					&lt;li&gt;ワードはスペースで区切って 10 個まで入力できます。例: &lt;i&gt;&lt;b&gt;&lt;nobr&gt;word1 word2 word33&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br/&gt;&lt;/li&gt;
+					&lt;li&gt;ページを一致と見なすために検出する必要のあるワードの前に正符号 (+) を付けることにより、検索を制限します。例: &lt;i&gt;&lt;b&gt;&lt;nobr&gt;+word1 +word2 +word3&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;/li&gt;
+					&lt;li&gt;ページを一致と見なすために現れてはならないワードの前に負符号 (-) を付けることにより、検索を制限します。例: &lt;i&gt;&lt;b&gt;&lt;nobr&gt;+word1 +word2 -word3&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;/li&gt;
+					&lt;li&gt;[完全ワード一致] を選択しつつ、ワードの一部とも一致させたい場合は、ワードの末尾にアスタリスク (*) を付けます。たとえば &lt;i&gt;&lt;b&gt;&lt;nobr&gt;word1* word2&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt; とすると、&quot;word123&quot;、&quot;word2&quot; という組み合わせのワードとは一致しますが、&quot;word123&quot;、&quot;word234&quot; とは一致しません。&lt;/li&gt;	
+					&lt;/ul&gt;	
+				</help>
+				<indexservererror>		現時点で索引エンジンが実行されていないため、ファイルとドキュメントの検索を行えません。
+				</indexservererror>
+				<quicksearch>		クイック検索</quicksearch>
+				<alllanguages>すべての言語で検索</alllanguages>
+			</search>
+			<login>
+				<logintitle>ログイン</logintitle>
+				<loginheading>保護情報。 ログインしてください。</loginheading>
+				<username>				名前</username>
+					<password>				パスワード</password>
+					<persistentlogin>		この Web サイトへの自動ログインを有効にする</persistentlogin>
+					<usernamerequired>		名前を入力してください。</usernamerequired>
+					<loginfailed>			ログインは失敗しました</loginfailed>
+			</login>
+			<calendar>
+				<next>次へ</next>
+				<previous>前へ</previous>
+			</calendar>
+			<changedpages>
+				<header>			最後に変更されたファイル</header>
+				<lastmodified>		最終変更</lastmodified>
+				<page>				ページ</page>
+				<updatedpages>		最新更新ページ</updatedpages>
+			</changedpages>
+			<conference>
+				<deleteconfirm>この項目を削除しますか?</deleteconfirm>
+				<createnew>新しい投稿の作成</createnew>
+				<post>投稿</post>
+				<heading>見出し</heading>
+				<message>メッセージ</message>
+				<author>作成者</author>
+				<previous>前へ</previous>
+				<next>次へ</next>
+				<reply>返信</reply>
+				<change>変更</change>
+				<delete>削除</delete>
+				<replies>返信</replies>
+				<uponelevel>1 つ上のレベルへ</uponelevel>
+			</conference>
+			<newsgroupitem>
+				<reply>返信</reply>
+				<name>名前</name>
+				<email>電子メール</email>
+				<subject>件名</subject>
+			</newsgroupitem>
+			<newsgrouplist>
+				<newpost>新しい件名</newpost>
+				<settings>設定</settings>
+				<subject>件名</subject>
+				<author>作成者</author>
+				<created>作成日時</created>
+			</newsgrouplist>
+			<newsgroupsettings>
+				<personalsettings>個人設定</personalsettings>
+				<firstname>名</firstname>
+				<lastname>姓</lastname>
+				<email>電子メール</email>
+				<interval see="/templates/subscribe/interval"/>
+				<fastaspossible see="/templates/subscribe/fastaspossible"/>
+				<daily see="/templates/subscribe/daily"/>
+				<everysecondday see="/templates/subscribe/everysecondday"/>
+				<weekly see="/templates/subscribe/weekly"/>
+				<everysecondweek see="/templates/subscribe/everysecondweek"/>
+				<everyfourthweek see="/templates/subscribe/everyfourthweek"/>
+			</newsgroupsettings>
+			<newsgrouptree>
+				<back>戻る</back>
+			</newsgrouptree>
+			<notimplemented>
+				<notimplemented>この機能はまだ使用できません。</notimplemented>
+			</notimplemented>
+			<subscribe>
+				<interval>間隔</interval>
+				<fastaspossible>できるだけ早く</fastaspossible>
+				<daily>毎日</daily>
+				<everysecondday>隔日</everysecondday>
+				<weekly>毎週</weekly>
+				<everysecondweek>隔週</everysecondweek>
+				<everyfourthweek>4 週間に 1 回</everyfourthweek>
+				<subscriptions>サブスクリプション</subscriptions>
+			</subscribe>
+			<profile>
+				<image>						イメージ</image>
+				<profile>					プロファイル</profile>
+				<department>				部門</department>
+			</profile>
+			<profilefinder>											
+				<limitamountofhits>			ヒット数の制限</limitamountofhits>
+				<myprofile>					マイ プロファイル</myprofile>
+				<backtosearch>				検索に戻る</backtosearch>
+				<showdetailedlist>			詳細リストの表示</showdetailedlist>
+			</profilefinder>
+			<emailpage>
+				<to>						宛先</to>
+				<from>						送信者</from>
+				<subject>					件名</subject>
+				<other>						その他</other>
+				<send>						送信</send>
+			</emailpage>
+			<common>
+				<printpage>					ページの印刷</printpage>
+				<emailpage>					このページを友人に知らせる</emailpage>
+				<sitemap>					サイトマップの表示</sitemap>
+				<register>					登録</register>
+				<editdetails>				詳細の変更</editdetails>
+				<login>						ログイン</login>
+				<logout>					ログアウト</logout>
+				<numberofhits>				ヒット数</numberofhits>
+				<pagehaschildren>			ページに子が含まれる</pagehaschildren>
+				<startpage>				ページの開始</startpage>
+				<changelanguage>言語を {0} に変更する</changelanguage>
+			</common>
+			<portal>
+				<back>						戻る</back>
+				<reloadportal>				ポータル開始ページのリロード</reloadportal>
+				<opensettingsheader>		設定</opensettingsheader>
+				<opensettingstooltip>		ポータル設定を開く</opensettingstooltip>
+				<actionrequiresauthentication>このアクションには認証が必要です</actionrequiresauthentication>
+				<mysettingprefix>			個人用設定 </mysettingprefix>
+				<myportalsettings>			マイ ポータル設定</myportalsettings>
+				<saveresizesettingstooltip> 高さと幅の設定を保存する</saveresizesettingstooltip>
+				<saveresizesettingsheader>	保存</saveresizesettingsheader>
+				<resetsettings>				設定のリセット</resetsettings>
+				<selectedframework>			選択されたフレームワーク</selectedframework>
+				<advancedframework>			拡張フレームワーク</advancedframework>
+				<simpleframework>			単純フレームワーク</simpleframework>
+				<parts>						ポータル セクション</parts>
+				<expandregion>				拡張</expandregion>
+				<minimizeregion>			最小化</minimizeregion>
+				<restoreregion>				サイズのリセット</restoreregion>
+				<refreshregion>				リロード</refreshregion>
+				<regionsettings>			設定を開く</regionsettings>
+			</portal>
+			<filelisting>
+				<rootpatherror>				ルート フォルダが定義されていません</rootpatherror>
+				<sortordername>				名前</sortordername>
+				<sortorderdatecreated>		作成日時</sortorderdatecreated>
+				<sortorderdatelastaccessed>	最終アクセス日時</sortorderdatelastaccessed>
+				<sortorderdatelastmodified>	最終変更日時</sortorderdatelastmodified>
+				<sortordertype>				ファイル タイプ</sortordertype>
+				<sortordersize>				サイズ</sortordersize>
+				<sortordernone>				</sortordernone>
+				<sortordernamedesc>名前降順</sortordernamedesc>
+				<sortorderdatecreateddesc>作成日時降順</sortorderdatecreateddesc>
+				<sortorderdatelastaccesseddesc>最終アクセス日時降順</sortorderdatelastaccesseddesc>
+				<sortorderdatelastmodifieddesc>最終変更日時降順</sortorderdatelastmodifieddesc>
+				<sortordertypedesc>ファイル タイプ降順</sortordertypedesc>
+				<sortordersizedesc>サイズ降順</sortordersizedesc>
+			</filelisting>
+			<mobileinfo>
+				<maininfo>
+					&lt;b&gt;EPiServer の WAP 機能を有効にする方法&lt;/b&gt;
+					&lt;p&gt;EPiServer の WAP/モバイル機器のサポートは Microsoft Mobile Internet Toolkit に基づくため、デフォルトでは有効になっていません。 モバイル機器のサポートをアクティブ化したい場合は、以下の指示に従ってください。&lt;/p&gt;
+					&lt;ul&gt;
+						&lt;li&gt;
+							Microsoft Mobile Internet Toolkit をダウンロードし、開発マシンにこれをインストールします。 これは、以下のサイトからダウンロードできます。&lt;a href="http://www.msdn.microsoft.com/downloads/default.asp?url=/downloads/sample.asp?url=/msdn-files/027/001/817/msdncompositedoc.xml" target="_blank"&gt;
+								http://www.msdn.microsoft.com&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;
+							EPiServer の管理モードに移り、[モバイル] ページのページ タイプの定義を開きます&lt;/li&gt;
+						&lt;ul&gt;
+							&lt;li&gt;
+								このページ タイプの設定を入力します。
+							&lt;/li&gt;
+							&lt;li&gt;
+								[ファイル名] を、templates/MobileInfo.aspx ではなく templates/Mobile.aspx をポイントするように変更します。
+							&lt;/li&gt;
+							&lt;li&gt;
+								変更の保存
+							&lt;/li&gt;
+						&lt;/ul&gt;
+						&lt;li&gt;
+							EPiServer 開発プロジェクトに、System.Web.Mobile (Mobile Internet Toolkit とともにインストールされる) の参照を追加します。&lt;/li&gt;
+						&lt;li&gt;
+							EPiServer 開発プロジェクトにファイル /templates/Mobile.aspx を組み込みます。&lt;/li&gt;
+						&lt;li&gt;
+							EPiServer プロジェクトを再コンパイルします。&lt;/li&gt;
+					&lt;/ul&gt;
+				</maininfo>
+			</mobileinfo>
+			<xform>
+				<postedmessage>ご返信ありがとうございます!</postedmessage>
+				<requirelogon>回答するには、ログオンする必要があります。</requirelogon>
+				<denymultipleposts>このフォームはすでに完成しています。</denymultipleposts>
+				<fieldisrequired>&quot;{0}&quot; を指定してください</fieldisrequired>
+				<requiredfields>必須情報の一部が指定されていません (指定されていない箇所が * でマークされています)</requiredfields>
+				<errorpostingtodatabase>フォームを送信できませんでした。</errorpostingtodatabase>
+				<errorpostingtoemail>フォームを送信できませんでした。</errorpostingtoemail>
+				<errorpostingtocustomurl>フォームを送信できませんでした。</errorpostingtocustomurl>
+			</xform>
+			<workroom>
+				<common>
+					<active>アクティブ</active>
+					<captionsingle>ワークルーム</captionsingle>
+					<captionmany>ワークルーム</captionmany>
+					<changed see="/workflow/reportmail/changed" />
+					<createnew>新規ワークルームの作成</createnew>
+					<name see="/workflow/reportmail/taskname" />
+					<owner see="/workflow/reportmail/owner" />
+					<showonlyactive>アクティブのワークルームのみを表示</showonlyactive>
+				</common>
+				<members>
+					<activemembers>アクティブのメンバ</activemembers>
+					<addmember>メンバの追加</addmember>
+					<addmembercaption>メンバの追加</addmembercaption>
+					<activemembercaption>キャンセル</activemembercaption>
+					<removemembercaption>削除</removemembercaption>
+					<searchbuttoncaption>検索</searchbuttoncaption>
+					<searchdescription>ユーザーの検索</searchdescription>
+					<canceleditcaption>キャンセル</canceleditcaption>
+					<memberstatusheader>メンバの状態</memberstatusheader>
+					<editmembercaption>編集</editmembercaption>
+				</members>
+				<memberstatus>
+					<guest>ゲスト</guest>
+					<administrator>管理者</administrator>
+					<user>ユーザー</user>
+					<none>非メンバ</none>
+				</memberstatus>				
+				<plugins>
+					<overview>
+						<displayname>概要</displayname>
+					</overview>
+					<bulletinboard>
+						<displayname>掲示板</displayname>
+					</bulletinboard>
+					<calendar>
+						<displayname>カレンダー</displayname>
+						<newentry>新規カレンダー項目</newentry>
+						<editentry>カレンダー項目の編集</editentry>
+						<subject>件名</subject>
+						<starttime>開始時刻</starttime>
+						<endtime>終了時刻</endtime>
+						<startdategreaterthanenddate>無効な日付: &quot;{0}&quot; には &quot;{1}&quot; よりも前の日付を指定してください</startdategreaterthanenddate>
+					</calendar>
+					<document>
+						<displayname>ドキュメント</displayname>
+					</document>
+					<forum>
+						<displayname>ディスカッション フォーラム</displayname>
+					</forum>
+					<members>
+						<displayname>メンバ</displayname>
+					</members>
+					<news>
+						<displayname>ニュース</displayname>
+						<newentry>新規作成</newentry>
+						<title>タイトル</title>
+						<mainintro>導入</mainintro>
+						<mainbody>本文</mainbody>
+					</news>
+					<settings>
+						<displayname>設定</displayname>
+						<active>アクティブです</active>
+					</settings>
+				</plugins>
+				<unabletocreateworkroom>ワークルームの作成不可 </unabletocreateworkroom>
+				<unabletofindworkroomtemplates>ワークルームのテンプレートが見つかりません</unabletofindworkroomtemplates>
+				<invalidworkroompage>ページは有効なワークルーム ページではありません</invalidworkroompage>
+				<invalidpageinstance>ワークルーム テンプレートは有効なページ インスタンスでなければなりません</invalidpageinstance>
+				<invalidrootdir>ドキュメント ルート ディレクトリにアクセスできません</invalidrootdir>
+				<undefinedrootdir>ドキュメント ルート ディレクトリが定義されていません</undefinedrootdir>
+			</workroom>
+			<logservice>
+				<lastusers>
+					<heading>最近 5 つのアクティブな訪問者</heading>
+					<totalusers>サイトへのアクセス数は現在 {0} です。</totalusers>
+					<noconnection>ログ サービスに接続できませんでした。</noconnection>
+				</lastusers> 
+				<pagehits>
+					<heading>最もアクセス数の多いページ</heading>
+					<totalpagehits>現在、1 分につき {0} ページが表示されています。</totalpagehits>
+					<noconnection>ログ サービスに接続できませんでした。</noconnection>
+				</pagehits> 
+				<publishedpages>
+					<heading>公開された最近 5 つのページ</heading>
+					<noconnection>ログ サービスに接続できませんでした。</noconnection>
+				</publishedpages> 
+				<notactive>Web サイトの統計がアクティブ化されていません。</notactive>
+			</logservice>
+			<wsrp>
+				<common>
+					<configuration>構成</configuration>
+				</common>
+				<infoservicecontrol>
+					<selecttitle>タイトルの選択: </selecttitle>
+					<selectwidth>最大化された/単独のリスト幅 (px): </selectwidth>
+					<selectsinglepage>通常モードで 1 ページを表示: </selectsinglepage>
+					<selectchannel>情報チャネルの選択: </selectchannel>
+					<save>保存</save>
+				</infoservicecontrol>
+				<newscontrol>
+					<selecttitle>タイトルの選択: </selecttitle>
+					<selectchannels>ニュース チャネルの選択: </selectchannels>
+					<selectnoofitems>行数: </selectnoofitems>
+					<selectchannels>情報チャネルの選択: </selectchannels>
+					<save>保存</save>
+				</newscontrol>
+				<usersettingscontrol>
+					<selecttitle>タイトルの選択: </selecttitle>
+					<save>保存</save>
+				</usersettingscontrol>
+				<iframecontrol>
+					<selecttitle>タイトルの選択: </selecttitle>
+					<selecturl>URL の選択: </selecturl>
+					<selectheight>高さの選択 (px): </selectheight>
+					<save>保存</save>
+				</iframecontrol>
+				<rsscontrol>
+					<selecttitle>タイトルの選択: </selecttitle>
+					<selecturl>URL の選択: </selecturl>
+					<selectnoofitems>行数: </selectnoofitems>
+					<save>保存</save>
+				</rsscontrol>
+			</wsrp>
+			<wsrpadmin>
+				<heading>WSRP ソース</heading>
+				<info>使用可能な WSRP ソースの定義</info>
+			</wsrpadmin>
+			<wsrpfx>
+				<admin>
+					<test>テスト</test>
+					<delete>削除</delete>
+					<createnew>新規</createnew>
+					<sourcename>名前</sourcename>
+					<markupurl>マークアップ URL</markupurl>
+					<servicedescriptionurl>サービス説明 URL</servicedescriptionurl>
+					<registrationurl>登録 URL</registrationurl>
+					<portletmanagementurl>ポートレット管理 URL</portletmanagementurl>
+					<offeredportletstitle>このプロデューサから以下のポートレットを選択できます</offeredportletstitle>
+					<messages>
+						<producerinvalid>プロデューサ {0} は予期したとおりに応答しませんでした</producerinvalid>
+						<producerok>プロデューサ {0} は予期したとおり応答しました</producerok>
+					</messages>
+					<usewsdlradio>WSDL の登録</usewsdlradio>
+					<wsdlurl>WSDL</wsdlurl>
+					<useservicesradio>Web サービスの登録</useservicesradio>
+				</admin>
+				<portal>
+					<home>ホーム</home>
+					<resetportal>個人用設定のリセット</resetportal>
+					<displaymode>表示モード</displaymode>
+					<viewmode>
+						<view>簡易ページ</view>
+						<viewanduse>ポータル ページ</viewanduse>
+						<design>設計</design>
+					</viewmode>
+					<newtab>新規タブ</newtab>
+					<deletetab>タブの削除</deletetab>
+					<savesource>テンプレートとして保存</savesource>
+					<tabname>タブ名</tabname>
+					<disposition>レイアウト</disposition>
+					<savetabsettings>変更</savetabsettings>
+					<selectedportlet>ポートレット</selectedportlet>
+					<selectedarea>領域</selectedarea>
+					<addportlet>追加</addportlet>
+					<errorlayoutcontrolls>ポータル コンシューマのレイアウト制御取得の問題</errorlayoutcontrolls>
+				</portal>
+				<layouts>
+					<wsrpsinglecolumnlayout>
+						<layoutname>1 つの列</layoutname>
+					</wsrpsinglecolumnlayout>
+					<wsrpthreecolumnlayout>
+						<layoutname>3 つの列</layoutname>
+					</wsrpthreecolumnlayout>
+				</layouts>
+				<button>
+					<view>表示</view>
+					<edit>編集</edit>
+					<preview>プレビュー</preview>
+					<help>ヘルプ</help>
+					<minimized>最小化</minimized>
+					<normal>復元</normal>
+					<maximized>最大化</maximized>
+					<solo>単独</solo>
+				</button>	
+			</wsrpfx>
+			<readspeaker>
+				<readme>読み取り</readme>
+				<readmealttext>選択されたテキスト/ページ テキストの読み取り</readmealttext>
+			</readspeaker>
+			<webparts>
+				<portal>
+					<displaymode>表示モード</displaymode>
+					<scope>スコープ</scope>
+					<leftzone>左の列</leftzone>
+					<rightzone>右の列</rightzone>
+					<catalogzone>Web パーツ カタログ</catalogzone>
+					<editorzone>Web パーツの変更</editorzone>
+					<connectionzone>Web パーツの接続</connectionzone>
+					<importzone>Web パーツのインポート</importzone>
+				</portal>
+		        <units>
+		          <rsscontrol>
+		            <emptyurl>URL を空にすることはできません。</emptyurl>
+		          </rsscontrol>
+		        </units>
+			</webparts>
+			<blog>
+				<createnewblog>新規ブログの作成</createnewblog>
+				<name>名前:</name>
+				<createblog>ブログの作成</createblog>
+				<archive>アーカイブ</archive>
+				<noarchiveentries>このブログには投稿がありません。</noarchiveentries>
+				<rsssource>RSS ソース</rsssource>
+				<postcomment>コメントの投稿</postcomment>
+				<comments>コメント</comments>
+				<title>タイトル:</title>
+				<createnewpost>新しい投稿の作成</createnewpost>
+				<post>投稿</post>
+				<date>日付</date>
+				<changestatus>状態の変更</changestatus>
+			</blog>
+		</templates>
+		<common>
+			<headerimagedescription>ページ ヘッダー、EPiServer ロゴ付きのイメージ</headerimagedescription>
+		</common>
+		<pagetypes>
+			<common>
+				<property name="DefaultLanguage">
+					<caption>デフォルト言語</caption>
+					<help>選択された言語のバージョンが存在しないときにページで使用される言語</help>
+				</property>
+				<property name="AudioFormat">
+					<caption>オーディオ形式</caption>
+					<help>オーディオ形式を選択します。 mp3 の場合は 2 を、wav の場合は 3 を選択します。</help>
+				</property> 
+				<property name="ReadspeakerLanguage">
+					<caption>スピーカーの音声の言語</caption>
+					<help>テキストの朗読言語を選択します</help>
+				</property> 
+				<property name="Sitemap">
+					<caption>サイト マップを持つページの取り出し元</caption>
+					<help>クイック リンクでサイト マップとして表示するページを指定します</help>
+				</property>
+				<property name="RegisterPage">
+					<caption>個人用設定を持つページの取り出し元</caption>
+					<help>クイック リンクで個人用設定として表示するページを指定します</help>
+				</property>
+				<property name="AllowInPortal">
+					<caption>	ポータルでこのページを使用</caption>
+					<help>		ポータル状態でページを表示する場合にこのオプションを選択します</help>
+				</property>
+				<property name="PersonalizableProperties">
+					<caption>	ポータル訪問者が変更できるプロパティ </caption>
+					<help>		このポータルの個人用設定で選択できるオプションを選択します</help>
+				</property>
+				<property name="WebBaseURL">
+					<caption>	表示されるフォルダへの検索パス</caption>
+					<help>		コンテンツがリストに表示されるフォルダのアドレスを指定します。</help>
+				</property>
+				<property name="SortFileBy">
+					<caption>	ファイル リストのソート方法</caption>
+					<help>		リストをソートする方法を選択します</help>
+				</property>
+     			<property name="FirstName">
+					<caption>	名</caption>
+					<help>		このプロファイルの名前を指定します</help>
+				</property>
+    			<property name="LastName">
+					<caption>	姓</caption>
+					<help>		このプロファイルの姓を指定します</help>
+				</property>¨
+				<property name="Email">
+					<caption>	電子メール アドレス</caption>
+					<help>		このプロファイルの電子メール アドレスを指定します</help>
+				</property>
+				<property name="Company">
+					<caption>	会社</caption>
+					<help>		このプロファイルの会社を指定します</help>
+				</property>
+     			<property name="Sid">
+					<caption>	ユーザー名</caption>
+					<help>		このプロファイルにリンクするユーザー/ログイン名を指定します</help>
+				</property>
+				<property name="Profile">
+					<caption>	プロファイル</caption>
+					<help>		このプロファイルのプロファイル/権限を指定します </help>
+				</property>
+				<property name="Title">
+					<caption>	タイトル</caption>
+					<help>		このプロファイルのタイトルを指定します</help>
+				</property>
+				<property name="AddedPropDepartment">
+					<caption>	部門</caption>
+					<help>		このプロファイルの部門を指定します</help>
+				</property>
+				<property name="Image">
+					<caption>	イメージ</caption>
+					<help>		このプロファイルとともに表示するイメージを指定します</help>
+				</property>
+				<property name="Telephone">
+					<caption>	電話</caption>
+					<help>		このプロファイルとともに表示する電話番号を指定します</help>
+				</property>
+    			<property name="ExternalURL">
+					<caption>	外部リンクの検索パス</caption>
+					<help>		リンク先 Web サイト/ページの URL を指定します。 これには http:// を含めます。</help>
+				</property>
+ 				<property name="ListingSlideContainer">
+					<caption>	ダウンロード プレゼンテーション</caption>
+					<help>		プレゼンテーションのダウンロード元のページを選択します</help>
+				</property>
+				<property name="ListingSlideCount">
+					<caption>	プレゼンテーションのページ数の表示</caption>
+					<help>		プレゼンテーションで表示するページ数を整数で指定します</help>
+				</property>
+				<property name="RefreshRate">
+					<caption>	各ページを表示する秒数</caption>
+					<help>		プレゼンテーションで各ページを表示する秒数を整数で指定します</help>
+				</property>
+				<property name="RssHeading">
+					<caption>	RSS ソースの見出し</caption>
+					<help>		ニュースの見出しを RSS 形式で指定します。</help>
+				</property>	
+				<property name="RssUrl">
+					<caption>	RSS ソースへの検索パス</caption>
+					<help>		ニュースのアドレスを RSS 形式で指定します。 これは通常インターネットのアドレスです。</help>
+				</property>
+				<property name="PagingSize">
+					<caption>	ニュース項目の数を RSS リストで表示</caption>
+					<help>		リストで表示するニュース項目の数を整数で指定します</help>
+				</property>
+				<property name="OnlyShowHeaders">
+					<caption>	RSS リストのニュース項目のみを表示</caption>
+					<help>		このオプションを選択すると、リストの RSS ニュースの見出しだけが表示されます</help>
+				</property>
+				<property name="ExchangeServer">
+					<caption>	Exchange サーバー</caption>
+					<help>		Exchange がインストールされているサーバーの名前を指定します</help>
+				</property>
+				<property name="ExchangeUser">
+					<caption>	ユーザー名</caption>
+					<help>		表示される Exchange フォルダのユーザー名を指定します</help>
+				</property>
+				<property name="ExchangeAction">
+					<caption>	Exchange ビューの表示</caption>
+					<help>		表示される Exchange ビュー (インボックスまたはカレンダー) を指定します</help>
+				</property>
+				<property name="AdvancedPortalModeLeftTopContent">
+					<caption>	左上のセクションのコンテンツ</caption>
+					<help>		標準で左上のセクションに表示されるページを指定します</help>
+				</property>
+				<property name="AdvancedPortalModeLeftBottomContent">
+					<caption>	左下のセクションのコンテンツ</caption>
+					<help>		標準で左下のセクションに表示されるページを指定します</help>
+				</property>
+				<property name="AdvancedPortalModeMainContent">
+					<caption>	メイン セクションのコンテンツ</caption>
+					<help>		標準でメイン セクションに表示されるページを指定します</help>
+				</property>
+				<property name="AdvancedPortalModeRightTopContent">
+					<caption>	右上のセクションのコンテンツ</caption>
+					<help>		標準で右上のセクションに表示されるページを指定します</help>
+				</property>
+				<property name="AdvancedPortalModeRightCenterContent">
+					<caption>	右中央のセクションのコンテンツ</caption>
+					<help>		標準で右中央のセクションに表示されるページを指定します</help>
+				</property>
+				<property name="AdvancedPortalModeRightBottomContent">
+					<caption>	右下のセクションのコンテンツ</caption>
+					<help>		標準で右下のセクションに表示されるページを指定します</help>
+				</property>
+				<property name="SimplePortalModeMainContent">
+					<caption>	メイン セクションのコンテンツ</caption>
+					<help>		標準でメイン セクションに表示されるページを指定します</help>
+				</property>
+				<property name="SimplePortalModeRightTopContent">
+					<caption>	右上のセクションのコンテンツ</caption>
+					<help>		標準で右上のセクションに表示されるページを指定します</help>
+				</property>
+				<property name="SimplePortalModeRightMiddleContent">
+					<caption>	右中央のセクションのコンテンツ</caption>
+					<help>		標準で右中央のセクションに表示されるページを指定します</help>
+				</property>
+				<property name="SimplePortalModeRightBottomContent">
+					<caption>	右下のセクションのコンテンツ</caption>
+					<help>		標準で右下のセクションに表示されるページを指定します</help>
+				</property>
+				<property name="NewsCount">
+					<caption>	ニュース項目の数をリストで表示</caption>
+					<help>		表示するニュース項目の数を整数で指定します</help>
+				</property>
+				<property name="EventsContainer">
+					<caption>	カレンダー イベントのダウンロード</caption>
+					<help>		カレンダー イベントのダウンロード元のページを指定します</help>
+				</property>
+				<property name="EventsCount">
+					<caption>	カレンダー イベントの数をリストで表示</caption>
+					<help>		表示するイベントの数を整数で指定します</help>
+				</property>
+				<property name="MainImage">
+					<caption>	開始ページのメイン イメージ</caption>
+					<help>		開始ページに表示するイメージを指定します</help>
+				</property>
+				<property name="MainNewsItem">
+					<caption>	メイン ニュース</caption>
+					<help>		開始ページのメイン ニュースを指定します</help>
+				</property>
+				<property name="HeaderImage">
+					<caption>	Web サイト上部のイメージ</caption>
+					<help>		Web サイトのメイン イメージとして表示するイメージを指定します</help>
+				</property>
+				<property name="EPsPortalRegionName">
+					<caption>	名前</caption>
+					<help>		領域名</help>
+				</property>
+				<property name="EPsPortalRegionColor">
+					<caption>	色</caption>
+					<help>		領域の色</help>
+				</property>
+				<property name="EPsPortalRegionRefreshRate">
+					<caption>	リフレッシュ レート</caption>
+					<help>		ポータルのこのセクションを更新する頻度を指定します (分)。 0 を指定すると、ポータル セクションの自動再ロードは行われません。これが標準です。</help>
+				</property>
+				<property name="NewsContainer">
+					<caption>	ニュース リスト</caption>
+					<help>	ニュース リストの取り出し元のページを指定します</help>
+				</property>	
+				<property name="EmbeddedURL">
+					<caption>フラッシュ ムービーへのパス</caption>
+					<help>ボタンをクリックして表示するフラッシュ ムービーへのパスを指定し、その後ファイルを選択します。</help>
+				</property>
+				<property name="Height">
+					<caption>高さ</caption>
+					<help>フラッシュ ムービーの高さ</help>
+				</property>
+				<property name="Width">
+					<caption>幅</caption>
+					<help>フラッシュ ムービーの幅</help>
+				</property>
+				<property name="StartPublishOffset">
+					<caption>	ページ作成日に対する [公開開始日]</caption>
+					<help>		ページ作成日に対する [公開開始日] を設定します</help>
+				</property>
+				<property name="StopPublishOffset">
+					<caption>	ページ作成日に対する [公開停止日]</caption>
+					<help>		ページ作成日に対する [公開停止日] を設定します</help>
+				</property>
+				<property name="MainBody">
+					<caption>エディタ</caption>
+					<help>ページのコンテンツ。 ここにテキストを入力したり、イメージ、ドキュメント、テーブルを挿入したりします。</help>
+				</property>
+				<property name="ListingContainer">
+					<caption>リストの取り出し元</caption>
+					<help>リストの取り出し元のページを指定します</help>
+				</property>
+				<property name="ListingCount">
+					<caption>リストにページ数を表示</caption>
+					<help>リストに表示するページ数を整数で指定します</help>
+				</property>
+				<property name="ListingType">
+					<caption>リストのページ タイプ</caption>
+					<help>リストに表示するページ タイプを指定します。</help>
+				</property>
+				<property name="ListingCategoryList">
+					<caption>以下のカテゴリを表示</caption>
+					<help>このページに表示するカテゴリを指定します</help>
+				</property>
+				<property name="EPSUBSCRIBE">
+					<caption>サブスクリプション ルートとしてアクティブ化</caption>
+					<help>訪問者がこのページとその子にサブスクライブするのを許可する場合はこのチェック ボックスを選択します。</help>
+				</property>
+				<property name="WriterName">
+					<caption>作成者</caption>
+					<help>コンテンツ責任者の名前</help>
+				</property>
+				<property name="MailTo">
+					<caption>受信者の電子メール アドレス</caption>
+					<help>情報受信者の電子メール アドレス</help>
+				</property>
+				<property name="MainIntro">
+					<caption>導入</caption>
+					<help>導入テキスト (しばしばリストに現れる)</help>
+				</property>
+				<property name="MainBodyLoggedIn">
+					<caption>ログイン ユーザーのエディタ</caption>
+					<help>ログイン時のユーザーの選択肢の説明</help>
+				</property>
+				<property name="MainScope">
+					<caption>IndexServer 検索のスコープ</caption>
+					<help>検索対象フォルダを指定します。 このフィールドに何も指定しないと、[アップロード] フォルダに対して検索が行われます。</help>
+				</property>
+				<property name="MainCatalog">
+					<caption>Index Server のカタログ</caption>
+					<help>検索対象の Index Server カタログを指定します。</help>
+				</property>
+				<property name="RecentContainer">
+					<caption>ページの表示元</caption>
+					<help>最近変更されたページを表示する元のページを指定します</help>
+				</property>
+				<property name="RecentHours">
+					<caption>最近 x 時間内に変更されたページの表示</caption>
+					<help>何時間前までの変更ページを表示するかを、整数の時間数で指定します。</help>
+				</property>
+				<property name="IndexContainer">
+					<caption>ページのコンテンツを表示</caption>
+					<help>索引の起点となるページを指定します</help>
+				</property>
+				<property name="IndexLevel">
+					<caption>表示するレベルを指定して索引を表示</caption>
+					<help>索引に表示するサブレベルの数を整数で指定します</help>
+				</property>
+				<property name="IndexColumns">
+					<caption>索引の列数</caption>
+					<help>索引に表示する列の数を整数で指定します</help>
+				</property>
+				<property name="MailFrom">
+					<caption>電子メールの差出人</caption>
+					<help>フォーム回答受信者の電子メール アドレス</help>
+				</property>
+				<property name="MainForm">
+					<caption>フォーム</caption>
+					<help>このページに表示するフォームを指定します。 ボタンをクリックすると、独自のフォームを作成できます。</help>
+				</property>
+				<property name="EPSUBSCRIBEHIDDEN">
+					<caption>サブスクリプション ページにこれを表示しない</caption>
+					<help>通常のサブスクリプション ページにこのページを表示する場合に指定します </help>
+				</property>
+				<property name="NewsGroupRoot">
+					<caption>ニュース グループのメイン ページ</caption>
+					<help>ニュース グループのメイン ページとなるページを指定します</help>
+				</property>
+				<property name="NewsGroupPageTypeID">
+					<caption>ニュース項目のページ タイプ</caption>
+					<help>ニュース項目で使用されるページ タイプを指定します</help>
+				</property>
+				<property name="AllowNewsItem">
+					<caption>ニュース項目を許可</caption>
+					<help>このページでニュース項目を許可する場合に指定します </help>
+				</property>
+				<property name="WriterEmail">
+					<caption>電子メール アドレス</caption>
+					<help>ニュース項目作成者の電子メール アドレス</help>
+				</property>
+				<property name="NewsGroupContainer">
+					<caption>次のニュース グループに所属</caption>
+					<help>ニュース項目の所属先ニュース グループを指定します</help>
+				</property>
+				<property name="MainMenuContainer">
+					<caption>メニュー表示の起点</caption>
+					<help>メニュー表示の起点となる選択ページ上のメニュー ツリーの場所を指定します</help>
+				</property>
+				<property name="MainSearchPage">
+					<caption>グローバル検索ページ</caption>
+					<help>Web サイトのグローバル検索ページとなるページを指定します</help>
+				</property>
+				<property name="MetaDescription">
+					<caption>ページの説明</caption>
+					<help>ページのコンテンツを説明します</help>
+				</property>
+				<property name="MetaKeywords">
+					<caption>ページの標準検索ワード</caption>
+					<help>このページとマッチングさせる検索ワードのコンマ区切りリストを指定します</help>
+				</property>
+				<property name="EventInputGuide">
+					<caption>循環アクティビティ</caption>
+					<help>循環アクティビティを作成する場合にこのボックスを選択します</help>
+				</property>
+				<property name="EventStartDate">
+					<caption>開始日</caption>
+					<help>アクティビティの開始日を指定します</help>
+				</property>
+				<property name="EventStopDate">
+					<caption>停止日</caption>
+					<help>アクティビティの停止日を指定します</help>
+				</property>
+				<property name="ValidDays">
+					<caption>循環日</caption>
+					<help>設定した間隔でアクティビティを循環させる場合はこれを指定します</help>
+				</property>
+				<property name="nDaysToRender">
+					<caption>カレンダーに表示する日数</caption>
+					<help>カレンダーに表示する日数を整数で指定します</help>
+				</property>
+				<property name="CalendarType">
+					<caption>カレンダーに表示するページのタイプ</caption>
+					<help>カレンダー イベントで使用するページ タイプを指定します</help>
+				</property>
+				<property name="CalendarContainer">
+					<caption>カレンダー情報の起点を表示</caption>
+					<help>カレンダー表示の起点となるメニュー ツリーの場所を指定します</help>
+				</property>
+				<property name="Box1Caption">
+					<caption>1. 見出し</caption>
+				</property>
+				<property name="Box1Container">
+					<caption>1. リストの取り出し元</caption>
+					<help>リストの取り出し元のページを指定します</help>
+				</property>
+				<property name="Box1Count">
+					<caption>1. リストにページ数を表示</caption>
+					<help>リストに表示するページ数を整数で指定します</help>
+				</property>
+				<property name="Box1SortOrder">
+					<caption>1. ソート順</caption>
+					<help>このページの子を表示する順序を定義します。</help>
+				</property>
+				<property name="Box2Caption">
+					<caption>2. 見出し</caption>
+				</property>
+				<property name="Box2Container">
+					<caption>2. リストの取り出し元</caption>
+					<help>リストの取り出し元のページを指定します</help>
+				</property>
+				<property name="Box2Count">
+					<caption>2. リストにページ数を表示</caption>
+					<help>リストに表示するページ数を整数で指定します</help>
+				</property>
+				<property name="Box2SortOrder">
+					<caption>2. ソート順</caption>
+					<help>このページの子を表示する順序を定義します。</help>
+				</property>
+				<property name="MailSubject">
+					<caption>	サブスクリプション電子メールの件名</caption>
+					<help>		これは、サブスクライバに送られるサブスクリプション電子メールの件名フィールドです。</help>
+				</property>
+				<property name="MailReadMore">
+					<caption>	電子メールのリンク テキスト</caption>
+					<help>		このテキストは、ユーザーがクリックできるようになるサブスクリプション電子メール上のリンクをビルドします。 </help>
+				</property>
+				<property name="MailBody">
+					<caption>	電子メールの導入テキスト</caption>
+					<help>		サブスクリプション電子メールで送信される変更ページ リストの上に、メッセージ本文となるテキストを入力します。 </help>
+				</property>
+				<property name="EPSUBSCRIBE-ROOT">
+					<caption>	サブスクリプション ルート</caption>
+					<help>		サブスクリプションの起点を選択します。 ツリー内のこのポイント以降変更または追加される各ページへのリンクがサブスクリプション電子メールで送信されます。</help>
+				</property>
+				<property name="MainContainer">
+					<caption>検索開始ページ</caption>
+					<help>このフィールドに何も指定しないと、開始ページから検索が開始します。</help>
+				</property>
+				<property name="RightListingContainer">
+					<caption>右にリスト</caption>
+					<help>ヘルプ リストの起点を右に入力します。</help>
+				</property>
+				<property name="EnableStatistics">
+					<caption>ページ テンプレートの統計を表示</caption>
+					<help>訪問者の統計をページに表示します。</help>
+				</property>
+				<property name="ConferenceContainer">
+						<caption>会議の開始ページ</caption>
+						<help>このフォーラムの最初のページとなるページを指定します (通常はこのページ)</help>
+				</property>
+				<property name="ProfileContainer">
+					<caption>プロファイル検索の起点</caption>
+					<help>プロファイル検索の起点となるメニュー ツリーの場所を指定します。 通常はこのページです。</help>
+				</property>
+				<property name="DisableName">
+					<caption>ユーザー名を非表示</caption>
+					<help>ユーザーが名前を編集できないようにします</help>
+				</property>
+				<property name="DisableDescription">
+					<caption>説明を非表示</caption>
+					<help>ユーザーが説明を編集できないようにします</help>
+				</property>
+				<property name="DisableFirstname">
+					<caption>名を非表示</caption>
+					<help>ユーザーが名を編集できないようにします</help>
+				</property>
+				<property name="DisableLastname">
+					<caption>姓を非表示</caption>
+					<help>ユーザーが姓を編集できないようにします</help>
+				</property>
+				<property name="DisableEmail">
+					<caption>電子メールを非表示</caption>
+					<help>ユーザーが電子メールを編集できないようにします</help>
+				</property>
+				<property name="DisableCompany">
+					<caption>会社を非表示</caption>
+					<help>ユーザーが会社を編集できないようにします</help>
+				</property>
+				<property name="DisableTitle">
+					<caption>タイトルを非表示</caption>
+					<help>ユーザーがタイトルを編集できないようにします</help>
+				</property>
+				<property name="DisableAddress">
+					<caption>アドレスを非表示</caption>
+					<help>ユーザーがアドレスを編集できないようにします</help>
+				</property>
+				<property name="DisablePostalNumber">
+					<caption>郵便番号を非表示</caption>
+					<help>ユーザーが郵便番号を編集できないようにします</help>
+				</property>
+				<property name="DisableTelephone">
+					<caption>電話番号を非表示</caption>
+					<help>ユーザーが電話番号を編集できないようにします</help>
+				</property>
+				<property name="DisableMobile">
+					<caption>モバイルを非表示</caption>
+					<help>ユーザーがモバイルを編集できないようにします</help>
+				</property>
+				<property name="DisableLanguage">
+					<caption>言語を非表示</caption>
+					<help>ユーザーが言語を編集できないようにします</help>
+				</property>
+				<property name="DisablePassword">
+					<caption>パスワードを非表示</caption>
+					<help>ユーザーがパスワードを編集できないようにします</help>
+				</property>
+				<property name="DisablePostalAddress">
+					<caption>住所を非表示</caption>
+					<help>ユーザーが住所を編集できないようにします</help>
+				</property>
+				<property name="ProfilePageType">
+					<caption>プロファイル ファインダに表示するページのタイプ</caption>
+					<help>プロファイル ファインダで個人用ページとして使用するページ タイプを選択します</help>
+				</property>
+				<property name="DocumentInternalPath">
+					<caption>ドキュメントへのパス</caption>
+					<help>ソース ドキュメントのコピーへのパスです。このフィールドは自動的に更新されます。</help>
+				</property>
+				<property name="DocumentInternalHtmlPath">
+					<caption>ドキュメントの HTML 版へのパス</caption>
+					<help>ソース ドキュメントの完全版 HTML へのパスです。 このフィールドは自動的に更新されます。</help>
+				</property>
+				<property name="DocumentExternalPath">
+					<caption>ソース ドキュメントへの外部パス</caption>
+					<help>このページの公開で使用されたソース ドキュメントへの完全パスです。 このフィールドは自動的に更新されます。</help>
+				</property>
+				<property name="IsDocumentPageType">
+					<caption>完全版 HTML とソース ドキュメントのコピーのアップロード</caption>
+					<help>完全版 HTML を表示可能にする場合はこのオプションを選択します。</help>
+				</property>
+				<property name="AllowDocumentUpdate">
+					<caption>ドキュメントからのページの更新を許可</caption>
+					<help>ソース ドキュメントからこのページを更新できるようにする場合はこのオプションを選択します。</help>
+				</property>
+				<property name="DisplayDownloadLink">
+					<caption>ソース ドキュメントのダウンロード リンクを表示</caption>
+					<help>ソース ドキュメントのリンクを表示する場合はこのオプションを選択します。</help>
+				</property>
+				<property name="Document">
+					<caption>ドキュメントへのパス</caption>
+					<help>表示する PDF ファイルのパス</help>
+				</property>
+				<property name="InformationChannel">
+					<caption>情報チャネル</caption>
+					<help>これを選択すると、WSRP ポートレットの [情報ビューア] によってこのツリー ブランチが選択可能になります。</help>
+				</property>
+				<property name="MainXForm">
+					<caption>フォーム</caption>
+					<help>このページに表示するフォームを指定します。 ボタンをクリックすると、独自のフォームを作成できます。</help>
+				</property>
+				<property name="WorkroomsConfigPage">
+					<caption>ワークルームのテンプレートの取り出し元</caption>
+					<help>ワークルーム作成時にテンプレートとして使用するページを指定します。</help>
+				</property>
+				<property name="DocumentRootDirectory">
+					<caption>ドキュメント管理用フォルダ</caption>
+					<help>ワークルームのドキュメントを保管するフォルダの検索パスを指定します。</help>
+				</property> 
+				<property name="IsActiveWorkroom">
+					<caption>ワークルームをアクティブ</caption>
+					<help>ワークルームをアクティブにする場合はこのチェック ボックスを選択します。</help>
+				</property> 
+				<property name="BulletinBoardContainer">
+					<caption>掲示板の取り出し元</caption>
+					<help>掲示板のルート ページとするページを指定します。</help>
+				</property>
+				<property name="IsActiveCalendar">
+					<caption>カレンダーをアクティブ</caption>
+					<help>カレンダーをアクティブにする場合はこのチェック ボックスを選択します。</help>
+				</property>
+				<property name="IsActiveBulletinBoard">
+					<caption>掲示板をアクティブ</caption>
+					<help>掲示板をアクティブにする場合はこのチェック ボックスを選択します。</help>
+				</property>
+				<property name="IsActiveFileList">
+					<caption>ドキュメント管理をアクティブ</caption>
+					<help>ドキュメント管理をアクティブにする場合はこのチェック ボックスを選択します。</help>
+				</property>
+				<property name="IsActiveNewsList">
+					<caption>ニュース リストをアクティブ</caption>
+					<help>ニュース リストをアクティブにする場合はこのチェック ボックスを選択します。</help>
+				</property>
+				<property name="IsActiveOverview">
+					<caption>概要をアクティブ</caption>
+					<help>概要をアクティブにする場合はこのチェック ボックスを選択します。</help>
+				</property>
+				<property name="MemberStatusInfo">
+					<caption>メンバの状態に関する情報</caption>
+					<help>各メンバーの状態に関する情報を表示します。</help>
+				</property>
+				<property name="FileRoot">
+					<caption>ワークルームのルート フォルダ</caption>
+					<help>ワークルームのサブフォルダの作成先フォルダを指定します。</help>
+				</property>								
+				<property name="_wsrpCommonPortalInfo">
+					<caption>共通ポータル データ</caption>
+					<help>共通ポータル データに関する情報。</help>
+				</property>				
+				<property name="_wsrpLayoutControl">
+					<caption>レイアウト制御</caption>
+					<help>コンマ区切り形式のレイアウト制御。</help>
+				</property>	
+				<property name="EPSUBSCRIBE-EXCLUDE">
+					<caption>このページのサブスクリプションをブロック</caption>
+					<help>このページのサブスクリプション更新をブロックする場合はこのチェック ボックスを選択します。</help>
+				</property>
+				<property name="BlogPostForm">
+					<caption>ブログ ポストのフォーム</caption>
+					<help>このページのブログ ポストで使用するフォームを指定します。 ボタンをクリックすると、独自のフォームを作成できます。</help>
+				</property>			
+				<property name="BlogCommentForm">
+					<caption>コメント フォーム</caption>
+					<help>このページのブログ ポスト コメントで使用するフォームを指定します。 ボタンをクリックすると、独自のフォームを作成できます。</help>
+				</property>			
+				<property name="BlogListLayout">
+					<caption>ブログ リストのフォーマット</caption>
+					<help>このページのブログ ポストのリストで使用するフォーマットを指定します。</help>
+				</property>		
+			</common>
+			<pagetype name="My Settings">
+					<name>個人用設定</name>
+					<description>ユーザーがパスワードやその他個人用設定を変更できる設定ページ。</description>
+				</pagetype>
+			<pagetype name="Ordinary web page">
+				<name>通常 Web ページ</name>
+				<description>通常の情報ページ</description>
+			</pagetype>
+			<pagetype name="Subscription">
+				<name>サブスクリプション</name>
+				<description>訪問者がサブスクリプション情報を選択するページ</description>
+			</pagetype>
+			<pagetype name="Calendar">
+				<name>カレンダー</name>
+				<description>カレンダーのメイン ページ</description>
+			</pagetype>
+			<pagetype name="Calendar event">
+				<name>カレンダー イベント</name>
+				<description>カレンダーの新規イベントのページ</description>
+			</pagetype>
+			<pagetype name="Discussion forum">
+				<name>ディスカッション フォーラム</name>
+				<description>ディスカッション フォーラムを作成するメイン ページ</description>
+			</pagetype>
+			<pagetype name="Search">
+				<name>検索</name>
+				<description>Web サイト上の情報を検索するページ</description>
+			</pagetype>
+			<pagetype name="Changed recently">
+				<name>最近の変更</name>
+				<description>最近変更されたページのリストを表示するページ</description>
+			</pagetype>
+			<pagetype name="Index">
+				<name>索引</name>
+				<description>Web サイトのすべてまたは一部のコンテンツを表示するページ</description>
+			</pagetype>
+			<pagetype name="File listing">
+				<name>ファイル リスト</name>
+				<description>Web サーバー上のフォルダからファイルをリストするページ</description>
+			</pagetype>
+			<pagetype name="Start page">
+				<name>開始ページ</name>
+				<description>Web サイトの開始ページ</description>
+			</pagetype>
+			<pagetype name="News groups, main page">
+				<name>ニュース グループのメイン ページ</name>
+				<description>ニュース グループのメイン ページ</description>
+			</pagetype>
+			<pagetype name="News groups, category">
+				<name>ニュース グループのカテゴリ</name>
+				<description>ニュース グループのカテゴリ</description>
+			</pagetype>
+			<pagetype name="News groups, news group">
+				<name>ニュース グループのニュース グループ</name>
+				<description>ニュース グループのページ</description>
+			</pagetype>
+			<pagetype name="News groups, news item">
+				<name>ニュース グループのニュース項目</name>
+				<description>ニュース グループのニュース項目のページ</description>
+			</pagetype>
+			<pagetype name="Register users">
+				<name>ユーザーの登録</name>
+				<description>訪問者が自らを登録できる Web サイトのページ</description>
+			</pagetype>
+			<pagetype name="Form page">
+				<name>フォーム ページ</name>
+				<description>フォームを含むページ</description>
+			</pagetype>
+			<pagetype name="Alphabetical index">
+				<name>アルファベット索引</name>
+				<description>コンテンツをアルファベット順にリストするページ</description>
+			</pagetype>	
+			<pagetype name="Flash page">
+				<name>フラッシュ ページ</name>
+				<description>フラッシュ ムービーをロードするページ</description>
+			</pagetype>
+			<pagetype name="Vote">
+				<name>投票</name>
+				<description>質問のタイプを作成するページ</description>	
+			</pagetype>				
+			<pagetype name="Mobile page">
+				<name>モバイル ページ</name>
+				<description>モバイル機器のページ</description>
+			</pagetype>	
+			<pagetype name="News list">
+				<name>ニュース リスト</name>
+				<description>Web サイト内の内部ニュースまたは RSS ソースからの外部ニュースを表示します</description>
+			</pagetype>
+			<pagetype name="Profile search">
+				<name>プロファイル検索</name>
+				<description>人材登録用の検索ページ</description>
+			</pagetype>
+			<pagetype name="Personal profile">
+				<name>個人用プロファイル</name>
+				<description>個人情報に関する個人用ページ。 人材登録用に使用されます。</description>
+			</pagetype>
+			<pagetype name="Slide show">
+				<name>スライド ショー</name>
+				<description>いくつかのページをプレゼンテーションとして表示するページ。各ページは事前に決定した間隔で変わります。</description>
+			</pagetype>
+			<pagetype name="EPiServer Portal Framework">
+				<name>EPiServer Portal Framework</name>
+				<description>各訪問者が独自のポータルとするために個人用設定できる、標準設定を持つポータル</description>
+			</pagetype>
+			<pagetype name="RSS source">
+				<name>RSS ソース</name>
+				<description>EPiServer からの情報を RSS 形式で表示するページ</description>
+			</pagetype>
+			<pagetype name="External link">
+				<name>外部リンク</name>
+				<description>別の Web サイトに関する情報を表示するページ</description>
+			</pagetype>
+			<pagetype name="News page">
+				<name>ニュース ページ</name>
+				<description>1 つのニュース項目のページ。 ページはメニューに表示されません。</description>
+			</pagetype>
+			<pagetype name="ReadSpeaker">
+				<name>ReadSpeaker</name>
+				<description>コンテンツをスピーカーで聞くことができるページ</description>
+			</pagetype>
+			<pagetype name="Multilanguage page">
+				<name>複数言語のページ</name>
+				<description>コンテンツを異なる言語で同時に作成できるページ</description>
+			</pagetype>
+			<pagetype name="Document">
+				<name>ドキュメント ページ</name>
+				<description>Microsoft Office から公開されるドキュメント</description>
+			</pagetype>
+			<pagetype name="Document list">
+				<name>ドキュメント リスト</name>
+				<description>Microsoft Office から公開されるドキュメントのリストを表示します</description>
+			</pagetype>
+			<pagetype name="PDF Form">
+				<name>PDF フォーム</name>
+				<description>ページからのデータとともに PDF ファイルを生成するページ</description>
+			</pagetype>
+			<pagetype name="WorkroomList">
+				<name>ワークルームのメイン ページ</name>
+				<description>ワークルームのリストを表示します </description>
+			</pagetype>
+			<pagetype name="Workroom">
+				<name>ワークルーム</name>
+				<description>ワークルームのページ</description>
+			</pagetype>
+			<pagetype name="BlogStartPage">
+				<name>ブログのメイン ページ</name>
+				<description>ブログ作成のメイン ページ</description>
+			</pagetype>
+			<pagetype name="BlogPage">
+				<name>ブログ ページ</name>
+				<description>ブログのページ</description>
+			</pagetype>
+		</pagetypes>
+		<categories>
+			<category name="News">
+				<description>ニュース</description>
+			</category>
+			<category name="Technical">
+				<description>テクニカル</description>
+			</category>
+			<category name="Data">
+				<description>データ</description>
+			</category>
+			<category name="Support">
+				<description>問題のサポート</description>
+			</category>
+		</categories>		
+	</language>
+</languages>

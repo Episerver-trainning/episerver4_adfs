@@ -1,0 +1,17 @@
+<PUBLIC:COMPONENT	LIGHTWEIGHT=true>
+<PUBLIC:ATTACH		EVENT="onchange" FOR="element" ONEVENT="OnChange()"/>
+
+<SCRIPT type='text/javascript'>
+
+/*
+ * changedinput.htc	- JavaScript support routines for EPiServer
+ * Copyright (c) 2003 ElektroPost Stockholm AB
+*/
+
+function OnChange()
+{
+	if (window.leavePage)
+		window.onbeforeunload = window.leavePage;
+}
+</SCRIPT>
+</PUBLIC:COMPONENT>

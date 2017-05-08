@@ -1,0 +1,2837 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<languages>
+	<language name="English" id="EN">
+		<cookie>
+			<logincaption>		If you log in, cookies will be used.</logincaption>
+			<logininfo>			A cookie containing login information will be sent to your Web browser. If you do not want to receive cookies, you will be unable to log into the Web site.</logininfo>
+			<usagecaption>		About cookies</usagecaption>
+			<usageinfo>			In accordance with the Swedish electronic communications act, which came into force 25 July 2003, all visitors to a Web site that uses cookies must be notified that the Web site uses cookies, what their purpose is and how they can be blocked. On this Web site, cookies are used in the following instances:</usageinfo>
+			<usageform>			If you are not logged in and respond to/submit a form, a cookie will be sent as a reminder to your computer that you have submitted the form.</usageform>
+			<usageloginform>	When you log in, cookies are used to store your login information. If cookies are blocked during login, the login dialog box will appear for each new page that requires authentication.</usageloginform>
+			<usageloginwindows>	When you log in, a cookie is used as a reminder that you are logged in. If cookies are blocked, you will be unable to maintain your logged in status on the Web site and will be continually asked to enter your login details each time you want access to password protected material.</usageloginwindows>								
+		</cookie>
+		<headings>
+			<heading name="Information">
+				<description>Information</description>
+			</heading>
+			<heading name="Advanced">
+				<description>Advanced Information</description>
+			</heading>
+			<heading name="Categories">
+				<description>Categories</description>
+			</heading>
+			<heading name="Shortcut">
+				<description>Shortcut/External Link</description>
+			</heading>
+			<heading name="Subscription">
+				<description>Subscription</description>
+			</heading>
+			<heading name="Portal settings">
+				<description>Portal Settings</description>
+			</heading>
+			<heading name="Simple portal mode">
+				<description>Simple Portal Mode</description>
+			</heading>
+			<heading name="Advanced portal mode">
+				<description>Advanced Portal Mode</description>
+			</heading>
+			<heading name="DelayedPublish">
+				<description>	Delayed Publish</description>
+			</heading>
+				<heading name="General">
+				<description>General</description>
+			</heading>
+			<heading name="Advanced_short">
+				<description>Advanced</description>
+			</heading>
+		</headings>
+		<frames>
+			<frame name="_blank">
+				<description>Open the link in a new window</description>
+			</frame>
+			<frame name="_top">
+				<description>Open the link in the whole window</description>
+			</frame>
+		</frames>
+		<accesslevels>
+			<accesslevel name="Read">
+				<description>Read</description>
+			</accesslevel>
+			<accesslevel name="Create">
+				<description>Create</description>
+			</accesslevel>
+			<accesslevel name="Edit">
+				<description>Change</description>
+			</accesslevel>
+			<accesslevel name="Delete">
+				<description>Delete</description>
+			</accesslevel>
+			<accesslevel name="Publish">
+				<description>Publish</description>
+			</accesslevel>
+			<accesslevel name="Administer">
+				<description>Administer</description>
+			</accesslevel>
+		</accesslevels>
+		<multilanguageruntime>
+			<firstlanguage>First language</firstlanguage>
+			<secondlanguage>Second language</secondlanguage>
+			<noversionexists>There is no version in the selected language.</noversionexists>
+			<verticaldisplay>Show vertical</verticaldisplay>
+		</multilanguageruntime>
+
+		<day>day</day>
+		<hour>hour</hour>
+		<minute>minute</minute>
+		<second>second</second>
+		<week>week</week>
+		<month>month</month>
+		<sunday>Sunday</sunday>
+		<monday>Monday</monday>
+		<tuesday>Tuesday</tuesday>
+		<wednesday>Wednesday</wednesday>
+		<thursday>Thursday</thursday>
+		<friday>Friday</friday>
+		<saturday>Saturday</saturday>
+		<january>January</january>
+		<february>February</february>
+		<march>March</march>
+		<april>April</april>
+		<may>May</may>
+		<june>June</june>
+		<july>July</july>
+		<august>August</august>
+		<september>September</september>
+		<october>October</october>
+		<november>November</november>
+		<december>December</december>
+		<savenochanges>No changes have been made</savenochanges>
+		<pleasewait>Please wait</pleasewait>
+		<button>
+			<yes>			Yes</yes>
+			<no>			No</no>
+			<ok>			OK</ok>
+			<cancel>		Cancel</cancel>
+			<reset>			Reset</reset>
+			<save>			Save</save>
+			<create>		Create</create>
+			<add>			Add</add>
+			<addusersid>	Add User</addusersid>
+			<addgroupsid>	Add Group</addgroupsid>
+			<delete>		Delete</delete>
+			<next>			&gt;&gt;</next>
+			<prev>			&lt;&lt;</prev>
+			<search>		Search</search>
+			<send>			Send</send>
+			<help>			Help</help>
+			<activate>		Activate</activate>
+			<deactivate>	Deactivate</deactivate>
+			<clear>			Clear</clear>
+			<copy>			Copy</copy>
+			<publish>		Publish</publish>
+			<preview>		Preview</preview>
+			<checkin>		Ready to Publish</checkin>
+			<select>		Select</select>
+			<compare>		Compare</compare>
+			<refresh>		Refresh</refresh>
+			<print>			Print</print>
+			<settings>		Settings</settings>
+			<insert>		Insert</insert>
+			<login>			Log In</login>
+			<edit>			Edit</edit>
+			<compare>       Compare</compare> 
+			<saveandpublish>Save and Publish</saveandpublish>
+			<saveandview>	Save and View</saveandview>
+			<saveandclose>	Save and Close</saveandclose>
+			<findnext>		Find Next</findnext>
+			<ignore>		Ignore</ignore>
+			<ignoreall>		Ignore All</ignoreall>
+			<change>		Change</change>
+			<close>			Close</close>
+			<browse>		Browse...</browse>
+			<delaypublish>Delayed Publish</delaypublish>
+			<unpublish>		Unpublish</unpublish>			
+			<saveonly>Save</saveonly>
+			<continue>Continue</continue>
+			<resize>Resize</resize>
+		</button>
+		<permissions>
+			<linktoolcreatefolder>		Create folder in link tool</linktoolcreatefolder>
+			<linktooldeletefile>		Delete file in link tool</linktooldeletefile>
+			<linktooldeletefolder>		Delete folder in link tool</linktooldeletefolder>
+			<linktoolrename>			Rename file/folder in link tool</linktoolrename>
+			<linktooluploadtopage>		Upload file to page specific folder</linktooluploadtopage>
+			<linktooluploadtocommon>	Upload file to common folder</linktooluploadtocommon>
+			<editorunlimitedfunctions>	All functions available in the Editor</editorunlimitedfunctions>
+			<detailederrormessage>Detailed error messages for troubleshooting</detailederrormessage>
+			<clienttools>View and publish pages from Microsoft Office add-in</clienttools>
+			<multifileupload>Allow advanced upload of files using for example drag-and-drop</multifileupload>
+		</permissions>
+		<webcontrols>
+			<explorertree>
+			<!--
+				<infonotpublished>	Ej publicerad</infonotpublished>
+				<infoexpired>		, löpte ut {0}</infoexpired>
+				<infonotstarted>	, börjar {0}</infonotstarted>
+			-->	
+				<statuscreator>				Page created by you</statuscreator>
+				<statusexpired>				Page expired {0}</statusexpired>
+				<statusnotstarted>			Page will be visible {0}</statusnotstarted>
+				<statusnotpublished>		Page has not been published</statusnotpublished>
+				<statusnotvisibleinmenu>	Page is not visible in menus</statusnotvisibleinmenu>
+				<statusreadonly>			You have not been assigned the user rights to make changes to this page</statusreadonly>
+				<statusnew>					New page</statusnew>
+				<statusrestricted>			Page access is restricted</statusrestricted>
+				<statuslanguagemissing>Page is missing for the current language and will not be displayed</statuslanguagemissing>
+				<statuslanguagefallback>Page is displayed in another language</statuslanguagefallback>
+			</explorertree>
+			<paging>
+				<firstpage>First page</firstpage>
+				<prevpage>Previous page</prevpage>
+				<currentpage>Current page</currentpage>
+				<pagenumber>Page {0}</pagenumber>
+				<nextpage>Next page</nextpage>
+				<lastpage>Last page</lastpage>
+			</paging>
+		</webcontrols>
+		<status>
+			<active>		Active</active>
+			<inactive>		Inactive</inactive>
+		</status>
+		<versionstatus>
+			<rejected>				Comments</rejected>
+			<checkedout>			Not ready</checkedout>
+			<checkedin>				Ready to publish</checkedin>
+			<published>				Published version</published>
+			<previouslypublished>	Previously published</previouslypublished>
+			<delayedpublish>	Delayed publish</delayedpublish>
+		</versionstatus>
+		<validation>
+			<summary>		The following problems must be corrected:</summary>
+			<required>		"{0}" cannot be empty.</required>
+			<invalidvalue>	"{1}" is not a valid value for "{0}".</invalidvalue>
+			<invalidvalueexception>	"{1}" is not a valid value for "{0}". ({2})</invalidvalueexception>
+			<outofrange>	You must enter a value between {1} and {2} for "{0}".</outofrange>
+			<stringoverflow>"{0}" has exceeded its limit of {1} characters.</stringoverflow>
+			<formrequired>	* Field cannot be empty.</formrequired>
+			<valuealreadyused>"{0}" with value "{1}" is already in use by {2}.</valuealreadyused>
+			<dateorder>The date for "{0}" must be before "{1}".</dateorder>
+			<valuesameasfolder>"{0}" with value "{1}" cannot be used since the value coincides with the path of the folder "{2}".</valuesameasfolder>
+			<urlcharactersonly>Only use characters a to z and 0 to 9 and hyphen(-).</urlcharactersonly>		
+		</validation>
+		<dope>
+			<new>New</new>
+			<edit>Edit</edit>
+			<delete>Delete</delete>
+			<security>Access Rights</security>
+			<createsibling>Create sibling</createsibling>
+			<editmode>Edit Mode</editmode>
+			<viewmode>View Mode</viewmode>
+			<print>Print</print>
+			<refresh>Refresh</refresh>
+			<copy>Copy to Clipboard</copy>
+			<newwindow>Open in New Window</newwindow>
+			<disablemenu>Disable Menu</disablemenu>
+			<properties>Properties</properties>
+			<adminmode>Admin Mode</adminmode>
+			<save>Save</save>
+			<cancel>Cancel</cancel>
+			<quickedit>Quick-edit</quickedit>
+		</dope>
+		<login>
+			<username>				Name</username>
+			<password>				Password</password>
+			<persistentlogin>		Enable automatic logon to this Web site</persistentlogin>
+			<usernamerequired>		You must enter a name</usernamerequired>
+			<missingpassword>		You must enter a password</missingpassword>
+			<loginfailed>			Login failed</loginfailed>
+		</login>
+		<workflow>
+			<notificationmail>
+				<task>Task</task>
+				<duedate>Due date</duedate>
+				<description>Description</description>
+				<contact>Contact</contact>
+			</notificationmail>
+			<reportmail>
+				<statusreport>Status report</statusreport>
+				<taskname>Name</taskname>
+				<owner>Owner</owner>
+				<changedby>Changed by</changedby>
+				<status>Status</status>
+				<statuscomments>Comments</statuscomments>
+				<pagelink>Page</pagelink>
+				<changed>Changed</changed>
+				<created>Created</created>
+				<deleted>Deleted</deleted>
+				<contact>Contact</contact>
+			</reportmail>
+			<statusmail>
+				<taskstatus>Task has new status</taskstatus>
+				<task>Task</task>
+				<description>Description</description>
+				<owner>Owner</owner>
+				<status>Status</status>
+				<statuscomments>Comments</statuscomments>
+			</statusmail>
+		</workflow>
+		<exceptionmanager>
+			<errorform>
+				<description>If you have found anything that doesn’t work, let us know so we can correct the error that may be causing the problem (don’t forget to describe what you did to generate the error).</description>
+				<sendbutton>Send Message</sendbutton>
+				<messagesenttitle>Message Sent</messagesenttitle>
+				<messagesentdescription>Your message has now been sent. We will be examining your error description and taking action to correct it.</messagesentdescription>
+			</errorform>
+			<httperrors>
+				<status code="500">
+					<title>Page could not be loaded</title>
+					<description>The link you specified does not work. This may either be the result of temporary maintenance or an incorrect link.</description>
+				</status>
+				<status code="404">
+					<title>Incorrect link</title>
+					<description>The link you gave does not work, either because the page it points to has been deleted or moved. If you clicked on a link, please inform the site’s webmaster that the link is faulty.</description>
+				</status>
+			</httperrors>
+			<exceptions>
+				<exception type="EPiServer.Core.AccessDeniedException">
+					<title>Access denied</title>
+					<description>You do not have sufficient rights to view this page.</description>
+				</exception>
+				<exception type="EPiServer.Core.PageNotFoundException">
+					<title>Page does not exist</title>
+					<description>The link you gave does not work, either because the page it points to has been deleted or moved. If you clicked on a link, please inform the site’s webmaster that the link is faulty.</description>
+				</exception>
+			</exceptions>
+		</exceptionmanager>
+		<util>
+			<linkeditor>
+				<textfieldcaption>		Text:</textfieldcaption>
+				<urlfieldcaption>		Address:</urlfieldcaption>
+				<targetfieldcaption>	Target frame:</targetfieldcaption>
+				<filefieldcaption>		File name:</filefieldcaption>
+				<mailfieldcaption>		E-mail address:</mailfieldcaption>
+				<anchorfieldcaption>	Select bookmark:</anchorfieldcaption>
+				<selectpagecaption>		Select page:</selectpagecaption>
+				<douploadcaption>		Select upload</douploadcaption>
+				<pageuploaddir>			Page files</pageuploaddir>
+				<uploaddir>				Global files</uploaddir>
+				<showfullsize>			View full size</showfullsize>
+				<alttextfieldcaption>	Alternative text:</alttextfieldcaption>
+				<linktitlefieldcaption>	Link title:</linktitlefieldcaption>
+			</linkeditor>
+			<linktoolbar>
+				<deletefilemsg>			Are you sure you wish to delete this file?</deletefilemsg>
+				<deletefilecaption>		Delete file</deletefilecaption>
+				<deletefoldermsg>		Are you sure you wish to delete this folder?</deletefoldermsg>
+				<deletefoldercaption>	Delete folder</deletefoldercaption>
+				<renamefoldermsg>		Enter new name for folder</renamefoldermsg>
+				<renamefoldercaption>	Rename folder</renamefoldercaption>
+				<renamefilemsg>			Enter new name for file</renamefilemsg>
+				<renamefilecaption>		Rename file</renamefilecaption>
+				<createfoldermsg>		Enter name for folder</createfoldermsg>
+				<createfoldercaption>	Create folder</createfoldercaption>
+				<notemptyfoldermsg>		Folder is not empty</notemptyfoldermsg>
+				<folderisreadonly>		This folder cannot be modified.</folderisreadonly>
+				<toobigfile>			The file exceeds the maximum size for uploading. </toobigfile>
+				<maxuploadsize>			Max allowed size for uploaded files:</maxuploadsize>
+				<renamefileerror>		Cannot change the file name. Reason:</renamefileerror>
+				<fileareadyexists>		A file with the name "{0}" already exists.</fileareadyexists>
+			</linktoolbar>
+			<plugins>
+				<viewtask>
+					<displayname>Display assigned task</displayname>
+					<description>Display a task that has been assigned to a user.</description>
+				</viewtask>
+				<edittask>
+					<displayname>Create New Task</displayname>
+					<description>Create a task and assign it to a user or group.</description>
+				</edittask>
+			</plugins>
+		</util>
+		<system>
+			<datebrowser>
+				<selectmonthcaption>Select month to go to (1-12)</selectmonthcaption>
+				<selectyearcaption>Select year to go to</selectyearcaption>
+				<time>Time</time>
+				<heading>Select Date</heading>
+			</datebrowser>
+			<pagebrowser>
+				<title>Link to page</title>
+				<infoselflink>This page</infoselflink>
+				<buttonnolink>No Link</buttonnolink>
+				<buttonselflink>Link to Same Page</buttonselflink>
+				<heading>Select Page</heading>
+				<notfound see="/edit/quicksearch/notfound" />
+			</pagebrowser>
+			<taskinc>
+				<statusrejected>Rejected</statusrejected>
+				<statusdone>Done</statusdone>
+				<statustimeout>Due date passed</statustimeout>
+				<statusactive>Active</statusactive>
+				<typenewpage>Create new page</typenewpage>
+				<typeapprovepage>Existing page</typeapprovepage>
+				<typeurl>Show custom URL</typeurl>
+				<typeautomail>Send report via e-mail</typeautomail>
+				<buttonreject>Reject</buttonreject>
+				<buttondone>Done</buttondone>
+				<buttoncontinue>Continue</buttoncontinue>
+				<createdby>Created by</createdby>
+			</taskinc>
+			<editutil>
+				<reqfield>You must enter a value in this field</reqfield>
+				<badintegerfield>Invalid value, only digits allowed for</badintegerfield>
+				<badfloatfield>Invalid value, decimal number required for</badfloatfield>
+				<baddatefield>Dates should be entered as YYYY-MM-DD HH:MM</baddatefield>
+				<captionheading>Name</captionheading>
+				<helpheading>Name of the page, which will be used, for example, as a heading in the menus.</helpheading>
+				<captioncreated>Created</captioncreated>
+				<helpcreated>Date when the page was created</helpcreated>
+				<captionstartpublish>Start publish</captionstartpublish>
+				<helpstartpublish>Publish the page from this date. If this field is left empty, the page will be published as soon as you have clicked the Publish button.</helpstartpublish>
+				<captionstoppublish>Stop publish</captionstoppublish>
+				<helpstoppublish>Publish the page up to this date. If this field is left empty, you must manually delete the page to stop it from being published.</helpstoppublish>
+				<captionupdatechanged>&amp;nbsp;Mark page as changed&amp;nbsp;</captionupdatechanged>
+				<helpupdatechanged>The date the page is changed will be updated if this box is selected. This is necessary for the page to be included in subscriptions, for example.</helpupdatechanged>
+				<captionsortorder>Sort order</captionsortorder>
+				<helpsortorder>Defines the order in which children of this page will be displayed.</helpsortorder>
+				<captionsortindex>Sort index</captionsortindex>
+				<helpsortindex>Specify an integer for the index number of this page. By selecting "According to sort index" for the parent of this page, the page with the lowest index will be shown at the top.</helpsortindex>
+				<captionvisibleinmenu>Display page in menus</captionvisibleinmenu>
+				<helpvisibleinmenu>Select this box if you want to display the page in the menus. If this box is empty, the page will only be displayed in listings.</helpvisibleinmenu>
+				<captionoutputcache>Use HTML cache</captionoutputcache>
+				<helpoutputcache>Select this box if you want the page to be stored in the HTML cache and presented without being recreated by the ASP code. This can significantly enhance performance.</helpoutputcache>
+				<captionlanguage>		Language encoding</captionlanguage>
+				<helplanguage>		Set language encoding for page, if different from default</helplanguage>
+				<captionmoderated>Activate moderation</captionmoderated>
+				<helpmoderated>Pages added under this folder must be approved by someone with Moderator access rights before they can be displayed.</helpmoderated>
+				<captionexternalurl>Simple address for this page</captionexternalurl>
+				<helpexternalurl>Specify the path from the root of your Web site, for example "/products". This page can then be made accessible through a simple address without "?" or any other symbols. The visitor enters www.foretaget.se/products and the page will be displayed. </helpexternalurl>
+				<helpdynprop>Select this box to set the specified value for all child pages</helpdynprop>
+				<helpdynpropdef>The property has a value defined on this page</helpdynpropdef>
+				<helpdynpropundef>The property has no value</helpdynpropundef>
+				<defframe>Normal (same window/frame)</defframe>
+				<sortorder1>Last created first in list</sortorder1>
+				<sortorder2>Last created last in list</sortorder2>
+				<sortorder3>Alphabetical</sortorder3>
+				<sortorder4>According to sort index</sortorder4>
+				<sortorder5>Last changed first in list</sortorder5>
+				<sortorder7>According to Start publish date (oldest first)</sortorder7>
+				<sortorder8>According to Start publish date (latest first)</sortorder8>
+				<unloadmessage>You have made changes to this page</unloadmessage>
+				<reloadmessage>			You have made changes that require a reload of this page, any new information may get lost.</reloadmessage>
+				<languagecommonpropertyicontooltiporiginal>This property is common for all languages and can only be edited here</languagecommonpropertyicontooltiporiginal>
+				<languagecommonpropertyicontooltiptranslation>This property is common for all languages and can only be edited in the page's original language</languagecommonpropertyicontooltiptranslation>
+			</editutil>
+		</system>
+		<edit>
+			<actionwindow>
+				<heading>Action Window</heading>
+				<hide>Hide</hide>
+			</actionwindow>
+			<linkdocument>
+				<heading>				Insert Document</heading>
+			</linkdocument>
+			<linkimage>
+				<heading>				Insert Image</heading>
+			</linkimage>
+			<linkgeneric>
+				<heading>					Insert Link</heading>
+				<LinkGenericAnchorCaption>	Bookmark on current page</LinkGenericAnchorCaption>
+				<LinkGenericExternalCaption>Page on another Web site</LinkGenericExternalCaption>
+				<LinkGenericFileCaption>	File on another server</LinkGenericFileCaption>
+				<LinkGenericInternalCaption>Page in EPiServer</LinkGenericInternalCaption>
+				<LinkGenericMailCaption>	E-mail address</LinkGenericMailCaption>
+			</linkgeneric>
+			<quicksearch>
+				<notfound>No matching ID or page name found</notfound>
+			</quicksearch>
+			<editform>
+				<heading>Form Settings</heading>
+				<info></info>
+				<placefieldsinmatrix>Place fields in matrix below</placefieldsinmatrix>
+				<namecaption>Name</namecaption>
+				<placementcaption>Placement</placementcaption>
+				<horizontal>Horizontal</horizontal>
+				<vertical>Vertical</vertical>
+				<optionscaption>Options</optionscaption>
+				<fieldexists>A field already exists in this cell</fieldexists>
+				<textinputproperties>Properties for text field</textinputproperties>
+				<checkboxproperties>Properties for check box</checkboxproperties>
+				<textareaproperties>Properties for text area</textareaproperties>
+				<radiobuttonproperties>Properties for radio button</radiobuttonproperties>
+				<selectboxproperties>Properties for select box</selectboxproperties>
+				<descriptionproperties>Properties for heading</descriptionproperties>
+				<inputtext>Text field</inputtext>
+				<inputtextarea>Text area</inputtextarea>
+				<inputselectbox>Select box</inputselectbox>
+				<inputradiobutton>Radio button</inputradiobutton>
+				<inputcheckbox>Check box</inputcheckbox>
+				<inputdescription>Heading</inputdescription>
+				<requiredcaption>Value must be entered</requiredcaption>
+				<widthcaption>Width (number of characters)</widthcaption>
+				<heightcaption>Height (number of rows)</heightcaption>
+				<textcaption>Text</textcaption>
+				<htmlcode>HTML code</htmlcode>
+				<addrowbutton>Add Row</addrowbutton>
+				<addcolumnbutton>Add Column</addcolumnbutton>
+				<insertrowbutton>Insert Row</insertrowbutton>
+				<insertcolumnbutton>Insert Column</insertcolumnbutton>
+				<deleterowbutton>Delete Row</deleterowbutton>
+				<deletecolumnbutton>Delete Column</deletecolumnbutton>
+				<confirmdelete>Are you sure you want to delete this field?</confirmdelete>
+				<formnamecaption>Name of form</formnamecaption>
+				<postresultcaption>Result from sending</postresultcaption>
+				<sendemailoption>Send e-mail</sendemailoption>
+				<savetodatabaseoption>Save to database</savetodatabaseoption>
+				<mailanddboption>Send e-mail and save to database</mailanddboption>
+				<sendtourloption>Send to specified URL</sendtourloption>
+				<sendemailtoadresscaption>Send e-mail to this address</sendemailtoadresscaption>
+				<sendemailfromadresscaption>E-mail address of sender</sendemailfromadresscaption>
+				<sendformtourlcaption>Send form to this URL</sendformtourlcaption>
+				<allowanonymouspostcaption>Form can be sent without logging in</allowanonymouspostcaption>
+				<allowmultiplepostcaption>Same person can send the form several times</allowmultiplepostcaption>
+				<classcaption>CSS class</classcaption>
+				<buttonproperties>Properties for button</buttonproperties>
+				<pageafterpost>Page shown after the form has been sent</pageafterpost>
+				<headingcaption>Heading</headingcaption>
+				<buttoncaption>Button text</buttoncaption>
+				<tooltipcaption>ToolTip</tooltipcaption>
+				<inputsubmit>Button</inputsubmit>
+				<typecaption>Validate as</typecaption> 
+				<sendemailsubjectcaption>E-mail subject</sendemailsubjectcaption>
+			</editform>
+			<workspace>
+				<welcome>Welcome to EPiServer</welcome>
+				<mysettings>My Settings</mysettings>
+				<license>License Agreement</license>
+				<userinfo>User Information</userinfo>
+				<firstlisting>First listing</firstlisting>
+				<secondlisting>Second listing</secondlisting>
+			</workspace>
+			<activityloader>
+				<statusreadytopublish>Ready to Publish</statusreadytopublish>
+				<statusnotready>Not Published</statusnotready>
+				<statusrejected>Commented</statusrejected>
+				<noactivity>No ongoing activities</noactivity>
+				<personaltask>Personal Tasks</personaltask>
+				<grouptask>Group Tasks</grouptask>
+				<workflowowner>Overview of Workflow</workflowowner>
+				<duedate>Due date</duedate>
+				<assignedtasks>My Assigned Tasks</assignedtasks>
+				<readytopublishtooltip>Ready to publish:</readytopublishtooltip>
+				<personaltaskstaskstooltip>Personal tasks:</personaltaskstaskstooltip>
+			</activityloader>
+			<workflowlog>
+				<heading>Overview of Workflow</heading>
+				<taskname>Name</taskname>
+				<owner>Owner</owner>
+				<changedby>Changed by</changedby>
+				<status>Status</status>
+				<statuscomments>Comments</statuscomments>
+				<pagelink>Page</pagelink>
+				<changed>Changed</changed>
+				<created>Created</created>
+				<deleted>Deleted</deleted>
+			</workflowlog>
+			<taskoverview>
+				<heading>Task</heading>
+				<name>Name</name>
+				<description>Description</description>
+				<owner>Owner</owner>
+				<status>Status</status>
+				<statuscomments>Comments</statuscomments>
+				<pagelink>Page</pagelink>
+				<deleted>Deleted</deleted>
+			</taskoverview>
+			<editextension>
+				<heading>Extra Functions</heading>
+			</editextension>
+			<deletepage>
+				<heading>			Confirm Delete Page "{0}"</heading>
+				<info></info>
+				<deletesuffix>"{0}" has been deleted</deletesuffix>
+				<movesuffix>"{0}" has been moved to the Recycle Bin</movesuffix>
+				<deletesystempage>	Recycle Bin, start page and root page cannot be deleted</deletesystempage>
+				<headingfailed>Cannot delete one or more pages</headingfailed>
+				<failedreferenced>The following pages are referenced from other parts of the system and cannot therefore be deleted:</failedreferenced>
+				<reftypeproperty>{0} is referenced by a property in {1}</reftypeproperty>
+				<reftypeshortcut>{0} is the destination in a shortcut from {1}</reftypeshortcut>
+				<reftypearchive>{0} is the archive folder for {1}</reftypearchive>
+				<reftypedefaultarchive>{1} is being used as default archive page on page type {0}</reftypedefaultarchive>
+			</deletepage>
+			<editdynprop>
+				<heading>Edit Dynamic Properties on Page "{0}"</heading>
+				<info />
+				<nodynprop>No dynamic properties defined</nodynprop>
+				<save>Dynamic properties have been saved</save>
+			</editdynprop>
+			<editsecurity>
+				<heading>		Set Access Rights for Page "{0}"</heading>
+				<user>			You are logged on as {0} and you are a member of the following groups</user>
+				<info>			You can select which users and groups that will have access to this page as well as what they are allowed to do with the page.</info>
+				<savemessage comment="heading of savesecurity">New access rights have been saved</savemessage>
+			</editsecurity>
+			<editpage>
+				<newheadingprefix>Create&amp;nbsp;</newheadingprefix>
+				<editheadingprefix>Edit&amp;nbsp;</editheadingprefix>
+				<editheadingsuffix />
+				<creator>Created by</creator>
+				<createdby>Page created by</createdby>
+				<savedby>Page last saved by</savedby>
+				<publishedby>Page published by</publishedby>
+				<changed>Page changed</changed>
+				<versioncreatedby>Version created by</versioncreatedby>
+				<versionsavedby>Version saved by</versionsavedby>
+				<versionstatus>Version status</versionstatus>
+				<updatechanged>&amp;nbsp;Mark page as changed&amp;nbsp;</updatechanged>
+				<normallinkcaption>Normal link</normallinkcaption>
+				<normallinkhelp>The page opens with its own content</normallinkhelp>
+				<nolinkcaption>No link</nolinkcaption>
+				<nolinkhelp>The page has no link and will not display anything. This is used, for example, for headings in tree menus.</nolinkhelp>
+				<shortcutcaption>Shortcut to page in EPiServer</shortcutcaption>
+				<shortcuthelp>The page opens the content of another page and transfers the visitor to the page in question in the structure.</shortcuthelp>
+				<fetchdatacaption>Fetch data from page in EPiServer</fetchdatacaption>
+				<fetchdatahelp>This page opens the content of another page and remains in the current location in the structure.</fetchdatahelp>
+				<externallinkcaption>Link to page on another Web site</externallinkcaption>
+				<externallinkhelp>This page opens with the content from the external page or document you are linked to.</externallinkhelp>
+				<mustpublishmasterfirst>The original language ({0}) for this page has not yet been published. The original language must be published before the page can be published in other languages.</mustpublishmasterfirst>
+			</editpage>
+			<editcommand>
+				<askdelete>Do you want to delete this page {0} ?</askdelete>
+				<askemptywastebasket>Do you want to empty the Recycle Bin?</askemptywastebasket>
+				<askmove>Do you want to move this page?</askmove>
+				<denycut>You are not entitled to cut this page</denycut>
+				<createnewpagecaption>Create New</createnewpagecaption>
+				<createnewpagehelp>Create new page</createnewpagehelp>
+				<editpagecaption>Edit</editpagecaption>
+				<editpagehelp>Edit selected page</editpagehelp>
+				<deletepagecaption>Delete</deletepagecaption>
+				<deletepagehelp>Delete selected page</deletepagehelp>
+				<cutpagecaption>Cut</cutpagecaption>
+				<cutpagehelp>Cut selected page</cutpagehelp>
+				<copypagecaption>Copy</copypagecaption>
+				<copypagehelp>Copy selected page</copypagehelp>
+				<pastepagecaption>Paste</pastepagecaption>
+				<pastepagehelp>Paste selected page</pastepagehelp>
+				<setaccesscaption>Access rights</setaccesscaption>
+				<setaccesshelp>Change access rights</setaccesshelp>
+				<editdynpropcaption>Dynamic properties</editdynpropcaption>
+				<editdynprophelp>Edit dynamic properties</editdynprophelp>
+				<adminmodehelp see="/dope/adminmode" />
+				<viewmodehelp see="/dope/viewmode" />
+				<settingshelp see="/edit/workspace/mysettings" />
+				<logouthelp>Logout</logouthelp>
+				<editextensionhelp>Extra functions</editextensionhelp>
+				<viewmode>Structure</viewmode>
+				<editmode>Edit mode</editmode>
+				<personalmode>My Tasks</personalmode>
+				<actionwindowhelp>Open Action window</actionwindowhelp>
+				<favoritesmode>Favorites</favoritesmode>
+				<addfavoritecaption>Add to Favorites</addfavoritecaption>
+				<removefavoritecaption>Remove favorite</removefavoritecaption>
+				<pagetypenotallowed>	Page type is not allowed at the destination</pagetypenotallowed>
+				<filemanagementhelp>File management</filemanagementhelp>
+				<languagepagecaption>Page Languages</languagepagecaption>
+				<languagepagehelp see="/edit/editcommand/languagepagecaption" />
+				<languageoverviewcaption>Language Overview</languageoverviewcaption>
+				<languageoverviewhelp see="/edit/editcommand/languageoverviewcaption" />
+				<languagesettingscaption>Language Settings</languagesettingscaption>
+				<languagesettingshelp see="/edit/editcommand/languagesettingscaption" />
+				<deletepagelanguagecaption>Delete Language</deletepagelanguagecaption>
+			</editcommand>
+			<editpanel>
+				<statusnew>New version</statusnew>
+				<statusrejected>Comments</statusrejected>
+				<statuscheckedout>Not ready</statuscheckedout>
+				<statuscheckedin>Ready to publish</statuscheckedin>
+				<statuspublished>Published version</statuspublished>
+				<statusprevious>Previously published</statusprevious>
+				<actiondelete>Delete version</actiondelete>
+				<actionapprove>Publish</actionapprove>
+				<actioncheckin>Ready</actioncheckin>
+				<actionreject>Comment</actionreject>
+				<prefixcopyof>Copy of</prefixcopyof>
+				<tabview>View</tabview>
+				<tabedit>
+					<displayname>		Edit</displayname>
+					<description>		</description>
+				</tabedit>
+				<tabversionlist>
+					<displayname>		Version List</displayname>
+					<description>		</description>
+					<oneunpublishedversiontooltip>One unpublished version</oneunpublishedversiontooltip>
+					<unpublishedversionstooltip>{0} unpublished versions</unpublishedversionstooltip>
+					<oneunpublishedversionglobalizedtooltip>One unpublished version for language: {0}</oneunpublishedversionglobalizedtooltip>
+					<unpublishedversionsglobalizedtooltip>{0} unpublished versions for language: {1}</unpublishedversionsglobalizedtooltip>
+				</tabversionlist>
+				<tabformdata>Form Data</tabformdata>
+				<viewstatus>Status</viewstatus>
+				<viewsaveddate>Saved</viewsaveddate>
+				<viewsavedby>By</viewsavedby>
+				<rejectprompt>Comments to author</rejectprompt>
+				<selectversion>Version:</selectversion>
+				<notreadyitem>--- Not published ---</notreadyitem>
+				<confirmdelete>Do you really want to delete this version?</confirmdelete>
+				<tooltipedit>Edit this version</tooltipedit>
+				<tooltipeditnew>Edit new version (make copy of this version)</tooltipeditnew>
+				<tooltipcheckin>Submit version for publishing</tooltipcheckin>
+				<tooltipdelete>Delete this version</tooltipdelete>
+				<tooltipapprove>Publish this version</tooltipapprove>
+				<tooltipreject>Comment on this version</tooltipreject>
+				<tooltipsave>Save this version</tooltipsave>
+				<creatingnewpage>Creating New Page</creatingnewpage>
+				<showversionlist>       Show version list</showversionlist> 
+				<confirmnavigate>You have made changes to this page</confirmnavigate>
+				<tooltipcancel>Cancel editing this version</tooltipcancel>
+				<tabtranslate>
+					<displayname>		Translate</displayname>
+					<description>		</description>
+				</tabtranslate>
+				<tabcomparelanguages>
+					<displayname>		Compare Languages</displayname>
+					<description>		</description>
+				</tabcomparelanguages>
+				<tablanguagecommon>
+					<displayname>		Common</displayname>
+					<description>		</description>
+				</tablanguagecommon>
+				<delayinfo>					Manage delayed publishing of this page version.</delayinfo>
+				<delaystartpublishinfo>		Enter date/time for delayed publishing</delaystartpublishinfo>
+				<delaypublishinfo>			Select this box to enable delayed publishing</delaypublishinfo>
+				<savedelaypublishbutton>	Save</savedelaypublishbutton>
+				<unpublishedlanguage>		Unpublished language</unpublishedlanguage>
+				<compareto>Compare with</compareto>
+				<translateto>Translate to</translateto>
+				<tooltipsaveonly>Save this version</tooltipsaveonly>
+				<tooltipsave>Save and view this version</tooltipsave>
+				<creatingnewpagelanguage>Creating Page in a New Language</creatingnewpagelanguage>				
+			</editpanel>
+			<editversionlist>
+				<columnheadingversion>Version</columnheadingversion>
+				<columnheadingname>Name</columnheadingname>
+				<columnheadingstatus>Status</columnheadingstatus>
+				<columnheadingdatesaved>Saved</columnheadingdatesaved>
+				<columnheadingsavedby>By</columnheadingsavedby>
+				<buttoncompareversion>Compare Versions</buttoncompareversion>
+				<columnheadinglanguage>Language</columnheadinglanguage>
+				<showalllanguages>Show all languages</showalllanguages>
+			</editversionlist>
+			<wastebasketpage>
+				<emptywastebasket>Empty Recycle Bin</emptywastebasket>
+				<info></info>
+				<emptiedmessage>The Recycle Bin has been emptied</emptiedmessage>
+				<reftypeproperty see="/edit/deletepage/reftypeproperty" />
+				<reftypeshortcut see="/edit/deletepage/reftypeshortcut" />
+				<reftypearchive see="/edit/deletepage/reftypearchive" />
+				<askemptywastebasket see="/edit/editcommand/askemptywastebasket" />
+				<heading>Recycle Bin</heading>
+				<numdeletedpages>Number of pages in the Recycle Bin</numdeletedpages>
+			</wastebasketpage>
+			<newpage>
+				<heading>		Create New Page</heading>
+				<info>			Select type of page to create from the list below</info>
+				<nopagetype>	No page types available for this page</nopagetype>
+				<tooltipcancel>Cancel creating new page</tooltipcancel>
+			</newpage>
+			<sidbrowser>
+				<heading>Add Users/Groups</heading>
+				<info />
+				<orgsid>Existing:</orgsid>
+				<newsid>Add:</newsid>
+			</sidbrowser>
+			<editformdata>
+				<heading>			Form Data</heading>
+				<selectform>		Select form</selectform>
+				<fromdate>			From date</fromdate>
+				<todate>			To date</todate>
+				<sortorder>			Sorting</sortorder>
+				<export>			Export</export>
+				<newestfirst>		Newest first</newestfirst>
+				<oldestfirst>		Oldest first</oldestfirst>
+				<confirmdelete>		Are you sure you want to delete all items found in this search?</confirmdelete>
+				<nohits>			No hits</nohits>
+				<matches>			match(es)</matches>
+				<pagingsize>		Number of hits per page</pagingsize>
+				<excelexport>		Export to Excel</excelexport>
+				<errorexportingdata>Error exporting data</errorexportingdata>
+				<date>				Date</date>
+				<user>				User</user>
+			</editformdata>
+			<formpostings>
+				<displayname>		Form Data</displayname>
+				<description>		Show form data.</description>
+			</formpostings>
+			<extension>
+				<task>
+					<heading>Assign Task</heading>
+					<taskheading>Name</taskheading>
+					<taskdescription>Description</taskdescription>
+					<tasktype>Type</tasktype>
+					<taskpagetype>Page type</taskpagetype>
+					<taskcontainer>Placement in the tree</taskcontainer>
+					<taskpage>Select page</taskpage>
+					<taskowner>Assign task to</taskowner>
+					<taskmailnotification>Send message to owner via e-mail</taskmailnotification>
+					<taskduedate>Due date</taskduedate>
+					<taskassign>Assign task</taskassign>
+					<taskassigned>Task assigned</taskassigned>
+				</task>
+			</extension>
+			<conflicteditor>
+				<heading>Conflict Editor</heading>
+				<info>Information on the published version has been changed since you checked out this version</info>
+				<tabmychanges>My Changes</tabmychanges>
+				<tabpublishedchanges>Published Changes</tabpublishedchanges>
+			</conflicteditor>
+			<edittree>
+				<nofavoritesfound>			There are no favorites defined</nofavoritesfound>
+				<notasksfound>				No active tasks were found</notasksfound>
+				<copypage>Copy "{0}" to "{1}"</copypage>
+				<movepage>Move "{0}" to "{1}"</movepage>
+			</edittree>
+			<editxform>
+				<heading>Edit Form</heading>
+				<confirmdelete>Are you sure you want to delete this field?</confirmdelete>
+				<selectform>Select Form</selectform>
+				<fromdate>From date</fromdate>
+				<todate>To date</todate>
+				<allpages>Show data for all pages</allpages>
+				<createdby>Created by:</createdby>
+				<created>Created:</created>
+				<changedby>Changed by:</changedby>
+				<changed>Last changed:</changed>
+				<useformbutton>Use</useformbutton>
+				<editformbutton>Edit</editformbutton>
+				<createformbutton>Create New</createformbutton>
+				<existonpages>Note that this form is used on several pages. Changes to the form will therefore affect the following pages:</existonpages>
+				<savewarninginfo>This form is used on several pages.</savewarninginfo>
+				<savewarningquestion>Are you sure you want to save the changes?</savewarningquestion>
+				<noformbutton>No Form</noformbutton>
+				<nameempty>Names must be specified for all fields.</nameempty>
+				<nameexistsmorethanonce>Several fields have the same name: "{0}".</nameexistsmorethanonce>
+				<namenotallowedcharacters>Incorrect field name: "{0}". The name must only contain alphanumeric characters (a-z, A-Z, 1-9 and "_", space is not allowed).</namenotallowedcharacters>
+				<invalid>Incorrect form.</invalid>
+				<namerequired>A name must be specified for the field.</namerequired>
+				<nameinvalid>Incorrect field name. The name must begin with a letter, and must only contain alphanumeric characters (a-z, A-Z, 1-9 and "_", space is not allowed).</nameinvalid>
+				<saveas>Save as New Form</saveas>
+				<datatypes>
+					<integer>
+						<caption>Integer</caption> 
+						<errormessage>"{0}" is not a valid integer.</errormessage> 
+					</integer>
+					<positiveinteger>
+						<caption>Positive integer</caption> 
+						<errormessage>"{0}" is not a valid positive integer.</errormessage> 
+					</positiveinteger>
+					<email>
+						<caption>E-mail address</caption> 
+						<errormessage>"{0}" is not a valid e-mail address.</errormessage> 
+					</email>
+					<isodate>
+						<caption>Date (YYYY-MM-DD)</caption> 
+						<errormessage>"{0}" is not a valid date. Please enter a date in the format "YYYY-MM-DD".</errormessage>
+					</isodate>
+					<date1>
+						<caption>Date (DD/MM/YYYY)</caption> 
+						<errormessage>"{0}" is not a valid date. Please enter a date in the format "DD/MM/YYYY".</errormessage>
+					</date1>
+					<date2>
+						<caption>Date (MM/DD/YYYY)</caption> 
+						<errormessage>"{0}" is not a valid date. Please enter a date in the format "MM/DD/YYYY".</errormessage>
+					</date2>
+					<defaulttype>
+						<errormessage>You have entered characters that are not permitted ("&lt;" or "&gt;").</errormessage> 
+					</defaulttype>
+				</datatypes>
+				<formnameempty>Enter a name for the form.</formnameempty>
+				<formdatamailsubject>Form data from "{0}" ({1})</formdatamailsubject>
+				<formusedonpages>The form is used on the following pages:</formusedonpages>
+				<formnotused>The form is not used on any page.</formnotused>
+				<multiplevalueinvalid>Invalid value for options (options must not include the ' character).</multiplevalueinvalid>
+				<forminformation>Form Information</forminformation>
+				<folder>Folder</folder>
+				<allforms>All forms</allforms>
+				<formfoldercaption>Form folder</formfoldercaption>
+				<createnewformfoldertooltip>Create new form folder</createnewformfoldertooltip>
+				<renameformfoldertooltip>Rename selected form folder</renameformfoldertooltip>
+				<deleteformfoldertooltip>Delete selected form folder</deleteformfoldertooltip>
+				<folderdialog>
+					<createnewformfolderheading>Create New Form Folder</createnewformfolderheading>
+					<renameformfolderheading>Rename Form Folder</renameformfolderheading>
+					<createnewformfoldertext>Name for new folder:</createnewformfoldertext>
+					<renameformfoldertext>New folder name:</renameformfoldertext>
+					<deletequestion>Are you sure you want to delete the selected form folder?</deletequestion>
+					<createnewformfoldersavewarning>You must enter a valid name for the new form folder (without the characters \ / " ' &lt; &gt;).</createnewformfoldersavewarning>
+					<renameformfoldersavewarning>You must enter a valid new name for the form folder (without the characters \ / " ' &lt; &gt;).</renameformfoldersavewarning>
+				</folderdialog>
+				<nofolder>No folder</nofolder>
+			</editxform>			
+			<editxformdata>
+				<selectform>Select form</selectform>
+				<fromdate>From date</fromdate>
+				<todate>To date</todate>
+				<allpages>Show data for all pages</allpages>
+				<pagingsize>Number of rows to show at the same time</pagingsize>
+			</editxformdata>	
+			<contentmirroringadmin>
+				<displayname>Approve Mirroring Updates</displayname>
+				<description>A list of defined channels that are available on this system.</description>
+				<itemdeleted>Deleted</itemdeleted>
+				<itemupdated>Updated</itemupdated>
+				<itemcreated>Created</itemcreated>
+				<itemmoved>Moved</itemmoved>
+			</contentmirroringadmin>
+			<logservice>
+				<timespananalyzer>
+					<selectinterval>Select time span</selectinterval>
+					<min5interval>5 minutes</min5interval>
+					<hourinterval>Hour</hourinterval> 
+					<dayinterval>Day</dayinterval>
+					<monthinterval>Month</monthinterval>
+					<yearinterval>Year</yearinterval>
+					<total>Total</total>
+					
+					<statisticsdate>Date</statisticsdate>
+					<statisticshits>Number of Hits</statisticshits>
+					
+					<problemconnecting>Cannot connect to the log service.</problemconnecting>
+					<nodatabase>The log service is not configured with a database. Saved history will not be shown.</nodatabase>
+				</timespananalyzer>
+				<realtimeanalyzer>
+					<referrerurl>URL</referrerurl>
+					<referrercount>Number of References</referrercount>
+					<noreferrer>Direct access to page</noreferrer>
+				</realtimeanalyzer>
+			</logservice>
+			<timespanview>
+				<displayname>Statistics</displayname>
+			</timespanview>
+			<filemanagerbrowser>
+				<selectimage>Select Image</selectimage>
+				<selectfile>Select File</selectfile>
+				<selectfolder>Select Folder</selectfolder>
+				<imageselectionerrormessage>Please select an image first.</imageselectionerrormessage>
+				<fileselectionerrormessage>Please select a file first.</fileselectionerrormessage>
+				<directoryselectionerrormessage>Please select a folder first.</directoryselectionerrormessage>
+			</filemanagerbrowser>
+			<editorguide>
+				<displayname>Usability Guide</displayname>
+				<description>The guide that helps you create usable and accessible Web content.</description>
+				<showsection>Show section</showsection>
+				<hidesection>Hide section</hidesection>
+			</editorguide>	
+			<globalizationcontrol>
+				<heading>Languages for Page "{0}"</heading>
+				<displayname>Page Languages</displayname>
+				<description>View the status of and access the different languages for the current page.</description>
+				<published>Published</published>
+				<saved>Saved</saved>
+			</globalizationcontrol>
+			<globalizationmatrix>
+				<heading>Language Overview for Page "{0}"</heading>
+				<description></description>
+				<page>Page</page>
+				<languagestatuspublished>Page is published</languagestatuspublished>
+				<languagestatusnotpublished>Page is not published yet</languagestatusnotpublished>
+				<goup>Up</goup>
+			</globalizationmatrix>
+			<languagesettings>
+				<heading>Language Settings for Page "{0}"</heading>
+				<description></description>
+				<inheritsettings>Inherit settings from the parent page: "{0}"</inheritsettings>
+				<availablelanguagestitle>Available languages</availablelanguagestitle>
+				<availablelanguagesdescriptionfirst>Pages in this part of the site should be available in the languages below. This means that pages can only be created in and translated to these languages.</availablelanguagesdescriptionfirst>
+				<availablelanguagesdescriptionsecond>This setting affects the languages that editors will have access to for this part of the site.</availablelanguagesdescriptionsecond>
+				<replacementlanguagestitle>Replacement languages</replacementlanguagestitle>
+				<replacementlanguagesdescriptionfirst>Pages in this part of the site should, in the cases below, be displayed in a language other than the one the visitor has selected. This means that pages that are not available in these languages can instead be displayed in other languages.</replacementlanguagesdescriptionfirst>
+				<replacementlanguagesdescriptionsecond>This setting could, for instance, be used when general information in a specific language should be available to all visitors no matter which language has been selected.</replacementlanguagesdescriptionsecond>
+				<fallbacklanguagestitle>Fallback languages</fallbacklanguagestitle>
+				<fallbacklanguagesdescriptionfirst>Pages in this part of the site may be made available in a language other than the one selected by the visitor. This means that pages that have not yet been translated and published in the selected language can instead be temporarily displayed in another language.</fallbacklanguagesdescriptionfirst>
+				<fallbacklanguagesdescriptionsecond>Please note that this setting may cause mixed languges in navigation and listings, which may be confusing for the visitor.</fallbacklanguagesdescriptionsecond>
+				<visitorlanguageheading>Visitor Language</visitorlanguageheading>
+				<replacementlanguageheading>Replacement Language</replacementlanguageheading>
+				<fallbacklanguageheading>Fallback Language</fallbacklanguageheading>
+				<addwarning>Are you sure you want to have your own language settings for this page instead of inheriting the settings from the parent page?</addwarning>
+				<deletewarning>Are you sure you want to delete the language settings for this page and inherit the settings from the parent page?</deletewarning>
+			</languagesettings>
+			<deletepagelanguage>
+				<heading>			Delete Language for Page "{0}"</heading>
+				<info>				Delete one of the languages for the page, without deleting the entire page. Note! When you delete a language for a page, it will be permanently deleted. This means that it will not be moved to the Recycle Bin. Any sub-pages in the same language will not be deleted.</info>
+				<selectlanguage>	Delete language</selectlanguage>
+				<selectlanguageitem>Select language to delete</selectlanguageitem>
+				<deletedlanguage>	Language "{0}" has been deleted for this page.</deletedlanguage>				
+				<nothingtodelete>	Only one language exists for this page. Use the "Delete" function if you want to delete the page and its sub-pages.</nothingtodelete>
+        <confirmdeletemessage>If you continue, the selected language will be permanently deleted for the page.</confirmdeletemessage>
+        <confirmdeletequestion>Are you sure you want to delete the language?</confirmdeletequestion>
+        <alertlangnotselected>You must select a language.</alertlangnotselected>
+			</deletepagelanguage>
+		</edit>
+		<editor>
+			<tools>
+				<font>
+					<toolheading>Font</toolheading>
+					<fontheading>Font:</fontheading>
+					<styleheading>Style:</styleheading>
+					<sizeheading>Size:</sizeheading>
+					<effectheading>Effects:</effectheading>
+					<underline>Underline</underline>
+					<colorheading>Color:</colorheading>
+					<samlpeheading>Sample</samlpeheading>
+					<styleregular>		Regular</styleregular>
+					<styleitalic>		Italic</styleitalic>
+					<stylebold>			Bold</stylebold>
+					<stylebolditalic>	Bold Italic</stylebolditalic>
+				</font>
+				<search>
+					<toolheading>Find</toolheading>
+					<findheading>Find what:</findheading>
+					<matchwhole>Match whole word only</matchwhole>
+					<matchcase>Match case</matchcase>
+					<directionheading>Direction</directionheading>
+					<directonup>Up</directonup>
+					<directiondown>Down</directiondown>
+					<reachedend>		Reached the end of the document. Do you want to continue from the top?</reachedend>
+					<finisheddocument>	Finished searching the document.</finisheddocument>
+				</search>
+				<insertanchor>
+					<toolheading>Insert Bookmark</toolheading>
+					<anchorname>Bookmark name:</anchorname>
+				</insertanchor>
+				<inserttable>
+					<toolheading>Insert Table</toolheading>
+					<previewheading>Preview</previewheading>
+					<rows>Rows</rows>
+					<columns>Columns</columns>
+					<border>Border</border>
+					<width>Width</width>
+				</inserttable>
+				<spellcheck>
+					<toolheading>Spelling</toolheading>
+					<notindictionary>Not in dictionary:</notindictionary>
+					<suggestions>Suggestions:</suggestions>
+					<cannotspellcheck>	The current selection cannot be spell checked.</cannotspellcheck>
+					<finishedselection>	Finished checking the selection.</finishedselection>
+					<finisheddocument>	Finished checking the document.</finisheddocument>
+					<initializing>		(Initializing spell check, please wait...)</initializing>
+					<textnotfound>		was not found in the text.</textnotfound>
+					<nosuggestions>		(no spelling suggestions)</nosuggestions>
+				</spellcheck>
+				<tableproperties>
+					<toolheading>Table Properties</toolheading>
+					<layoutheading>Layout</layoutheading>
+					<alignmentheading>Alignment:</alignmentheading>
+					<alignmentdefault>Default</alignmentdefault>
+					<alignmentright>Right</alignmentright>
+					<alignmentcenter>Center</alignmentcenter>
+					<alignmentleft>Left</alignmentleft>
+					<cellpadding>Cell padding:</cellpadding>
+					<cellspacing>Cell spacing:</cellspacing>
+					<specifywidth>Specify width:</specifywidth>
+					<specifyheight>Specify height:</specifyheight>
+					<pixels>In pixels</pixels>
+					<percent>In percent</percent>
+					<borderheading>Borders</borderheading>
+					<bordersize>Size:</bordersize>
+					<bordercolor>Color:</bordercolor>
+					<borderlight>Light border:</borderlight>
+					<borderdark>Dark border:</borderdark>
+					<backgroundheading>Background</backgroundheading>
+					<backgroundcolor>Color:</backgroundcolor>
+					<usepicture>Use background picture</usepicture>
+					<sizeheading>Size</sizeheading>
+					<descriptionheading>Description</descriptionheading>
+					<caption>Caption:</caption>
+					<summary>Summary:</summary>
+				</tableproperties>
+				<cellproperties>
+					<toolheading>Cell Properties</toolheading>
+					<layoutheading>Layout</layoutheading>
+					<halignmentheading>Horizontal alignment:</halignmentheading>
+					<halignmentdefault>Default</halignmentdefault>
+					<halignmentright>Right</halignmentright>
+					<halignmentcenter>Center</halignmentcenter>
+					<halignmentleft>Left</halignmentleft>
+					<valignmentheading>Vertical alignment:</valignmentheading>
+					<valignmentdefault>Default</valignmentdefault>
+					<valignmentbaseline>Baseline</valignmentbaseline>
+					<valignmentbottom>Bottom</valignmentbottom>
+					<valignmentmiddle>Middle</valignmentmiddle>
+					<valignmenttop>Top</valignmenttop>
+					<specifywidth>Specify width:</specifywidth>
+					<specifyheight>Specify height:</specifyheight>
+					<pixels>In pixels</pixels>
+					<percent>In percent</percent>
+					<borderheading>Borders</borderheading>
+					<bordercolor>Color:</bordercolor>
+					<borderlight>Light border:</borderlight>
+					<borderdark>Dark border:</borderdark>
+					<backgroundheading>Background</backgroundheading>
+					<backgroundcolor>Color:</backgroundcolor>
+					<usepicture>Use background picture</usepicture>
+					<sizeheading>Size</sizeheading>
+					<headersheading>Headers</headersheading>
+					<type>Cell type:</type>
+					<scope>Scope:</scope>
+					<axis>Axis:</axis>
+					<axiswindowtitle>Select Axis</axiswindowtitle>
+					<axiswindowtext>Select one or more of the existing axis below, or create a new axis by entering a name in the text box.</axiswindowtext>
+					<headers>Headers:</headers>
+					<headerswindowtitle>Select Headers</headerswindowtitle>
+					<headerswindowtext>Select one or more of the available headers (ID values) below, or enter an ID you plan to add later in the text box.</headerswindowtext>
+					<id>ID:</id>
+					<datacell>Data cell</datacell>
+					<headercell>Header cell</headercell>
+					<scopecol>Column</scopecol>
+					<scoperow>Row</scoperow>
+					<multiplevalues>Multiple</multiplevalues>
+				</cellproperties>
+				<selectvalue>
+					<newvalue>New value:</newvalue>
+				</selectvalue>
+				<imageproperties>
+					<toolheading>Image Properties</toolheading>
+					<sizeheading>Display size</sizeheading>
+					<specifywidth>Specify width:</specifywidth>
+					<specifyheight>Specify height:</specifyheight>
+					<pixels>In pixels</pixels>
+					<percent>In percent</percent>
+					<lockproportions>Lock aspect ratio</lockproportions>
+					<layoutheading>Layout and borders</layoutheading>
+					<alignment>Alignment:</alignment>
+					<alignmentleft>Left</alignmentleft>
+					<alignmentright>Right</alignmentright>
+					<alignmentbottom>Bottom</alignmentbottom>
+					<alignmentmiddle>Middle</alignmentmiddle>
+					<alignmenttop>Top</alignmenttop>
+					<borderwidth>Border width:</borderwidth>
+					<hspace>Horizontal spacing:</hspace>
+					<vspace>Vertical spacing:</vspace>
+					<cssclass>CSS class:</cssclass>
+					<informationheading>Information</informationheading>
+					<filesize>File size:</filesize>
+					<filename>File name:</filename>
+					<alttext>Alternative text:</alttext>
+					<unitbytes>bytes</unitbytes>
+					<hyperlinkheading>Hyperlink</hyperlinkheading>
+					<hyperlinkaddress>Link to:</hyperlinkaddress>
+					<uselink>Connect link to the image</uselink>
+					<invalidlink>Invalid link</invalidlink>
+					<edithyperlinkproperties>Edit link properties</edithyperlinkproperties>
+					<imagefile>Image file:</imagefile>
+					<noimagevalidationmessage>Please specify an image before saving.</noimagevalidationmessage>
+					<nolinkinfovalidationmessage>You have indicated that the image is to be connected to a link.</nolinkinfovalidationmessage>
+					<specifylinkinfomessage>Please specify link information before saving or remove the indication.</specifylinkinfomessage>
+				</imageproperties>
+				<hyperlinkproperties>
+					<toolheading>Link Properties</toolheading>
+					<tabs>
+						<webpage>Web Page</webpage>
+						<document>Document</document>
+						<email>E-Mail</email>
+					</tabs>
+					<informationheading see="/editor/tools/imageproperties/informationheading" />
+					<clickabletext>Clickable text:</clickabletext>
+					<clickableimage>Clickable image:</clickableimage>
+					<linktitle see="/util/linkeditor/linktitlefieldcaption" />
+					<targetframe see="/util/linkeditor/targetfieldcaption" />
+					<linktargetheading>Link target</linktargetheading>
+					<internallink>Page on this Web site</internallink>
+					<externallink see="/edit/linkgeneric/LinkGenericExternalCaption" />
+					<anchorlink>Bookmark on this page</anchorlink>
+					<page>Page:</page>
+					<language>Language:</language>
+					<automatically>Automatically</automatically>
+					<address see="/util/linkeditor/urlfieldcaption" />
+					<anchor>Bookmark:</anchor>
+					<internaldocumentlink>Document on this Web site</internaldocumentlink>
+					<networkdocumentlink>Document on the network</networkdocumentlink>
+					<externaldocumentlink>Document on another Web site</externaldocumentlink>
+					<path>Path:</path>
+					<emailaddress see="/util/linkeditor/mailfieldcaption" />
+					<editimageproperties>Edit image properties</editimageproperties>
+					<pagenotfoundmessage>The page that this link was linking to does no longer exist.</pagenotfoundmessage>
+					<pageaccessdeniedmessage>You don't have access to the page that this link was linking to.</pageaccessdeniedmessage>
+					<selectnewpagemessage>Select a new page before saving, or change to another type of link.</selectnewpagemessage>
+					<documentnotfoundmessage>The document that this link was linking to does no longer exist or has been moved.</documentnotfoundmessage>
+					<documentaccessdeniedmessage>You don't have access to the document that this link was linking to.</documentaccessdeniedmessage>
+					<selectnewdocumentmessage>Select a new document before saving, or change to another type of link.</selectnewdocumentmessage>
+					<nourlvalidationmessage>Please specify a link target before saving.</nourlvalidationmessage>
+					<noimageinfovalidationmessage>You have selected that the link should be a clickable image.</noimageinfovalidationmessage>
+					<specifyimagemessage>Please specify an image before saving or change the selection to clickable text.</specifyimagemessage>					
+				</hyperlinkproperties>
+				<resizeimage>
+					<toolheading>Resize Image</toolheading>
+					<sizeheading>Size</sizeheading>
+					<qualityheading>Quality</qualityheading>
+					<alternativesheading>Options</alternativesheading>
+					<lockproportions see="/editor/tools/imageproperties/lockproportions" />
+					<specifywidth see="/editor/tools/imageproperties/specifywidth" />
+					<specifyheight see="/editor/tools/imageproperties/specifyheight" />
+					<pixels>pixels</pixels>
+					<lockproportions see="/editor/tools/imageproperties/lockproportions" />
+					<nosizevalidationmessage>Please specify the width and height of your choice before saving.</nosizevalidationmessage>
+					<quality>Image quality</quality>
+					<qualitylevel>
+						<low>Low</low>
+						<medium>Medium</medium>
+						<high>High</high>
+						<maximum>Maximum</maximum>
+					</qualitylevel>
+					<qualityinfo>
+						<info>Info:</info>
+						<low>Low quality gives poor level of sharpness compared to the original image, but results in a very low file size.</low>
+						<medium>Medium quality gives a medium level of sharpness compared to the original image, but results in a quite low file size.</medium>
+						<high>High quality keeps a good level of sharpness compared to the original image, resulting in a slightly reduced file size.</high>
+						<maximum>Maximum quality preserves the sharpness of the original image, resulting in a non-reduced file size.</maximum>
+					</qualityinfo>
+					<saveoption>
+						<saveascopy>Save the resized image as a copy, preserving the original image.</saveascopy>
+						<replaceoriginal>Replace the original image with the resized image (jpg images only).</replaceoriginal>
+					</saveoption>
+					<imagemissingmessage>Specify an image before resizing.</imagemissingmessage>
+					<imagenotfoundmessage>The specified image cannot be found.</imagenotfoundmessage>
+					<notauthorizedmessage>You do not have access rights to change images in or add images to this folder.</notauthorizedmessage>
+				</resizeimage>
+			</tools>
+		</editor>
+		<admin>
+			<admingroup>
+				<heading>			Administer Groups</heading>
+				<info>				Delete or add groups used to assign access rights.</info>
+				<group>				Group</group>
+				<description see="/labels/description" />
+				<ldappath>			LDAP Server</ldappath>
+				<groupdeleted>		Group "{0}" has been deleted</groupdeleted>
+				<deleteprefix>		Delete group</deleteprefix>
+				<deletesuffix>		?</deletesuffix>
+				<groupexists>		There is already a group with name {0}</groupexists>
+				<localgroup>		Windows groups</localgroup>
+				<syncbutton>		Synchronize</syncbutton>
+				<syncldapbutton>	Import from LDAP Server</syncldapbutton>
+				<newgroupinfo>Create group to be used in EPiServer</newgroupinfo>
+				<syncinfo>	Synchronize information about local groups with EPiServer</syncinfo>
+				<ldapinfo>	Import group information from LDAP server. Enter search expression in the field, for example User* will list all groups/OU:s beginning with User.</ldapinfo>
+			</admingroup>
+			<backup>
+				<heading>			Backup</heading>
+				<abortedinfo>		The operation has been aborted</abortedinfo>
+				<completedinfo>		Backup completed.</completedinfo>
+				<devicequeryinfo>	Note! Only database users assigned the role "sysadmin" can carry out this operation.</devicequeryinfo>
+				<info>				Backup the database. Note that this will only backup the content of the database. The 
+									information will remain on the database server and must be copied to another location together 
+									with other EPiServer files to enable you to restore the system in the event of a catastrophic
+									system failure.</info>
+			</backup>
+			<license>
+				<heading>License Information</heading>
+				<info></info>
+				<tabinfo>Information</tabinfo>
+				<tabinstallnew>Install a New License</tabinstallnew>
+				<licensenumber>License number</licensenumber>
+				<licensedto>Licensed to</licensedto>
+				<licensedcompany>Company</licensedcompany>
+				<licensedescription>License description</licensedescription>
+				<licenserestrictions>Restrictions</licenserestrictions>
+				<selectfile>Select new license file</selectfile>
+				<uploadlicense>Upload and Verify License</uploadlicense>
+				<newfileinstalled>The new license file has been installed</newfileinstalled>
+				<licenseid>License ID</licenseid>
+			</license>
+			<categories>
+				<deleteprefix>Do you want to delete category</deleteprefix>
+				<deletesuffix>?</deletesuffix>
+				<heading>Categories</heading>
+				<info>Define the categories used by your Web site. These categories will be available in Edit mode for each page under the heading "Categories".</info>
+				<tablename>Name</tablename>
+				<tabledescription>Description</tabledescription>
+				<tablevisible>Visible</tablevisible>
+				<tableselectable>Selectable</tableselectable>
+				<helpgeneral>Click a category name to edit information about a category.</helpgeneral>
+				<helpadd>Add category below the selected category. Note that no changes will be made until you click Save.</helpadd>
+				<helpdelete>Delete category. Note that if the category has sub-categories, the sub-categories will be moved up one level.</helpdelete>
+				<moveup>Move Up</moveup>
+				<movedown>Move Down</movedown>
+				<helpmoveup>Moves the category one step up in the list.</helpmoveup>
+				<helpmovedown>Moves the category one step down in the list.</helpmovedown>
+				<delreferenceprefix>One or more pages refers to the category (</delreferenceprefix>
+				<delreferencesuffix>) you are trying to delete</delreferencesuffix>
+				<delreferenceconfirm>Do you still want to delete this category?</delreferenceconfirm>
+				
+			</categories>
+			<cleanupupload>
+				<heading>Delete Unused Files</heading>
+				<infodeleting>Does not delete referenced files from the upload folder</infodeleting>
+				<nothing>Nothing to delete.</nothing>
+				<info>Click OK to delete unused page files where the page no longer exists.</info>
+				<notdeleted>Could not delete&amp;nbsp;</notdeleted>
+				<norefprefix>There is no reference to "</norefprefix>
+				<norefsuffix>", but it is too new to delete.</norefsuffix>
+			</cleanupupload>
+			<copypagetype>
+				<heading>Copy Page Type</heading>
+				<info>Select page type to copy.</info>
+				<caption>Make copy of</caption>
+			</copypagetype>
+			<editdynprop>
+				<heading>	Edit Dynamic Properties</heading>
+				<info>		Dynamic properties are available regardless of the page type you are using.</info>
+			</editdynprop>
+			<editdynpropfield>
+				<heading>	Edit Dynamic Property</heading>
+				<headingnew>Create New Dynamic Property</headingnew>
+				<info></info>
+				<tabinfo>	Information</tabinfo>
+				<namecaption see="/admin/editpagetypefield/namecaption" />
+				<typecaption see="/admin/editpagetypefield/typecaption" />
+				<advancedcaption see="/admin/editpagetypefield/advancedcaption" />
+				<editcaption see="/admin/editpagetypefield/editcaption" />
+				<helptextcaption see="/admin/editpagetypefield/helpcaption" />
+				<longstringsettingscaption see="/admin/editpagetypefield/editorhelp" />
+			</editdynpropfield>
+			<editpagetype>
+				<addproperty>			Add Property</addproperty>
+			</editpagetype>
+			<editpagetypebase>
+				<tabinfo>Information</tabinfo>
+				<tabdefaultvalues>Default Values</tabdefaultvalues>
+				<tabtypetotype>Available Page Types</tabtypetotype>
+				<delete>Do you want to delete this page type?</delete>
+				<heading>Edit "{0}"</heading>
+				<headingnew>Create New Page Types</headingnew>
+				<info>Edit the basic information about the page type.</info>
+				<namecaption>Name</namecaption>
+				<descriptioncaption>Description</descriptioncaption>
+				<filenamecaption>File name</filenamecaption>
+				<editpagecaption>Custom edit page</editpagecaption>
+				<availablecaption>Available in Edit mode</availablecaption>
+				<workfloweditfieldscaption>Always display fields linked to workflow</workfloweditfieldscaption>
+				<sortordercaption>Sort index</sortordercaption>
+				<headingsaved>Page type saved</headingsaved>
+				<headingdeleted>Page type deleted</headingdeleted>
+				<headingdeletefailed>Page type could not be deleted - pages of this type exist</headingdeletefailed>
+				<usecustomdefaultcaption>Use customized default values</usecustomdefaultcaption>
+				<usecustomdefaulthelp>Use customized default values if you do not want the system to set these values automatically</usecustomdefaulthelp>
+				<defaultstartpublishcaption>Set "Start publish date" relative to when the page has been created</defaultstartpublishcaption>
+				<defaultstartpublishhelp>Set "Start publish date" relative to when the page has been created</defaultstartpublishhelp>
+				<defaultstoppublishcaption>Set "Stop publish date" relative to when the page has been created</defaultstoppublishcaption>
+				<defaultstoppublishhelp>Set "Stop publish date" relative to when the page has been created</defaultstoppublishhelp>
+				<typetotype>Select the page types that can be created under this page type</typetotype>
+				<alltypeavailable>All page types are available</alltypeavailable>
+				<defaultidcaption see="#usecustomdefaultcaption" />
+				<defaultidhelp see="#usecustomdefaulthelp" />
+				<defaultnamecaption see="/pagetypes/common/property[@name='PageName']/caption" />
+				<defaultnamehelp see="/pagetypes/common/property[@name='PageName']/help" />
+				<visibleinmenucaption see="/pagetypes/common/property[@name='PageVisibleInMenu']/caption" />
+				<visibleinmenuhelp see="/pagetypes/common/property[@name='PageVisibleInMenu']/help" />
+				<peerordercaption see="/pagetypes/common/property[@name='PagePeerOrder']/caption" />
+				<peerorderhelp see="/pagetypes/common/property[@name='PagePeerOrder']/help" />
+				<childorderrulecaption see="/pagetypes/common/property[@name='PageChildOrderRule']/caption" />
+				<childorderrulehelp see="/pagetypes/common/property[@name='PageChildOrderRule']/help" />
+				<frameidcaption see="/pagetypes/common/property[@name='PageFrameID']/caption" />
+				<frameidhelp see="/pagetypes/common/property[@name='PageFrameID']/help" />
+				<archivepagelinkcaption see="/pagetypes/common/property[@name='PageArchiveLink']/caption" />
+				<archivepagelinkhelp see="/pagetypes/common/property[@name='PageArchiveLink']/help" />
+			</editpagetypebase>
+			<editlanguage>
+				<heading>				Language Encoding</heading>
+				<info>					&lt;b&gt;WARNING!&lt;/b&gt; Incorrect changes on this page may cause your Web site to stop responding.</info>
+				<languageidcaption>		Language code</languageidcaption>
+				<languagenamecaption>	Local language name</languagenamecaption>
+				<languagenameencaption>	English language name</languagenameencaption>
+				<charsetcaption>		Character set</charsetcaption>
+				<fontcharsetcaption>	Font used in Editor</fontcharsetcaption>
+				<localecaption>			Formatting of date/time</localecaption>
+				<mailcodepagecaption>	Character set for e-mail</mailcodepagecaption>
+				<setsystemdefaultcaption>Set as system default encoding</setsystemdefaultcaption>
+				<currentsystemdefaultcaption>Current system default encoding</currentsystemdefaultcaption>
+			</editlanguage>
+			<editpagetypedel>
+				<heading>Delete Property</heading>
+				<deleted>Property has been deleted</deleted>
+				<inuse>Property is being used on the following pages</inuse>
+				<confirm>Do you still want to delete this property?</confirm>
+			</editpagetypedel>
+			<editpagetypefield>
+				<heading>Edit Property</heading>
+				<headingnew>				Create New Property</headingnew>
+				<info></info>
+				<tabinfo>					Information</tabinfo>
+				<saved>Property saved</saved>
+				<namecaption>Name</namecaption>
+				<editcaption>Edit Heading</editcaption>
+				<helpcaption>Help Text</helpcaption>
+				<typecaption>Type</typecaption>
+				<typeboolean>Selected/not selected</typeboolean>
+				<typenumber>Integer</typenumber>
+				<typefloatnumber>Floating point number</typefloatnumber>
+				<typepagetype>Page Type</typepagetype>
+				<typepagelink>Page</typepagelink>
+				<typedate>Time/Date</typedate>
+				<typestring>String (&lt;= 255)</typestring>
+				<typelongstring>Long string (>255)</typelongstring>
+				<typexhtmlstring>XHTML string (&gt;255)</typexhtmlstring>
+				<typecategory>Category selection</typecategory>
+				<typeform>Form</typeform>
+				<typeurl>URL to page/external address</typeurl>
+				<typedocumenturl>URL to document</typedocumenturl>
+				<typeimageurl>URL to image</typeimageurl>
+				<typeweekday>Weekday</typeweekday>
+				<typeframe>Frame</typeframe>
+				<typefilesortorder>Sort order for files</typefilesortorder>
+				<typepagereference>Page</typepagereference>
+				<typelanguage>Language</typelanguage>
+				<typepassword>Password</typepassword>
+				<typesortorder>Sort order for pages</typesortorder>
+				<typeselector>Property on current page</typeselector>
+				<typesid>User</typesid>
+				<advancedcaption>Place under heading</advancedcaption>
+				<objectcaption>Custom edit handling through object</objectcaption>
+				<searchablecaption>Searchable property</searchablecaption>
+				<requiredcaption>Value must be entered</requiredcaption>
+				<useeditorcaption>Use Editor</useeditorcaption>
+				<nodefaultcaption>No default value</nodefaultcaption>
+				<inheritcaption>Inherits value</inheritcaption>
+				<defaultcaption>Default value</defaultcaption>
+				<editorboldcaption>Bold</editorboldcaption>
+				<editoritaliccaption>Italics</editoritaliccaption>
+				<editorunderlinecaption>Underline</editorunderlinecaption>
+				<editorbulletscaption>Bulleted list</editorbulletscaption>
+				<editornumbercaption>Numbered list</editornumbercaption>
+				<editorleftcaption>Align Left</editorleftcaption>
+				<editorcentercaption>Center</editorcentercaption>
+				<editorrightcaption>Align Right</editorrightcaption>
+				<editorfontcaption>Font</editorfontcaption>
+				<editorrefreshcaption>Refresh</editorrefreshcaption>
+				<editortogglehtmlcaption>Show/Hide HTML code</editortogglehtmlcaption>
+				<editorinsertanchorcaption>Insert bookmark</editorinsertanchorcaption>
+				<editorinsertimagecaption>Insert image from file</editorinsertimagecaption>
+				<editorinsertdoccaption>Insert document</editorinsertdoccaption>
+				<editorinserturlcaption>Insert hyperlink</editorinserturlcaption>
+				<editorinserttablecaption>Insert table</editorinserttablecaption>
+				<editorundocaption>Undo</editorundocaption>
+				<editorredocaption>Redo</editorredocaption>
+				<editorfindcaption>Search</editorfindcaption>
+				<editorhelp>Properties for the Editor – clear all to use a text area instead of the Editor</editorhelp>
+				<editorcutcaption>				Cut</editorcutcaption>
+				<editorcopycaption>				Copy</editorcopycaption>
+				<editorpastecaption>			Paste</editorpastecaption>
+				<editorpasteunformattedcaption>	Paste Unformatted</editorpasteunformattedcaption>
+				<editorremoveformattingcaption>	Remove Formatting</editorremoveformattingcaption>
+				<editortablesubmenucaption>		Table</editortablesubmenucaption>
+				<editorformatparagraphcaption>	Format Paragraph</editorformatparagraphcaption>
+				<editortablepropertiescaption>	Table Properties...</editortablepropertiescaption>
+				<editorcellpropertiescaption>	Cell Properties...</editorcellpropertiescaption>
+				<editoraboutcaption>			About...</editoraboutcaption>
+				<editorspellcheckcaption>		Spelling</editorspellcheckcaption>
+				<editorspellcheckmenucaption>	Spelling...</editorspellcheckmenucaption>
+				<editorfontmenucaption>			Font...</editorfontmenucaption>
+				<editorinsertanchormenucaption>	Bookmark...</editorinsertanchormenucaption>
+				<editorinsertimagemenucaption>	Image...</editorinsertimagemenucaption>
+				<editorinsertdocmenucaption>	Document...</editorinsertdocmenucaption>
+				<editorinserturlmenucaption>	Hyperlink...</editorinserturlmenucaption>
+				<editorinserttablemenucaption>	Table...</editorinserttablemenucaption>
+				<editorfindmenucaption>			Find...</editorfindmenucaption>
+				<editortogglehtmlmenucaption>	View Source</editortogglehtmlmenucaption>
+				<editortableinsertcolbeforecaption>	Insert Column Before</editortableinsertcolbeforecaption>
+				<editortableinsertcolaftercaption>	Insert Column After</editortableinsertcolaftercaption>
+				<editortableinsertrowbeforecaption>	Insert Row Before</editortableinsertrowbeforecaption>
+				<editortableinsertrowaftercaption>	Insert Row After</editortableinsertrowaftercaption>
+				<editortabledeletecolscaption>		Delete Columns</editortabledeletecolscaption>
+				<editortabledeleterowscaption>		Delete Rows</editortabledeleterowscaption>
+				<editortabledeletetablecaption>		Delete Table</editortabledeletetablecaption>
+				<editortablemergecellscaption>		Merge Cells</editortablemergecellscaption>
+				<editortablesplithorizontalcaption>	Split Cell Horizontally</editortablesplithorizontalcaption>
+				<editortablesplitverticalcaption>	Split Cell Vertically</editortablesplitverticalcaption>
+				<editorinsertsubmenucaption>		Insert</editorinsertsubmenucaption>
+				<editorloading>Loading Editor...</editorloading>
+				<reservedproperty>"{0}" is a reserved name for metadata</reservedproperty>
+				<inuseproperty>A property with name "{0}" already exists</inuseproperty>
+				<editorimagepropertiescaption>Image Properties...</editorimagepropertiescaption>
+				<editorinserthrcaption>Horizontal rule</editorinserthrcaption>
+				<editorselectsubmenucaption>Select</editorselectsubmenucaption>
+				<editorselecttablecaption>Table</editorselecttablecaption>
+				<editorselecttablecellcaption>Table Cell</editorselecttablecellcaption>
+				<editorselecttablerowcaption>Table Row</editorselecttablerowcaption>
+				<editorselecttablecolumncaption>Table Column</editorselecttablecolumncaption>
+				<editorselectallcaption>All</editorselectallcaption>
+				<editorselectsectioncaption>Paragraph</editorselectsectioncaption>
+				<editorselectexpandcaption>Expand</editorselectexpandcaption>
+				<editorselectcontractcaption>Contract</editorselectcontractcaption>
+				<editorselectpreviouscaption>Previous</editorselectpreviouscaption>
+				<editorselectnextcaption>Next</editorselectnextcaption>
+				<editormaximizercaption>Maximize/restore Editor</editormaximizercaption>			
+				<editorcellsubmenucaption>Cell</editorcellsubmenucaption>
+				<typexform>XForms form</typexform>	
+				<editorhyperlinkpropertiescaption>Link Properties...</editorhyperlinkpropertiescaption>
+				<languagespecificcaption>Unique value per language</languagespecificcaption>
+				<typeuilanguage>System language</typeuilanguage>
+				<typelanguagebranch>Page language (one option)</typelanguagebranch>
+				<typelanguagebranchlist>Page language (multiple options)</typelanguagebranchlist>
+			</editpagetypefield>
+			<frames>
+				<deleteprefix>Do you want to delete frame</deleteprefix>
+				<deletesuffix>?</deletesuffix>
+				<heading>Edit Frames</heading>
+				<info>Define the frames your Web site is using. These will be available as "Target frame" options when creating links.</info>
+				<tablename>Frame Name</tablename>
+				<tabledescription>Description</tabledescription>
+			</frames>
+			<headings>
+				<deleteprefix>Do you want to delete the tab</deleteprefix>
+				<deletesuffix>?</deletesuffix>
+				<heading>Edit Tabs</heading>
+				<info>Define the tabs available under the Edit tab. When you create or edit a property, you can choose the tab under which you want to display the property.</info>
+				<tablename>Tab</tablename>
+				<tablevisible>Visible</tablevisible>
+				<tablesortindex>Sort Index</tablesortindex>
+				<tableaccesslevel>Requires Access Level</tableaccesslevel>
+			</headings>
+			<loglevel>
+				<heading>Log Level</heading>
+				<saved>Changes saved</saved>
+				<caption>Select new log level</caption>
+				<typeread>Read page</typeread>
+				<typecreate>Create page</typecreate>
+				<typechange>Change page</typechange>
+				<typesecurity>Change rights</typesecurity>
+			</loglevel>
+			<workflowdefinition>
+				<heading>Workflows</heading>
+				<namecaption>Name</namecaption>
+			</workflowdefinition>
+			<workflowdefinitionedit>
+				<heading>Edit Workflow</heading>
+				<workflowdefname>Name</workflowdefname>
+				<workflowdefowner>Owner</workflowdefowner>
+				<newtask>New task</newtask>
+				<taskstate>State</taskstate>
+				<taskheading>Name</taskheading>
+				<taskdescription>Description</taskdescription>
+				<tasktype>Type</tasktype>
+				<taskpagetype>Page type</taskpagetype>
+				<taskcontainer>Placement in tree</taskcontainer>
+				<taskurl>Custom URL</taskurl>
+				<taskowner>Owner</taskowner>
+				<taskmailnotification>Notification to owner via e-mail</taskmailnotification>
+				<taskondone>When task is done</taskondone>
+				<taskonfail>When task is rejected</taskonfail>
+				<taskontimeout>When task due date is passed</taskontimeout>
+				<tasktimeout>Time to due date</tasktimeout>
+				<taskeditfields>Fields from the most recently created page in the workflow being displayed</taskeditfields>
+				<taskinheritededitfieldicon>Path for image to be displayed in the field from the most recently created page</taskinheritededitfieldicon>
+				<taskcurrenteditfieldicon>Path for image to be displayed in the field on this page</taskcurrenteditfieldicon>
+				<buttonpagelist>Show Linked Pages</buttonpagelist>
+			</workflowdefinitionedit>
+			<workflowpropertybrowser>
+				<heading>Select Fields from the Most Recently Created Page Being Shown</heading>
+				<metacaption>Default field</metacaption>
+				<propertycaption>Field</propertycaption>
+			</workflowpropertybrowser>
+			<menu>
+				<delpropertyprefix>Delete Property "</delpropertyprefix>
+				<delpropertysuffix>" ?</delpropertysuffix>
+				<tooltipedit>Edit mode</tooltipedit>
+				<tooltipview>View mode</tooltipview>
+				<tooltiphelp>Help</tooltiphelp>
+				<systemadministration>System Administration</systemadministration>
+				<settings>System Settings</settings>
+				<editheadings>Edit Tabs</editheadings>
+				<editframes>Edit Frames</editframes>
+				<editcategories>Edit Categories</editcategories>
+				<editfiletypes>Edit File Types</editfiletypes>
+				<cleanupupload see="/admin/cleanupupload/heading" />
+				<clearcache>Clear Page Cache</clearcache>
+				<changeskin>Change Appearance</changeskin>
+				<rebuildlinks>Rebuild Web Addresses</rebuildlinks>
+				<productupdate>			Product Update</productupdate>
+				<robotsearch>Manage Web Addresses</robotsearch>
+				<language>				Language</language>
+				<editlanguage>			Language Encoding</editlanguage>
+				<databasemaintenance>Database Maintenance</databasemaintenance>
+				<backup>Backup</backup>
+				<archive>Archive Function</archive>
+				<wastebasket>Empty Recycle Bin</wastebasket>
+				<workflowdefinition>Workflows</workflowdefinition>
+				<workflowdefinitionnew>Create New Workflow</workflowdefinitionnew>
+				<workflowdefinitionedit>Edit Workflow</workflowdefinitionedit>
+				<security>Access Rights</security>
+				<setsecurity>Set Access Rights</setsecurity>
+				<admingroups>Administer Groups</admingroups>
+				<defaultgroup see="/admin/registrationsettings/heading" />
+				<searchuser>Search User/Group</searchuser>
+				<createuser>Create User</createuser>
+				<createlocalgroup>Create Group</createlocalgroup>
+				<logging>Logging</logging>
+				<systemmessages>Display System Messages</systemmessages>
+				<setloglevel>Set Log Level</setloglevel>
+				<clearlog>Clear Log Information</clearlog>
+				<pagetype>Page Types</pagetype>
+				<newpagetype>Create New Page Type</newpagetype>
+				<datatypes>Edit Custom Property Types</datatypes>
+				<copypagetype>Copy Page Type</copypagetype>
+				<editdynamicproperty>Dynamic Properties</editdynamicproperty>
+				<editremotesite>Remote Web Sites</editremotesite>
+				<plugins>Tools</plugins>
+				<setpermission>Permissions for Functions</setpermission>
+				<license>License Information</license>
+				<scheduledjobs>Scheduled Jobs</scheduledjobs>
+				<editlanguages>Edit Language Codes</editlanguages>
+				<editlanguagebranches>Manage Web Site Languages</editlanguagebranches>
+			</menu>
+			<permission>
+				<heading>Permissions for Functions</heading>
+				<info>	Give users/groups access to specific functions in EPiServer.</info>
+				<editpermission>Users/groups that have permission "{0}"</editpermission>
+				<sidsaved>		New permissions for functions has been saved</sidsaved>
+			</permission>
+			<pagedefinitiontype>
+				<heading>				Edit Property Types</heading>
+				<info>					You can edit and create new data types to be used for properties on EPiServer pages.</info>
+			</pagedefinitiontype>
+			<pagedefinitiontypeedit>
+				<heading>				Edit Data Type</heading>
+				<headingnew>			Create New Data Type</headingnew>
+				<tabinfo>				Definition</tabinfo>
+				<info></info>
+				<property name="property">
+					<caption>				Base type</caption>
+			</property>
+			<namecaption>			Name</namecaption>
+			<namehelp>				Choose a name for the property type</namehelp>
+			<typenamecaption>		Class name</typenamecaption>
+			<typenamehelp>			Class name and namespace (ex. EPiServer.SpecializedProperties.PropertyPassword)</typenamehelp>
+			<assemblynamecaption>	Assembly name</assemblynamecaption>
+			<assemblynamehelp>		The name of the assembly the class is included in (ex EPiServerSample)</assemblynamehelp>
+			<typeinuse>This type cannot be deleted, because it is in use in the following properties:</typeinuse>
+			</pagedefinitiontypeedit>
+			<rebuildlinks>
+				<heading>Rebuild Web Addresses</heading>
+				<rebuilddone>Internal Web addresses have been rebuilt.</rebuilddone>
+				<info>You need to rebuild the Web addresses if the root folder (under System Settings) has been changed. If you do not do this, all internal links will point to the wrong place.</info>
+				<normalrebuild>Update Web addresses for all pages</normalrebuild>
+				<newdirectoryrebuild>	Set old root folder to be replaced</newdirectoryrebuild>
+				<currentroot>				Current value is {0}</currentroot>
+			</rebuildlinks>
+			<changeskin>
+				<heading>		Change Appearance</heading>
+				<skinsaved>		New appearance has been applied</skinsaved>
+			</changeskin>
+			<savecategories>
+				<heading>Categories</heading>
+				<infosaved>New information has been saved</infosaved>
+				<infochanged>Information has been changed</infochanged>
+			</savecategories>
+			<saveframes>
+				<heading>Frames</heading>
+				<infosaved>New information saved</infosaved>
+				<referencedframeprefix>References to&amp;nbsp;</referencedframeprefix>
+				<referencedframesuffix />
+				<reflinkpageprefix>Page&amp;nbsp;</reflinkpageprefix>
+				<reflinkframeprefix>&amp;nbsp;opens in frame "</reflinkframeprefix>
+				<reflinkframesuffix>"</reflinkframesuffix>
+				<referencedframehelp>If you still want to delete this frame, select the frame that the above page(s) should be placed under instead.</referencedframehelp>
+				<noframe>-- No frame --</noframe>
+			</saveframes>
+			<saveheadings>
+				<heading>Headings</heading>
+				<infosaved>New information has been saved</infosaved>
+				<referencedheadingmessage>References to "{0}"</referencedheadingmessage>
+				<reflinkprop>Property "{0}" placed under heading "{1}"</reflinkprop>
+				<referencedheadinghelp>If you still want to delete this heading, select the heading that the above properties should be placed under instead.</referencedheadinghelp>
+			</saveheadings>
+			<registrationsettings>
+				<saved see="/admin/settings/saved" />
+				<heading>				Settings for Extranet Users</heading>
+				<info>					Modify settings that allow extranet users to register themselves. If users are activated automatically, they will receive the activation e-mail instead of the confirmation e-mail.</info>
+				<allowselfregistration>	Allow self-registration</allowselfregistration>
+				<setdefaultgroup>		Standard group for new users</setdefaultgroup>
+				<activateusers>			Automatically activate user at registration?</activateusers>
+				<emailfromaddress>		Sender address on outgoing e-mail</emailfromaddress>
+				<emailtoaddress>		E-mail address that handles new applications</emailtoaddress>
+				<confirmationsubject>	Subject on the outgoing e-mail on new applications</confirmationsubject>
+				<confirmationbody>		Body on the outgoing e-mail on new applications</confirmationbody>
+				<activationsubject>		Subject on the outgoing e-mail on activating users</activationsubject>
+				<activationbody>		Body on the outgoing e-mail on activating users</activationbody>
+				<requiredpasswordlength>Minimum length required for password</requiredpasswordlength>
+			<maxfailedattempts>		Maximum number of failed logon attempts before account is locked</maxfailedattempts>
+			<disablemaxattempts>	No verification</disablemaxattempts>
+			<passwordrequirealpha>	Letters required in the password</passwordrequirealpha>
+			<passwordrequirenumber>	Digits required in the password</passwordrequirenumber>
+			<passwordrequiresymbol>	Symbols required in the password</passwordrequiresymbol>
+			</registrationsettings>
+			<secedit>
+				<info>&amp;nbsp;</info>
+				<newgroupheading>		New Group</newgroupheading>
+				<newuserheading>		New User</newuserheading>
+				<editgroupheading>		Edit Group</editgroupheading>
+				<edituserheading>		Edit User</edituserheading>
+				<listmemberof>			Member of</listmemberof>
+				<listnotmemberof>		Not member of</listnotmemberof>
+				<listcontains>			Contains</listcontains>
+				<listnotcontains>		Does not contain</listnotcontains>
+				<editname>				Username</editname>
+				<editpassword>			Password</editpassword>
+				<editconfirmpassword>	Confirm password</editconfirmpassword>
+				<editadspath>			ActiveDirectory name</editadspath>
+				<editdescription>		Description</editdescription>
+				<editvalidto>			Valid to</editvalidto>
+				<editactive>			Active</editactive>
+				<editemail>				E-mail address</editemail>
+				<editcompany>			Company</editcompany>
+				<editaddress>			Address</editaddress>
+				<editpostalnumber>		Zip code</editpostalnumber>
+				<editpostaladdress>		Postal address</editpostaladdress>
+				<edittelephone>			Telephone number</edittelephone>
+				<editlanguage>System language</editlanguage>
+				<firstname>				First name</firstname>
+				<lastname>				Last name</lastname>
+				<title>					Title</title>
+				<mobile>				Mobile phone</mobile>
+				<tooshortpassword>		Password must have at least {0} characters</tooshortpassword>
+				<missingpassword>		You must enter a password.</missingpassword>
+				<alpharequiredpassword>	Password must contain letters.</alpharequiredpassword>
+				<numberrequiredpassword>Password must contain digits.</numberrequiredpassword>
+				<symbolrequiredpassword>Password must contain symbols (characters other than letters and digits).</symbolrequiredpassword>
+				<usernameexists>		The user name {0} already exists.</usernameexists>
+				<lockedout>				Account locked (too many failed logon attempts)</lockedout>
+				<ipaddress>				Logon only from this IP address</ipaddress>
+				<ipmask>				Subnet mask for IP address above</ipmask>
+				<editcountry>Country</editcountry>
+				<editcreated>Created</editcreated>
+				<editchanged>Changed</editchanged>
+			</secedit>
+			<searchusers>
+				<heading>				Search Users/Groups</heading>
+				<info/>
+				<namecaption>			Name</namecaption>
+				<descriptioncaption>	Description</descriptioncaption>
+				<typecaption>			Type</typecaption>
+				<typeall>				All</typeall>
+				<typegroup>				Groups</typegroup>
+				<typeuser>				Users</typeuser>
+				<pagingsize>		Number of hits per page</pagingsize>
+			</searchusers>
+			<security>
+				<heading>					Set Access Rights</heading>
+				<info>						Restore access rights in EPiServer for pages that you have, for example, completely removed access to. You can change all rights on all pages.</info>
+				<savemessage>				Saved new access rights</savemessage>
+				<buttonrecursive>			Recursive</buttonrecursive>
+				<buttonrecursiveadd>		Recursive Add</buttonrecursiveadd>
+				<buttonrecursiveremove>		Recursive Remove</buttonrecursiveremove>
+				<subheadingwindowsgroups>	You are a member of the following Windows groups</subheadingwindowsgroups>
+				<subheadingepiservergroups>	You are a member of the following EPiServer groups</subheadingepiservergroups>
+			</security>
+			<robotsearch>
+				<heading>Manage Web Addresses</heading>
+				<linkinfo>Web addresses are set to {0}</linkinfo>
+				<linkinforobots>		allow crawling by search engines on the Internet.</linkinforobots>
+				<linkinfonorobots>		only support interactive use.</linkinfonorobots>
+				<info>Select the type of Web address to use in EPiServer.</info>
+				<robotlinkcaption>Use Web addresses that allow search engines to crawl the Web site</robotlinkcaption>
+				<norobotlinkcaption>Use Web addresses that only support interactive use</norobotlinkcaption>
+				<warning>Warning! Make sure that the templates used on this Web site are adapted to a particular type of Web address before changing this setting.</warning>
+				<friendlylinkcaption>Use Web addresses that reflect the structure of the content for this Web site (/page1/page2)</friendlylinkcaption>
+				<linkinfofriendly>reflect the structure of the content.</linkinfofriendly>
+				<friendlyurlnotinstalled>This function has not been configured on this Web site.</friendlyurlnotinstalled>
+			</robotsearch>
+			<settings>
+				<heading>					System Settings</heading>
+				<info>						&lt;b&gt;WARNING!&lt;/b&gt; Incorrect changes on this page may cause your Web site to stop responding.</info>
+				<saved>						System settings saved</saved>
+				<inforequired>				Fields that must be filled in are marked with *</inforequired>
+				<licensetab>				License</licensetab>
+				<databasetab>				Database</databasetab>
+				<sitetab>					General</sitetab>
+				<edittab>					Editing</edittab>
+				<linktooltab>				Link Tool</linktooltab>
+				<cachetab>					Cache</cachetab>
+				<subscriptiontab>			Subscription</subscriptiontab>
+				<licensedcompanycaption>	Licensed to company</licensedcompanycaption>
+				<licensedtocaption>			Licensed to person</licensedtocaption>
+				<licensekeycaption>			License code</licensekeycaption>
+				<epslanguagecaption>System language</epslanguagecaption>
+				<epsconnectioncaption>		Database connection</epsconnectioncaption>
+				<epshosturlcaption>			Address of your Web site (e.g. http://www.x.y)</epshosturlcaption>
+				<epsbugemailcaption>		E-mail to support</epsbugemailcaption>
+				<epsrootdircaption>			Root folder</epsrootdircaption>
+				<epsuploaddircaption>		Upload folder</epsuploaddircaption>
+				<createdircaption>			Create folder from link tool</createdircaption>
+				<deletefilecaption>			Delete file from link tool</deletefilecaption>
+				<deletedircaption>			Delete folder from link tool</deletedircaption>
+				<renamefiledircaption>		Rename file/folder from link tool</renamefiledircaption>
+				<pageuploadcaption>			Upload files to specific page</pageuploadcaption>
+				<restricteduploadcaption>	Restricted file upload</restricteduploadcaption>
+				<unrestricteduploadcaption>	Unrestricted file upload</unrestricteduploadcaption>
+				<maxfilesize>				Maximum allowed file size for uploaded files (KBytes)</maxfilesize>
+				<editordivonreturncaption>	Use DIV in Editor instead of P</editordivonreturncaption>
+				<epssitenamecaption>			Name of the Web site</epssitenamecaption>
+				<epsframedefinitioncaption>			Path to frame definition file</epsframedefinitioncaption>
+				<epseditcsscaption>			Path to CSS file for the Editor</epseditcsscaption>
+				<epscharsetcaption>			Character set (Content-Type charset)</epscharsetcaption>
+				<epfenableunicodecaption>				Enable Unicode for system functions</epfenableunicodecaption>
+				<epnrootidcaption>				Root page for Web site</epnrootidcaption>
+				<epnstartpagecaption>			Start page for Web site</epnstartpagecaption>
+				<epnwastebasketidcaption>		Page used as Recycle Bin</epnwastebasketidcaption>
+				<epncategoryidcaption>			Root for categories</epncategoryidcaption>
+				<epnversioncountcaption>		Maximum number of old versions of a page</epnversioncountcaption>
+				<epfkeeploggedoncaption>				Activate cookies to keep visitor logged on</epfkeeploggedoncaption>
+				<epfenablepersonalizationcaption>		Enable personalization</epfenablepersonalizationcaption>
+				<epssubmailfromcaption>				Sender e-mail address</epssubmailfromcaption>
+				<epssubmailbcccaption>				Send copy of all e-mails to</epssubmailbcccaption>
+				<epssubtemplatecaption>				XSL file for e-mail appearance (for example C:\mail.xsl)</epssubtemplatecaption>
+				<cachesyncinterval>			How often the cache is updated on slave servers (seconds, 0 = no delay)</cachesyncinterval>
+				<epneditorheightcaption>				Height of the Editor (pixels)</epneditorheightcaption>
+				<epneditorwidthcaption>				Width of the Editor (pixels, 0 = max. width)</epneditorwidthcaption>
+				<epseditcontrolversion>		Current version of ActiveX Editor (for example 2,0,0,31)</epseditcontrolversion>
+				<ldaptab>					LDAP</ldaptab>
+				<epsldapservercaption>		LDAP server, e.g. company.com. Leave empty to disable LDAP functions</epsldapservercaption>
+				<epsldapusercaption>		Connect to LDAP server as this user</epsldapusercaption>
+				<epsldappasswordcaption>	Password for the user</epsldappasswordcaption>
+				<saved>						New values have been saved</saved>
+				<epfencryptsensitiveinformationcaption>Encrypt the web.config file</epfencryptsensitiveinformationcaption>
+				<clearldapcache>	Clear LDAP cache</clearldapcache>
+				<ldapcachedcleared>	LDAP cache has been cleared</ldapcachedcleared>
+				<epserrorhandling>	Error handling in EPiServer</epserrorhandling>
+				<epserrorhandlingon>			Active for all</epserrorhandlingon>
+				<epserrorhandlingoff>			Error handling off</epserrorhandlingoff>
+				<epserrorhandlingremoteonly>	Active for remote visitors</epserrorhandlingremoteonly>
+				<epserrormail>		E-mail address to send error reports to </epserrormail>
+				<epssubscriptionhandler>Handler for subscription updates</epssubscriptionhandler>
+				<defaultsubscriptionhandler>
+					<displayname>EPiServer default</displayname>
+					<description>EPiServer built-in handler for subscription e-mail.</description>
+				</defaultsubscriptionhandler>
+				<multilanguagesubscriptionhandler>
+					<displayname>EPiServer standard format with multi-language support</displayname>
+					<description>EPiServer's built-in handler for subscription mail for multi-language-</description>
+				</multilanguagesubscriptionhandler>
+				<epfenableglobalizationsupportcaption>Enable globalization</epfenableglobalizationsupportcaption>
+				<epfbrowserlanguagedetectioncaption>Detect language via browser's language preference</epfbrowserlanguagedetectioncaption>
+			</settings>
+			<updateconfirm>
+				<heading>					Confirm Access to Remote System</heading>
+				<info>						This feature requires local administrator access. You will be presented with a login prompt if not already logged in as administrator. Information about current version and license will be sent using encrypted connection to ElektroPost to be able to present a custom product list.</info>
+			</updateconfirm>
+			<update>
+				<heading>					Upgrade Info</heading>
+				<info></info>
+				<name>						Product name</name>
+				<description>				Description</description>
+				<updateversion>				New version</updateversion>
+				<installedversion>			Installed version</installedversion>
+				<action></action>
+				<downloadbutton>			Download Files</downloadbutton>
+				<installbutton>				Install</installbutton>
+				<upgradebutton>				Upgrade</upgradebutton>
+				<alreadinstalled>			Already installed</alreadinstalled>
+				<requiresproducts>			Requires products</requiresproducts>
+				<licensenotfound>			License cannot be found in our database. Please contact your supplier for more information.</licensenotfound>
+				<licenseexpired>			License has expired. Please contact your supplier for more information.</licenseexpired>
+				<licensereplaced>			License has been replaced and it no longer active. Please contact your supplier for more information.</licensereplaced>
+				<licensenosoftwareagreement>Licence has no software agreement. Please contact your supplier for more information.</licensenosoftwareagreement>
+			</update>
+			<siteinfo>
+				<heading>					Statistics</heading>
+				<info></info>
+				<dbstatcaption>				Database Information</dbstatcaption>
+				<dbstatpagecount>			Total number of pages in database</dbstatpagecount>
+				<dbstatchangedlastweek>		Pages changed last week</dbstatchangedlastweek>
+				<dbstatepisecusercount>		Extranet users (EPiSec)</dbstatepisecusercount>
+				<dbstatntusercount>			Windows users (NT)</dbstatntusercount>
+				<dbstatsubscribercount>		Subscribers</dbstatsubscribercount>
+				<dbcachehitpercentage>		Cache hit rate</dbcachehitpercentage>
+				<dbcachecaption>			Database Cache Usage</dbcachecaption>
+				<countersince>				Counters were reset </countersince>
+				<countergetitem>			Pages delivered from cache</countergetitem>
+				<counterreadsinglepage>		Database reads for single pages</counterreadsinglepage>
+				<counterlistchildren>			Listings delivered from cache</counterlistchildren>
+				<counterreadchildpages>		Database reads for listings</counterreadchildpages>
+				<processstarted>			Worker process started</processstarted>
+				<processpeakmemory>			Peak memory usage (MB)</processpeakmemory>
+				<processid>					Process ID</processid>
+				<processconfigfile>			Configuration file</processconfigfile>
+				<processpubpolicy>			Publisher policies</processpubpolicy>
+				<processshadowcopy>			Shadow copy of assemblies</processshadowcopy>
+				<processshadowdir>			Shadow folder</processshadowdir>
+				<buttonresetcounters>		Reset Counters</buttonresetcounters>
+				<counterpages>				Pages in cache</counterpages>
+				<counteroutputvalid>Pages sent from HTML cache</counteroutputvalid>
+				<counteroutputinvalid>Invalid pages in HTML cache</counteroutputinvalid>
+				<outputcachecaption>HTML cache usage since</outputcachecaption>
+				<dbsystemprocessinfocaption>System/Process Information</dbsystemprocessinfocaption>
+			</siteinfo>
+			<syncgroup>
+				<heading>			Group Synchronization</heading>
+				<info>				This page will synchronize group information between the EPiServer database and Windows.</info>
+				<saved>				Group information has been updated</saved>
+				<syncnotneeded>		Information in EPiServer is identical to the Windows group information. No changes needed.</syncnotneeded>
+				<notinwindows>		Groups not present in Windows</notinwindows>
+				<notinwindowsinfo>	Selected groups will be deleted from EPiServer</notinwindowsinfo>
+				<notindatabase>		Groups not present in EPiServer</notindatabase>
+				<notindatabaseinfo>	Selected groups will be added to EPiServer</notindatabaseinfo>
+				<ldapgroupname>				Name</ldapgroupname>
+				<ldapgroupqualifiedname>	Fully qualified name</ldapgroupqualifiedname>
+				<ldapgroupimport>			Import</ldapgroupimport>
+				<useinepiserver>Use in EPiServer</useinepiserver>
+				<groupname>Group Name</groupname>
+				<description>Description</description>
+				<ldapname>LDAP name</ldapname>
+				<groupsupdated>Group information has been updated</groupsupdated>
+			</syncgroup>
+			<systemerror>
+				<askclearlog>Do you want to clear the system log?</askclearlog>
+				<heading>System Log</heading>
+				<info>Display information from the system log. Information about errors and events that may need to be remedied by the administrator is stored here.</info>
+				<deleted>The log has been cleared</deleted>
+				<showstartdate>Show from</showstartdate>
+				<showstopdate>Show to</showstopdate>
+				<tabledate>Date</tabledate>
+				<tabletype>Type</tabletype>
+				<tabledescription>Description</tabledescription>
+				<tableerrorcode>Error Code</tableerrorcode>
+				<tablesource>Source</tablesource>
+				<tableinformation>Information</tableinformation>
+			</systemerror>
+			<databasejob>
+				<delayedpublish>	
+					<displayname>Publish Delayed Page Versions</displayname>
+				</delayedpublish>
+				
+				<wastebasket>
+					<displayname>	Automatic Emptying of Recycle Bin</displayname>
+					<description>	Specify whether the emptying function is active/inactive and how often the Recycle Bin should be emptied. The Recycle Bin job will permanently delete pages older than 30 days from the Recycle Bin.</description>
+				</wastebasket>
+				<subscription>
+					<displayname>Subscription</displayname>
+					<description>The subscription job sends e-mail to users that subscribe to receive updates in different sections of the Web site.</description>
+				</subscription>
+				<archive>
+					<displayname>	Archive Function</displayname>
+					<description>	Specify whether the archive function is active/inactive and how often pages should be archived. The archive function will move pages with expired stoppublishdate to selected archive folder if specified.</description>
+				</archive>
+				<schedulecaption>	This job should be run every</schedulecaption>
+				<activecaption>		Active</activecaption>
+				<savemessage>		Settings have been saved.</savemessage>
+				<testbutton>		Start Manually</testbutton>
+				<startokmessage>	The job started without any problems.</startokmessage>
+				<starterrormessage>	The job failed: {0}</starterrormessage>
+				<tabsettings>		Settings</tabsettings>
+				<logstatus>			Status</logstatus>
+				<logdate>			Date</logdate>
+				<tabhistory>History</tabhistory>
+				<logmessage>Message</logmessage>
+				<nextexecution>Next scheduled date</nextexecution>
+			</databasejob>
+			<edituser>
+				<changepassword>		Change password</changepassword>
+				<keeppassword>			Keep password</keeppassword>
+				<enterpassword>			Enter password</enterpassword>
+				<repeatpassword>		Repeat password</repeatpassword>
+				<usersaved>				User/group has been saved</usersaved>
+				<usernotsaved>			The user/group could not be saved</usernotsaved>
+				<confirmdeleteuser>		Do you want to remove the user/group {0} ?</confirmdeleteuser>
+				<notificationquestion>	The user will automatically be notified by e-mail that the account has been activated.</notificationquestion>
+				<notificationfailed>	Could not send e-mail, because "Settings for extranet users" not properly set.</notificationfailed>
+				<mailsent>				E-mail has been sent to the user</mailsent>
+				<maintabname>			Settings</maintabname>
+				<userdeleted>			The user/group has been deleted</userdeleted>
+				<passwordmismatch>		Passwords differ between the input fields</passwordmismatch>
+				<userguisettings>
+					<displayname>Display Options</displayname>
+					<settings>
+						<usedefaultsettings>Use default settings</usedefaultsettings>
+						<toolbar>Toolbar</toolbar>
+						<limitedtoolbar>Limited toolbar</limitedtoolbar>
+						<extendedtoolbar>Extended toolbar</extendedtoolbar>
+						<treesymbols>Symbols in the tree structure</treesymbols>
+						<statusexpired>The page has scheduled publishing where the date and time have passed</statusexpired>
+						<statusnotstarted>The page has scheduled publishing and has not been published yet</statusnotstarted>
+						<statusnotpublished>The page has not been published</statusnotpublished>
+						<statusnotvisibleinmenu>The page is not shown in menus</statusnotvisibleinmenu>
+						<statusreadonly>You do not have access rights to change the page</statusreadonly>
+						<statusnew>New page created within the last 48 hours</statusnew>
+						<statuslanguagemissing>The page is missing for the current language and will not be displayed</statuslanguagemissing>
+						<statuslanguagefallback>The page is missing for the current language and will be displayed in another language. If the other language has an icon, it will be used as indication.</statuslanguagefallback>
+					</settings>
+				</userguisettings>
+			</edituser>
+			<remotesite>
+				<heading>Remote Web Sites</heading>
+				<info>Registered remote Web sites for incoming and outgoing traffic. Access rights for remote sites and whether anonymous sites can connect is configured in web.config.</info>
+				<url>URL</url>
+				<name>Name</name>
+				<ping>Ping</ping>
+				<pingtrue>Web site "{0}" responded and accepted signature</pingtrue>
+				<pingfalse>Web site "{0}" responded, but did not accept signature, or no signature has been set</pingfalse>
+				<localsite>Local site name</localsite>
+			</remotesite>
+			<remotesiteedit>
+				<heading>Edit Remote Web Site</heading>
+				<info>Do not change name of an external site, it may be used in code. Create a shared secret that has to manually be copied to the remote site to sign communications. This is to verify that data cannot be tampered with while transmitting over an insecure channel.</info>
+				<url>URL</url>
+				<name>Name</name>
+				<username>Username</username>
+				<password>Password</password>
+				<domain>Domain</domain>
+				<sharedsecret>Shared secret for signature</sharedsecret>
+				<istrusted>Act as front end</istrusted>
+				<istrustedwarning>Security warning! This site will be able to read assembly information about properties and access level settings. This will require a shared secret and valid signature on both sites to work properly.</istrustedwarning>
+				<allowurllookup>Allow site name in URLs (for example page.aspx?id=30__mysite)</allowurllookup>
+			</remotesiteedit>
+			<setup>
+				<heading>Install Basic Content</heading>
+				<info>In order to start using EPiServer, it must first be given some basic content. Select one of the options listed below and system language. Finish by clicking "Complete installation".</info>
+				<startpageexists>A start page is already configured for you</startpageexists>
+				<progress>Please wait while the system is updated</progress>
+				<selectlanguage>Select system language</selectlanguage>
+				<selectcontent>Select content</selectcontent>
+				<setupbutton>Complete Installation</setupbutton>
+				<cancelmessage>Please return to this page later to complete installation</cancelmessage>
+				<swedishsample>Swedish sample templates with all templates installed</swedishsample>
+				<englishsample>English sample templates with all templates installed</englishsample>
+				<emptysample>	Only start page without any page types or content</emptysample>
+				<globalizationsample>Globalized sample templates (English and Swedish) with all templates installed</globalizationsample>
+			</setup>
+			<importdata>
+				<displayname>Import Data</displayname>
+				<description/>
+				<heading>Import Data</heading>
+				<info>Import data from another EPiServer.</info>
+				<uploadfile>Upload and Verify File</uploadfile>
+				<selectfile>Select an export file and upload</selectfile>
+				<nofileuploaded>No file uploaded</nofileuploaded>
+				<beginimport>Begin Import</beginimport>
+				<pagecount>Number of pages</pagecount>
+				<pagetypecount>Number of page types</pagetypecount>
+				<categorycount>Number of categories</categorycount>
+				<framecount>Number of frames</framecount>
+				<filecount>Number of files</filecount>
+				<dynamicpropertydefinitioncount>Number of dynamic property definitions</dynamicpropertydefinitioncount>
+				<tabdefinitioncount>Number of Headings</tabdefinitioncount>
+				<importcompleted>Import complete</importcompleted>
+				<importsucceeded>Import successful</importsucceeded>
+				<testsucceeded>Import file verified and no errors or warnings generated</testsucceeded>
+				<errorsoccured>The following errors have occurred</errorsoccured>
+				<warningsoccured>The following warnings have been generated</warningsoccured>
+				<show>Display</show>
+				<selectpageroot>Select page destination</selectpageroot>
+			</importdata>
+			<exportdata>
+				<displayname>Export Data</displayname>
+				<description/>
+				<heading>Export Data</heading>
+				<info>Export data from one EPiServer to another.</info>
+				<exportbutton>Export</exportbutton>
+				<testexportbutton>Test Run with Error Log</testexportbutton>
+				<exportpages>Export pages</exportpages>
+				<exportpagedependencies>Automatically export dependent page types</exportpagedependencies>
+				<exportpagetypes>Export page types</exportpagetypes>
+				<exportframes>Export frames</exportframes>
+				<exportdynamicpropertydefinitions>Export dynamic property definitions</exportdynamicpropertydefinitions>
+				<exporttabdefinitions>Export tabs</exporttabdefinitions>
+				<exportcategories>Export categories</exportcategories>
+				<exportfiles>Export files</exportfiles>
+				<exportsucceeded>Export completed without errors or warnings</exportsucceeded>
+				<errorsoccured>The following errors have occurred</errorsoccured>
+				<warningsoccured>The following warnings have been generated</warningsoccured>
+				<selectpage>Select part of structure</selectpage>
+				<exportpagelanguages>Export globalized pages</exportpagelanguages>
+				<exportpagefiles>Export files that the pages link to</exportpagefiles>
+			</exportdata>
+			<languages>
+				<deleteprefix>	Do you want to delete language</deleteprefix>
+				<deletesuffix>	?</deletesuffix>
+				<heading>Edit Language Codes</heading>
+				<info>			Define the languages your Web site is using.</info>
+				<languagekey>	Language key</languagekey>
+				<languagename>	Name</languagename>
+				<locale>		Locale</locale>
+			</languages>
+			<plugin>
+				<heading>Plug-in Manager</heading>
+				<info>The list below displays components that have been registered as plug-ins in EPiServer.</info>
+				<displayname see="/admin/plugin/heading" />
+				<plugintab>Plug-ins</plugintab>
+				<overviewtab>Overview</overviewtab>
+				<guipluginattribute>User interface</guipluginattribute>
+				<editorpluginattribute>Editor</editorpluginattribute>
+				<subscriptionpluginattribute>Subscription</subscriptionpluginattribute>
+				<pagedefinitiontypepluginattribute>Auto-registering property types</pagedefinitiontypepluginattribute>
+				<scheduledpluginattribute>Scheduler job administration</scheduledpluginattribute>
+				<workflowpluginattribute>Workflow step type</workflowpluginattribute>
+			</plugin>
+			<pluginlist>
+				<enabled>Enabled</enabled>
+				<name>Display name</name>
+				<description>Description</description>
+				<license>Licensing</license>
+				<plugin>Plug-in</plugin>
+			</pluginlist>
+			<pluginadminsettings>
+				<nosettings>This plug-in has no settings</nosettings>
+			</pluginadminsettings>
+			<plugingrouplist>
+				<name>Name</name>
+				<description>Description</description>
+				<version>Version</version>
+				<company>Company</company>
+				<license>License</license>
+				<moreinfo>More info</moreinfo>
+			</plugingrouplist>
+			<pluginedit>
+				<heading>Edit Plug-in</heading>
+				<info></info>
+				<configurationtab>Configuration</configurationtab>
+				<overviewtab>Overview</overviewtab>
+			</pluginedit>
+			<pluginlicense>
+				<heading>License Information For</heading>
+				<info></info>
+				<tabinfo>Information</tabinfo>
+				<tabinstallnew>Install a New License</tabinstallnew>
+				<licenserestrictions>Restrictions</licenserestrictions>
+				<selectfile>Select new license file</selectfile>
+				<uploadlicense>Upload and Verify License</uploadlicense>
+				<newfileinstalled>The new license file has been installed</newfileinstalled>
+				<licenseid>License ID</licenseid>
+			</pluginlicense>
+			<filemanagement>
+				<displayname>File Management</displayname>
+				<description>Upload and manage files and folders.</description>
+			</filemanagement>
+			<menutabs>
+				<admin>Admin</admin>
+				<config>Config</config>
+				<pagetypes see="/pagetypes/common/property[@name='PageTypeName']/caption" />
+			</menutabs>
+			<menuheadings>
+				<systemadministration see="/admin/menu/systemadministration" />
+				<systemconfiguration>System Configuration</systemconfiguration>
+				<accessrights see="/admin/menu/security" />
+				<scheduledjobs see="/admin/menu/scheduledjobs" />
+				<noscheduledjobstext>No scheduled jobs have been defined</noscheduledjobstext>
+				<security>Security</security>
+				<tools see="/admin/menu/plugins" />
+				<notoolstext>No tools have been defined</notoolstext>
+				<toolsettings>Tool Settings</toolsettings>
+				<notoolsettingstext>No tool settings have been defined</notoolsettingstext>
+				<generalsettings>General Settings</generalsettings>
+				<managepagetypes>Manage Page Types</managepagetypes>
+				<pagetypes see="/admin/menu/pagetype" />
+				<nopagetypestext>No page types have been defined</nopagetypestext>
+				<pagetypesorting>
+					<sortbyindex>Sort by index</sortbyindex>
+					<sortalphabetically>Sort alphabetically</sortalphabetically>
+				</pagetypesorting>
+			</menuheadings>
+			<convertformtoxform>
+				<displayname>Convert Form</displayname>
+				<description>Convert form to XForms form.</description>
+				<heading see="/admin/convertformtoxform/displayname" />
+				<availableforms>Select a Form to Convert</availableforms>				
+				<availablexforms>Converted Forms</availablexforms>
+				<convert>Convert</convert>
+				<converted>Converted form: </converted>
+				<errorconverting>Error converting:</errorconverting>
+			</convertformtoxform>
+			<contentmirroringmanager>
+				<displayname>Mirroring Service</displayname>
+				<description/>
+			</contentmirroringmanager>
+			<contentmirroring>
+				<displayname see="/admin/contentmirroring/heading"/>
+				<description>The channels that are defined in the system.</description>
+				<heading>Mirroring Administration</heading>
+				<info>Defines content channels to mirror content from EPiServer to an external system.</info>
+				<name>Channel Name</name>
+        <order>Execution Order</order>
+        <moveup>Move Up</moveup>
+        <movedown>Move Down</movedown>
+			</contentmirroring>
+			<contentmirroringview>
+				<heading>Destination Overview</heading>
+				<info>An overview of the destinations that have been defined for this channel.</info>
+				<name>Destinations</name>
+				<reset>Reset State</reset>
+				<createdestination>Create Destination</createdestination>
+				<continuereset>Continue with Reset</continuereset>
+				<resetwarning1>If you continue with this action, all pages will appear as created.</resetwarning1>
+				<resetwarning2>This action will cause a loss of any items that have not been mirrored to the destination.</resetwarning2>
+				<lastchanges>Last time changes were applied</lastchanges>
+				<noaction>No changes applied</noaction>
+				<queuelength>Queue Length</queuelength>
+				<laststatus>Last Status</laststatus>
+				<lastexecution>Last Execution</lastexecution>
+				<editqueue>Edit Queue</editqueue>
+				<editmappings>Mappings</editmappings>
+				<settingslocked>The settings for this channel and its destinations are locked, because a mirroring job has already been executed with the current settings. Any following jobs require identical settings in order for mirroring to be carried out correctly. Change the settings by clicking "Reset State" to reset information about previous jobs.</settingslocked>
+        <errorsamechannelname>The channel name "{0}" is already used by another channel</errorsamechannelname>
+        <title>Destinations for Channel "{0}"</title>
+        <type>Target Type</type>
+        <xmlmirroring>XML</xmlmirroring>
+        <htmlmirroring>HTML</htmlmirroring>
+        <pagemirroring>EPiServer</pagemirroring>
+			</contentmirroringview>
+			<contentpublisheredit>
+				<tabsettings>Information</tabsettings>
+				<tabqueue>Queue</tabqueue>
+				<heading>Destination</heading>
+				<info>Defines a receiver of changes sent from a channel.</info>
+				<name>Name</name>
+				<remotesite>Remote site</remotesite>
+				<topagelink>Root page on destination</topagelink>
+				<selecttype>Select destination type</selecttype>
+				<instantpublish>Publish pages</instantpublish>
+				<targetdirectory>Target directory on the server</targetdirectory>
+				<xmloutputstyle>Create output</xmloutputstyle>
+				<flatfiles>One file per page</flatfiles>
+				<sitemap>Global site map</sitemap>
+				<changelog>A change log file</changelog>
+				<xslfile>Path to XSL template</xslfile>
+				<rootdir>Relative root path</rootdir>
+				<verifychecksum>Verify check sum for all pages every time</verifychecksum>
+				<defaultdocument>Default name for files</defaultdocument>
+				<usedirectoryweblinks>Do not include file name in links</usedirectoryweblinks>
+				<pathnameproperty>Use the following property for folder names</pathnameproperty>
+				<applyfilterontemplates>Apply channel filter</applyfilterontemplates>
+				<linktootherchannels>Allow receiver to fetch links from other channels</linktootherchannels>
+				<queueid>Queue number</queueid>
+				<queuecreated>Item created</queuecreated>
+			</contentpublisheredit>
+			<contentmirroringedit>
+				<tabinformation>Information</tabinformation>
+				<tabfilter>Property Filter</tabfilter>
+				<heading>Mirroring Settings</heading>
+				<info>Defines settings for this channel.</info>
+				<name>Name</name>
+				<frompagelink>Start page</frompagelink>
+				<automatic>Transfer type</automatic>
+				<activatefilter>Activate filter</activatefilter>
+				<filterpropertyname>Filter by property name</filterpropertyname>
+				<filterpropertyvalue>Filter by property value</filterpropertyvalue>
+				<automaticapproval>Approve changes automatically</automaticapproval>
+				<runasanonymoususer>Run as anonymous user</runasanonymoususer>
+				<impersonateusername>Username</impersonateusername>
+				<impersonatepassword>Set password</impersonatepassword>
+				<language>Language</language>
+				<channeltype>Mirror type</channeltype>
+				<includeroot>Include the start page</includeroot>
+				<types>
+					<tree>Tree</tree>
+					<list>List</list>
+					<search>Search (only updated pages)</search>
+				</types>
+				<impersonatedomain>Domain</impersonatedomain>
+				<globalizationsupport>Globalization support</globalizationsupport>
+				<noglobalizationsupport>Inactive (original language is mirrored to destination without globalization support)</noglobalizationsupport>
+				<alllanguages>Active (all languages are mirrored to destination with globalization support)</alllanguages>
+				<singlelanguage>Only "{0}" is mirrored to destination without globalization support</singlelanguage>
+			</contentmirroringedit>
+			<wsrpadmin>
+				<heading>WSRP Sources</heading>
+				<info>Define the WSRP sources that should be available to consume.</info>
+				<displayname see="/admin/wsrpadmin/heading" />
+				<description see="/admin/wsrpadmin/info" />
+				<detailederror>Detailed error description:</detailederror>
+			</wsrpadmin>
+			<filebrowser>
+				<heading>Select File</heading>
+			</filebrowser>    
+			<confirmlanguagespecific>
+				<title>Warning</title>
+				<heading>Values Will Be Deleted</heading>
+				<info>Property values will be deleted for pages that exist in languages that are not the original language.</info>
+				<pagelist>Pages that will be affected ({0})</pagelist>
+			</confirmlanguagespecific>
+			<editlanguagebranches>
+				<heading>Manage Web Site Languages</heading>
+				<info>Define the languages that should be available to visitors on your Web site.</info>				
+				<namecaption>Name</namecaption>
+				<idcaption>Language Code</idcaption>
+				<enabledcaption>Enabled</enabledcaption>
+				<iconcaption>Icon</iconcaption>
+				<addlanguage>Add Language</addlanguage>
+				<defaultlanguagebranch>Default language</defaultlanguagebranch>
+			</editlanguagebranches>
+			<editlanguagebranch>
+				<headingnew>Create New Web Site Language</headingnew>
+				<info>Define a new Web site language that should be available to visitors on your Web site.</info>
+				<namecaption>Name</namecaption>
+				<idcaption>Language code</idcaption>
+				<iconcaption>Icon</iconcaption>
+				<sortindexcaption>Sort index</sortindexcaption>
+				<enabledcaption>Enabled</enabledcaption>
+				<cantsave>Cannot save Web site language.</cantsave>
+				<cantsavelanguagebranchexists>A Web site language for the selected language code, '{0}', already exists.</cantsavelanguagebranchexists>
+				<urlsegmentcaption>Web address prefix</urlsegmentcaption>
+				<warningchangelanguage>Warning! The language code is used in several places in the system, such as links and fallback languages. Only change this setting during initial configuration of the system.</warningchangelanguage>
+			</editlanguagebranch>
+			<contentmirroringmapping>
+				<title>Mirroring Mappings for "{0}"</title>
+				<pagemapping>Page Mappings</pagemapping>
+				<foldermapping>Folder Mappings</foldermapping>
+				<sourceid>Source ID</sourceid>
+				<targetid>Target ID</targetid>
+				<pagename>Page Name</pagename>
+				<delete>Delete</delete>
+				<deleteall>Delete all Mappings</deleteall>
+				<message>This list displays how page and folder IDs are mapped between the source site and the remote site. By deleting a mapping, the target page or folder is disconnected from its source. Subsequent mirroring updates will result in a recreation of the target page or folder and a clean copy of any folder content.</message>
+				<deletemessage>Are you sure you want to delete this mapping?</deletemessage>
+				<deleteallmessage>Are you sure you want to delete all mappings for this channel?</deleteallmessage>
+			</contentmirroringmapping>
+			<contentmirroringqueue>
+				<title>Mirroring Queue for Destination "{0}" on "{1}"</title>
+				<info>Lists the pages that will be mirrored the next time the mirroring service is run.</info>
+				<warning>Warning! Pages that are deleted from the package will not be included when the Web site is mirrored. This may cause consequences for future mirroring. Do not click "Delete" if you want all the pages in the package to be included the next time the mirroring service is run.</warning>
+				<packagetitle>Package</packagetitle>
+				<created>Created</created>
+				<type>Change Type</type>
+				<pagename>Page Name</pagename>
+				<pageid>Page ID</pageid>
+				<deletepackage>Delete Package</deletepackage>
+				<deletewarningi0>Are you sure you want to delete changes from the queue?</deletewarningi0>
+				<deletewarningi1>You must manually apply move and delete operations on the destination site</deletewarningi1>
+				<deletewarningi2>You must republish updated and created pages</deletewarningi2>
+			</contentmirroringqueue>
+			<webpartadmin>
+				<heading>Register Web Parts</heading>
+        <displayname see="/admin/webpartadmin/heading" />
+				<info>Define the Web Parts that should be available for consumption</info>
+				<name>Name</name>
+				<description>Description</description>
+				<control>Control</control>
+				<producer>Producer</producer>
+				<portlet>Portlet</portlet>
+				<install>Install Web Part</install>
+				<consume>Consume Portlet</consume>
+			</webpartadmin>
+			<webpartadminedit>
+				<heading>Modify registration of "{0}"</heading>
+				<headinginstall>Install Web Part</headinginstall>
+				<headingconsume>Consume Portlet</headingconsume>
+				<info>Set the properties for the Web Part</info>
+				<infoconsume>Set the properties for the portlet</infoconsume>
+				<name>Name</name>
+				<description>Description</description>
+				<control>Control</control>
+				<producer>Producer</producer>
+				<portlet>Portlet</portlet>
+				<parameters>Parameters</parameters>
+				<parametername>Name</parametername>
+				<parametervalue>Value</parametervalue>
+				<parametertype>Type</parametertype>
+				<requiredfield>A value must be entered for:</requiredfield>
+				<emptyvalueerror>The parameter value must be entered</emptyvalueerror>
+				<typeconversionerror>The parameter value could not be converted to the selected type</typeconversionerror>
+				<nameexists>A Web Part already exists with the name '{0}'</nameexists>
+        <resolvecontrol>Resolve control</resolvecontrol>
+        <typenameresolved>Control was resolved.</typenameresolved>
+        <typenameblank>You must enter a type name or a virtual path.</typenameblank>
+        <virtualpathloadfailed>The virtual path could not be loaded.</virtualpathloadfailed>
+        <assemblyloadfailed>An error occured while loading the assembly.</assemblyloadfailed>
+        <typenamenotfound>A control with the specified type name could not be found.</typenamenotfound>
+        <ambiguoustypename>The specified type name is ambiguous. The name matches the following qualified names.</ambiguoustypename>
+        <invalidcontrol>The specified control cannot be loaded.</invalidcontrol>
+			</webpartadminedit>
+		</admin>
+		<personalization>
+			<task>
+				<owner>				Assigned by</owner>
+				<assignedto>		Assigned to</assignedto>
+				<reminder>			Reminder</reminder>
+				<changed>			Updated</changed>
+				<statusrejected>		Rejected</statusrejected>
+				<statuscompleted>		Completed</statuscompleted>
+				<statusinprogress>		In progress</statusinprogress>
+				<statusnotstarted>		New</statusnotstarted>
+
+				<timeout>				Due date passed</timeout>
+				<buttonreject>			Reject</buttonreject>
+				<buttoncompleted>		Completed</buttoncompleted>
+					
+				<subject>				Subject</subject>
+				<description>			Description</description>
+				<status>				Status</status>
+				<comments>				Comments</comments>
+				<duedate>				Due date</duedate>
+				<assignto>				Assign to</assignto>
+				<typenewpage>			Create new page</typenewpage>
+				<typeapprovepage>		Existing page</typeapprovepage>
+				<typeurl>				Display URL</typeurl>
+				<typeautomail>			Send report by mail</typeautomail>
+				<buttoncontinue>		Continue</buttoncontinue>
+				<createdby>				Created by</createdby>
+			</task>
+		</personalization>
+		<labels>
+			<description>			Description</description>
+		</labels>
+		<filemanagernavigator>
+			<startingpoints>Starting Points</startingpoints>
+			<myfavorites>My Favorites</myfavorites>
+			<uploaddir see="/util/linkeditor/uploaddir" />
+			<currentpage see="/util/linkeditor/pageuploaddir" />
+			<folders>Folders</folders>
+			<show>Show</show>
+			<hide>Hide</hide>
+			<favoritesinfo>Add folder favorites using the right-click menu for any of the folders in the list to the right</favoritesinfo>			
+		</filemanagernavigator>
+		<filemanager>
+			<invalidcharacters>Invalid characters in name</invalidcharacters>
+			<path>Path</path>
+			<pagefoldernotcreated>A folder for this page has not been created, do you wish to create one now?</pagefoldernotcreated>
+			<directorytools>
+				<create>Create Folder</create>
+				<createtooltip>Create a new folder</createtooltip>
+				<rename>Rename</rename>
+				<renametooltip>Rename selected file or folder</renametooltip>
+				<delete>Delete</delete>
+				<deletetooltip>Delete selected file or folder</deletetooltip>
+				<addfile>Add File</addfile>
+				<addfiletooltip>Add new file</addfiletooltip>
+				<security>Access Rights</security>
+				<securitytooltip>Change access rights</securitytooltip>
+				<search>Search</search>
+				<searchtooltip>Search for files</searchtooltip>
+				<viewthumbnails>Show thumbnails</viewthumbnails>
+				<viewthumbnailstooltip>Show all images as thumbnails</viewthumbnailstooltip>
+				<gouptooltip>Up</gouptooltip>
+			</directorytools>
+			<dhtmlsupport>
+				<viewfile>Show File Summary</viewfile>
+				<openfile>Open File</openfile>
+				<renamefile>Rename file</renamefile>
+				<editsummary>Edit File Summary</editsummary>
+				<createdirectory>Create Folder</createdirectory>
+				<renamedirectory>Rename folder</renamedirectory>
+				<directorysecurity>Edit Access Rights</directorysecurity>
+				<deleteselection>Delete</deleteselection>
+				<cutselection>Cut</cutselection>
+				<copyselection>Copy</copyselection>
+				<pasteselection>Paste</pasteselection>
+				<addfavorite>Add Favorite</addfavorite>
+				<removefavorite>Remove Favorite</removefavorite>
+				<uploadfile see="/filemanager/directorytools/addfile" />
+				<uploadmultiplefiles>Add Multiple Files</uploadmultiplefiles>
+				<renameselection see="/filemanager/directorytools/rename" />
+				<checkinselection>Check In</checkinselection>
+				<checkoutselection>Check Out</checkoutselection>
+				<undocheckoutselection>Cancel Checkout</undocheckoutselection>
+				<versionlist>Version History</versionlist>
+				<addversion>Create New Version</addversion>
+				<editinoffice>Edit in Office</editinoffice>
+			</dhtmlsupport>
+			<filetools>
+				<rename>Rename</rename>
+				<renametooltip>Rename the current file</renametooltip>
+				<delete>Delete</delete>
+				<deletetooltip>Delete the current file</deletetooltip>
+				<replacefile>Replace file</replacefile>
+				<replacefiletooltip>Replace the current file with a new file</replacefiletooltip>
+				<editfilesummary>Edit file summary</editfilesummary>
+				<editfilesummarytooltip>Edit file summary for the current file</editfilesummarytooltip>
+				<open>Open</open>
+				<opentooltip>Open the current file</opentooltip>
+			</filetools>
+			<browse>
+				<goback>Back</goback>
+				<name>Name</name>
+				<size>Size</size>
+				<modified>Modified</modified>
+				<created>Created</created>
+				<thumbnail>Thumbnail</thumbnail>
+				<emptyfolder>This folder is empty</emptyfolder>
+				<checkedoutby>Checked Out By</checkedoutby>
+			</browse>
+			<createdirectory>
+				<title>Create folder</title>
+				<name>Folder name</name>
+				<alreadyexists>Folder already exists</alreadyexists>
+			</createdirectory>
+			<deleteselection>
+				<title>Delete "{0}"</title>
+				<confirmmultidelete>{0} objects has been selected, are you sure you want to delete these?</confirmmultidelete>
+				<confirmfiledelete>Are you sure you want to delete this file?</confirmfiledelete>
+				<confirmdirectorydelete>Are you sure you want to delete this folder?</confirmdirectorydelete>
+				<warningnotempty>Warning! Folder is not empty.</warningnotempty>
+				<warningmultinotempty>Warning! Some of the selected folders are not empty.</warningmultinotempty>
+			</deleteselection>
+			<editfilesummary>
+				<title>Edit file summary for "{0}"</title>
+				<inputtitle>Title</inputtitle>
+				<inputsubject>Description</inputsubject>
+				<inputauthor>Author</inputauthor>
+				<inputcategory>Category</inputcategory>
+				<inputcomments>Comments</inputcomments>
+				<inputkeywords>Keywords</inputkeywords>		
+			</editfilesummary>
+			<filereferencelist>
+				<gotopage>Go to page</gotopage>
+				<xlinkstoy>{0} links to {1}</xlinkstoy>
+				<referencewarning>If you choose to continue, the following links will be broken</referencewarning>
+				<noreferences>No references</noreferences>
+			</filereferencelist>
+			<pasteselection>
+				<title>Paste "{0}"</title>
+				<confirmcopy>{0} objects has been selected. Do you want to copy these to the current folder?</confirmcopy>
+				<confirmmove>{0} objects has been selected. Do you want to move these to the current folder?</confirmmove>
+				<alreadyexists>The action was canceled. Some objects already exist in the current folder</alreadyexists>
+				<cannotcopyinsideitselfmessage>The action was canceled since the copy of the following folder cannot be pasted inside itself</cannotcopyinsideitselfmessage>
+				<cannotmoveinsideitselfmessage>The action was canceled since the cut folder cannot be moved inside itself</cannotmoveinsideitselfmessage>
+			</pasteselection>
+			<renamedirectory>
+				<title>Rename "{0}"</title>
+				<newname>Select new folder name</newname>		
+			</renamedirectory>
+			<renamefile>
+				<title>Rename "{0}"</title>
+				<newname>Select new file name</newname>
+				<alreadyexists>A file with this name already exists</alreadyexists>
+			</renamefile>
+			<viewfile>
+				<linkingpages>Linking pages</linkingpages>
+				<backtofolder>Back to folder</backtofolder>
+			</viewfile>
+			<uploadfile>
+				<title>Add file</title>
+				<selectfile>Select file to add</selectfile>
+				<confirmreplacefile>A file with this name already exists. Do you want to replace this file?</confirmreplacefile>
+			</uploadfile>
+			<directorysecurity>
+				<title>Change access rights for "{0}"</title>
+				<inheritsecurity>Inherit permissions from parent folder</inheritsecurity>
+			</directorysecurity>
+			<search>
+				<locations>Folders</locations>
+				<query>Search for text</query>
+				<currentdirectory>Current folder</currentdirectory>
+				<numberofhits>Number of hits</numberofhits>
+				<modifiedfrom>Modified after</modifiedfrom>
+				<modifiedto>Modified before</modifiedto>
+				<filename>File name</filename>
+				<filedirectory>Folder</filedirectory>
+				<searchlimited>Result has been limited to the top {0} matches</searchlimited>
+				<filenamepattern>File name</filenamepattern>
+				<allpagefolders>Page folders</allpagefolders>
+				<viewfileinfo see="/filemanager/dhtmlsupport/viewfile" />
+				<gotodirectory>Go to folder</gotodirectory>
+				<advancedoptions>Advanced options</advancedoptions>
+			</search>
+			<newpage>New page</newpage>
+			<checkinselection>
+				<title>Check In File</title>
+				<currentfile see="/filemanager/search/filename"/>
+				<selectversion>Select new version</selectversion>
+				<comments>Comments</comments>
+				<filexofy>file {0} of {1}</filexofy>
+				<filenotcheckedout>File has not been checked out</filenotcheckedout>
+			</checkinselection>
+			<addversion>
+				<title>Create New Version</title>
+			</addversion>
+			<versionlisttoolbar>
+				<restore>Restore Version</restore>
+				<restoretooltip>Restore to this version</restoretooltip>
+				<delete>Delete</delete>
+				<deletetooltip>Delete version</deletetooltip>
+				<addversion>Create Version</addversion>
+				<addversiontooltip>Create a new version</addversiontooltip>
+				<download>Download</download>
+				<downloadtooltip>Download version</downloadtooltip>
+				<copyshortcut>Copy Shortcut</copyshortcut>
+			</versionlisttoolbar>
+			<versionlist>
+				<title>Version History: {0}</title>
+				<version>Version</version>
+				<created see="/filemanager/browse/created"/>
+				<createdby>Created By</createdby>
+				<size see="/filemanager/browse/size"/>
+				<comments>Comments</comments>
+			</versionlist>
+      <unauthorizedpagefoldercreation>You are not authorized to create page folders for this page.</unauthorizedpagefoldercreation>
+		</filemanager>
+		<clienttools>
+			<wizard>
+				<selectpagelanguage>Select page language</selectpagelanguage>
+				<createpage>Select the page type you want to base this document on.</createpage>
+				<editpage>Selected page type is {0}. Enter information such as page name and publish dates.</editpage>
+				<doneblock1>Done!</doneblock1>
+				<doneblock2>Select Save and view to finish this wizard and create a preview of this page.</doneblock2>
+				<nosupport>No support for extension "{0}" has been configured</nosupport>
+				<noextension>The file "{0}" has no extension and cannot be identified</noextension>
+			</wizard>
+			<preview>
+				<tooltipclose>Close preview and delete changes</tooltipclose>
+			</preview>
+			<installstatus>
+				<heading>Client Tools</heading>
+				<registersite>Register site</registersite>
+				<componentname>Component</componentname>
+				<componentdescription see="/labels/description" />
+				<componentversion>Version</componentversion>
+				<componentstatus>Status</componentstatus>
+				<statusinstalled>Component is installed</statusinstalled>
+				<statusnotinstalled>Component is not installed</statusnotinstalled>
+				<statusloading>Checking status...</statusloading>
+				<upgrade>Uppgrade</upgrade>
+				<install>Install</install>
+				<installversion>Install version {0}</installversion>
+				
+				<officeaddin>
+					<noaccess>To be able to install and use this add-in, certain function permissions are required. An administrator can assign you these permissions.</noaccess>
+					<heading>Microsoft Office Add-In</heading>
+					<intro>This add-in enables you to publish information from within Microsoft Word, Microsoft Excel and Microsoft PowerPoint to EPiServer.</intro>
+					<installation>Installation</installation>
+					<activated>This Web site has been activated for publishing from your computer</activated>
+					<notactivated>This Web site has not been activated for publishing from your computer</notactivated>
+					<confirmactivate>Do you want to activate publishing to the following site?</confirmactivate>
+					<confirmdeactivate>Do you want to deactivate publishing to the following site?</confirmdeactivate>
+					<needssave>The document must be saved before you can publish it to EPiServer. Do you want to save the document now?</needssave>
+				</officeaddin>
+
+				<components>
+					<heading>Components</heading>
+					<intro>Some functions in EPiServer require you to install EPiServer Client Components on your local computer. The list below displays available components and their status.</intro>
+					<currentversion>You are using version {0} of {1}</currentversion>
+					<componentshelltools>
+						<heading>Client Support Functions</heading>
+						<description>Support functions to communicate with EPiServer, used by Microsoft Office add-in for example.</description>
+					</componentshelltools>			
+					<componentspellchecker>
+						<heading>Spellchecker, Microsoft Office Support</heading>
+						<description>A component that enables the Editor to use Microsoft Word spellchecker.</description>	
+					</componentspellchecker>
+					<componentexcelexport>
+						<heading>Export to Excel, Microsoft Office Support</heading>
+						<description>A component that can export forms data to Microsoft Excel.</description>
+					</componentexcelexport>
+					<componentmultiupload>
+						<heading>Advanced File Upload</heading>
+						<description>A component that enables support for advanced file upload, for example drag-and-drop.</description>
+					</componentmultiupload>
+				</components>
+			</installstatus>
+		</clienttools>	
+			
+		<pagetypes>
+			<common>				
+				<property name="PageName">
+					<caption>Name</caption>
+					<help>Name of the page, which will be used, for example, as a heading in the menus.</help>
+				</property>
+				<property name="PageLink">
+					<caption>	Page ID</caption>
+					<help>		Specify the page’s unique ID</help>
+				</property>
+				<property name="PageChangedOnPublish">
+					<caption>	Mark page as changed</caption>
+					<help>		The date the page is changed will be updated if this box is selected. This is necessary for the page to be included in subscriptions, for example.</help>
+				</property>
+				<property name="PageStartPublish">
+					<caption>	Start publish</caption>
+					<help>		Publish the page from this date. If this field is left empty, the page will be published as soon as you have clicked the Publish button.</help>
+				</property>
+				<property name="PageStopPublish">
+					<caption>	Stop publish</caption>
+					<help>		Publish the page up to this date. If this field is left empty, you must manually delete the page to stop it from being published.</help>
+				</property>
+				<property name="PageDelayedPublish">
+					<caption>	Future publishing</caption>
+					<help>		Select this box to publish this version automatically at the "Start publish" date.</help>
+				</property>
+				<property name="PageChildOrderRule">
+					<caption>	Sort order</caption>
+					<help>		Defines the order in which children of this page will be displayed.</help>
+				</property>
+				<property name="PagePeerOrder">
+					<caption>	Sort index</caption>
+					<help>		Specify an integer for the index number of this page. By selecting "According to sort index" for the parent of this page, the page with the lowest index will be shown at the top.</help>
+				</property>
+				<property name="PageVisibleInMenu">
+					<caption>	Display page in menus</caption>
+					<help>		Select this box if you want to display the page in the menus. If this box is not selected, the page will only be displayed in listings.</help>
+				</property>
+				<property name="PageFrameID">
+					<caption>	Target frame</caption>
+					<help>		Determines how a link will be opened (target in &lt;a href>).</help>
+				</property>
+				<property name="PageArchiveLink">
+					<caption>	Archive to page</caption>
+					<help>		This page can be archived to a special location when the "Stop publish date" has expired. Specify the page that will be used as the archive.</help>
+				</property>
+				<property name="PageCreated">
+					<caption>	Created</caption>
+					<help>		Date when the page was created.</help>
+				</property>
+				<property name="PageChanged">
+					<caption>	Changed</caption>
+					<help>		Date when the page was marked as changed.</help>
+				</property>
+				<property name="PageTypeName">
+					<caption>	Page Type</caption>
+					<help>		Name of page type.</help>
+				</property>
+				<property name="PageExternalURL">
+					<caption>	Simple address for this page</caption>
+					<help>		Specify the path from the root of your Web site, for example "/products". This page can then be made accessible through a simple address without "?" or any other symbols. The visitor enters www.foretaget.se/products and the page will be displayed. </help>
+				</property>
+				<property name="PageCategory">
+					<caption>	Category</caption>
+					<help>		Choose the categories you want your page to connect to. </help>
+				</property>
+				<property name="PageShortcutType">
+					<caption>	Link type</caption>
+					<help>		Choose which type of link you want to create.</help>
+				</property>
+				<property name="PageShortcutLink">
+					<caption>	Internal shortcut/Fetch data from</caption>
+					<help>		The page opens the content of another page and transfers the visitor to the page in question in the structure. /  This page opens the content of another page and remains in the current location in the structure.</help>
+				</property>
+				<property name="PageLinkURL">
+					<caption>External link</caption>
+					<help>This page opens with the content from the external page or document you are linked to.</help>
+				</property>
+				<property name="PageTargetFrame">
+					<caption>Target frame</caption>
+					<help>Determines how a link will be opened (target in &lt;a href>).</help>
+				</property>
+				<property name="PageLanguageID">
+					<caption>Language encoding</caption>
+					<help>Set language encoding for page if different than default.</help>
+				</property>
+				<property name="PageURLSegment">
+					<caption>	Page name in Web address</caption>
+					<help>		Assign a short name to be used for the page in the Web address</help>
+				</property>							
+			</common>
+			<pagetype name="SysRoot">
+				<name>Welcome page in Edit mode</name>
+				<description>First page in Edit mode</description>
+			</pagetype>		
+			<pagetype name="SysRecycleBin"> 
+				<name>Recycle Bin</name>
+				<description>Tree structure for Recycle Bin on the Web site</description>
+			</pagetype>			
+		</pagetypes>
+		<episerver.webparts>
+			<verbs>
+				<add>Add</add>
+				<apply>Apply</apply>
+				<cancel>Cancel</cancel>
+				<close>Close</close>
+				<configure>Configure</configure>
+				<connect>Connect</connect>
+				<delete>Delete</delete>
+				<disconnect>Disconnect</disconnect>
+				<edit>Edit</edit>
+				<editwsrp>Edit Portlet</editwsrp>
+				<export>Export</export>
+				<help>Help</help>
+				<maximize>Maximize</maximize>
+				<minimize>Minimize</minimize>
+				<ok>OK</ok>
+				<restore>Restore</restore>
+				<solo>Solo</solo>
+				<view>View</view>
+			</verbs>
+			<webcontrols>
+				<wsrp>
+					<portletcatalogpart>
+						<producer>Producer</producer>
+					</portletcatalogpart>
+				</wsrp>
+				<catalogzone>
+					<emptyzonetext>Catalog Zone contains no Catalog Parts.</emptyzonetext>
+					<selecttargetzonetext>Add to:</selecttargetzonetext>
+					<headertext>Catalog Zone</headertext>
+					<instructiontext>Select the catalog you would like to browse.</instructiontext>
+				</catalogzone>
+				<connectionszone>
+					<configureconnectiontitle>Configure Connection</configureconnectiontitle>
+					<connecttoconsumerinstructiontext>Create consumer connections for this Web Part.</connecttoconsumerinstructiontext>
+					<connecttoconsumertext>Create a connection to a Consumer</connecttoconsumertext>
+					<connecttoconsumertitle>Send Data to Web Part</connecttoconsumertitle>
+					<connecttoproviderinstructiontext>Create provider connections for this Web Part.</connecttoproviderinstructiontext>
+					<connecttoprovidertext>Create a connection to a Provider</connecttoprovidertext>
+					<connecttoprovidertitle>Get Data from Web Part</connecttoprovidertitle>
+					<consumersinstructiontext>Web Parts that the current Web Part sends information to:</consumersinstructiontext>
+					<consumertitle>Consumers</consumertitle>
+					<existingconnectionerrormessage></existingconnectionerrormessage>
+					<getfromtext>From:</getfromtext>
+					<gettext>Get:</gettext>
+					<headertext>Connections Zone</headertext>
+					<instructiontext>Manage the connections for the current Web Part.</instructiontext>
+					<instructiontitle>Manage the connections for {0}</instructiontitle>
+					<newconnectionerrormessage></newconnectionerrormessage>
+					<noexistingconnectioninstructiontext>There are no active connections available in your Web Part. You may create a new connection by selecting the links above, if there are compatible Web Parts on the page.</noexistingconnectioninstructiontext>
+					<noexistingcinnectiontitle>No active connections</noexistingcinnectiontitle>
+					<providersinstructiontext>Web Parts that the current Web Part gets information from:</providersinstructiontext>
+					<providerstitle>Providers</providerstitle>
+					<sendtext>Send:</sendtext>
+					<sendtotext>To:</sendtotext>
+				</connectionszone>
+				<displaymodedropdown>
+					<browse>Browse</browse>
+					<design>Design</design>
+					<catalog>Catalog</catalog>
+					<edit>Edit</edit>
+					<connect>Connect</connect>
+				</displaymodedropdown>
+				<editorzone>
+					<emptyzonetext>Editor Zone contains no Editor Parts.</emptyzonetext>
+					<errortext>There was an error applying one or more Editor Parts.</errortext>
+					<headertext>Editor Zone</headertext>
+					<instructiontext>Modify the properties of the Web Part, then click OK or Apply to apply your changes.</instructiontext>
+				</editorzone>
+				<scopedropdown>
+					<user>Changes are private</user>
+					<all>Changes are shared</all>
+				</scopedropdown>
+				<extendedwebpartzone>
+					<emptyzonetext>Add a Web Part to this zone by either dragging an RSS feed or by selecting it from a folder.</emptyzonetext>
+				</extendedwebpartzone>
+			</webcontrols>
+		</episerver.webparts>
+		<wsrp>
+			<portlets>
+				<wsrpinfoservicecontrol>
+				    <title>EPiServer Information Viewer Portlet</title>
+					<description>View information from EPiServer</description>
+					<shorttitle>Information Viewer</shorttitle>
+					<displayname>Info Viewer</displayname>
+					<keywords>EPiServer</keywords>
+					<keywords>Information</keywords>
+				</wsrpinfoservicecontrol>
+				<wsrpiframecontrol>
+					<title>EPiServer IFrame Portlet</title>
+					<description>View information in an IFrame</description>
+					<shorttitle>IFrame Portlet</shorttitle>
+					<displayname>IFrame</displayname>
+					<keywords>IFrame</keywords>
+				</wsrpiframecontrol>
+				<wsrprsscontrol>
+					<title>EPiServer RSS Portlet</title>
+					<description>View information from RSS source</description>
+					<shorttitle>RSS Portlet</shorttitle>
+					<displayname>RSS</displayname>
+					<keywords>RSS</keywords>
+					<keywords>Rich Site Summary</keywords>
+					<keywords>Real Simple Syndication</keywords>
+				</wsrprsscontrol>
+				<wsrpnewschannelcontrol>
+					<title>EPiServer News Channel Portlet</title>
+					<description>View news from EPiServer</description>
+					<shorttitle>News Channel Portlet</shorttitle>
+					<displayname>News Channel</displayname>
+					<keywords>News</keywords>
+				</wsrpnewschannelcontrol>
+				<wsrpusersettingscontrol>
+					<title>EPiServer User Settings Portlet</title>
+					<description>Configure User Settings</description>
+					<shorttitle>User Settings Portlet</shorttitle>
+					<displayname>User Settings</displayname>
+				</wsrpusersettingscontrol>
+			</portlets>
+		</wsrp>
+	</language>
+</languages>

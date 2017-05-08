@@ -1,0 +1,146 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjälp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/WorkflowItem.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="WorkflowItem.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+	<a href="../NO/WorkflowItem.htm">
+	<img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Skapa arbetsflöde</h1>
+    För att skapa ett nytt arbetsflödet väljer du Arbetsflöde i menyn till 
+    vänster i adminläge. Befintliga arbetsflöden på webbplatsen listas då till 
+    höger i sidan. Genom att välj Skapa nytt arbetsflöde kan du skapa ett nytt. 
+    Formuläret för inställningar för arbetsflödet visas nu på fyra flikar. Gör 
+    dina inställningar på respektive flik och avsluta med att välja Spara högst 
+    upp, ovanför flikarna.
+    <h2>Allmänt</h2>
+    På fliken Allmänt skall du ange allmän information om flödet.
+    <p>
+    <img border="0" src="images/workflow_general.png" width="490" height="329"></p>
+    <h3>Namn</h3>
+    <p>Ange flödets namn. Om flödet skall kunna startas manuellt är det lämpligt 
+    om detta namn är så beskrivande som möjligt för att redaktörerna skall 
+    förstå skillnad på olika flöden.</p>
+    <h3>Ägare av flöde</h3>
+    <p>Vem som skall vara ägare av flödet. Du kan välja att en viss person eller 
+    grupp skall vara ägare av flödet. Denna person kommer att få 
+    e-postmeddelande när uppgifterna i flödet genomförts och när någon uppgift 
+    håller på att förfalla. Det finns möjlighet att här bestämma att den person 
+    som är inloggad och aktiverar flödet också blir ägare till flödet, då väljer 
+    du Inloggad användare som ägare.</p>
+    <h3>Tillåt manuell start</h3>
+    <p>Det finns möjligheter att sätta in en automatisk aktivering av flödet på 
+    en viss plats i trädstrukturen. I vissa fall kan det också vara lämpligt att 
+    låta redaktörerna på egna hand aktivera flödet, så att även en sidan som 
+    placerats på annan plats i trädstrukturen kan gå igenom flödet. Om du vill 
+    tillåta manuell start markerar du det alternativet.</p>
+    <h3>Åtgärd vid konflikt mellan flöde och sidpublicering</h3>
+    <p>När en sida ingår i ett arbetsflöde med flerstegsgodkännande är det 
+    vanligt att de personer som ingår i flödet inte har rätt att publicera 
+    sidan. I vissa fall kan de eller någon annan ha rätt att publicera även om 
+    man helst vill att sidan skall godkännas av en eller flera personer innan 
+    publicering. Det kan innebär att en person går in i systemet och publicerar 
+    en sida som ligger i flödet och väntar på godkännande av någon annan. Du har 
+    med det här alternativet möjlighet att välja vad som skall gälla vid en 
+    sådan här konflikt.</p>
+    <p><b>Ingen åtgärd </b>innebär att sidan publiceras och att flödet 
+    fortsätter och uppgifterna delas ut som bestämt.</p>
+    <p><b>Tillåt inte publicering</b> innebär att sidan inte publiceras utan att 
+    flödet fortsätter och uppgifternas delas ut som bestämt.</p>
+    <p><b>Avbryt flödet</b> innebär att sidan publiceras och flödets avbryts och 
+    inga mer uppgifter delas ut.</p>
+    <h3>Beskrivning</h3>
+    En kort beskrivning av flödet, denna text visas för redaktören när denne 
+    skall aktivera ett flödet manuellt.
+    <h2>Flödesbeskrivning</h2>
+    <p><img border="0" src="images/workflow_flow.png" width="490" height="329"></p>
+    <p>På fliken <i>Flödesbeskrivning</i> skall du ange vilka personer som skall göra 
+    vad i flödet. Du kan bestämma om de skall godkänna eller publicera sidan och 
+    inom vilken tid de skall göra det. Du kan också bestämma vad som skall hända 
+    om det inte gör sin uppgift.</p>
+    <h3>Namn</h3>
+    För att lägga till en ny person/grupp i flödet väljer du vem/vilken grupp 
+    du vill lägga till i rullisten och väljer Lägg till nytt steg. 
+    Personens/gruppens namn presenteras då i listan och du kan ange vad denne 
+    persons/grupps uppgift är.
+    <h3>Typ</h3>
+    I fältet Typ väljer du vad uppgiften innebär. Om personen skall Granska 
+    eller Publicera en sida.
+    <h3>Tidsbegränsad uppgift</h3>
+    Om du vill att uppgiften skall utföras inom en speciell tid kan du ange 
+    det i fältet Tidsbegränsad uppgift. Du kan välja att ange ett heltal och 
+    sedan någon enhet av minut, timme eller dag. Om en uppgift håller på att 
+    förfalla kommer att e-postmeddelande skickas till den som blivit tilldelad 
+    uppgiften, samt till den som äger flödet.
+    <h3>Åtgärd vid avböjd uppgift</h3>
+    Om personen/gruppen avböjer uppgiften så kan du bestämma om uppgiften 
+    skall gå vidare i flödet eller om flödets skall avslutas.
+    <h3>Placering i flödet</h3>
+    Med hjälp av knapparna längst till höger efter varje person/grupp kan du 
+    flytta personen/gruppen i flödet. Uppåtpilen flyttar personen/gruppen ett 
+    steg upp, nedåt pilen likadant, fast nedåt. Krysset tar bort en person/grupp 
+    från flödet.
+    <h2>Automatisk aktivering</h2>
+    <p>
+    <img border="0" src="images/workflow_autoact.png" width="490" height="329"></p>
+    På fliken Automatisk aktivering kan du ange vad som skall starta den 
+    automatiska aktivering och på vilket/vilka platser i trädstrukturen detta 
+    skall ske. När en redaktör sparar och förhandsgranskar en sida finns två 
+    alternativ för publicering. Vilka alternativ som visas styrs av vilka 
+    rättigheter redaktören har. Om denna har rätt att publicera information 
+    visas båda knapparna, Publicera och Klar för publicering. Om denne inte att 
+    rätt att publicera visas endast Klar för publicering. Du kan här välja 
+    vilken eller om båda dessa knappar skall gälla för automatisk aktivering av 
+    arbetsflödet.
+    <h3>Platser i trädstrukturen där automatisk aktivering gäller</h3>
+    Du kan peka ut en eller flera platser i trädstrukturen där den 
+    automatiska aktivering skall gälla. Om det gäller hela webbplatsen pekar du 
+    ut startsidan. Du väljer den sida som ligger överst i den struktur där du 
+    vill att det skall gälla, då slår det även igenom på alla undersidor. Välj 
+    <i>Lägg till ny aktiveringspunkt</i>, då öppnas dialogrutan <i>Länk till sida</i> och du 
+    kan peka ut vilken sida i trädstrukturen som du vill att flödet skall 
+    aktiveras automatiskt.
+    <h2>Aktiverade flöden</h2>
+    <p>
+    <img border="0" src="images/workflow_active.png" width="490" height="329"></p>
+    <p>Om du som administratör vill se vilka flöden som för tillfället använder 
+    arbetsflödet kan du se en lista på alla aktiverade flöden på fliken 
+    <i>Aktiverade flöden</i>. Du kan här se vem som är tilldelad en uppgift men ännu 
+    inte utför t den. Du kan också se de utförda uppgifterna och kommentarer som 
+    redaktören lämnat till uppgiften. Du kan också härifrån ta bort flöden. Du 
+    tar då bort det aktiva flödet, inte hela arbetsflödet.</p></td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Läs mer i <a href="Redaktorshandbok_online.pdf">
+    Redaktörshandboken</a> - Läs mer i <a href="Adminhandbok_online.pdf">
+    Administratörshandboken</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

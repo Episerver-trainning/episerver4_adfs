@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+	<language name="Svenska" id="SV">
+		<admin>
+			<workflow>
+				<heading>Arbetsflöden</heading>
+				<info>Arbetsflöden som finns definierade.</info>
+				<displayname see="/admin/workflow/heading"/>
+				<name see="/admin/workflowitem/name"/>
+				<description see="/admin/workflowitem/description"/>
+				<createdby>Skapad av</createdby>
+				<add>Skapa arbetsflöde</add>
+			</workflow>
+			<workflowitem>
+				<heading>Arbetsflöde</heading>
+				<info>Skapa/redigera arbetsflöde</info>
+				<name>Namn</name>
+				<description>Beskrivning</description>
+				<type>Typ</type>
+				<infotab>Allmänt</infotab>
+				<flowtab>Flödesbeskrivning</flowtab>
+				<autostarttab>Automatisk aktivering</autostarttab>
+				<logtab>Aktiverade flöden</logtab>
+				<logtabinfo>Nedan visas de flöden som aktiverats för olika sidor baserat på detta arbetsflöde. </logtabinfo>
+				<watchtype>Åtgärd vid konflikt mellan flöde och sidpublicering</watchtype>
+				<noaction>Ingen åtgärd</noaction>
+				<cancelworkflow>Avbryt flödet</cancelworkflow>
+				<cancelpublish>Tillåt inte publicering</cancelpublish>
+				<loggedinuser>Inloggad användare</loggedinuser>
+				<autostartpage>Platser i trädstrukturen där automatisk aktivering gäller</autostartpage>
+				<eventcheckin>Aktivera vid "Klar för publicering"</eventcheckin>
+				<eventpublish>Aktivera vid "Publicering"</eventpublish>
+				<timeout>Tidsbegränsad uppgift</timeout>
+				<onrejected>Åtgärd vid avböjd uppgift</onrejected>
+				<continue>Fortsätt</continue>
+				<cancel>Avsluta</cancel>
+				<addstep>Lägg till nytt steg</addstep>
+				<addpage>Lägg till ny aktiveringspunkt</addpage>
+				<workflowowner>Ägare av flödet</workflowowner>
+				<allowmanualstart>Tillåt manuell aktivering</allowmanualstart>
+			</workflowitem>
+		
+		</admin>
+		<util>
+			<plugins>
+				<startworkflow>
+					<displayname>Aktivera ett arbetsflöde</displayname>
+					<description>Koppla ett arbetsflöde till aktuell sida.</description>
+					<availableworkflows>Välj ett arbetsflöde genom att klicka på titeln</availableworkflows>
+					<comments>Kommentar till flödet</comments>
+				</startworkflow>
+				<publishtask>
+					<question>Vill du publicera denna sida ?</question>
+					<displayname>Publicera</displayname>
+					<taskname>Publicera sida "{PageName}"</taskname>
+					<description></description>
+					<approved>Publicerad</approved>
+					<notapproved>Ej publicerad</notapproved>
+					<publishfailed>Publicering misslyckades pga rättighetsproblem</publishfailed>
+				</publishtask>
+				<approvaltask>
+					<commontab>Allmänt</commontab>
+					<question>Godkänner du denna sida ?</question>
+					<displayname>Granska</displayname>
+					<taskname>Granska sida "{PageName}"</taskname>
+					<description></description>
+					<approved>Godkänd</approved>
+					<notapproved>Ej godkänd</notapproved>
+					<notassigned>Ej tilldelad</notassigned>
+					<notanswered>Ej klar</notanswered>
+					<confirmdelete>Samtliga uppgifter i detta flöde kommer tas bort, är du säker på att du vill fortsätta?</confirmdelete>
+				</approvaltask>
+				<workflowlogview>
+					<heading>Aktiverade arbetsflöden</heading>
+					<displayname>Mina arbetsflöden</displayname>
+					<description>Listar de arbetsflöden jag aktiverat eller där jag angivits som ägare.</description>
+					<logpagename>Sida</logpagename>
+					<logcomment>Ev. kommentar</logcomment>
+					<logcreated>Aktiverad</logcreated>
+					<logcreatedby>Aktiverad av</logcreatedby>
+					<logwatchtype>Bevaka publicering av sida</logwatchtype>
+					<completed>Avslutad</completed>
+					<waitingfor>Väntar på {UserName} sedan {Date}</waitingfor>
+					<inprogress>Pågår</inprogress>
+				</workflowlogview>
+			</plugins>
+		</util>
+		<workflow>
+			<pagelocked>Sidan kan inte publiceras då ett flöde är aktiverat</pagelocked>
+		</workflow>
+	</language>
+	
+
+	<language name="English" id="EN">
+		<admin>
+			<workflow>
+				<heading>Workflows</heading>
+				<info>Defined workflows.</info>
+				<displayname see="/admin/workflow/heading"/>
+				<name see="/admin/workflowitem/name"/>
+				<description see="/admin/workflowitem/description"/>
+				<createdby>Created By</createdby>
+				<add>Create a Workflow</add>
+			</workflow>
+			<workflowitem>
+				<heading>Workflow</heading>
+				<info>Create/edit a workflow.</info>
+				<name>Name</name>
+				<description>Description</description>
+				<type>Type</type>
+				<infotab>General</infotab>
+				<flowtab>Workflow Description</flowtab>
+				<autostarttab>Automatic Activation</autostarttab>
+				<logtab>Activated Workflows</logtab>
+				<logtabinfo>The workflows that are activated for different pages based on this workflow are displayed below. </logtabinfo>
+				<watchtype>Action at conflict between workflow and page publication</watchtype>
+				<noaction>No action</noaction>
+				<cancelworkflow>Cancel workflow</cancelworkflow>
+				<cancelpublish>Do not allow publication</cancelpublish>
+				<loggedinuser>Logged on user</loggedinuser>
+				<autostartpage>Places in the tree structure where automatic activation applies</autostartpage>
+				<eventcheckin>Activate at ready for publication</eventcheckin>
+				<eventpublish>Activate at publication</eventpublish>
+				<timeout>Time-limited Task</timeout>
+				<onrejected>Action at Refused Task</onrejected>
+				<continue>Continue</continue>
+				<cancel>Close</cancel>
+				<addstep>Add a New Step</addstep>
+				<addpage>Add a New Activation Point</addpage>
+				<workflowowner>Owner of the workflow</workflowowner>
+				<allowmanualstart>Allow manual activation</allowmanualstart>
+			</workflowitem>
+		
+		</admin>
+		<util>
+			<plugins>
+				<startworkflow>
+					<displayname>Activate a Workflow</displayname>
+					<description>Link a workflow to a current page.</description>
+					<availableworkflows>Select a workflow by clicking its name.</availableworkflows>
+					<comments>Comments about the flow</comments>
+				</startworkflow>
+				<publishtask>
+					<question>Do you want to publish this page?</question>
+					<displayname>Publish</displayname>
+					<taskname>Publish the page "{PageName}"</taskname>
+					<description></description>
+					<approved>Published</approved>
+					<notapproved>Not published</notapproved>
+					<publishfailed>Publishing failed due to rights problem</publishfailed>
+				</publishtask>
+				<approvaltask>
+					<commontab>General</commontab>
+					<question>Do you approve this page?</question>
+					<displayname>Check</displayname>
+					<taskname>Check the page "{PageName}"</taskname>
+					<description></description>
+					<approved>Approved</approved>
+					<notapproved>Not approved</notapproved>
+					<notassigned>Not allocated</notassigned>
+					<notanswered>Not ready</notanswered>
+					<confirmdelete>All tasks in this workflow will be removed. Are you sure you want to continue?</confirmdelete>
+				</approvaltask>
+				<workflowlogview>
+					<heading>Activated Workflows</heading>
+					<displayname>My Workflows</displayname>
+					<description>List the workflows that I own or have activated.</description>
+					<logpagename>Page</logpagename>
+					<logcomment>Comments</logcomment>
+					<logcreated>Activated</logcreated>
+					<logcreatedby>Activated By</logcreatedby>
+					<logwatchtype>Monitor publication of the page</logwatchtype>
+					<completed>Completed</completed>
+					<waitingfor>Waiting for {UserName} and {Date}</waitingfor>
+					<inprogress>In progress</inprogress>
+				</workflowlogview>
+			</plugins>
+		</util>
+		<workflow>
+			<pagelocked>The page cannot be published when a flow is activated</pagelocked>
+		</workflow>
+	</language>
+
+<language name="Norsk" id="NO">
+		<admin>
+			<workflow>
+				<heading>Arbeidsflyt</heading>
+				<info>Arbeidsflyter som er definert.</info>
+				<displayname see="/admin/workflow/heading"/>
+				<name see="/admin/workflowitem/name"/>
+				<description see="/admin/workflowitem/description"/>
+				<createdby>Opprettet av</createdby>
+				<add>Opprett arbeidsflyt</add>
+			</workflow>
+			<workflowitem>
+				<heading>Arbeidsflyt</heading>
+				<info>Opprett/rediger arbeidsflyt</info>
+				<name>Navn</name>
+				<description>Beskrivelse</description>
+				<type>Type</type>
+				<infotab>Generelt</infotab>
+				<flowtab>Flytbeskrivelse</flowtab>
+				<autostarttab>Automatisk aktivering</autostarttab>
+				<logtab>Aktiver flyt</logtab>
+				<logtabinfo>Nedenfor vises de arbeidsflytene som har blitt aktivert for ulike sider basert på denne arbeidsflytdefinisjonen.</logtabinfo>
+				<watchtype>Tiltak hvis konflikt mellom flyt og sidepublisering</watchtype>
+				<noaction>Ingen tiltak</noaction>
+				<cancelworkflow>Avbryt flyten</cancelworkflow>
+				<cancelpublish>Ikke tillat publisering</cancelpublish>
+				<loggedinuser>Innlogget bruker</loggedinuser>
+				<autostartpage>Plasser i trestrukturen som har automatisk aktivering</autostartpage>
+				<eventcheckin>Aktiver ved "Klar for publisering"</eventcheckin>
+				<eventpublish>Aktiver ved "Publiser"</eventpublish>
+				<timeout>Tidsbegrenset oppgave</timeout>
+				<onrejected>Tiltak ved avslått oppgave</onrejected>
+				<continue>Fortsett</continue>
+				<cancel>Avslutt</cancel>
+				<addstep>Legg til nytt steg</addstep>
+				<addpage>Legg til nytt aktiveringspunkt</addpage>
+				<workflowowner>Eier av flyten</workflowowner>
+				<allowmanualstart>Tillat manuell aktivering</allowmanualstart>
+			</workflowitem>
+		
+		</admin>
+		<util>
+			<plugins>
+				<startworkflow>
+					<displayname>Aktiver en arbeidsflyt</displayname>
+					<description>Kobler en arbeidsflyt til valgt side.</description>
+					<availableworkflows>Velg en arbeidsflyt ved å klikke på tittelen</availableworkflows>
+					<comments>Kommentar til arbeidssteget</comments>
+				</startworkflow>
+				<publishtask>
+					<question>Vil du publisere denne siden?</question>
+					<displayname>Publiser</displayname>
+					<taskname>Publiser side "{PageName}"</taskname>
+					<description></description>
+					<approved>Publisert</approved>
+					<notapproved>Ikke publisert</notapproved>
+					<publishfailed>Publisering mislykkedes pga rettighetsproblemer</publishfailed>
+				</publishtask>
+				<approvaltask>
+					<commontab>Generelt</commontab>
+					<question>Godkjenner du denne siden?</question>
+					<displayname>Inspiser side</displayname>
+					<taskname>Inspiser side "{PageName}"</taskname>
+					<description></description>
+					<approved>Godkjent</approved>
+					<notapproved>Ikke godkjent</notapproved>
+					<notassigned>Ikke tildelt</notassigned>
+					<notanswered>Ikke klar</notanswered>
+					<confirmdelete>Samtlige oppgaver i denne flyten vil bli fjernet, er du sikker på at du vil forsette?</confirmdelete>
+				</approvaltask>
+				<workflowlogview>
+					<heading>Aktiver flyten</heading>
+					<displayname>Vis mine arbeidsflyter</displayname>
+					<description>Lister de arbeidsflytene jeg har aktivert eller der jeg har blitt angitt som eier.</description>
+					<logpagename>Side</logpagename>
+					<logcomment>Evt. kommentar</logcomment>
+					<logcreated>Aktivert</logcreated>
+					<logcreatedby>Aktivert av</logcreatedby>
+					<logwatchtype>Overvåk publisering av side</logwatchtype>
+					<completed>Avsluttet</completed>
+					<waitingfor>Venter på {UserName} siden {Date}</waitingfor>
+					<inprogress>Pågår</inprogress>
+				</workflowlogview>
+			</plugins>
+		</util>
+		<workflow>
+			<pagelocked>Siden kan ikke publiseres fordi den er medlem av en aktivert arbeidsflyt.</pagelocked>
+		</workflow>
+	</language>
+	
+		
+	<language name="Dansk" id="DK">
+		<admin>
+			<workflow>
+				<heading>Arbejdsprocesser</heading>
+				<info>Definerede arbejdsprocesser.</info>
+				<displayname see="/admin/workflow/heading"/>
+				<name see="/admin/workflowitem/name"/>
+				<description see="/admin/workflowitem/description"/>
+				<createdby>Oprettet af</createdby>
+				<add>Opret arbejdsproces</add>
+			</workflow>
+			<workflowitem>
+				<heading>Arbejdsproces</heading>
+				<info>Opret/rediger arbejdsproces</info>
+				<name>Navn</name>
+				<description>Beskrivelse</description>
+				<type>Type</type>
+				<infotab>Generelt</infotab>
+				<flowtab>Procesbeskrivelse</flowtab>
+				<autostarttab>Automatisk aktivering</autostarttab>
+				<logtab>Aktiver processen</logtab>
+				<logtabinfo>Nedenfor vises de processer, der er aktiveret for forskellige sider baseret på denne arbejdsproces. </logtabinfo>
+				<watchtype>Reparer ved konflikt mellem proces og offentliggørelse af side</watchtype>
+				<noaction>Ingen reparation</noaction>
+				<cancelworkflow>Afbryd processen</cancelworkflow>
+				<cancelpublish>Tillad ikke offentliggørelse</cancelpublish>
+				<loggedinuser>Brugere, der er logget på</loggedinuser>
+				<autostartpage>Placeringer i træstrukturen, hvor automatisk aktivering gælder</autostartpage>
+				<eventcheckin>Aktiver ved "Klar til offentliggørelse"</eventcheckin>
+				<eventpublish>Aktiver ved "Offentliggørelse"</eventpublish>
+				<timeout>Tidsbegrænset opgave</timeout>
+				<onrejected>Fremgangsmåde ved afslået opgave</onrejected>
+				<continue>Fortsæt</continue>
+				<cancel>Afslut</cancel>
+				<addstep>Tilføj nyt trin</addstep>
+				<addpage>Tilføj nyt aktiveringspunkt</addpage>
+				<workflowowner>Ejer af processen</workflowowner>
+				<allowmanualstart>Tillad manuel aktivering</allowmanualstart>
+			</workflowitem>
+		
+		</admin>
+		<util>
+			<plugins>
+				<startworkflow>
+					<displayname>Aktiver en arbejdsproces</displayname>
+					<description>Knyt en arbejdsproces til den aktuelle side.</description>
+					<availableworkflows>Vælg en arbejdsproces ved at klikke på titlen</availableworkflows>
+					<comments>Kommentar til processen</comments>
+				</startworkflow>
+				<publishtask>
+					<question>Vil du offentliggøre denne side?</question>
+					<displayname>Offentliggør</displayname>
+					<taskname>Offentliggør side "{PageName}"</taskname>
+					<description></description>
+					<approved>Offentliggjort</approved>
+					<notapproved>Ikke offentliggjort</notapproved>
+					<publishfailed>Offentliggørelse mislykkedes pga. rettighedsproblem</publishfailed>
+				</publishtask>
+				<approvaltask>
+					<commontab>Generelt</commontab>
+					<question>Vil du godkende denne side?</question>
+					<displayname>Undersøg</displayname>
+					<taskname>Undersøg side "{PageName}"</taskname>
+					<description></description>
+					<approved>Godkend</approved>
+					<notapproved>Godkend ikke</notapproved>
+					<notassigned>Tildel ikke</notassigned>
+					<notanswered>Ikke klar</notanswered>
+					<confirmdelete>Alle opgaver i denne proces skal slettes. Vil du fortsætte?</confirmdelete>
+				</approvaltask>
+				<workflowlogview>
+					<heading>Aktiver arbejdsprocessen</heading>
+					<displayname>Vis mine arbejdsprocesser</displayname>
+					<description>Viser de processer, jeg har aktiveret, eller hvor i arbejdsprocessen, jeg er angivet som ejer.</description>
+					<logpagename>Side</logpagename>
+					<logcomment>Evt. kommentar</logcomment>
+					<logcreated>Aktiveret</logcreated>
+					<logcreatedby>Aktiveret af</logcreatedby>
+					<logwatchtype>Overvåg offentliggørelse af side</logwatchtype>
+					<completed>Afsluttet</completed>
+					<waitingfor>Venter på {UserName} fra {Date}</waitingfor>
+					<inprogress>I gang</inprogress>
+				</workflowlogview>
+			</plugins>
+		</util>
+		<workflow>
+			<pagelocked>Siden kan ikke offentliggøres, da en proces er aktiveret</pagelocked>
+		</workflow>
+	</language>
+
+<language name="Suomi" id="FI">
+		<admin>
+			<workflow>
+				<heading>Työvirrat</heading>
+				<info>Määritetyt työvirrat.</info>
+				<displayname see="/admin/workflow/heading"/>
+				<name see="/admin/workflowitem/name"/>
+				<description see="/admin/workflowitem/description"/>
+				<createdby>Luonut</createdby>
+				<add>Luo työvirta</add>
+			</workflow>
+			<workflowitem>
+				<heading>Työvirta</heading>
+				<info>Luo/muokkaa työvirta</info>
+				<name>Nimi</name>
+				<description>Kuvaus</description>
+				<type>Tyyppi</type>
+				<infotab>Yleistä</infotab>
+				<flowtab>Työvirrankuvaus</flowtab>
+				<autostarttab>Automaattinen aktivointi</autostarttab>
+				<logtab>Aktivoidut työvirrat</logtab>
+				<logtabinfo>Alla näkyvät eri sivujen aktivoidut työvirrat jotka perustuvat tähän työvirtaan</logtabinfo>
+				<watchtype>Työvirran- ja sivunvälisen konfliktin toimenpide</watchtype>
+				<noaction>Ei toimenpiteitä</noaction>
+				<cancelworkflow>Keskeytä työvirta</cancelworkflow>
+				<cancelpublish>Älä salli julkaisemista</cancelpublish>
+				<loggedinuser>Sisäänkirjautunut käyttäjä</loggedinuser>
+				<autostartpage>Sivut puuvalikossa jossa automaattinen aktivoiminen on toiminnassa.</autostartpage>
+				<eventcheckin>Aktivoi kun sivu on valmis julkaistavaksi</eventcheckin>
+				<eventpublish>Aktivoi kun sivu on julkaistu</eventpublish>
+				<timeout>Aikarajattu tehtävä</timeout>
+				<onrejected>Toimenpide kun tehtävä hylätään</onrejected>
+				<continue>Jatka</continue>
+				<cancel>Lopeta</cancel>
+				<addstep>Lisää uusi askel</addstep>
+				<addpage>Lisää aktivointisivu</addpage>
+				<workflowowner>Työvirran omistaja</workflowowner>
+				<allowmanualstart>Salli manuaalinen aktivoiminen</allowmanualstart>
+			</workflowitem>
+		
+		</admin>
+		<util>
+			<plugins>
+				<startworkflow>
+					<displayname>Aktivoi työvirta</displayname>
+					<description>Yhdistä työvirta sivuun.</description>
+					<availableworkflows>Valitse työvirta napsauttamalla otsikkoa</availableworkflows>
+					<comments>Työvirran kuvaus</comments>
+				</startworkflow>
+				<publishtask>
+					<question>Haluatko julkaista tämän sivun?</question>
+					<displayname>Julkaise</displayname>
+					<taskname>Julkaise sivu "{PageName}"</taskname>
+					<description></description>
+					<approved>Julkaistu</approved>
+					<notapproved>Ei julkaistu</notapproved>
+					<publishfailed>Julkaiseminen epäonnistui käyttöoikeusongelman takia.</publishfailed>
+				</publishtask>
+				<approvaltask>
+					<commontab>Yleistä</commontab>
+					<question>Hyväksytkö tämän sivun?</question>
+					<displayname>Tarkasta</displayname>
+					<taskname>Tarkasta sivu "{PageName}"</taskname>
+					<description></description>
+					<approved>Hyväksytty</approved>
+					<notapproved>Ei hyväksytty</notapproved>
+					<notassigned>Ei annettu</notassigned>
+					<notanswered>Ei valmis</notanswered>
+					<confirmdelete>Kaikki tehtävät poistetaan tästä työvirrasta. Oletko varma että haluat jatkaa?</confirmdelete>
+				</approvaltask>
+				<workflowlogview>
+					<heading>Aktivoidut työvirrat</heading>
+					<displayname>Näytä minun työvirrat</displayname>
+					<description>Listaa työvirrat jotka minä olen aktivoinut tai joissa minut on ilmoitettu omistajaksi.</description>
+					<logpagename>Sivu</logpagename>
+					<logcomment>Mahdollinen kommentti</logcomment>
+					<logcreated>Aktivoitu</logcreated>
+					<logcreatedby>Aktivoinut</logcreatedby>
+					<logwatchtype>Valvo sivun julkaisemista</logwatchtype>
+					<completed>Lopetettu</completed>
+					<waitingfor>Odottaa käyttäjää {UserName} päivämäärästä {Date} lähtien</waitingfor>
+					<inprogress>Käynnissä</inprogress>
+				</workflowlogview>
+			</plugins>
+		</util>
+		<workflow>
+			<pagelocked>Sivua ei voi julkaista jos sivuun kytketty työvirta on aktivoitu</pagelocked>
+		</workflow>
+	</language>
+	
+	<language name="Français" id="FR">
+		<admin>
+			<workflow>
+				<heading>Flux de travail</heading>
+				<info>Flux de travail définis.</info>
+				<displayname see="/admin/workflow/heading"/>
+				<name see="/admin/workflowitem/name"/>
+				<description see="/admin/workflowitem/description"/>
+				<createdby>Créé(s) par</createdby>
+				<add>Créer un flux de travail</add>
+			</workflow>
+			<workflowitem>
+				<heading>Flux de travail</heading>
+				<info>Crée/modifie un flux de travail.</info>
+				<name>Nom</name>
+				<description>Description</description>
+				<type>Type</type>
+				<infotab>Général</infotab>
+				<flowtab>Description du flux</flowtab>
+				<autostarttab>Activation automatique</autostarttab>
+				<logtab>Flux activés</logtab>
+				<logtabinfo>Les flux qui sont activés pour différentes pages basées sur ce flux de travail sont affichés ci-dessous. </logtabinfo>
+				<watchtype>Action en conflit entre le flux et la publication de la page</watchtype>
+				<noaction>Aucune action</noaction>
+				<cancelworkflow>Annuler le flux</cancelworkflow>
+				<cancelpublish>Ne pas autoriser la publication</cancelpublish>
+				<loggedinuser>Utilisateur connecté</loggedinuser>
+				<autostartpage>Emplacements de la structure d'arborescence auxquels s'applique l'activation automatique</autostartpage>
+				<eventcheckin>Activer lorsque prêt pour la publication</eventcheckin>
+				<eventpublish>Activer à la publication</eventpublish>
+				<timeout>Tâche à délai limité</timeout>
+				<onrejected>Action en cas de tâche refusée</onrejected>
+				<continue>Continuer</continue>
+				<cancel>Fermer</cancel>
+				<addstep>Ajouter une nouvelle étape</addstep>
+				<addpage>Ajouter un nouveau point d'activation</addpage>
+				<workflowowner>Propriétaire du flux</workflowowner>
+				<allowmanualstart>Autoriser l'activation manuelle</allowmanualstart>
+			</workflowitem>
+		
+		</admin>
+		<util>
+			<plugins>
+				<startworkflow>
+					<displayname>Activer un flux de travail</displayname>
+					<description>Lier un flux de travail à une page actuelle.</description>
+					<availableworkflows>Sélectionner un flux de travail en cliquant sur son nom</availableworkflows>
+					<comments>Commentaires à propos du flux</comments>
+				</startworkflow>
+				<publishtask>
+					<question>Souhaitez-vous publier cette page ?</question>
+					<displayname>Publier</displayname>
+					<taskname>Publier la page "{NomPage}"</taskname>
+					<description></description>
+					<approved>Publiée</approved>
+					<notapproved>Non publiée</notapproved>
+					<publishfailed>La publication a échoué en raison de problèmes de droits</publishfailed>
+				</publishtask>
+				<approvaltask>
+					<commontab>Général</commontab>
+					<question>Approuvez-vous cette page ?</question>
+					<displayname>Vérifier</displayname>
+					<taskname>Vérifier la page "{NomPage}"</taskname>
+					<description></description>
+					<approved>Approuvée</approved>
+					<notapproved>Non approuvée</notapproved>
+					<notassigned>Non allouée</notassigned>
+					<notanswered>Non prêt(e)</notanswered>
+					<confirmdelete>Toutes les tâches de ce flux seront supprimées ; voulez-vous vraiment continuer ?</confirmdelete>
+				</approvaltask>
+				<workflowlogview>
+					<heading>Flux de travail activés</heading>
+					<displayname>Afficher mes flux de travail</displayname>
+					<description>Répertorier les flux de travail que j'ai activés ou où je suis spécifié comme propriétaire.</description>
+					<logpagename>Page</logpagename>
+					<logcomment>Commentaires</logcomment>
+					<logcreated>Activé(e)</logcreated>
+					<logcreatedby>Activé(e) par</logcreatedby>
+					<logwatchtype>Surveiller la publication de la page</logwatchtype>
+					<completed>Terminé</completed>
+					<waitingfor>En attente de {NomUtilisateur} et de {Date}</waitingfor>
+					<inprogress>En cours</inprogress>
+				</workflowlogview>
+			</plugins>
+		</util>
+		<workflow>
+			<pagelocked>Impossible de publier la page quand un flux est activé</pagelocked>
+		</workflow>
+	</language>	
+	
+	<language name="Español" id="ES">
+		<admin>
+			<workflow>
+				<heading>Flujos de trabajo</heading>
+				<info>Flujos de trabajo definidos.</info>
+				<displayname see="/admin/workflow/heading"/>
+				<name see="/admin/workflowitem/name"/>
+				<description see="/admin/workflowitem/description"/>
+				<createdby>Creado por</createdby>
+				<add>Crear un flujo de trabajo</add>
+			</workflow>
+			<workflowitem>
+				<heading>Flujo de trabajo</heading>
+				<info>Crear o editar un flujo de trabajo.</info>
+				<name>Nombre</name>
+				<description>Descripción</description>
+				<type>Tipo</type>
+				<infotab>General</infotab>
+				<flowtab>Descripción del flujo</flowtab>
+				<autostarttab>Activación automática</autostarttab>
+				<logtab>Flujos activados</logtab>
+				<logtabinfo>A continuación, se muestran los flujos que están activados para diferentes páginas basadas en este flujo de trabajo. </logtabinfo>
+				<watchtype>Acción en caso de conflicto entre el flujo y la publicación de páginas</watchtype>
+				<noaction>Ninguna acción</noaction>
+				<cancelworkflow>Cancelar flujo</cancelworkflow>
+				<cancelpublish>No permitir publicación</cancelpublish>
+				<loggedinuser>Usuario conectado</loggedinuser>
+				<autostartpage>Lugares de la estructura de árbol donde se aplica la activación automática</autostartpage>
+				<eventcheckin>Activar cuando la publicación esté lista</eventcheckin>
+				<eventpublish>Activar al publicar</eventpublish>
+				<timeout>Tarea con límite de tiempo</timeout>
+				<onrejected>Acción en caso de tarea rechazada</onrejected>
+				<continue>Continuar</continue>
+				<cancel>Cerrar</cancel>
+				<addstep>Agregar un nuevo paso</addstep>
+				<addpage>Agregar un nuevo punto de activación</addpage>
+				<workflowowner>Propietario del flujo</workflowowner>
+				<allowmanualstart>Permitir activación manual</allowmanualstart>
+			</workflowitem>
+		
+		</admin>
+		<util>
+			<plugins>
+				<startworkflow>
+					<displayname>Activar un flujo de trabajo</displayname>
+					<description>Vincular un flujo de trabajo a una página actual.</description>
+					<availableworkflows>Seleccionar un flujo de trabajo haciendo clic en su nombre</availableworkflows>
+					<comments>Comentarios sobre el flujo</comments>
+				</startworkflow>
+				<publishtask>
+					<question>¿Desea publicar esta página?</question>
+					<displayname>Publicar</displayname>
+					<taskname>Publicar la página "{PageName}"</taskname>
+					<description></description>
+					<approved>Publicada</approved>
+					<notapproved>No publicada</notapproved>
+					<publishfailed>La publicación no se ha podido realizar debido a problemas con los permisos</publishfailed>
+				</publishtask>
+				<approvaltask>
+					<commontab>General</commontab>
+					<question>¿Aprueba esta página?</question>
+					<displayname>Comprobar</displayname>
+					<taskname>Comprobar la página "{PageName}"</taskname>
+					<description></description>
+					<approved>Aprobada</approved>
+					<notapproved>No aprobada</notapproved>
+					<notassigned>No asignada</notassigned>
+					<notanswered>No está lista</notanswered>
+					<confirmdelete>Se eliminarán todas las tareas de este flujo. ¿Seguro que desea continuar?</confirmdelete>
+				</approvaltask>
+				<workflowlogview>
+					<heading>Flujos de trabajo activados</heading>
+					<displayname>Mostrar mis flujos de trabajo</displayname>
+					<description>Muestra los flujos de trabajo que he activado o el lugar del flujo en el que figuro como propietario.</description>
+					<logpagename>Página</logpagename>
+					<logcomment>Comentarios</logcomment>
+					<logcreated>Activada</logcreated>
+					<logcreatedby>Activada por</logcreatedby>
+					<logwatchtype>Supervisar publicación de la página</logwatchtype>
+					<completed>Finalizado</completed>
+					<waitingfor>En espera de {UserName} y {Date}</waitingfor>
+					<inprogress>En curso</inprogress>
+				</workflowlogview>
+			</plugins>
+		</util>
+		<workflow>
+			<pagelocked>La página no se puede publicar cuando un flujo está activado</pagelocked>
+		</workflow>
+	</language>	
+	
+	<language name="Deutsch" id="DE">
+		<admin>
+			<workflow>
+				<heading>Workflows</heading>
+				<info>Festgelegte Workflows.</info>
+				<displayname see="/admin/workflow/heading"/>
+				<name see="/admin/workflowitem/name"/>
+				<description see="/admin/workflowitem/description"/>
+				<createdby>Erstellt von</createdby>
+				<add>Workflow erzeugen</add>
+			</workflow>
+			<workflowitem>
+				<heading>Workflow</heading>
+				<info>Erstellen oder bearbeiten Sie einen Workflow.</info>
+				<name>Name</name>
+				<description>Beschreibung</description>
+				<type>Typ</type>
+				<infotab>Allgemein</infotab>
+				<flowtab>Flow-Beschreibung</flowtab>
+				<autostarttab>Automatische Aktivierung</autostarttab>
+				<logtab>Aktivierte Workflows</logtab>
+				<logtabinfo>Nachfolgend werden die Flows angezeigt, die auf Grundlage dieses Workflows für verschiedene Seiten aktiviert sind. </logtabinfo>
+				<watchtype>Aktion bei einem Konflikt zwischen Flow und Seitenveröffentlichung</watchtype>
+				<noaction>Keine Aktion</noaction>
+				<cancelworkflow>Flow abbrechen</cancelworkflow>
+				<cancelpublish>Veröffentlichung nicht erlauben</cancelpublish>
+				<loggedinuser>Angemeldeter Benutzer</loggedinuser>
+				<autostartpage>Für eine automatische Aktivierung in Baumstruktur integrieren</autostartpage>
+				<eventcheckin>Aktivieren, wenn bereit für Veröffentlichung</eventcheckin>
+				<eventpublish>Aktivieren bei Veröffentlichung</eventpublish>
+				<timeout>Zeitbeschränkte Aufgabe</timeout>
+				<onrejected>Aktion bei abgelehnter Aufgabe</onrejected>
+				<continue>Weiter</continue>
+				<cancel>Schließen</cancel>
+				<addstep>Neuen Schritt hinzufügen</addstep>
+				<addpage>Neuen Aktivierungspunkt hinzufügen</addpage>
+				<workflowowner>Flow-Eigentümer</workflowowner>
+				<allowmanualstart>Manuelle Aktivierung erlauben</allowmanualstart>
+			</workflowitem>
+		
+		</admin>
+		<util>
+			<plugins>
+				<startworkflow>
+					<displayname>Einen Workflow aktivieren</displayname>
+					<description>Einen Workflow mit einer aktuellen Seite verknüpfen.</description>
+					<availableworkflows>Einen Workflow durch Klicken auf den Namen auswählen</availableworkflows>
+					<comments>Anmerkungen zum Flow</comments>
+				</startworkflow>
+				<publishtask>
+					<question>Möchten Sie diese Seite veröffentlichen?</question>
+					<displayname>Veröffentlichen</displayname>
+					<taskname>Seite "{PageName}" veröffentlichen</taskname>
+					<description></description>
+					<approved>Veröffentlicht</approved>
+					<notapproved>Nicht veröffentlicht</notapproved>
+					<publishfailed>Fehler bei Veröffentlichung aufgrund fehlender Rechte.</publishfailed>
+				</publishtask>
+				<approvaltask>
+					<commontab>Allgemein</commontab>
+					<question>Möchten Sie diese Seite genehmigen?</question>
+					<displayname>Überprüfen</displayname>
+					<taskname>Seite "{PageName}" überprüfen</taskname>
+					<description></description>
+					<approved>Genehmigen</approved>
+					<notapproved>Nicht genehmigt</notapproved>
+					<notassigned>Nicht zugeordnet</notassigned>
+					<notanswered>Nicht bereit</notanswered>
+					<confirmdelete>Alle Aufgaben in diesem Flow werden entfernt, möchten Sie wirklich fortfahren?</confirmdelete>
+				</approvaltask>
+				<workflowlogview>
+					<heading>Aktivierte Workflows</heading>
+					<displayname>Meine Workflows anzeigen</displayname>
+					<description>Es werden alle Workflows aufgelistet, deren Eigentümer ich bin oder die ich aktiviert habe.</description>
+					<logpagename>Seite</logpagename>
+					<logcomment>Kommentare</logcomment>
+					<logcreated>Aktiviert</logcreated>
+					<logcreatedby>Aktiviert von</logcreatedby>
+					<logwatchtype>Veröffentlichung der Seite beobachten</logwatchtype>
+					<completed>Abgeschlossen</completed>
+					<waitingfor>Warten auf "{UserName}" und "{Date}"</waitingfor>
+					<inprogress>In Bearbeitung</inprogress>
+				</workflowlogview>
+			</plugins>
+		</util>
+		<workflow>
+			<pagelocked>Die Seite kann nicht veröffentlicht werden, wenn ein Flow aktiviert ist.</pagelocked>
+		</workflow>
+	</language>	
+	
+</languages>
+	

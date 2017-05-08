@@ -1,0 +1,123 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjälp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/Permission.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English"></a>
+    <a href="Permission.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+	<a href="../NO/Permission.htm">
+	<img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Åtkomst till funktioner</h1>
+    <p>I EPiServers redigeraläge finns ett antal funktioner som du kan begränsa 
+    åtkomsten till för olika personer eller grupper. Nedanstående funktioner kan du åtkomstskydda.</p>
+    <p><b>Alla funktioner tillgängliga i editorn</b> Ger en eller flera 
+    grupper/personer tillgång till alla knappar/ funktioner i editorn. Det är 
+    vanligt att man vill dölja vissa knappar i vissa mallar. Med det 
+    härkommandot kan du tilldela alla knappar till vissa personer/grupper. De 
+    får då alla knappar medan övriga får de knappar du har angivit på respektive 
+    mall.</p>
+	<p><b>Detaljerade felmeddelanden för felsökning</b> Ger en eller flera 
+	grupper/personer tillgång till detaljerade felmeddelande. Under 
+	Systeminställningar finns det möjlighet att aktivera en funktion som ger 
+	besökaren ett formulär att fylla i vid eventuellt tekniskt fel på 
+	webbplatsen. Genom att ändra rättigheter här kan du specificera vem eller 
+	vilka som skall få ett sådan forumlär.</p>
+	<h3>Visa och publicera sidor från Microsoft Office tillägg</h3>
+	ger en eller flera grupper/personer rätt att publicera sidor från Microsoft 
+	Office. För att de skall kunna göra detta behöver de installera ett 
+	tilläggsprogram på den dator som de skall arbeta med. Läs mer om det i 
+	Redaktörshandboken. 
+	<h3>Tillåt avancerad uppladdning av filer via t.ex. drag and drop</h3>
+	gör det möjligt att tillåta en 
+	grupp eller individ att använda avancerad uppladdning. Det innebär exempelvis 
+	att en redaktör kan ladda upp flera filer samtidigt genom att dra och släppa 
+	filer från Windows filhanterare till EPiServers filhanterare.
+    <h2>Lägg till/ändra åtkomst till en funktion för en grupp/användare</h2>
+    <ol>
+      <li>Välj <i>Ändra</i> efter den funktion du vill ändra på.</li>
+      <li>Befintliga grupper/annvändare med åtkomst visas i en lista</li>
+      <li>Välj <i>Lägg till grupp</i> om du vill lägga till en hel grupp som skall få 
+      åtkomst till denna funktion. Välj <i>Lägg till användare</i> om du vill lägga 
+      till en person som skall få åtkomst till denna funktion.</li>
+      <li>I fönstret som öppnas visas de grupper eller personer som finns i 
+      systemet. Dubbelklicka på namnet för att lägga till gruppen/användare.</li>
+      <li>Välj <i>OK</i>.</li>
+      <li>Gruppen/användaren visas i listan och har kryssrutan markerad. Det 
+      innebär att den gruppen/användaren har åtkomst till den funktionen.</li>
+      <li>Välj <i>Spara</i>.</li>
+    </ol>
+    <p><img border="0" src="images/admin_atkomst.png" width="490" height="233"></p>
+    <h2>Ta bort åtkomst till en funktion för en grupp/användare</h2>
+    <ol>
+      <li>Välj <i>Ändra</i> efter den funktion du vill ändra på.</li>
+      <li>Befintliga grupper/annvändare med åtkomst visas i en lista.</li>
+      <li>Klicka i kryssrutan efter den grupp/användare som du vill ta bor t 
+      åtkomsten för. Då avmarkeras kryssrutan och bocken i rutan försvinner.</li>
+      <li>Välj <i>Spara</i>.</li>
+    </ol>
+	<h2>Tillgång till funktioner i äldre länkverktyg</h2>
+	<p>I och med version 4.50 av EPiServer kom ett nytt länkverktyg. 
+	Länkverktyget är det verktyg som öppnas när en redaktör skall ladda upp en 
+	bild eller ett dokument. Vad en redaktör skall få göra och inte göra i det 
+	verktyget sätts upp i filhanteraren med hjälp av rätttigheter. Vilket 
+	länkverktyg man skall använda är en konfigureringsfråga. Läs mer om det i 
+	dokument web.config Settings. Detta innebär att man kan uppgradera till 4.50 
+	utan att använda det nya verktyget. Även i tidigare versioner av EPiServer 
+	har man kunnat arbeta med behörigheter på kataloger. Många har istället för 
+	att styra det med rättigheter givit redaktörer tillgång till olika verktyg i 
+	länkverktyget. I det äldre verktyget finns knappar för att skapa kataloger, 
+	byta namn och ta bort kataloger och filer som några exempel. Det är möjligt 
+	att ta bort dessa funktioner för grupper eller individer om man vill.</p>
+    <p><b>Skapa katalog i länkverktyget</b> Ger en eller flera grupper/personer 
+    rättigheter att skapa kataloger i länkverktyget</p>
+    <p><b>Radera fil i länkverktyget</b> Ger en eller flera grupper/personer 
+    rättigheter att ta bort filer i länkverktyget</p>
+    <p><b>Radera katalog i länkverktyget</b> Ger en eller flera grupper/personer 
+    rättigheter att ta bort kataloger i länkverktyget</p>
+    <p><b>Ändra namn på fil/katalog i länkverktyget </b>Ger en eller flera 
+    grupper/personer rättigheter att ändra namn på filer och kataloger i 
+    länkverktyget</p>
+    <p><b>Ladda upp till sidans katalog i länkverktyget</b> Ger en eller flera 
+    grupper/personer rättigheter att ladda upp filer det till sidans katalog i 
+    länkverktyget. Då skapas en katalog som är kopplad till den aktuella sidan 
+    där alla filer lagras. Katalogens namn består av siffror.</p>
+    <p><b>Ladda upp till gemensam katalog i länkverktyget</b> Ger en eller flera 
+    grupper/personer rättigheter att ladda upp filer det till den eller de 
+    gemensamma katalogerna som finns i länkverktyget.</p>
+    <p>&nbsp;</p>
+	</p>
+    &nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p>Läs mer i <a href="Redaktorshandbok_online.pdf">
+    Redaktörshandboken</a> - Läs mer i <a href="Adminhandbok_online.pdf">
+    Administratörshandboken</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

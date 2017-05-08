@@ -1,0 +1,150 @@
+BODY {
+	background-color:#ECEFF3;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+.SelectedFileLink
+{
+	
+	color: #000000;
+	font-weight:bold;
+}
+
+.FileLink
+{
+	color: #000000;
+}
+
+#LinkToolButtonArea
+{
+	position:absolute;
+	top:390px;
+	text-align:right;
+	width:537px;
+}
+
+#uploadArea
+{
+	padding-top:10px;
+	padding:4px;
+	width:535px;
+	border:1px solid #6D8CA8;
+}
+
+#titleBar {
+	background-image:url($RootDir$Util/images/titleBarBackground.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+	background-color:#838FA7;
+	width:550px;
+	height:40px;
+	font:normal 18px arial;
+	color:#000000;
+	padding:10px;
+}
+#linkTree {
+	font:normal 11px tahoma;
+	width:200px;
+	height:200px;
+	border:1px solid #6D8CA8;
+	overflow:auto;
+	/*background-color:#EDF2FC;*/
+	padding:5px;
+}
+#pageTree {
+	font:normal 11px tahoma;
+	width:400px;
+	height:200px;
+	border:1px solid #000000;
+	overflow:auto;
+	background-color:#ffffff;
+	padding:5px;
+}
+#fileList {
+	font:normal 11px tahoma;
+	width:350px;
+	height:200px;
+	background-color:#ffffff;	
+	overflow:auto;
+	border:1px solid #6D8CA8;
+}
+.linkToolInputArea
+{
+	padding:5px;
+	border-top:1px solid #EDF2FC;
+}
+A {
+	color:#000000;
+	text-decoration:none;
+}
+A:Hover {
+	text-decoration:underline;
+}
+
+SELECT {
+	font:normal 11px tahoma;
+	border:1px solid #6D8CA8;
+}
+
+TD, BODY, INPUT {
+	font:normal 11px tahoma;
+}
+
+.ImageButton 
+{
+	background-color:#ECEFF3;
+	border-width: 0px 
+}
+
+INPUT.TextBox
+{
+	width: 98%;
+	border:1px solid #6D8CA8;
+}
+
+SELECT.ListBox
+{
+	width: 310px;
+	border:1px solid #6D8CA8;
+}
+
+.MenuItem 
+{
+	background-color:#7F9DB9;
+	border-left: 1px solid #6D8CA8;
+	border-right:1px solid #EDF2FC;
+	border-top:1px solid #6D8CA8;
+	border-bottom:1px solid #EDF2FC;
+}
+
+.SelectedMenuItem
+{
+	background-color:#ECEFF3;
+	border-left: 1px solid #EDF2FC;
+	border-right:1px solid #6D8CA8;
+	border-top:1px solid #EDF2FC;
+	border-bottom:1px solid #6D8CA8;
+
+}
+
+.ToolBar
+{
+	height:25px;
+	padding-top:4px;		
+	padding-left:4px;		
+}
+
+/* Classes for the new FileManagerBrowser */
+div.FMB-DialogContent
+{
+	margin: 10px;
+	margin-right: 0px;
+}
+div.FMB-ButtonArea
+{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: right;
+}

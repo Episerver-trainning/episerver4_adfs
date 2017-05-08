@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?component debug="false" error="true"?>
+<component>
+
+	<registration
+		description="EPiServer.ClientTools.Word"
+		progid="EPiServer.ClientTools.Word"
+		version="1.00"
+		classid="{055C99F1-9D5F-4554-8FA3-58624B7D8B8F}"
+	>
+	</registration>
+
+	<public>
+		<method name="Convert">
+			<parameter name="oConfig"/>
+		</method>
+		
+		<method name="Cleanup">
+		</method>
+	</public>
+
+	<!-- bring in the EPiServer.ShellTools typelibrary -->
+	<reference guid="{C4326BBC-1DC1-4935-94BF-0911866090B8}" />
+	
+	<!-- internals -->
+	<object id="fso" progid="Scripting.FileSystemObject"/>
+
+	<script language="VBScript">
+	<![CDATA[
+
+		Option Explicit
+
+		Dim deleteFolder
+
+		'** std COM error codes
+		Const S_OK					= &H00000000
+		Const E_FAIL				= &H80004005
+
+		Const wdFormatFilteredHTML  = 10
+		Const wdOpenFormatAuto		= 0
+		Const wdDoNotSaveChanges	= 0
+		Const msoEncodingUTF8		= 65001
+		Const msoScreenSize544x376  = 0
+		Const wdBrowserLevelV4		= 0
+
+		Function Cleanup()
+			
+		End Function
+		
+		Function Convert( oConfig )
+			
+			oConfig.DebugWrite "Entering Word Convertor (script file)"
+			
+			Convert = S_OK
+			'On Error Resume Next
+
+			Dim app, range
+			Set app = CreateObject( "Word.Application" )
+
+			Dim TempFolder
+			TempFolder = fso.GetSpecialFolder(2).Path
+
+			If Err.Number = 0 Then 
+
+				Dim doc
+				Set doc = app.Documents.Open( oConfig.FilePath, False, True, False, , , True, , , wdOpenFormatAuto, , True )
+				
+				If (Not oConfig.IsDocumentPageType) And oConfig.SelectionStart<>oConfig.SelectionEnd And oConfig.SelectionEnd > 0 Then
+					Set range = doc.Range(oConfig.SelectionStart,oConfig.SelectionEnd)
+					range.Select
+					app.Selection.Copy
+					Set doc = app.Documents.Add
+					app.Selection.Paste
+				End If
+
+				If Err.Number = 0 Then 
+					
+					Dim FileName
+					Dim resourceFolderName
+					Dim pos
+					Dim newFilePath
+					Dim folderPath
+					Dim folder
+					
+					' Create temp dir
+					pos = InstrRev( oConfig.FilePath, "\" )
+					FileName = Right( oConfig.FilePath, Len(oConfig.FilePath)-pos )
+					oConfig.PageName = FileName	
+				
+					folderPath = TempFolder & "\" & Replace(FileName, ".", "_")
+					newFilePath = folderPath & "\" & FileName		
+					
+					If fso.FolderExists(folderPath) Then
+						fso.DeleteFolder(folderPath)
+					End If
+					
+					Set folder = fso.CreateFolder(folderPath)
+					
+					With doc.WebOptions
+						.RelyOnCSS = true
+						.OrganizeInFolder = true
+						.UseLongFileNames = true
+						.RelyOnVML = false
+						.AllowPNG = false
+						.ScreenSize = msoScreenSize544x376
+						.PixelsPerInch = 96
+						.Encoding = msoEncodingUTF8
+						.OptimizeForBrowser = true
+						.BrowserLevel = wdBrowserLevelV4
+					End With
+					
+					doc.SaveAs folderPath & "\page.html", wdFormatFilteredHTML
+					doc.Close False					
+
+					resourceFolderName = MoveResourceFilesUpOnLevel(folder)
+					Call MakeResourceLinksRelative(folderPath & "\page.html", resourceFolderName)
+					
+					Set doc					= Nothing
+					oConfig.UploadFolder	= folderPath
+					deleteFolder			= folderPath
+					
+				End If
+
+				app.Quit wdDoNotSaveChanges
+
+			End If
+
+			If Err.Number > 0 Then 
+				Convert = E_FAIL
+			End If
+
+			Set app = Nothing
+			
+			oConfig.DebugWrite "Leaving Word Convertor (script file)"
+
+		End Function
+		
+		Function MoveResourceFilesUpOnLevel(folder)
+		
+			Dim subFolders,subFolder
+			
+			Set subFolders = folder.SubFolders
+					
+			If subFolders.Count > 0 Then
+				For Each subFolder in subFolders
+					fso.CopyFile subFolder.Path + "\*.*", folder.Path + "\"
+					MoveResourceFilesUpOnLevel = subFolder.Name
+					subFolder.Delete
+				Next
+			End If
+		
+		End Function
+		
+		Function MakeResourceLinksRelative(filePath, resourceFolderName)
+			
+			Dim htmlFile
+			Set htmlFile = fso.OpenTextFile(filePath , 1, False )
+	
+			Dim sLine
+			Dim fCollect
+			
+			Dim parsedHtml
+			
+			parsedHtml = ""
+			
+			fCollect = False
+			While Not htmlFile.AtEndOfStream
+			
+				sLine = htmlFile.ReadLine					
+				parsedHtml = parsedHtml & Replace(sLine, Replace(resourceFolderName," ", "%20"), "<%RESOURCEFOLDER%>" ) & vbCrLf
+
+			Wend
+			
+			Set htmlFile = Nothing
+			
+			Set htmlFile = fso.CreateTextFile(filePath, true)
+			htmlFile.Write parsedHtml
+			htmlFile.Close
+			
+			Set htmlFile = Nothing
+			
+		End Function
+
+	]]>
+	</script>
+
+</component>

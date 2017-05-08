@@ -1,0 +1,103 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjelp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/contentmirroring.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+	<a href="../SV/contentmirroring.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+    <a href="../NO/contentmirroring.htm">
+    <img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Speiladministrasjon </h1>
+  
+	Speilinger er en funksjon som innebærer at du kan speile innhold fra et 
+	webområde til et annet. Med EPiServer kan du velge å speile valgte deler av 
+	et webområde eller hele webområdet. Du kan la speilingen gjøres automatisk, 
+	eller du kan starte den manuelt. Du kan også speile fra én EPiServer til en 
+	annen EPiServer. Dette er blant annet til stor nytte hvis man vil opprette 
+	store deler i et testmiljø og deretter publisere all informasjon på en gang 
+	i den offentlige delen. En annen nyttig funksjonalitet er at du kan opprette 
+	et HTML-bygd webområde av din dynamiske EPiServer, og det kan være svært 
+	anvendelig blant annet til arkivering.<p>En speiling fra et webområde til et 
+	annet bygges opp gjennom kanaler på webområdet som skal sende informasjon. 
+	Det er mulig å ha flere ulike kanaler definert. Hver kanal består av et 
+	antall innstillinger for sidene som skal speiles, og sidetypene som skal tas 
+	med. En av de viktigste egenskapene i en kanal er hvilken type kanal det er:</p>
+	<ul>
+		<li><b>Tre</b> - denne funksjonen finner alle forandringer som er 
+		foretatt i treet. Den finner sider som er flyttet, slettet, oppdatert 
+		eller opprettet. Funksjonen finner alle forandringer fra rotsiden og 
+		nedover i hele strukturen. Denne funksjonen brukes først og fremst når 
+		man vil speile en eksakt likedan trestruktur. For eksempel hvis en 
+		slettet side på det ene webområdet også skal slettes på det neste. </li>
+		<li><b>Liste</b> - denne funksjonen fungerer på samme måte som 
+		trefunksjonen, bortsett fra at den ikke tar med endringer nedover i 
+		strukturen etter første nivå.</li>
+		<li><b>Søking</b> - denne funksjonen finner endrede og nye sider. Denne 
+		funksjonen er nyttig når du vil speile nyheter fra et webområde til et 
+		annet.</li>
+	</ul>
+	<p><b>Slik oppretter du en kanal:</b></p>
+	<ol>
+		<li>Velg <i>Speilinnstillinger</i> på fanen <i>Konfig</i>. </li>
+		<li>Velg <i>Opprett</i>.</li>
+		<li>Angi et navn på kanalen i feltet <i>Navn</i>.</li>
+		<li>Velg hvor i trestrukturen speilingen skal skje fra i feltet 
+		<i>Startside</i>.</li>
+		<li>Velg hvilken type speiling det skal være i feltet <i>Speiltype</i>. Tre, 
+		Liste eller Søking.</li>
+		<li>Hvis du vil at endringene skal godkjennes automatisk, merker du av 
+		for alternativet Godkjenn endringer automatisk.</li>
+		<li>Merk av for <i>Inkluder startsiden </i>hvis endringene som utføres trolig 
+		også påvirker startsiden. </li>
+		<li>Velg om informasjonen skal flyttes av en anonym bruker eller det 
+		skal angis et brukernavn og passord. </li>
+		<li>Velg <i>Lagre</i>.</li>
+	</ol>
+	<p>
+  
+	<img border="0" src="images/admin_mirror.png" width="490" height="267"></p>
+	<p>Når du har lagret innstillingene for kanalen, skal du opprette målet, som 
+	er webområdet som skal ta i mot dataene som sendes. </p>
+	<ol start="10">
+		<li>Velg <i>Opprett mål</i>.</li>
+		<li>Velg formatet for målet: EPiServer, HTML eller XML.</li>
+		<li>Fyll ut informasjon om hvilket webområde og sted i strukturen 
+		informasjonen skal lagres på.</li>
+		<li>Velg <i>Lagre</i>.</li>
+	</ol>
+	<p>
+	<img border="0" src="images/admin_mirror2.png" width="490" height="251"></td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Les mer i <a href="Redaktørhåndbok_online.pdf">
+    Redaktørhåndbok</a> - Les mer i <a href="Adminhåndbok_online.pdf">
+    Administratørhåndbok</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

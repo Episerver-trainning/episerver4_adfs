@@ -1,0 +1,27 @@
+.ExplorerTreeLink
+{
+	text-decoration : none;
+	color:Black;
+	cursor: hand;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:2px;
+	padding-top:2px;
+}
+.ExplorerTreeLink:HOVER
+{
+	text-decoration : underline;
+	cursor: hand;
+}
+.ExplorerTreeSelectedLink
+{
+	font-weight:bold;
+	text-decoration : none;
+	color:#000000;
+	
+	cursor: hand;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:2px;
+	padding-top:2px;
+}

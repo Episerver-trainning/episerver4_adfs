@@ -1,0 +1,121 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjälp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/EditUser.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="EditUser.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+	<a href="../NO/EditUser.htm">
+	<img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Redigera användare</h1>
+    <p>Alla personer som på något sett är/har varit inloggade på webbplatsen 
+    finns lagrade i EPiServer. En del av dem är skapade i EPiServer, andra är 
+    skapade i Windows. När man skapar användaren, eller denne gör det själv 
+    genom självregistrering fyller man i uppgifter om användare. Om man i 
+    efterhand vill redigera dessa uppgifter gör man det genom att först söka 
+    efter användare under Sök användare/ grupp och sedan redigera användaren. 
+    Alla personer som har tillgång till redigeraläget kan på egen hand ändra en 
+    del av sina uppgifter under Mina inställningar. Från adminläget kan du ändra 
+    mer information, såsom användarnamn, lösenord, när kontot skall vara aktivt, 
+    vilken grupp användaren är medlem av m.m.</p>
+    <p>Dessa egenskaper kan endast ändra på de användare som är skapade genom 
+    självregistrering eller via Skapa användare. De användarna är markerade med 
+    en grön symbol i sökresultatet. Om du vill ändra den typen av information på 
+    en windowsanvändare måste du göra det i windows. Från adminläget kan du på 
+    en windowsanvändare ändra samma uppgifter som användaren själv kan via 
+    redigeraläget.</p>
+    <ol>
+      <li>Välj <i>Sök användare/grupp</i>.</li>
+      <li>Välj vilken användare du vill redigera genom att klicka på 
+      användarnamnet.</li>
+      <li>Gör dina ändringar i formuläret.</li>
+      <li>Välj <i>Spara</i>.</li>
+    </ol>
+    <h1 ALIGN="LEFT">Skapa användare</h1>
+
+	<p>Om du valt att arbeta med användare och grupper i 
+	EPiServer måste du skapa varje enskild användare. Det finns också 
+	möjligheter att låta besökarna själva skapa sina användarkonton. Med 
+	alternativet <i>Skapa användare</i> kan du lägga upp användare i EPiServer som inte existerar i 
+	Windows. Det används oftast när man bygger upp extranät och man vill ge 
+	behörigheter till personer som normalt inte finns i Windows. </p>
+	<p>Så här gör du för att skapa användare:</p>
+	
+		<ol>
+			<li>Välj <i>Skapa användare</i> på fliken <i>Admin</i>.
+			</li>
+			<li>För att kontot ska fungera och användaren ska kunna 
+		logga in måste du ange ett användarnamn, lösenord och ange att kontot 
+		ska vara aktivt. Om du vill kan du fylla i information om användaren, 
+		såsom namn, e-post m.m. Användaren kan själv fylla i dessa uppgifter 
+		under <i>Mina inställningar</i> i redigeraläge om det är att föredra.
+			</li>
+			<li>Välj vilken grupp eller vilka grupper denne ska 
+		tillhöra.</li>
+			<li>På filken <i>Visningsalternativ</i> anger du vilka 
+		olika knappar och ikoner som ska vara tillgängliga för redaktörerna i 
+		redigeraläge. </li>
+			<li>Välj <i>Lägg till användare</i> högst upp på sidan.</li>
+	</ol>
+	</dir>
+	<p>Om du har krav på säkerhet för dina användare kan du ange 
+	en specifik ip-adress och subnätmask som de får surfa från när de loggar in 
+	på webbplatsen. Försöker man från annat ställe kommer man inte in. </p>
+	</font>
+    <p>
+    <img border="0" src="images/admin_createuser2.png" width="490" height="572"></p>
+	<p>
+	<h2>Visningsalternativ för användare</h2>
+	
+	<p> Fliken <i>Visningsalternativ</i> är till för att varje 
+	redaktör själv ska kunna bestämma vad denne vill visa i strukturen i 
+	redigeraläge. Det är två olika inställningar som kan göras. Dels kan man 
+	välja att ha ett utökat eller begränsat verktygsfält. I det begränsade 
+	verktygsfältet visas knapparna på en rad vilket kan vara praktiskt när man 
+	har en liten skärm. Den utökade visas på två rader och innehåller några 
+	extra funktioner. </p>
+	<p >Det är också möjligt att bestämma vilka symboler som ska 
+	visas i trädstrukturen. Ibland blir det väldigt många symboler på vissa 
+	sidor och dessa är möjliga att stänga av för de redaktörer som inte 
+	uppskattar symbolerna. </p>
+	<p>Redaktörerna kan själva ändra dessa inställningar under
+	<i>Mina inställningar</i>. Det är också möjligt att göra dessa inställningar 
+	när konto skapas. Som standard får alla redaktörer det utökade 
+	verktygsfältet och alla symboler i trädstrukturen. Vad som är standardvärde 
+	är en inställning som kan ställas om i web.config.</p>
+	<p>
+	<img border="0" src="images/admin_visningsalt.png" width="490" height="263"></td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Läs mer i <a href="Redaktorshandbok_online.pdf">
+    Redaktörshandboken</a> - Läs mer i <a href="Adminhandbok_online.pdf">
+    Administratörshandboken</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

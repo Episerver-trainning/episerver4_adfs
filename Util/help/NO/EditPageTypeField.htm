@@ -1,0 +1,123 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjelp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/EditPageTypeField.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+	<a href="../SV/EditPageTypeField.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+    <a href="../NO/EditPageTypeField.htm">
+    <img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>
+    Opprett/Rediger egenskap</h1>
+	Hver sidetype inneholder et antall forskjellige egenskaper. Det er disse 
+	egenskapene som skaper feltene for sidetypen. For administratoren kan det 
+	være nyttig å vite hvordan disse funksjonene er bygd opp og virker. Dette på 
+	grunn av at du kan endre visse innstillinger for å gjøre det enklere for 
+	redaktørene å bruke sidetypene. Nedenfor har vi kikket på sidetypen <i>Vanlig 
+	webside</i> og dennes ulike egenskaper. Den har åtte egenskaper som vises til 
+	høyre når du klikker på sidenavnet på menyen til venstre.</p>
+	<p>
+    <img border="0" src="images/admin_editproperty.png" width="490" height="327"></p>
+	<p>
+    De fleste egenskapene virker på samme måte. Hvis du har lært en variant, er 
+	det enkelt å forstå hvordan de øvrige virker. Vi skal nå se nærmere på 
+	egenskapen MainBody, som er en av de vanligste egenskapene, og som finnes i 
+	de fleste sidetyper. MainBody er redigeringsprogrammet der redaktøren lager 
+	innhold, legger til bilder osv. på siden.</p>
+	<p>
+    <h2>
+	Navn</h2>
+	Her angis navnet på egenskapen. Dette navnet må ikke endres, fordi 
+	ASPX-siden som oppretter siden for den besøkende, refererer til navnet på de 
+	ulike egenskapene. Hvis du endrer navnet, vises ikke de riktige elementene 
+	på siden. <h2>
+	Redigeringsoverskrift</h2>
+	Redigeringsoverskrift er teksten som vises ved feltet når sidetypen brukes. Du 
+	kan endre denne slik at den passer til redaktørene, slik at de på en enkel 
+	måte vet hva de skal fylle ut i feltet.<br>
+	<h2>Hjelpetekst</h2>
+	Hjelpetekst er teksten som vises hvis redaktøren peker på 
+	redigeringstittelen med musen. Her kan du gi dem litt ekstra hjelp om hva 
+	som skal fylles ut i det bestemte feltet.<br>
+	<h2>Type</h2>	Alternativet for type angir hvilken felttype som brukes for denne 
+	egenskapen. Alle sidetyper er bygd opp som skjemaer og bygger på egenskaper 
+	som er ulike typer av skjemafelt. Her kan du velge om du vil ha heltall, 
+	streng, side, dato m.m. Når du velger alternativet for lang streng, kan du 
+	alltid bruke HTML-redigeringsprogrammet. <br>
+	<h2>Plasser under tittel</h2>
+	I de fleste sidemaler finnes det flere titler (faner) som redaktøren veksler 
+	mellom for å fylle ut informasjon. Hver kan du velge under hvilken fane 
+	denne egenskapen skal vises for redaktøren. I visse tilfeller kan det være 
+	nyttig å opprette en fane som bare administratorer har tilgang til, og å 
+	plassere visse egenskaper under denne fanen. Alt dette for å gjøre det 
+	enklere for redaktøren. <br>
+	<h2>Ingen standardverdi</h2>
+	Alternativet <i>Ingen standardverdi </i>angir at du ikke vil at det skal finnes noe 
+	informasjon i feltet når redaktøren bruker sidetypen. Du må angi enten ingen 
+	standardverdi, gammel verdi eller standardverdi.<br>
+	<h2>Arver verdi</h2>
+	Alternativet for <i>Arver verdi</i> angir at verdien fra siden som finnes ovenfor 
+	denne i strukturen, skal vises i feltet. Redaktøren kan likevel endre denne 
+	verdien.<br>
+	<h2>Standardverdi</h2>
+	I feltet <i>Standardverdi</i> kan du skrive inn en tekst du vil skal være standard 
+	for egenskapen, når redaktøren bruker sidetypen. <br>
+	<h2>Verdie må angis</h2>	I feltet for at <i>Verdie må angis</i>, kan du styre redaktøren til alltid å fylle 
+	ut dette feltet. Hvis redaktøren lar det stå tomt og deretter lagrer, vises 
+	en feilmelding om at data mangler. <br>
+	<h2>Søkbar egenskap</h2>
+	Du kan bruke alternativet for søkbar egenskap til å avgjøre om dataene som 
+	fylles inn i denne egenskapen, skal være søkbare eller ikke. Som standard er 
+	alle egenskaper søkbare, men det kan av og til være nyttig å deaktivere 
+	dette.
+
+	<h2>Unik verdi per språk</h2>
+	Når man jobber med globalisering, bestemmer man i hver 
+	sidetype hvilke felt som skal variere avhengig av språk. Det er vanlig at ikke 
+	alle felt varierer. Verdiene for feltene som ikke skal variere, angis alltid 
+	på språket som er originalspråk på siden. Hvilke felt som skal variere, 
+	angis i hver sidetype og egenskap.
+	Merk av for alternativet <i>Unik</i> <i>verdi per 
+		språk</i>.<br>
+	<h2>Egenskaper for HTML-redigeringsprogrammet</h2>
+	I feltet for egenskaper for HTML-redigeringsprogrammet kan du angi hvilke 
+	knapper som skal være tilgjengelige for redaktøren i redigeringsprogrammet. 
+	Ved å velge ulike alternativ kan du kontrollere hva redaktørene skal kunne 
+	gjøre i redigeringsprogrammet. Hvis du merker av for alle alternativene, 
+	blir egenskapen et vanlig innmatingsfelt av typen tekstområde. <br>
+&nbsp;</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Les mer i <a href="Redaktørhåndbok_online.pdf">
+    Redaktørhåndbok</a> - Les mer i <a href="Adminhåndbok_online.pdf">
+    Administratørhåndbok</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,2845 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+	<language name="Japanese" id="JA">
+		<cookie>
+			<logincaption>		ログインすると、Cookie が使用されます。</logincaption>
+			<logininfo>			ログイン情報を含む Cookie は、Web ブラウザに送信されます。 Cookie を受信しない場合は、Web サイトにログインすることはできません。</logininfo>
+			<usagecaption>		Cookie について</usagecaption>
+			<usageinfo>			2003 年 7 月 25 日に施行されたスウェーデンの電子通信法 (Electronic Communications Act) に従い、Cookie を使用する Web サイトのすべての訪問者は、Web サイトが Cookie を使用すること、その使用目的、およびブロックする方法について通知される必要があります。 この Web サイトでは、Cookie は以下の場合に使用されます。</usageinfo>
+			<usageform>			ログインせずにフォームに応答およびフォームをサブミットする場合、Cookie はフォームがサブミットされたことを通知するためにご使用のコンピュータに送信されます。</usageform>
+			<usageloginform>	ログインする場合、Cookie はログイン情報を保存するために使用されます。 Cookie がログイン時にブロックされる場合、認証の必要な新規ページごとに、ログイン ダイアログ ボックスが表示されます。</usageloginform>
+			<usageloginwindows>	ログインすると、Cookie はログインしていることを通知するために使用されます。Cookie がブロックされている場合、Web サイト上でログイン状態を維持することはできず、パスワードによって保護された資料にアクセスしようとするたびにログインの詳細情報を入力するよう求められます。</usageloginwindows>								
+		</cookie>
+		<headings>
+			<heading name="Information">
+				<description>情報</description>
+			</heading>
+			<heading name="Advanced">
+				<description>詳細情報</description>
+			</heading>
+			<heading name="Categories">
+				<description>カテゴリ</description>
+			</heading>
+			<heading name="Shortcut">
+				<description>ショートカットまたは外部リンク</description>
+			</heading>
+			<heading name="Subscription">
+				<description>サブスクリプション</description>
+			</heading>
+			<heading name="Portal settings">
+				<description>ポータル設定</description>
+			</heading>
+			<heading name="Simple portal mode">
+				<description>簡易ポータル モード</description>
+			</heading>
+			<heading name="Advanced portal mode">
+				<description>拡張ポータル モード</description>
+			</heading>
+			<heading name="DelayedPublish">
+				<description>	遅延公開</description>
+			</heading>
+				<heading name="General">
+				<description>一般</description>
+			</heading>
+			<heading name="Advanced_short">
+				<description>拡張</description>
+			</heading>
+		</headings>
+		<frames>
+			<frame name="_blank">
+				<description>新規ウィンドウでリンクを開きます</description>
+			</frame>
+			<frame name="_top">
+				<description>ウィンドウ全体でリンクを開きます</description>
+			</frame>
+		</frames>
+		<accesslevels>
+			<accesslevel name="Read">
+				<description>読み取り</description>
+			</accesslevel>
+			<accesslevel name="Create">
+				<description>作成</description>
+			</accesslevel>
+			<accesslevel name="Edit">
+				<description>変更</description>
+			</accesslevel>
+			<accesslevel name="Delete">
+				<description>削除</description>
+			</accesslevel>
+			<accesslevel name="Publish">
+				<description>公開</description>
+			</accesslevel>
+			<accesslevel name="Administer">
+				<description>管理</description>
+			</accesslevel>
+		</accesslevels>
+		<multilanguageruntime>
+			<firstlanguage>第一言語</firstlanguage>
+			<secondlanguage>第二言語</secondlanguage>
+			<noversionexists>選択された言語のバージョンはありません。</noversionexists>
+			<verticaldisplay>縦方向表示</verticaldisplay>
+		</multilanguageruntime>
+
+		<day>日</day>
+		<hour>時</hour>
+		<minute>分</minute>
+		<second>秒</second>
+		<week>週</week>
+		<month>月</month>
+		<sunday>日曜日</sunday>
+		<monday>月曜日</monday>
+		<tuesday>火曜日</tuesday>
+		<wednesday>水曜日</wednesday>
+		<thursday>木曜日</thursday>
+		<friday>金曜日</friday>
+		<saturday>土曜日</saturday>
+		<january>1 月</january>
+		<february>2 月</february>
+		<march>3 月</march>
+		<april>4 月</april>
+		<may>5 月</may>
+		<june>6 月</june>
+		<july>7 月</july>
+		<august>8 月</august>
+		<september>9 月</september>
+		<october>10 月</october>
+		<november>11 月</november>
+		<december>12 月</december>
+		<savenochanges>変更されていません</savenochanges>
+		<pleasewait>お待ちください</pleasewait>
+		<button>
+			<yes>			はい</yes>
+			<no>			いいえ</no>
+			<ok>			OK</ok>
+			<cancel>		キャンセル</cancel>
+			<reset>			リセット</reset>
+			<save>			保存</save>
+			<create>		作成</create>
+			<add>			追加</add>
+			<addusersid>	ユーザーの追加</addusersid>
+			<addgroupsid>	グループの追加</addgroupsid>
+			<delete>		削除</delete>
+			<next>			&gt;&gt;</next>
+			<prev>			&lt;&lt;</prev>
+			<search>		検索</search>
+			<send>			送信</send>
+			<help>			ヘルプ</help>
+			<activate>		アクティブ化</activate>
+			<deactivate>	非アクティブ化</deactivate>
+			<clear>			クリア</clear>
+			<copy>			コピー</copy>
+			<publish>		公開</publish>
+			<preview>		プレビュー</preview>
+			<checkin>		公開する準備ができました</checkin>
+			<select>		選択</select>
+			<compare>		比較</compare>
+			<refresh>		リフレッシュ</refresh>
+			<print>			印刷</print>
+			<settings>		設定</settings>
+			<insert>		挿入</insert>
+			<login>			ログイン</login>
+			<edit>			編集</edit>
+			<compare>       比較</compare> 
+			<saveandpublish>保存して公開</saveandpublish>
+			<saveandview>	保存して表示</saveandview>
+			<saveandclose>	保存して閉じる</saveandclose>
+			<findnext>		次を検索</findnext>
+			<ignore>		無視</ignore>
+			<ignoreall>		すべて無視</ignoreall>
+			<change>		変更</change>
+			<close>			閉じる</close>
+			<browse>		参照...</browse>
+			<delaypublish>遅延公開</delaypublish>
+			<unpublish>		未公開</unpublish>			
+			<saveonly>保存</saveonly>
+			<continue>続行</continue>
+			<resize>サイズ変更</resize>
+		</button>
+		<permissions>
+			<linktoolcreatefolder>		リンク ツールでフォルダを作成する</linktoolcreatefolder>
+			<linktooldeletefile>		リンク ツールでファイルを削除する</linktooldeletefile>
+			<linktooldeletefolder>		リンク ツールでフォルダを削除する</linktooldeletefolder>
+			<linktoolrename>			リンク ツールでファイル/フォルダの名前を変更する</linktoolrename>
+			<linktooluploadtopage>		ページ固有のフォルダにファイルをアップロードする</linktooluploadtopage>
+			<linktooluploadtocommon>	共通フォルダにファイルをアップロードする</linktooluploadtocommon>
+			<editorunlimitedfunctions>	エディタで利用可能なすべての機能</editorunlimitedfunctions>
+			<detailederrormessage>トラブルシューティング用の詳細エラー メッセージ</detailederrormessage>
+			<clienttools>Microsoft Office アドインのページの表示および公開</clienttools>
+			<multifileupload>ドラッグ アンド ドロップなどを使用してファイルの拡張アップロードを許可する</multifileupload>
+		</permissions>
+		<webcontrols>
+			<explorertree>
+			<!--
+				<infonotpublished>	Ej publicerad</infonotpublished>
+				<infoexpired>		, löpte ut {0}</infoexpired>
+				<infonotstarted>	, börjar {0}</infonotstarted>
+			-->	
+				<statuscreator>				ユーザーが作成したページ</statuscreator>
+				<statusexpired>				ページの有効期限が切れました {0}</statusexpired>
+				<statusnotstarted>			ページが表示されます {0}</statusnotstarted>
+				<statusnotpublished>		ページがまだ公開されていません</statusnotpublished>
+				<statusnotvisibleinmenu>	ページがメニューに表示されません</statusnotvisibleinmenu>
+				<statusreadonly>			このページを変更するユーザー権利が割り当てられていません</statusreadonly>
+				<statusnew>					新規ページ</statusnew>
+				<statusrestricted>			ページへのアクセスが制限されています</statusrestricted>
+				<statuslanguagemissing>現行言語のページが見つからないため、表示されません</statuslanguagemissing>
+				<statuslanguagefallback>ページは別の言語で表示されます</statuslanguagefallback>
+			</explorertree>
+			<paging>
+				<firstpage>最初のページ</firstpage>
+				<prevpage>前のページ</prevpage>
+				<currentpage>現行ページ</currentpage>
+				<pagenumber>ページ {0}</pagenumber>
+				<nextpage>次のページ</nextpage>
+				<lastpage>最後のページ</lastpage>
+			</paging>
+		</webcontrols>
+		<status>
+			<active>		アクティブ</active>
+			<inactive>		非アクティブ</inactive>
+		</status>
+		<versionstatus>
+			<rejected>				コメント</rejected>
+			<checkedout>			準備が整っていません</checkedout>
+			<checkedin>				公開する準備ができました</checkedin>
+			<published>				公開済みバージョン</published>
+			<previouslypublished>	以前に公開済み</previouslypublished>
+			<delayedpublish>	遅延公開</delayedpublish>
+		</versionstatus>
+		<validation>
+			<summary>		以下の問題を修正する必要があります。</summary>
+			<required>		&quot;{0}&quot; を空にすることはできません。</required>
+			<invalidvalue>	&quot;{1}&quot; は、&quot;{0}&quot; の有効な値ではありません。</invalidvalue>
+			<invalidvalueexception>	&quot;{1}&quot; は、&quot;{0}&quot; の有効な値ではありません。 ({2})</invalidvalueexception>
+			<outofrange>	&quot;{0}&quot; は、{1} から {2} までの値を入力する必要があります。</outofrange>
+			<stringoverflow>&quot;{0}&quot; は、{1} 文字の制限を超えました。</stringoverflow>
+			<formrequired>	* フィールドを空にすることはできません。</formrequired>
+			<valuealreadyused>値が &quot;{1}&quot; の &quot;{0}&quot; は、{2} によってすでに使用されています。</valuealreadyused>
+			<dateorder>&quot;{0}&quot; の日付は、&quot;{1}&quot; の前に配置する必要があります。</dateorder>
+			<valuesameasfolder>値が &quot;{1}&quot; の &quot;{0}&quot; は、値がフォルダ &quot;{2}&quot; のパスと一致するので使用できません。</valuesameasfolder>
+			<urlcharactersonly>文字は「a」から「z」および「0」から「9」ならびにハイフン(-) のみを使用してください。</urlcharactersonly>		
+		</validation>
+		<dope>
+			<new>新規</new>
+			<edit>編集</edit>
+			<delete>削除</delete>
+			<security>アクセス権限</security>
+			<createsibling>兄弟の作成</createsibling>
+			<editmode>編集モード</editmode>
+			<viewmode>表示モード</viewmode>
+			<print>印刷</print>
+			<refresh>リフレッシュ</refresh>
+			<copy>クリップボードへコピー</copy>
+			<newwindow>新規ウィンドウで開く</newwindow>
+			<disablemenu>メニューを無効にする</disablemenu>
+			<properties>プロパティ</properties>
+			<adminmode>管理モード</adminmode>
+			<save>保存</save>
+			<cancel>キャンセル</cancel>
+			<quickedit>簡易編集</quickedit>
+		</dope>
+		<login>
+			<username>				名前</username>
+			<password>				パスワード</password>
+			<persistentlogin>		この Web サイトへの自動ログオンを有効にする</persistentlogin>
+			<usernamerequired>		名前を入力する必要があります。</usernamerequired>
+			<missingpassword>		パスワードを入力する必要があります。</missingpassword>
+			<loginfailed>			ログインは失敗しました</loginfailed>
+		</login>
+		<workflow>
+			<notificationmail>
+				<task>タスク</task>
+				<duedate>期限</duedate>
+				<description>説明</description>
+				<contact>連絡先</contact>
+			</notificationmail>
+			<reportmail>
+				<statusreport>状況レポート</statusreport>
+				<taskname>名前</taskname>
+				<owner>所有者</owner>
+				<changedby>変更者</changedby>
+				<status>状況</status>
+				<statuscomments>コメント</statuscomments>
+				<pagelink>ページ</pagelink>
+				<changed>変更済み</changed>
+				<created>作成済み</created>
+				<deleted>削除済み</deleted>
+				<contact>連絡先</contact>
+			</reportmail>
+			<statusmail>
+				<taskstatus>タスクには新規の状況があります</taskstatus>
+				<task>タスク</task>
+				<description>説明</description>
+				<owner>所有者</owner>
+				<status>状況</status>
+				<statuscomments>コメント</statuscomments>
+			</statusmail>
+		</workflow>
+		<exceptionmanager>
+			<errorform>
+				<description>正常に作動しないものがある場合、ご連絡いただければ、問題の原因と思われるエラーを修正します (エラーが発生した場合に行った操作を必ず説明してください)。</description>
+				<sendbutton>メッセージの送信</sendbutton>
+				<messagesenttitle>メッセージが送信されました</messagesenttitle>
+				<messagesentdescription>メッセージは送信されました。 エラーの説明を調べ、修正するアクションをとります。</messagesentdescription>
+			</errorform>
+			<httperrors>
+				<status code="500">
+					<title>ページをロードできませんでした</title>
+					<description>指定したリンクは作動しません。 これは一時的なメンテナンスのためか、またはリンクが誤っている可能性があります。</description>
+				</status>
+				<status code="404">
+					<title>リンクの誤り</title>
+					<description>リンク先のページが削除または移動されているため、指定したリンクは作動しません。 リンクをクリックした場合は、リンクに障害があることをサイトの Web マスタに知らせてください。</description>
+				</status>
+			</httperrors>
+			<exceptions>
+				<exception type="EPiServer.Core.AccessDeniedException">
+					<title>アクセスが拒否されました</title>
+					<description>このページを表示するのに十分な権限がありません。</description>
+				</exception>
+				<exception type="EPiServer.Core.PageNotFoundException">
+					<title>ページが存在しません</title>
+					<description>リンク先のページが削除または移動されているため、指定したリンクは作動しません。 リンクをクリックした場合は、リンクに障害があることをサイトの Web マスタに知らせてください。</description>
+				</exception>
+			</exceptions>
+		</exceptionmanager>
+		<util>
+			<linkeditor>
+				<textfieldcaption>		テキスト:</textfieldcaption>
+				<urlfieldcaption>		アドレス:</urlfieldcaption>
+				<targetfieldcaption>	ターゲット フレーム:</targetfieldcaption>
+				<filefieldcaption>		ファイル名:</filefieldcaption>
+				<mailfieldcaption>		電子メール アドレス:</mailfieldcaption>
+				<anchorfieldcaption>	ブックマークの選択:</anchorfieldcaption>
+				<selectpagecaption>		ページの選択:</selectpagecaption>
+				<douploadcaption>		アップロードの選択</douploadcaption>
+				<pageuploaddir>			ページ ファイル</pageuploaddir>
+				<uploaddir>				グローバル ファイル</uploaddir>
+				<showfullsize>			フルサイズ表示</showfullsize>
+				<alttextfieldcaption>	代替テキスト:</alttextfieldcaption>
+				<linktitlefieldcaption>	リンク タイトル:</linktitlefieldcaption>
+			</linkeditor>
+			<linktoolbar>
+				<deletefilemsg>			このファイルを削除してよろしいですか?</deletefilemsg>
+				<deletefilecaption>		ファイルの削除</deletefilecaption>
+				<deletefoldermsg>		このフォルダを削除してよろしいですか?</deletefoldermsg>
+				<deletefoldercaption>	フォルダの削除</deletefoldercaption>
+				<renamefoldermsg>		フォルダの新規名の入力</renamefoldermsg>
+				<renamefoldercaption>	フォルダの名前変更</renamefoldercaption>
+				<renamefilemsg>			ファイルの新規名の入力</renamefilemsg>
+				<renamefilecaption>		ファイルの名前変更</renamefilecaption>
+				<createfoldermsg>		フォルダの名前の入力</createfoldermsg>
+				<createfoldercaption>	フォルダの作成</createfoldercaption>
+				<notemptyfoldermsg>		フォルダは空ではありません。</notemptyfoldermsg>
+				<folderisreadonly>		このフォルダは変更できません。</folderisreadonly>
+				<toobigfile>			ファイルが、アップロードの最大サイズを超えています。 </toobigfile>
+				<maxuploadsize>			アップロード ファイルの最大許可サイズ</maxuploadsize>
+				<renamefileerror>		ファイル名を変更できません。 理由:</renamefileerror>
+				<fileareadyexists>		 &quot;{0}&quot; という名前のファイルはすでに存在します。</fileareadyexists>
+			</linktoolbar>
+			<plugins>
+				<viewtask>
+					<displayname>割り当てられたタスクの表示</displayname>
+					<description>ユーザーに割り当てられたタスクを表示します。</description>
+				</viewtask>
+				<edittask>
+					<displayname>新規タスクの作成</displayname>
+					<description>タスクを作成してユーザーまたはグループに割り当てます。</description>
+				</edittask>
+			</plugins>
+		</util>
+		<system>
+			<datebrowser>
+				<selectmonthcaption>月を選択して (1-12) に移動する</selectmonthcaption>
+				<selectyearcaption>移動する年を選択する</selectyearcaption>
+				<time>時刻</time>
+				<heading>日付の選択</heading>
+			</datebrowser>
+			<pagebrowser>
+				<title>ページへのリンク</title>
+				<infoselflink>このページ</infoselflink>
+				<buttonnolink>リンクがありません</buttonnolink>
+				<buttonselflink>同じページへのリンク</buttonselflink>
+				<heading>ページの選択</heading>
+				<notfound see="/edit/quicksearch/notfound" />
+			</pagebrowser>
+			<taskinc>
+				<statusrejected>リジェクト</statusrejected>
+				<statusdone>完了</statusdone>
+				<statustimeout>期限が過ぎました</statustimeout>
+				<statusactive>アクティブ</statusactive>
+				<typenewpage>新規ページの作成</typenewpage>
+				<typeapprovepage>既存のページ</typeapprovepage>
+				<typeurl>カスタム URL の表示</typeurl>
+				<typeautomail>電子メールでレポートを送信する</typeautomail>
+				<buttonreject>リジェクト</buttonreject>
+				<buttondone>完了</buttondone>
+				<buttoncontinue>続行</buttoncontinue>
+				<createdby>作成者</createdby>
+			</taskinc>
+			<editutil>
+				<reqfield>このフィールドに値を入力する必要があります。</reqfield>
+				<badintegerfield>値が無効です。数字のみが許可されています</badintegerfield>
+				<badfloatfield>値が無効です。10 進数が必要です</badfloatfield>
+				<baddatefield>日付は YYYY-MM-DD HH:MM で入力する必要があります</baddatefield>
+				<captionheading>名前</captionheading>
+				<helpheading>ページの名前。これは、メニューの見出しなどに使用されます。</helpheading>
+				<captioncreated>作成済み</captioncreated>
+				<helpcreated>ページが作成された日付</helpcreated>
+				<captionstartpublish>公開の開始</captionstartpublish>
+				<helpstartpublish>この日付でページを公開しますか? このフィールドが空のままの場合、[公開] ボタンをクリックするとすぐにページが公開されます。</helpstartpublish>
+				<captionstoppublish>公開の停止</captionstoppublish>
+				<helpstoppublish>この日付までのページを公開します。 このフィールドが空の場合、手動でページを削除して、ページが公開されるのを停止する必要があります。</helpstoppublish>
+				<captionupdatechanged>&amp;nbsp;ページを変更済みとしてマークを付ける&amp;nbsp;</captionupdatechanged>
+				<helpupdatechanged>このボックスを選択すると、ページが変更された日付が更新されます。 これはページを、たとえばサブスクリプションに組み込むのに必要です。</helpupdatechanged>
+				<captionsortorder>ソート順</captionsortorder>
+				<helpsortorder>このページの子が表示される順序を定義します。</helpsortorder>
+				<captionsortindex>ソート インデックス</captionsortindex>
+				<helpsortindex>このページのインデックス番号を整数で指定します。 このページの親に &quot;ソート インデックス順&quot; を選択すると、最下位のインデックスを持つページが先頭に表示されます。</helpsortindex>
+				<captionvisibleinmenu>ページをメニューに表示します</captionvisibleinmenu>
+				<helpvisibleinmenu>ページをメニューに表示する場合にこのボックスを選択します。 このボックスが空の場合、ページのみがリストに表示されます。</helpvisibleinmenu>
+				<captionoutputcache>HTML キャッシュの使用</captionoutputcache>
+				<helpoutputcache>ページを HTML キャッシュに保存し、ASP コードで再作成せずに表示する場合は、このボックスを選択します。 これにより、パフォーマンスが大幅に向上します。</helpoutputcache>
+				<captionlanguage>		言語エンコード</captionlanguage>
+				<helplanguage>		デフォルトと異なる場合は、ページの言語エンコードを設定します</helplanguage>
+				<captionmoderated>モデレーションのアクティブ化</captionmoderated>
+				<helpmoderated>このフォルダに追加されたページは、モデレータのアクセス権限を持つユーザーによって、表示される前に承認されなければなりません。</helpmoderated>
+				<captionexternalurl>このページの簡易アドレス</captionexternalurl>
+				<helpexternalurl>Web サイトのルートからパスを指定します (例：&quot;/products&quot;)。 このページには、&quot;?&quot; やその他の記号のない簡易アドレスでアクセスできるようになります。 訪問者が www.foretaget.se/products と入力すると、ページが表示されます。 </helpexternalurl>
+				<helpdynprop>このボックスを選択して、すべての子ページに指定された値を設定します</helpdynprop>
+				<helpdynpropdef>プロパティには、このページで定義された値があります</helpdynpropdef>
+				<helpdynpropundef>プロパティには値がありません</helpdynpropundef>
+				<defframe>通常 (同じウィンドウ/フレーム)</defframe>
+				<sortorder1>最後に作成されたものをリストの先頭に表示</sortorder1>
+				<sortorder2>最後に作成されたものをリストの末尾に表示</sortorder2>
+				<sortorder3>アルファベット順</sortorder3>
+				<sortorder4>ソート インデックス順</sortorder4>
+				<sortorder5>最後に変更されたものをリストの先頭に表示</sortorder5>
+				<sortorder7>公開の開始日順 (古い順)</sortorder7>
+				<sortorder8>公開の開始日順 (新しい順)</sortorder8>
+				<unloadmessage>このページを変更しました</unloadmessage>
+				<reloadmessage>			このページの再ロードを必要とする変更を行いました。新しい情報が失われた可能性があります。</reloadmessage>
+				<languagecommonpropertyicontooltiporiginal>このプロパティはすべての言語に共通で、ここでのみ編集することが可能です</languagecommonpropertyicontooltiporiginal>
+				<languagecommonpropertyicontooltiptranslation>このプロパティはすべての言語に共通ですが、ページの原語でのみ編集可能です</languagecommonpropertyicontooltiptranslation>
+			</editutil>
+		</system>
+		<edit>
+			<actionwindow>
+				<heading>アクション ウィンドウ</heading>
+				<hide>非表示</hide>
+			</actionwindow>
+			<linkdocument>
+				<heading>				ドキュメントの挿入</heading>
+			</linkdocument>
+			<linkimage>
+				<heading>				イメージの挿入</heading>
+			</linkimage>
+			<linkgeneric>
+				<heading>					リンクの挿入</heading>
+				<LinkGenericAnchorCaption>	現行ページのブックマーク</LinkGenericAnchorCaption>
+				<LinkGenericExternalCaption>別の Web サイトのページ</LinkGenericExternalCaption>
+				<LinkGenericFileCaption>	別のサーバーのファイル</LinkGenericFileCaption>
+				<LinkGenericInternalCaption>EPiServer のページ</LinkGenericInternalCaption>
+				<LinkGenericMailCaption>	電子メール アドレス</LinkGenericMailCaption>
+			</linkgeneric>
+			<quicksearch>
+				<notfound>一致する ID またはページ名が見つかりません</notfound>
+			</quicksearch>
+			<editform>
+				<heading>フォーム設定</heading>
+				<info></info>
+				<placefieldsinmatrix>以下のマトリックスにフィールドを配置する</placefieldsinmatrix>
+				<namecaption>名前</namecaption>
+				<placementcaption>配置</placementcaption>
+				<horizontal>水平方向</horizontal>
+				<vertical>垂直方向</vertical>
+				<optionscaption>オプション</optionscaption>
+				<fieldexists>フィールドがこのセルにすでに存在します</fieldexists>
+				<textinputproperties>テキスト フィールドのプロパティ</textinputproperties>
+				<checkboxproperties>チェック ボックスのプロパティ</checkboxproperties>
+				<textareaproperties>テキスト域のプロパティ</textareaproperties>
+				<radiobuttonproperties>ラジオ ボタンのプロパティ</radiobuttonproperties>
+				<selectboxproperties>選択ボックスのプロパティ</selectboxproperties>
+				<descriptionproperties>見出しのプロパティ</descriptionproperties>
+				<inputtext>テキスト フィールド</inputtext>
+				<inputtextarea>テキスト域</inputtextarea>
+				<inputselectbox>選択ボックス</inputselectbox>
+				<inputradiobutton>ラジオ ボタン</inputradiobutton>
+				<inputcheckbox>チェック ボックス</inputcheckbox>
+				<inputdescription>見出し</inputdescription>
+				<requiredcaption>値を入力する必要があります</requiredcaption>
+				<widthcaption>幅 (文字数)</widthcaption>
+				<heightcaption>高さ (行数)</heightcaption>
+				<textcaption>テキスト</textcaption>
+				<htmlcode>HTML コード</htmlcode>
+				<addrowbutton>行の追加</addrowbutton>
+				<addcolumnbutton>列の追加</addcolumnbutton>
+				<insertrowbutton>行の挿入</insertrowbutton>
+				<insertcolumnbutton>列の挿入</insertcolumnbutton>
+				<deleterowbutton>行の削除</deleterowbutton>
+				<deletecolumnbutton>列の削除</deletecolumnbutton>
+				<confirmdelete>このフィールドを削除しますか?</confirmdelete>
+				<formnamecaption>フォーム名</formnamecaption>
+				<postresultcaption>送信結果</postresultcaption>
+				<sendemailoption>電子メールの送信</sendemailoption>
+				<savetodatabaseoption>データベースに保存</savetodatabaseoption>
+				<mailanddboption>電子メールを送信してデータベースに保存する</mailanddboption>
+				<sendtourloption>指定した URL に送信</sendtourloption>
+				<sendemailtoadresscaption>電子メールをこのアドレスに送信</sendemailtoadresscaption>
+				<sendemailfromadresscaption>差出人の電子メール アドレス</sendemailfromadresscaption>
+				<sendformtourlcaption>フォームをこの URL に送信</sendformtourlcaption>
+				<allowanonymouspostcaption>フォームはログインせずに送信できます</allowanonymouspostcaption>
+				<allowmultiplepostcaption>同じユーザーがフォームを複数回送信できます</allowmultiplepostcaption>
+				<classcaption>CSS クラス</classcaption>
+				<buttonproperties>ボタンのプロパティ</buttonproperties>
+				<pageafterpost>フォームの送信後にページが表示されます</pageafterpost>
+				<headingcaption>見出し</headingcaption>
+				<buttoncaption>ボタン テキスト</buttoncaption>
+				<tooltipcaption>ツールチップ</tooltipcaption>
+				<inputsubmit>ボタン</inputsubmit>
+				<typecaption>検証方法</typecaption> 
+				<sendemailsubjectcaption>電子メールの件名</sendemailsubjectcaption>
+			</editform>
+			<workspace>
+				<welcome>EPiServer へようこそ</welcome>
+				<mysettings>個人用設定</mysettings>
+				<license>ご使用条件</license>
+				<userinfo>ユーザー情報</userinfo>
+				<firstlisting>最初のリスト</firstlisting>
+				<secondlisting>2 番目のリスト</secondlisting>
+			</workspace>
+			<activityloader>
+				<statusreadytopublish>公開する準備ができました</statusreadytopublish>
+				<statusnotready>公開されませんでした</statusnotready>
+				<statusrejected>コメント化</statusrejected>
+				<noactivity>進行中のアクティビティはありません</noactivity>
+				<personaltask>個人タスク</personaltask>
+				<grouptask>グループ タスク</grouptask>
+				<workflowowner>ワークフローの概要</workflowowner>
+				<duedate>期限</duedate>
+				<assignedtasks>個人に割り当てられたタスク</assignedtasks>
+				<readytopublishtooltip>公開する準備ができました:</readytopublishtooltip>
+				<personaltaskstaskstooltip>個人タスク:</personaltaskstaskstooltip>
+			</activityloader>
+			<workflowlog>
+				<heading>ワークフローの概要</heading>
+				<taskname>名前</taskname>
+				<owner>所有者</owner>
+				<changedby>変更者</changedby>
+				<status>状況</status>
+				<statuscomments>コメント</statuscomments>
+				<pagelink>ページ</pagelink>
+				<changed>変更済み</changed>
+				<created>作成済み</created>
+				<deleted>削除済み</deleted>
+			</workflowlog>
+			<taskoverview>
+				<heading>タスク</heading>
+				<name>名前</name>
+				<description>説明</description>
+				<owner>所有者</owner>
+				<status>状況</status>
+				<statuscomments>コメント</statuscomments>
+				<pagelink>ページ</pagelink>
+				<deleted>削除済み</deleted>
+			</taskoverview>
+			<editextension>
+				<heading>エクストラ機能</heading>
+			</editextension>
+			<deletepage>
+				<heading>			削除ページ &quot;{0}&quot; の確認</heading>
+				<info></info>
+				<deletesuffix>&quot;{0}&quot; は削除されています</deletesuffix>
+				<movesuffix>&quot;{0}&quot; はごみ箱に移動しました</movesuffix>
+				<deletesystempage>	ごみ箱、開始ページおよびルート ページは削除できません</deletesystempage>
+				<headingfailed>1 つのまたは複数のページを削除できません</headingfailed>
+				<failedreferenced>以下のページはシステムの他の部分から参照されるので削除できません。</failedreferenced>
+				<reftypeproperty>{0} は、以下のプロパティで参照されます {1}</reftypeproperty>
+				<reftypeshortcut>{0} は、以下のショートカットの宛先です {1}</reftypeshortcut>
+				<reftypearchive>{0} は、以下のアーカイブ フォルダです {1}</reftypearchive>
+				<reftypedefaultarchive>{1} は、以下のページ タイプのデフォルトのアーカイブ ページとして使用されています {0}</reftypedefaultarchive>
+			</deletepage>
+			<editdynprop>
+				<heading>ページ &quot;{0}&quot; で動的プロパティを編集します</heading>
+				<info/>
+				<nodynprop>動的プロパティが定義されていません</nodynprop>
+				<save>動的プロパティが保存されました</save>
+			</editdynprop>
+			<editsecurity>
+				<heading>		ページ &quot;{0}&quot; のアクセス権限の設定</heading>
+				<user>			{0} としてログオンされており、以下のグループのメンバです</user>
+				<info>			ユーザーおよびグループに対してこのページで許可する実行内容を選択すると同時に、どのユーザーおよびグループがこのページにアクセスできるかを選択することができます。</info>
+				<savemessage comment="heading of savesecurity">新規のアクセス権限が保存されました</savemessage>
+			</editsecurity>
+			<editpage>
+				<newheadingprefix>作成&amp;nbsp;</newheadingprefix>
+				<editheadingprefix>編集&amp;nbsp;</editheadingprefix>
+				<editheadingsuffix/>
+				<creator>作成者</creator>
+				<createdby>ページ作成者</createdby>
+				<savedby>ページの最終保存者</savedby>
+				<publishedby>ページの発行者</publishedby>
+				<changed>ページの変更</changed>
+				<versioncreatedby>バージョン作成者</versioncreatedby>
+				<versionsavedby>バージョンの保存者</versionsavedby>
+				<versionstatus>バージョン状況</versionstatus>
+				<updatechanged>&amp;nbsp;ページを変更済みとしてマークを付ける&amp;nbsp;</updatechanged>
+				<normallinkcaption>通常のリンク</normallinkcaption>
+				<normallinkhelp>このページでは独自のコンテンツが表示されます</normallinkhelp>
+				<nolinkcaption>リンクがありません</nolinkcaption>
+				<nolinkhelp>ページにはリンクがなく、何も表示しません これは、たとえばツリー メニューの見出しとして使用されます。</nolinkhelp>
+				<shortcutcaption>EPiServer のページへのショートカット</shortcutcaption>
+				<shortcuthelp>ページは別のページのコンテンツを開き、訪問者は構造内の該当のページに移動します。</shortcuthelp>
+				<fetchdatacaption>EPiServer のページからデータを取り出します</fetchdatacaption>
+				<fetchdatahelp>ページは別のページのコンテンツを開き、構造内の現在の場所に置かれたままになります。</fetchdatahelp>
+				<externallinkcaption>別の Web サイトのページへのリンク</externallinkcaption>
+				<externallinkhelp>このページではリンク先の外部ページまたはドキュメントのコンテンツが表示されます。</externallinkhelp>
+				<mustpublishmasterfirst>このページの原語 ({0}) はまだ公開されていません。 この原語を公開してから、ページを別の言語で公開する必要があります。</mustpublishmasterfirst>
+			</editpage>
+			<editcommand>
+				<askdelete>このページ {0} を削除しますか?</askdelete>
+				<askemptywastebasket>ごみ箱を空にしますか?</askemptywastebasket>
+				<askmove>このページを移動しますか?
+</askmove>
+				<denycut>このページを切り取ることができます</denycut>
+				<createnewpagecaption>新規作成</createnewpagecaption>
+				<createnewpagehelp>新規ページの作成</createnewpagehelp>
+				<editpagecaption>編集</editpagecaption>
+				<editpagehelp>選択されたページの編集</editpagehelp>
+				<deletepagecaption>削除</deletepagecaption>
+				<deletepagehelp>選択されたページの削除</deletepagehelp>
+				<cutpagecaption>切り取り</cutpagecaption>
+				<cutpagehelp>選択されたページの切り取り</cutpagehelp>
+				<copypagecaption>コピー</copypagecaption>
+				<copypagehelp>選択されたページのコピー</copypagehelp>
+				<pastepagecaption>貼り付け</pastepagecaption>
+				<pastepagehelp>選択されたページの貼り付け</pastepagehelp>
+				<setaccesscaption>アクセス権限</setaccesscaption>
+				<setaccesshelp>アクセス権限の変更
+</setaccesshelp>
+				<editdynpropcaption>動的プロパティ</editdynpropcaption>
+				<editdynprophelp>動的プロパティの編集
+</editdynprophelp>
+				<adminmodehelp see="/dope/adminmode" />
+				<viewmodehelp see="/dope/viewmode" />
+				<settingshelp see="/edit/workspace/mysettings" />
+				<logouthelp>ログアウト</logouthelp>
+				<editextensionhelp>エクストラ機能</editextensionhelp>
+				<viewmode>構造</viewmode>
+				<editmode>編集モード
+</editmode>
+				<personalmode>マイ タスク</personalmode>
+				<actionwindowhelp>アクション ウィンドウを開く</actionwindowhelp>
+				<favoritesmode>お気に入り
+
+</favoritesmode>
+				<addfavoritecaption>お気に入りに追加</addfavoritecaption>
+				<removefavoritecaption>お気に入りの除去</removefavoritecaption>
+				<pagetypenotallowed>	ページ タイプは宛先で許可されていません</pagetypenotallowed>
+				<filemanagementhelp>ファイルの管理</filemanagementhelp>
+				<languagepagecaption>ページの言語</languagepagecaption>
+				<languagepagehelp see="/edit/editcommand/languagepagecaption" />
+				<languageoverviewcaption>言語の概要</languageoverviewcaption>
+				<languageoverviewhelp see="/edit/editcommand/languageoverviewcaption" />
+				<languagesettingscaption>言語設定</languagesettingscaption>
+				<languagesettingshelp see="/edit/editcommand/languagesettingscaption" />
+				<deletepagelanguagecaption>言語の削除</deletepagelanguagecaption>
+			</editcommand>
+			<editpanel>
+				<statusnew>新規バージョン</statusnew>
+				<statusrejected>コメント</statusrejected>
+				<statuscheckedout>準備が整っていません</statuscheckedout>
+				<statuscheckedin>公開する準備ができました</statuscheckedin>
+				<statuspublished>公開済みバージョン</statuspublished>
+				<statusprevious>以前に公開済み</statusprevious>
+				<actiondelete>バージョンの削除</actiondelete>
+				<actionapprove>公開</actionapprove>
+				<actioncheckin>作動可能</actioncheckin>
+				<actionreject>コメント</actionreject>
+				<prefixcopyof>コピー</prefixcopyof>
+				<tabview>表示</tabview>
+				<tabedit>
+					<displayname>		編集</displayname>
+					<description>		</description>
+				</tabedit>
+				<tabversionlist>
+					<displayname>		バージョン リスト</displayname>
+					<description>		</description>
+					<oneunpublishedversiontooltip>1 つの未公開バージョン</oneunpublishedversiontooltip>
+					<unpublishedversionstooltip>{0} つの未公開バージョン</unpublishedversionstooltip>
+					<oneunpublishedversionglobalizedtooltip>言語用の 1  つの未公開バージョン: {0}</oneunpublishedversionglobalizedtooltip>
+					<unpublishedversionsglobalizedtooltip>言語用の {0}  つの未公開バージョン: {1}</unpublishedversionsglobalizedtooltip>
+				</tabversionlist>
+				<tabformdata>フォームのデータ</tabformdata>
+				<viewstatus>状況</viewstatus>
+				<viewsaveddate>保存</viewsaveddate>
+				<viewsavedby>順序</viewsavedby>
+				<rejectprompt>作成者へのコメント</rejectprompt>
+				<selectversion>バージョン:</selectversion>
+				<notreadyitem>--- 公開されませんでした---</notreadyitem>
+				<confirmdelete>本当にこのバージョンを削除しますか?</confirmdelete>
+				<tooltipedit>このバージョンの編集</tooltipedit>
+				<tooltipeditnew>新規バージョンの編集 (このバージョンをコピーする)</tooltipeditnew>
+				<tooltipcheckin>公開用にバージョンをサブミットする</tooltipcheckin>
+				<tooltipdelete>このバージョンの削除</tooltipdelete>
+				<tooltipapprove>このバージョンの公開</tooltipapprove>
+				<tooltipreject>このバージョンについてのコメント</tooltipreject>
+				<tooltipsave>このバージョンの保存</tooltipsave>
+				<creatingnewpage>新規ページの作成中
+</creatingnewpage>
+				<showversionlist>       バージョン リストの表示</showversionlist> 
+				<confirmnavigate>このページを変更しました
+</confirmnavigate>
+				<tooltipcancel>このバージョンの編集をキャンセルする</tooltipcancel>
+				<tabtranslate>
+					<displayname>		変換</displayname>
+					<description>		</description>
+				</tabtranslate>
+				<tabcomparelanguages>
+					<displayname>		言語の比較</displayname>
+					<description>		</description>
+				</tabcomparelanguages>
+				<tablanguagecommon>
+					<displayname>		共通</displayname>
+					<description>		</description>
+				</tablanguagecommon>
+				<delayinfo>					このページのバージョンの遅延した公開を管理します。</delayinfo>
+				<delaystartpublishinfo>		遅延した公開の日時の入力</delaystartpublishinfo>
+				<delaypublishinfo>			遅延した公開を有効にするには、このボックスを選択します</delaypublishinfo>
+				<savedelaypublishbutton>	保存</savedelaypublishbutton>
+				<unpublishedlanguage>		未公開言語</unpublishedlanguage>
+				<compareto>次と比較</compareto>
+				<translateto>変換先</translateto>
+				<tooltipsaveonly>このバージョンの保存</tooltipsaveonly>
+				<tooltipsave>このバージョンの保存と表示</tooltipsave>
+				<creatingnewpagelanguage>新規言語のページを作成中</creatingnewpagelanguage>				
+			</editpanel>
+			<editversionlist>
+				<columnheadingversion>バージョン:</columnheadingversion>
+				<columnheadingname>名前</columnheadingname>
+				<columnheadingstatus>状況</columnheadingstatus>
+				<columnheadingdatesaved>保存済み</columnheadingdatesaved>
+				<columnheadingsavedby>順序</columnheadingsavedby>
+				<buttoncompareversion>バージョンの比較</buttoncompareversion>
+				<columnheadinglanguage>言語</columnheadinglanguage>
+				<showalllanguages>すべての言語を表示</showalllanguages>
+			</editversionlist>
+			<wastebasketpage>
+				<emptywastebasket>ごみ箱を空にする</emptywastebasket>
+				<info></info>
+				<emptiedmessage>ごみ箱は空になりました</emptiedmessage>
+				<reftypeproperty see="/edit/deletepage/reftypeproperty" />
+				<reftypeshortcut see="/edit/deletepage/reftypeshortcut" />
+				<reftypearchive see="/edit/deletepage/reftypearchive" />
+				<askemptywastebasket see="/edit/editcommand/askemptywastebasket" />
+				<heading>ごみ箱</heading>
+				<numdeletedpages>ごみ箱にあるページの数</numdeletedpages>
+			</wastebasketpage>
+			<newpage>
+				<heading>		新規ページの作成</heading>
+				<info>			以下のリストから作成するページのタイプを選択します</info>
+				<nopagetype>	このページ用に利用できるページ タイプはありません</nopagetype>
+				<tooltipcancel>新規ページの作成をキャンセルする</tooltipcancel>
+			</newpage>
+			<sidbrowser>
+				<heading>ユーザー/グループの追加</heading>
+				<info/>
+				<orgsid>既存:</orgsid>
+				<newsid>追加:</newsid>
+			</sidbrowser>
+			<editformdata>
+				<heading>			フォームのデータ</heading>
+				<selectform>		フォームの選択</selectform>
+				<fromdate>			開始日付</fromdate>
+				<todate>			終了日付</todate>
+				<sortorder>			ソート中</sortorder>
+				<export>			エクスポート</export>
+				<newestfirst>		新しい順</newestfirst>
+				<oldestfirst>		古い順</oldestfirst>
+				<confirmdelete>		この検索で見つかったすべての項目を削除しますか?</confirmdelete>
+				<nohits>			ヒットしませんでした</nohits>
+				<matches>			件が一致</matches>
+				<pagingsize>		ページごとのヒット数</pagingsize>
+				<excelexport>		Excel にエクスポート</excelexport>
+				<errorexportingdata>データのエクスポート エラー</errorexportingdata>
+				<date>				日付</date>
+				<user>				ユーザー</user>
+			</editformdata>
+			<formpostings>
+				<displayname>		フォームのデータ</displayname>
+				<description>		フォームのデータを表示します</description>
+			</formpostings>
+			<extension>
+				<task>
+					<heading>タスクの割り当て</heading>
+					<taskheading>名前</taskheading>
+					<taskdescription>説明</taskdescription>
+					<tasktype>タイプ</tasktype>
+					<taskpagetype>ページ タイプ</taskpagetype>
+					<taskcontainer>ツリー内の配置</taskcontainer>
+					<taskpage>ページの選択</taskpage>
+					<taskowner>タスクの割り当て先</taskowner>
+					<taskmailnotification>メッセージを電子メールで所有者に送信する</taskmailnotification>
+					<taskduedate>期限</taskduedate>
+					<taskassign>タスクの割り当て</taskassign>
+					<taskassigned>割り当て済みタスク</taskassigned>
+				</task>
+			</extension>
+			<conflicteditor>
+				<heading>競合エディタ</heading>
+				<info>このバージョンのチェックアウト後に、公開済みバージョンの情報が変更されました</info>
+				<tabmychanges>個人の変更</tabmychanges>
+				<tabpublishedchanges>公開済みの変更</tabpublishedchanges>
+			</conflicteditor>
+			<edittree>
+				<nofavoritesfound>			定義されたお気に入りがありません</nofavoritesfound>
+				<notasksfound>				アクティブなタスクが見つかりませんでした</notasksfound>
+				<copypage>&quot;{0}&quot; を &quot;{1}&quot; にコピー</copypage>
+				<movepage>&quot;{0}&quot; を &quot;{1}&quot; に移動</movepage>
+			</edittree>
+			<editxform>
+				<heading>フォームの編集</heading>
+				<confirmdelete>このフィールドを削除しますか?</confirmdelete>
+				<selectform>フォームの選択</selectform>
+				<fromdate>開始日付</fromdate>
+				<todate>終了日付</todate>
+				<allpages>すべてのページのデータを表示</allpages>
+				<createdby>作成者:</createdby>
+				<created>作成:</created>
+				<changedby>変更者:</changedby>
+				<changed>最終変更:</changed>
+				<useformbutton>使用</useformbutton>
+				<editformbutton>編集</editformbutton>
+				<createformbutton>新規作成</createformbutton>
+				<existonpages>このフォームは複数ページで使用されることに注意してください。 そのため、フォームの変更は以下のページに影響を与えます。</existonpages>
+				<savewarninginfo>このフォームは複数ページで使用されます。</savewarninginfo>
+				<savewarningquestion>この変更を保存しますか?</savewarningquestion>
+				<noformbutton>フォームがありません</noformbutton>
+				<nameempty>すべてのフィールドに名前を指定する必要があります。</nameempty>
+				<nameexistsmorethanonce>複数のフィールドに、同じ名前 &quot;{0}&quot; が指定されています。</nameexistsmorethanonce>
+				<namenotallowedcharacters>次のフィールド名が正しくありません。 &quot;{0}&quot;. 名前に含めることができるのは、英数字のみです (a-z、A-Z、1-9 および &quot;_&quot; 。スペースは使用できません)。</namenotallowedcharacters>
+				<invalid>フォームが正しくありません。</invalid>
+				<namerequired>フィールドに名前を指定する必要があります。</namerequired>
+				<nameinvalid>フィールド名が正しくありません。 名前は文字で始める必要があります。また、含めることができるのは英数字のみです (a-z、A-Z、1-9 および &quot;_&quot;。スペースは使用できません)。</nameinvalid>
+				<saveas>新規フォームとして保存</saveas>
+				<datatypes>
+					<integer>
+						<caption>整数</caption> 
+						<errormessage>&quot;{0}&quot; は有効な整数ではありません。</errormessage> 
+					</integer>
+					<positiveinteger>
+						<caption>正整数</caption> 
+						<errormessage>&quot;{0}&quot; は有効な正整数ではありません。</errormessage> 
+					</positiveinteger>
+					<email>
+						<caption>電子メール アドレス</caption> 
+						<errormessage>&quot;{0}&quot; は有効な電子メール アドレスではありません。</errormessage> 
+					</email>
+					<isodate>
+						<caption>日付 (YYYY-MM-DD)</caption> 
+						<errormessage>&quot;{0}&quot; は有効な日付ではありません。 &quot;YYYY-MM-DD&quot; の形式で日付を入力してください。</errormessage>
+					</isodate>
+					<date1>
+						<caption>日付 (DD/MM/YYYY)</caption> 
+						<errormessage>&quot;{0}&quot; は有効な日付ではありません。 &quot;DD/MM/YYYY&quot; の形式で日付を入力してください。</errormessage>
+					</date1>
+					<date2>
+						<caption>日付 (MM/DD/YYYY)</caption> 
+						<errormessage>&quot;{0}&quot; は有効な日付ではありません。 &quot;MM/DD/YYYY&quot; の形式で日付を入力してください。</errormessage>
+					</date2>
+					<defaulttype>
+						<errormessage>許可されていない文字 (&quot;&lt;&quot; または &quot;&gt;&quot;) が入力されました。</errormessage> 
+					</defaulttype>
+				</datatypes>
+				<formnameempty>フォームの名前を入力します。</formnameempty>
+				<formdatamailsubject>&quot;{0}&quot; からのフォームのデータ ({1})</formdatamailsubject>
+				<formusedonpages>このフォームは以下のページで使用されます。</formusedonpages>
+				<formnotused>このフォームはいずれのページでも使用されません。</formnotused>
+				<multiplevalueinvalid>オプションの値が無効です (オプションに「'」文字を含めることはできません)。</multiplevalueinvalid>
+				<forminformation>フォームの情報</forminformation>
+				<folder>フォルダ</folder>
+				<allforms>すべてのフォーム</allforms>
+				<formfoldercaption>フォーム フォルダ</formfoldercaption>
+				<createnewformfoldertooltip>新規のフォーム フォルダの作成</createnewformfoldertooltip>
+				<renameformfoldertooltip>フォーム フォルダの名前変更</renameformfoldertooltip>
+				<deleteformfoldertooltip>選択したフォーム フォルダの削除</deleteformfoldertooltip>
+				<folderdialog>
+					<createnewformfolderheading>新規のフォーム フォルダの作成</createnewformfolderheading>
+					<renameformfolderheading>フォーム フォルダの名前変更</renameformfolderheading>
+					<createnewformfoldertext>新規フォルダの名前:</createnewformfoldertext>
+					<renameformfoldertext>新規フォルダの名前:</renameformfoldertext>
+					<deletequestion>選択したフォーム フォルダを削除してよろしいですか?</deletequestion>
+					<createnewformfoldersavewarning>新規のフォーム フォルダの有効な名前を入力する必要があります  (\ / &quot; ' &lt; &gt; 文字を使用しない)。</createnewformfoldersavewarning>
+					<renameformfoldersavewarning>フォーム フォルダの有効な新規名を入力する必要があります  (\ / &quot; ' &lt; &gt; 文字を使用しない)。</renameformfoldersavewarning>
+				</folderdialog>
+				<nofolder>フォルダがありません</nofolder>
+			</editxform>			
+			<editxformdata>
+				<selectform>フォームの選択</selectform>
+				<fromdate>開始日付</fromdate>
+				<todate>終了日付</todate>
+				<allpages>すべてのページのデータを表示</allpages>
+				<pagingsize>同時に表示される行数</pagingsize>
+			</editxformdata>	
+			<contentmirroringadmin>
+				<displayname>ミラーリング更新の承認</displayname>
+				<description>このシステムで利用可能な定義済みチャネルのリスト。</description>
+				<itemdeleted>削除済み</itemdeleted>
+				<itemupdated>更新済み</itemupdated>
+				<itemcreated>作成済み</itemcreated>
+				<itemmoved>移動済み</itemmoved>
+			</contentmirroringadmin>
+			<logservice>
+				<timespananalyzer>
+					<selectinterval>期間の選択</selectinterval>
+					<min5interval>5 分</min5interval>
+					<hourinterval>時</hourinterval> 
+					<dayinterval>日</dayinterval>
+					<monthinterval>月</monthinterval>
+					<yearinterval>年</yearinterval>
+					<total>合計</total>
+					
+					<statisticsdate>日付</statisticsdate>
+					<statisticshits>ヒット数</statisticshits>
+					
+					<problemconnecting>ログ サービスに接続できません。</problemconnecting>
+					<nodatabase>ログ サービスはデータベースで構成されません。 保存された履歴は表示されません。</nodatabase>
+				</timespananalyzer>
+				<realtimeanalyzer>
+					<referrerurl>URL</referrerurl>
+					<referrercount>参照の数</referrercount>
+					<noreferrer>ページへの直接アクセス</noreferrer>
+				</realtimeanalyzer>
+			</logservice>
+			<timespanview>
+				<displayname>統計</displayname>
+			</timespanview>
+			<filemanagerbrowser>
+				<selectimage>イメージの選択</selectimage>
+				<selectfile>ファイルの選択</selectfile>
+				<selectfolder>フォルダの選択</selectfolder>
+				<imageselectionerrormessage>まずイメージを選択してください。</imageselectionerrormessage>
+				<fileselectionerrormessage>まずファイルを選択してください。</fileselectionerrormessage>
+				<directoryselectionerrormessage>まずフォルダを選択してください。</directoryselectionerrormessage>
+			</filemanagerbrowser>
+			<editorguide>
+				<displayname>ユーザビリティー ガイド</displayname>
+				<description>本ガイドは、使いやすく、アクセスしやすい Web コンテンツを作成するのに役立ちます。</description>
+				<showsection>選択の表示</showsection>
+				<hidesection>選択の非表示</hidesection>
+			</editorguide>	
+			<globalizationcontrol>
+				<heading>ページ &quot;{0}&quot; の言語</heading>
+				<displayname>ページの言語</displayname>
+				<description>現行ページの異なる言語の状況を表示してアクセスします。</description>
+				<published>公開済み</published>
+				<saved>保存済み</saved>
+			</globalizationcontrol>
+			<globalizationmatrix>
+				<heading>ページ &quot;{0}&quot; の言語の概要</heading>
+				<description></description>
+				<page>ページ</page>
+				<languagestatuspublished>ページが公開されています</languagestatuspublished>
+				<languagestatusnotpublished>ページがまだ公開されていません</languagestatusnotpublished>
+				<goup>上</goup>
+			</globalizationmatrix>
+			<languagesettings>
+				<heading>ページ &quot;{0}&quot; の言語設定</heading>
+				<description></description>
+				<inheritsettings>親ページ &quot;{0}&quot; から設定を継承します。</inheritsettings>
+				<availablelanguagestitle>利用可能な言語</availablelanguagestitle>
+				<availablelanguagesdescriptionfirst>サイトのこの部分のページは、以下の言語で利用できます。 つまり、ページはこれらの言語でのみ作成でき、これらの言語にのみ翻訳できます。</availablelanguagesdescriptionfirst>
+				<availablelanguagesdescriptionsecond>この設定は、サイトのこの部分にエディタがアクセスする際の言語に影響を与えます。</availablelanguagesdescriptionsecond>
+				<replacementlanguagestitle>置き換え言語</replacementlanguagestitle>
+				<replacementlanguagesdescriptionfirst>サイトのこの部分のページは、以下の場合に、訪問者が選択した言語以外で表示されます。 つまり、これらの言語で使用できないページは、代わりに別の言語で表示することができます。</replacementlanguagesdescriptionfirst>
+				<replacementlanguagesdescriptionsecond>たとえば、選択されている言語に関係なく、特定の言語による一般的な情報をすべての訪問者に対して表示できるようにする場合などにこの設定を使用できます。</replacementlanguagesdescriptionsecond>
+				<fallbacklanguagestitle>代替言語</fallbacklanguagestitle>
+				<fallbacklanguagesdescriptionfirst>サイトのこの部分のページは、訪問者が選択した言語以外で利用可能になる場合があります。 つまり、選択した言語にまだ翻訳されておらず、公開されていないページを、代わりに別の言語で一時的に表示することができます。</fallbacklanguagesdescriptionfirst>
+				<fallbacklanguagesdescriptionsecond>この設定により、ナビゲーションおよびリストに言語の混在が発生する可能性があり、これによって訪問者を混乱させる可能性があることに注意してください。</fallbacklanguagesdescriptionsecond>
+				<visitorlanguageheading>訪問者の言語</visitorlanguageheading>
+				<replacementlanguageheading>置き換え言語</replacementlanguageheading>
+				<fallbacklanguageheading>代替言語</fallbacklanguageheading>
+				<addwarning>親ページから設定を継承する代わりに、このページに対して独自の言語設定を行いますか?</addwarning>
+				<deletewarning>このページに対する独自の言語設定を削除して、親ページから設定を継承しますか?</deletewarning>
+			</languagesettings>
+			<deletepagelanguage>
+				<heading>			ページ "{0}" の言語の削除</heading>
+				<info>				ページ全体を削除せずにページに使用される言語の 1 つを削除します。 ご注意! ページの言語を削除すると、それは恒久的に削除されます。 つまり、それはごみ箱に移動しません。 同じ言語のサブページは削除されません。</info>
+				<selectlanguage>	言語の削除</selectlanguage>
+				<selectlanguageitem>削除する言語を選択します</selectlanguageitem>
+				<deletedlanguage>	このページで使用されている言語 "{0}" が削除されています。</deletedlanguage>				
+				<nothingtodelete>	このページ用に存在する言語は 1 つのみです。 ページおよびそのサブページを削除する場合は、&quot;削除&quot; 機能を使用します。</nothingtodelete>
+				<confirmdeletemessage>続行する場合、ページに対して選択した言語は、恒久的に削除されます。</confirmdeletemessage>
+				<confirmdeletequestion>この言語を削除しますか?</confirmdeletequestion>
+				<alertlangnotselected>言語を選択する必要があります。</alertlangnotselected>
+			</deletepagelanguage>
+		</edit>
+		<editor>
+			<tools>
+				<font>
+					<toolheading>フォント</toolheading>
+					<fontheading>フォント:</fontheading>
+					<styleheading>スタイル:</styleheading>
+					<sizeheading>サイズ:</sizeheading>
+					<effectheading>効果:</effectheading>
+					<underline>下線</underline>
+					<colorheading>色:</colorheading>
+					<samlpeheading>サンプル</samlpeheading>
+					<styleregular>		通常</styleregular>
+					<styleitalic>		イタリック</styleitalic>
+					<stylebold>			太字</stylebold>
+					<stylebolditalic>	太字イタリック</stylebolditalic>
+				</font>
+				<search>
+					<toolheading>検索</toolheading>
+					<findheading>検索内容:</findheading>
+					<matchwhole>完全一致する単語のみ</matchwhole>
+					<matchcase>大文字小文字の区別</matchcase>
+					<directionheading>方向</directionheading>
+					<directonup>上</directonup>
+					<directiondown>下</directiondown>
+					<reachedend>		ドキュメントの終わりに達しました。 先頭から続行しますか?</reachedend>
+					<finisheddocument>	ドキュメントの検索が完了しました。</finisheddocument>
+				</search>
+				<insertanchor>
+					<toolheading>ブックマークの挿入</toolheading>
+					<anchorname>ブックマーク名:</anchorname>
+				</insertanchor>
+				<inserttable>
+					<toolheading>テーブルの挿入</toolheading>
+					<previewheading>プレビュー</previewheading>
+					<rows>行</rows>
+					<columns>列</columns>
+					<border>枠</border>
+					<width>幅</width>
+				</inserttable>
+				<spellcheck>
+					<toolheading>スペル</toolheading>
+					<notindictionary>辞書にありません。</notindictionary>
+					<suggestions>提案:</suggestions>
+					<cannotspellcheck>	現在の選択内容をスペル チェックできません。</cannotspellcheck>
+					<finishedselection>	選択内容の確認が完了しました。</finishedselection>
+					<finisheddocument>	ドキュメントの確認が完了しました。</finisheddocument>
+					<initializing>		(スペル チェックを初期化しています。お待ちください...)</initializing>
+					<textnotfound>		テキストに見つかりませんでした。</textnotfound>
+					<nosuggestions>		(スペルの提案がありません)</nosuggestions>
+				</spellcheck>
+				<tableproperties>
+					<toolheading>テーブル プロパティ</toolheading>
+					<layoutheading>レイアウト</layoutheading>
+					<alignmentheading>位置合わせ:</alignmentheading>
+					<alignmentdefault>デフォルト</alignmentdefault>
+					<alignmentright>右</alignmentright>
+					<alignmentcenter>中央</alignmentcenter>
+					<alignmentleft>左</alignmentleft>
+					<cellpadding>セル余白</cellpadding>
+					<cellspacing>セル間隔</cellspacing>
+					<specifywidth>幅の指定:</specifywidth>
+					<specifyheight>高さの指定:</specifyheight>
+					<pixels>ピクセル単位</pixels>
+					<percent>パーセント単位</percent>
+					<borderheading>枠</borderheading>
+					<bordersize>サイズ:</bordersize>
+					<bordercolor>色:</bordercolor>
+					<borderlight>明るい枠:</borderlight>
+					<borderdark>暗い枠:</borderdark>
+					<backgroundheading>背景</backgroundheading>
+					<backgroundcolor>色:</backgroundcolor>
+					<usepicture>背景ピクチャーの使用</usepicture>
+					<sizeheading>サイズ</sizeheading>
+					<descriptionheading>説明</descriptionheading>
+					<caption>キャプション:</caption>
+					<summary>要約:</summary>
+				</tableproperties>
+				<cellproperties>
+					<toolheading>セル プロパティ</toolheading>
+					<layoutheading>レイアウト</layoutheading>
+					<halignmentheading>水平位置合わせ</halignmentheading>
+					<halignmentdefault>デフォルト</halignmentdefault>
+					<halignmentright>右</halignmentright>
+					<halignmentcenter>中央</halignmentcenter>
+					<halignmentleft>左</halignmentleft>
+					<valignmentheading>垂直位置合わせ</valignmentheading>
+					<valignmentdefault>デフォルト</valignmentdefault>
+					<valignmentbaseline>ベースライン</valignmentbaseline>
+					<valignmentbottom>下部</valignmentbottom>
+					<valignmentmiddle>中間</valignmentmiddle>
+					<valignmenttop>上部</valignmenttop>
+					<specifywidth>幅の指定:</specifywidth>
+					<specifyheight>高さの指定:</specifyheight>
+					<pixels>ピクセル単位</pixels>
+					<percent>パーセント単位</percent>
+					<borderheading>枠</borderheading>
+					<bordercolor>色:</bordercolor>
+					<borderlight>明るい枠:</borderlight>
+					<borderdark>暗い枠:</borderdark>
+					<backgroundheading>背景</backgroundheading>
+					<backgroundcolor>色:</backgroundcolor>
+					<usepicture>背景ピクチャーの使用</usepicture>
+					<sizeheading>サイズ</sizeheading>
+					<headersheading>ヘッダー</headersheading>
+					<type>セル タイプ:</type>
+					<scope>有効範囲:</scope>
+					<axis>軸:</axis>
+					<axiswindowtitle>軸の選択</axiswindowtitle>
+					<axiswindowtext>以下の既存の軸を 1 つ以上選択するか、またはテキスト ボックスに名前を入力して新規軸を作成します。</axiswindowtext>
+					<headers>ヘッダー:</headers>
+					<headerswindowtitle>ヘッダーの選択</headerswindowtitle>
+					<headerswindowtext>以下の使用できるヘッダー  (ID 値) を 1 つ以上選択するか、またはテキスト ボックスに後で追加する予定の ID を入力します。</headerswindowtext>
+					<id>ID:</id>
+					<datacell>データ セル</datacell>
+					<headercell>ヘッダー セル</headercell>
+					<scopecol>列</scopecol>
+					<scoperow>行</scoperow>
+					<multiplevalues>複数</multiplevalues>
+				</cellproperties>
+				<selectvalue>
+					<newvalue>新規値:</newvalue>
+				</selectvalue>
+				<imageproperties>
+					<toolheading>イメージ プロパティ</toolheading>
+					<sizeheading>表示サイズ</sizeheading>
+					<specifywidth>幅の指定:</specifywidth>
+					<specifyheight>高さの指定:</specifyheight>
+					<pixels>ピクセル単位</pixels>
+					<percent>パーセント単位</percent>
+					<lockproportions>縦横比のロック</lockproportions>
+					<layoutheading>レイアウトと枠</layoutheading>
+					<alignment>位置合わせ:</alignment>
+					<alignmentleft>左</alignmentleft>
+					<alignmentright>右</alignmentright>
+					<alignmentbottom>下部</alignmentbottom>
+					<alignmentmiddle>中間</alignmentmiddle>
+					<alignmenttop>上部</alignmenttop>
+					<borderwidth>枠幅:</borderwidth>
+					<hspace>水平間隔:</hspace>
+					<vspace>垂直間隔:</vspace>
+					<cssclass>CSS クラス:</cssclass>
+					<informationheading>情報</informationheading>
+					<filesize>ファイル サイズ:</filesize>
+					<filename>ファイル名:</filename>
+					<alttext>代替テキスト:</alttext>
+					<unitbytes>バイト</unitbytes>
+					<hyperlinkheading>ハイパーリンク</hyperlinkheading>
+					<hyperlinkaddress>リンク先:</hyperlinkaddress>
+					<uselink>リンクをイメージに接続する</uselink>
+					<invalidlink>無効なリンク</invalidlink>
+					<edithyperlinkproperties>リンク プロパティの編集</edithyperlinkproperties>
+					<imagefile>イメージ ファイル:</imagefile>
+					<noimagevalidationmessage>イメージを指定してから保存してください。</noimagevalidationmessage>
+					<nolinkinfovalidationmessage>イメージがリンクに接続されることを指示しました。</nolinkinfovalidationmessage>
+					<specifylinkinfomessage>リンク情報を指定してから指示を保存または除去してください。</specifylinkinfomessage>
+				</imageproperties>
+				<hyperlinkproperties>
+					<toolheading>リンク プロパティ</toolheading>
+					<tabs>
+						<webpage>Web ページ</webpage>
+						<document>ドキュメント</document>
+						<email>電子メール</email>
+					</tabs>
+					<informationheading see="/editor/tools/imageproperties/informationheading"/>
+					<clickabletext>クリック可能なテキスト:</clickabletext>
+					<clickableimage>クリック可能なイメージ:</clickableimage>
+					<linktitle see="/util/linkeditor/linktitlefieldcaption"/>
+					<targetframe see="/util/linkeditor/targetfieldcaption"/>
+					<linktargetheading>リンク ターゲット</linktargetheading>
+					<internallink>この Web サイトのページ</internallink>
+					<externallink see="/edit/linkgeneric/LinkGenericExternalCaption"/>
+					<anchorlink>このページのブックマーク</anchorlink>
+					<page>ページ:</page>
+					<language>言語:</language>
+					<automatically>自動</automatically>
+					<address see="/util/linkeditor/urlfieldcaption"/>
+					<anchor>ブックマーク:</anchor>
+					<internaldocumentlink>この Web サイトのドキュメント</internaldocumentlink>
+					<networkdocumentlink>ネットワークのドキュメント</networkdocumentlink>
+					<externaldocumentlink>別の Web サイトのドキュメント</externaldocumentlink>
+					<path>パス:</path>
+					<emailaddress see="/util/linkeditor/mailfieldcaption"/>
+					<editimageproperties>イメージ プロパティの編集</editimageproperties>
+					<pagenotfoundmessage>リンク先のページが存在しません。</pagenotfoundmessage>
+					<pageaccessdeniedmessage>リンク先のページへのアクセス権がありません。</pageaccessdeniedmessage>
+					<selectnewpagemessage>新規ページを選択してから保存するか、別のタイプのリンクに変更してください。</selectnewpagemessage>
+					<documentnotfoundmessage>リンク先のドキュメントは存在しないか、移動されました。</documentnotfoundmessage>
+					<documentaccessdeniedmessage>リンク先のドキュメントへのアクセス権がありません。</documentaccessdeniedmessage>
+					<selectnewdocumentmessage>新規ドキュメントを選択してから保存するか、別のタイプのリンクに変更してください。</selectnewdocumentmessage>
+					<nourlvalidationmessage>リンク ターゲットを指定してから保存してください。</nourlvalidationmessage>
+					<noimageinfovalidationmessage>リンクがクリック可能なイメージになるように選択しました。</noimageinfovalidationmessage>
+					<specifyimagemessage>イメージを指定してから保存するか、または選択内容をクリック可能なテキストに変更してください。</specifyimagemessage>					
+				</hyperlinkproperties>
+				<resizeimage>
+					<toolheading>イメージのサイズ変更</toolheading>
+					<sizeheading>サイズ</sizeheading>
+					<qualityheading>品質</qualityheading>
+					<alternativesheading>オプション</alternativesheading>
+					<lockproportions see="/editor/tools/imageproperties/lockproportions"/>
+					<specifywidth see="/editor/tools/imageproperties/specifywidth"/>
+					<specifyheight see="/editor/tools/imageproperties/specifyheight"/>
+					<pixels>ピクセル</pixels>
+					<lockproportions see="/editor/tools/imageproperties/lockproportions"/>
+					<nosizevalidationmessage>保存する前に、幅と高さを指定してください。</nosizevalidationmessage>
+					<quality>イメージの品質</quality>
+					<qualitylevel>
+						<low>低</low>
+						<medium>中</medium>
+						<high>高</high>
+						<maximum>最大</maximum>
+					</qualitylevel>
+					<qualityinfo>
+						<info>情報:</info>
+						<low>低品質の場合、元のイメージと比較して鮮明さのレベルは低くなりますが、ファイル サイズは非常に小さくなります。</low>
+						<medium>品質が中程度の場合、元のイメージと比較すると鮮明さのレベルは中程度になり、ファイル サイズはかなり小さくなります。</medium>
+						<high>高品質の場合、元のイメージと比較すると鮮明さは良好なレベルになり、ファイル サイズは若干小さくなります。</high>
+						<maximum>最大品質の場合、元のイメージの鮮明さが保持されますが、ファイル サイズは小さくなりません。</maximum>
+					</qualityinfo>
+					<saveoption>
+						<saveascopy>サイズ変更したイメージをコピーとして保存し、元のイメージを保持します。</saveascopy>
+						<replaceoriginal>元のイメージをサイズ変更したイメージに置き換えます (jpg イメージのみ)。</replaceoriginal>
+					</saveoption>
+					<imagemissingmessage>イメージを指定してからサイズ変更してください。</imagemissingmessage>
+					<imagenotfoundmessage>指定したイメージが見つかりません。</imagenotfoundmessage>
+					<notauthorizedmessage>このフォルダでイメージを変更したり、フォルダにイメージを追加するためのアクセス権限がありません。</notauthorizedmessage>
+				</resizeimage>
+			</tools>
+		</editor>
+		<admin>
+			<admingroup>
+				<heading>			グループの管理</heading>
+				<info>				アクセス権限を割り当てるために使用されるグループの削除または追加</info>
+				<group>				グループ</group>
+				<description see="/labels/description"/>
+				<ldappath>			LDAP サーバー</ldappath>
+				<groupdeleted>		グループ &quot;{0}&quot; は削除されています</groupdeleted>
+				<deleteprefix>		グループを削除しますか</deleteprefix>
+				<deletesuffix>		?</deletesuffix>
+				<groupexists>		{0}という名前のグループがすでに存在します</groupexists>
+				<localgroup>		Windows グループ</localgroup>
+				<syncbutton>		同期化</syncbutton>
+				<syncldapbutton>	LDAP サーバーからのインポート</syncldapbutton>
+				<newgroupinfo>EPiServer で使用されるグループの作成</newgroupinfo>
+				<syncinfo>	ローカル グループについての情報を EPiServer と同期化します</syncinfo>
+				<ldapinfo>	グループ情報を LDAP サーバーからインポートします。 フィールドに検索式を入力します (例： User* を入力すると、「User」で始まるすべてのグループ/OU をリストします。</ldapinfo>
+			</admingroup>
+			<backup>
+				<heading>			バックアップ</heading>
+				<abortedinfo>		操作が打ち切られました</abortedinfo>
+				<completedinfo>		バックアップが完了しました。</completedinfo>
+				<devicequeryinfo>	ご注意! &quot;sysadmin&quot; のロールが割り当てられたデータベースのユーザーのみが、この操作を実行することができます。</devicequeryinfo>
+				<info>				データベースをバックアップします。 これにより、データベースのコンテンツのみがバックアップされることに注意してください。 情報はデータベース サーバーに残るので、他の EPiServer ファイルと共に別の場所にコピーして、重大なシステム障害が発生した場合にシステムを復元できるようにしなければなりません。</info>
+			</backup>
+			<license>
+				<heading>ライセンス情報</heading>
+				<info></info>
+				<tabinfo>情報</tabinfo>
+				<tabinstallnew>新規ライセンスのインストール</tabinstallnew>
+				<licensenumber>ライセンス番号</licensenumber>
+				<licensedto>ライセンス先</licensedto>
+				<licensedcompany>会社</licensedcompany>
+				<licensedescription>ライセンスの説明</licensedescription>
+				<licenserestrictions>制約事項</licenserestrictions>
+				<selectfile>新規ライセンス ファイルの選択</selectfile>
+				<uploadlicense>ライセンスのアップロードおよび検査</uploadlicense>
+				<newfileinstalled>新規ライセンス ファイルはインストールされています</newfileinstalled>
+				<licenseid>ライセンス ID</licenseid>
+			</license>
+			<categories>
+				<deleteprefix>カテゴリを削除しますか</deleteprefix>
+				<deletesuffix>?</deletesuffix>
+				<heading>カテゴリ</heading>
+				<info>Web サイトで使用されるカテゴリを定義します。 これらのカテゴリは、各ページの &quot;カテゴリ&quot; という見出しにあり、[編集] モードで使用できます。</info>
+				<tablename>名前</tablename>
+				<tabledescription>説明</tabledescription>
+				<tablevisible>表示</tablevisible>
+				<tableselectable>選択可能</tableselectable>
+				<helpgeneral>カテゴリ名をクリックして、カテゴリについての情報を編集します。</helpgeneral>
+				<helpadd>選択したカテゴリの下にカテゴリを追加します。 [保存] をクリックするまで変更できないことに注意してください。</helpadd>
+				<helpdelete>カテゴリを削除します。 カテゴリにサブカテゴリがある場合、サブカテゴリは 1 つ上のレベルに移動することに注意してください。</helpdelete>
+				<moveup>上へ移動</moveup>
+				<movedown>下へ移動</movedown>
+				<helpmoveup>カテゴリをリストの 1 つ上のステップに移動します。</helpmoveup>
+				<helpmovedown>カテゴリをリストの 1 つ下のステップに移動します。</helpmovedown>
+				<delreferenceprefix>1 つ以上のページが、削除しようとしている (</delreferenceprefix>
+				<delreferencesuffix>) カテゴリを参照しています</delreferencesuffix>
+				<delreferenceconfirm>このカテゴリを削除しますか?</delreferenceconfirm>
+				
+			</categories>
+			<cleanupupload>
+				<heading>未使用ファイルの削除</heading>
+				<infodeleting>参照されているファイルは、アップロード フォルダから削除されません</infodeleting>
+				<nothing>削除するものがありません。</nothing>
+				<info>[OK] をクリックして、ページが存在しない未使用のページ ファイルを削除します。</info>
+				<notdeleted>削除できませんでした&amp;nbsp;</notdeleted>
+				<norefprefix>以下への参照はありません。&quot;</norefprefix>
+				<norefsuffix>&quot;。ただし、新しいため削除することはできません。</norefsuffix>
+			</cleanupupload>
+			<copypagetype>
+				<heading>ページ タイプの作成</heading>
+				<info>コピーするページ タイプを選択します。</info>
+				<caption>コピーの作成</caption>
+			</copypagetype>
+			<editdynprop>
+				<heading>	動的プロパティの編集</heading>
+				<info>		動的プロパティは使用しているページ タイプに関係なく利用できます。</info>
+			</editdynprop>
+			<editdynpropfield>
+				<heading>	動的プロパティの編集</heading>
+				<headingnew>新規の動的プロパティの作成</headingnew>
+				<info></info>
+				<tabinfo>	情報</tabinfo>
+				<namecaption see="/admin/editpagetypefield/namecaption"/>
+				<typecaption see="/admin/editpagetypefield/typecaption"/>
+				<advancedcaption see="/admin/editpagetypefield/advancedcaption"/>
+				<editcaption see="/admin/editpagetypefield/editcaption"/>
+				<helptextcaption see="/admin/editpagetypefield/helpcaption"/>
+				<longstringsettingscaption see="/admin/editpagetypefield/editorhelp"/>
+			</editdynpropfield>
+			<editpagetype>
+				<addproperty>			プロパティの追加</addproperty>
+			</editpagetype>
+			<editpagetypebase>
+				<tabinfo>情報</tabinfo>
+				<tabdefaultvalues>デフォルト値</tabdefaultvalues>
+				<tabtypetotype>利用可能なページ タイプ</tabtypetotype>
+				<delete>このページ  タイプを削除しますか?</delete>
+				<heading>&quot;{0}&quot; の編集</heading>
+				<headingnew>新規ページ タイプの作成</headingnew>
+				<info>ページ タイプについての基本的な情報を編集します。</info>
+				<namecaption>名前</namecaption>
+				<descriptioncaption>説明</descriptioncaption>
+				<filenamecaption>ファイル名:</filenamecaption>
+				<editpagecaption>カスタム編集ページ</editpagecaption>
+				<availablecaption>編集モードで利用可能</availablecaption>
+				<workfloweditfieldscaption>ワークフローにリンクされたフィールドを常に表示します</workfloweditfieldscaption>
+				<sortordercaption>ソート インデックス</sortordercaption>
+				<headingsaved>ページ タイプが保存されました</headingsaved>
+				<headingdeleted>ページ タイプが削除されました</headingdeleted>
+				<headingdeletefailed>ページ タイプを削除できませんでした – このタイプのページが存在します</headingdeletefailed>
+				<usecustomdefaultcaption>カスタマイズされたデフォルト値の使用</usecustomdefaultcaption>
+				<usecustomdefaulthelp>これらの値がシステムで自動的に設定されないようにするには、カスタマイズされたデフォルト値を使用します</usecustomdefaulthelp>
+				<defaultstartpublishcaption>ページが作成された日に関連して &quot;公開の開始日&quot; を設定します</defaultstartpublishcaption>
+				<defaultstartpublishhelp>ページが作成された日に関連して &quot;公開の開始日&quot; を設定します</defaultstartpublishhelp>
+				<defaultstoppublishcaption>ページが作成された日に関連して &quot;公開の停止日&quot; を設定します</defaultstoppublishcaption>
+				<defaultstoppublishhelp>ページが作成された日に関連して &quot;公開の停止日&quot; を設定します</defaultstoppublishhelp>
+				<typetotype>このページ タイプの下で作成できるページ タイプを選択します</typetotype>
+				<alltypeavailable>すべてのページ タイプが利用可能です</alltypeavailable>
+				<defaultidcaption see="#usecustomdefaultcaption"/>
+				<defaultidhelp see="#usecustomdefaulthelp"/>
+				<defaultnamecaption see="/pagetypes/common/property[@name='PageName']/caption"/>
+				<defaultnamehelp see="/pagetypes/common/property[@name='PageName']/help"/>
+				<visibleinmenucaption see="/pagetypes/common/property[@name='PageVisibleInMenu']/caption"/>
+				<visibleinmenuhelp see="/pagetypes/common/property[@name='PageVisibleInMenu']/help"/>
+				<peerordercaption see="/pagetypes/common/property[@name='PagePeerOrder']/caption"/>
+				<peerorderhelp see="/pagetypes/common/property[@name='PagePeerOrder']/help"/>
+				<childorderrulecaption see="/pagetypes/common/property[@name='PageChildOrderRule']/caption"/>
+				<childorderrulehelp see="/pagetypes/common/property[@name='PageChildOrderRule']/help"/>
+				<frameidcaption see="/pagetypes/common/property[@name='PageFrameID']/caption"/>
+				<frameidhelp see="/pagetypes/common/property[@name='PageFrameID']/help"/>
+				<archivepagelinkcaption see="/pagetypes/common/property[@name='PageArchiveLink']/caption"/>
+				<archivepagelinkhelp see="/pagetypes/common/property[@name='PageArchiveLink']/help"/>
+			</editpagetypebase>
+			<editlanguage>
+				<heading>				言語エンコード</heading>
+				<info>					&lt;b&gt;警告!&lt;/b&gt;このページの誤った変更により、Web サイトの応答が停止する可能性があります。</info>
+				<languageidcaption>		言語コード</languageidcaption>
+				<languagenamecaption>	ローカル言語の名前</languagenamecaption>
+				<languagenameencaption>	英語の名前</languagenameencaption>
+				<charsetcaption>		文字セット</charsetcaption>
+				<fontcharsetcaption>	エディタで使用されるフォント</fontcharsetcaption>
+				<localecaption>			日時のフォーマット</localecaption>
+				<mailcodepagecaption>	電子メールの文字セット</mailcodepagecaption>
+				<setsystemdefaultcaption>システム デフォルト エンコードとして設定する</setsystemdefaultcaption>
+				<currentsystemdefaultcaption>現行システムのデフォルト エンコード</currentsystemdefaultcaption>
+			</editlanguage>
+			<editpagetypedel>
+				<heading>プロパティの削除</heading>
+				<deleted>プロパティは削除されています</deleted>
+				<inuse>プロパティは以下のページで使用されています</inuse>
+				<confirm>このプロパティを削除しますか?</confirm>
+			</editpagetypedel>
+			<editpagetypefield>
+				<heading>プロパティの編集</heading>
+				<headingnew>				新規プロパティの作成</headingnew>
+				<info></info>
+				<tabinfo>					情報</tabinfo>
+				<saved>プロパティが保存されました</saved>
+				<namecaption>名前</namecaption>
+				<editcaption>見出しの編集</editcaption>
+				<helpcaption>ヘルプ テキスト</helpcaption>
+				<typecaption>タイプ</typecaption>
+				<typeboolean>選択または未選択</typeboolean>
+				<typenumber>整数</typenumber>
+				<typefloatnumber>浮動小数点数</typefloatnumber>
+				<typepagetype>ページ タイプ</typepagetype>
+				<typepagelink>ページ</typepagelink>
+				<typedate>日時</typedate>
+				<typestring>文字列 (&lt;= 255)</typestring>
+				<typelongstring>長い文字列 (&gt;255)</typelongstring>
+				<typexhtmlstring>XHTML 文字列 (&gt;255)</typexhtmlstring>
+				<typecategory>カテゴリの選択</typecategory>
+				<typeform>フォーム</typeform>
+				<typeurl>ページまたは外部アドレスへの URL</typeurl>
+				<typedocumenturl>ドキュメントへの URL</typedocumenturl>
+				<typeimageurl>イメージへの URL</typeimageurl>
+				<typeweekday>平日</typeweekday>
+				<typeframe>フレーム</typeframe>
+				<typefilesortorder>ファイルのソート順</typefilesortorder>
+				<typepagereference>ページ</typepagereference>
+				<typelanguage>言語</typelanguage>
+				<typepassword>パスワード</typepassword>
+				<typesortorder>ページのソート順</typesortorder>
+				<typeselector>現行ページのプロパティ</typeselector>
+				<typesid>ユーザー</typesid>
+				<advancedcaption>見出しの下に配置する</advancedcaption>
+				<objectcaption>オブジェクトによるカスタム編集処理</objectcaption>
+				<searchablecaption>検索可能なプロパティ</searchablecaption>
+				<requiredcaption>値を入力する必要があります</requiredcaption>
+				<useeditorcaption>エディタの使用</useeditorcaption>
+				<nodefaultcaption>デフォルト値がありません</nodefaultcaption>
+				<inheritcaption>値を継承します</inheritcaption>
+				<defaultcaption>デフォルト値</defaultcaption>
+				<editorboldcaption>太字</editorboldcaption>
+				<editoritaliccaption>イタリック</editoritaliccaption>
+				<editorunderlinecaption>下線
+</editorunderlinecaption>
+				<editorbulletscaption>黒丸付きリスト</editorbulletscaption>
+				<editornumbercaption>番号付きリスト</editornumbercaption>
+				<editorleftcaption>左揃え</editorleftcaption>
+				<editorcentercaption>中央</editorcentercaption>
+				<editorrightcaption>右揃え</editorrightcaption>
+				<editorfontcaption>フォント</editorfontcaption>
+				<editorrefreshcaption>リフレッシュ</editorrefreshcaption>
+				<editortogglehtmlcaption>HTML コードの表示または非表示</editortogglehtmlcaption>
+				<editorinsertanchorcaption>ブックマークの挿入</editorinsertanchorcaption>
+				<editorinsertimagecaption>ファイルからのイメージの挿入</editorinsertimagecaption>
+				<editorinsertdoccaption>ドキュメントの挿入</editorinsertdoccaption>
+				<editorinserturlcaption>ハイパーリンクの挿入</editorinserturlcaption>
+				<editorinserttablecaption>テーブルの挿入</editorinserttablecaption>
+				<editorundocaption>取り消し</editorundocaption>
+				<editorredocaption>再実行</editorredocaption>
+				<editorfindcaption>検索</editorfindcaption>
+				<editorhelp>エディタのプロパティ – すべてをクリアして、エディタの代わりにテキスト領域を使用します</editorhelp>
+				<editorcutcaption>				切り取り</editorcutcaption>
+				<editorcopycaption>				コピー</editorcopycaption>
+				<editorpastecaption>			貼り付け</editorpastecaption>
+				<editorpasteunformattedcaption>	フォーマットなしで貼り付け</editorpasteunformattedcaption>
+				<editorremoveformattingcaption>	フォーマットの除去</editorremoveformattingcaption>
+				<editortablesubmenucaption>		テーブル</editortablesubmenucaption>
+				<editorformatparagraphcaption>	段落のフォーマット</editorformatparagraphcaption>
+				<editortablepropertiescaption>	テーブル プロパティ...</editortablepropertiescaption>
+				<editorcellpropertiescaption>	セル プロパティ...</editorcellpropertiescaption>
+				<editoraboutcaption>			情報...</editoraboutcaption>
+				<editorspellcheckcaption>		スペル</editorspellcheckcaption>
+				<editorspellcheckmenucaption>	スペル...</editorspellcheckmenucaption>
+				<editorfontmenucaption>			フォント...</editorfontmenucaption>
+				<editorinsertanchormenucaption>	ブックマーク...</editorinsertanchormenucaption>
+				<editorinsertimagemenucaption>	イメージ...</editorinsertimagemenucaption>
+				<editorinsertdocmenucaption>	ドキュメント...</editorinsertdocmenucaption>
+				<editorinserturlmenucaption>	ハイパーリンク...</editorinserturlmenucaption>
+				<editorinserttablemenucaption>	テーブル...</editorinserttablemenucaption>
+				<editorfindmenucaption>			検索...</editorfindmenucaption>
+				<editortogglehtmlmenucaption>	ソースの表示</editortogglehtmlmenucaption>
+				<editortableinsertcolbeforecaption>	列を前に挿入</editortableinsertcolbeforecaption>
+				<editortableinsertcolaftercaption>	列を後に挿入</editortableinsertcolaftercaption>
+				<editortableinsertrowbeforecaption>	行を前に挿入</editortableinsertrowbeforecaption>
+				<editortableinsertrowaftercaption>	行を後に挿入</editortableinsertrowaftercaption>
+				<editortabledeletecolscaption>		列の削除</editortabledeletecolscaption>
+				<editortabledeleterowscaption>		行の削除</editortabledeleterowscaption>
+				<editortabledeletetablecaption>		テーブルの削除</editortabledeletetablecaption>
+				<editortablemergecellscaption>		セルのマージ</editortablemergecellscaption>
+				<editortablesplithorizontalcaption>	セルを水平に分割する</editortablesplithorizontalcaption>
+				<editortablesplitverticalcaption>	セルを垂直に分割する</editortablesplitverticalcaption>
+				<editorinsertsubmenucaption>		挿入</editorinsertsubmenucaption>
+				<editorloading>エディタのロード中...</editorloading>
+				<reservedproperty>&quot;{0}&quot; はメタデータの予約名です</reservedproperty>
+				<inuseproperty>&quot;{0}&quot; という名前のプロパティはすでに存在します</inuseproperty>
+				<editorimagepropertiescaption>イメージ プロパティ...</editorimagepropertiescaption>
+				<editorinserthrcaption>水平罫線</editorinserthrcaption>
+				<editorselectsubmenucaption>選択</editorselectsubmenucaption>
+				<editorselecttablecaption>テーブル</editorselecttablecaption>
+				<editorselecttablecellcaption>テーブル セル</editorselecttablecellcaption>
+				<editorselecttablerowcaption>テーブル行</editorselecttablerowcaption>
+				<editorselecttablecolumncaption>テーブル列</editorselecttablecolumncaption>
+				<editorselectallcaption>すべて</editorselectallcaption>
+				<editorselectsectioncaption>段落</editorselectsectioncaption>
+				<editorselectexpandcaption>拡張</editorselectexpandcaption>
+				<editorselectcontractcaption>収縮</editorselectcontractcaption>
+				<editorselectpreviouscaption>前へ</editorselectpreviouscaption>
+				<editorselectnextcaption>次へ</editorselectnextcaption>
+				<editormaximizercaption>エディタの最大化または復元</editormaximizercaption>			
+				<editorcellsubmenucaption>セル</editorcellsubmenucaption>
+				<typexform>XForms フォーム</typexform>	
+				<editorhyperlinkpropertiescaption>リンク プロパティ...</editorhyperlinkpropertiescaption>
+				<languagespecificcaption>言語ごとの固有値</languagespecificcaption>
+				<typeuilanguage>システム言語</typeuilanguage>
+				<typelanguagebranch>ページの言語 (1 つのオプション)</typelanguagebranch>
+				<typelanguagebranchlist>ページの言語 (複数のオプション)</typelanguagebranchlist>
+			</editpagetypefield>
+			<frames>
+				<deleteprefix>フレームを削除しますか</deleteprefix>
+				<deletesuffix>?</deletesuffix>
+				<heading>フレームの編集</heading>
+				<info>Web サイトが使用しているフレームを定義します。 これらはリンクの作成時に &quot;ターゲット フレーム&quot; オプションとして利用可能になります。</info>
+				<tablename>フレーム名</tablename>
+				<tabledescription>説明</tabledescription>
+			</frames>
+			<headings>
+				<deleteprefix>タブを削除しますか</deleteprefix>
+				<deletesuffix>?</deletesuffix>
+				<heading>タブの編集</heading>
+				<info>[編集] タブで利用可能なタブを定義します。 プロパティの作成または編集時に、プロパティを表示させるタブを選択できます。</info>
+				<tablename>タブ</tablename>
+				<tablevisible>表示</tablevisible>
+				<tablesortindex>ソート インデックス</tablesortindex>
+				<tableaccesslevel>アクセス レベルが必要です</tableaccesslevel>
+			</headings>
+			<loglevel>
+				<heading>ログ レベル</heading>
+				<saved>変更が保存されました</saved>
+				<caption>新規ログ レベルの選択</caption>
+				<typeread>ページの読み取り</typeread>
+				<typecreate>ページの作成</typecreate>
+				<typechange>ページの変更</typechange>
+				<typesecurity>権限の変更</typesecurity>
+			</loglevel>
+			<workflowdefinition>
+				<heading>ワークフロー</heading>
+				<namecaption>名前</namecaption>
+			</workflowdefinition>
+			<workflowdefinitionedit>
+				<heading>ワークフローの編集</heading>
+				<workflowdefname>名前</workflowdefname>
+				<workflowdefowner>所有者</workflowdefowner>
+				<newtask>新規タスク</newtask>
+				<taskstate>状態</taskstate>
+				<taskheading>名前</taskheading>
+				<taskdescription>説明</taskdescription>
+				<tasktype>タイプ</tasktype>
+				<taskpagetype>ページ タイプ</taskpagetype>
+				<taskcontainer>ツリー内の配置</taskcontainer>
+				<taskurl>カスタム URL</taskurl>
+				<taskowner>所有者</taskowner>
+				<taskmailnotification>電子メールによる所有者への通知</taskmailnotification>
+				<taskondone>タスクが完了した場合</taskondone>
+				<taskonfail>タスクがリジェクトされる場合</taskonfail>
+				<taskontimeout>タスクの期限が過ぎている場合</taskontimeout>
+				<tasktimeout>期限までの時間</tasktimeout>
+				<taskeditfields>表示されているワークフローで最後に作成されたページのフィールド</taskeditfields>
+				<taskinheritededitfieldicon>イメージのパスが最後に作成されたページのフィールドに表示されます</taskinheritededitfieldicon>
+				<taskcurrenteditfieldicon>イメージのパスがこのページのフィールドに表示されます</taskcurrenteditfieldicon>
+				<buttonpagelist>リンク ページの表示</buttonpagelist>
+			</workflowdefinitionedit>
+			<workflowpropertybrowser>
+				<heading>表示されている最後に作成されたページからフィールドを選択する</heading>
+				<metacaption>デフォルト フィールド</metacaption>
+				<propertycaption>フィールド</propertycaption>
+			</workflowpropertybrowser>
+			<menu>
+				<delpropertyprefix>以下のプロパティを削除しますか &quot;
+</delpropertyprefix>
+				<delpropertysuffix>&quot; ?</delpropertysuffix>
+				<tooltipedit>編集モード</tooltipedit>
+				<tooltipview>表示モード</tooltipview>
+				<tooltiphelp>ヘルプ</tooltiphelp>
+				<systemadministration>システム管理</systemadministration>
+				<settings>システム設定</settings>
+				<editheadings>タブの編集</editheadings>
+				<editframes>フレームの編集</editframes>
+				<editcategories>カテゴリの編集</editcategories>
+				<editfiletypes>ファイル タイプの編集</editfiletypes>
+				<cleanupupload see="/admin/cleanupupload/heading"/>
+				<clearcache>ページ キャッシュをクリア</clearcache>
+				<changeskin>外観の変更</changeskin>
+				<rebuildlinks>Web アドレスの再ビルド</rebuildlinks>
+				<productupdate>			製品の更新</productupdate>
+				<robotsearch>Web アドレスの管理</robotsearch>
+				<language>				言語</language>
+				<editlanguage>			言語エンコード</editlanguage>
+				<databasemaintenance>データベース メンテナンス</databasemaintenance>
+				<backup>バックアップ</backup>
+				<archive>アーカイブ機能</archive>
+				<wastebasket>ごみ箱を空にする</wastebasket>
+				<workflowdefinition>ワークフロー</workflowdefinition>
+				<workflowdefinitionnew>新規ワークフローの作成</workflowdefinitionnew>
+				<workflowdefinitionedit>ワークフローの編集</workflowdefinitionedit>
+				<security>アクセス権限</security>
+				<setsecurity>アクセス権限の設定</setsecurity>
+				<admingroups>グループの管理</admingroups>
+				<defaultgroup see="/admin/registrationsettings/heading"/>
+				<searchuser>ユーザーまたはグループの検索</searchuser>
+				<createuser>ユーザーの作成</createuser>
+				<createlocalgroup>グループの作成</createlocalgroup>
+				<logging>ロギング</logging>
+				<systemmessages>システム メッセージの表示</systemmessages>
+				<setloglevel>ログ レベルの設定</setloglevel>
+				<clearlog>ログ情報のクリア</clearlog>
+				<pagetype>ページ タイプ</pagetype>
+				<newpagetype>新規ページ タイプの作成</newpagetype>
+				<datatypes>カスタム プロパティタイプの編集</datatypes>
+				<copypagetype>ページ タイプのコピー</copypagetype>
+				<editdynamicproperty>動的プロパティ</editdynamicproperty>
+				<editremotesite>リモート Web サイト</editremotesite>
+				<plugins>ツール</plugins>
+				<setpermission>機能の許可</setpermission>
+				<license>ライセンス情報</license>
+				<scheduledjobs>スケジュールされたジョブ</scheduledjobs>
+				<editlanguages>言語コードの編集</editlanguages>
+				<editlanguagebranches>Web サイト言語の管理</editlanguagebranches>
+			</menu>
+			<permission>
+				<heading>機能の許可</heading>
+				<info>	ユーザーまたはグループに対して EPiServer の特定機能へのアクセス権限を付与します。</info>
+				<editpermission>アクセス許可 &quot;{0}&quot; が付与されたユーザーまたはグループ</editpermission>
+				<sidsaved>		機能に対する新規の許可が保存されました</sidsaved>
+			</permission>
+			<pagedefinitiontype>
+				<heading>				プロパティタイプの編集</heading>
+				<info>					EPiServer ページのプロパティに使用される新規のデータ タイプの編集および作成を行うことができます。</info>
+			</pagedefinitiontype>
+			<pagedefinitiontypeedit>
+				<heading>				データ タイプの編集</heading>
+				<headingnew>			新規データ タイプの作成</headingnew>
+				<tabinfo>				定義</tabinfo>
+				<info></info>
+				<property name="property">
+					<caption>				基本タイプ</caption>
+			</property>
+			<namecaption>			名前</namecaption>
+			<namehelp>				プロパティ タイプの名前を選択します</namehelp>
+			<typenamecaption>		クラス名</typenamecaption>
+			<typenamehelp>			クラス名と名前空間 (例：EPiServer.SpecializedProperties.PropertyPassword)</typenamehelp>
+			<assemblynamecaption>	アセンブリ名</assemblynamecaption>
+			<assemblynamehelp>		クラスが含まれるアセンブリの名前 (例：EPiServerSample)</assemblynamehelp>
+			<typeinuse>このタイプは以下のプロパティで使用中のため、削除することができません。</typeinuse>
+			</pagedefinitiontypeedit>
+			<rebuildlinks>
+				<heading>Web アドレスの再ビルド</heading>
+				<rebuilddone>内部 Web アドレスが再ビルドされました。</rebuilddone>
+				<info>ルート フォルダ ([システム設定] の下にある) が変更された場合、Web アドレスを再ビルドする必要があります。 これを行わないと、すべての内部リンクが誤った場所を参照することになります。</info>
+				<normalrebuild>すべてのページの Web アドレスの更新</normalrebuild>
+				<newdirectoryrebuild>	古いルート フォルダを置き換えるように設定します</newdirectoryrebuild>
+				<currentroot>				現行値は {0} です</currentroot>
+			</rebuildlinks>
+			<changeskin>
+				<heading>		外観の変更</heading>
+				<skinsaved>		新規の外観が適用されました</skinsaved>
+			</changeskin>
+			<savecategories>
+				<heading>カテゴリ</heading>
+				<infosaved>新しい情報が保存されました</infosaved>
+				<infochanged>情報が変更されています</infochanged>
+			</savecategories>
+			<saveframes>
+				<heading>フレーム</heading>
+				<infosaved>新しい情報が保存されました</infosaved>
+				<referencedframeprefix>参照先&amp;nbsp;</referencedframeprefix>
+				<referencedframesuffix/>
+				<reflinkpageprefix>ページ&amp;nbsp;</reflinkpageprefix>
+				<reflinkframeprefix>&amp;nbsp;フレームで以下を開きます。&quot;</reflinkframeprefix>
+				<reflinkframesuffix>&quot;</reflinkframesuffix>
+				<referencedframehelp>このフレームを削除したい場合は、上記のページが置かれるフレームを代わりに選択してください。</referencedframehelp>
+				<noframe>-- フレームがありません --</noframe>
+			</saveframes>
+			<saveheadings>
+				<heading>見出し</heading>
+				<infosaved>新しい情報が保存されました</infosaved>
+				<referencedheadingmessage>&quot;{0}&quot; の参照</referencedheadingmessage>
+				<reflinkprop>プロパティ &quot;{0}&quot; は見出し &quot;{1}&quot; の下に置かれました</reflinkprop>
+				<referencedheadinghelp>この見出しを削除したい場合は、上記のプロパティが置かれるフレームを代わりに選択してください。</referencedheadinghelp>
+			</saveheadings>
+			<registrationsettings>
+				<saved see="/admin/settings/saved"/>
+				<heading>				エクストラネット ユーザーの設定</heading>
+				<info>					エクストラネット ユーザーによる自己登録を許可する設定を変更します。 ユーザーを自動的にアクティブ化する場合、ユーザーには確認の電子メールではなく、アクティブ化を通知する電子メールが送信されます。</info>
+				<allowselfregistration>	自己登録の許可</allowselfregistration>
+				<setdefaultgroup>		新規ユーザーの標準グループ</setdefaultgroup>
+				<activateusers>			登録時にユーザーを自動的にアクティブ化しますか?</activateusers>
+				<emailfromaddress>		送信電子メールの差出人アドレス</emailfromaddress>
+				<emailtoaddress>		新規アプリケーションを処理する電子メール アドレス</emailtoaddress>
+				<confirmationsubject>	新規アプリケーションの送信電子メールの件名</confirmationsubject>
+				<confirmationbody>		新規アプリケーションの送信電子メールの本文</confirmationbody>
+				<activationsubject>		ユーザーのアクティブ化についての送信電子メールの件名</activationsubject>
+				<activationbody>		ユーザーのアクティブ化についての送信電子メールの本文</activationbody>
+				<requiredpasswordlength>パスワードに必要な最小長</requiredpasswordlength>
+			<maxfailedattempts>		この最大回数を超えてログオンに失敗した場合にアカウントをロックする</maxfailedattempts>
+			<disablemaxattempts>	検査は不要</disablemaxattempts>
+			<passwordrequirealpha>	パスワードに必要な文字</passwordrequirealpha>
+			<passwordrequirenumber>	パスワードに必要な数字</passwordrequirenumber>
+			<passwordrequiresymbol>	パスワードに必要な記号</passwordrequiresymbol>
+			</registrationsettings>
+			<secedit>
+				<info>&amp;nbsp;</info>
+				<newgroupheading>		新規グループ</newgroupheading>
+				<newuserheading>		新規ユーザー</newuserheading>
+				<editgroupheading>		グループの編集</editgroupheading>
+				<edituserheading>		ユーザーの編集</edituserheading>
+				<listmemberof>			メンバ</listmemberof>
+				<listnotmemberof>		非メンバ</listnotmemberof>
+				<listcontains>			次を含む</listcontains>
+				<listnotcontains>		次を含まない</listnotcontains>
+				<editname>				ユーザー名</editname>
+				<editpassword>			パスワード</editpassword>
+				<editconfirmpassword>	パスワードの確認</editconfirmpassword>
+				<editadspath>			ActiveDirectory 名</editadspath>
+				<editdescription>		説明</editdescription>
+				<editvalidto>			有効期限</editvalidto>
+				<editactive>			アクティブ</editactive>
+				<editemail>				電子メール アドレス</editemail>
+				<editcompany>			会社</editcompany>
+				<editaddress>			アドレス</editaddress>
+				<editpostalnumber>		郵便番号</editpostalnumber>
+				<editpostaladdress>		住所</editpostaladdress>
+				<edittelephone>			電話番号</edittelephone>
+				<editlanguage>システム言語</editlanguage>
+				<firstname>				名</firstname>
+				<lastname>				姓</lastname>
+				<title>					役職</title>
+				<mobile>				携帯電話</mobile>
+				<tooshortpassword>		パスワードには、少なくとも {0} 文字が必要です</tooshortpassword>
+				<missingpassword>		パスワードを入力する必要があります。</missingpassword>
+				<alpharequiredpassword>	パスワードには文字が含まれなければなりません。</alpharequiredpassword>
+				<numberrequiredpassword>パスワードには数字が含まれなければなりません。</numberrequiredpassword>
+				<symbolrequiredpassword>パスワードには記号 (文字や数字以外) を含まなければなりません。</symbolrequiredpassword>
+				<usernameexists>		ユーザー名 &quot;{0}&quot; はすでに存在します。</usernameexists>
+				<lockedout>				アカウントがロックされました (ログオン試行の失敗が多すぎます)</lockedout>
+				<ipaddress>				この IP アドレスからのみログオンする</ipaddress>
+				<ipmask>				上記 IP アドレスのサブネット マスク</ipmask>
+				<editcountry>国</editcountry>
+				<editcreated>作成済み</editcreated>
+				<editchanged>変更済み</editchanged>
+			</secedit>
+			<searchusers>
+				<heading>				ユーザーまたはグループの検索</heading>
+				<info/>
+				<namecaption>			名前</namecaption>
+				<descriptioncaption>	説明</descriptioncaption>
+				<typecaption>			タイプ</typecaption>
+				<typeall>				すべて</typeall>
+				<typegroup>				グループ</typegroup>
+				<typeuser>				ユーザー</typeuser>
+				<pagingsize>		ページごとのヒット数</pagingsize>
+			</searchusers>
+			<security>
+				<heading>					アクセス権限の設定</heading>
+				<info>						アクセス権限を完全に除去したページなどのアクセス権限を EPiServer で復元します。 すべてのページのすべての権限を変更できます。</info>
+				<savemessage>				保存された新規のアクセス権限</savemessage>
+				<buttonrecursive>			再帰的</buttonrecursive>
+				<buttonrecursiveadd>		再帰的追加</buttonrecursiveadd>
+				<buttonrecursiveremove>		再帰的除去</buttonrecursiveremove>
+				<subheadingwindowsgroups>	以下の Windows グループのメンバです</subheadingwindowsgroups>
+				<subheadingepiservergroups>	以下の EPiServer グループのメンバです</subheadingepiservergroups>
+			</security>
+			<robotsearch>
+				<heading>Web アドレスの管理</heading>
+				<linkinfo>Web アドレスが {0} に設定されています</linkinfo>
+				<linkinforobots>		検索エンジンによるインターネット上のクロールを許可します。</linkinforobots>
+				<linkinfonorobots>		対話式の使用のみをサポートします。</linkinfonorobots>
+				<info>EPiServer で使用する Web アドレスのタイプを選択します。</info>
+				<robotlinkcaption>検索エンジンで Web サイトのクロールを可能にする Web アドレスを使用します</robotlinkcaption>
+				<norobotlinkcaption>対話式の使用のみをサポートする Web アドレスを使用します</norobotlinkcaption>
+				<warning>警告! この設定を変更する前に、この Web サイトで使用されるテンプレートが Web アドレスの特定のタイプに適合しているかを確認してください。</warning>
+				<friendlylinkcaption>この Web サイトのコンテンツの構造を反映した Web アドレスを使用します (/page1/page2)</friendlylinkcaption>
+				<linkinfofriendly>コンテンツの構造を反映します。</linkinfofriendly>
+				<friendlyurlnotinstalled>この機能は、この Web サイトで構成されていません。</friendlyurlnotinstalled>
+			</robotsearch>
+			<settings>
+				<heading>					システム設定</heading>
+				<info>						&lt;b&gt;警告!&lt;/b&gt;このページで誤った変更を行うと、Web サイトの応答が停止する可能性があります。</info>
+				<saved>						システム設定が保存されました</saved>
+				<inforequired>				入力する必要のあるフィールドには「*」のマークが付けられています</inforequired>
+				<licensetab>				ライセンス</licensetab>
+				<databasetab>				データベース</databasetab>
+				<sitetab>					一般</sitetab>
+				<edittab>					編集中</edittab>
+				<linktooltab>				リンク ツール</linktooltab>
+				<cachetab>					キャッシュ</cachetab>
+				<subscriptiontab>			サブスクリプション</subscriptiontab>
+				<licensedcompanycaption>	会社へのライセンス付与</licensedcompanycaption>
+				<licensedtocaption>			個人へのライセンス付与</licensedtocaption>
+				<licensekeycaption>			ライセンス コード</licensekeycaption>
+				<epslanguagecaption>システム言語</epslanguagecaption>
+				<epsconnectioncaption>		データベース接続</epsconnectioncaption>
+				<epshosturlcaption>			Web サイトのアドレス (例：http://www.x.y)</epshosturlcaption>
+				<epsbugemailcaption>		サポートする電子メール</epsbugemailcaption>
+				<epsrootdircaption>			ルート フォルダ</epsrootdircaption>
+				<epsuploaddircaption>		フォルダのアップロード</epsuploaddircaption>
+				<createdircaption>			リンク ツールでフォルダを作成する</createdircaption>
+				<deletefilecaption>			リンク ツールでファイルを削除する</deletefilecaption>
+				<deletedircaption>			リンク ツールでフォルダを削除する</deletedircaption>
+				<renamefiledircaption>		リンク ツールでファイルまたはフォルダの名前を変更する</renamefiledircaption>
+				<pageuploadcaption>			ファイルを特定のページにアップロードする</pageuploadcaption>
+				<restricteduploadcaption>	制限付きファイル アップロード</restricteduploadcaption>
+				<unrestricteduploadcaption>	無制限のファイル アップロード</unrestricteduploadcaption>
+				<maxfilesize>				アップロード ファイルの最大ファイル サイズ (K バイト)</maxfilesize>
+				<editordivonreturncaption>	「P」ではなく「DIV」をエディタで使用します</editordivonreturncaption>
+				<epssitenamecaption>			Web サイトの名前</epssitenamecaption>
+				<epsframedefinitioncaption>			フレーム定義ファイルのパス</epsframedefinitioncaption>
+				<epseditcsscaption>			エディタの CSS ファイルのパス</epseditcsscaption>
+				<epscharsetcaption>			文字セット (Content-Type charset)</epscharsetcaption>
+				<epfenableunicodecaption>				システム機能に対して Unicode を使用可能にする</epfenableunicodecaption>
+				<epnrootidcaption>				Web サイトのルート ページ</epnrootidcaption>
+				<epnstartpagecaption>			Web サイトの開始ページ</epnstartpagecaption>
+				<epnwastebasketidcaption>		ごみ箱として使用されるページ</epnwastebasketidcaption>
+				<epncategoryidcaption>			カテゴリのルート</epncategoryidcaption>
+				<epnversioncountcaption>		ページの旧バージョンの最大数</epnversioncountcaption>
+				<epfkeeploggedoncaption>				Cookie をアクティブ化して訪問者のログオン状態を維持します</epfkeeploggedoncaption>
+				<epfenablepersonalizationcaption>		個人用設定を有効にする</epfenablepersonalizationcaption>
+				<epssubmailfromcaption>				差出人の電子メール アドレス</epssubmailfromcaption>
+				<epssubmailbcccaption>				すべての電子メールのコピーの送信先</epssubmailbcccaption>
+				<epssubtemplatecaption>				電子メールの表示用の XSL ファイル (例：C:\mail.xsl)</epssubtemplatecaption>
+				<cachesyncinterval>			キャッシュがスレーブ サーバーで更新される頻度 (秒。0 = no delay)</cachesyncinterval>
+				<epneditorheightcaption>				エディタの高さ (ピクセル)</epneditorheightcaption>
+				<epneditorwidthcaption>				エディタの幅 (ピクセル。0 = max 幅)</epneditorwidthcaption>
+				<epseditcontrolversion>		ActiveX エディタの現行バージョン (例：2、0、0、31)</epseditcontrolversion>
+				<ldaptab>					LDAP</ldaptab>
+				<epsldapservercaption>		LDAP サーバー (例: company.com)。 空のままにして LDAP 機能を使用不可にする</epsldapservercaption>
+				<epsldapusercaption>		このユーザーとして LDAP サーバに接続する</epsldapusercaption>
+				<epsldappasswordcaption>	ユーザーのパスワード</epsldappasswordcaption>
+				<saved>						新規値が保存されました</saved>
+				<epfencryptsensitiveinformationcaption>web.config ファイルの暗号化</epfencryptsensitiveinformationcaption>
+				<clearldapcache>	LDAP キャッシュをクリア</clearldapcache>
+				<ldapcachedcleared>	LDAP キャッシュがクリアされました</ldapcachedcleared>
+				<epserrorhandling>	EPiServer でのエラー処理</epserrorhandling>
+				<epserrorhandlingon>			すべてに対してアクティブにする</epserrorhandlingon>
+				<epserrorhandlingoff>			エラー処理をオフにする</epserrorhandlingoff>
+				<epserrorhandlingremoteonly>	リモート訪問者に対してアクティブにする</epserrorhandlingremoteonly>
+				<epserrormail>		エラー レポートの送信先の電子メール アドレス </epserrormail>
+				<epssubscriptionhandler>サブスクリプション更新のハンドラー</epssubscriptionhandler>
+				<defaultsubscriptionhandler>
+					<displayname>EPiServer のデフォルト</displayname>
+					<description>サブスクリプション電子メール用の EPiServer 組み込みハンドラー</description>
+				</defaultsubscriptionhandler>
+				<multilanguagesubscriptionhandler>
+					<displayname>複数言語対応の EPiServer 標準フォーマット</displayname>
+					<description>複数言語のサブスクリプション メール用の EPiServer の組み込みハンドラー</description>
+				</multilanguagesubscriptionhandler>
+				<epfenableglobalizationsupportcaption>グローバリゼーションを有効にする</epfenableglobalizationsupportcaption>
+				<epfbrowserlanguagedetectioncaption>ブラウザの言語設定で言語を削除する</epfbrowserlanguagedetectioncaption>
+			</settings>
+			<updateconfirm>
+				<heading>					リモート システムへのアクセスを確認する</heading>
+				<info>						この機能にはローカル管理者のアクセス権限が必要です。 管理者としてログインしていない場合は、ログイン プロンプトが表示されます。 現行バージョンおよびライセンスについての情報は、カスタム製品リストを表示できるように ElektroPost への暗号化接続を使用して送信されます。</info>
+			</updateconfirm>
+			<update>
+				<heading>					更新情報</heading>
+				<info></info>
+				<name>						製品名</name>
+				<description>				説明</description>
+				<updateversion>				新規バージョン</updateversion>
+				<installedversion>			インストール済みバージョン</installedversion>
+				<action></action>
+				<downloadbutton>			ファイルのダウンロード</downloadbutton>
+				<installbutton>				インストール</installbutton>
+				<upgradebutton>				アップグレード</upgradebutton>
+				<alreadinstalled>			インストール済み</alreadinstalled>
+				<requiresproducts>			必要な製品</requiresproducts>
+				<licensenotfound>			データベースにライセンスが見つかりません。 詳細については、サプライヤにお問い合わせください。</licensenotfound>
+				<licenseexpired>			ライセンスの有効期限が切れました。 詳細については、サプライヤにお問い合わせください。</licenseexpired>
+				<licensereplaced>			ライセンスが置き換えられたので、アクティブではありません。 詳細については、サプライヤにお問い合わせください。</licensereplaced>
+				<licensenosoftwareagreement>ライセンスにはソフトウェア契約が含まれません。 詳細については、サプライヤにお問い合わせください。</licensenosoftwareagreement>
+			</update>
+			<siteinfo>
+				<heading>					統計</heading>
+				<info></info>
+				<dbstatcaption>				データベース情報</dbstatcaption>
+				<dbstatpagecount>			データベースにあるページの合計数</dbstatpagecount>
+				<dbstatchangedlastweek>		先週変更されたページ</dbstatchangedlastweek>
+				<dbstatepisecusercount>		エクストラネット ユーザー (EPiSec)</dbstatepisecusercount>
+				<dbstatntusercount>			Windows ユーザー (NT)</dbstatntusercount>
+				<dbstatsubscribercount>		サブスクライバー</dbstatsubscribercount>
+				<dbcachehitpercentage>		キャッシュ ヒット率</dbcachehitpercentage>
+				<dbcachecaption>			データベース キャッシュの使用</dbcachecaption>
+				<countersince>				カウンタがリセットされました </countersince>
+				<countergetitem>			キャッシュから送信されたページ</countergetitem>
+				<counterreadsinglepage>		単一ページのデータベース読み取り</counterreadsinglepage>
+				<counterlistchildren>			キャッシュから送信されたリスト</counterlistchildren>
+				<counterreadchildpages>		リストのデータベース読み取り</counterreadchildpages>
+				<processstarted>			ワーカー プロセスが開始しました</processstarted>
+				<processpeakmemory>			ピーク メモリの使用 (MB)</processpeakmemory>
+				<processid>					プロセス ID</processid>
+				<processconfigfile>			構成ファイル</processconfigfile>
+				<processpubpolicy>			パブリッシャの方針</processpubpolicy>
+				<processshadowcopy>			アセンブリのシャドー コピー</processshadowcopy>
+				<processshadowdir>			シャドー フォルダ</processshadowdir>
+				<buttonresetcounters>		カウンタのリセット</buttonresetcounters>
+				<counterpages>				キャッシュ内のページ</counterpages>
+				<counteroutputvalid>HTML キャッシュから送信されたページ</counteroutputvalid>
+				<counteroutputinvalid>HTML キャッシュ内のページが無効です</counteroutputinvalid>
+				<outputcachecaption>HTML キャッシュの使用日時</outputcachecaption>
+				<dbsystemprocessinfocaption>システムおよびプロセス情報</dbsystemprocessinfocaption>
+			</siteinfo>
+			<syncgroup>
+				<heading>			グループの同期化</heading>
+				<info>				このページは、EPiServer データベースと Windows の間でグループ情報を同期します。</info>
+				<saved>				グループ情報が更新されました</saved>
+				<syncnotneeded>		EPiServer の情報は、Windows のグループ情報と同一です。 変更の必要はありません。</syncnotneeded>
+				<notinwindows>		グループは Windows に存在しません</notinwindows>
+				<notinwindowsinfo>	選択されたグループは EPiServer から削除されます</notinwindowsinfo>
+				<notindatabase>		グループは EPiServer に存在しません</notindatabase>
+				<notindatabaseinfo>	選択されたグループは EPiServer に追加されます</notindatabaseinfo>
+				<ldapgroupname>				名前</ldapgroupname>
+				<ldapgroupqualifiedname>	完全修飾名</ldapgroupqualifiedname>
+				<ldapgroupimport>			インポート</ldapgroupimport>
+				<useinepiserver>EPiServer での使用</useinepiserver>
+				<groupname>グループ名</groupname>
+				<description>説明</description>
+				<ldapname>LDAP 名</ldapname>
+				<groupsupdated>グループ情報が更新されました</groupsupdated>
+			</syncgroup>
+			<systemerror>
+				<askclearlog>システム ログをクリアしますか?</askclearlog>
+				<heading>システム ログ</heading>
+				<info>システム ログから情報を表示します。 管理者による修復の必要の可能性があるエラーおよびイベントについての情報がここに保管されます。</info>
+				<deleted>ログがクリアされました</deleted>
+				<showstartdate>表示開始</showstartdate>
+				<showstopdate>表示終了</showstopdate>
+				<tabledate>日付</tabledate>
+				<tabletype>タイプ</tabletype>
+				<tabledescription>説明</tabledescription>
+				<tableerrorcode>エラー コード</tableerrorcode>
+				<tablesource>ソース</tablesource>
+				<tableinformation>情報</tableinformation>
+			</systemerror>
+			<databasejob>
+				<delayedpublish>	
+					<displayname>遅延したページ バージョンの公開</displayname>
+				</delayedpublish>
+				
+				<wastebasket>
+					<displayname>	ごみ箱を自動的に空にする</displayname>
+					<description>	空にする機能をアクティブにするかどうかを指定し、ごみ箱を空にする頻度を指定します。 ごみ箱のジョブは、30 日より古いページをごみ箱から恒久的に削除します。</description>
+				</wastebasket>
+				<subscription>
+					<displayname>サブスクリプション
+</displayname>
+					<description>サブスクリプション ジョブは、Web サイトの異なるセクションの更新情報をサブスクライブするユーザーに電子メールを送信します。</description>
+				</subscription>
+				<archive>
+					<displayname>	アーカイブ機能</displayname>
+					<description>	アーカイブ機能をアクティブにするかどうかを指定し、ページがアーカイブされる頻度を指定します。 アーカイブ機能は有効期限の過ぎた公開の停止日のページを、(指定された場合に) 選択したアーカイブ フォルダに移動します。</description>
+				</archive>
+				<schedulecaption>	このジョブを次のスケジュールで毎回実行します</schedulecaption>
+				<activecaption>		アクティブ</activecaption>
+				<savemessage>		設定が保存されました。</savemessage>
+				<testbutton>		手動で開始</testbutton>
+				<startokmessage>	ジョブは問題なく開始しました。</startokmessage>
+				<starterrormessage>	ジョブが失敗しました。 {0}</starterrormessage>
+				<tabsettings>		設定</tabsettings>
+				<logstatus>			状況</logstatus>
+				<logdate>			日付</logdate>
+				<tabhistory>履歴</tabhistory>
+				<logmessage>メッセージ</logmessage>
+				<nextexecution>次にスケジュールされた日付</nextexecution>
+			</databasejob>
+			<edituser>
+				<changepassword>		パスワードの変更</changepassword>
+				<keeppassword>			パスワードの保持</keeppassword>
+				<enterpassword>			パスワードの入力</enterpassword>
+				<repeatpassword>		パスワードの繰り返し</repeatpassword>
+				<usersaved>				ユーザーまたはグループが保存されました</usersaved>
+				<usernotsaved>			ユーザーまたはグループを保存できませんでした</usernotsaved>
+				<confirmdeleteuser>		ユーザーまたはグループ {0} を除去しますか?</confirmdeleteuser>
+				<notificationquestion>	ユーザーは、アカウントがアクティブ化されたことを電子メールで自動的に通知されます。</notificationquestion>
+				<notificationfailed>	&quot;エクストラネット ユーザーの設定&quot; が適切に設定されていないため、電子メールを送信できませんでした。</notificationfailed>
+				<mailsent>				電子メールはユーザーに送信されました</mailsent>
+				<maintabname>			設定</maintabname>
+				<userdeleted>			ユーザーまたはグループは削除されています</userdeleted>
+				<passwordmismatch>		パスワードは入力フィールド間で異なります</passwordmismatch>
+				<userguisettings>
+					<displayname>オプションの表示</displayname>
+					<settings>
+						<usedefaultsettings>デフォルト設定の使用</usedefaultsettings>
+						<toolbar>ツールバー</toolbar>
+						<limitedtoolbar>制限付きツールバー</limitedtoolbar>
+						<extendedtoolbar>拡張ツールバー</extendedtoolbar>
+						<treesymbols>ツリー構造内の記号</treesymbols>
+						<statusexpired>ページは日時が過ぎた公開をスケジュールしました</statusexpired>
+						<statusnotstarted>ページは公開をスケジュールしていますが、まだ公開されていません</statusnotstarted>
+						<statusnotpublished>ページが公開されていません</statusnotpublished>
+						<statusnotvisibleinmenu>ページはメニューに表示されません。</statusnotvisibleinmenu>
+						<statusreadonly>ページを変更するアクセス権限がありません。</statusreadonly>
+						<statusnew>新規ページが過去 48 時間以内に作成されました</statusnew>
+						<statuslanguagemissing>現行言語のページが見つからないため、表示されません</statuslanguagemissing>
+						<statuslanguagefallback>現行言語のページが見つからないため、ページは別の言語で表示されます。 他の言語にアイコンがある場合、それは標識として使用されます。</statuslanguagefallback>
+					</settings>
+				</userguisettings>
+			</edituser>
+			<remotesite>
+				<heading>リモート Web サイト</heading>
+				<info>送受信用の登録済みリモート Web サイト。 リモート サイトのアクセス権限および無名サイトによる接続が可能かどうかを web.config で構成します。</info>
+				<url>URL</url>
+				<name>名前</name>
+				<ping>Ping</ping>
+				<pingtrue>Web サイト &quot;{0}&quot; が応答し、署名を受け入れました</pingtrue>
+				<pingfalse>Web サイト &quot;{0}&quot; が応答しましたが、署名を受け入れなかったか、または署名が設定されていません</pingfalse>
+				<localsite>ローカル サイト名</localsite>
+			</remotesite>
+			<remotesiteedit>
+				<heading>リモート Web サイトの編集</heading>
+				<info>外部サイトの名前を変更しないでください。コードで使用される可能性があります。 通信に署名するためにリモート サイトに手動コピーする必要のある共有機密事項を作成します。 これは、非セキュアなチャネル上でデータを送信する場合に、データが改ざんされるのを防ぐためです。</info>
+				<url>URL</url>
+				<name>名前</name>
+				<username>ユーザー名</username>
+				<password>パスワード</password>
+				<domain>ドメイン</domain>
+				<sharedsecret>署名に必要な共有機密事項</sharedsecret>
+				<istrusted>フロントエンドとして機能</istrusted>
+				<istrustedwarning>セキュリティ警告! このサイトでは、プロパティおよびアクセス レベル設定についてのアセンブリ情報を読み取ることができます。 これには、適切に作動できるように、両方のサイトで共有機密事項と有効な署名が必要になります。</istrustedwarning>
+				<allowurllookup>URL のサイト名の許可 (例：page.aspx?id=30__mysite)</allowurllookup>
+			</remotesiteedit>
+			<setup>
+				<heading>基本的なコンテンツのインストール</heading>
+				<info>EPiServer の使用を開始するには、最初に基本的なコンテンツが提供されなければなりません。 以下にリストされたオプションの 1 つとシステム言語を選択してください。 &quot;完全なインストール&quot; をクリックして完了します。</info>
+				<startpageexists>開始ページは、ユーザー用にすでに構成されています</startpageexists>
+				<progress>システムが更新されている間、お待ちください</progress>
+				<selectlanguage>システム言語の選択</selectlanguage>
+				<selectcontent>コンテンツの選択</selectcontent>
+				<setupbutton>完全なインストール</setupbutton>
+				<cancelmessage>後でこのページに戻り、インストールを完了してください</cancelmessage>
+				<swedishsample>すべてのテンプレートがインストールされたスウェーデン語のサンプル テンプレート</swedishsample>
+				<englishsample>すべてのテンプレートがインストールされた英語のサンプル テンプレート</englishsample>
+				<emptysample>	ページ タイプまたはコンテンツのない開始ページのみ</emptysample>
+				<globalizationsample>すべてのテンプレートがインストール済みのグローバル化されたサンプル テンプレート (英語およびスウェーデン語)</globalizationsample>
+			</setup>
+			<importdata>
+				<displayname>データのインポート</displayname>
+				<description/>
+				<heading>インポート データ</heading>
+				<info>別の EPiServer からデータをインポートします。</info>
+				<uploadfile>ファイルのアップロードおよび検査</uploadfile>
+				<selectfile>エクスポート ファイルの選択およびアップロード</selectfile>
+				<nofileuploaded>ファイルがアップロードされませんでした</nofileuploaded>
+				<beginimport>インポートの開始</beginimport>
+				<pagecount>ページ数</pagecount>
+				<pagetypecount>ページ タイプ数</pagetypecount>
+				<categorycount>カテゴリ数</categorycount>
+				<framecount>フレーム数</framecount>
+				<filecount>ファイル数</filecount>
+				<dynamicpropertydefinitioncount>動的プロパティ定義の数</dynamicpropertydefinitioncount>
+				<tabdefinitioncount>見出しの数</tabdefinitioncount>
+				<importcompleted>インポートが完了しました</importcompleted>
+				<importsucceeded>インポートは成功しました</importsucceeded>
+				<testsucceeded>インポート ファイルが検査され、エラーや警告は生成されませんでした</testsucceeded>
+				<errorsoccured>以下のエラーが発生しました</errorsoccured>
+				<warningsoccured>以下の警告が生成されました</warningsoccured>
+				<show>表示</show>
+				<selectpageroot>ページの宛先の選択</selectpageroot>
+			</importdata>
+			<exportdata>
+				<displayname>データのエクスポート</displayname>
+				<description/>
+				<heading>エクスポート データ</heading>
+				<info>ある EPiServer から別の EPiServer  にデータをエクスポートします。</info>
+				<exportbutton>エクスポート</exportbutton>
+				<testexportbutton>エラー ログ付きでテスト実行</testexportbutton>
+				<exportpages>ページのエクスポート</exportpages>
+				<exportpagedependencies>従属ページ タイプの自動エクスポート</exportpagedependencies>
+				<exportpagetypes>ページ タイプのエクスポート</exportpagetypes>
+				<exportframes>フレームのエクスポート</exportframes>
+				<exportdynamicpropertydefinitions>動的プロパティ定義のエクスポート</exportdynamicpropertydefinitions>
+				<exporttabdefinitions>タブのエクスポート</exporttabdefinitions>
+				<exportcategories>カテゴリのエクスポート</exportcategories>
+				<exportfiles>ファイルのエクスポート</exportfiles>
+				<exportsucceeded>エラーや警告を出さずにエクスポートが完了しました</exportsucceeded>
+				<errorsoccured>以下のエラーが発生しました</errorsoccured>
+				<warningsoccured>以下の警告が生成されました</warningsoccured>
+				<selectpage>構造の一部を選択します</selectpage>
+				<exportpagelanguages>グローバル化されたページのエクスポート</exportpagelanguages>
+				<exportpagefiles>ページのリンク先ファイルのエクスポート</exportpagefiles>
+			</exportdata>
+			<languages>
+				<deleteprefix>	言語を削除しますか</deleteprefix>
+				<deletesuffix>	?</deletesuffix>
+				<heading>言語コードの編集</heading>
+				<info>			Web サイトが使用している言語を定義します。</info>
+				<languagekey>	言語キー</languagekey>
+				<languagename>	名前</languagename>
+				<locale>		ロケール</locale>
+			</languages>
+			<plugin>
+				<heading>プラグイン マネージャ</heading>
+				<info>以下のリストは、EPiServer でプラグインとして登録されたコンポーネントを表示します。</info>
+				<displayname see="/admin/plugin/heading"/>
+				<plugintab>プラグイン</plugintab>
+				<overviewtab>概要</overviewtab>
+				<guipluginattribute>ユーザー インターフェース</guipluginattribute>
+				<editorpluginattribute>エディタ</editorpluginattribute>
+				<subscriptionpluginattribute>サブスクリプション</subscriptionpluginattribute>
+				<pagedefinitiontypepluginattribute>プロパティ タイプを自動登録中です</pagedefinitiontypepluginattribute>
+				<scheduledpluginattribute>スケジューラーのジョブ管理</scheduledpluginattribute>
+				<workflowpluginattribute>ワークフローのステップ タイプ</workflowpluginattribute>
+			</plugin>
+			<pluginlist>
+				<enabled>使用可能</enabled>
+				<name>名前の表示</name>
+				<description>説明</description>
+				<license>ライセンス交付</license>
+				<plugin>プラグイン</plugin>
+			</pluginlist>
+			<pluginadminsettings>
+				<nosettings>このプラグインには設定がありません</nosettings>
+			</pluginadminsettings>
+			<plugingrouplist>
+				<name>名前</name>
+				<description>説明</description>
+				<version>バージョン:</version>
+				<company>会社</company>
+				<license>ライセンス</license>
+				<moreinfo>詳細情報</moreinfo>
+			</plugingrouplist>
+			<pluginedit>
+				<heading>プラグインの編集</heading>
+				<info></info>
+				<configurationtab>構成</configurationtab>
+				<overviewtab>概要</overviewtab>
+			</pluginedit>
+			<pluginlicense>
+				<heading>ライセンス情報</heading>
+				<info></info>
+				<tabinfo>情報</tabinfo>
+				<tabinstallnew>新規ライセンスのインストール</tabinstallnew>
+				<licenserestrictions>制約事項</licenserestrictions>
+				<selectfile>新規ライセンス ファイルの選択</selectfile>
+				<uploadlicense>ライセンスのアップロードおよび検査</uploadlicense>
+				<newfileinstalled>新規ライセンス ファイルはインストールされています</newfileinstalled>
+				<licenseid>ライセンス ID</licenseid>
+			</pluginlicense>
+			<filemanagement>
+				<displayname>ファイルの管理</displayname>
+				<description>ファイルおよびフォルダのアップロードおよび管理を行います。</description>
+			</filemanagement>
+			<menutabs>
+				<admin>管理</admin>
+				<config>構成</config>
+				<pagetypes see="/pagetypes/common/property[@name='PageTypeName']/caption"/>
+			</menutabs>
+			<menuheadings>
+				<systemadministration see="/admin/menu/systemadministration"/>
+				<systemconfiguration>システム構成</systemconfiguration>
+				<accessrights see="/admin/menu/security"/>
+				<scheduledjobs see="/admin/menu/scheduledjobs"/>
+				<noscheduledjobstext>スケジュールされたジョブは定義されていません</noscheduledjobstext>
+				<security>セキュリティ</security>
+				<tools see="/admin/menu/plugins"/>
+				<notoolstext>ツールは定義されていません</notoolstext>
+				<toolsettings>ツール設定</toolsettings>
+				<notoolsettingstext>ツール設定は定義されていません</notoolsettingstext>
+				<generalsettings>一般的な設定</generalsettings>
+				<managepagetypes>ページ タイプの管理</managepagetypes>
+				<pagetypes see="/admin/menu/pagetype"/>
+				<nopagetypestext>ページ タイプは定義されていません</nopagetypestext>
+				<pagetypesorting>
+					<sortbyindex>インデックスでソート</sortbyindex>
+					<sortalphabetically>アルファベット順にソート</sortalphabetically>
+				</pagetypesorting>
+			</menuheadings>
+			<convertformtoxform>
+				<displayname>変換フォーム</displayname>
+				<description>フォームを XForms フォームに変換します</description>
+				<heading see="/admin/convertformtoxform/displayname"/>
+				<availableforms>変換するフォームを選択します</availableforms>				
+				<availablexforms>変換済みフォーム</availablexforms>
+				<convert>変換</convert>
+				<converted>変換済みフォーム: </converted>
+				<errorconverting>変換エラー</errorconverting>
+			</convertformtoxform>
+			<contentmirroringmanager>
+				<displayname>ミラーリング サービス</displayname>
+				<description/>
+			</contentmirroringmanager>
+			<contentmirroring>
+				<displayname see="/admin/contentmirroring/heading"/>
+				<description>システムで定義されたチャネル。</description>
+				<heading>ミラーリングの管理</heading>
+				<info>EPiServer から外部システムにコンテンツをミラーリングするコンテンツ チャネルを定義します。</info>
+				<name>チャネル名</name>
+        <order>実行順序</order>
+        <moveup>上へ移動</moveup>
+        <movedown>下へ移動</movedown>
+			</contentmirroring>
+			<contentmirroringview>
+				<heading>宛先の概要</heading>
+				<info>このチャネル用に定義された宛先の概要。</info>
+				<name>宛先</name>
+				<reset>状態のリセット</reset>
+				<createdestination>宛先の作成</createdestination>
+				<continuereset>リセットの続行</continuereset>
+				<resetwarning1>このアクションを続行する場合、すべてのページが作成済みとして表示されます。</resetwarning1>
+				<resetwarning2>このアクションにより、宛先にミラーリングされていない項目のいずれかが失われます。</resetwarning2>
+				<lastchanges>この変更が適用された最終時刻</lastchanges>
+				<noaction>変更が適用されませんでした</noaction>
+				<queuelength>キューの長さ</queuelength>
+				<laststatus>最終状況</laststatus>
+				<lastexecution>最終実行</lastexecution>
+				<editqueue>キューの編集</editqueue>
+				<editmappings>マッピング</editmappings>
+				<settingslocked>ミラーリング ジョブが現行設定ですでに実行されているため、このチャネルおよび宛先の設定はロックされています。 ミラーリングが正しく実行されるためには、以下のすべてのジョブに同一の設定が必要です。 [状態のリセット] をクリックして直前のジョブについての情報をリセットすることにより、設定を変更します。</settingslocked>
+				<errorsamechannelname>チャネル名 "{0}" はすでに別のチャネルに使用されています</errorsamechannelname>
+				<title>チャネル "{0}" の宛先</title>
+				<type>ターゲット タイプ</type>
+				<xmlmirroring>XML</xmlmirroring>
+				<htmlmirroring>HTML</htmlmirroring>
+				<pagemirroring>EPiServer</pagemirroring>
+			</contentmirroringview>
+			<contentpublisheredit>
+				<tabsettings>情報</tabsettings>
+				<tabqueue>キュー</tabqueue>
+				<heading>宛先</heading>
+				<info>チャネルから送信される変更の受信先を定義します。</info>
+				<name>名前</name>
+				<remotesite>リモート サイト</remotesite>
+				<topagelink>宛先のルート ページ</topagelink>
+				<selecttype>宛先タイプの選択</selecttype>
+				<instantpublish>ページの発行</instantpublish>
+				<targetdirectory>サーバーのターゲット ディレクトリ</targetdirectory>
+				<xmloutputstyle>出力の作成</xmloutputstyle>
+				<flatfiles>ページ当たり 1 ファイル</flatfiles>
+				<sitemap>グローバル サイト マップ</sitemap>
+				<changelog>変更ログ ファイル</changelog>
+				<xslfile>XSL テンプレートのパス</xslfile>
+				<rootdir>相対ルート パス</rootdir>
+				<verifychecksum>すべてのページの検査合計を毎回確認します</verifychecksum>
+				<defaultdocument>ファイルのデフォルト名</defaultdocument>
+				<usedirectoryweblinks>リンクにファイル名を含めないでください</usedirectoryweblinks>
+				<pathnameproperty>フォルダ名の以下のプロパティを使用します</pathnameproperty>
+				<applyfilterontemplates>変更フィルタの適用</applyfilterontemplates>
+				<linktootherchannels>受信先が他のチャネルからリンクを取り出すことを許可します</linktootherchannels>
+				<queueid>キュー番号</queueid>
+				<queuecreated>項目が作成されました</queuecreated>
+			</contentpublisheredit>
+			<contentmirroringedit>
+				<tabinformation>情報</tabinformation>
+				<tabfilter>プロパティ フィルタ</tabfilter>
+				<heading>ミラーリング設定</heading>
+				<info>このチャネルの設定を定義します。</info>
+				<name>名前</name>
+				<frompagelink>開始ページ</frompagelink>
+				<automatic>転送タイプ</automatic>
+				<activatefilter>フィルタのアクティブ化</activatefilter>
+				<filterpropertyname>プロパティ名でフィルタリング</filterpropertyname>
+				<filterpropertyvalue>プロパティ値でフィルタリング</filterpropertyvalue>
+				<automaticapproval>変更を自動的に承認します</automaticapproval>
+				<runasanonymoususer>匿名ユーザーとして実行します</runasanonymoususer>
+				<impersonateusername>ユーザー名</impersonateusername>
+				<impersonatepassword>パスワードの設定</impersonatepassword>
+				<language>言語</language>
+				<channeltype>ミラー タイプ</channeltype>
+				<includeroot>開始ページを組み込みます</includeroot>
+				<types>
+					<tree>ツリー</tree>
+					<list>リスト</list>
+					<search>検索 (更新済みページのみ)</search>
+				</types>
+				<impersonatedomain>ドメイン</impersonatedomain>
+				<globalizationsupport>グローバリゼーションのサポート</globalizationsupport>
+				<noglobalizationsupport>非アクティブ (原語がグローバリゼーション サポートなしに、宛先にミラーリングされます)</noglobalizationsupport>
+				<alllanguages>アクティブ (すべての言語がグローバリゼーション サポートを使用して、宛先にミラーリングされます)</alllanguages>
+				<singlelanguage> &quot;{0}&quot; のみが、グローバリゼーション サポートなしに宛先にミラーリングされます</singlelanguage>
+			</contentmirroringedit>
+			<wsrpadmin>
+				<heading>WSRP ソース</heading>
+				<info>使用可能な WSRP ソースを定義します。</info>
+				<displayname see="/admin/wsrpadmin/heading"/>
+				<description see="/admin/wsrpadmin/info"/>
+				<detailederror>詳細のエラー説明</detailederror>
+			</wsrpadmin>
+			<filebrowser>
+				<heading>ファイルの選択</heading>
+			</filebrowser>    
+			<confirmlanguagespecific>
+				<title>警告</title>
+				<heading>値は削除されます</heading>
+				<info>原語以外の言語で存在するページのプロパティ値が削除されます。</info>
+				<pagelist>影響を受けるページ ({0})</pagelist>
+			</confirmlanguagespecific>
+			<editlanguagebranches>
+				<heading>Web サイト言語の管理</heading>
+				<info>Web サイト上で訪問者が使用できる言語を定義します。</info>				
+				<namecaption>名前</namecaption>
+				<idcaption>言語コード</idcaption>
+				<enabledcaption>使用可能</enabledcaption>
+				<iconcaption>アイコン</iconcaption>
+				<addlanguage>言語の追加</addlanguage>
+				<defaultlanguagebranch>デフォルト言語</defaultlanguagebranch>
+			</editlanguagebranches>
+			<editlanguagebranch>
+				<headingnew>新規 Web サイト言語の作成</headingnew>
+				<info>Web サイト上で訪問者が使用できる新規 Web サイトの言語を定義します。</info>
+				<namecaption>名前</namecaption>
+				<idcaption>言語コード</idcaption>
+				<iconcaption>アイコン</iconcaption>
+				<sortindexcaption>ソート インデックス</sortindexcaption>
+				<enabledcaption>使用可能</enabledcaption>
+				<cantsave>Web サイト言語を保存できません。</cantsave>
+				<cantsavelanguagebranchexists>選択された言語コード '{0}' の Web サイト言語はすでに存在します。</cantsavelanguagebranchexists>
+				<urlsegmentcaption>Web アドレスのプレフィックス</urlsegmentcaption>
+				<warningchangelanguage>警告! 言語コードは、リンクおよび代替言語など、システムの複数の場所で使用されます。 システムの初期構成時にのみこの設定を変更してください。</warningchangelanguage>
+			</editlanguagebranch>
+			<contentmirroringmapping>
+				<title>&quot;{0}&quot; のマッピングのミラーリング</title>
+				<pagemapping>ページのマッピング</pagemapping>
+				<foldermapping>フォルダのマッピング</foldermapping>
+				<sourceid>ソース ID</sourceid>
+				<targetid>ターゲット ID</targetid>
+				<pagename>ページ名</pagename>
+				<delete>削除</delete>
+				<deleteall>すべてのマッピングの削除</deleteall>
+				<message>このリストは、ソースのサイトとリモート サイトの間でページとフォルダ ID をマッピングする方法を表示します。 マッピングの削除により、ターゲット ページまたはフォルダがソースから切断されます。 後続のミラーリング更新により、ターゲット ページまたはフォルダ、およびフォルダ コンテンツのクリーンなコピーが再作成されます。</message>
+				<deletemessage>このマッピングを削除してよろしいですか?</deletemessage>
+				<deleteallmessage>このチャネルのすべてのマッピングを削除してよろしいですか?</deleteallmessage>
+			</contentmirroringmapping>
+			<contentmirroringqueue>
+				<title>&quot;{1}&quot; の宛先 &quot;{0}&quot; のミラーリング キュー</title>
+				<info>ミラーリング サービスが次回実行されるときにミラーリングされるページをリストします。</info>
+				<warning>警告! Web サイトがミラーリングされるときに、パッケージから削除されたページは組み込まれません。 これにより、今後のミラーリングに影響が及ぶ可能性があります。 ミラーリング サービスを次回実行するときにパッケージのすべてのページを組み込む場合は、[削除] をクリックしないでください。</warning>
+				<packagetitle>パッケージ</packagetitle>
+				<created>作成済み</created>
+				<type>タイプの変更</type>
+				<pagename>ページ名</pagename>
+				<pageid>ページ ID</pageid>
+				<deletepackage>パッケージの削除</deletepackage>
+				<deletewarningi0>キューから変更を削除してよろしいですか?</deletewarningi0>
+				<deletewarningi1>宛先サイトで移動および削除操作を手動で適用する必要があります</deletewarningi1>
+				<deletewarningi2>更新済みおよび作成済みのページを再公開する必要があります</deletewarningi2>
+			</contentmirroringqueue>
+			<webpartadmin>
+				<heading>Web パーツの登録</heading>
+				<info>使用可能な Web パーツを定義します</info>
+				<name>名前</name>
+				<description>説明</description>
+				<control>制御</control>
+				<producer>製作者</producer>
+				<portlet>ポートレット</portlet>
+				<install>Web パーツのインストール</install>
+				<consume>ポートレットの使用</consume>
+				<displayname see="/admin/webpartadmin/heading"/>
+			</webpartadmin>
+			<webpartadminedit>
+				<heading>"{0}" の登録を変更する</heading>
+				<headinginstall>Web パーツのインストール</headinginstall>
+				<headingconsume>ポートレットの使用</headingconsume>
+				<info>Web パーツのプロパティを設定します</info>
+				<infoconsume>ポートレットのプロパティを設定します</infoconsume>
+				<name>名前</name>
+				<description>説明</description>
+				<control>制御</control>
+				<producer>製作者</producer>
+				<portlet>ポートレット</portlet>
+				<parameters>パラメータ</parameters>
+				<parametername>名前</parametername>
+				<parametervalue>値</parametervalue>
+				<parametertype>タイプ</parametertype>
+				<requiredfield>値を以下に入力する必要があります。</requiredfield>
+				<emptyvalueerror>パラメータ値を入力する必要があります。</emptyvalueerror>
+				<typeconversionerror>パラメータ値を選択されたタイプに変換できませんでした</typeconversionerror>
+				<nameexists>'{0}' という名前の Web パーツはすでに存在します</nameexists>
+        <resolvecontrol>コントロールの解決</resolvecontrol>
+        <typenameresolved>コントロールが解決されました。</typenameresolved>
+        <typenameblank>タイプ名または仮想パスを入力する必要があります。</typenameblank>
+        <virtualpathloadfailed>仮想パスをロードできませんでした。</virtualpathloadfailed>
+        <assemblyloadfailed>アセンブリのロード中にエラーが発生しました。</assemblyloadfailed>
+        <typenamenotfound>指定されたタイプ名を持つコントロールは見つかりませんでした。</typenamenotfound>
+        <ambiguoustypename>指定されたタイプ名はあいまいです。 名前は以下の修飾名に一致します。</ambiguoustypename>
+        <invalidcontrol>指定したコントロールをロードできません。</invalidcontrol>
+			</webpartadminedit>
+		</admin>
+		<personalization>
+			<task>
+				<owner>				割り当て者</owner>
+				<assignedto>		割り当て先</assignedto>
+				<reminder>			通知</reminder>
+				<changed>			更新済み</changed>
+				<statusrejected>		リジェクト</statusrejected>
+				<statuscompleted>		完了</statuscompleted>
+				<statusinprogress>		進行中</statusinprogress>
+				<statusnotstarted>		新規</statusnotstarted>
+
+				<timeout>				期限が過ぎました</timeout>
+				<buttonreject>			リジェクト</buttonreject>
+				<buttoncompleted>		完了</buttoncompleted>
+					
+				<subject>				件名</subject>
+				<description>			説明</description>
+				<status>				状況</status>
+				<comments>				コメント</comments>
+				<duedate>				期限</duedate>
+				<assignto>				割り当て先</assignto>
+				<typenewpage>			新規ページの作成</typenewpage>
+				<typeapprovepage>		既存のページ</typeapprovepage>
+				<typeurl>				URL の表示</typeurl>
+				<typeautomail>			メールでレポートを送信する</typeautomail>
+				<buttoncontinue>		続行</buttoncontinue>
+				<createdby>				作成者</createdby>
+			</task>
+		</personalization>
+		<labels>
+			<description>			説明</description>
+		</labels>
+		<filemanagernavigator>
+			<startingpoints>開始点</startingpoints>
+			<myfavorites>お気に入り</myfavorites>
+			<uploaddir see="/util/linkeditor/uploaddir"/>
+			<currentpage see="/util/linkeditor/pageuploaddir"/>
+			<folders>フォルダ</folders>
+			<show>表示</show>
+			<hide>非表示</hide>
+			<favoritesinfo>右側のリストにあるいずれかのフォルダの右クリック メニューで、お気に入りのフォルダを追加します</favoritesinfo>			
+		</filemanagernavigator>
+		<filemanager>
+			<invalidcharacters>名前の文字が無効です</invalidcharacters>
+			<path>パス</path>
+			<pagefoldernotcreated>このページのフォルダは作成されませんでした。フォルダを今すぐ作成しますか?</pagefoldernotcreated>
+			<directorytools>
+				<create>フォルダの作成</create>
+				<createtooltip>新規フォルダの作成</createtooltip>
+				<rename>名前変更</rename>
+				<renametooltip>選択したファイルまたはフォルダの名前変更</renametooltip>
+				<delete>削除</delete>
+				<deletetooltip>選択したファイルまたはフォルダの削除</deletetooltip>
+				<addfile>ファイルの追加</addfile>
+				<addfiletooltip>新規ファイルの追加</addfiletooltip>
+				<security>アクセス権限</security>
+				<securitytooltip>アクセス権限の変更</securitytooltip>
+				<search>検索</search>
+				<searchtooltip>ファイルの検索</searchtooltip>
+				<viewthumbnails>サムネールの表示</viewthumbnails>
+				<viewthumbnailstooltip>すべてのイメージをサムネールとして表示</viewthumbnailstooltip>
+				<gouptooltip>上</gouptooltip>
+			</directorytools>
+			<dhtmlsupport>
+				<viewfile>ファイル要約の表示</viewfile>
+				<openfile>ファイルを開く</openfile>
+				<renamefile>ファイルの名前変更</renamefile>
+				<editsummary>ファイル要約の編集</editsummary>
+				<createdirectory>フォルダの作成</createdirectory>
+				<renamedirectory>フォルダの名前変更</renamedirectory>
+				<directorysecurity>アクセス権限の編集</directorysecurity>
+				<deleteselection>削除</deleteselection>
+				<cutselection>切り取り</cutselection>
+				<copyselection>コピー</copyselection>
+				<pasteselection>貼り付け</pasteselection>
+				<addfavorite>お気に入りの追加</addfavorite>
+				<removefavorite>お気に入りの除去</removefavorite>
+				<uploadfile see="/filemanager/directorytools/addfile"/>
+				<uploadmultiplefiles>複数ファイルの追加</uploadmultiplefiles>
+				<renameselection see="/filemanager/directorytools/rename"/>
+				<checkinselection>チェックイン</checkinselection>
+				<checkoutselection>チェックアウト</checkoutselection>
+				<undocheckoutselection>チェックアウトのキャンセル</undocheckoutselection>
+				<versionlist>バージョン履歴</versionlist>
+				<addversion>新規バージョンの作成</addversion>
+				<editinoffice>Office で編集する</editinoffice>
+			</dhtmlsupport>
+			<filetools>
+				<rename>名前変更</rename>
+				<renametooltip>現行ファイルの名前変更</renametooltip>
+				<delete>削除</delete>
+				<deletetooltip>現行ファイルの削除</deletetooltip>
+				<replacefile>ファイルの置き換え</replacefile>
+				<replacefiletooltip>現行ファイルを新規ファイルに置き換えます</replacefiletooltip>
+				<editfilesummary>ファイル要約の編集</editfilesummary>
+				<editfilesummarytooltip>現行ファイルのファイル要約を編集します</editfilesummarytooltip>
+				<open>開く</open>
+				<opentooltip>現行ファイルを開きます</opentooltip>
+			</filetools>
+			<browse>
+				<goback>戻る</goback>
+				<name>名前</name>
+				<size>サイズ</size>
+				<modified>変更済み</modified>
+				<created>作成済み</created>
+				<thumbnail>サムネール</thumbnail>
+				<emptyfolder>このフォルダが空です。</emptyfolder>
+				<checkedoutby>チェックアウト者</checkedoutby>
+			</browse>
+			<createdirectory>
+				<title>フォルダの作成</title>
+				<name>フォルダ名</name>
+				<alreadyexists>フォルダ はすでに存在します</alreadyexists>
+			</createdirectory>
+			<deleteselection>
+				<title>&quot;{0}&quot; の削除</title>
+				<confirmmultidelete>{0} 個のオブジェクトが選択されました。これらを削除してよろしいですか?</confirmmultidelete>
+				<confirmfiledelete>このファイルを削除してよろしいですか?</confirmfiledelete>
+				<confirmdirectorydelete>このフォルダを削除してよろしいですか?</confirmdirectorydelete>
+				<warningnotempty>警告! フォルダは空ではありません。</warningnotempty>
+				<warningmultinotempty>警告! 一部の選択されたフォルダは空ではありません。</warningmultinotempty>
+			</deleteselection>
+			<editfilesummary>
+				<title>&quot;{0}&quot; のファイル要約の編集</title>
+				<inputtitle>タイトル</inputtitle>
+				<inputsubject>説明</inputsubject>
+				<inputauthor>作成者</inputauthor>
+				<inputcategory>カテゴリ</inputcategory>
+				<inputcomments>コメント</inputcomments>
+				<inputkeywords>キーワード</inputkeywords>		
+			</editfilesummary>
+			<filereferencelist>
+				<gotopage>ページに進む</gotopage>
+				<xlinkstoy>{0} リンク先 {1}</xlinkstoy>
+				<referencewarning>続行する場合は、以下のリンクが中断します</referencewarning>
+				<noreferences>参照がありません</noreferences>
+			</filereferencelist>
+			<pasteselection>
+				<title>&quot;{0}&quot; の貼り付け</title>
+				<confirmcopy>{0} 個のオブジェクトが選択されました。 現行フォルダにこれらをコピーしますか?</confirmcopy>
+				<confirmmove>{0} 個のオブジェクトが選択されました。 現行フォルダにこれらを移動しますか?</confirmmove>
+				<alreadyexists>アクションがキャンセルされました。 一部のオブジェクトは現行フォルダにすでに存在します</alreadyexists>
+				<cannotcopyinsideitselfmessage>以下のフォルダをそれ自体に貼り付けることができないため、アクションがキャンセルされました。</cannotcopyinsideitselfmessage>
+				<cannotmoveinsideitselfmessage>切り取られたフォルダをそれ自体に移動できないため、アクションがキャンセルされました。</cannotmoveinsideitselfmessage>
+			</pasteselection>
+			<renamedirectory>
+				<title>&quot;{0}&quot; の名前変更</title>
+				<newname>新規フォルダ名を選択します</newname>		
+			</renamedirectory>
+			<renamefile>
+				<title>&quot;{0}&quot; の名前変更</title>
+				<newname>新規ファイル名を選択します</newname>
+				<alreadyexists>この名前のファイルはすでに存在します</alreadyexists>
+			</renamefile>
+			<viewfile>
+				<linkingpages>ページのリンク</linkingpages>
+				<backtofolder>フォルダに戻る</backtofolder>
+			</viewfile>
+			<uploadfile>
+				<title>ファイルの追加</title>
+				<selectfile>追加するファイルを選択します</selectfile>
+				<confirmreplacefile>この名前のファイルはすでに存在します。 このファイルを置き換えますか?</confirmreplacefile>
+			</uploadfile>
+			<directorysecurity>
+				<title>&quot;{0}&quot; のアクセス権限の変更</title>
+				<inheritsecurity>親フォルダから許可を継承します</inheritsecurity>
+			</directorysecurity>
+			<search>
+				<locations>フォルダ</locations>
+				<query>テキストの検索</query>
+				<currentdirectory>現行フォルダ</currentdirectory>
+				<numberofhits>ヒット数</numberofhits>
+				<modifiedfrom>以後の変更</modifiedfrom>
+				<modifiedto>以前に変更</modifiedto>
+				<filename>ファイル名:</filename>
+				<filedirectory>フォルダ</filedirectory>
+				<searchlimited>検索結果は上位 {0} 件の一致に制限されます</searchlimited>
+				<filenamepattern>ファイル名:</filenamepattern>
+				<allpagefolders>ページ フォルダ</allpagefolders>
+				<viewfileinfo see="/filemanager/dhtmlsupport/viewfile"/>
+				<gotodirectory>フォルダに進む</gotodirectory>
+				<advancedoptions>詳細オプション</advancedoptions>
+			</search>
+			<newpage>新規ページ</newpage>
+			<checkinselection>
+				<title>ファイルのチェックイン</title>
+				<currentfile see="/filemanager/search/filename"/>
+				<selectversion>新規バージョンを選択します</selectversion>
+				<comments>コメント</comments>
+				<filexofy>{1} のファイル {0} </filexofy>
+				<filenotcheckedout>ファイルがチェックアウトされていません</filenotcheckedout>
+			</checkinselection>
+			<addversion>
+				<title>新規バージョンの作成</title>
+			</addversion>
+			<versionlisttoolbar>
+				<restore>バージョンの復元</restore>
+				<restoretooltip>このバージョンに復元します</restoretooltip>
+				<delete>削除</delete>
+				<deletetooltip>バージョンの削除</deletetooltip>
+				<addversion>バージョンの作成</addversion>
+				<addversiontooltip>新規バージョンの作成</addversiontooltip>
+				<download>ダウンロード</download>
+				<downloadtooltip>バージョンのダウンロード</downloadtooltip>
+				<copyshortcut>ショートカットのコピー</copyshortcut>
+			</versionlisttoolbar>
+			<versionlist>
+				<title>バージョン履歴: {0}</title>
+				<version>バージョン:</version>
+				<created see="/filemanager/browse/created"/>
+				<createdby>作成者</createdby>
+				<size see="/filemanager/browse/size"/>
+				<comments>コメント</comments>
+			</versionlist>
+      <unauthorizedpagefoldercreation>このページのページ フォルダを作成する許可が与えられていません。</unauthorizedpagefoldercreation>
+			</filemanager>
+		<clienttools>
+			<wizard>
+				<selectpagelanguage>ページ言語を選択します</selectpagelanguage>
+				<createpage>このドキュメントの基になるページ タイプを選択します。</createpage>
+				<editpage>選択されたページ タイプは {0}です。 ページ名や公開日付などの情報を入力します。</editpage>
+				<doneblock1>完了!</doneblock1>
+				<doneblock2>[保存] および[表示] を選択し、このウィザードを終了してこのページのプレビューを作成します。</doneblock2>
+				<nosupport>拡張子 &quot;{0}&quot; のサポートが構成されていません</nosupport>
+				<noextension>ファイル &quot;{0}&quot; には拡張子がなく、特定できません。</noextension>
+			</wizard>
+			<preview>
+				<tooltipclose>プレビューを閉じ、変更を削除します</tooltipclose>
+			</preview>
+			<installstatus>
+				<heading>クライアント ツール</heading>
+				<registersite>登録サイト</registersite>
+				<componentname>コンポーネント</componentname>
+				<componentdescription see="/labels/description"/>
+				<componentversion>バージョン</componentversion>
+				<componentstatus>状況</componentstatus>
+				<statusinstalled>コンポーネントがインストールされています</statusinstalled>
+				<statusnotinstalled>コンポーネントがインストールされていません</statusnotinstalled>
+				<statusloading>状況の確認中...</statusloading>
+				<upgrade>アップグレード</upgrade>
+				<install>インストール</install>
+				<installversion>バージョン {0} のインストール</installversion>
+				
+				<officeaddin>
+					<noaccess>このアドインのインストールおよび使用を可能にするには、特定機能の許可が必要です。 管理者がこれらの許可を割り当てることができます。</noaccess>
+					<heading>Microsoft Office アドイン</heading>
+					<intro>このアドインにより、Microsoft Word、Microsoft Excel および Microsoft PowerPoint 内の情報を EPiServer に公開することができます。</intro>
+					<installation>インストール</installation>
+					<activated>この Web サイトはご使用のコンピュータからの公開用にアクティブ化されました</activated>
+					<notactivated>この Web サイトはご使用のコンピュータからの公開用にアクティブ化されませんでした</notactivated>
+					<confirmactivate>次のサイトへの公開をアクティブ化しますか?</confirmactivate>
+					<confirmdeactivate>次のサイトへの公開を非アクティブ化しますか?</confirmdeactivate>
+					<needssave>EPiServer にドキュメントを公開する前に、それを保存する必要があります。 今すぐドキュメントを保存しますか?</needssave>
+				</officeaddin>
+
+				<components>
+					<heading>コンポーネント</heading>
+					<intro>EPiServer の一部の機能では、ご使用のローカル コンピュータに EPiServer Client Components をインストールすることが必要です。 以下のリストは利用可能なコンポーネントとそれらの状況を表示します。</intro>
+					<currentversion>{1} のバージョン {0} を使用しています</currentversion>
+					<componentshelltools>
+						<heading>クライアント サポート機能</heading>
+						<description>EPiServer と通信するためのサポート機能 (例：Microsoft Office アドインで使用される機能)。</description>
+					</componentshelltools>			
+					<componentspellchecker>
+						<heading>スペルチェッカー。Microsoft Office サポート</heading>
+						<description>エディタによる Microsoft Word スペルチェッカーの使用を可能にするコンポーネント。</description>	
+					</componentspellchecker>
+					<componentexcelexport>
+						<heading>Excel へのエクスポート。Microsoft Office サポート</heading>
+						<description>フォームのデータを Microsoft Excel にエクスポートできるコンポーネント。</description>
+					</componentexcelexport>
+					<componentmultiupload>
+						<heading>拡張ファイル アップロード</heading>
+						<description>拡張ファイル アップロードのサポートを使用可能にするコンポーネント (例：ドラッグ アンド ドロップ)。</description>
+					</componentmultiupload>
+				</components>
+			</installstatus>
+		</clienttools>	
+			
+		<pagetypes>
+			<common>				
+				<property name="PageName">
+					<caption>名前</caption>
+					<help>メニューの見出しなどに使用されるページの名前。</help>
+				</property>
+				<property name="PageLink">
+					<caption>	ページ ID</caption>
+					<help>		ページの固有 ID を指定します</help>
+				</property>
+				<property name="PageChangedOnPublish">
+					<caption>	ページを変更済みとしてマークを付ける</caption>
+					<help>		このボックスを選択すると、ページが変更された日付が更新されます。 これは、ページをサブスクリプションに組み込む場合などに必要です。</help>
+				</property>
+				<property name="PageStartPublish">
+					<caption>	公開の開始</caption>
+					<help>		この日付でページを公開します。 このフィールドが空のままの場合、[公開] ボタンをクリックするとすぐにページが公開されます。</help>
+				</property>
+				<property name="PageStopPublish">
+					<caption>	公開の停止</caption>
+					<help>		この日付までのページを公開します。 このフィールドが空の場合、手動でページを削除して、ページが公開されるのを停止する必要があります。</help>
+				</property>
+				<property name="PageDelayedPublish">
+					<caption>	今後の公開</caption>
+					<help>		このボックスを選択して、&quot;公開の開始&quot; 日にこのバージョンを自動的に公開します。</help>
+				</property>
+				<property name="PageChildOrderRule">
+					<caption>	ソート順</caption>
+					<help>		このページの子を表示する順序を定義します。</help>
+				</property>
+				<property name="PagePeerOrder">
+					<caption>	ソート インデックス</caption>
+					<help>		このページのインデックス番号を整数で指定します。 このページの親に &quot;ソート インデックス順&quot; を選択すると、最下位のインデックスを持つページが先頭に表示されます。</help>
+				</property>
+				<property name="PageVisibleInMenu">
+					<caption>	ページをメニューに表示する</caption>
+					<help>		ページをメニューに表示する場合にこのボックスを選択します。 このボックスが選択されていない場合、ページのみがリストに表示されます。</help>
+				</property>
+				<property name="PageFrameID">
+					<caption>	ターゲット フレーム:</caption>
+					<help>		リンクを開く方法を決定します (&lt;a href&gt; のターゲット)。</help>
+				</property>
+				<property name="PageArchiveLink">
+					<caption>	ページにアーカイブする</caption>
+					<help>		&quot;公開の停止日&quot; が過ぎると、このページを特別の場所にアーカイブできます。 アーカイブとして使用されるページを指定します。</help>
+				</property>
+				<property name="PageCreated">
+					<caption>	作成済み</caption>
+					<help>		ページが作成された日付。</help>
+				</property>
+				<property name="PageChanged">
+					<caption>	変更済み</caption>
+					<help>		ページが変更済みのマークが付けられた日付。</help>
+				</property>
+				<property name="PageTypeName">
+					<caption>	ページ タイプ</caption>
+					<help>		ページ タイプの数。</help>
+				</property>
+				<property name="PageExternalURL">
+					<caption>	このページの簡易アドレス</caption>
+					<help>		Web サイトのルートからパスを指定します (例：&quot;/products&quot;)。 このページには、&quot;?&quot; やその他の記号のない簡易アドレスでアクセスできるようになります。 訪問者が www.foretaget.se/products と入力すると、ページが表示されます。 </help>
+				</property>
+				<property name="PageCategory">
+					<caption>	カテゴリ</caption>
+					<help>		ページを接続するカテゴリを選択します。 </help>
+				</property>
+				<property name="PageShortcutType">
+					<caption>	リンク タイプ</caption>
+					<help>		どのタイプのリンクを作成するかを選択します。</help>
+				</property>
+				<property name="PageShortcutLink">
+					<caption>	内部ショートカットまたはデータ フォームの取り出し</caption>
+					<help>		ページは別のページのコンテンツを開き、訪問者は構造内の該当のページに移動します。 /  このページは別のページのコンテンツを開き、構造内の現在の場所に置かれたままになります。</help>
+				</property>
+				<property name="PageLinkURL">
+					<caption>外部リンク</caption>
+					<help>このページはリンク先の外部ページまたはドキュメントのコンテンツと共に開きます。</help>
+				</property>
+				<property name="PageTargetFrame">
+					<caption>ターゲット フレーム:</caption>
+					<help>リンクを開く方法を決定します (&lt;a href&gt; のターゲット)。</help>
+				</property>
+				<property name="PageLanguageID">
+					<caption>言語エンコード</caption>
+					<help>デフォルトと異なる場合は、ページの言語エンコードを設定します</help>
+				</property>
+				<property name="PageURLSegment">
+					<caption>	Web アドレスのページ名</caption>
+					<help>		Web アドレスのページで使用されるショートカット名を割り当てます</help>
+				</property>							
+			</common>
+			<pagetype name="SysRoot">
+				<name>[編集] モードの [ようこそ] ページ</name>
+				<description>[編集] モードの最初のページ</description>
+			</pagetype>		
+			<pagetype name="SysRecycleBin"> 
+				<name>ごみ箱</name>
+				<description>Web サイト上のごみ箱のツリー構造</description>
+			</pagetype>			
+		</pagetypes>
+		<episerver.webparts>
+			<verbs>
+				<add>追加</add>
+				<apply>適用</apply>
+				<cancel>キャンセル</cancel>
+				<close>閉じる</close>
+				<configure>構成</configure>
+				<connect>接続</connect>
+				<delete>削除</delete>
+				<disconnect>切断</disconnect>
+				<edit>編集</edit>
+				<editwsrp>ポートレットの編集</editwsrp>
+				<export>エクスポート</export>
+				<help>ヘルプ</help>
+				<maximize>最大化</maximize>
+				<minimize>最小化</minimize>
+				<ok>OK</ok>
+				<restore>復元</restore>
+				<solo>単独</solo>
+				<view>表示</view>
+			</verbs>
+			<webcontrols>
+				<wsrp>
+					<portletcatalogpart>
+						<producer>製作者</producer>
+					</portletcatalogpart>
+				</wsrp>
+				<catalogzone>
+					<emptyzonetext>カタログ ゾーンにはカタログ パーツが含まれていません。</emptyzonetext>
+					<selecttargetzonetext>追加先:</selecttargetzonetext>
+					<headertext>カタログ ゾーン</headertext>
+					<instructiontext>参照するカタログを選択してください。</instructiontext>
+				</catalogzone>
+				<connectionszone>
+					<configureconnectiontitle>接続の構成</configureconnectiontitle>
+					<connecttoconsumerinstructiontext>この Web パーツのコンシューマ接続を作成します。</connecttoconsumerinstructiontext>
+					<connecttoconsumertext>コンシューマへの接続を作成します</connecttoconsumertext>
+					<connecttoconsumertitle>Web パーツへのデータの送信t</connecttoconsumertitle>
+					<connecttoproviderinstructiontext>この Web パーツのプロバイダ接続を作成します。</connecttoproviderinstructiontext>
+					<connecttoprovidertext>プロバイダへの接続を作成します</connecttoprovidertext>
+					<connecttoprovidertitle>Web パーツからのデータの取得</connecttoprovidertitle>
+					<consumersinstructiontext>現行 Web パーツの情報の送信先 Web パーツ。</consumersinstructiontext>
+					<consumertitle>コンシューマ</consumertitle>
+					<existingconnectionerrormessage></existingconnectionerrormessage>
+					<getfromtext>送信者:</getfromtext>
+					<gettext>取得:</gettext>
+					<headertext>接続ゾーン</headertext>
+					<instructiontext>現行 Web パーツの接続を管理します。</instructiontext>
+					<instructiontitle>{0} の接続を管理します</instructiontitle>
+					<newconnectionerrormessage></newconnectionerrormessage>
+					<noexistingconnectioninstructiontext>Web パーツに利用できるアクティブな接続はありません。 ページに互換性のある Web  パーツがある場合は、上記のリンクを選択して新規接続を作成できます。</noexistingconnectioninstructiontext>
+					<noexistingcinnectiontitle>アクティブな接続はありません</noexistingcinnectiontitle>
+					<providersinstructiontext>現行 Web パーツの情報の取得元 Web パーツ。</providersinstructiontext>
+					<providerstitle>プロバイダ</providerstitle>
+					<sendtext>送信:</sendtext>
+					<sendtotext>宛先:</sendtotext>
+				</connectionszone>
+				<displaymodedropdown>
+					<browse>参照</browse>
+					<design>設計</design>
+					<catalog>カタログ</catalog>
+					<edit>編集</edit>
+					<connect>接続</connect>
+				</displaymodedropdown>
+				<editorzone>
+					<emptyzonetext>編集ゾーンにはエディタ パーツが含まれていません。</emptyzonetext>
+					<errortext>1 つ以上のエディタ パーツの適用エラーがありました。</errortext>
+					<headertext>エディタ ゾーン</headertext>
+					<instructiontext>Web パーツのプロパティを変更してから [OK] または [適用] をクリックし、変更を適用します。</instructiontext>
+				</editorzone>
+				<scopedropdown>
+					<user>変更内容は公開されません</user>
+					<all>変更内容は共有されます</all>
+				</scopedropdown>
+				<extendedwebpartzone>
+					<emptyzonetext>RSS フィードをドラッグするか、またはこれをフォルダから選択して Web パーツをこのゾーンに追加します。</emptyzonetext>
+				</extendedwebpartzone>
+			</webcontrols>
+		</episerver.webparts>
+		<wsrp>
+			<portlets>
+				<wsrpinfoservicecontrol>
+				    <title>EPiServer Information Viewer Portlet</title>
+					<description>EPiServer の情報を表示します</description>
+					<shorttitle>情報ビューア</shorttitle>
+					<displayname>情報ビューア</displayname>
+					<keywords>EPiServer</keywords>
+					<keywords>情報</keywords>
+				</wsrpinfoservicecontrol>
+				<wsrpiframecontrol>
+					<title>EPiServer IFrame Portlet</title>
+					<description>IFrame の情報を表示します</description>
+					<shorttitle>IFrame ポートレット</shorttitle>
+					<displayname>IFrame</displayname>
+					<keywords>IFrame</keywords>
+				</wsrpiframecontrol>
+				<wsrprsscontrol>
+					<title>EPiServer IFrame Portlet</title>
+					<description>RSS ソースの情報を表示します</description>
+					<shorttitle>RSS ポートレット</shorttitle>
+					<displayname>RSS</displayname>
+					<keywords>RSS</keywords>
+					<keywords>Rich Site Summary</keywords>
+					<keywords>Real Simple Syndication</keywords>
+				</wsrprsscontrol>
+				<wsrpnewschannelcontrol>
+					<title>EPiServer News Channel Portlet</title>
+					<description>EPiServer のニュースを表示します</description>
+					<shorttitle>ニュース チャネル ポートレット</shorttitle>
+					<displayname>ニュース チャネル</displayname>
+					<keywords>ニュース</keywords>
+				</wsrpnewschannelcontrol>
+				<wsrpusersettingscontrol>
+					<title>EPiServer User Settings Portlet</title>
+					<description>ユーザー設定を構成します</description>
+					<shorttitle>ユーザー設定ポートレット</shorttitle>
+					<displayname>ユーザー設定</displayname>
+				</wsrpusersettingscontrol>
+			</portlets>
+		</wsrp>
+	</language>
+</languages>

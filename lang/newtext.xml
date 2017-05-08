@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languages>
+
+	<!-- 
+		Note! This file is only used internally by ElektroPost between public versions to add
+		new language specific resources that hasn't been translated to all languages yet.
+	-->
+  <language name="English" id="EN">
+  </language>
+  <language name="Svenska" id="SV">
+  </language>
+   
+</languages>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<editorcontent>
+	<contenttable numberofcolumns="1">
+		<contentrow height="40px" class="EPEdit-TitleFrame">
+			<contentcolumn colspan="*">
+				<contenthtml>
+					<img src="../Util/images/titleBar_logo.gif" />
+				</contenthtml>
+			</contentcolumn>
+		</contentrow>
+		<contentrow>
+			<contentcolumn>
+				<contentframe src="NewPage.aspx" name="EditPanel">
+					<framesettings>
+						<add key="SelectedTab" value="1" />
+						<add key="QuickEdit" value="true" />
+					</framesettings>
+				</contentframe>
+			</contentcolumn>
+		</contentrow>
+	</contenttable>
+</editorcontent>

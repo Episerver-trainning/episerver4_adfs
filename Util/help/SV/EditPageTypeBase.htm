@@ -1,0 +1,119 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjälp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/EditPageTypeBase.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English"></a>
+    <a href="EditPageTypeBase.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" ></a>
+	<a href="../NO/EditPageTypeBase.htm">
+	<img border="0" src="../EN/images/no.gif" alt="Norsk"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Skapa ny sidtyp</h1>
+    <p>Som administratör är det ganska ovanligt att du skapar nya sidtyper, det 
+	är i först hand en utvecklares uppgift. Varje sidtyp är kopplad till en 
+	aspx-sidan där alla funktionalitet på sidan programmeras. Om du inte har 
+	kunskap om hur du programmerar i ASP.NET bör du inte skapa nya sidtyper. Det 
+	som görs i adminläge är att man skapar de fält i formuläret som redaktörerna 
+	skall fylla i. </p>
+	<p>Så här för du för att skapa en ny sidtyp:</p>
+	
+		
+		<ol>
+			<li>Välj <i>Skapa ny sidtyp</i> på fliken <i>Sidtyp</i>.
+			</li>
+			<li>Ange ett namn på sidtyper i fältet namn. Den här 
+		texten styrs ofta av språkfilerna. </li>
+			<li>Ange en text som beskriver sidtypen. Beskrivning är 
+		den information som visas för redaktören när denna väljer att skapa en 
+		ny sida.</li>
+			<li>Ange sökvägen och filnamnet till den sidmall som ska 
+		skapa själva webbsidan åt besökaren. </li>
+			<li>Ange om sidtypen ska vara valbar i redigeraläge genom 
+		att markera <i>Tillgänglig i redigeraläge</i>.</li>
+			<li>Ange vilket indextal sidan ska ha i fältet <i>Sorteringsindex</i>. </li>
+			<li>Välj <i>Spara</i>.</li>
+	</ol>
+	</dir>
+	</font>
+    <h2>Information</h2>
+    <p>
+    <img border="0" src="images/admin_pagetypes_default.png" width="490" height="213"></p>
+    <h3>Namn</h3>
+    Här anges namnet på sidtypen.
+    <h3>Beskrivning</h3>
+    Här anges den text som beskriver sidtypen. Namn och beskrivning är den
+    information som visas för redaktören när denna väljer att skapa en ny sida.
+    Detta styrs dock ofta av språkfilerna i EPiServer.
+    <h3>Filnamn</h3>
+    Här anges sökvägen och filnamnet till den sida som skall skapa själva 
+    webbsidan åt besökaren. Detta namn bör du inte ändra eftersom varje mall är 
+    knuten till en viss sida för att den skall får rätt design och alla 
+    information skall komma med.<
+    <h3>Tillgänglig i redigeringsläge</h3>
+    Genom att markera alternativet Tillgänglig i redigeringsläge ger du 
+    redaktörerna möjlighet att skapa sidor baserade på denna sidtyp. I vissa 
+    lägen kan det vara lämpligt att dölja en del sidtyper för redaktörerna. Ett 
+    exempel kan vara mallen diskussionsforum. Det är ganska vanligt att man bara 
+    vill ha ett diskussionsforum på webbplatsen och inte flera på olika ställen. 
+    Då skapar man det enda forumet och döljer sedan sidtypen. Då kan 
+    redaktörerna inte komma åt mallen och därmed inte skapa flera.
+    <h3>Sorteringsindex</h3>
+    Sorteringsindex avgör hur de olika sidtyperna skall sorteras 
+    i listan när redaktören väljer att skapa en ny sida. Sidtypen med lägst 
+    sorteringsindex kommer först.
+    <h2>Standardvärden</h2>
+    För att hjälpa och underlätta för redaktörerna kan det vara 
+    lämpligt att använda sig av standardvärden. Du som administratör kan då 
+    anpassa en specifik sidtyp så att redaktören inte behöver förändra så mycket 
+    på sidan. Ett exempel kan vara att man vill att publiceringstiden skall 
+    fyllas i automatiskt. Man kan då bestämma hur lång tid efter skapandet av 
+    sidan som sidan skall börja publiceras.<p>
+<img border="0" src="images/admin_pagetypes_defaultvalu.png" width="490" height="299"></p>
+    <h2>Tillgängliga sidtyper</h2>
+    Här kan du välja vilken typ av sidor som skall finnas tillgängliga för 
+	redaktören när denna skapar en undersida under den sidtyp du nu redigerar. 
+	Välj alla sidtyper eller välj ut några specifika. Detta kan vara lämpligt 
+	speciellt under nyhetslista eller kalender. Undersidor till sidtypen kalender bör 
+    vara av sidtypen kalenderhändelse. Genom att endast ge redaktören tillgång 
+    till den sidtypen behöver de aldrig välja fel sidtyp.
+    <p>
+    <img border="0" src="images/admin_pagetypes_avaible.png" width="490" height="326"><h1>Redigera sidtyp</h1>
+    <p>För att redigera en sidtyp klickar du på sidtypens namn i vänsterkanten. 
+    Sidtypens olika egenskaper listas till höger. Genom att välja <i>Inställningar</i> 
+    kan du förändra huvudinformationen om sidtypen efter dina behov. 
+    Inställningar för varje sidtyp är uppdelad på tre flikar, Information, 
+    Standardvärden och Tillgängliga sidtyper.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Läs mer i <a href="Redaktorshandbok_online.pdf">
+    Redaktörshandboken</a> - Läs mer i <a href="Adminhandbok_online.pdf">
+    Administratörshandboken</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

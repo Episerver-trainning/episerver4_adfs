@@ -1,0 +1,196 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjälp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/EditForm.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="EditForm.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+	<a href="../NO/EditForm.htm">
+	<img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Forumlärsinställningar</h1>
+    <p>
+			<img border="0" src="images/formular_inst.png" width="255" height="388" align="right">Dialogrutan formulärinställningar används för att skapa formuläret. Här 
+	bygger du upp en tabell och lägger in de olika formulärfälten som du vill. 
+	Du har också möjlighet att välja vilka egenskaper respektive fält skall ha.
+	<p>
+	Högst upp i fönstret ställer du in hur du skall ta hand om informationen som 
+	skickas. 
+	<ol>
+		<li>I fältet <i>Namn på formulär</i> väljer du ett namn på formuläret. Om du kommer att 
+	skicka formuläret med e-post kommer namnet stå i Ämnesraden på det 
+	e-postmeddelande som skickas.</li>
+		<li>I fältet<i> Resultat av postning </i>anger du vad som skall hända när besökaren 
+	skickar in formuläret. Du kan välja att spara det i databas och/eller skicka 
+	det med e-post. Du kan också ange att skicka formuläret till en webbadress 
+	där du har en egen applikation som tar hand om informationen. </li>
+		<li>I fältet <i>Tacksidan</i> som visas vid svar kan du peka ut en sida som skall visas 
+	när en besökare skickat in sitt svar. Skapa sidan på sidmallen Vanlig 
+	webbsida och välj sedan sidan som tacksida.</li>
+		<li>Fältet <i>Formuläret kan postas anonymt</i> skall markeras om du vill att vem som 
+	helst på din webbplats skall kunna skicka in formuläret. Om det inte är det 
+	måste man vara inloggad på något sätt för att kunna svara. </li>
+		<li>Fältet <i>Samma person kan posta formuläret fler gånger</i> skall markeras om du 
+	vill att en och samma person (dator) skall kunna skicka formuläret fler 
+	gånger. Om detta alternativ lämnas tomt kommer man endast kunna skicka in en 
+	gång per dator. Detta fungerar med att en cookie placeras på besökarens 
+	dator. </li>
+	</ol>
+	<hr size="1" color="6D8CA8">
+	<h2>
+	Bygg upp formuläret</h2>
+	I den nedre delen av Formulärinställningar skapar du en tabell med knapparna 
+	under tabellen. <b>Lägg till rad </b>placeras alltid längst ner i tabellen. 
+	<b>Lägg 
+	till kolumn</b> placeras alltid längst till höger i tabellen. Genom att välja 
+	<b>Infoga rad</b> kan du infoga en rad ovanför den rad som just nu är markerad. 
+	<b>Infoga en kolumn</b> ger en kolumn till vänster om den kolumn som är markerad. 
+	Markera en rad eller kolumn genom att klicka på ett infogat fält i cellen. 
+	Om det inte finns några fält i tabellen får du börja med att dra in ett 
+	fält. 
+	<p>
+	Placera olika fält genom att ta tag i önskat fält från högerkanten och dra 
+	det till önskad plats i tabellen. En cell i tabellen kan endast innehåll ett 
+	formulärfält. 
+	<p>
+	När du har dragit in ett formulärfält i cellen öppnas inställningarna för 
+	den aktuella fälttypen brevid tabellen. Beroende på vilket fält du har valt 
+	har du olika inställningar att göra. Alla fält har egenskapen CSS-klass. Där 
+	kan du fylla i en css-klass som finns i den css-fil som används för 
+	webbplatsen. Kontakta din systemadministratör för mer information. När alla 
+	egenskaper för respektive fält fyllts i finns knappen <i>Spara </i>
+	underegenskaperna. Du måste spara varje enskilt fält och dess inställningar. Om du 
+	vill Ta bort ett fält välj knappen <i>Ta bort</i> under fältets inställningar. 
+	<h3>
+	Ledtext</h3>
+	
+	Ledtext är den fälttyp som används för att besökarna skall veta vad de skall 
+	fylla respektive fält med.
+	<ol>
+		<li>I fältet <i>Namn</i> anges den text som skall visas för besökarna.
+	</li>
+	</ol>
+	<h3>Textfält</h3>
+	Textfält är den fälttyp som ger besökarna ett inmatningsfält i form av en 
+	rad där de kan skriva text. Används för kortare text information du vill få 
+	in av besökaren. 	
+	<ul>
+		<li>I fältet <i>Namn</i> anger du ett namn på fältet som gör att du vet vilket fält som 
+	besökaren fyllt i. Enkelt är att använda samma eller liknande namn som du 
+	använt i ledtextfältet som hör till fältet. </li>
+		<li>I fältet <i>Bredd</i> anger du hur många tecken brett fältet skall vara. 
+		</li>
+		<li>Fältet <i>Värde måste anges </i>skall markeras om du vill att besökarna inte skall 
+	kunna skicka in formuläret utan att fylla i det här fältet. </li>
+	</ul>
+	<h3>Textruta</h3>
+	Textruta är den fälttyp som ger besökarna ett stort fält för att skriva 
+	text. Du kan själva bestämma hur många tecken brett och hur många rader 
+	fältet skall ha. 
+	<ul>
+		<li>I fältet <i>Namn</i> anger du ett namn på fältet som gör att du vet vilket fält som 
+	besökaren fyllt i. Enkelt är att använda samma eller liknande namn som du 
+	använt i ledtextfältet som hör till fältet. </li>
+	<li>I fältet <i>Bredd</i> anger du hur många tecken brett fältet skall vara. 
+		</li>
+		<li>I fältet <i>Höjd</i> anger du hur många rader textrutan skall ha</li>
+	<li>Fältet <i>Värde måste anges</i> skall markeras om du vill att besökarna inte skall 
+	kunna skicka in formuläret utan att fylla i det här fältet. </li>
+	</ul>
+	<h3>
+	Flervalslista</h3>
+	
+	Flervalslista är den fälttyp som ger besökarna en rullgardinsmeny där de kan 
+	välja ett av flera alternativ som du angivit. 
+	<ul>
+		<li>I fältet <i>Namn</i> anger du ett namn på fältet som gör att du vet vilket fält som 
+	besökaren fyllt i. Enkelt är att använda samma eller liknande namn som du 
+	använt i ledtextfältet som hör till fältet. </li>
+		<li>I fältet <i>Alternativ</i> anger du de olika alternativ som besökarna skall kunna 
+	välja bland. Skriv in alternativen och skilj dem åt genom att trycka ENTER 
+	mellan. </li>
+	</ul>
+	<h3>
+	Alternativknapp</h3>
+	
+	Alternativknapp är den fälttyp som ger besökarna en lista med olika 
+	alternativ där de kan välja ett av flera alternativ som du angivit. 
+	<ul>
+		<li>I fältet <i>Namn</i> anger du ett namn på fältet som gör att du vet vilket fält som 
+	besökaren fyllt i. Enkelt är att använda samma eller liknande namn som du 
+	använt i ledtextfältet som hör till fältet. </li>
+		<li>I fältet <i>Placering</i> väljer du om du att alternativen skall visas horisontellt 
+	eller vertikalt.</li>
+		<li>I fältet <i>Alternativ</i> anger du de olika alternativ som besökarna skall kunna 
+	välja bland. Skriv in alternativen och skilj dem åt genom att trycka ENTER 
+	mellan. </li>
+	</ul>
+	
+	
+	<h3>Kryssruta</h3>Kryssruta är den fälttyp som ger besökarna en lista med olika alternativ där 
+	de kan välja ett eller flera av flera alternativ som du angivit.
+	<ul>
+		<li>I fältet <i>Namn</i> anger du ett namn på fältet som gör att du vet vilket fält som 
+	besökaren fyllt i. Enkelt är att använda samma eller liknande namn som du 
+	använt i ledtextfältet som hör till fältet. </li>
+		<li>I fältet <i>Placering</i> väljer du om du att alternativen skall visas horisontellt 
+	eller vertikalt.</li>
+		<li>I fältet <i>Alternativ</i> anger du de olika alternativ som besökarna skall kunna 
+	välja bland. Skriv in alternativen och skilj dem åt genom att trycka ENTER 
+	mellan. </li>
+	</ul>
+	<p>När formuläret är färdig och alla fält och dess egenskaper är sparade. 
+	Sparar du hela formuläret med Spara-knappen i mitten av dialogrutan 
+	Formulärsinställningar. Spara och publicera sidan.</p>
+	<hr size="1" color="6D8CA8">
+	</p>
+	<h2>Fliken Formulärdata</h2>
+	
+	Om du i ditt formulär valt att lagra informationen i databasen, kan du hitta 
+	alla insända formulär på fliken Formulärdata. Fliken visas brevid 
+	Versionlista när du sparat och publicerat din formulärsida.<br>
+	Väl fliken Formulärdata och ett sökformulär visas. Du kan här specificera om 
+	du vill söka på specifika datum och hur många träffar du vill ha per sida. 
+	Om du vill visa alla inlägg kan du välja knappen Sök direkt. 
+	<p>När du har sökt på inskickade formulär listas det nedanför sökformuläret. Du 
+	kan då bläddra bland sidor om det finns många och härifrån också välja att 
+	ta bort alla synliga inlägg.</p>
+	<p>Om du vill bearbeta informationen i Microsoft Excel kan du välj knappen 
+	Exportera till Excel. Första gången du gör det får du en fråga om du 
+	acceptera integration mellan EPiServer och Office, svara JA på frågan och 
+	data från ditt forumulär visas i Excel och kan bearbetas där.</p>
+	<p><img border="0" src="images/form_data.png" width="490" height="229"></p>
+	<p>&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Läs mer i <a href="Redaktorshandbok_online.pdf">
+    Redaktörshandboken</a> - Läs mer i <a href="Adminhandbok_online.pdf">
+    Administratörshandboken</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

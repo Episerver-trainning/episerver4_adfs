@@ -1,0 +1,1948 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{F0B7B8DB-29EF-4298-AA52-37509D2FA9E7}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "EPiServerSample"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "development"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Web.Mobile"
+                    AssemblyName = "System.Web.Mobile"
+                    HintPath = "System.Web.Mobile.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Web.Services2"
+                    AssemblyName = "Microsoft.Web.Services2"
+                    HintPath = "bin\Microsoft.Web.Services2.dll"
+                />
+                <Reference
+                    Name = "EPiServer.XForms"
+                    AssemblyName = "EPiServer.XForms"
+                    HintPath = "bin\EPiServer.XForms.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "EPiServer.BaseLibrary"
+                    AssemblyName = "EPiServer.BaseLibrary"
+                    HintPath = "bin\EPiServer.BaseLibrary.dll"
+                />
+                <Reference
+                    Name = "ElektroPost.Wsrp"
+                    AssemblyName = "ElektroPost.Wsrp"
+                    HintPath = "bin\ElektroPost.Wsrp.dll"
+                />
+                <Reference
+                    Name = "EPiServer.Implementation"
+                    AssemblyName = "EPiServer.Implementation"
+                    HintPath = "bin\EPiServer.Implementation.dll"
+                />
+                <Reference
+                    Name = "log4net"
+                    AssemblyName = "log4net"
+                    HintPath = "bin\log4net.dll"
+                />
+                <Reference
+                    Name = "EPiServer"
+                    AssemblyName = "EPiServer"
+                    HintPath = "bin\EPiServer.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\archive.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\bar_background.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\bar_separator.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\bar_separator_button.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\bar_shadow_white.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\bg_dot.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\clear.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\closedMenuArrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\communication.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\corner_left_footer.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\corner_left_titlebar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\corner_right_footer.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\corner_right_titlebar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\dotline.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\dotted_grey_line.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\EPISERVER4.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\flag-en.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\flag-se.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\footer_gradient.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\head_line.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\header.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\heading_background.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ico_access.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ico_find.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ico_print.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ico_register.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ico_send.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ico_sitemap.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icon_mail_small.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icon_phone_small.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\L_triangleBG.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\L_triangleTextBG.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\left_arrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\linje2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\linje-lodratt.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\list_up.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\loginBackground.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\menu.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\minus.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\News_logo.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\newsgroup.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\newsgroup_active.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\newsgroup_category.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\newsgroup_group.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\newsgroup_item.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\newsgroupA.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\newsgroupcat.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\newsgroups.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\open_in_window.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\openMenuArrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\plus.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Portal_views.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\r_nyheter.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\right_arrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\RightArrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\rightlisting.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\rslu2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\startpage_image.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\submenu_rulerbg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Ten.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\topmenubg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\welcome.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\win_prop.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\SiteMap\Clear.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\SiteMap\elementBack.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\SiteMap\elementBackEnd.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\SiteMap\elementLine.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\SiteMap\elementLineEnd.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\SiteMap\Header.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\back.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\back_gray.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\delete_gray.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\edit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\edit_gray.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\EPiServerPortalFramework.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\garbage.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\garbage_gray.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\help.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\help_gray.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\maximize.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\maximize_gray.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\minimize.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\minimize_gray.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\portletbarbg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\portletbarbg_old.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\restore.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\restore_gray.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\solo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\solo_gray.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\tab_background.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\tab_background_active.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\tab_background_left.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\tab_background_left_active.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\tab_background_right.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\tab_background_right_active.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wsrp\tabrow_background.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "styles\Editor.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "styles\portal_green.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "styles\Structure.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "styles\Units.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\AlphanumericListing.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\AlphanumericListing.aspx.cs"
+                    DependentUpon = "AlphanumericListing.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Calendar.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Calendar.aspx.cs"
+                    DependentUpon = "Calendar.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\ChangedPages.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\ChangedPages.aspx.cs"
+                    DependentUpon = "ChangedPages.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Conference.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Conference.aspx.cs"
+                    DependentUpon = "Conference.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Document.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Document.aspx.cs"
+                    DependentUpon = "Document.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\DocumentList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\DocumentList.aspx.cs"
+                    DependentUpon = "DocumentList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\EmailPage.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\EmailPage.aspx.cs"
+                    DependentUpon = "EmailPage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\ExternalWebPage.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\ExternalWebPage.aspx.cs"
+                    DependentUpon = "ExternalWebPage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\FileListing.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\FileListing.aspx.cs"
+                    DependentUpon = "FileListing.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\FlashPage.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\FlashPage.aspx.cs"
+                    DependentUpon = "FlashPage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Form.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Form.aspx.cs"
+                    DependentUpon = "Form.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Login.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Login.aspx.cs"
+                    DependentUpon = "Login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Mobile.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Mobile.aspx.cs"
+                    DependentUpon = "Mobile.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\News.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\News.aspx.cs"
+                    DependentUpon = "News.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\NewsGroup.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\NewsGroup.aspx.cs"
+                    DependentUpon = "NewsGroup.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\NewsGroupIntro.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\NewsGroupIntro.aspx.cs"
+                    DependentUpon = "NewsGroupIntro.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\NewsGroupItem.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\NewsGroupItem.aspx.cs"
+                    DependentUpon = "NewsGroupItem.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\NewsGroupList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\NewsGroupList.aspx.cs"
+                    DependentUpon = "NewsGroupList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\NewsGroupSearch.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\NewsGroupSearch.aspx.cs"
+                    DependentUpon = "NewsGroupSearch.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\NewsGroupSettings.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\NewsGroupSettings.aspx.cs"
+                    DependentUpon = "NewsGroupSettings.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\NewsGroupTree.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\NewsGroupTree.aspx.cs"
+                    DependentUpon = "NewsGroupTree.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\NewsGroupView.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\NewsGroupView.aspx.cs"
+                    DependentUpon = "NewsGroupView.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Page.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Page.aspx.cs"
+                    DependentUpon = "Page.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\PageRoller.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\PageRoller.aspx.cs"
+                    DependentUpon = "PageRoller.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\PdfForm.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\PdfForm.aspx.cs"
+                    DependentUpon = "PdfForm.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\PersonalSettings.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\PersonalSettings.aspx.cs"
+                    DependentUpon = "PersonalSettings.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Profile.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Profile.aspx.cs"
+                    DependentUpon = "Profile.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\ProfileFinder.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\ProfileFinder.aspx.cs"
+                    DependentUpon = "ProfileFinder.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\ReadSpeaker.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\ReadSpeaker.aspx.cs"
+                    DependentUpon = "ReadSpeaker.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Register.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Register.aspx.cs"
+                    DependentUpon = "Register.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Resource.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Resource.aspx.cs"
+                    DependentUpon = "Resource.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\RssProvider.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\RssProvider.aspx.cs"
+                    DependentUpon = "RssProvider.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Search.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Search.aspx.cs"
+                    DependentUpon = "Search.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\SiteMap.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\SiteMap.aspx.cs"
+                    DependentUpon = "SiteMap.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Subscribe.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Subscribe.aspx.cs"
+                    DependentUpon = "Subscribe.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\WsrpPortal.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\WsrpPortal.aspx.cs"
+                    DependentUpon = "WsrpPortal.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\XForm.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\XForm.aspx.cs"
+                    DependentUpon = "XForm.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Blog\Blog.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Blog\Blog.aspx.cs"
+                    DependentUpon = "Blog.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Blog\BlogRssProvider.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Blog\BlogRssProvider.aspx.cs"
+                    DependentUpon = "BlogRssProvider.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Blog\BlogStart.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Blog\BlogStart.aspx.cs"
+                    DependentUpon = "BlogStart.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\BlogArchive.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\BlogArchive.ascx.cs"
+                    DependentUpon = "BlogArchive.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\BlogCreate.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\BlogCreate.ascx.cs"
+                    DependentUpon = "BlogCreate.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\BlogList.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\BlogList.ascx.cs"
+                    DependentUpon = "BlogList.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\BlogRSS.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\BlogRSS.ascx.cs"
+                    DependentUpon = "BlogRSS.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\CommentXForm.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\CommentXForm.ascx.cs"
+                    DependentUpon = "CommentXForm.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\EditListing.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\EditListing.ascx.cs"
+                    DependentUpon = "EditListing.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\EditorBlog.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\EditorBlog.ascx.cs"
+                    DependentUpon = "EditorBlog.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\PersonalBlog.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\PersonalBlog.ascx.cs"
+                    DependentUpon = "PersonalBlog.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Blog\Units\Util.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Frameworks\DefaultFramework.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Frameworks\DefaultFramework.ascx.cs"
+                    DependentUpon = "DefaultFramework.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\AlphanumericListing.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\AlphanumericListing.ascx.cs"
+                    DependentUpon = "AlphanumericListing.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\BreadCrumbs.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\BreadCrumbs.ascx.cs"
+                    DependentUpon = "BreadCrumbs.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\Calendar.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\Calendar.ascx.cs"
+                    DependentUpon = "Calendar.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\ChangedPages.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\ChangedPages.ascx.cs"
+                    DependentUpon = "ChangedPages.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\Conference.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\Conference.ascx.cs"
+                    DependentUpon = "Conference.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\CookieInfo.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\CookieInfo.ascx.cs"
+                    DependentUpon = "CookieInfo.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\Document.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\Document.ascx.cs"
+                    DependentUpon = "Document.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\DocumentList.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\DocumentList.ascx.cs"
+                    DependentUpon = "DocumentList.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\FileListing.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\FileListing.ascx.cs"
+                    DependentUpon = "FileListing.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\FlashBody.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\FlashBody.ascx.cs"
+                    DependentUpon = "FlashBody.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\Form.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\Form.ascx.cs"
+                    DependentUpon = "Form.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\Header.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\Header.ascx.cs"
+                    DependentUpon = "Header.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\LanguageSelector.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\LanguageSelector.ascx.cs"
+                    DependentUpon = "LanguageSelector.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\Listing.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\Listing.ascx.cs"
+                    DependentUpon = "Listing.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\LoginStatus.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\LoginStatus.ascx.cs"
+                    DependentUpon = "LoginStatus.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\LogServiceLastUsers.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\LogServiceLastUsers.ascx.cs"
+                    DependentUpon = "LogServiceLastUsers.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\LogServicePageHits.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\LogServicePageHits.ascx.cs"
+                    DependentUpon = "LogServicePageHits.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\LogServicePublishedPages.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\LogServicePublishedPages.ascx.cs"
+                    DependentUpon = "LogServicePublishedPages.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\Menu.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\Menu.ascx.cs"
+                    DependentUpon = "Menu.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\PageBody.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\PageBody.ascx.cs"
+                    DependentUpon = "PageBody.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\PageHeader.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\PageHeader.ascx.cs"
+                    DependentUpon = "PageHeader.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\PageRoller.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\PageRoller.ascx.cs"
+                    DependentUpon = "PageRoller.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\PdfForm.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\PdfForm.ascx.cs"
+                    DependentUpon = "PdfForm.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\PersonalSettings.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\PersonalSettings.ascx.cs"
+                    DependentUpon = "PersonalSettings.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\PrintFunctions.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\PrintFunctions.ascx.cs"
+                    DependentUpon = "PrintFunctions.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\Profile.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\Profile.ascx.cs"
+                    DependentUpon = "Profile.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\ProfileFinder.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\ProfileFinder.ascx.cs"
+                    DependentUpon = "ProfileFinder.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\QuickBar.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\QuickBar.ascx.cs"
+                    DependentUpon = "QuickBar.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\QuickSearch.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\QuickSearch.ascx.cs"
+                    DependentUpon = "QuickSearch.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\ReadSpeaker.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\ReadSpeaker.ascx.cs"
+                    DependentUpon = "ReadSpeaker.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\Register.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\Register.ascx.cs"
+                    DependentUpon = "Register.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\RightListing.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\RightListing.ascx.cs"
+                    DependentUpon = "RightListing.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\RssListing.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\RssListing.ascx.cs"
+                    DependentUpon = "RssListing.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\Search.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\Search.ascx.cs"
+                    DependentUpon = "Search.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\SiteMap.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\SiteMap.ascx.cs"
+                    DependentUpon = "SiteMap.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\Subscribe.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\Subscribe.ascx.cs"
+                    DependentUpon = "Subscribe.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\TopMenu.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\TopMenu.ascx.cs"
+                    DependentUpon = "TopMenu.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\WriterInfo.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\WriterInfo.ascx.cs"
+                    DependentUpon = "WriterInfo.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\WsrpDefaultPortletArea.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\WsrpDefaultPortletArea.ascx.cs"
+                    DependentUpon = "WsrpDefaultPortletArea.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\WsrpPortalTabControl.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\WsrpPortalTabControl.ascx.cs"
+                    DependentUpon = "WsrpPortalTabControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\WsrpPortletList.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\WsrpPortletList.ascx.cs"
+                    DependentUpon = "WsrpPortletList.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\WsrpSingleColumnLayout.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\WsrpSingleColumnLayout.ascx.cs"
+                    DependentUpon = "WsrpSingleColumnLayout.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\WsrpThreeColumnLayout.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\WsrpThreeColumnLayout.ascx.cs"
+                    DependentUpon = "WsrpThreeColumnLayout.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Units\XForm.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Units\XForm.ascx.cs"
+                    DependentUpon = "XForm.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Core\IWorkroomPlugin.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Core\MemberStatus.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Core\Workroom.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Core\WorkroomControlBase.cs"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Core\WorkroomTemplate.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Core\WorkroomTemplateCollection.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Icons\calendar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Icons\information.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Icons\member.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Icons\message.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Icons\news.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Icons\office.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Icons\user.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Tab\tab_background.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Tab\tab_background_active.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Tab\tab_background_left.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Tab\tab_background_left_active.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Tab\tab_background_right.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Tab\tab_background_right_active.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Tab\tabrow_background.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Images\Tab\tabrow_background_active.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Styles\Workroom_template.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\CreateWorkroom.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\CreateWorkroom.aspx.cs"
+                    DependentUpon = "CreateWorkroom.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\WorkroomList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\WorkroomList.aspx.cs"
+                    DependentUpon = "WorkroomList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\WorkroomPage.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\WorkroomPage.aspx.cs"
+                    DependentUpon = "WorkroomPage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\BulletinBoard.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\BulletinBoard.ascx.cs"
+                    DependentUpon = "BulletinBoard.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\Calendar.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\Calendar.ascx.cs"
+                    DependentUpon = "Calendar.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\CreateWorkroom.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\CreateWorkroom.ascx.cs"
+                    DependentUpon = "CreateWorkroom.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\Document.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\Document.ascx.cs"
+                    DependentUpon = "Document.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\Forum.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\Forum.ascx.cs"
+                    DependentUpon = "Forum.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\Members.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\Members.ascx.cs"
+                    DependentUpon = "Members.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\News.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\News.ascx.cs"
+                    DependentUpon = "News.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\Overview.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\Overview.ascx.cs"
+                    DependentUpon = "Overview.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\Settings.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\Settings.ascx.cs"
+                    DependentUpon = "Settings.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\WorkroomList.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\Workroom\Templates\Units\WorkroomList.ascx.cs"
+                    DependentUpon = "WorkroomList.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\UserControlExecution.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\UserControlExecution.aspx.cs"
+                    DependentUpon = "UserControlExecution.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\Consumer\IPortalLayout.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\Consumer\WsrpPortalData.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\Consumer\WsrpPortalPageSession.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\core\BlockingInteractionEventArgs.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\core\ProducerBaseSupport.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\core\wsrpTemplatePage.cs"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\core\wsrpUserControlBase.cs"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpIframeControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpIframeControl.ascx.cs"
+                    DependentUpon = "wsrpIframeControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpImageViewer.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpImageViewer.ascx.cs"
+                    DependentUpon = "wsrpImageViewer.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpInfoServiceControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpInfoServiceControl.ascx.cs"
+                    DependentUpon = "wsrpInfoServiceControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpNewsChannelControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpNewsChannelControl.ascx.cs"
+                    DependentUpon = "wsrpNewsChannelControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpRssControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpRssControl.ascx.cs"
+                    DependentUpon = "wsrpRssControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpSudokuControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpSudokuControl.ascx.cs"
+                    DependentUpon = "wsrpSudokuControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpUserSettingsControl.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\wsrpUserSettingsControl.ascx.cs"
+                    DependentUpon = "wsrpUserSettingsControl.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\scripts\SudokuControl.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\util\Sudoku.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\portletcontrols\util\SudokuControl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                />
+                <File
+                    RelPath = "templates\wsrp\services\markup.asmx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\services\markup.asmx.cs"
+                    DependentUpon = "markup.asmx"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\services\portletmanagement.asmx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\services\portletmanagement.asmx.cs"
+                    DependentUpon = "portletmanagement.asmx"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\services\registration.asmx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\services\registration.asmx.cs"
+                    DependentUpon = "registration.asmx"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\services\servicedescription.asmx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\services\servicedescription.asmx.cs"
+                    DependentUpon = "servicedescription.asmx"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "templates\wsrp\services\WsrpService.asmx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "templates\wsrp\services\WsrpService.asmx.cs"
+                    DependentUpon = "WsrpService.asmx"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <Folder RelPath = "upload\" />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

@@ -1,0 +1,191 @@
+.EPEdit-customPanelBody
+{
+	font:normal 11px tahoma;
+	background-color:#ECEFF3;
+}
+
+.FM-ToolLinkText
+{
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	margin-right: 2px;
+}
+
+.FM-ToolLinkImage
+{
+	margin: 2px;
+	vertical-align: middle;
+}
+
+a.FM-DirectoryLink
+{
+	color: #000000;
+}
+
+a.FM-SearchHitLink
+{
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a.FM-FileLink
+{
+	font:normal 11px tahoma;
+	color: Black;
+	text-decoration: none;
+}
+
+a.FM-FileLink:hover
+{
+	text-decoration: none;
+}
+
+a.FM-DirectoryShortcut
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+td.FM-ShortcutCell
+{
+	background-color: #ffffff;
+	border: solid 1px #6D8CA8;
+}
+
+td.FM-BrowserCell
+{
+	background-color: #ffffff;
+	border: solid 1px #6D8CA8;
+}
+
+td.FM-DirectoryToolbar
+{
+	padding:	5px 2px 5px 2px;
+}
+
+.FM-Title
+{
+	font-weight: bold;
+}
+
+td.FM-ButtonBar
+{
+	padding:			2px;
+	background-color:	#D4DEED;
+    border-top:			1px solid #6D8CA8;
+    border-bottom:		1px solid #6D8CA8;
+}
+
+div.FM-ScrollingArea
+{
+	overflow: auto;
+}
+
+div.FM-ScrollingTableArea
+{
+	border-top:	solid 1px #6D8CA8;
+	overflow: auto;
+}
+
+td.FM-ItemHeader
+{
+	border-bottom:	solid 1px #6D8CA8;
+	background-color:	#D4DEED;
+	padding: 2px 5px 2px 5px;
+}
+
+tr.FM-ItemRow td
+{
+	cursor: default;
+	padding: 1px 5px 1px 5px;
+	border-bottom:	solid 1px #DADDE4;
+}
+
+tr.FM-ItemRowSelected td
+{
+	cursor: default;
+	padding: 1px 5px 1px 5px;
+	border-bottom:	solid 1px #DADDE4;
+	background-color:	#DADDE4;
+}
+
+table.FM-NavigatorTable
+{
+	border-collapse: collapse;
+}
+
+td.FM-NavigatorHeadingCell
+{
+	background-color:	#D4DEED;
+	padding: 5px;
+	border-top: solid 1px #6D8CA8;
+	border-bottom: solid 1px #6D8CA8;
+	font-weight: bold;
+}
+
+td.FM-NavigatorTopHeadingCell
+{
+	background-color:	#D4DEED;
+	padding: 5px;
+	border-bottom: solid 1px #6D8CA8;
+	font-weight: bold;
+}
+
+td.FM-NavigatorHeadingImageCell{
+	background-color:	#D4DEED;
+	border-top: solid 1px #6D8CA8;
+	border-bottom: solid 1px #6D8CA8;
+	vertical-align: middle;
+	text-align: right;
+}
+
+td.FM-NavigatorTopHeadingImageCell{
+	background-color:	#D4DEED;
+	border-bottom: solid 1px #6D8CA8;
+	vertical-align: middle;
+	text-align: right;
+}
+
+td.FM-NavigationTreeCell
+{
+	padding: 5px 2px 5px 0px;
+}
+
+td.FM-NavigationTextCell
+{
+	padding: 5px;
+}
+
+.FM-BreadCrumb
+{
+	margin: 5px 2px 5px 5px;
+}
+
+td.FM-ImagePreview
+{
+	width: 50px;
+	height: 50px;
+}
+
+table.FM-CommandHeading
+{
+	border-bottom: solid 1px #6D8CA8;
+}
+
+table.FM-MarginTable
+{
+	margin: 5px;
+}
+
+.FM-WarningBox
+{
+	display:block;
+	font:messagebox;
+	border:solid 1px #6D8CA8;
+	background-color:#FFEEC2;
+	padding: 0.3em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}

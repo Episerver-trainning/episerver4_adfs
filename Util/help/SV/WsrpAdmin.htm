@@ -1,0 +1,88 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjälp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/wsrpadmin.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="wsrpadmin.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska"></a>
+	<a href="../NO/wsrpadmin.htm">
+	<img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    </font>
+    <h1>WSRP-Källor</h1>
+	<p>WSRP (Web Service for Remot Portlets) är en teknik och 
+	standard som innebär att det är möjligt att konsumera och producera 
+	information och tjänster som sedan kan användas av andra utan egentligt krav 
+	på teknisk plattform. </p>
+	<p>I grunden består tekniken av att man bygger så kallade <i>
+	Portlets</i> som producerar olika typer av information eller tjänster. 
+	Applikationer/tjänster (sk producent) kan ha flera portlets som producerar 
+	innehåll och tjänster från den egna applikationen. Det är producenten som i 
+	första hand bestämmer vad som ska kunna konsumeras av någon annan. </p>
+	<p>EPiServer har stöd för att vara både producent och 
+	konsument. Det innebär att du kan låta andra ta del av information från din 
+	webbplats genom portlets skapade i EPiServer. I en standardinstallation av 
+	EPiServer finns det exempel på att producera sidinnehåll, nyheter m.m. Med 
+	hjälp av EPiServer Portal Framework är det också möjligt att konsumera 
+	information från andra WSRP-källor. Läs mer om Portaler och WSRP i 
+	dokumentet <i>EPiServer Portals</i>. </p>
+	<p>För att kunna konsumera portlets i EPiServer måste man ha 
+	EPiServer Portal Framework. I en standardinstallation finns den med som ett 
+	demoexempel. Kontakta din leverantör om ni vill använda EPiServer Portal 
+	Framework i skrap drift. För att kunna konsumera portlets i EPiServer 
+	behöver du också lägga upp de olika källor som ska vara tillgängliga i 
+	adminläge.</p>
+	<p><b>Så här gör du för att lägga upp en WSRP-källa: </b> </p>
+
+		<ol>
+			<li>Välj <i>WSRP-källor </i>på fliken <i>Konfig</i>. </li>
+			<li>Välj <i>Registrera ny.</i> Om du ska ändra på en 
+		befintlig källa, klicka på namnet. </li>
+			<li>Ange ett namn för källan i fältet namn. Detta är 
+		godtyckligt namn som kommer att visas för användarna av portalen. </li>
+			<li>Du kan antigen välja att ange källan genom WSDL eller 
+		via Web services. Väljer du <i>Registrera WSDL</i> anger du källan i ett 
+		fält. Väljer du <i>Registrera Web services </i>ska du i fyra fält ange 
+		adresser till källan. Dessa uppgifter får du från den som producerat 
+		WSRP-tjänsten. </li>
+			<li>Välj <i>Spara</i>.</li>
+	</ol>
+
+	<p >Genom att välja knappen <i>Test</i> kan du prova källan.
+	</p>
+	<p><img border="0" src="images/admin_wsrp.png" width="490" height="295"></td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Läs mer i <a href="Redaktorshandbok_online.pdf">
+    Redaktörshandboken</a> - Läs mer i <a href="Adminhandbok_online.pdf">
+    Administratörshandboken</a></td>
+  </tr>
+</table>
+
+<p align="center">&nbsp;</p>
+
+</body>
+
+</html>

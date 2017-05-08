@@ -1,0 +1,2 @@
+<%@ Control Language="c#" AutoEventWireup="false" Codebehind="BreadCrumbs.ascx.cs" Inherits="development.Templates.Units.BreadCrumbs" TargetSchema="http://schemas.microsoft.com/intellisense/ie5"%>
+<asp:Label ID="breadCrumbTrail" runat="server"/>

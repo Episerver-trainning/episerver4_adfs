@@ -1,0 +1,1 @@
+<%@ Page language="c#" Codebehind="Resource.aspx.cs" EnableSessionState="false" EnableViewState="false" AutoEventWireup="false" Inherits="development.Templates.Resource" %>

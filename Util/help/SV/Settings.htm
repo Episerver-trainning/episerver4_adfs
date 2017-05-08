@@ -1,0 +1,199 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjälp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/settings.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="settings.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska"></a>
+	<a href="../NO/Settings.htm">
+	<img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Systeminställningar</h1>
+    <p>[<a href="#General">Generellt</a>] [<a href="#Editing">Redigering</a>] [<a href="#Link tool">Länkverktyg</a>] 
+    [<a href="#LDAP">LDAP</a>]</p>
+    <p>I systeminställningar gör du inställningar som gäller för hela EPiServer. 
+    Du kan ändra språk, sökvägar till olika delar på webbservern m.m. Oftast 
+    ställs dessa inställningar in vid installation och ändras sällan.</p>
+ 
+      <h2><a name="General"></a>Generellt</h2>
+    
+      <p>
+      <img border="0" src="images/systemsettings_general.png" width="490" height="268"></p>
+    
+      <h3>Namn på webbplatsen</h3>
+    Det namn som kommer att synas i namnlisten högst upp i webbläsarens 
+    fönster.
+    <h3>Adress till din webbplats</h3>
+    Vid flera tillfällen i EPiServer används webbadressen till webbplatsen, 
+    ett exempel är i prenumerationer. I det här fältet anger du webbadressen 
+    till din webbplats så att rätt information skickas till användare.
+    <h3>Standardspråk</h3>
+    Redigera- och adminläget kan visas på olika språk. Här har du möjlighet 
+    att välja vilket språk som skall gälla för din EPiServer. Tänk på att den 
+    information som lagras i databasen inte förändras i och med att du byter 
+    språk här. Läs mer om att byta av språk under Språk i EPiServer. Om 
+    redaktören själv valt ett språk under Mina inställningar, så är det språket 
+    som gäller för den redaktören oavsett standarspråk.<
+      <h3 ALIGN="LEFT">Kryptera filen web.config</h3>
+    I filen som heter web.config finns en del uppgifter om 
+    systemet som kan vara känsliga för att hamna i orätta händer. En av dem är 
+    information till och från databasen. För att ingen skall kunna se den 
+    informationen genom att läsa i filen krypterar man den. Markera alternativet 
+    och spara systeminställningarna. Då krypteras i förstahand informationen om 
+    kopplingen till databasen.
+	<h3 ALIGN="LEFT">Felhantering i EPiServer</h3>
+	Om det uppstår tekniska fel i EPiServer visas ett 
+	felmeddelande som inte säger en redaktör så mycket. En utvecklare däremot 
+	kan ha god nytta av den information som visas för att kunna lösa problemet. 
+	Genom att aktivera den här funktionen får redaktören ett formulär att fylla 
+	i tekniska problem uppstår. Informationen skickas till den e-postadress du 
+	angivit i fältet E-postadress att skicka felrapporter till. 
+	<h3 ALIGN="LEFT">E-postadress att skicka felrapporter till</h3>
+	Den e-postaddress som skall ta emot felrapport från 
+	användare på webbplatsen.
+     <h3>Hantering av prenumerationsutskick</h3>
+	I EPiServer finns en prenumerationsfunktion som gör att besökarna på 
+	webbplatsen skall kunna få information om nya och uppdaterade sidor. 
+	Beroende på om man har en webbplats med EPiServers flerspråksstöd eller inte 
+	kan man här välja hur prenumerationsutskicket skall hanteras. I den här 
+	listan kan det också finns egenutvecklade lösningar från 
+	prenumerationsfunktionen.<h3>Aktivera globalisering</h3>
+	
+EPiServer har stöd för att hantera innehåll på flera 
+	språk/varianter av samma sida. Arbetssättet för innehållshanteringen 
+	förändras då i redigeraläge. För att få tillgång till detta stöd måste 
+	globaliseringen aktiveras. Det görs genom att markera alternativet <i>
+	Aktivera globalisering.</i>
+	
+	<h3>Detektera språk via webbläsarens språkinställning</h3>
+Det är möjligt att visa språk utifrån de inställningar 
+	som finns i besökarens webbläsare. För att detta ska fungera måste den 
+	funktionen aktiveras. Gör det genom att markera alternativet <i>Detektera 
+	språk via webbläsarens språkinställning</i>. Då kommer det språk som varje 
+	besökare har valt som standardspråk i sin egen webbläsare. 
+
+	  <p align="right">
+      <a href="#top">
+      <img border="0" src="../EN/images/arrow_up.gif" width="9" height="10"></a>
+      <hr noshade color="#6D8CA8" size="1">
+    
+  
+      <h2><a name="Editing"></a>Redigering</h2>
+      <p>
+      <img border="0" src="images/systemsettings_editing.png" width="490" height="247"></p>
+     
+      <h3>Val av editor</h3>
+	I och med version 4.20 av EPiServer lanseras också en ny editor. Det är 
+	en dhtml-baserad editor med utökad funktionalitet i jämförelse med den 
+	tidigare. Den äldre editorn som är en Active-X komponent kan fortfarande 
+	användas. Vilken version som används anger man i filen web.config som lagras 
+	i roten på webbplatsen. Strängen &lt;add key=&quot;EPfHtmlEditor&quot; value=&quot;True&quot;/&gt; 
+	anger att DHTML-editorn används. Strängen &lt;add key=&quot;EPfHtmlEditor&quot; 
+	value=&quot;False&quot;/&gt; anger att Active-X komponenten används.
+	<h3>Använd DIV istället för P</h3>
+    I html finns olika sätt att markera att man vill ha en radmatning. När 
+    man använder sig av märket &lt;P&gt; blir det alltid ett avstånd mellan raderna 
+    för att visa att det är ett nytt stycke. Om man inte vill att det extra 
+    avståndet skall synas när man trycker ENTER kan man använda märket &lt;DIV&gt; 
+    istället. Genom att sätta en bock rutan används märket &lt;DIV&gt; istället för 
+    &lt;P&gt;. Observera att förändringen bara gäller de sidor som skapas efter det 
+    att ändringen är gjord.
+    <h3>Höjd på Editorn (pixels)</h3>
+    Höjden på Editorn angivet i pixlar. Detta värde gäller för alla editfält 
+    oavsett sidtyp.
+    <h3>Bredd på Editorn (pixels)</h3>
+    Bredd på Editorn angivet i pixlar. Om värdet är noll ändras bredden på 
+    editorn proportionerligt med fönstret.
+    <h3>Max antal gamla versioner av sida</h3>
+    I detta fält anger du hur många gamla versioner av varje sida som 
+    redaktören kan lagra. Värdet noll (0) ger redaktörerna möjlighet att lagra 
+    obegränsat antal gamla versioner. Om du anger ett värde här, exempelvis 3, 
+    lagras tre gamla versioner och den publicerade versionen, alltså sammanlagt 
+    fyra versioner. När den femte versionen skapas kommer den först lagrade 
+    versionen av sidan försvinna.
+    <h3>Sökväg till CSS-fil för editorn</h3>
+    Sökvägen till CSS-filen som styr utseendet på i editorn. Denna bör vara 
+    samma som styr utseendet på webbplatsen för att det skall bli enkelt för 
+    redaktörerna.
+    <h3>Aktuell version av Active-X-editorn</h3>
+	I det här fältet kan du ange vilken version av ActiveX-editorn som du vill 
+	att dina redaktörer skall använda. Om du anger en senare version än den som 
+	är installerad på redaktörens dator kommer den nya versionen laddas ner 
+	nästa gång redaktören redigerar en sida. Aktuell version av Editorn</h3>
+      <p align="right">
+      <a href="#top">
+      <img border="0" src="../EN/images/arrow_up.gif" width="9" height="10"></a>
+      <hr noshade color="#6D8CA8" size="1">
+    
+  
+      <h2><a name="Link tool"></a>Länkverktygg</h2>
+ 
+      <p>
+      <img border="0" src="images/systemsettings_linktool.png" width="490" height="247"></p>
+ 
+      <h3>Uppladdningskatalog</h3>
+    Den standardkatalog som skall öppnas när redaktören öppnar länkverktyget 
+	för att ladda upp filer till webbservern.
+      <p align="right">
+      <a href="#top">
+      <img border="0" src="../EN/images/arrow_up.gif" width="9" height="10"></a>
+      <hr noshade color="#6D8CA8" size="1">
+    
+  
+      <h2><a name="LDAP"></a>LDAP</h2>
+    LDAP står för Lightweight Directory Access Protocol och är ett protokoll 
+    som används för att kommunicera med en katalogtjänst. I EPiServer används 
+    det bl a tillsammans med Active Directory för att hålla reda på användare 
+    och grupper i olika typer av nätverk.
+      <p>
+      <img border="0" src="images/systemsettings_ldap.png" width="490" height="247"></p>
+      
+    <h3 ALIGN="LEFT">LDAP-server</h3>
+    I det här fältet anger du adressen till LDAP-servern
+    <h3 ALIGN="LEFT">Användarnamn för att läsa info från LDAP-server</h3>
+    I det här fältet anger du användarnamn för ett Windows-konto 
+    som har rättigheter att läsa data från LDAP-servern.
+    <h3 ALIGN="LEFT">Lösenord för användarnamn</h3>
+    I det här fältet anger du lösenord för användaren ovan.&nbsp;
+	<h3 ALIGN="LEFT">Töm LDAP-cache</h3>
+	Genom att välja Rensa tömmer du den cache som lagrar 
+	information från LDAP-servern. Den finns för att snabba upp systemet, men 
+	kan ibland behöva tömmas om man gjort omfattande förändringar.
+    <p>&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <p align="right">
+      <a href="#top">
+      <img border="0" src="../EN/images/arrow_up.gif" width="9" height="10"></a>
+      </td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Läs mer i <a href="Redaktorshandbok_online.pdf">
+    Redaktörshandboken</a> - Läs mer i <a href="Adminhandbok_online.pdf">
+    Administratörshandboken</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

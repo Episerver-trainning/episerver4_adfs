@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+	<language name="Chinese" id="ZH">
+		<templates>
+			<document>
+				<openinnewwindow>在新窗口中打开</openinnewwindow>
+				<backtolist>返回列表</backtolist>
+			</document>
+			<documentlist>
+				<download>下载文档</download>
+			</documentlist>
+			<news>
+				<errorbindingrsssource>	绑定到 RSS 源时出错</errorbindingrsssource>
+			</news>
+			<form>
+				<numberofvotes>投票数: {0}</numberofvotes>
+				<showform>至表单</showform>
+				<requirelogon>此表单要求您已经登录。</requirelogon>
+				<denymultipleposts>您已经答复了此表单。</denymultipleposts>
+				<postedmessage>感谢您的答复！</postedmessage>
+				<thankyouforyourreply>感谢您的答复！</thankyouforyourreply>
+				<showstat>显示统计信息</showstat>
+			</form>
+			<register>
+				<invalidemail>请输入有效电子邮件地址，以使我们能够处理您的申请。</invalidemail>
+				<invalidpassword>您必须输入密码。 请在两个文本字段中输入相同的密码。</invalidpassword>
+				<expiredidentity>您的用户信息已经过期。 请重新登录。</expiredidentity>
+				<usernotsaved>无法保存用户。 请尝试使用其他用户名。</usernotsaved>
+				<errorwhilesavinguser>出现错误。 尚未保存用户。</errorwhilesavinguser>
+				<invalidsettings>尚未设置 Extranet 用户的所有设置。</invalidsettings>
+				<applyemailsubject>新用户已申请成员资格。</applyemailsubject>
+				<applyemailbodyprefix>转到该页以激活用户:</applyemailbodyprefix>
+				<usersaved>您的申请一旦被批准并激活，您就会收到一封电子邮件。</usersaved>
+				<usersavedandactivated>现在，您可以登录到网站上。</usersavedandactivated>
+				<couldnotsave>无法创建用户</couldnotsave>
+				<saved>已创建用户</saved>
+				<notallowed>此站点不允许用户注册。</notallowed>
+			</register>
+			<page>
+				<readmore>了解更多信息</readmore>
+				<login>登录</login>
+				<logout>注销</logout>
+				<notproperlyconfigured>未正确配置快速搜索。 (必须已定义了动态属性“全局搜索页”。)</notproperlyconfigured>
+			</page>
+			
+			<newsgrouplist>
+				<search>搜索</search>
+				<subscribe>订阅</subscribe>
+				<unsubscribe>删除订阅</unsubscribe>
+			</newsgrouplist>
+			<search>
+				<searchfiles>			搜索文档和文件</searchfiles>
+				<onlywholewords>		全字匹配</onlywholewords>
+				<searchresult>			搜索结果:</searchresult>
+				<rank>					等级</rank>
+				<match>					匹配</match>
+				<matches>				匹配项</matches>
+				<nomatches>				找不到匹配项。 请重试。</nomatches>
+				<help>
+					&lt;b&gt;搜索提示！&lt;/b&gt;
+					&lt;ul&gt;
+					&lt;li&gt;最多输入 10 个字并用空格分隔，例如 &lt;i&gt;&lt;b&gt;&lt;nobr&gt;word1 word2 word3&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br/&gt;&lt;/li&gt;
+					&lt;li&gt;在为将页视为匹配项而必须找到的字前放置一个加号 (+) 以限制搜索，例如 &lt;i&gt;&lt;b&gt;&lt;nobr&gt;+word1 +word2 +word3&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;/li&gt;
+					&lt;li&gt;在为将页视为匹配项而不能出现的字前放置一个减号 (-) 以限制搜索，例如 &lt;i&gt;&lt;b&gt;&lt;nobr&gt;+word1 +word2 -word3&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;/li&gt;
+					&lt;li&gt;如果选择“全字匹配”，但仍然希望匹配字的一部分，请在该字末尾放置一个星号 (*)，例如 &lt;i&gt;&lt;b&gt;&lt;nobr&gt;word1* word2&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;，这样将匹配具有字“word123”和“word2”的页，但不会匹配具有“word123”和“word234”的页。&lt;/li&gt;	
+					&lt;/ul&gt;	
+				</help>
+				<indexservererror>		索引引擎当前没有运行，无法执行对文件和文档的搜索。
+				</indexservererror>
+				<quicksearch>		快速搜索</quicksearch>
+				<alllanguages>搜索所有语言</alllanguages>
+			</search>
+			<login>
+				<logintitle>登录</logintitle>
+				<loginheading>受保护的信息。 请登录。</loginheading>
+				<username>				名称</username>
+					<password>				密码</password>
+					<persistentlogin>		允许自动登录到此网站</persistentlogin>
+					<usernamerequired>		您必须输入名称</usernamerequired>
+					<loginfailed>			登录失败</loginfailed>
+			</login>
+			<calendar>
+				<next>下一步</next>
+				<previous>上一步</previous>
+			</calendar>
+			<changedpages>
+				<header>			上次更改的文件</header>
+				<lastmodified>		上次更改日期</lastmodified>
+				<page>				页</page>
+				<updatedpages>		上次更新的页</updatedpages>
+			</changedpages>
+			<conference>
+				<deleteconfirm>是否要删除此项?</deleteconfirm>
+				<createnew>新建发布</createnew>
+				<post>发布</post>
+				<heading>标题</heading>
+				<message>消息</message>
+				<author>作者</author>
+				<previous>上一步</previous>
+				<next>下一步</next>
+				<reply>答复</reply>
+				<change>更改</change>
+				<delete>删除</delete>
+				<replies>答复</replies>
+				<uponelevel>向上一级</uponelevel>
+			</conference>
+			<newsgroupitem>
+				<reply>答复</reply>
+				<name>名称</name>
+				<email>电子邮件</email>
+				<subject>主题</subject>
+			</newsgroupitem>
+			<newsgrouplist>
+				<newpost>新主题</newpost>
+				<settings>设置</settings>
+				<subject>主题</subject>
+				<author>作者</author>
+				<created>创建日期</created>
+			</newsgrouplist>
+			<newsgroupsettings>
+				<personalsettings>个人设置</personalsettings>
+				<firstname>名</firstname>
+				<lastname>姓</lastname>
+				<email>电子邮件</email>
+				<interval see="/templates/subscribe/interval"/>
+				<fastaspossible see="/templates/subscribe/fastaspossible"/>
+				<daily see="/templates/subscribe/daily"/>
+				<everysecondday see="/templates/subscribe/everysecondday"/>
+				<weekly see="/templates/subscribe/weekly"/>
+				<everysecondweek see="/templates/subscribe/everysecondweek"/>
+				<everyfourthweek see="/templates/subscribe/everyfourthweek"/>
+			</newsgroupsettings>
+			<newsgrouptree>
+				<back>返回</back>
+			</newsgrouptree>
+			<notimplemented>
+				<notimplemented>此功能尚不可用。</notimplemented>
+			</notimplemented>
+			<subscribe>
+				<interval>间隔</interval>
+				<fastaspossible>尽快</fastaspossible>
+				<daily>每天一次</daily>
+				<everysecondday>每两天一次</everysecondday>
+				<weekly>每周一次</weekly>
+				<everysecondweek>每两周一次</everysecondweek>
+				<everyfourthweek>每四周一次</everyfourthweek>
+				<subscriptions>订阅</subscriptions>
+			</subscribe>
+			<profile>
+				<image>						图像</image>
+				<profile>					配置文件</profile>
+				<department>				部门</department>
+			</profile>
+			<profilefinder>											
+				<limitamountofhits>			限制命中数</limitamountofhits>
+				<myprofile>					我的配置文件</myprofile>
+				<backtosearch>				返回搜索</backtosearch>
+				<showdetailedlist>			显示详细列表</showdetailedlist>
+			</profilefinder>
+			<emailpage>
+				<to>						收件人</to>
+				<from>						发件人</from>
+				<subject>					主题</subject>
+				<other>						其他</other>
+				<send>						发送</send>
+			</emailpage>
+			<common>
+				<printpage>					打印页</printpage>
+				<emailpage>					将本页告诉朋友</emailpage>
+				<sitemap>					显示站点地图</sitemap>
+				<register>					注册</register>
+				<editdetails>				更改我的详细信息</editdetails>
+				<login>						登录</login>
+				<logout>					注销</logout>
+				<numberofhits>				命中数</numberofhits>
+				<pagehaschildren>			页具有子页</pagehaschildren>
+				<startpage>				起始页</startpage>
+				<changelanguage>将语言更改为 {0}</changelanguage>
+			</common>
+			<portal>
+				<back>						返回</back>
+				<reloadportal>				重新加载门户起始页</reloadportal>
+				<opensettingsheader>		设置</opensettingsheader>
+				<opensettingstooltip>		打开门户设置</opensettingstooltip>
+				<actionrequiresauthentication>此操作要求身份验证</actionrequiresauthentication>
+				<mysettingprefix>			我的设置 </mysettingprefix>
+				<myportalsettings>			我的门户设置</myportalsettings>
+				<saveresizesettingstooltip> 保存高度和宽度设置</saveresizesettingstooltip>
+				<saveresizesettingsheader>	保存</saveresizesettingsheader>
+				<resetsettings>				重置设置</resetsettings>
+				<selectedframework>			所选的框架</selectedframework>
+				<advancedframework>			高级框架</advancedframework>
+				<simpleframework>			简单框架</simpleframework>
+				<parts>						门户版面</parts>
+				<expandregion>				展开</expandregion>
+				<minimizeregion>			最小化</minimizeregion>
+				<restoreregion>				重置大小</restoreregion>
+				<refreshregion>				重新加载</refreshregion>
+				<regionsettings>			打开设置</regionsettings>
+			</portal>
+			<filelisting>
+				<rootpatherror>				未定义根文件夹</rootpatherror>
+				<sortordername>				名称</sortordername>
+				<sortorderdatecreated>		创建日期</sortorderdatecreated>
+				<sortorderdatelastaccessed>	上次访问日期</sortorderdatelastaccessed>
+				<sortorderdatelastmodified>	上次修改日期</sortorderdatelastmodified>
+				<sortordertype>				文件类型</sortordertype>
+				<sortordersize>				大小</sortordersize>
+				<sortordernone>				</sortordernone>
+				<sortordernamedesc>按名称降序排序</sortordernamedesc>
+				<sortorderdatecreateddesc>按创建日期降序排序</sortorderdatecreateddesc>
+				<sortorderdatelastaccesseddesc>按上次访问日期降序排序</sortorderdatelastaccesseddesc>
+				<sortorderdatelastmodifieddesc>按上次修改日期降序排序</sortorderdatelastmodifieddesc>
+				<sortordertypedesc>按文件类型降序排序</sortordertypedesc>
+				<sortordersizedesc>按大小降序排序</sortordersizedesc>
+			</filelisting>
+			<mobileinfo>
+				<maininfo>
+					&lt;b&gt;如何在 EpiServer 中启用 WAP 功能&lt;/b&gt;
+					&lt;p&gt;由于 EpiServer 中的 WAP/移动设备支持基于 Microsoft Mobile Internet Toolkit，因此默认情况下不启用此功能。 如果希望激活移动设备支持，请按照以下说明操作。&lt;/p&gt;
+					&lt;ul&gt;
+						&lt;li&gt;
+							下载并在开发计算机上安装 Microsoft Mobile Internet Toolkit。 下载地址为 &lt;a href="http://www.msdn.microsoft.com/downloads/default.asp?url=/downloads/sample.asp?url=/msdn-files/027/001/817/msdncompositedoc.xml" target="_blank"&gt;
+								http://www.msdn.microsoft.com&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;
+							转到 EpiServer 的“管理”模式，并打开“移动”页的页类型定义&lt;/li&gt;
+						&lt;ul&gt;
+							&lt;li&gt;
+								输入该页类型的设置。
+							&lt;/li&gt;
+							&lt;li&gt;
+								更改“文件名”以指向 templates/Mobile.aspx，而不是 templates/MobileInfo.aspx
+							&lt;/li&gt;
+							&lt;li&gt;
+								保存更改。
+							&lt;/li&gt;
+						&lt;/ul&gt;
+						&lt;li&gt;
+							在 EPiServer 开发项目中添加对 System.Web.Mobile (随 Mobile Internet Toolkit 安装) 的引用。&lt;/li&gt;
+						&lt;li&gt;
+							在 EpiServer 开发项目中包含文件 /templates/Mobile.aspx。&lt;/li&gt;
+						&lt;li&gt;
+							重新编译 EPiServer 项目。&lt;/li&gt;
+					&lt;/ul&gt;
+				</maininfo>
+			</mobileinfo>
+			<xform>
+				<postedmessage>感谢您的答复！</postedmessage>
+				<requirelogon>您必须登录才能答复。</requirelogon>
+				<denymultipleposts>您已经填写了此表单。</denymultipleposts>
+				<fieldisrequired>请指定“{0}”</fieldisrequired>
+				<requiredfields>您尚未指定所有必填信息 (以 * 标记)</requiredfields>
+				<errorpostingtodatabase>无法发送表单。</errorpostingtodatabase>
+				<errorpostingtoemail>无法发送表单。</errorpostingtoemail>
+				<errorpostingtocustomurl>无法发送表单。</errorpostingtocustomurl>
+			</xform>
+			<workroom>
+				<common>
+					<active>活动</active>
+					<captionsingle>单个工作室</captionsingle>
+					<captionmany>多个工作室</captionmany>
+					<changed see="/workflow/reportmail/changed" />
+					<createnew>新建工作室</createnew>
+					<name see="/workflow/reportmail/taskname" />
+					<owner see="/workflow/reportmail/owner" />
+					<showonlyactive>仅显示活动工作室</showonlyactive>
+				</common>
+				<members>
+					<activemembers>活动成员</activemembers>
+					<addmember>添加成员</addmember>
+					<addmembercaption>添加成员</addmembercaption>
+					<activemembercaption>取消</activemembercaption>
+					<removemembercaption>删除</removemembercaption>
+					<searchbuttoncaption>搜索</searchbuttoncaption>
+					<searchdescription>搜索用户</searchdescription>
+					<canceleditcaption>取消</canceleditcaption>
+					<memberstatusheader>成员身份</memberstatusheader>
+					<editmembercaption>编辑</editmembercaption>
+				</members>
+				<memberstatus>
+					<guest>来宾</guest>
+					<administrator>管理员</administrator>
+					<user>用户</user>
+					<none>非成员</none>
+				</memberstatus>				
+				<plugins>
+					<overview>
+						<displayname>概述</displayname>
+					</overview>
+					<bulletinboard>
+						<displayname>公告栏</displayname>
+					</bulletinboard>
+					<calendar>
+						<displayname>日历</displayname>
+						<newentry>新建日历项</newentry>
+						<editentry>编辑日历项</editentry>
+						<subject>主题</subject>
+						<starttime>开始时间</starttime>
+						<endtime>结束时间</endtime>
+						<startdategreaterthanenddate>无效日期: “{0}”的日期不能晚于“{1}”</startdategreaterthanenddate>
+					</calendar>
+					<document>
+						<displayname>文档</displayname>
+					</document>
+					<forum>
+						<displayname>论坛</displayname>
+					</forum>
+					<members>
+						<displayname>成员</displayname>
+					</members>
+					<news>
+						<displayname>新闻</displayname>
+						<newentry>新建</newentry>
+						<title>标题</title>
+						<mainintro>简介</mainintro>
+						<mainbody>正文</mainbody>
+					</news>
+					<settings>
+						<displayname>设置</displayname>
+						<active>处于活动状态</active>
+					</settings>
+				</plugins>
+				<unabletocreateworkroom>无法创建工作室: </unabletocreateworkroom>
+				<unabletofindworkroomtemplates>找不到工作室模板</unabletofindworkroomtemplates>
+				<invalidworkroompage>页不是有效工作室页</invalidworkroompage>
+				<invalidpageinstance>工作室模板需要有效页实例</invalidpageinstance>
+				<invalidrootdir>无法访问文档根目录</invalidrootdir>
+				<undefinedrootdir>未定义文档根目录</undefinedrootdir>
+			</workroom>
+			<logservice>
+				<lastusers>
+					<heading>最后 5 个活动访问者</heading>
+					<totalusers>站点当前有 {0} 个访问者。</totalusers>
+					<noconnection>无法连接日志服务。</noconnection>
+				</lastusers> 
+				<pagehits>
+					<heading>访问最多的页</heading>
+					<totalpagehits>当前每分钟显示 {0} 页。</totalpagehits>
+					<noconnection>无法连接日志服务。</noconnection>
+				</pagehits> 
+				<publishedpages>
+					<heading>最后 5 个发布的页</heading>
+					<noconnection>无法连接日志服务。</noconnection>
+				</publishedpages> 
+				<notactive>网站没有激活统计信息。</notactive>
+			</logservice>
+			<wsrp>
+				<common>
+					<configuration>配置</configuration>
+				</common>
+				<infoservicecontrol>
+					<selecttitle>选择标题: </selecttitle>
+					<selectwidth>列出最大化/单独状态的宽度 (像素): </selectwidth>
+					<selectsinglepage>以正常模式显示单个页: </selectsinglepage>
+					<selectchannel>选择信息频道: </selectchannel>
+					<save>保存</save>
+				</infoservicecontrol>
+				<newscontrol>
+					<selecttitle>选择标题: </selecttitle>
+					<selectchannels>选择新闻频道: </selectchannels>
+					<selectnoofitems>行数: </selectnoofitems>
+					<selectchannels>选择信息频道: </selectchannels>
+					<save>保存</save>
+				</newscontrol>
+				<usersettingscontrol>
+					<selecttitle>选择标题: </selecttitle>
+					<save>保存</save>
+				</usersettingscontrol>
+				<iframecontrol>
+					<selecttitle>选择标题: </selecttitle>
+					<selecturl>选择 URL: </selecturl>
+					<selectheight>选择高度 (像素): </selectheight>
+					<save>保存</save>
+				</iframecontrol>
+				<rsscontrol>
+					<selecttitle>选择标题: </selecttitle>
+					<selecturl>选择 URL: </selecturl>
+					<selectnoofitems>行数: </selectnoofitems>
+					<save>保存</save>
+				</rsscontrol>
+			</wsrp>
+			<wsrpadmin>
+				<heading>WSRP 源</heading>
+				<info>定义可用的 WSRP 源</info>
+			</wsrpadmin>
+			<wsrpfx>
+				<admin>
+					<test>测试</test>
+					<delete>删除</delete>
+					<createnew>新建</createnew>
+					<sourcename>名称</sourcename>
+					<markupurl>标记 URL</markupurl>
+					<servicedescriptionurl>服务说明 URL</servicedescriptionurl>
+					<registrationurl>注册 URL</registrationurl>
+					<portletmanagementurl>Portlet 管理 URL</portletmanagementurl>
+					<offeredportletstitle>以下 Portlet 是由此制作者提供的</offeredportletstitle>
+					<messages>
+						<producerinvalid>制作者 {0} 没有按预期方式响应</producerinvalid>
+						<producerok>制作者 {0} 按预期方式响应</producerok>
+					</messages>
+					<usewsdlradio>注册 WSDL</usewsdlradio>
+					<wsdlurl>WSDL</wsdlurl>
+					<useservicesradio>注册 Web 服务</useservicesradio>
+				</admin>
+				<portal>
+					<home>主页</home>
+					<resetportal>重置我的设置</resetportal>
+					<displaymode>查看模式</displaymode>
+					<viewmode>
+						<view>简单页</view>
+						<viewanduse>门户页</viewanduse>
+						<design>设计</design>
+					</viewmode>
+					<newtab>新建选项卡</newtab>
+					<deletetab>删除选项卡</deletetab>
+					<savesource>保存为模板</savesource>
+					<tabname>选项卡名称</tabname>
+					<disposition>布局</disposition>
+					<savetabsettings>更改</savetabsettings>
+					<selectedportlet>Portlet</selectedportlet>
+					<selectedarea>区域</selectedarea>
+					<addportlet>添加</addportlet>
+					<errorlayoutcontrolls>获取门户使用者的布局控件时出现问题。</errorlayoutcontrolls>
+				</portal>
+				<layouts>
+					<wsrpsinglecolumnlayout>
+						<layoutname>一列</layoutname>
+					</wsrpsinglecolumnlayout>
+					<wsrpthreecolumnlayout>
+						<layoutname>三列</layoutname>
+					</wsrpthreecolumnlayout>
+				</layouts>
+				<button>
+					<view>查看</view>
+					<edit>编辑</edit>
+					<preview>预览</preview>
+					<help>帮助</help>
+					<minimized>最小化</minimized>
+					<normal>还原</normal>
+					<maximized>最大化</maximized>
+					<solo>单独</solo>
+				</button>	
+			</wsrpfx>
+			<readspeaker>
+				<readme>读取</readme>
+				<readmealttext>读取所选文本/页文本</readmealttext>
+			</readspeaker>
+			<webparts>
+				<portal>
+					<displaymode>显示模式</displaymode>
+					<scope>范围</scope>
+					<leftzone>左列</leftzone>
+					<rightzone>右列</rightzone>
+					<catalogzone>Web 部件目录</catalogzone>
+					<editorzone>修改 Web 部件</editorzone>
+					<connectionzone>连接 Web 部件</connectionzone>
+					<importzone>导入 Web 部件</importzone>
+				</portal>
+		        <units>
+		          <rsscontrol>
+		            <emptyurl>URL 不能为空。</emptyurl>
+		          </rsscontrol>
+		        </units>
+			</webparts>
+			<blog>
+				<createnewblog>新建博客</createnewblog>
+				<name>名称:</name>
+				<createblog>创建博客</createblog>
+				<archive>存档</archive>
+				<noarchiveentries>此博客没有任何发布内容。</noarchiveentries>
+				<rsssource>RSS 源</rsssource>
+				<postcomment>发布评论</postcomment>
+				<comments>评论</comments>
+				<title>标题:</title>
+				<createnewpost>新建发布</createnewpost>
+				<post>发布</post>
+				<date>日期</date>
+				<changestatus>更改状态</changestatus>
+			</blog>
+		</templates>
+		<common>
+			<headerimagedescription>页标题，带有 EPiServer 徽标的图像</headerimagedescription>
+		</common>
+		<pagetypes>
+			<common>
+				<property name="DefaultLanguage">
+					<caption>默认语言</caption>
+					<help>在没有所选语言版本时页应使用的语言</help>
+				</property>
+				<property name="AudioFormat">
+					<caption>音频格式</caption>
+					<help>选择音频格式。 mp3 选择 2，wav 选择 3</help>
+				</property> 
+				<property name="ReadspeakerLanguage">
+					<caption>扬声器声音的语言</caption>
+					<help>选择阅读文本的语言</help>
+				</property> 
+				<property name="Sitemap">
+					<caption>带有站点地图的页的获取位置</caption>
+					<help>指定在快速链接中显示为站点地图的页</help>
+				</property>
+				<property name="RegisterPage">
+					<caption>带有我的设置的页的获取位置</caption>
+					<help>指定在快速链接中显示为我的设置的页</help>
+				</property>
+				<property name="AllowInPortal">
+					<caption>	在门户中使用该页</caption>
+					<help>		如果希望以门户状态显示页，请选择此选项</help>
+				</property>
+				<property name="PersonalizableProperties">
+					<caption>	允许门户访问者更改的属性 </caption>
+					<help>		选择可用于在此门户中进行个性化设置的选项</help>
+				</property>
+				<property name="WebBaseURL">
+					<caption>	搜索要显示的文件夹的路径</caption>
+					<help>		指定将在列表中显示其内容的文件夹的地址</help>
+				</property>
+				<property name="SortFileBy">
+					<caption>	文件列表排序方式</caption>
+					<help>		选择列表的排序方式</help>
+				</property>
+     			<property name="FirstName">
+					<caption>	名</caption>
+					<help>		指定此配置文件的名</help>
+				</property>
+    			<property name="LastName">
+					<caption>	姓</caption>
+					<help>		指定此配置文件的姓</help>
+				</property>
+				<property name="Email">
+					<caption>	电子邮件地址</caption>
+					<help>		指定此配置文件的电子邮件地址</help>
+				</property>
+				<property name="Company">
+					<caption>	公司</caption>
+					<help>		指定此配置文件的公司名称</help>
+				</property>
+     			<property name="Sid">
+					<caption>	用户名</caption>
+					<help>		指定链接到此配置文件的用户名/登录名</help>
+				</property>
+				<property name="Profile">
+					<caption>	配置文件</caption>
+					<help>		指定配置文件/此配置文件的功能 </help>
+				</property>
+				<property name="Title">
+					<caption>	标题</caption>
+					<help>		指定此配置文件的标题</help>
+				</property>
+				<property name="AddedPropDepartment">
+					<caption>	部门</caption>
+					<help>		指定此配置文件的部门</help>
+				</property>
+				<property name="Image">
+					<caption>	图像</caption>
+					<help>		指定随此配置文件显示的图像</help>
+				</property>
+				<property name="Telephone">
+					<caption>	电话</caption>
+					<help>		指定随此配置文件显示的电话号码</help>
+				</property>
+    			<property name="ExternalURL">
+					<caption>	搜索外部链接的路径</caption>
+					<help>		指定要链接到的网站/网页的 URL。 包含 http://</help>
+				</property>
+ 				<property name="ListingSlideContainer">
+					<caption>	下载演示文稿</caption>
+					<help>		选择要从中下载演示文稿的页</help>
+				</property>
+				<property name="ListingSlideCount">
+					<caption>	显示演示文稿中的页数</caption>
+					<help>		以整数指定演示文稿中显示的页数</help>
+				</property>
+				<property name="RefreshRate">
+					<caption>	每页显示的秒数</caption>
+					<help>		以整数指定演示文稿中每页显示的秒数</help>
+				</property>
+				<property name="RssHeading">
+					<caption>	RSS 源的标题</caption>
+					<help>		指定 RSS 格式新闻的标题。</help>
+				</property>	
+				<property name="RssUrl">
+					<caption>	搜索 RSS 源的路径</caption>
+					<help>		指定 RSS 格式新闻的地址。 这通常为 Internet 地址。</help>
+				</property>
+				<property name="PagingSize">
+					<caption>	显示 RSS 列表中新闻项的数量</caption>
+					<help>		以整数指定列表中显示的新闻项的数量</help>
+				</property>
+				<property name="OnlyShowHeaders">
+					<caption>	仅显示 RSS 列表中的新闻项</caption>
+					<help>		选择此选项将仅显示列表中的 RSS 新闻标题</help>
+				</property>
+				<property name="ExchangeServer">
+					<caption>	Exchange 服务器</caption>
+					<help>		指定安装 Exchange 的服务器的名称</help>
+				</property>
+				<property name="ExchangeUser">
+					<caption>	用户名</caption>
+					<help>		指定要显示的 Exchange 文件夹的用户名</help>
+				</property>
+				<property name="ExchangeAction">
+					<caption>	显示 Exchange 视图</caption>
+					<help>		指定要显示的 Exchange 视图，例如收件箱或日历</help>
+				</property>
+				<property name="AdvancedPortalModeLeftTopContent">
+					<caption>	左上部分的内容</caption>
+					<help>		指定要显示为左上部分标准设置的页</help>
+				</property>
+				<property name="AdvancedPortalModeLeftBottomContent">
+					<caption>	左下部分的内容</caption>
+					<help>		指定要显示为左下部分标准设置的页</help>
+				</property>
+				<property name="AdvancedPortalModeMainContent">
+					<caption>	主要部分的内容</caption>
+					<help>		指定要显示为主要部分标准设置的页</help>
+				</property>
+				<property name="AdvancedPortalModeRightTopContent">
+					<caption>	右上部分的内容</caption>
+					<help>		指定要显示为右上部分标准设置的页</help>
+				</property>
+				<property name="AdvancedPortalModeRightCenterContent">
+					<caption>	右中部分的内容</caption>
+					<help>		指定要显示为右中部分标准设置的页</help>
+				</property>
+				<property name="AdvancedPortalModeRightBottomContent">
+					<caption>	右下部分的内容</caption>
+					<help>		指定要显示为右下部分标准设置的页</help>
+				</property>
+				<property name="SimplePortalModeMainContent">
+					<caption>	主要部分的内容</caption>
+					<help>		指定要显示为主要部分标准设置的页</help>
+				</property>
+				<property name="SimplePortalModeRightTopContent">
+					<caption>	右上部分的内容</caption>
+					<help>		指定要显示为右上部分标准设置的页</help>
+				</property>
+				<property name="SimplePortalModeRightMiddleContent">
+					<caption>	右中部分的内容</caption>
+					<help>		指定要显示为右中部分标准设置的页</help>
+				</property>
+				<property name="SimplePortalModeRightBottomContent">
+					<caption>	右下部分的内容</caption>
+					<help>		指定要显示为右下部分标准设置的页</help>
+				</property>
+				<property name="NewsCount">
+					<caption>	显示列表中新闻项的数量</caption>
+					<help>		以整数指定要显示的新闻项的数量</help>
+				</property>
+				<property name="EventsContainer">
+					<caption>	下载日历事件</caption>
+					<help>		指定要从中下载日历事件的页</help>
+				</property>
+				<property name="EventsCount">
+					<caption>	显示列表中日历事件的数量</caption>
+					<help>		以整数指定要显示的事件数</help>
+				</property>
+				<property name="MainImage">
+					<caption>	起始页上的主图像</caption>
+					<help>		指定要在起始页上显示的图像</help>
+				</property>
+				<property name="MainNewsItem">
+					<caption>	主新闻</caption>
+					<help>		指定起始页的主新闻</help>
+				</property>
+				<property name="HeaderImage">
+					<caption>	网站顶部的图像</caption>
+					<help>		指定要显示为网站主图像的图像</help>
+				</property>
+				<property name="EPsPortalRegionName">
+					<caption>	名称</caption>
+					<help>		区域名称</help>
+				</property>
+				<property name="EPsPortalRegionColor">
+					<caption>	颜色</caption>
+					<help>		区域颜色</help>
+				</property>
+				<property name="EPsPortalRegionRefreshRate">
+					<caption>	刷新率</caption>
+					<help>		指定更新此部分门户的频率 (以分钟为单位)。 输入 0 意味着该门户部分是标准设置，将不自动重新加载</help>
+				</property>
+				<property name="NewsContainer">
+					<caption>	新闻列表</caption>
+					<help>	指定要从中获取新闻列表的页</help>
+				</property>	
+				<property name="EmbeddedURL">
+					<caption>Flash 影片的路径</caption>
+					<help>指定要显示的 Flash 影片的路径，方法是单击按钮，然后选择文件。</help>
+				</property>
+				<property name="Height">
+					<caption>高度</caption>
+					<help>Flash 影片的高度</help>
+				</property>
+				<property name="Width">
+					<caption>宽度</caption>
+					<help>Flash 影片的宽度</help>
+				</property>
+				<property name="StartPublishOffset">
+					<caption>	相对于页创建时间的“开始发布日期”</caption>
+					<help>		设置相对于页创建时间的“开始发布日期”</help>
+				</property>
+				<property name="StopPublishOffset">
+					<caption>	相对于页创建时间的“停止发布日期”</caption>
+					<help>		设置相对于页创建时间的“停止发布日期”</help>
+				</property>
+				<property name="MainBody">
+					<caption>编辑器</caption>
+					<help>页内容。 在这里，您可以输入文本、插入图像、文档、表格等</help>
+				</property>
+				<property name="ListingContainer">
+					<caption>列表的获取位置</caption>
+					<help>指定要从中获取列表的页</help>
+				</property>
+				<property name="ListingCount">
+					<caption>显示列表的页数</caption>
+					<help>使用整数指定列表中要显示的页数</help>
+				</property>
+				<property name="ListingType">
+					<caption>列表中的页类型</caption>
+					<help>指定列表中要显示的页类型</help>
+				</property>
+				<property name="ListingCategoryList">
+					<caption>显示以下类别</caption>
+					<help>指定该页上要显示的类别</help>
+				</property>
+				<property name="EPSUBSCRIBE">
+					<caption>激活为订阅根</caption>
+					<help>选中此复选框可允许访问者订阅该页及其子页。</help>
+				</property>
+				<property name="WriterName">
+					<caption>作者</caption>
+					<help>内容负责人的名字</help>
+				</property>
+				<property name="MailTo">
+					<caption>收件人电子邮件地址</caption>
+					<help>信息接收者的电子邮件地址</help>
+				</property>
+				<property name="MainIntro">
+					<caption>简介</caption>
+					<help>经常显示在列表中的介绍性文本</help>
+				</property>
+				<property name="MainBodyLoggedIn">
+					<caption>已登录用户的编辑器</caption>
+					<help>用户登录后可以进行的选择的说明</help>
+				</property>
+				<property name="MainScope">
+					<caption>IndexServer 搜索的范围</caption>
+					<help>指定要进行搜索的文件夹。 如果将此字段留空，搜索将在“上载”文件夹中进行</help>
+				</property>
+				<property name="MainCatalog">
+					<caption>索引服务器的目录</caption>
+					<help>指定要搜索的索引服务器目录</help>
+				</property>
+				<property name="RecentContainer">
+					<caption>显示页的位置</caption>
+					<help>指定要从其中显示最近更改页的页</help>
+				</property>
+				<property name="RecentHours">
+					<caption>显示过去 x 小时内更改的页</caption>
+					<help>指定希望显示更改页的回溯时间，使用整数表示小时数</help>
+				</property>
+				<property name="IndexContainer">
+					<caption>显示页内容</caption>
+					<help>指定索引开始的页</help>
+				</property>
+				<property name="IndexLevel">
+					<caption>显示包含子级别数的索引</caption>
+					<help>为索引中要显示的子级别数指定一个整数</help>
+				</property>
+				<property name="IndexColumns">
+					<caption>索引的列数</caption>
+					<help>为索引中要显示的列数指定一个整数</help>
+				</property>
+				<property name="MailFrom">
+					<caption>电子邮件发件人</caption>
+					<help>表单答复接收者的电子邮件地址</help>
+				</property>
+				<property name="MainForm">
+					<caption>表单</caption>
+					<help>指定该页将显示的表单。 通过单击按钮，您可以创建自己的表单</help>
+				</property>
+				<property name="EPSUBSCRIBEHIDDEN">
+					<caption>不要在订阅页上显示它</caption>
+					<help>指定是否希望在普通订阅页上显示该页 </help>
+				</property>
+				<property name="NewsGroupRoot">
+					<caption>新闻组的主页</caption>
+					<help>指定将作为新闻组主页的页</help>
+				</property>
+				<property name="NewsGroupPageTypeID">
+					<caption>新闻项的页类型</caption>
+					<help>指定将用于新闻项的页类型</help>
+				</property>
+				<property name="AllowNewsItem">
+					<caption>允许新闻项</caption>
+					<help>指定该页上是否允许新闻项 </help>
+				</property>
+				<property name="WriterEmail">
+					<caption>电子邮件地址</caption>
+					<help>新闻项创建者的电子邮件地址</help>
+				</property>
+				<property name="NewsGroupContainer">
+					<caption>属于以下新闻组</caption>
+					<help>指定新闻项所属的新闻组</help>
+				</property>
+				<property name="MainMenuContainer">
+					<caption>开始显示菜单的位置</caption>
+					<help>在菜单树中指定一个位置，菜单将从此处显示在所选页上</help>
+				</property>
+				<property name="MainSearchPage">
+					<caption>全局搜索页</caption>
+					<help>指定将作为网站全局搜索页的页</help>
+				</property>
+				<property name="MetaDescription">
+					<caption>页说明</caption>
+					<help>说明页的内容</help>
+				</property>
+				<property name="MetaKeywords">
+					<caption>页的标准搜索字</caption>
+					<help>指定与该页匹配的搜索字的逗号分隔列表</help>
+				</property>
+				<property name="EventInputGuide">
+					<caption>重复操作</caption>
+					<help>如果希望创建重复操作，请选中此框</help>
+				</property>
+				<property name="EventStartDate">
+					<caption>开始日期</caption>
+					<help>指定操作的开始日期</help>
+				</property>
+				<property name="EventStopDate">
+					<caption>停止日期</caption>
+					<help>指定操作的停止日期</help>
+				</property>
+				<property name="ValidDays">
+					<caption>重复日</caption>
+					<help>指定操作是否以设定间隔重复</help>
+				</property>
+				<property name="nDaysToRender">
+					<caption>日历中要显示的天数</caption>
+					<help>为日历中要显示的天数指定一个整数</help>
+				</property>
+				<property name="CalendarType">
+					<caption>日历中要显示的页类型</caption>
+					<help>指定用于日历事件的页类型</help>
+				</property>
+				<property name="CalendarContainer">
+					<caption>开始显示日历信息的位置</caption>
+					<help>在菜单树中指定一个位置，日历将从此处开始显示</help>
+				</property>
+				<property name="Box1Caption">
+					<caption>1. 标题</caption>
+				</property>
+				<property name="Box1Container">
+					<caption>1. 列表的获取位置</caption>
+					<help>指定要从中获取列表的页</help>
+				</property>
+				<property name="Box1Count">
+					<caption>1. 显示列表中的页数</caption>
+					<help>使用整数指定列表中要显示的页数</help>
+				</property>
+				<property name="Box1SortOrder">
+					<caption>1. 排序顺序</caption>
+					<help>定义该页的子页的显示顺序。</help>
+				</property>
+				<property name="Box2Caption">
+					<caption>2. 标题</caption>
+				</property>
+				<property name="Box2Container">
+					<caption>2. 列表的获取位置</caption>
+					<help>指定要从中获取列表的页</help>
+				</property>
+				<property name="Box2Count">
+					<caption>2. 显示列表中的页数</caption>
+					<help>使用整数指定列表中要显示的页数</help>
+				</property>
+				<property name="Box2SortOrder">
+					<caption>2. 排序顺序</caption>
+					<help>定义该页的子页的显示顺序。</help>
+				</property>
+				<property name="MailSubject">
+					<caption>	订阅电子邮件中的主题</caption>
+					<help>		这是发送给订阅者的订阅电子邮件的主题字段。</help>
+				</property>
+				<property name="MailReadMore">
+					<caption>	电子邮件中的链接文本</caption>
+					<help>		此文本将构成用户可在订阅电子邮件中单击的链接。 </help>
+				</property>
+				<property name="MailBody">
+					<caption>	电子邮件中的简介文本</caption>
+					<help>		输入文本，此文本将作为订阅电子邮件中发送的已修改页列表上方的邮件正文。 </help>
+				</property>
+				<property name="EPSUBSCRIBE-ROOT">
+					<caption>	订阅根</caption>
+					<help>		选择订阅起始点。 指向树中此点以下的每个更改页或添加页的链接都将在订阅电子邮件中发送。</help>
+				</property>
+				<property name="MainContainer">
+					<caption>搜索的起始页</caption>
+					<help>如果此字段留空，搜索将从起始页开始</help>
+				</property>
+				<property name="RightListingContainer">
+					<caption>列至右侧</caption>
+					<help>在右侧输入帮助列表的起始点。</help>
+				</property>
+				<property name="EnableStatistics">
+					<caption>在页模板上显示统计信息</caption>
+					<help>在页上显示访问者统计信息。</help>
+				</property>
+				<property name="ConferenceContainer">
+						<caption>讨论的起始页</caption>
+						<help>指定用作此论坛首页的页 (通常是该页)</help>
+				</property>
+				<property name="ProfileContainer">
+					<caption>配置文件的搜索位置</caption>
+					<help>指定配置文件搜索在菜单树中的起始位置。 通常是该页。</help>
+				</property>
+				<property name="DisableName">
+					<caption>隐藏用户名</caption>
+					<help>不允许用户编辑名称</help>
+				</property>
+				<property name="DisableDescription">
+					<caption>隐藏说明</caption>
+					<help>不允许用户编辑说明</help>
+				</property>
+				<property name="DisableFirstname">
+					<caption>隐藏名</caption>
+					<help>不允许用户编辑名</help>
+				</property>
+				<property name="DisableLastname">
+					<caption>隐藏姓</caption>
+					<help>不允许用户编辑姓</help>
+				</property>
+				<property name="DisableEmail">
+					<caption>隐藏电子邮件</caption>
+					<help>不允许用户编辑电子邮件</help>
+				</property>
+				<property name="DisableCompany">
+					<caption>隐藏公司</caption>
+					<help>不允许用户编辑公司</help>
+				</property>
+				<property name="DisableTitle">
+					<caption>隐藏职位</caption>
+					<help>不允许用户编辑职位</help>
+				</property>
+				<property name="DisableAddress">
+					<caption>隐藏地址</caption>
+					<help>不允许用户编辑地址</help>
+				</property>
+				<property name="DisablePostalNumber">
+					<caption>隐藏邮政编码</caption>
+					<help>不允许用户编辑邮政编码</help>
+				</property>
+				<property name="DisableTelephone">
+					<caption>隐藏电话</caption>
+					<help>不允许用户编辑电话</help>
+				</property>
+				<property name="DisableMobile">
+					<caption>隐藏移动电话</caption>
+					<help>不允许用户编辑移动电话</help>
+				</property>
+				<property name="DisableLanguage">
+					<caption>隐藏语言</caption>
+					<help>不允许用户编辑语言</help>
+				</property>
+				<property name="DisablePassword">
+					<caption>隐藏密码</caption>
+					<help>不允许用户编辑密码</help>
+				</property>
+				<property name="DisablePostalAddress">
+					<caption>隐藏邮政地址</caption>
+					<help>不允许用户编辑邮政地址</help>
+				</property>
+				<property name="ProfilePageType">
+					<caption>配置文件查找器中显示的页类型</caption>
+					<help>选择要用作配置文件查找器中个人页的页类型</help>
+				</property>
+				<property name="DocumentInternalPath">
+					<caption>文档路径</caption>
+					<help>源文档副本的路径，此字段将自动更新。</help>
+				</property>
+				<property name="DocumentInternalHtmlPath">
+					<caption>HTML 版本文档的路径</caption>
+					<help>完整 HTML 版本源文档的路径。 此字段将自动更新。</help>
+				</property>
+				<property name="DocumentExternalPath">
+					<caption>源文档的外部路径</caption>
+					<help>用于发布该页的源文档的完整路径。 此字段将自动更新。</help>
+				</property>
+				<property name="IsDocumentPageType">
+					<caption>上载源文档的完整 HTML 版本和副本</caption>
+					<help>选择此选项可显示完整 HTML 版本</help>
+				</property>
+				<property name="AllowDocumentUpdate">
+					<caption>允许从文档更新页</caption>
+					<help>选择此选项可从源文档更新该页</help>
+				</property>
+				<property name="DisplayDownloadLink">
+					<caption>显示源文档的下载链接</caption>
+					<help>选择此选项可显示指向源文档的链接</help>
+				</property>
+				<property name="Document">
+					<caption>文档路径</caption>
+					<help>要显示的 PDF 文件的路径。</help>
+				</property>
+				<property name="InformationChannel">
+					<caption>信息频道</caption>
+					<help>如果选择，WSRP Portlet“信息查看器”将使此树分支可选。</help>
+				</property>
+				<property name="MainXForm">
+					<caption>表单</caption>
+					<help>指定该页将显示的表单。 通过单击按钮，您可以创建自己的表单</help>
+				</property>
+				<property name="WorkroomsConfigPage">
+					<caption>工作室模板的获取位置</caption>
+					<help>指定创建工作室时要用作模板的页。</help>
+				</property>
+				<property name="DocumentRootDirectory">
+					<caption>用于文档管理的文件夹</caption>
+					<help>指定保存工作室文档的文件夹的搜索路径。</help>
+				</property> 
+				<property name="IsActiveWorkroom">
+					<caption>工作室处于活动状态</caption>
+					<help>如果希望工作室处于活动状态，请选中此复选框。</help>
+				</property> 
+				<property name="BulletinBoardContainer">
+					<caption>公告栏的获取位置</caption>
+					<help>指定要作为公告栏根页的页。</help>
+				</property>
+				<property name="IsActiveCalendar">
+					<caption>日历处于活动状态</caption>
+					<help>如果希望日历处于活动状态，请选中此复选框。</help>
+				</property>
+				<property name="IsActiveBulletinBoard">
+					<caption>公告栏处于活动状态</caption>
+					<help>如果希望公告栏处于活动状态，请选中此复选框。</help>
+				</property>
+				<property name="IsActiveFileList">
+					<caption>文档管理处于活动状态</caption>
+					<help>如果希望文档管理处于活动状态，请选中此复选框。</help>
+				</property>
+				<property name="IsActiveNewsList">
+					<caption>新闻列表处于活动状态</caption>
+					<help>如果希望新闻列表处于活动状态，请选中此复选框。</help>
+				</property>
+				<property name="IsActiveOverview">
+					<caption>概述处于活动状态</caption>
+					<help>如果希望概述处于活动状态，请选中此复选框。</help>
+				</property>
+				<property name="MemberStatusInfo">
+					<caption>成员状态信息</caption>
+					<help>显示不同成员的状态信息。</help>
+				</property>
+				<property name="FileRoot">
+					<caption>工作室的根文件夹</caption>
+					<help>指定要在其中创建工作室子文件夹的文件夹。</help>
+				</property>								
+				<property name="_wsrpCommonPortalInfo">
+					<caption>公共门户数据</caption>
+					<help>公共门户数据的信息。</help>
+				</property>				
+				<property name="_wsrpLayoutControl">
+					<caption>布局控件</caption>
+					<help>布局控件，用逗号分隔。</help>
+				</property>	
+				<property name="EPSUBSCRIBE-EXCLUDE">
+					<caption>阻止订阅该页</caption>
+					<help>选中此复选框可阻止该页的订阅更新。</help>
+				</property>
+				<property name="BlogPostForm">
+					<caption>博客发布的表单</caption>
+					<help>指定将用于该页上博客发布的表单。 通过单击按钮，您可以创建自己的表单。</help>
+				</property>			
+				<property name="BlogCommentForm">
+					<caption>评论表单</caption>
+					<help>指定将用于该页上博客发布评论的表单。 通过单击按钮，您可以创建自己的表单。</help>
+				</property>			
+				<property name="BlogListLayout">
+					<caption>博客列表的格式设置</caption>
+					<help>指定将用于该页上博客发布列表的格式。</help>
+				</property>		
+			</common>
+			<pagetype name="My Settings">
+					<name>我的设置</name>
+					<description>用户可在其上更改密码和其他个人设置的设置页</description>
+				</pagetype>
+			<pagetype name="Ordinary web page">
+				<name>普通网页</name>
+				<description>普通信息页</description>
+			</pagetype>
+			<pagetype name="Subscription">
+				<name>订阅</name>
+				<description>供访问者选择订阅信息的页</description>
+			</pagetype>
+			<pagetype name="Calendar">
+				<name>日历</name>
+				<description>日历的主页</description>
+			</pagetype>
+			<pagetype name="Calendar event">
+				<name>日历事件</name>
+				<description>用于日历新事件的页</description>
+			</pagetype>
+			<pagetype name="Discussion forum">
+				<name>论坛</name>
+				<description>用于创建论坛的主页</description>
+			</pagetype>
+			<pagetype name="Search">
+				<name>搜索</name>
+				<description>用于搜索网站信息的页</description>
+			</pagetype>
+			<pagetype name="Changed recently">
+				<name>最近更改</name>
+				<description>该页显示最近更改的页的列表</description>
+			</pagetype>
+			<pagetype name="Index">
+				<name>索引</name>
+				<description>显示网站全部或部分内容的页</description>
+			</pagetype>
+			<pagetype name="File listing">
+				<name>文件列表</name>
+				<description>该页列出 Web 服务器上的文件夹中的文件</description>
+			</pagetype>
+			<pagetype name="Start page">
+				<name>起始页</name>
+				<description>网站的起始页</description>
+			</pagetype>
+			<pagetype name="News groups, main page">
+				<name>新闻组，主页</name>
+				<description>新闻组的主页</description>
+			</pagetype>
+			<pagetype name="News groups, category">
+				<name>新闻组，类别</name>
+				<description>新闻组的类别</description>
+			</pagetype>
+			<pagetype name="News groups, news group">
+				<name>新闻组，新闻组</name>
+				<description>新闻组的页</description>
+			</pagetype>
+			<pagetype name="News groups, news item">
+				<name>新闻组，新闻项</name>
+				<description>新闻组中新闻项的页</description>
+			</pagetype>
+			<pagetype name="Register users">
+				<name>注册用户</name>
+				<description>网站上可供访问者注册的页</description>
+			</pagetype>
+			<pagetype name="Form page">
+				<name>表单页</name>
+				<description>包含表单的页</description>
+			</pagetype>
+			<pagetype name="Alphabetical index">
+				<name>字母索引</name>
+				<description>按字母顺序列出内容的页</description>
+			</pagetype>	
+			<pagetype name="Flash page">
+				<name>Flash 页</name>
+				<description>用于加载 Flash 影片的页</description>
+			</pagetype>
+			<pagetype name="Vote">
+				<name>投票</name>
+				<description>用于创建某类问题的页</description>	
+			</pagetype>				
+			<pagetype name="Mobile page">
+				<name>移动页</name>
+				<description>用于移动单元的页</description>
+			</pagetype>	
+			<pagetype name="News list">
+				<name>新闻列表</name>
+				<description>显示网站内的内部新闻或来自 RSS 源的外部新闻</description>
+			</pagetype>
+			<pagetype name="Profile search">
+				<name>配置文件搜索</name>
+				<description>用于人员注册的搜索页</description>
+			</pagetype>
+			<pagetype name="Personal profile">
+				<name>个人配置文件</name>
+				<description>用于个人信息的个人页。 用于人员注册。</description>
+			</pagetype>
+			<pagetype name="Slide show">
+				<name>幻灯片</name>
+				<description>该页以演示文稿的形式显示多个页，以预定间隔显示每一页</description>
+			</pagetype>
+			<pagetype name="EPiServer Portal Framework">
+				<name>EPiServer 门户框架</name>
+				<description>具有标准设置的门户，每个访问者可对这些设置进行个性化设置，使之成为自己的门户</description>
+			</pagetype>
+			<pagetype name="RSS source">
+				<name>RSS 源</name>
+				<description>该页以 RSS 格式显示 EPiServer 的信息</description>
+			</pagetype>
+			<pagetype name="External link">
+				<name>外部链接</name>
+				<description>该页显示其他网站的信息</description>
+			</pagetype>
+			<pagetype name="News page">
+				<name>新闻页</name>
+				<description>用于一个新闻项的页。 该页不会显示在菜单中。</description>
+			</pagetype>
+			<pagetype name="ReadSpeaker">
+				<name>ReadSpeaker</name>
+				<description>该页的内容可在扬声器中听到</description>
+			</pagetype>
+			<pagetype name="Multilanguage page">
+				<name>多语言页</name>
+				<description>该页的内容以多种语言同时编写</description>
+			</pagetype>
+			<pagetype name="Document">
+				<name>文档页</name>
+				<description>从 Microsoft Office 发布的文档</description>
+			</pagetype>
+			<pagetype name="Document list">
+				<name>文档列表</name>
+				<description>显示从 Microsoft Office 发布的文档的列表</description>
+			</pagetype>
+			<pagetype name="PDF Form">
+				<name>PDF 表单</name>
+				<description>该页生成具有页数据的 PDF 文件</description>
+			</pagetype>
+			<pagetype name="WorkroomList">
+				<name>工作室主页</name>
+				<description>显示工作室列表 </description>
+			</pagetype>
+			<pagetype name="Workroom">
+				<name>工作室</name>
+				<description>工作室页</description>
+			</pagetype>
+			<pagetype name="BlogStartPage">
+				<name>博客主页</name>
+				<description>用于创建博客的主页</description>
+			</pagetype>
+			<pagetype name="BlogPage">
+				<name>博客页</name>
+				<description>用于博客的页</description>
+			</pagetype>
+		</pagetypes>
+		<categories>
+			<category name="News">
+				<description>新闻</description>
+			</category>
+			<category name="Technical">
+				<description>技术</description>
+			</category>
+			<category name="Data">
+				<description>数据</description>
+			</category>
+			<category name="Support">
+				<description>支持问题</description>
+			</category>
+		</categories>		
+	</language>
+</languages>

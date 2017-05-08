@@ -1,0 +1,135 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjelp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/AdminGroup.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+	<a href="../SV/AdminGroup.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+    <a href="../NO/AdminGroup.htm">
+    <img border="0" src="../EN/images/no.gif" alt="Norsk"width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%"><h1>Administrere grupper i EPiServer</h1>
+	
+	<p>
+	EPiServer arbeider med samme tilgangsmodell som Windows. Dette innebærer at 
+	eksisterende grupper i Windows også kan brukes i EPiServer. Rent 
+	administrativt kan du spare mye arbeid på dette. Du kan også opprette egne 
+	grupper i EPiServer. Du har også et tredje alternativ, nemlig å laste inn 
+	brukere via LDAP. Dettte er en protokoll som brukes til å kommunisere med en 
+	katalogtjeneste. I EPiServer brukes dette blant annet sammen med Active 
+	Directory.</p>
+	<h2>
+	Grupper opprettet i EPiServer</h2>
+	<p>
+	Det er vanlig å bruke EPiServers egen håndtering av grupper og brukere hvis 
+	en del av ditt webområde er et ekstranett. Da kan du legge til grupper og gi 
+	dem spesifikke leserettigheter for deler av webområdet. Det er også vanlig 
+	at man bruker EPiServers håndtering hvis webområdet driftes hos en 
+	driftsleverandør. Da har man ikke tilgang til serverne på samme måte, noe 
+	som innebærer at man har behov for en enkel håndtering via webleseren.
+	
+	</p>
+	<p>
+	<b>Slik oppretter du grupper i EPiServer:</b></p>
+	<ol>
+		<li>Velg <i>Administrer grupper</i> på fanen <i>Admin</i>. </li>
+		<li>Velg <i>Ny gruppe</i>.</li>
+		<li>Skriv inn navnet på gruppen og en beskrivelse for gruppen. </li>
+		<li>Velg <i>Legg til gruppe</i>. </li>
+	</ol>
+	<p>
+	Legg merke til at gruppene du oppretter i EPiServer, bare finnes her. Du kan 
+	ikke opprette grupper i EPiServer slik at de også opprettes i Windows.</p>
+	<p>
+	<img border="0" src="images/admin_administergroups.png" width="490" height="294"><br>
+	
+	</p>
+	
+	<h2>Slette grupper</h2>
+	Hvis du har opprettet grupper som du ikke trenger mer, kan du fjerne 
+	gruppene. Det finnes flere måter å slette grupper på. Med alternativet 
+		<i>Administrer grupper</i> kan du slette en gruppe ved å velge knappen 
+	<i>Fjern</i> 
+	lengst til høyre etter gruppen. 
+	<p><b>Du kan også fjerne en gruppe på samme måte som du fjerner en bruker.</b></p>
+	<ol>
+		<li>Velg  <i>Søk</i> etter bruker/gruppe.</li>
+		<li>Velg hvilken gruppe du vil fjerne, ved å klikke på gruppenavnet. 
+		</li>
+		<li>Velg <i>Fjern</i> lengst nede på siden.</li>
+		<li>Bekreft at du virkelig vil slette gruppen i dialogboksen som åpnes.</li>
+		</ol>
+		<h2>Grupper fra Windows</h2>Det er vanlig å bruke grupper og brukere fra 
+	Windows når EPiServer brukes i intranett. Da finnes ofte alle ansatte 
+	allerede i nettverket med et unikt brukernavn, og de har også gruppetilgang 
+	som man kan bruke. Det er vanlig at alle som surfer til intranettet, 
+	automatisk identifiseres ved hjelp av påloggingen som er foretatt på 
+	datamaskinen og i nettverket. 
+	<p><b>Slik synkroniserer du grupper fra Windows til EPiServer:</b></p>
+	<ol>
+		<li>Velg <i>Administrer grupper</i> på fanen <i>Admin</i>. </li>
+		<li>Velg <i>Synkroniser</i>. En liste over alle brukergrupper i Windows vises.
+		</li>
+		<li>Merk gruppene du vil synkronisere.</li>
+		<li>Velg <i>Lagre</i>. </li>
+	</ol>
+	<p>Gruppene er nå synkronisert i EpiServer, og dette medfører at du kan 
+	bestemme hvilke rettigheter som skal gjelde for hver gruppe. Hver gang en 
+	bruker forsøker å logge seg på webområdet kontrolleres tilgangen mot 
+	Windows. Det innebærer at du ikke behøver å synkronisere før du legger til 
+	nye grupper. All administrasjon av brukere gjøres i Windows, for eksempel av 
+	brukernavn, passord og gruppetilgang. <br>
+	Når en bruker med Windows-konto logger seg på webområdet første gang, finnes 
+	vedkommende som en bruker i EPiServers database. På denne måten kan 
+	personlig informasjon om brukeren lagres. </p>
+	<p>
+	<img border="0" src="images/admin_synchronize.png" width="490" height="324"></p>
+	<h2>Grupper fra LDAP</h2>
+	<p>Utenom Windows er det mulig å synkronisere med en annen katalogtjeneste, 
+	for eksempel Novelle eller AD. Nå man skal synkronisere med grupper og 
+	brukere fra en annen katalogtjeneste, bruker man en LDAP-server som er en 
+	protokoll for å kommunisere med en katalogtjeneste. Under fanen Konfig og 
+	Systeminnstillinger angir du hvilken LDAP-server som skal brukes. Du finner 
+	mer informasjon om hvordan du setter opp en LDAP-server med EPiServer i 
+	dokumentet Using LDAP for User Authentication.</p>
+	<p><b>Slik synkroniserer du grupper via LDAP til EPiServer:</b></p>
+	<ol>
+		<li>Velg <i>Administrer grupper </i>på fanen <i>Admin</i>. </li>
+		<li>Velg <i>Importer fra LDAP-server</i>, eller skriv inn et brukernavn/gruppe 
+		og klikk knappen. </li>
+		<li>Merk gruppene du vil synkronisere.</li>
+		<li>Velg <i>Lagre</i>. </li>
+	</ol>
+	</td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Les mer i  <a href="Redaktørhåndbok_online.pdf">
+    Redaktørhåndbok</a> - Les mer i <a href="Adminhåndbok_online.pdf">
+    Administratørhåndbok</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

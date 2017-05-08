@@ -1,0 +1,117 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Help in EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="EditPageTypeField.htm">
+    <img border="0" src="images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="../SV/EditPageTypeField.htm">
+    <img border="0" src="images/sv.gif" alt="Svenska" width="20" height="14"></a>
+    <a href="../NO/EditPageTypeField.htm">
+    <img border="0" src="images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Create/Edit Property</h1>
+    <p>Each page type has a number of different properties. These are the 
+    properties which generate the functions of the specific page type. If you 
+    are an administrator it may be advisable for you to know how these functions 
+    are created and operate. The reason for this is that it will enable you to 
+    change certain settings, making it easier for your editors to use the page 
+    types. The page type Ordinary web page is shown below, along with its 
+    various properties. It has eight identical properties, which are displayed 
+    on the right when you click on the page type’s name in the menu on the left.</p>
+    <p>
+    <img border="0" src="images/admin_editproperty.png" width="490" height="321"></p>
+    <p>Most of the properties operate in the same way, which means that if you 
+    have learnt how one works, you will easily understand how the others work. 
+    We will now have a closer look at the MainBody property, which is one of the 
+    most common properties available in most page types. MainBody is the editing 
+    feature which the editor uses to create content, insert images in the page, 
+    etc.</p>
+    <h2>Name</h2>
+    The property’s name is entered here. This name should not be changed 
+    because the ASPX page which creates the page for the visitor refers to the 
+    various properties’ names. If you change the name, you cannot be sure that 
+    the page will be displayed.
+    <h2>Edit Heading</h2>
+    You enter under Edit heading the text to be displayed next to the field 
+    when the page type is used.You can change this to suit your editors so that 
+    they easily know what should be entered in the field.
+    <h2>Help Text</h2>
+    Help text is the text which is displayed if the editor points with the 
+    mouse at the Edit heading. You can use this to provide some extra help as to 
+    what should be entered in the specific field.
+    <h2>Type</h2>
+    The Type option specifies the type of field to be used for this property. 
+    All page types are structured like forms and are based on different 
+    properties, which are different types of form fields. For this option you 
+    can choose to have an integer, string, page, date, etc. When you choose Long 
+    string you always have the option to use the HTML editor.
+    <h2>Place under heading</h2>
+    Most page templates have a number of headings (tabs), which the editor 
+    can toggle between to enter information. This option allows you to choose 
+    under which tab you want this property to be displayed for the editor. In 
+    certain cases, it may be advisable to create a tab, which only 
+    administrators have access to and place certain properties under this tab. 
+    The main thing is to facilitate the editor’s task.
+    <h2>No default value</h2>
+    The option No default value indicates that you do not want there to be 
+    any information available in the field when the editor uses the page type. 
+    You must specify one of the three options: No default value, Inherits value 
+    or Default value.
+    <h2>Inherits value</h2>
+    The option Inherits valueindicates that the value from the page located 
+    above this page in the structure is displayed in the field. The editor does 
+    have the option, however, to change this value.
+    <h2>Default value</h2>
+    In the Default value field you have the option to enter a default text 
+    for this property whenever the editor uses the page type.
+    <h2>Value must be entered</h2>
+    In the Value must be entered field you can make sure that the editor 
+    always enters a value in this field. If the editor leaves it blank and saves 
+    the page, an error message will appear indicating that information is 
+    missing.
+    <h2>Searchable property</h2>
+    The Searchable property option allows you to decide whether the 
+    information entered for this property will be searchable or not. All 
+    properties are searchable by default, but it may occasionally be advisable 
+    to remove this feature.
+    <h2>Unique value per language</h2>
+	When you work with globalization, you decide in every page type which fields will vary depending upon language. It is normal that not all fields vary. The values of those fields that won’t vary are always provided in the original language of that page. The fields that will vary are provided on each 
+	page type and property 
+	by marking<i> Unique value per language</i>.
+    <h2>Properties for the Editor</h2>
+    In the Properties for the Editor field you can specify which buttons will 
+    be available for the editor in the editing application. By selecting 
+    different options you can control what the editors can do using this editing 
+    tool. If you uncheck all the options this property will become a normal 
+    input field like a text box.</td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#666666" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Read more in <a href="Editorsmanual_online.pdf">Editor's Manual</a> - Read more in 
+    <a href="Administratorsmanual_online.pdf">Administrator’s Manual</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

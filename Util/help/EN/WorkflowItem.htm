@@ -1,0 +1,157 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Help in EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="WorkflowItem.htm">
+    <img border="0" src="images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="../SV/WorkflowItem.htm">
+    <img border="0" src="images/sv.gif" alt="Svenska" width="20" height="14"></a>
+	<a href="../NO/WorkflowItem.htm">
+	<img border="0" src="images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%"><font FACE="GillSans" SIZE="2"></font>
+    <h1>Creating workflows </h1>
+    <p>To create a new workflow select, Workflow from the menu to the left of 
+    Admin mode. Existing workflows on the website are listed on the right hand 
+    side of the page. You create a new flow by selecting Create new workflow. 
+    The form for the settings of the workflow is now shown on four tabs. Make 
+    your settings on the various tabs and select Save at the top above the tabs.
+    </p>
+    <h2>General </h2>
+    On the General tab, you specify general information about the flow.
+    <p>
+    <img border="0" src="images/workflow_general.png" width="490" height="310"></p>
+    <h3>Name </h3>
+    Specify the name of the flow. If the flow is to be started manually, the 
+    name should be as descriptive as possible so that the editor can see the 
+    difference between different flows.
+    <h3>Owner of the flow </h3>
+    Who is to be the owner of the flow. You can choose a certain person or 
+    group to be owner of the flow-. This person will receive an e-mail when 
+    tasks are carried out and when a task is beginning to lapse. You can also 
+    decide that the person who is logged in and activates the flow should also 
+    be owner of the flow by selecting Logged on user as owner.
+    <h3>Allowing manual start </h3>
+    There is an option for setting automatic activation of the flow at a 
+    certain place in the tree structure. In some cases it could be appropriate 
+    to let the editors activate the flow themselves to ensure that a page 
+    situated in another part of the tree structure can go through the flow. If 
+    you want to allow manual start, select that option. 
+    <h3>Actions for when there is a conflict between flow and publishing the 
+    page </h3>
+    When a page is included in a workflow with multi-step approval, the 
+    persons in the workflow do not normally have the right to publish the page. 
+    In some cases you can give them, or somebody else, the right to publish even 
+    if you would rather have the page approved by one or more persons before 
+    publishing. This could mean that a person enters the system and publishes a 
+    page in the flow that is waiting to be approved by somebody else. You have 
+    the option to choose what to do at such a conflict. 
+    <p><b>No action </b>means that the page is published and that the flow 
+    continues to allocate tasks. </p>
+    <p><b>Do not allow publication </b>means that the page is not published and 
+    that the flow continues to allocate tasks.</p>
+    <p><b>Cancel the flow </b>means that the page is published and the flow is 
+    cancelled and no more tasks are allocated. </p>
+    <h3>Description </h3>
+    A brief description of the flow, this text is visible for the editor
+    <h2>Flow description </h2>
+    <p><img border="0" src="images/workflow_flow.png" width="490" height="310"></p>
+    <h3>Name </h3>
+    To add a new person or group to the flow, select the person or group from 
+    the drop-down menu and select Add new step. The name of the person or group 
+    is presented in a list and you can specify the tasks of this person or 
+    group.
+    <h3>Type </h3>
+    In the Type field you select what the task means. If the person is to 
+    Check or Publish a page. 
+    <h3>Time-limited task </h3>
+    If you want the task to be carried out within a certain time span you can 
+    specify this in the Time-limited task-field. You can choose to specify a 
+    whole number followed by a unit of a minute, hour or day. If a task is 
+    lapsing, an e-mail will be sent to the person allocated the task and to the 
+    owner of the flow.
+    <h3>Actions for refused task </h3>
+    If a person or group refuses the task, you can decide if the task should 
+    continue in the flow or if the flow should be cancelled.
+    <h3>Placement within the flow </h3>
+    The buttons to the far right of each person or group 
+    allows you to move persons or groups within the flow. The up arrow moves 
+    persons or groups one step up, the down arrow one step down. A tick removes 
+    a person or group from the flow. 
+    <h2>Automatic activation </h2>
+    The Automatic activation tab allows you to specify what 
+    should be allowed to start automatic activation and where in the tree 
+    structure this should take place. 
+    <p ALIGN="JUSTIFY">
+    <img border="0" src="images/workflow_autoact.png" width="490" height="310"></p>
+    <p ALIGN="JUSTIFY">When an editor saves and previews a page there are two 
+    alternatives for publishing. The alternatives activated depends on which 
+    rights the editor has. If the editor has the right to publish information, 
+    the Publish and Ready for publishing buttons are both activated. If the 
+    editor does not have the right to publish, then only the Ready for 
+    publishing button is activated. </p>
+    <p ALIGN="JUSTIFY">You can choose which or if both of these buttons should 
+    apply to automatic activation of the workflow. </p>
+    <h3 ALIGN="JUSTIFY">Places on the tree structure where automatic activation 
+    applies </h3>
+    You can point out one or more places on the tree 
+    structure where automatic activation should apply. If it concerns the entire 
+    website, you point out the start page. If you select the page at the top of 
+    the struc-ture where you want it to apply, all the subpages will also be 
+    selected. Select Add new activation point. The Link to a page dialogue box 
+    opens and you can point out the page on the tree structure where you want 
+    the flow to be automatically activated.
+    <h2>Activated flows </h2>
+    <p>
+    <img border="0" src="images/workflow_active.png" width="490" height="310"></p>
+    <p>If you as administrator want to see the flows that are currently using 
+    the workflow, there is a list of all activated flows under the Activated 
+    flows tab. You can see who has been allocated a task but has not yet 
+    implemented it. You can also see implemented tasks and comments left by the 
+    editor. You can also remove the flow from here. You remove the active flow, 
+    not the entire workflow. </p>
+    <h2>Editing the workflow </h2>
+    If a person leaves and somebody else comes to replace them, you can edit 
+    the existing flows. Select Workflow from the menu to the left of Admin mode. 
+    Existing workflows on the website are listed on the right hand side of the 
+    page. Click on the name of the flow in the list to edit the workflow. Make 
+    your settings on the various tabs and select Save at the top above the tabs.
+   
+    <h2>Removing workflows </h2>
+    If you want to remove an entire workflow you can do this from Admin mode. 
+    Select Workflow from the menu to the left of Admin mode. Existing workflows 
+    on the website are listed on the right hand side of the page. Click on the 
+    name of the flow in the list to remove the workflow. Then select Remove top 
+    right above the tabs. Remember that all activated flows within this workflow 
+    are concluded if you remove it. 
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#666666" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Read more in <a href="Editorsmanual_online.pdf">Editor's Manual</a> - Read more in 
+    <a href="Administratorsmanual_online.pdf">Administrator’s Manual</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

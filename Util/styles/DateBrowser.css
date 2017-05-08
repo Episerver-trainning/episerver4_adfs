@@ -1,0 +1,87 @@
+.date{
+	background-color:	white;
+	font-family:		Tahoma, Verdana, MS Sans Serif, Arial, Geneva, Helvetica; 
+	font-size :			11px;
+	width:				25px;
+	height:				18px;
+	text-align:			center;
+	cursor:				default;
+}
+.dateTable{
+	width:				175px;
+	background-color:	gray;
+	border-color:		black;
+	border-style:		solid;
+	border-width:		0px 1px 0px 1px;
+}
+.WeekDay{
+	font-family:		Tahoma, Verdana, MS Sans Serif, Arial, Geneva, Helvetica; 
+	font-size :			11px;
+	background-color:	white;
+	width:				22px;
+	height:				22px;
+	text-align:			center;
+	cursor:				default;
+}
+.ThreeDLayer
+{
+	width:				175px;
+	height:				20px;
+	font-family:		Tahoma, Verdana, MS Sans Serif, Arial, Geneva, Helvetica; 
+	font-size:			11px;
+	line-height:		11px; 
+	color:				black; 
+	background-color:	buttonface;
+	padding:			1px;
+	border-style:		outset; 
+	border-color:		buttonhighlight buttonshadow buttonshadow buttonhighlight; 
+	border-width:		2px;
+}
+A
+{
+	color:#000000;
+	font-family:		Tahoma, Verdana, MS Sans Serif, Arial, Geneva, Helvetica; 
+	font-size :			11px;
+}
+A:link
+{
+	color:#000000;
+}
+A:visited
+{
+	color:#000000;
+}
+A:active
+{
+	color:#000000;
+}
+A:hover
+{
+	color:#000000;
+	font-weight: bolder;
+}
+
+A.Menu
+{
+	color:				#000000;
+	font-family:		Tahoma, Verdana, MS Sans Serif, Arial, Geneva, Helvetica; 
+	font-size :			11px;
+	text-decoration:     none;
+}
+A.Menu:link
+{
+	color:#000000;
+}
+A.Menu:visited
+{
+	color:#000000;
+}
+A.Menu:active
+{
+	color:#000000;
+}
+A.Menu:hover
+{
+	color:#000000;
+	font-weight: bolder;
+}

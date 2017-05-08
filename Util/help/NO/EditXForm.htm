@@ -1,0 +1,224 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjelp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/EditXForm.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="../SV/EditXForm.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+	<a href="../NO/EditXForm.htm">
+	<img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Redigera formulär</h1>
+    <p>
+			Dialogrutan Redigera formulär används för att skapa/redigera ett 
+			formulär. Här bygger du upp en tabell och lägger in de olika 
+			formulärfälten som du vill. Du har också möjlighet att välja vilka 
+			egenskaper respektive fält skall ha.
+	<ol>
+		<li>I fältet <i>Namn på formuläret</i> väljer du ett namn på formuläret. 
+		Om du kommer att skicka formuläret med e-post kommer namnet stå i 
+		Ämnesraden på det e-postmeddelande som skickas. Detta namn visas också i 
+		listan över tillgängliga formulär, om du vill använda detta formulär på 
+		någon annan sida. </li>
+		<li>Fältet <i>Formuläret kan skcikas utan inloggning </i>skall markeras om du vill att 
+			vem som helst på din webbplats skall kunna skicka in formuläret. Om 
+			det inte är det måste man vara inloggad på något sätt för att kunna 
+			svara. </li>
+		<li>Fältet <i>Samma person kan skicka formuläret flera gånger</i> skall markeras 
+			om du vill att en och samma person (användare på en dator) skall 
+			kunna skicka formuläret fler gånger. Om detta alternativ lämnas tomt 
+			kommer man endast kunna skicka in en gång per dator. Detta fungerar 
+			med att en cookie placeras på besökarens dator. </li>
+		<li>I fältet <i>Tacksidan som visas vid svar</i> kan du peka ut en sida som 
+			skall visas när en besökare skickat in sitt svar. Skapa sidan på 
+			sidmallen Vanlig webbsida och välj sedan sidan som tacksida.</li>
+	</ol>
+	<p>
+	<img border="0" src="../SV/images/xformular_inst.png" width="488" height="184"></p>
+	<hr size="1" color="6D8CA8">
+	<h2>
+	Bygg upp formuläret</h2>
+	I den nedre delen av <i>Redigera formulär</i> skapar du en tabell med knapparna 
+	under tabellen. <b>Lägg till rad </b>placeras alltid längst ner i tabellen. 
+	<b>Lägg 
+	till kolumn</b> placeras alltid längst till höger i tabellen. Genom att välja 
+	<b>Infoga rad</b> kan du infoga en rad ovanför den rad som just nu är markerad. 
+	<b>Infoga en kolumn</b> ger en kolumn till vänster om den kolumn som är markerad. 
+	Markera en rad eller kolumn genom att klicka på ett infogat fält i cellen. 
+	Om det inte finns några fält i tabellen får du börja med att dra in ett 
+	fält. 
+	<p>
+	Placera olika fält genom att ta tag i önskat fält från högerkanten och dra 
+	det till önskad plats i tabellen. En cell i tabellen kan endast innehåll ett 
+	formulärfält. 
+	<p>
+	När du har dragit in ett formulärfält i cellen öppnas inställningarna för 
+	den aktuella fälttypen brevid tabellen. Beroende på vilket fält du har valt 
+	har du olika inställningar att göra. Vissa egenskaper finns i på alla typer 
+	av fält och vissa finns på alla inmatningsfält. 
+	<p>
+	<b>Dessa egenskaper finns på alla fält:</b>
+	<h3>CSS-klass</h3>
+	är ett fält där kan du ange en css-klass (format) för hur fältet skall se 
+	ut. Klassen måste finns i den css-fil som används på webbplatsen. Kontakta 
+	din systemadministratör för mer information. <br>
+	<h3>Namn</h3>
+	är det fält där du anger ett namn på fältet som gör att du vet vilket fält 
+	som besökaren fyllt i. Enkelt är att använda samma eller liknande namn som 
+	du använt i ledtextfältet som hör till fältet. Du får endast använda A-Z, 
+	a-z, 1-9 och _. Mellanslag kan inte användas. <br>
+	<h3>Ledtext</h3>
+	kan du skapa i ett eget fält eller skriva det i samband med 
+	inmatningsfältet. Om du skriver det i samband med inmatningsfältet kommer 
+	ledtexten visas till vänster om fältet. För att ha hög tillgänglighet på 
+	formuläret bör detta alternativ väljas. Ledtext är den text som skall visas 
+	besökarna så att de vet vad som skall fyllas i. <br>
+	<h3>Skärmtips</h3>
+	är ett fält där du kan ge besökarna mer information om vad som skall fyllas 
+	i. Texten i skärmtipset visas när man för musen över inmatningsfältet. <br>
+	<h3>Värdet måste anges</h3>
+	är ett fält som innebär att du tvingar besökaren att fylla ett värde i 
+	fältet. Om denne lämnar fältet tomt kommer ett felmeddelande att visas om 
+	att fältet måste fyllas i. Felmeddelande referar i första hand till den text 
+	som du ange i fältet ledtext. Om du inte har någon ledtext refereras till 
+	det som du angivit i fältet Namn. <br>
+	<h3>Validera som</h3>
+	är ett fält som är till för att du skall kunna kontrollera om besökaren har 
+	fyllt i rätt typ av information i ett fält. Du kan kontrollera om det är en 
+	e-postadress, olika datumformat och olika typer av tal.<br>
+	När alla egenskaper för respektive fält fyllts i finns knappen Spara under 
+	egenskaperna. Du måste spara varje enskilt fält och dess inställningar. Om 
+	du vill ta bort ett fält välj knappen Ta bort under fältets egenskaper. 
+	<br>
+	<h3>Ledtext</h3>
+	Ledtext är den fälttyp som används för att besökarna skall veta vad de skall 
+	fylla respektive fält med. <br>
+	I fältet Text anges den text som skall visas för besökarna. 
+	<br>
+	<h3>Textfält</h3>
+	Textfält är den fälttyp som ger besökarna ett inmatningsfält i form av en 
+	rad där de kan skriva text. Används för kortare text information du vill få 
+	in av besökaren.
+	<ul>
+		<li>I fältet Bredd anger du hur många tecken brett fältet skall vara. 
+		</li>
+		<li>Fältet Värde måste anges skall markeras om du vill att besökarna inte skall 
+	kunna skicka in formuläret utan att fylla i det här fältet. 
+	<br></li>
+	</ul>
+	<h3>Knapp</h3>
+	Knappen använder du för att ge besökarna en knapp att trycka på när de skall 
+	skicka in formuläret.<ul>
+		<li>I fältet Knapptext anger du den text som skall visas på knappen. 
+		</li>
+		<li>I fältet Resultat av postning anger du vad som skall hända när besökaren 
+	skickar in formuläret. Du kan välja att spara det i databas och/eller skicka 
+	det med e-post. Du kan också ange att skicka formuläret till en webbadress 
+	där du har en egen applikation som tar hand om informationen. <br></li>
+	</ul>
+	<h3>Textruta</h3>
+	Textruta är den fälttyp som ger besökarna ett stort fält för att skriva 
+	text. Du kan själva bestämma hur många tecken brett och hur många rader 
+	fältet skall ha.
+	<ul>
+		<li>I fältet Bredd anger du hur många tecken brett fältet skall vara. 
+		</li>
+		<li>I fältet Höjd anger du hur många rader textrutan skall ha<br>
+		</li>
+	</ul>
+	<h3>Flervalslista</h3>
+	Flervalslista är den fälttyp som ger besökarna en rullgardinsmeny där de kan 
+	välja ett av flera alternativ som du angivit.
+	<ul>
+		<li>I fältet Alternativ anger du de olika alternativ som besökarna skall kunna 
+	välja bland. Skriv in alternativen och skilj dem åt genom att trycka ENTER 
+	mellan. <br></li>
+	</ul>
+	<h3>Alternativknapp</h3>
+	Alternativknapp är den fälttyp som ger besökarna en lista med olika 
+	alternativ där de kan välja ett av flera alternativ som du angivit.
+	<ul>
+		<li>I fältet Placering väljer du om du att alternativen skall visas horisontellt 
+	eller vertikalt.</li>
+		<li>I fältet Alternativ anger du de olika alternativ som besökarna skall kunna 
+	välja bland. Skriv in alternativen och skilj dem åt genom att trycka ENTER 
+	mellan. <br></li>
+	</ul>
+	<h3>Kryssruta</h3>
+	Kryssruta är den fälttyp som ger besökarna en lista med olika alternativ där 
+	de kan välja ett eller flera av flera alternativ som du angivit. 
+	<ul>
+		<li>I fältet Placering väljer du om du att alternativen skall visas horisontellt 
+	eller vertikalt.</li>
+		<li>I fältet Alternativ anger du de olika alternativ som besökarna skall kunna 
+	välja bland. Skriv in alternativen och skilj dem åt genom att trycka ENTER 
+	mellan. </li>
+	</ul>
+		<p>När formuläret är färdig och alla fält och dess egenskaper är sparade. 
+	Sparar du hela formuläret med Spara-knappen i mitten av dialogrutan 
+	Formulärsinställningar. Spara och publicera sidan. <br>&nbsp;</p>
+	</h3>
+	</h3>
+	<hr size="1" color="6D8CA8">
+	</p>
+	<h2>Fliken Formulärdata</h2>
+	
+	<p>Om du i ditt formulär valt att lagra informationen i databasen, kan du 
+	hitta alla insända formulär på fliken Formulärdata. Fliken visas brevid 
+	Versionslista när du sparat och publicerat din formulärsida.<br>
+	Så här gör du för att hämta ut data från databasen:</p>
+		<ol>
+			<li>Välj fliken <i>Formulärdata</i> och ett sökformulär visas. </li>
+			<li>Välj vilket formulär du vill ta ut data från. Oftast finns bara 
+			ett formulär att välja på. </li>
+			<li>Ange två datum om du vill specificera din sökning i tiden. Dessa 
+			fält kan lämnas tomma om du vill ha fram alla postningar som gjorts. 
+			</li>
+			<li>Markera alternativet <i>Visa data för alla sidor</i> om du vill ta ut 
+			data från alla sidor som använder det aktuella formuläret.</li>
+			<li>Ange hur många träffar du vill ha per sida. </li>
+			<li>Välj Sök. </li>
+		</ol>
+		<p>När du har sökt på inskickade formulär listas det nedanför 
+		sökformuläret. Du kan då bläddra bland sidor om det finns många och 
+		härifrån också välja att ta bort alla synliga inlägg. Om du vill 
+		bearbeta informationen i Microsoft Excel kan du välj knappen Exportera 
+		till Excel. För att du skall kunna göra det krävs att Excel finns 
+		installerat på din dator. En komponent måste också installeras på din 
+		dator.</p>
+		<p>
+		<img border="0" src="../NO/images/form_data.png" width="490" height="228"></p>
+	</td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Läs mer i <a href="../SV/Redaktorshandbok_online.pdf">
+    Redaktörshandboken</a> - Läs mer i <a href="../SV/Adminhandbok_online.pdf">
+    Administratörshandboken</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

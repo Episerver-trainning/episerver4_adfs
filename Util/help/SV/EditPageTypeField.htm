@@ -1,0 +1,119 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjälp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/EditPageTypeField.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="EditPageTypeField.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+	<a href="../NO/EditPageTypeField.htm">
+	<img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Skapa/Redigera egenskap</h1>
+    <p>Varje sidtyp innehåller ett antal olika egenskaper. Det är dessa 
+    egenskaper som skapar funktionen i den specifika sidtypen. Som administratör 
+    kan det vara lämpligt att veta hur dessa funktioner är uppbyggda och 
+    fungerar. Detta för att du har möjlighet att förändra vissa inställningar 
+    för att göra det enklare för dina redaktörer att använda sidtyperna. Nedan 
+    har vi tittat på sidtypen Vanlig webbsida och dess olika egenskaper.</p>
+    <p>
+    <img border="0" src="images/admin_editproperty.png" width="490" height="327"></p>
+    <p>De flesta egenskaper fungerar på samma sätt, har du lärt dig en variant 
+    förstår du enkelt hur de övriga fungerar. Vi tittar nu närmare på egenskapen 
+    MainBody, det är en av de vanligaste egenskaperna som finns med i de flesta 
+    sidtyperna. MainBody är editorn där redaktören skapar innehåll, lägger in 
+    bilder m.m. på sidan</p>
+    <h2>Namn</h2>
+    Här anges namnet på egenskapen. Detta namn skall inte ändras, detta för 
+    att den aspx-sida som skapar sidan för besökaren refererar till de olika 
+    egenskapernas namn. Om du ändrar namn kommer inte rätt saker att visas på 
+    sidan.
+    <h2>Redigeringsrubrik</h2>
+    Redigeringsrubrik är den text som visas vid fältet när sidtypen används. 
+    Denna kan du ändra så att den passar dina redaktörer så att de enkelt vet 
+    vad de skall fylla fältet med.
+    Denna information finns i många fall lagrade i EPiServers språkfiler.
+    <h2>Hjälptext</h2>
+    Hjälptext är den text som visas om redaktören pekar med musen på 
+    redigeringsrubriken. Här kan du ge dem lite extra hjälp om vad som skall 
+    fyllas i det specifika fältet.
+    Denna information finns i många fall lagrade i EPiServers språkfiler.
+    <h2>Typ</h2>
+    Alternativet <i>typ</i> anger vilken typ av fält som används för denna egenskap. 
+    Alla sidtyper är uppbyggda som formulär och bygger på olika egenskaper som 
+    är olika typer av formulärfält. Här kan du välja att ha heltal, sträng, 
+    sida, datum m.m. När du valt Lång sträng får du alltid möjlighet att använda 
+    html-editorn.
+    <h2>Placera under rubrik</h2>
+    I de flesta sidmallar finns ett antal rubriker (flikar) som 
+    redaktören växlar mellan för att fylla i information. Här kan du välja under 
+    vilken flik du vill att denna egenskap skall visas för redaktören. Vid vissa 
+    tillfällen kan det vara lämpligt att skapa en flik som endast 
+    administratörerna har tillgång till och placera vissa egenskaper under denna 
+    flik. Allt för att förenkla för redaktören.
+    <h2>Inget standarvärde</h2>
+    Alternativet <i>Inget standarvärde</i> anger att du inte vill att 
+    det skall finnas någon information i fältet när redaktören använder 
+    sidtypen. Du måste ange ett av de tre alternativet inget standardvärde, 
+    ärver värde eller standardvärde.
+    <h2>Ärver värde</h2>
+    Alternativet <i>Ärver värde </i>anger att värdet från sidan som 
+    finns ovanför denna i strukturen visas i fältet. Redaktören har dock 
+    möjlighet att ändra detta värde.
+    <h2>Standardvärde</h2>
+    I fältet <i>Standardvärde</i> har du möjlighet att skriva in en 
+    text som du vill skall vara standard för den egenskapen när redaktören 
+    använder sidtypen.
+    <h2>Värdet måste anges</h2>
+    I fältet <i>Värdet måste anges</i> kan du styra redaktören att 
+    alltid fylla i detta fält. Om redaktören lämnar det tomt och sparar sidan 
+    kommer denna att få felmeddelande om att information saknas.
+    <h2>Sökbar egenskap</h2>
+    Alternativet <i>sökbar egenskap</i> ger dig möjlighet att avgöra om 
+    den information som fylls i den här egenskapen skall vara sökbar eller inte. 
+    Som standard är alla egenskaper sökbara, men det kan ibland vara lämpligt 
+    att ta bort det.
+    <h2>Unikt värde per språk</h2>
+	Vissa webbplatser använder EPiServers inbyggda stöd för globalisering för att kunna skapa 
+	olika varianter av en och samma sida. Det är vanligtvis olika språkvarianter 
+	av samma sida. Det är inte alltid alla fält som behöver översättas till de 
+	olika språken. Om den egenskap du skapar skall vara unikt för varje 
+	sidvariant markerar du alternativet <i>Unikt värde per språk</i>.&nbsp;
+    <h2>Egenskaper för HTML-editorn</h2>
+    I fältet <i>egenskaper för HTML-editorn</i> kan du ange vilka 
+    knappar som skall finnas tillgängliga för redaktören i editorn. Genom att 
+    välja olika alternativ kan du styra vad redaktörerna skall kunna göra i 
+    editorn. Om du avmarkerar alla alternativen blir egenskapen ett vanligt 
+    inmatningsfält av typen textarea.</td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Läs mer i <a href="Redaktorshandbok_online.pdf">
+    Redaktörshandboken</a> - Läs mer i <a href="Adminhandbok_online.pdf">
+    Administratörshandboken</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

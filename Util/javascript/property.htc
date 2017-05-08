@@ -1,0 +1,55 @@
+<PUBLIC:COMPONENT	LIGHTWEIGHT=true>
+<PUBLIC:METHOD		NAME="EnableEditing"/>
+<PUBLIC:METHOD		NAME="DisableEditing"/>
+<PUBLIC:METHOD		NAME="Register"/>
+<PUBLIC:METHOD		NAME="PreparePostback"/>
+<PUBLIC:PROPERTY	NAME="PostbackReference"/>
+<PUBLIC:PROPERTY	NAME="IsHtmlContent"/>
+<PUBLIC:ATTACH		EVENT="oncontentready" FOR="element" ONEVENT="Register()"/>
+
+<SCRIPT type='text/javascript'>
+
+/*
+ * property.htc	- JavaScript support routines for EPiServer
+ * Copyright (c) 2004 ElektroPost Stockholm AB
+*/
+
+function Register()
+{
+	if(window.RegisterProperty)
+		window.RegisterProperty(element);
+}
+
+function EnableEditing()
+{
+	var offsetPrev	 = offsetTop;
+	
+	contentEditable		= true;
+	style.borderStyle	= 'dashed';
+	style.borderWidth	= '1px';
+	style.borderColor	= 'gray';
+	
+	if(offsetPrev > offsetTop)
+		style.marginTop = offsetPrev-offsetTop;
+}
+
+function DisableEditing()
+{
+	style.borderStyle	= 'none';
+	style.borderWidth	= '0px';
+	contentEditable		= false;
+}
+
+// PreparePostback - used by external DOPE handlers. 
+// Note, if the element's value is modified using copy/paste, this function works ONLY if 
+// the Internet Explorer setting "Check for newer versions of stored pages" is set to Automatic. 
+function PreparePostback(input)
+{   
+    if(IsHtmlContent=="True")   
+		input.value=innerHTML;   
+    else   
+		input.value=innerText;   
+} 
+
+</SCRIPT>
+</PUBLIC:COMPONENT>

@@ -1,0 +1,173 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjelp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/WorkflowItem.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+	<a href="../SV/WorkflowItem.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+    <a href="../NO/WorkflowItem.htm">
+    <img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Opprett arbeidsflyt</h1>
+	Når du skal opprette en ny arbeidsflyt, velger du Arbeidsflyt på menyen til 
+	venstre i administratormodus. Eksisterende arbeidsflyter på webområdet vises 
+	da til høyre på siden. Ved å velge Opprett ny arbeidsflyt kan du opprette en 
+	ny. Skjemaet for innstillinger for arbeidsflyten vises nå på fire faner. 
+	Angi innstillinger på de respektive fanene, og avslutt med å velge Lagre 
+	øverst, over fanene.<h2>Generelt</h2>	På fanen Generelt angir du generell informasjon om flyten. 
+	<p>
+    <img border="0" src="images/workflow_general.png" width="490" height="340"><br>
+	</p>
+	<h3>Navn</h3>
+	Angi navn på flyten. Hvis flyten skal kunne startes manuelt, er det praktisk 
+	om dette navnet er så beskrivende som mulig for at redaktørene skal se 
+	forskjell på ulike flyter.<br>
+	<h3>Eier av flyt</h3>
+	Hvem som skal være eier av flyten. Du kan velge ut en bestemt person eller 
+	gruppe som skal være eier av flyten. Denne personen kommer til å få 
+	e-postmeldinger når oppgavene i flyten er gjennomført, og når en oppgave er 
+	i ferd med å forfalle. Det er mulig å bestemme at personen som er pålogget 
+	og aktiverer flyten, også skal være eier av flyten. Da velger du Pålogget 
+	bruker som eier.<br>
+	<h3>Tillat manuell start</h3>
+	Det er mulig å sette inn en automatisk aktivering av flyten på et bestemt 
+	sted i trestrukturen. I bestemte tilfeller kan det også være praktisk å la 
+	redaktørene aktivere flyten på egen hånd, slik at også en side som er 
+	plassert på et annet sted i trestrukturen, kan passere flyten. Hvis du vil 
+	tillate manuell start, merker du av for det alternativet. <br>
+	<h3>Tiltak ved konflikt mellom flyt og sidepublisering </h3>
+	Når en side inngår i en arbeidsflyt med flertrinnsgodkjenning, er det vanlig 
+	at personene som inngår i flyten, ikke har rett til å publisere siden. I 
+	bestemte tilfeller kan de eller noen andre ha rett til å publisere, selv om 
+	man helst vil at siden skal godkjennes av en eller flere personer innen 
+	publisering. Dette kan innebære at en person går inn i systemet og 
+	publiserer en side som ligger i flyten og venter på godkjenning fra en annen 
+	bruker. Du har med dette alternativet mulighet til å velge hva som skal 
+	gjelde ved en slik konflikt. <br>
+	<h3>Ingen tiltak</h3>
+	innebærer at siden publiseres, at flyten fortsetter og at oppgavene fordeles 
+	som bestemt.<br>
+	<h3>Tillat ikke publisering</h3>
+	innebærer at siden ikke publiseres, men at flyten fortsetter og at oppgavene 
+	fordeles som bestemt.<br>
+	<h3>Avbryt flyten</h3>
+	innebærer at siden publiseres, flyten avbrytes og ingen flere oppgaver 
+	fordeles. <br>
+	<h3>Beskrivelse</h3>	En kort beskrivelse av flyten. Denne teksten er synlig for redaktøren når 
+	denne skal aktivere en flyt manuelt. <br>
+	<br>
+	<h2>Flytbeskrivelse</h2>
+	På fanen Beskrivelse av flyten skal du angi hvilke personer som skal gjøre 
+	hva i flyten. Du kan bestemme om de skal granske eller publisere siden, og 
+	innen hvilket tidspunkt dette skal gjøres. Du kan også bestemme hva som skal 
+	skje om de ikke utfører oppgaven sin.<p>
+	<img border="0" src="images/workflow_flow.png" width="490" height="340"><br>
+	</p>
+	<h3>Navn</h3>
+	Når du skal legge til en ny person/gruppe i flyten, velger du hvem / hvilken 
+	gruppe du vil legge til, fra rullegardinlisten og velger Legg til nytt 
+	trinn. Personens/gruppens navn presenteres i listen, og du kan angi hva 
+	denne personens/gruppens oppgave er. <br>
+	<h3>Type</h3>
+	I feltet Type velger du hva oppgaven innebærer. Om personen skal Granske 
+	eller Publisere en side. <br>
+	<h3>Tidsbegrenset oppgave</h3>
+	Hvis du vil at oppgaven skal utføres innen et bestemt tidspunkt, kan du angi 
+	det i feltet Tidsbegrenset oppgave. Du kan velge å angi et heltall og 
+	deretter enheten minutt, time eller dag. Hvis en oppgave er i ferd med å 
+	forfalle, blir det sendt en e-postmelding til den som er tildelt oppgaven, 
+	samt til den som eier flyten.<br>
+	<h3>Tiltak ved sløyfet oppgave</h3>
+	Hvis personen/gruppen sløyfer oppgaven, kan du bestemme om oppgaven skal gå 
+	videre i flyten eller om flyten skal avsluttes.<br>
+	<h3>Plassering i flyten</h3>
+	Ved hjelp av knappene lengst til høyre etter hver person/gruppe kan du 
+	flytte personen/gruppen i flyten. Opp-pilen flytter personen/gruppen ett 
+	trinn opp, ned-pilen ett trinn ned. Et kryss fjerner en person/gruppe fra 
+	flyten. 
+	<br>
+	<h2>Automatisk aktivering</h2>
+	På fanen Automatisk aktivering kan du angi hva som skal starte den 
+	automatiske aktiveringen og på hvilke plasser i trestrukturen dette skal 
+	skje.
+	<p> 
+    <img border="0" src="images/workflow_autoact.png" width="490" height="340" ><br>
+	<br>
+	Når en redaktør lagrer og forhåndsviser en side, finnes det to alternativer 
+	for publisering. Hvilke alternativer som vises, bestemmes av hvilke 
+	rettigheter redaktøren har. Hvis denne har rett til å publisere informasjon, 
+	vises begge knappene, Publiser og Klar til publisering. Hvis denne ikke har 
+	rett til å publisere, vises bare Klar til publisering. <br>
+	Her kan du velge at én eller begge knappene skal gjelde for automatisk 
+	aktivering av arbeidsflyten. <br>
+	<h3>
+	Plasser i trestrukturen der automatisk aktivering gjelder</h3>
+	Du kan peke ut en eller flere plasser i trestrukturen der den automatiske 
+	aktiveringen skal gjelde. Hvis det gjelder hele webområdet, peker du ut 
+	startsiden. Du velger den siden som ligger øverst i strukturen der du vil at 
+	aktiveringen skal gjelde. Da vil den også gjelde for alle undersider. Velg 
+	Legg til nytt aktiveringspunkt. Da åpnes dialogboksen Kobling til side, og 
+	du kan peke ut hvilken side i trestrukturen flyten skal aktivere automatisk.
+	</p>
+	<h2>
+	Aktiverte flyter</h2>
+	Hvis du som administrator vil se hvilke flyter som i øyeblikket bruker 
+	arbeidsflyten, kan du se en liste over alle aktiverte flyter på fanen 
+	Aktiverte flyter. Her kan du se hvem som er tildelt en oppgave, men som ennå 
+	ikke har utført den. Du kan også se utførte oppgaver og kommentarer som 
+	redaktøren har lagt til, og du kan slette flyten. Du sletter da den aktive 
+	flyten, ikke hele arbeidsflyten. 
+	<p>
+    <img border="0" src="images/workflow_active.png" width="490" height="340"><br>
+	<h2>
+	Redigere arbeidsflyter</h2>
+	Hvis en person slutter og noen andre skal ta dennes plass i en flyt, kan du 
+	redigere de eksisterende flytene. Velg Arbeidsflyt på menyen til venstre i 
+	administratormodus. Eksisterende arbeidsflyter på webområdet vises da til 
+	høyre på siden. Ved å klikke på navnet på flyten i listen kan du redigere 
+	arbeidsflyten. Foreta endringer på de respektive fanene, og avslutt med å 
+	velge Lagre lengst oppe, over fanene.<br>
+	<h2>
+	Slette arbeidsflyter</h2>
+	Hvis du av en eller annen grunn vil fjerne en hel arbeidsflyt, kan du gjøre 
+	det fra administratormodus. Velg Arbeidsflyt på menyen til venstre i 
+	administratormodus. Eksisterende arbeidsflyter på webområdet vises da til 
+	høyre på siden. Ved å klikke på navnet på flyten i listen kan du slette 
+	arbeidsflyten. Avslutt med å velge Slett lengst oppe, over fanene. Husk at 
+	alle aktiverte flyter i denne arbeidsflyten avsluttes hvis du sletter den. 
+	</p>
+	</h3>
+	</td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Les mer i <a href="Redaktørhåndbok_online.pdf">
+    Redaktørhåndbok</a> - Les mer i <a href="Adminhåndbok_online.pdf">
+    Administratørhåndbok</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

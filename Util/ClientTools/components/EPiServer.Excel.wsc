@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?component debug="false" error="true"?>
+<component>
+
+	<registration
+		description="EPiServer.ClientTools.Excel"
+		progid="EPiServer.ClientTools.Excel"
+		version="1.00"
+		classid="{2AF2230E-A815-4045-9435-1E6A2B69EAAD}"
+	>
+	</registration>
+
+	<public>
+		<method name="Convert">
+			<parameter name="oConfig"/>
+		</method>
+		
+		<method name="Cleanup">
+		</method>
+	</public>
+
+	<!-- bring in the EPiServer.ShellTools typelibrary -->
+	<reference guid="{C4326BBC-1DC1-4935-94BF-0911866090B8}" />
+	
+	<!-- internals -->
+	<object id="fso" progid="Scripting.FileSystemObject"/>
+
+	<script language="VBScript">
+	<![CDATA[
+
+		Option Explicit
+
+		Dim deleteFile
+		Dim deleteFolder
+
+		'** std COM error codes
+		Const S_OK				= &H00000000
+		Const E_FAIL				= &H80004005
+
+		Const xlHtml				= 44
+		Const xlHtmlStatic			= 0
+		Const xlDoNotSaveChanges	= 0
+		Const msoEncodingUTF8		= 65001
+		Const xlSourceSheet			= 1
+		Const msoScreenSize544x376  = 0
+		
+		Const wdFormatFilteredHTML      = 10
+		Const wdOpenFormatAuto		= 0
+		Const wdDoNotSaveChanges	= 0
+		Const wdBrowserLevelV4		= 0
+		
+		Function Cleanup()
+			
+		End Function
+		
+		Function Convert(oConfig)
+		
+			oConfig.DebugWrite "Entering Excel Convertor (script file)"
+			
+			Convert = S_OK
+			'On Error Resume Next
+
+			Dim app
+			Set app = CreateObject( "Excel.Application" )
+
+			Dim TempFolder
+			TempFolder = fso.GetSpecialFolder(2).Path
+
+			If Err.Number = 0 Then 
+
+				Dim doc
+				Set doc = app.Workbooks.Open( oConfig.FilePath )
+
+				If Err.Number = 0 Then 
+					
+					Dim FileName
+					Dim resourceFolderName
+					Dim pos
+					Dim folderPath
+					Dim folder
+					
+					' Make sure we have a temp path to store files in
+					
+					pos = InstrRev( oConfig.FilePath, "\" )
+					FileName = Right( oConfig.FilePath, Len(oConfig.FilePath)-pos )
+					oConfig.PageName = FileName	
+				
+					folderPath = TempFolder & "\" & Replace(FileName, ".", "_")
+					
+					If fso.FolderExists(folderPath) Then
+						fso.DeleteFolder(folderPath)
+					End If
+					
+					Set folder = fso.CreateFolder(folderPath)
+					
+					' Start processing file
+					
+					If Not oConfig.IsDocumentPageType Then
+						Call CreateCleanHtmlView(app,doc,folderPath)
+						resourceFolderName = MoveResourceFilesUpOnLevel(folder)					
+						Call MakeResourceLinksRelative(folderPath & "\episerver.html",resourceFolderName)
+					Else
+						Call CreateFullBlownHtml(doc,folderPath)
+						doc.Close False				
+						resourceFolderName = MoveResourceFilesUpOnLevel(folder)
+						Call MakeResourceLinksRelative(folderPath & "\page.html",resourceFolderName)
+					End If
+
+					'Clean and close
+					oConfig.UploadFolder = folderPath
+					deleteFolder		= folderPath
+					Set doc				= Nothing
+
+				End If
+
+				app.Quit
+
+			End If
+
+			If Err.Number > 0 Then 
+				Convert = E_FAIL
+			End If
+
+			Set app = Nothing
+			
+			oConfig.DebugWrite "Leaving Excel Convertor (script file)"
+
+		End Function
+		
+		Function MoveResourceFilesUpOnLevel(folder)
+		
+			Dim subFolders,subFolder
+			
+			Set subFolders = folder.SubFolders
+					
+			If subFolders.Count > 0 Then
+				For Each subFolder in subFolders
+					fso.CopyFile subFolder.Path + "\*.*", folder.Path + "\"
+					MoveResourceFilesUpOnLevel = subFolder.Name
+					subFolder.Delete
+				Next
+			End If
+		
+		End Function
+		
+		Function CreateFullBlownHtml(excelDoc,folderPath)
+		
+			With excelDoc.WebOptions
+				.RelyOnCSS = false
+				.OrganizeInFolder = true
+				.UseLongFileNames = true
+				.DownloadComponents = false
+				.RelyOnVML = false
+				.AllowPNG = false
+				.ScreenSize = msoScreenSize544x376
+				.PixelsPerInch = 96
+				.Encoding = msoEncodingUTF8
+			End With
+			
+			excelDoc.SaveAs folderPath & "\page.html", xlHtml
+
+		End Function
+		
+		Function CreateCleanHtmlView(excelApp, excelDoc, folderPath)
+		
+			Dim wordApp, wordDoc, foundSelection
+			
+			' Fire up Word
+			Set wordApp = CreateObject( "Word.Application" )
+			Set wordDoc = wordApp.Documents.Add
+		
+			If excelApp.Selection Is Nothing Then
+				foundSelection = false
+			Else
+				' If selection is of type Cell-Range we must check if
+				' only a single cell is selected (user leaving the cursor)
+
+				On Error Resume Next
+				foundSelection = True
+				foundSelection = ( excelApp.Selection.Cells.Count <> 1 )
+				Err.Clear			
+				On Error Goto 0
+				
+			End If
+			
+			If Not foundSelection Then excelDoc.ActiveSheet.Cells.Select
+			excelApp.Selection.Copy
+						
+			' Paste into word
+			wordApp.Selection.Paste
+			
+			'Break the copied link and remove from clipboard
+			excelApp.CutCopyMode = False
+			
+			'Set HTML options for filtered edition
+			With wordDoc.WebOptions
+				.RelyOnCSS = true
+				.OrganizeInFolder = true
+				.UseLongFileNames = true
+				.RelyOnVML = false
+				.AllowPNG = false
+				.ScreenSize = msoScreenSize544x376
+				.PixelsPerInch = 96
+				.Encoding = msoEncodingUTF8
+				.OptimizeForBrowser = true
+				.BrowserLevel = wdBrowserLevelV4
+			End With
+			
+			'Create filtered file (always named episerver.html)
+			wordDoc.SaveAs folderPath & "\episerver.html", wdFormatFilteredHTML
+			wordDoc.Close False
+			wordApp.Quit wdDoNotSaveChanges
+
+		End Function
+		
+		Function MakeResourceLinksRelative(filePath, resourceFolderName)
+			
+			Dim htmlFile
+			Set htmlFile = fso.OpenTextFile(filePath , 1, False )
+	
+			Dim sLine
+			Dim fCollect
+			
+			Dim parsedHtml
+			
+			parsedHtml = ""
+			
+			fCollect = False
+			While Not htmlFile.AtEndOfStream
+			
+				sLine = htmlFile.ReadLine					
+				parsedHtml = parsedHtml & Replace(sLine, Replace(resourceFolderName," ", "%20"), "<%RESOURCEFOLDER%>" ) & vbCrLf
+
+			Wend
+			
+			Set htmlFile = Nothing
+			
+			Set htmlFile = fso.CreateTextFile(filePath, true)
+			htmlFile.Write parsedHtml
+			htmlFile.Close
+			
+			Set htmlFile = Nothing
+			
+		End Function
+
+	]]>
+	</script>
+
+</component>

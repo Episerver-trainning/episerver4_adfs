@@ -1,0 +1,2837 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+	<language name="Suomi" id="FI">
+		<cookie>
+			<logincaption>		Jos kirjaudut sisään, evästeet otetaan käyttöön.</logincaption>
+			<logininfo>			Selaimeesi lähetetään kirjautumistiedot sisältävä eväste. Et voi kirjautua sivustoon, jos et ota evästeitä käyttöön.</logininfo>
+			<usagecaption>		Tietoja evästeistä</usagecaption>
+			<usageinfo>			Ruotsissa 25.7.2003 voimaantulleen sähköistä tietoliikennettä koskevan lain mukaan kaikkien evästeitä hyödyntävän Internet-sivuston käyttäjien on saatava tieto siitä, että sivusto käyttää evästeitä, sekä evästeiden käyttötarkoituksesta ja niiden välttämisestä. Tässä sivustossa evästeitä käytetään seuraavasti.</usageinfo>
+			<usageform>			Jos et ole kirjautunut sisään ja täytät tai lähetät lomakkeen, tietokoneeseesi lähetetään eväste, jotta lomakkeeseen vastaaminen merkitään muistiin.</usageform>
+			<usageloginform>	Kun kirjaudut sisään, sisäänkirjaustiedot tallennetaan evästeisiin. Jos evästeistä kieltäydytään sisäänkirjauksen yhteydessä, näyttöön tulee sisäänkirjausruutu kaikkien uusien kirjautumista edellyttävien sivujen yhteydessä.</usageloginform>
+			<usageloginwindows>	Kun kirjaudut sisään, eväste muistaa, että olet kirjautunut. Jos evästeistä kieltäydytään, kirjautumista sivustoon ei muisteta, jolloin sinun on kirjauduttava jatkuvasti uudelleen, jotta voit käyttää suojattua aineistoa.</usageloginwindows>								
+		</cookie>
+		<headings>
+			<heading name="Information">
+				<description>	Tiedot</description>
+			</heading>
+			<heading name="Advanced">
+				<description>	Lisätiedot</description>
+			</heading>
+			<heading name="Categories">
+				<description>	Luokat</description>
+			</heading>
+			<heading name="Shortcut">
+				<description>Oikotie / ulkoinen linkki</description>
+			</heading>
+			<heading name="Subscription">
+				<description>Tilaa</description>
+			</heading>
+			<heading name="Portal settings">
+				<description>	Portaaliasetukset</description>
+			</heading>
+			<heading name="Simple portal mode">
+				<description>	Yksinkertainen portaali</description>
+			</heading>
+			<heading name="Advanced portal mode">
+				<description>	Kehittynyt portaali</description>
+			</heading>
+			<heading name="DelayedPublish">
+				<description>	Aikaohjattu julkaiseminen</description>
+			</heading>
+			<heading name="General">
+				<description>Yleistä</description>
+			</heading>
+			<heading name="Advanced_short">
+				<description>Lisäasetukset</description>
+			</heading>
+		</headings>
+		<frames>
+			<frame name="_blank">
+				<description>Avaa linkki uudessa ikkunassa</description>
+			</frame>
+			<frame name="_top">
+				<description>Avaa linkki koko ikkunassa</description>
+			</frame>
+		</frames>
+		<accesslevels>
+			<accesslevel name="Read">
+				<description>		Lue</description>
+			</accesslevel>
+			<accesslevel name="Create">
+				<description>		Luo</description>
+			</accesslevel>
+			<accesslevel name="Edit">
+				<description>		Muokkaa</description>
+			</accesslevel>
+			<accesslevel name="Delete">
+				<description>		Poista</description>
+			</accesslevel>
+			<accesslevel name="Publish">
+				<description>		Julkaise</description>
+			</accesslevel>
+			<accesslevel name="Administer">
+				<description>		Hallitse</description>
+			</accesslevel>
+		</accesslevels>
+		<day>		päivä</day>
+		<hour>		tunti</hour>
+		<minute>	minuutti</minute>
+		<second>	sekunti</second>
+		<week>		viikko</week>
+		<month>		kuukausi</month>
+		<sunday>	Sunnuntai</sunday>
+		<monday>	Maanantai</monday>
+		<tuesday>	Tiistai</tuesday>
+		<wednesday>	Keskiviikko</wednesday>
+		<thursday>	Torstai</thursday>
+		<friday>	Perjantai</friday>
+		<saturday>	Lauantai</saturday>
+		<january>	Tammikuu</january>
+		<february>	Helmikuu</february>
+		<march>		Maaliskuu</march>
+		<april>		Huhtikuu</april>
+		<may>		Toukokuu</may>
+		<june>		Kesäkuu</june>
+		<july>		Heinäkuu</july>
+		<august>	Elokuu</august>
+		<september>	Syyskuu</september>
+		<october>	Lokakuu</october>
+		<november>	Marraskuu</november>
+		<december>	Joulukuu</december>
+		<savenochanges>	Ei muutoksia</savenochanges>
+		<pleasewait>Ole hyvä ja odota</pleasewait>
+		<button>
+			<yes>		Kyllä</yes>
+			<no>		Ei</no>
+			<ok>		OK</ok>
+			<cancel>	Peruuta</cancel>
+			<reset>		Palauta</reset>
+			<save>		Tallenna</save>
+			<create>	Luo</create>
+			<add>		Lisää</add>
+			<addusersid>	Lisää käyttäjä</addusersid>
+			<addgroupsid>	Lisää ryhmä</addgroupsid>
+			<delete>	Poista</delete>
+			<next>		&gt;&gt;</next>
+			<prev>		&lt;&lt;</prev>
+			<search>	Etsi</search>
+			<send>		Lähetä</send>
+			<help>		Ohje</help>
+			<activate>	Aktivoi</activate>
+			<deactivate>	Inaktivoi</deactivate>
+			<clear>		Tyhjennä</clear>
+			<copy>		Kopioi</copy>
+			<publish>	Julkaise</publish>
+			<preview>	Esikatsele</preview>
+			<checkin>	Valmis julkaistavaksi</checkin>
+			<select>	Valitse</select>
+			<compare>	Vertaa</compare>
+			<refresh>	Päivitä</refresh>
+			<print>		Tulosta</print>
+			<settings>	Asetukset</settings>
+			<insert>	Lisää</insert>
+			<login>		Kirjaudu sisään</login>
+			<edit>		Muokkaa</edit>
+			<compare>   Vertaa keskenään</compare>
+			<saveandpublish>Tallenna ja julkaise</saveandpublish>
+			<saveandview>Tallenna ja näytä</saveandview>
+			<saveandclose>Tallenna ja sulje</saveandclose>
+			<findnext>		Etsi seuraava</findnext>
+			<ignore>		Vältä</ignore>
+			<ignoreall>		Vältä kaikki</ignoreall>
+			<change>		Muokkaa</change>
+			<close>			Sulje</close>
+			<browse>		Selaa...</browse>
+			<delaypublish>Aikaohjaus</delaypublish>
+			<unpublish>		Lopeta julkaisu</unpublish>			
+			<saveonly>Tallenna</saveonly>
+			<continue>Jatka</continue>
+			<resize>Muuta kokoa</resize>
+		</button>
+		<status>
+			<active>	Käytössä</active>
+			<inactive>	Ei käytössä</inactive>
+		</status>
+		<versionstatus>
+			<rejected>		Huomautus</rejected>
+			<checkedout>		Ei valmis</checkedout>
+			<checkedin>		Valmis julkaistavaksi</checkedin>
+			<published>		Julkaistu versio</published>
+			<previouslypublished>	Aiemmin julkaistu</previouslypublished>
+			<delayedpublish>	Aikaohjattu julkaiseminen</delayedpublish>
+		</versionstatus>
+		<validation>
+			<summary>		Seuraavat ongelmat on poistettava:</summary>
+			<required>		"{0}" ei voi olla tyhjä.</required>
+			<invalidvalue>		Kohteen {0} arvo ei voi olla {1}.</invalidvalue>
+			<invalidvalueexception>		Kohteen {0} arvo ei voi olla {1}. ({2})</invalidvalueexception>
+			<outofrange>		Kohteen {0} arvon on oltava välillä {1} - {2}.</outofrange>
+			<stringoverflow>	{0} on ylittänyt enimmäismäärän. Ylittävien merkkien määrä on {1}.</stringoverflow>
+			<formrequired>		* Kenttä on pakollinen.</formrequired>
+			<valuealreadyused>{0}, jonka arvo on {1}, on jo käytössä kohteessa {2}.</valuealreadyused>
+			<dateorder>Kohteen {0} päivämäärän on oltava aiempi kuin {1}.</dateorder>
+			<valuesameasfolder>Kohdetta "{0}", jonka arvo on "{1}", ei voi käyttää, koska arvo on yhdenmukainen kansion "{2}" polun kanssa.</valuesameasfolder>
+			<urlcharactersonly>Käytä vain merkkejä a - z ja 0 - 9 sekä yhdysmerkkiä (-).</urlcharactersonly>		
+		</validation>
+		<dope>
+			<new>			Uusi</new>
+			<edit>			Muokkaa</edit>
+			<delete>		Poista</delete>
+			<security>		Käyttöoikeudet</security>
+			<createsibling>		Luo uusi sivu samaa mallia käyttäen</createsibling>
+			<editmode>		Muokkaustilaan</editmode>
+			<viewmode>		Näyttötilaan</viewmode>
+			<print>			Tulosta</print>
+			<refresh>		Päivitä</refresh>
+			<copy>			Kopioi leikepöydälle</copy>
+			<newwindow>		Avaa uudessa ikkunassa</newwindow>
+			<disablemenu>		Poista valikko käytöstä</disablemenu>
+			<properties>		Ominaisuudet</properties>
+			<adminmode>		Hallintatilaan</adminmode>
+			<save>			Tallenna</save>
+			<cancel>		Peruuta</cancel>
+			<quickedit>Nopeamuokkaus</quickedit>
+		</dope>
+		<permissions>
+			<linktoolcreatefolder>		Luo hakemisto linkkityökalussa</linktoolcreatefolder>
+			<linktooldeletefile>		Poista tiedosto linkkityökalussa</linktooldeletefile>
+			<linktooldeletefolder>		Poista hakemisto linkkityökalussa</linktooldeletefolder>
+			<linktoolrename>			Muuta hakemiston/sivuston nimeä linkkityökalussa</linktoolrename>
+			<linktooluploadtopage>		Lataa tiedosto sivun hakemistoon linkkityökalussa</linktooluploadtopage>
+			<linktooluploadtocommon>	Lataa tiedosto yhteiseen hakemistoon linkkityökalussa</linktooluploadtocommon>
+			<editorunlimitedfunctions>	Kaikki olemassa olevat toiminnat editorissa</editorunlimitedfunctions>
+			<detailederrormessage>Virheenetsinnän yksityiskohtaiset virheilmoitukset</detailederrormessage>
+			<clienttools>Näytä ja julkaise sivut Microsoft Office -lisäohjelmasta</clienttools>
+			<multifileupload>Salli tiedostojen kehittyneet lataustoiminnot, esimerkiksi vetäminen ja pudottaminen</multifileupload>
+	</permissions>
+		<login>
+			<username>		Käyttäjänimi</username>
+			<password>		Salasana</password>
+			<persistentlogin>	Automaattinen kirjautuminen tähän sivustoon</persistentlogin>
+			<usernamerequired>	Käyttäjänimi on annettava</usernamerequired>
+			<missingpassword>	Sinun on syötettävä salasana</missingpassword>
+			<loginfailed>		Sisäänkirjautuminen epäonnistui</loginfailed>
+		</login>
+		<workflow>
+			<notificationmail>
+				<task>		Tehtävä</task>
+				<duedate>	Eräpäivä</duedate>
+				<description>	Kuvaus</description>
+				<contact>	Yhteystiedot</contact>
+			</notificationmail>
+			<reportmail>
+				<statusreport>	Tilaraportti</statusreport>
+				<taskname>	Nimi</taskname>
+				<owner>		Omistaja</owner>
+				<changedby>	Muuttanut</changedby>
+				<status>	Tila</status>
+				<statuscomments>Kommentit</statuscomments>
+				<pagelink>	Sivu</pagelink>
+				<changed>	Muutettu</changed>
+				<created>	Luotu</created>
+				<deleted>	Poistettu</deleted>
+				<contact>	Yhteystiedot</contact>
+			</reportmail>
+			<statusmail>
+				<taskstatus>		Tehtävän tila on muuttunut</taskstatus>
+				<task>			Tehtävä</task>
+				<description>		Kuvaus</description>
+				<owner>			Omistaja</owner>
+				<status>		Tila</status>
+				<statuscomments>	Kommentit</statuscomments>
+			</statusmail>
+		</workflow>
+		<util>
+			<linkeditor>
+				<textfieldcaption>	Näytettävä teksti:</textfieldcaption>
+				<urlfieldcaption>	Osoite:</urlfieldcaption>
+				<targetfieldcaption>	Kohdekehys:</targetfieldcaption>
+				<filefieldcaption>	Tiedoston nimi:</filefieldcaption>
+				<mailfieldcaption>	Sähköpostiosoite:</mailfieldcaption>
+				<anchorfieldcaption>	Valitse kirjanmerkki:</anchorfieldcaption>
+				<selectpagecaption>	Valitse sivu:</selectpagecaption>
+				<douploadcaption>	Lataa valitsemalla tämä</douploadcaption>
+				<pageuploaddir>		Sivuhakemisto</pageuploaddir>
+				<uploaddir>		Yleinen hakemisto</uploaddir>
+				<showfullsize>		Näytä kuva omassa ikkunassa</showfullsize>
+				<alttextfieldcaption>	Vaihtoehtoinen teksti:</alttextfieldcaption>
+				<linktitlefieldcaption>	Linkin otsikko:</linktitlefieldcaption>
+			</linkeditor>
+			<linktoolbar>
+				<deletefilemsg>		Haluatko varmasti poistaa tiedoston?</deletefilemsg>
+				<deletefilecaption>	Poista tiedosto</deletefilecaption>
+				<deletefoldermsg>	Haluatko varmasti poistaa hakemiston?</deletefoldermsg>
+				<deletefoldercaption>	Poista hakemisto</deletefoldercaption>
+				<renamefoldermsg>	Nimeä kansio uudelleen</renamefoldermsg>
+				<renamefoldercaption>	Muuta hakemiston nimi</renamefoldercaption>
+				<renamefilemsg>		Nimeä tiedosto uudelleen</renamefilemsg>
+				<renamefilecaption>	Muuta tiedoston nimi</renamefilecaption>
+				<createfoldermsg>	Nimeä kansio</createfoldermsg>
+				<createfoldercaption>	Luo uusi hakemisto</createfoldercaption>
+				<notemptyfoldermsg>	Hakemisto ei ole tyhjä</notemptyfoldermsg>
+				<folderisreadonly>	Hakemistoa ei voi muokata</folderisreadonly>
+				<toobigfile>Tiedoston koko ylittää suurimman sallitun tiedostonlatauskoon</toobigfile>
+				<maxuploadsize>Suurin sallittu tiedostonlatauskoko:</maxuploadsize>
+				<renamefileerror>		Tiedoston nimeä ei voi vaihtaa.</renamefileerror>
+				<fileareadyexists>		Nimi {0} on jo käytössä.</fileareadyexists>
+			</linktoolbar>
+			<plugins>
+				<viewtask>
+					<displayname>		Näytä annettu tehtävä</displayname>
+					<description>		Näytä tehtävä joka on annettu käyttäjälle</description>
+				</viewtask>
+				<edittask>
+					<displayname>		Luo uusi tehtävä</displayname>
+					<description>		Luo tehtävä ja anna se käyttäjälle tai ryhmälle.</description>
+				</edittask>
+			</plugins>
+		</util>
+		<system>
+			<datebrowser>
+				<selectmonthcaption>	Valitse kuukausi, johon haluat siirtyä (1-12)</selectmonthcaption>
+				<selectyearcaption>	Valitse vuosi, johon haluat siirtyä</selectyearcaption>
+				<time>			Aika</time>
+				<heading>Valitse päivämäärä</heading>
+			</datebrowser>
+			<pagebrowser>
+				<title>			Linkki sivulle</title>
+				<infoselflink>		Tämä sivu</infoselflink>
+				<buttonnolink>		Ei linkkiä</buttonnolink>
+				<buttonselflink>	Linkki samalle sivulle</buttonselflink>
+				<heading>Valitse sivu</heading>
+				<notfound see="/edit/quicksearch/notfound"/>
+			</pagebrowser>
+			<taskinc>
+				<statusrejected>		Hylkää</statusrejected>
+				<statusdone>			Valmis</statusdone>
+				<statustimeout>			Eräpäivä ohitettu</statustimeout>
+				<statusactive>			Käynnissä</statusactive>
+				<typenewpage>			Luo uusi sivu</typenewpage>
+				<typeapprovepage>		Hyväksytty sivu</typeapprovepage>
+				<typeurl>			Näytä oma URL</typeurl>
+				<typeautomail>			Lähetä raportti sähköpostina</typeautomail>
+				<buttonreject>			Hylkää</buttonreject>
+				<buttondone>			Valmis</buttondone>
+				<buttoncontinue>		Jatka</buttoncontinue>
+				<createdby>			Luonut</createdby>
+			</taskinc>
+			<editutil>
+				<reqfield>				Sinun on täytettävä kenttä</reqfield>
+				<badintegerfield>			Arvo ei kelpaa, vain numeroita voi käyttää kohdassa</badintegerfield>
+				<badfloatfield>				Arvo ei kelpaa, desimaaliluku vaaditaan kohdassa</badfloatfield>
+				<baddatefield>				Päivämäärä on ilmoitettava muodossa VVVV-KK-PP HH:MM</baddatefield>
+				<captionheading>			Nimi</captionheading>
+				<helpheading>				Sivun nimi, näkyy esimerkiksi otsikkona valikoissa</helpheading>
+				<captioncreated>			Luotu</captioncreated>
+				<helpcreated>				Sivun luontipäivämäärä</helpcreated>
+				<captionstartpublish>			Aloita julkaisu</captionstartpublish>
+				<helpstartpublish>			Julkaise tästä päivämäärästä alkaen. Jos kenttä jätetään tyhjäksi, sivu julkaistaan heti, kun napsautat julkaisupainiketta</helpstartpublish>
+				<captionstoppublish>			Lopeta julkaisu</captionstoppublish>
+				<helpstoppublish>			Julkaise tähän päivämäärään asti. Jos kenttä jätetään tyhjäksi, sinun on poistettava sivu itse, jotta sen julkaisu lopetetaan</helpstoppublish>
+				<captionupdatechanged>			&amp;nbsp;Merkitse sivu muutetuksi&amp;nbsp;</captionupdatechanged>
+				<helpupdatechanged>			Sivun muuttamispäivämäärä päivitetään, jos tämä ruutu on valittu. On vaatimuksena, jotta sivu otetaan mukaan esimerkiksi tilauksiin</helpupdatechanged>
+				<captionsortorder>			Lajittelujärjestys</captionsortorder>
+				<helpsortorder>				Määrittää, missä järjestyksessä tämän sivun alasivut näytetään</helpsortorder>
+				<captionsortindex>			Lajitteluindeksi</captionsortindex>
+				<helpsortindex>				Määritä kokonaisluku, joka vastaa tämän sivun indeksilukua. Jos valitset yläsivulle lajittelujärjestyksen &quot;Lajitteluindeksin mukaan&quot;, sivu, jonka indeksi on pienin, näytetään ylimpänä</helpsortindex>
+				<captionvisibleinmenu>			Näytä sivu valikoissa</captionvisibleinmenu>
+				<helpvisibleinmenu>			Merkitse tämä valintaruutu, jos haluat, että sivu näytetään valikoissa. Jos ruutu on tyhjä, sivu näytetään ainoastaan luetteloissa</helpvisibleinmenu>
+				<captionoutputcache>			Käytä HTML-välimuistia</captionoutputcache>
+				<helpoutputcache>			Merkitse tämä valintaruutu, jos haluat, että sivu tallennetaan HTML-välimuistiin ja näytetään ASP-koodia käyttämättä. Tämä saattaa parantaa suorituskykyä huomattavasti</helpoutputcache>
+				<captionlanguage>	Sivun kielikoodaus</captionlanguage>
+				<helplanguage>		Käytä, kun haluat muuntaa sivun muulle kuin järjestelmän kielelle</helplanguage>
+				<captionmoderated>			Käytä valvontaa</captionmoderated>
+				<helpmoderated>				Tähän kansioon tallennettavat sivut edellyttävät valvojan oikeuksia käyttävän henkilön hyväksyntää, ennen kuin ne näytetään.</helpmoderated>
+				<captionexternalurl>			Yksinkertainen osoite sivulle</captionexternalurl>
+				<helpexternalurl>			Määritä polku juuresta WWW-sivustoosi, esim. &quot;/tuotteet&quot;. Tälle sivulle voidaan päästä yksinkertaista osoitetta käyttäen ilman &quot;?&quot;-merkkiä tai muita symboleita. Kun vierailija kirjoittaa www.yritys.fi/tuotteet, sivu tulee näkyviin</helpexternalurl>
+				<helpdynprop>				Kun merkitset tämän ruudun, määritettyä arvoa käytetään kaikilla alasivuilla</helpdynprop>
+				<helpdynpropdef>			Ominaisuus on määritetty tällä sivulla</helpdynpropdef>
+				<helpdynpropundef>			Ominaisuudella ei ole arvoa</helpdynpropundef>
+				<defframe>				Normaali (samassa ikkunassa/kehyksessä)</defframe>
+				<sortorder1>				Viimeksi luotu ylimpänä</sortorder1>
+				<sortorder2>				Viimeksi luotu viimeisenä</sortorder2>
+				<sortorder3>				Aakkosjärjestyksessä</sortorder3>
+				<sortorder4>				Lajitteluindeksin mukaan</sortorder4>
+				<sortorder5>				Viimeksi muutettu ylimpänä</sortorder5>
+				<sortorder7>				Julkaisun aloituspäivämäärän mukaan (vanhin ylimpänä)</sortorder7>
+				<sortorder8>				Julkaisun aloituspäivämäärän mukaan (viimeisin ylimpänä)</sortorder8>
+				<unloadmessage>				Olet tehnyt sivulle muutoksia</unloadmessage>
+				<reloadmessage>		Olet tehnyt muutoksia, joka edellyttävät sivun uudelleenlatausta. Mahdolliset 				lisämuutokset menetetään.</reloadmessage>
+				<languagecommonpropertyicontooltiporiginal>Tämä ominaisuus on yhteinen kaikille kielille, ja sitä voi vain muokata tässä</languagecommonpropertyicontooltiporiginal>
+				<languagecommonpropertyicontooltiptranslation>Tämä ominaisuus on yhteinen kaikille kielille, ja sitä voi muokata vain sivun alkuperäisellä kielellä</languagecommonpropertyicontooltiptranslation>
+			</editutil>
+		</system>
+		<edit>
+			<actionwindow>
+				<heading>Luomisalue</heading>
+				<hide>Salaa</hide>
+			</actionwindow>
+			<linkdocument>
+				<heading>	Lisää asiakirja</heading>
+			</linkdocument>
+			<linkimage>
+				<heading>		Lisää kuva</heading>
+			</linkimage>
+			<linkgeneric>
+				<heading>			Lisää linkki</heading>
+				<LinkGenericAnchorCaption>	Tämän sivun linkki</LinkGenericAnchorCaption>
+				<LinkGenericExternalCaption>	Toisen sivuston sivu</LinkGenericExternalCaption>
+				<LinkGenericFileCaption>	Toisen palvelimen tiedosto</LinkGenericFileCaption>
+				<LinkGenericInternalCaption>	EPiServer-palvelimen sivu</LinkGenericInternalCaption>
+				<LinkGenericMailCaption>	Sähköpostiosoite</LinkGenericMailCaption>
+			</linkgeneric>
+			<quicksearch>
+				<notfound>Ei hakua vastaavia tunnuksia tai sivuston nimiä</notfound>
+			</quicksearch>
+			<editform>
+				<heading>			Lomakkeen asetukset</heading>
+				<info></info>
+				<placefieldsinmatrix>		Lisää kentät alla olevaan taulukkoon</placefieldsinmatrix>
+				<namecaption>			Nimi</namecaption>
+				<placementcaption>		Sijainti</placementcaption>
+				<horizontal>			Vaakasuoraan</horizontal>
+				<vertical>			Pystysuoraan</vertical>
+				<optionscaption>		Vaihtoehdot</optionscaption>
+				<fieldexists>			Tässä solussa on jo kenttä</fieldexists>
+				<textinputproperties>		Tekstikentän ominaisuudet</textinputproperties>
+				<checkboxproperties>		Valintaruudun ominaisuudet</checkboxproperties>
+				<textareaproperties>		Tekstialueen ominaisuudet</textareaproperties>
+				<radiobuttonproperties>		Vaihtoehtopainikkeen ominaisuudet</radiobuttonproperties>
+				<selectboxproperties>		Monivalintaluettelon ominaisuudet</selectboxproperties>
+				<descriptionproperties>		Kuvauksen ominaisuudet</descriptionproperties>
+				<inputtext>			Tekstikenttä</inputtext>
+				<inputtextarea>			Tekstialue</inputtextarea>
+				<inputselectbox>		Monivalintaluettelo</inputselectbox>
+				<inputradiobutton>		Vaihtoehtopainike</inputradiobutton>
+				<inputcheckbox>			Valintaruutu</inputcheckbox>
+				<inputdescription>		Kuvaus</inputdescription>
+				<requiredcaption>		Arvo määritettävä</requiredcaption>
+				<widthcaption>			Leveys (merkkimäärä)</widthcaption>
+				<heightcaption>			Korkeus (rivimäärä)</heightcaption>
+				<textcaption>			Teksti</textcaption>
+				<htmlcode>			HTML-koodi</htmlcode>
+				<addrowbutton>			Lisää rivi</addrowbutton>
+				<addcolumnbutton>		Lisää sarake</addcolumnbutton>
+				<insertrowbutton>		Lisää rivi</insertrowbutton>
+				<insertcolumnbutton>		Lisää sarake</insertcolumnbutton>
+				<deleterowbutton>		Poista rivi</deleterowbutton>
+				<deletecolumnbutton>		Poista sarake</deletecolumnbutton>
+				<confirmdelete>			Haluatko varmasti poistaa kentän</confirmdelete>
+				<formnamecaption>		Lomakkeen nimi</formnamecaption>
+				<postresultcaption>		Lähetyksen tulos</postresultcaption>
+				<sendemailoption>		Lähetä sähköpostiviesti</sendemailoption>
+				<savetodatabaseoption>		Tallenna tietokantaan</savetodatabaseoption>
+				<mailanddboption>		Lähetä sähköposti ja tallenna tietokantaan</mailanddboption>
+				<sendtourloption>		Lähetä annettuun URL-osoitteeseen</sendtourloption>
+				<sendemailtoadresscaption>	Lähetä sähköpostiviesti tähän osoitteeseen</sendemailtoadresscaption>
+				<sendemailfromadresscaption>Lähtevän sähköpostin lähettäjän osoite</sendemailfromadresscaption>
+				<sendformtourlcaption>		Lähetä lomake tähän URL-osoitteeseen</sendformtourlcaption>
+				<allowanonymouspostcaption>	Lomake voidaan lähettää ilman sisäänkirjautumista</allowanonymouspostcaption>
+				<allowmultiplepostcaption>	Sama henkilö voi lähettää lomakkeen useita kertoja</allowmultiplepostcaption>
+				<classcaption>CSS-luokka</classcaption>
+				<pageafterpost>Kiitossivu joka näkyy vastauksena</pageafterpost>
+				<buttonproperties>Painikkeen ominaisuudet</buttonproperties>
+				<headingcaption>Otsikko</headingcaption>
+				<buttoncaption>Painikkeen teksti</buttoncaption>
+				<tooltipcaption>Työkaluvihje</tooltipcaption>
+				<inputsubmit>Painike</inputsubmit>
+				<typecaption>Vahvista muodossa</typecaption> 
+				<sendemailsubjectcaption>Sähköpostin aihe</sendemailsubjectcaption>
+			</editform>
+			<workspace>
+				<welcome>			Tervetuloa EPiServeriin</welcome>
+				<mysettings>			Omat asetukset</mysettings>
+				<license>			Käyttöoikeussopimus</license>
+				<userinfo>			Käyttäjätiedot</userinfo>
+				<firstlisting>			Ensimmäinen luettelo</firstlisting>
+				<secondlisting>			Toinen luettelo</secondlisting>
+			</workspace>
+			<activityloader>
+				<statusreadytopublish>	Valmis julkaistavaksi</statusreadytopublish>
+				<statusnotready>		Ei julkaistu</statusnotready>
+				<statusrejected>		Kommentit</statusrejected>
+				<noactivity>			Ei parhaillaan suoritettavia tehtäviä</noactivity>
+				<personaltask>			Henkilökohtaiset tehtävät</personaltask>
+				<grouptask>				Ryhmän tehtävät</grouptask>
+				<workflowowner>			Työvirran yleiskuvaus</workflowowner>
+				<duedate>				Eräpäivä</duedate>
+				<assignedtasks>Omat tehtävät</assignedtasks>
+				<readytopublishtooltip>Valmis julkaistavaksi:</readytopublishtooltip>
+				<personaltaskstaskstooltip>Henkilökohtaiset tehtävät:</personaltaskstaskstooltip>
+			</activityloader>
+			<workflowlog>
+				<heading>			Työvirran yleiskuvaus</heading>
+				<taskname>			Nimi</taskname>
+				<owner>				Omistaja</owner>
+				<changedby>			Muuttanut</changedby>
+				<status>			Tila</status>
+				<statuscomments>	Kommentit</statuscomments>
+				<pagelink>			Sivu</pagelink>
+				<changed>			Muutettu</changed>
+				<created>			Luotu</created>
+				<deleted>			Poistettu</deleted>
+			</workflowlog>
+			<taskoverview>
+				<heading>		Tehtävä</heading>
+				<name>			Nimi</name>
+				<description>		Kuvaus</description>
+				<owner>			Omistaja</owner>
+				<status>		Tila</status>
+				<statuscomments>	Kommentit</statuscomments>
+				<pagelink>		Sivu</pagelink>
+				<deleted>		Poistettu</deleted>
+			</taskoverview>
+			<editextension>
+				<heading>		Lisätoiminnot</heading>
+			</editextension>
+			<deletepage>
+				<heading>		Haluatko poistaa sivun {0}?</heading>
+				<info />
+				<deletesuffix>		{0} on poistettu</deletesuffix>
+				<movesuffix>		{0} siirretty roskakoriin</movesuffix>
+				<deletesystempage>	Roskakoria, aloitussivua ja pääobjektia ei voi poistaa</deletesystempage>
+				<headingfailed>		Sivun/sivujen poistaminen epäonnistui</headingfailed>
+				<failedreferenced>	Seuraaville sivuille on viittauksia järjestelmän muista osista, minkä vuoksi niitä ei voi poistaa:</failedreferenced>
+				<reftypeproperty>	{0}&amp;nbsp;viitataan ominaisuudella kohteessa&amp;nbsp;{1}</reftypeproperty>
+				<reftypeshortcut>	{0}&amp;nbsp;on kohde pikakuvakkeesta&amp;nbsp;{1}</reftypeshortcut>
+				<reftypearchive>	{0}&amp;nbsp;on arkistokansio kohteelle&amp;nbsp;{1}</reftypearchive>
+				<reftypedefaultarchive>	{1} käytetään vakioarkistointisivuna sivumallissa {0}</reftypedefaultarchive>
+			</deletepage>
+			<editdynprop>
+				<heading>		Muokkaa sivun {0} dynaamisia ominaisuuksia</heading>
+				<info />
+				<nodynprop>		Dynaamisia ominaisuuksia ei ole</nodynprop>
+				<save>			Dynaamiset ominaisuudet on tallennettu</save>
+			</editdynprop>
+			<editsecurity>
+				<heading>			Määritä sivun {0} käyttöoikeudet</heading>
+				<info>				Voit valita käyttäjät ja ryhmät, joilla on sivun käyttöoikeus, ja määrittää, mitä heillä on oikeus tehdä.</info>
+				<user>				Olet kirjautuneena sisään tunnuksella {0} ja olet seuraavien ryhmien jäsen</user>
+				<savemessage comment="heading of savesecurity">Uudet käyttöoikeusasetukset on tallennettu</savemessage>
+			</editsecurity>
+			<editpage>
+				<newheadingprefix>		Luo&amp;nbsp;</newheadingprefix>
+				<editheadingprefix>		Muokkaa&amp;nbsp;</editheadingprefix>
+				<editheadingsuffix></editheadingsuffix>
+				<creator>			Luonut</creator>
+				<createdby>			Sivun luonut</createdby>
+				<savedby>			Viimeksi tallentanut</savedby>
+				<publishedby>			Sivun julkaissut</publishedby>
+				<changed>			Sivu muutettu</changed>
+				<versioncreatedby>		Version luonut</versioncreatedby>
+				<versionsavedby>		Version tallentanut</versionsavedby>
+				<versionstatus>			Version tila</versionstatus>
+				<updatechanged>			&amp;nbsp;Merkitse sivu muutetuksi&amp;nbsp;</updatechanged>
+				<normallinkcaption>		Normaali linkki</normallinkcaption>
+				<normallinkhelp>		Avattaessa näytetään sivun oma sisältö</normallinkhelp>
+				<nolinkcaption>			Ei linkkiä</nolinkcaption>
+				<nolinkhelp>			Sivulla ei ole linkkiä eikä mitään näytetä. Käytetään esim. puuvalikoiden otsikoissa</nolinkhelp>
+				<shortcutcaption>		Sisäinen oikotie</shortcutcaption>
+				<shortcuthelp>			Sivulta avautuu toisen sivun sisältö, ja käyttäjä siirtyy rakenteessa oikealle sivulle</shortcuthelp>
+				<fetchdatacaption>		Hae tiedot kohteesta</fetchdatacaption>
+				<fetchdatahelp>			Sivulta avautuu toisen sivun sisältö, mutta käyttäjä jää rakenteessa nykyiseen paikkaan.</fetchdatahelp>
+				<externallinkcaption>		Ulkoinen linkki</externallinkcaption>
+				<externallinkhelp>		Sivulta avautuu linkittämäsi ulkoinen sivu tai asiakirjan sisältö</externallinkhelp>
+				<mustpublishmasterfirst>Tämän sivun alkuperäistä kieltä ({0}) ei ole vielä julkaistu. Alkuperäinen kieli on julkaistava, ennen kuin sivu voidaan julkaista muilla kielillä.</mustpublishmasterfirst>
+			</editpage>
+			<editversionlist>
+				<columnheadingversion>		Versio</columnheadingversion>
+				<columnheadingname>		Nimi</columnheadingname>
+				<columnheadingstatus>		Tila</columnheadingstatus>
+				<columnheadingdatesaved>	Tallennettu</columnheadingdatesaved>
+				<columnheadingsavedby>		Tallentanut</columnheadingsavedby>
+				<buttoncompareversion>		Vertaile versioita</buttoncompareversion>
+				<columnheadinglanguage>Kieli</columnheadinglanguage>
+				<showalllanguages>Näytä kaikki kielet</showalllanguages>
+			</editversionlist>
+			<wastebasketpage>
+				<emptywastebasket>	Tyhjennä roskakori</emptywastebasket>
+				<info />
+				<emptiedmessage>Roskakori on tyhjennetty</emptiedmessage>
+				<reftypeproperty see="/edit/deletepage/reftypeproperty" />
+				<reftypeshortcut see="/edit/deletepage/reftypeshortcut" />
+				<reftypearchive see="/edit/deletepage/reftypearchive" />
+				<askemptywastebasket see="/edit/editcommand/askemptywastebasket" />
+				<heading>					Roskakori</heading>
+				<numdeletedpages>			Roskakorin sivumäärä</numdeletedpages>				
+			</wastebasketpage>
+			<newpage>
+				<heading>		Luo uusi sivu</heading>
+				<info>			Valitse luotavan sivun tyyppi luettelosta.</info>
+				<nopagetype>		Tälle sivulle ei ole saatavissa sivutyyppejä</nopagetype>
+				<tooltipcancel>Keskeytä sivun uusi sivu</tooltipcancel>
+			</newpage>
+			<sidbrowser>
+				<heading>		Lisää käyttäjiä tai ryhmiä</heading>
+				<info />
+				<orgsid>		Aiemmat:</orgsid>
+				<newsid>		Lisää:</newsid>
+			</sidbrowser>
+			<editformdata>
+				<heading>			Lomaketiedot</heading>
+				<selectform>		Valitse lomake</selectform>
+				<fromdate>			Päivämäärästä</fromdate>
+				<todate>			Päivämäärään</todate>
+				<sortorder>			Lajittelu</sortorder>
+				<export>			Vie</export>
+				<newestfirst>		Uusin ensin</newestfirst>
+				<oldestfirst>		Vanhin ensin</oldestfirst>
+				<confirmdelete>		Haluatko varmasti poistaa tässä haussa löytyneet kohteet?</confirmdelete>
+				<nohits>			Ei tuloksia</nohits>
+				<matches>			tulosta</matches>
+				<pagingsize>		Tuloksien lukumäärä sivua kohden</pagingsize>
+				<excelexport>		Vie Exceliin</excelexport>
+				<errorexportingdata>Sivua ei onnistuttu viemään vientiongelman takia</errorexportingdata>
+				<date>				Päivämäärä</date>
+				<user>				Käyttäjä</user>
+			</editformdata>
+			<formpostings>
+				<displayname>			Lomaketiedot</displayname>
+				<description>			Näytä lomaketiedot</description>
+			</formpostings>
+			<extension>
+				<task>
+					<heading>		Jaa tehtävä</heading>
+					<taskheading>		Nimi</taskheading>
+					<taskdescription>	Kuvaus</taskdescription>
+					<tasktype>		Tyyppi</tasktype>
+					<taskpagetype>		Sivun tyyppi</taskpagetype>
+					<taskcontainer>		Sijainti puussa</taskcontainer>
+					<taskpage>		Valitse sivu</taskpage>
+					<taskowner>		Anna tehtävä</taskowner>
+					<taskmailnotification>	Lähetä ilmoitus omistajalle sähköpostitse</taskmailnotification>
+					<taskduedate>		Eräpäivä</taskduedate>
+					<taskassign>		Anna tehtävä</taskassign>
+					<taskassigned>		Tehtävä annettu</taskassigned>
+				</task>
+			</extension>
+			<editcommand>
+				<askdelete>		Haluatko poistaa sivun {0}?</askdelete>
+				<askemptywastebasket>	Haluatko tyhjentää roskakorin?</askemptywastebasket>
+				<askmove>		Haluatko siirtää sivun?</askmove>
+				<denycut>		Oikeutesi eivät riitä sivun leikkaamiseen</denycut>
+				<createnewpagecaption>	Luo uusi</createnewpagecaption>
+				<createnewpagehelp>	Luo uusi sivu</createnewpagehelp>
+				<editpagecaption>	Muokkaa</editpagecaption>
+				<editpagehelp>		Muokkaa valittua sivua</editpagehelp>
+				<deletepagecaption>	Poista</deletepagecaption>
+				<deletepagehelp>	Poista valittu sivu</deletepagehelp>
+				<cutpagecaption>	Leikkaa</cutpagecaption>
+				<cutpagehelp>		Leikkaa valittu sivu</cutpagehelp>
+				<copypagecaption>	Kopioi</copypagecaption>
+				<copypagehelp>		Kopioi valittu sivu</copypagehelp>
+				<pastepagecaption>	Liitä</pastepagecaption>
+				<pastepagehelp>		Liitä valittu sivu</pastepagehelp>
+				<setaccesscaption>	Käyttöoikeudet</setaccesscaption>
+				<setaccesshelp>		Muuta käyttöoikeuksia</setaccesshelp>
+				<editdynpropcaption>	Dynaamiset ominaisuudet</editdynpropcaption>
+				<editdynprophelp>	Muuta dynaamisia ominaisuuksia</editdynprophelp>
+				<adminmodehelp		see="/dope/adminmode" />
+				<viewmodehelp		see="/dope/viewmode" />
+				<settingshelp		see="/edit/workspace/mysettings" />
+				<logouthelp>		Kirjaudu ulos</logouthelp>				
+				<editextensionhelp>	Lisätoiminnot</editextensionhelp>
+				<viewmode>		Rakenne</viewmode>
+				<editmode>		Muokkaustila</editmode>
+				<personalmode>	Toiminnot</personalmode>
+				<actionwindowhelp>Avaa toimenpideikkuna</actionwindowhelp>
+				<favoritesmode>Suosikit</favoritesmode>
+				<addfavoritecaption>Lisää suosikkeihin</addfavoritecaption>
+				<removefavoritecaption>Poista suosikki</removefavoritecaption>
+				<pagetypenotallowed>	Kohde ei salli sivun tyypin käyttämistä.</pagetypenotallowed>
+				<filemanagementhelp>Tiedostonhallinta</filemanagementhelp>
+				<languagepagecaption>Sivun kielet</languagepagecaption>
+				<languagepagehelp see="/edit/editcommand/languagepagecaption"/>
+				<languageoverviewcaption>Kielen yleiskuvaus</languageoverviewcaption>
+				<languageoverviewhelp see="/edit/editcommand/languageoverviewcaption"/>
+				<languagesettingscaption>Kieliasetukset</languagesettingscaption>
+				<languagesettingshelp see="/edit/editcommand/languagesettingscaption"/>
+				<deletepagelanguagecaption>Poista kieli</deletepagelanguagecaption>
+			</editcommand>
+			<editpanel>
+				<statusnew>			Uusi versio</statusnew>
+				<statusrejected>		Huomautus</statusrejected>
+				<statuscheckedout>		Ei valmis</statuscheckedout>
+				<statuscheckedin>		Valmis julkaistavaksi</statuscheckedin>
+				<statuspublished>		Julkaistu versio</statuspublished>
+				<statusprevious>		Aiemmin julkaistu</statusprevious>
+				<actiondelete>			Poista versio</actiondelete>
+				<actionapprove>			Julkaise</actionapprove>
+				<actioncheckin>			Valmis</actioncheckin>
+				<actionreject>			Kommentoi</actionreject>
+				<prefixcopyof>			Kopio kohteesta</prefixcopyof>
+				<tabview>			Näytä</tabview>
+				<tabedit>			
+					<displayname>		Muokkaa</displayname>
+					<description>		</description>
+				</tabedit>
+				<tabversionlist>		
+					<displayname>		Versioluettelo</displayname>
+					<description>		</description>
+					<oneunpublishedversiontooltip>Yksi julkaisematon versio</oneunpublishedversiontooltip>
+					<unpublishedversionstooltip>Julkaisemattomat versiot {0}</unpublishedversionstooltip>
+					<oneunpublishedversionglobalizedtooltip>Kielen yksi julkaisematon versio: {0}</oneunpublishedversionglobalizedtooltip>
+					<unpublishedversionsglobalizedtooltip>Kielen julkaisemattomat versiot {0}: {1}</unpublishedversionsglobalizedtooltip>
+				</tabversionlist>
+				<tabformdata>			Lomaketiedot</tabformdata>
+				<viewstatus>			Tila</viewstatus>
+				<viewsaveddate>			Tallennettu</viewsaveddate>
+				<viewsavedby>			Tallentaja</viewsavedby>
+				<rejectprompt>			Kommentteja tekijälle</rejectprompt>
+				<selectversion>			Versio:</selectversion>
+				<notreadyitem>			--- Julkaisematon ---</notreadyitem>
+				<confirmdelete>			Haluatko varmasti poistaa tämän version?</confirmdelete>
+				<tooltipedit>			Muokkaa versiota</tooltipedit>
+				<tooltipeditnew>		Muokkaa uutta versiota (kopioi tämä versio)</tooltipeditnew>
+				<tooltipcheckin>Lähetä versio julkaistavaksi</tooltipcheckin>
+				<tooltipdelete>			Poista versio</tooltipdelete>
+				<tooltipapprove>		Julkaise tämä versio</tooltipapprove>
+				<tooltipreject>			Kommentoi tätä versiota</tooltipreject>
+				<tooltipsave>			Tallenna tämä versio</tooltipsave>
+				<creatingnewpage>		Luodaan uutta sivua</creatingnewpage>
+				<showversionlist>       Näytä versioluettelo</showversionlist>
+				<confirmnavigate>Olet tehnyt muutoksia tälle sivulle</confirmnavigate>
+				<tooltipcancel>Keskeytä sivun muokkaaminen</tooltipcancel>
+				<tabtranslate>
+					<displayname>		Käännä</displayname>
+					<description>		</description>
+				</tabtranslate>
+				<tabcomparelanguages>
+					<displayname>		Vertaa kieliä</displayname>
+					<description>		</description>
+				</tabcomparelanguages>
+				<tablanguagecommon>
+					<displayname>		Sama</displayname>
+					<description>		</description>
+				</tablanguagecommon>
+				<delayinfo>					Voit hallita tämän version aikaohjattua julkaisemista.</delayinfo>
+				<delaystartpublishinfo>		Valitse version julkaisemisaika.</delaystartpublishinfo>
+				<delaypublishinfo>			Voit aktivoida aikaohjauksen merkitsemällä valintaruudun.</delaypublishinfo>
+				<savedelaypublishbutton>	Tallenna</savedelaypublishbutton>
+				<unpublishedlanguage>		Kielen julkaisu lopetettu</unpublishedlanguage>
+				<compareto>Vertaa kohteeseen</compareto>
+				<translateto>Käännä seuraavalle kielelle:</translateto>
+				<tooltipsaveonly>Tallenna tämä versio</tooltipsaveonly>
+				<tooltipsave>Tallenna ja näytä tämä versio</tooltipsave>
+				<creatingnewpagelanguage>Luo sivun uudella kielellä</creatingnewpagelanguage>	
+			</editpanel>
+			<conflicteditor>
+				<heading>Ristiriidankäsittely</heading>
+				<info>Julkaistun version tietoja on muokattu tämän version luomisen jälkeen</info>
+				<tabmychanges>Omat muutokset</tabmychanges>
+				<tabpublishedchanges>Julkaistut muutokset</tabpublishedchanges>
+			</conflicteditor>
+			<edittree>
+				<nofavoritesfound>			Suosikkeja ei ole</nofavoritesfound>
+				<notasksfound>				Toimintoja ei ole</notasksfound>
+				<copypage>Kopioi {0} kohteeseen {1}</copypage>
+				<movepage>Siirrä {0} kohteeseen {1}</movepage>
+			</edittree>
+			<editxform>				
+				<heading>Muokkaa lomaketta</heading>
+				<confirmdelete>Haluatko varmasti poistaa kentän?</confirmdelete>
+				<selectform>Valitse lomake</selectform>
+				<fromdate>Alkamispäivämäärä</fromdate>
+				<todate>Päättymispäivämäärä</todate>
+				<allpages>Näytä kaikkien sivujen tiedot</allpages>
+				<createdby>Tekijä:</createdby>
+				<created>Luotu:</created>
+				<changedby>Muuttanut:</changedby>
+				<changed>Muutettu viimeksi:</changed>
+				<useformbutton>Käytä</useformbutton>
+				<editformbutton>Muokkaa</editformbutton>
+				<createformbutton>Luo uusi</createformbutton>
+				<existonpages>Ota huomioon että tätä lomaketta käyttää useampi sivu. Mahdolliset muutokset lomakkeessa vaikuttaa tästä syystä seuraavia sivuja:</existonpages>
+				<savewarninginfo>Tätä lomaketta käyttää useampi sivu.</savewarninginfo>
+				<savewarningquestion>Haluatko varmasti tallentaa muutokset?</savewarningquestion>
+				<noformbutton>Ei lomake</noformbutton>
+				<nameempty>Nimet on määritettävä kaikille kentille.</nameempty>
+				<nameexistsmorethanonce>Usealla kentällä on sama nimi: "{0}".</nameexistsmorethanonce>
+				<namenotallowedcharacters>Kentän nimi on virheellinen: "{0}". Nimessä saa olla vain aakkosnumeerisia merkkejä (a - z, A - Z, 1 - 9 ja "_", välilyönnit eivät ole sallittuja).</namenotallowedcharacters>
+				<invalid>Virheellinen lomake.</invalid>
+				<namerequired>Kentän nimi on määritettävä.</namerequired>
+				<nameinvalid>Kentän nimi on virheellinen. Nimen ensimmäisen merkin on oltava kirjain, ja nimessä saa olla vain aakkosnumeerisia merkkejä (a - z, A - Z, 1 - 9 ja "_", välilyönnit eivät ole sallittuja).</nameinvalid>
+				<saveas>Tallenna uusi lomake</saveas>
+				<datatypes>
+					<integer>
+						<caption>Kokonaisluku</caption> 
+						<errormessage>"{0}" ei ole sallittu kokonaisluku.</errormessage> 
+					</integer>
+					<positiveinteger>
+						<caption>Positiivinen kokonaisluku</caption> 
+						<errormessage>"{0}" ei ole sallittu positiivinen kokonaisluku.</errormessage> 
+					</positiveinteger>
+					<email>
+						<caption>Sähköpostiosoite</caption> 
+						<errormessage>"{0}" ei ole sallittu sähköpostiosoite.</errormessage> 
+					</email>
+					<isodate>
+						<caption>Päivämäärä (VVVV-KK-PP)</caption> 
+						<errormessage>"{0}" ei ole sallittu päivämäärä. Syötä päivämäärä muodossa "VVVV-KK-PP".</errormessage>
+					</isodate>
+					<date1>
+						<caption>Päivämäärä (PP/KK/VVVV)</caption> 
+						<errormessage>"{0}" ei ole sallittu päivämäärä. Syötä päivämäärä muodossa "PP/KK/VVVV".</errormessage>
+					</date1>
+					<date2>
+						<caption>Päivämäärä (KK/PP/VVVV)</caption> 
+						<errormessage>"{0}" ei ole sallittu päivämäärä. Syötä päivämäärä muodossa "KK/PP/VVVV";.</errormessage>
+					</date2>
+					<defaulttype>
+						<errormessage>Olet syöttänyt merkkejä, jotka eivät ole sallittuja (&quot;&lt;&quot; tai &quot;&gt;&quot;).</errormessage> 
+					</defaulttype>
+				</datatypes>
+				<formnameempty>Syötä lomakkeen nimi.</formnameempty>
+				<formdatamailsubject>Lomakkeen tiedot kohteesta "{0}" ({1})</formdatamailsubject>
+				<formusedonpages>Tätä lomaketta käytetään seuraavilla sivuilla:</formusedonpages>
+				<formnotused>Lomaketta ei käytetä millään sivulla.</formnotused>
+				<multiplevalueinvalid>Vaihtoehtojen arvo on virheellinen (merkki &apos; ei ole sallittu).</multiplevalueinvalid>
+				<forminformation>Lomakkeen tiedot</forminformation>
+				<folder>Kansio</folder>
+				<allforms>Kaikki lomakkeet</allforms>
+				<formfoldercaption>Lomakekansio</formfoldercaption>
+				<createnewformfoldertooltip>Luo uusi lomakekansio</createnewformfoldertooltip>
+				<renameformfoldertooltip>Nimeä valittu lomakekansio uudelleen</renameformfoldertooltip>
+				<deleteformfoldertooltip>Poista valittu lomakekansio</deleteformfoldertooltip>
+				<folderdialog>
+					<createnewformfolderheading>Luo uusi lomakekansio</createnewformfolderheading>
+					<renameformfolderheading>Nimeä lomakekansio uudelleen</renameformfolderheading>
+					<createnewformfoldertext>Uuden kansion nimi.</createnewformfoldertext>
+					<renameformfoldertext>Uuden kansion nimi:</renameformfoldertext>
+					<deletequestion>Haluatko varmasti poistaa valitun lomakekansion?</deletequestion>
+					<createnewformfoldersavewarning>Anna uudelle lomakekansiolle kelvollinen nimi (ilman merkkejä \ / " ' &lt; &gt;).</createnewformfoldersavewarning>
+					<renameformfoldersavewarning>Anna lomakekansiolle uusi kelvollinen nimi (ilman merkkejä \ / " ' &lt; &gt;).</renameformfoldersavewarning>
+				</folderdialog>
+				<nofolder>Ei kansiota</nofolder>
+			</editxform>			
+			<editxformdata>
+				<selectform>Valitse lomake</selectform>
+				<fromdate>Ensimmäinen päivämäärä</fromdate>
+				<todate>Viimeinen päivämäärä</todate>
+				<allpages>Näytä kaikkien sivujen tiedot</allpages>
+				<pagingsize>Samanaikaisesti näytettävien rivien määrä</pagingsize>
+			</editxformdata>	
+			<contentmirroringadmin>
+				<displayname>Peilattavien päivitysten hyväksyminen</displayname>
+				<description>Luettelo tässä järjestelmässä käytettävissä olevista määritetyistä kanavista.</description>
+				<itemdeleted>Poistettu</itemdeleted>
+				<itemupdated>Päivitetty</itemupdated>
+				<itemcreated>Luotu</itemcreated>
+				<itemmoved>Siirretty</itemmoved>
+			</contentmirroringadmin>
+			<logservice>
+				<timespananalyzer>
+					<selectinterval>Valitse aikaväli</selectinterval>
+					<min5interval>5 minuuttia</min5interval>
+					<hourinterval>Tunti</hourinterval> 
+					<dayinterval>Päivä</dayinterval>
+					<monthinterval>Kuukausi</monthinterval>
+					<yearinterval>Vuosi</yearinterval>
+					<total>Yhteensä</total>
+					
+					<statisticsdate>Päivämäärä</statisticsdate>
+					<statisticshits>Osumien määrä</statisticshits>
+					
+					<problemconnecting>Yhteyttä kirjauspalveluun ei voi muodostaa.</problemconnecting>
+					<nodatabase>Kirjauspalvelulle ei ole määritetty tietokantaa. Tallennettua historiaa ei näytetä.</nodatabase>
+				</timespananalyzer>
+				<realtimeanalyzer>
+					<referrerurl>URL</referrerurl>
+					<referrercount>Viittausten määrä</referrercount>
+					<noreferrer>Suora pääsy sivulle</noreferrer>
+				</realtimeanalyzer>
+			</logservice>
+			<timespanview>
+				<displayname>Tilasto</displayname>
+			</timespanview>
+			<filemanagerbrowser>
+				<selectimage>Valitse kuva</selectimage>
+				<selectfile>Valitse tiedosto</selectfile>
+				<selectfolder>Valitse kansio</selectfolder>
+				<imageselectionerrormessage>Valitse ensin kuva.</imageselectionerrormessage>
+				<fileselectionerrormessage>Valitse ensin tiedosto.</fileselectionerrormessage>
+				<directoryselectionerrormessage>Valitse ensin kansio.</directoryselectionerrormessage>
+			</filemanagerbrowser>
+			<editorguide>
+				<displayname>Käyttökelpoisuusopas (englanti)</displayname>
+				<description>Opas, jonka avulla voit luoda käyttökelpoista ja selkeää sisältöä Web-sivuja varten.</description>
+				<showsection>Näytä osa</showsection>
+				<hidesection>Piilota osa</hidesection>
+			</editorguide>	
+			<globalizationcontrol>
+				<heading>Sivun "{0}" kielet</heading>
+				<displayname>Sivun kielet</displayname>
+				<description>Katso nykyisen sivun eri kielten tilat ja siirry näihin kieliin.</description>
+				<published>Julkaistu</published>
+				<saved>Tallennettu</saved>
+			</globalizationcontrol>
+			<globalizationmatrix>
+				<heading>Sivun "{0}" kielen yleiskuvaus</heading>
+				<description></description>
+				<page>Sivu</page>
+				<languagestatuspublished>Sivu on julkaistu</languagestatuspublished>
+				<languagestatusnotpublished>Sivua ei ole vielä julkaistu</languagestatusnotpublished>
+				<goup>Ylös</goup>
+			</globalizationmatrix>
+			<languagesettings>
+				<heading>Sivun "{0}" kieliasetukset</heading>
+				<description></description>
+				<inheritsettings>Peri asetukset pääsivulta: "{0}"</inheritsettings>
+				<availablelanguagestitle>Käytettävissä olevat kielet</availablelanguagestitle>
+				<availablelanguagesdescriptionfirst>Sivuston tämän osan sivujen pitäisi olla saatavissa alla olevilla kielillä. Se tarkoittaa, että sivut voidaan luoda vain tämän kielisinä ja kääntää vain näille kielille.</availablelanguagesdescriptionfirst>
+				<availablelanguagesdescriptionsecond>Tämä vaikuttaa siihen, mitä kieliä editorit voivat käyttää sivuston tässä osassa.</availablelanguagesdescriptionsecond>
+				<replacementlanguagestitle>Korvaavat kielet</replacementlanguagestitle>
+				<replacementlanguagesdescriptionfirst>Sivuston tämän osan kielet on alla olevissa tapauksissa näytettävä jollakin muulla kuin kävijän valitsemalla kielellä. Tämä tarkoittaa, että sivut, jotka eivät ole saatavissa tämän kielisinä, voidaan esittää muun kielisinä.</replacementlanguagesdescriptionfirst>
+				<replacementlanguagesdescriptionsecond>Tätä asetusta voidaan käyttää esimerkiksi silloin, kun tietyn kielisten yleisten tietojen on oltava kaikkien kävijöiden ymmärrettävissä, olipa kieleksi valittu mikä kieli tahansa.</replacementlanguagesdescriptionsecond>
+				<fallbacklanguagestitle>Varakielet</fallbacklanguagestitle>
+				<fallbacklanguagesdescriptionfirst>Sivuston tämän osan sivut voidaan esittää jollakin muulla kuin kävijän valitsemalla kielellä. Tämä tarkoittaa, että sivut, joita ei vielä ole käännetty valitulle kielelle ja julkaistu sillä, voidaan tilapäisesti esittää jonkin muun kielisenä.</fallbacklanguagesdescriptionfirst>
+				<fallbacklanguagesdescriptionsecond>Huomaa, että tämän asetuksen seurauksena siirtymisissä ja listauksissa voi esiintyä eri kieliä, mistä voi aiheutua sekaannusta.</fallbacklanguagesdescriptionsecond>
+				<visitorlanguageheading>Kävijän kieli</visitorlanguageheading>
+				<replacementlanguageheading>Korvaava kieli</replacementlanguageheading>
+				<fallbacklanguageheading>Varakieli</fallbacklanguageheading>
+				<addwarning>Haluatko varmasti omat kieliasetukset tälle sivulle sen sijaan, että asetukset perittäisiin pääsivulta?</addwarning>
+				<deletewarning>Haluatko varmasti poistaa tämän sivun kieliasetukset ja periä asetukset pääsivulta?</deletewarning>
+			</languagesettings>
+			<deletepagelanguage>
+				<heading>			Poista sivun "{0}" kieli</heading>
+				<info>				Poista jokin sivun kielistä poistamatta koko sivua. Huomautus Kun poistat sivun kielen, se poistuu pysyvästi. Se ei siis siirry roskakoriin. Saman kielen alasivuja ei poisteta.</info>
+				<selectlanguage>	Poista kieli</selectlanguage>
+				<selectlanguageitem>Valitse poistettava kieli</selectlanguageitem>
+				<deletedlanguage>	Kieli "{0}" on poistettu tältä sivulta.</deletedlanguage>				
+				<nothingtodelete>	Tällä sivulla on vain yksi kieli. Käytä Poista-toimintoa, jos haluat poistaa sivun ja sen alasivut.</nothingtodelete>
+        <confirmdeletemessage>Jos jatkat, valittu kieli poistetaan pysyvästi sivun yhteydestä.</confirmdeletemessage>
+        <confirmdeletequestion>Haluatko varmasti poistaa tämän kielen?</confirmdeletequestion>
+        <alertlangnotselected>Kieli on valittava.</alertlangnotselected>
+			</deletepagelanguage>
+		</edit>
+		<editor>
+			<tools>
+				<font>
+					<toolheading>Merkki</toolheading>
+					<fontheading>Kirjasinleikkaus:</fontheading>
+					<styleheading>Tyyli:</styleheading>
+					<sizeheading>Koko:</sizeheading>
+					<effectheading>Tehosteet:</effectheading>
+					<underline>Alleviivaus</underline>
+					<colorheading>Väri:</colorheading>
+					<samlpeheading>Esimerkki</samlpeheading>
+					<styleregular>		Normaali</styleregular>
+					<styleitalic>		Kursivoitu</styleitalic>
+					<stylebold>			Lihava</stylebold>
+					<stylebolditalic>	Kursivoitu lihava</stylebolditalic>
+				</font>
+				<search>
+					<toolheading>Etsi</toolheading>
+					<findheading>Etsi:</findheading>
+					<matchwhole>Vain kokonaiset sanat</matchwhole>
+					<matchcase>Suuraakkosvastaavuus</matchcase>
+					<directionheading>Suunta</directionheading>
+					<directonup>Ylös</directonup>
+					<directiondown>Alas</directiondown>
+					<reachedend>		Haku on dokumentin lopussa. Haluatko että haku jatkaa alusta?</reachedend>
+					<finisheddocument>	Haku on valmis.</finisheddocument>
+				</search>
+				<insertanchor>
+					<toolheading>Lisää kirjanmerkki</toolheading>
+					<anchorname>Kirjanmerkin nimi:</anchorname>
+				</insertanchor>
+				<inserttable>
+					<toolheading>Lisää taulukko</toolheading>
+					<previewheading>Ennakkotarkistus</previewheading>
+					<rows>Rivit</rows>
+					<columns>Sarakkeet</columns>
+					<border>Reunus</border>
+					<width>Leveys</width>
+				</inserttable>
+				<spellcheck>
+					<toolheading>Oikeinkirjoitus</toolheading>
+					<notindictionary>Ei sanastossa:</notindictionary>
+					<suggestions>Ehdotus:</suggestions>
+					<cannotspellcheck>	Valittua tekstiä ei voi tarkistaa</cannotspellcheck>
+					<finishedselection>	Valittu teksti on tarkistettu.</finishedselection>
+					<finisheddocument>	Dokumentti on tarkistettu.</finisheddocument>
+					<initializing>		(Käynnistää oikeinkirjoituksen, ole hyvä ja odota...)</initializing>
+					<textnotfound>		ei löytynyt tekstistä.</textnotfound>
+					<nosuggestions>		(oikeinkirjoitusehdotuksia ei ole)</nosuggestions>
+				</spellcheck>
+				<tableproperties>
+					<toolheading>Taulukon ominaisuudet</toolheading>
+					<layoutheading>Asettelu</layoutheading>
+					<alignmentheading>Tasaus:</alignmentheading>
+					<alignmentdefault>Vakio</alignmentdefault>
+					<alignmentright>Oikea</alignmentright>
+					<alignmentcenter>Keskitä</alignmentcenter>
+					<alignmentleft>Vasen</alignmentleft>
+					<cellpadding>Solun täyttö:</cellpadding>
+					<cellspacing>Solujen etäisyys:</cellspacing>
+					<specifywidth>Anna leveys:</specifywidth>
+					<specifyheight>Anna korkeus:</specifyheight>
+					<pixels>Kuvapisteinä</pixels>
+					<percent>Prosentteina</percent>
+					<borderheading>Reunukset</borderheading>
+					<bordersize>Koko:</bordersize>
+					<bordercolor>Väri:</bordercolor>
+					<borderlight>Vaalea reunus:</borderlight>
+					<borderdark>Tumma reunus:</borderdark>
+					<backgroundheading>Tausta</backgroundheading>
+					<backgroundcolor>Väri:</backgroundcolor>
+					<usepicture>Käytä taustakuvaa</usepicture>
+					<sizeheading>Koko</sizeheading>
+					<descriptionheading>Kuvaus</descriptionheading>
+					<caption>Taulukon otsikko:</caption>
+					<summary>Tiivistelmä</summary>
+				</tableproperties>
+				<cellproperties>
+					<toolheading>Solun ominaisuudet</toolheading>
+					<layoutheading>Asettelu</layoutheading>
+					<halignmentheading>Vaakasuora tasaus:</halignmentheading>
+					<halignmentdefault>Vakio</halignmentdefault>
+					<halignmentright>Oikea</halignmentright>
+					<halignmentcenter>Keskitä</halignmentcenter>
+					<halignmentleft>Vasen</halignmentleft>
+					<valignmentheading>Pystysuora tasaus:</valignmentheading>
+					<valignmentdefault>Vakio</valignmentdefault>
+					<valignmentbaseline>Peruslinja</valignmentbaseline>
+					<valignmentbottom>Alas</valignmentbottom>
+					<valignmentmiddle>Keskelle</valignmentmiddle>
+					<valignmenttop>Ylös</valignmenttop>
+					<specifywidth>Anna leveys:</specifywidth>
+					<specifyheight>Anna korkeus:</specifyheight>
+					<pixels>Kuvapisteinä</pixels>
+					<percent>Prosentteina</percent>
+					<borderheading>Reunukset</borderheading>
+					<bordercolor>Väri:</bordercolor>
+					<borderlight>Vaalea reunus:</borderlight>
+					<borderdark>Tumma reunus:</borderdark>
+					<backgroundheading>Tausta</backgroundheading>
+					<backgroundcolor>Väri:</backgroundcolor>
+					<usepicture>Käytä taustakuvaa</usepicture>
+					<sizeheading>Koko</sizeheading>
+					<headersheading>Otsikot</headersheading>
+					<type>Solutyyppi:</type>
+					<scope>Alue:</scope>
+					<axis>Akseli:</axis>
+					<axiswindowtitle>Valitse akseli</axiswindowtitle>
+					<axiswindowtext>Valitse vähintään yksi alla näkyvistä akseleista tai luo uusi kirjoittamalla nimi syöttökenttään.</axiswindowtext>
+					<headers>Otsikot:</headers>
+					<headerswindowtitle>Valitse otsikot</headerswindowtitle>
+					<headerswindowtext>Valitse vähintään yksi alla näkyvistä otsikoista (tunnusarvot) tai kirjoita syöttökenttään myöhemmin käytettävä arvo.</headerswindowtext>
+					<id>Tunnus:</id>
+					<datacell>Tietosolu</datacell>
+					<headercell>Otsikkosolu</headercell>
+					<scopecol>Sarake</scopecol>
+					<scoperow>Rivi</scoperow>
+					<multiplevalues>Eri arvoja</multiplevalues>
+				</cellproperties>
+				<selectvalue>
+					<newvalue>Uusi arvo:</newvalue>
+				</selectvalue>
+				<imageproperties>
+					<toolheading>Kuvan ominaisuudet</toolheading>
+					<sizeheading>Näytön koko</sizeheading>
+					<specifywidth>Anna leveys:</specifywidth>
+					<specifyheight>Anna korkeus:</specifyheight>
+					<pixels>kuvapisteinä</pixels>
+					<percent>prosentteina</percent>
+					<lockproportions>Säilytä mittasuhteet</lockproportions>
+					<layoutheading>Asettelu ja kehykset</layoutheading>
+					<alignment>Tasaus:</alignment>
+					<alignmentleft>Vasen</alignmentleft>
+					<alignmentright>Oikea</alignmentright>
+					<alignmentbottom>Alas</alignmentbottom>
+					<alignmentmiddle>Keskelle</alignmentmiddle>
+					<alignmenttop>Ylös</alignmenttop>
+					<borderwidth>Kehyksen leveys:</borderwidth>
+					<hspace>Tila vaakasuunnassa:</hspace>
+					<vspace>Tila pystysuunnassa:</vspace>
+					<cssclass>CSS-luokka:</cssclass>
+					<informationheading>Tiedot</informationheading>
+					<filesize>Tiedoston koko:</filesize>
+					<filename>Tiedoston nimi:</filename>
+					<alttext>Vaihtoehtoinen teksti:</alttext>
+					<unitbytes>tavua</unitbytes>
+					<hyperlinkheading>Hyperlinkki</hyperlinkheading>
+					<hyperlinkaddress>Linkin osoite:</hyperlinkaddress>
+					<uselink>Liitä linkki kuvaan</uselink>
+					<invalidlink>Virheellinen linkki</invalidlink>
+					<edithyperlinkproperties>Muokkaa linkin ominaisuuksia</edithyperlinkproperties>
+					<imagefile>Kuvatiedosto:</imagefile>
+					<noimagevalidationmessage>Määritä kuva ennen tallentamista.</noimagevalidationmessage>
+					<nolinkinfovalidationmessage>Olet määrittänyt, että linkkiin yhdistyy kuva.</nolinkinfovalidationmessage>
+					<specifylinkinfomessage>Määritä linkin tiedot ennen tallentamista tai poista viittaus kuvaan.</specifylinkinfomessage>
+				</imageproperties>
+				<hyperlinkproperties>
+					<toolheading>Linkin ominaisuudet</toolheading>
+					<tabs>
+						<webpage>Web-sivu</webpage>
+						<document>Dokumentti</document>
+						<email>Sähköposti</email>
+					</tabs>
+					<informationheading see="/editor/tools/imageproperties/informationheading"/>
+					<clickabletext>Napsautettava teksti:</clickabletext>
+					<clickableimage>Napsautettava kuva:</clickableimage>
+					<linktitle see="/util/linkeditor/linktitlefieldcaption"/>
+					<targetframe see="/util/linkeditor/targetfieldcaption"/>
+					<linktargetheading>Linkin kohde</linktargetheading>
+					<internallink>Tässä Web-sivustossa oleva sivu</internallink>
+					<externallink see="/edit/linkgeneric/LinkGenericExternalCaption"/>
+					<anchorlink>Tällä sivulla oleva kirjanmerkki</anchorlink>
+					<page>Sivu:</page>
+					<language>Kieli:</language>
+					<automatically>Automaattisesti</automatically>
+					<address see="/util/linkeditor/urlfieldcaption"/>
+					<anchor>Kirjanmerkki:</anchor>
+					<internaldocumentlink>Tässä Web-sivustossa oleva dokumentti</internaldocumentlink>
+					<networkdocumentlink>Verkossa oleva dokumentti</networkdocumentlink>
+					<externaldocumentlink>Toisessa Web-sivustossa oleva dokumentti</externaldocumentlink>
+					<path>Polku:</path>
+					<emailaddress see="/util/linkeditor/mailfieldcaption"/>
+					<editimageproperties>Muokkaa kuvan ominaisuuksia</editimageproperties>
+					<pagenotfoundmessage>Sivua, johon tämä linkki osoittaa, ei enää ole.</pagenotfoundmessage>
+					<pageaccessdeniedmessage>Sinulla ei ole oikeutta avata sivua, johon tämä linkki osoittaa.</pageaccessdeniedmessage>
+					<selectnewpagemessage>Valitse uusi sivu ennen tallentamista tai valitse toisenlainen linkki.</selectnewpagemessage>
+					<documentnotfoundmessage>Dokumenttia, johon tämä linkki osoittaa, ei enää ole tai se on siirretty toiseen paikkaan.</documentnotfoundmessage>
+					<documentaccessdeniedmessage>Sinulla ei ole oikeutta avata dokumenttia, johon tämä linkki osoittaa.</documentaccessdeniedmessage>
+					<selectnewdocumentmessage>Valitse uusi dokumentti ennen tallentamista tai valitse toisenlainen linkki.</selectnewdocumentmessage>
+					<nourlvalidationmessage>Määritä linkin kohde ennen tallentamista.</nourlvalidationmessage>
+					<noimageinfovalidationmessage>Olet määrittänyt, että linkki on napsautettava kuva.</noimageinfovalidationmessage>
+					<specifyimagemessage>Määritä kuva ennen tallentamista tai vaihda linkki napsautettavaksi tekstiksi.</specifyimagemessage>					
+				</hyperlinkproperties>
+				<resizeimage>
+					<toolheading>Muuta kuvan kokoa</toolheading>
+					<sizeheading>Koko</sizeheading>
+					<qualityheading>Laatu</qualityheading>
+					<alternativesheading>Vaihtoehdot</alternativesheading>
+					<lockproportions see="/editor/tools/imageproperties/lockproportions"/>
+					<specifywidth see="/editor/tools/imageproperties/specifywidth"/>
+					<specifyheight see="/editor/tools/imageproperties/specifyheight"/>
+					<pixels>kuvapisteet</pixels>
+					<lockproportions see="/editor/tools/imageproperties/lockproportions"/>
+					<nosizevalidationmessage>Määritä haluamasi leveys ja korkeus ennen tallentamista.</nosizevalidationmessage>
+					<quality>Kuvan laatu</quality>
+					<qualitylevel>
+						<low>Alhainen</low>
+						<medium>Keskitaso</medium>
+						<high>Korkea</high>
+						<maximum>Paras mahdollinen</maximum>
+					</qualitylevel>
+					<qualityinfo>
+						<info>Tiedot:</info>
+						<low>Alhaisessa laadussa on huono terävyys verrattuna alkuperäiseen kuvaan, mutta tiedoston koko on hyvin pieni.</low>
+						<medium>Keskitason laadussa on keskitasoinen terävyys verrattuna alkuperäiseen kuvaan, ja tiedoston koko on melko pieni.</medium>
+						<high>Korkeassa laadussa terävyys on hyvä verrattuna alkuperäiseen kuvaan, ja tiedoston koko hieman pienempi.</high>
+						<maximum>Paras mahdollinen laatu säilyttää alkuperäisen kuvan terävyyden, ja tiedoston koko pysyy samana.</maximum>
+					</qualityinfo>
+					<saveoption>
+						<saveascopy>Tallenna muutettu kuva kopiona ja säilytä alkuperäinen kuva.</saveascopy>
+						<replaceoriginal>Korvaa alkuperäinen kuva muutetulla kuvalla (vain jpg-kuvat).</replaceoriginal>
+					</saveoption>
+					<imagemissingmessage>Määritä kuva ennen koon muuttamista.</imagemissingmessage>
+					<imagenotfoundmessage>Määritettyä kuvaa ei löydy.</imagenotfoundmessage>
+					<notauthorizedmessage>Oikeutesi eivät riitä tämän kansion kuvien muuttamiseen tai kuvien lisäämiseen tähän kansioon.</notauthorizedmessage>
+				</resizeimage>
+			</tools>
+		</editor>
+		<admin>
+			<admingroup>
+				<group>					Ryhmä</group>
+				<description see="/labels/description" />
+				<ldappath>				LDAP-palvelin</ldappath>
+				<heading>				Hallitse ryhmiä</heading>
+				<info>					Tässä voit poistaa tai lisätä ryhmiä, joita käytetään oikeuksien jakamiseen.</info>
+				<groupdeleted>			Ryhmä {0} on poistettu EPiServer-palvelimesta</groupdeleted>
+				<deleteprefix>			Poista ryhmä </deleteprefix>
+				<deletesuffix>	 		?</deletesuffix>
+				<groupexists>			Järjestelmässä on jo ryhmä, jonka nimi on {0}</groupexists>
+				<localgroup>			Windows-ryhmät</localgroup>
+				<syncbutton>			Synkronoi</syncbutton>
+				<syncldapbutton>		Tuo LDAP-palvelimesta</syncldapbutton>
+				<newgroupinfo>			Luo ryhmä joka käytetään EPiServerissä</newgroupinfo>
+				<syncinfo>				Päivitä Windows-ryhmät EPiServerin kanssa</syncinfo>
+				<ldapinfo>				Tuo ryhmätiedot LDAP-palvelimesta. Kirjoita hakulause tekstikenttään, esimerkiksi Käyttäjä* listaa kaikki ryhmät/OU:t jotka alkavat sanalla Käyttäjä.</ldapinfo>
+			</admingroup>
+			<permission>
+				<heading>Toimintojen käyttöoikeudet</heading>
+				<info>	Määritä käyttäjille/ryhmille käyttöoikeudet erikoistoiminnoille EPiServerissä.</info>
+				<editpermission>Käyttäjät/ryhmät joilla on käyttöoikeudet "{0}"</editpermission>
+				<sidsaved>		Uudet asetukset käyttöoikeuksille tallennettu</sidsaved>
+			</permission>
+			<backup>
+				<heading>			Varmuuskopioi</heading>
+				<abortedinfo>		Toimenpide on keskeytetty</abortedinfo>
+				<completedinfo>		Varmuuskopionti suoritettu.</completedinfo>
+				<devicequeryinfo>	HUOM! Vain sellaiset tietokannankäyttäjät, joille on annettu tehtäväksi &quot;levyn ylläpito&quot;, voivat suorittaa tämän toimenpiteen.</devicequeryinfo>
+				<info>				Varmuuskopioi tietokanta. Huomaa, että tämä toiminto luo ainoastaan varmuuskopion tietokannan
+									sisällöstä. Kiintolevylle jää vielä tietoja (alla näkyvä varmuuskopiolaite), ja ne on kopioitava
+									toiseen paikkaan muiden EPiServer-tiedostojen kanssa, jotta järjestelmä voidaan palauttaa
+									kiintolevyn kaatumisen tai muun vastaavan häiriön jälkeen.</info>
+			</backup>
+			<license>
+				<heading>Käyttöoikeustiedot</heading>
+				<info></info>
+				<tabinfo>Tiedot</tabinfo>
+				<tabinstallnew>Asenna uusi käyttöoikeus</tabinstallnew>
+				<licensenumber>Käyttöoikeusnumero</licensenumber>
+				<licensedto>Käyttöoikeus myönnetty henkilölle</licensedto>
+				<licensedcompany>Käyttöoikeus myönnetty yritykselle</licensedcompany>
+				<licensedescription>Käyttöoikeuden kuvaus</licensedescription>
+				<licenserestrictions>Rajoitukset</licenserestrictions>
+				<selectfile>Valitse uusi käyttöoikeustiedosto</selectfile>
+				<uploadlicense>Lataa ja tarkista käyttöoikeus</uploadlicense>
+				<newfileinstalled>Uusi käyttöoikeustiedosto on asennettu</newfileinstalled>
+				<licenseid>Lisenssin tunnus</licenseid>
+			</license>
+			<setup>
+				<heading>Asenna perussisältö</heading>
+				<info>EPiServer-palvelimen käytön aloittaminen edellyttää, että siihen lisätään perussisältöä ja valitaan jokin seuraavista vaihtoehdoista. Valitse lopuksi "Viimeistele asennus".</info>
+				<startpageexists>Aloitussivu on jo määritetty.</startpageexists>
+				<progress>Järjestelmää päivitetään. Odota hetki.</progress>
+				<selectlanguage>Valitse järjestelmän kieli</selectlanguage>
+				<selectcontent>Valitse sisältö</selectcontent>
+				<setupbutton>Viimeistele asennus</setupbutton>
+				<cancelmessage>Ole hyvä ja palaa myöhemmin tälle sivulle asennuksen viimeistelemiseksi.</cancelmessage>
+				<swedishsample>Ruotsinkieliset esimerkkimallit ja kaikki mallit on asennettu.</swedishsample>
+				<englishsample>Englanninkieliset esimerkkimallit ja kaikki mallit on asennettu.</englishsample>
+				<emptysample>Vain aloitussivu ilman sivutyyppejä tai sisältöä</emptysample>
+				<globalizationsample>Globalisoidut näytemallipohjat (englanti ja ruotsi), joissa on kaikki mallipohjat</globalizationsample>
+			</setup>
+			<importdata>
+				<displayname>Tuo tiedot</displayname>
+				<description/>
+				<heading>Tuo tiedot</heading>
+				<info>Tuo tiedot toisesta EPiServer-palvelimesta.</info>
+				<uploadfile>Lataa ja tarkista tiedosto</uploadfile>
+				<selectfile>Valitse ladattava vientitiedosto</selectfile>
+				<nofileuploaded>Mitään tiedostoa ei ladattu</nofileuploaded>
+				<beginimport>Aloita tuonti</beginimport>
+				<pagecount>Sivumäärä</pagecount>
+				<pagetypecount>Sivutyyppien määrä</pagetypecount>
+				<categorycount>Luokkien määrä</categorycount>
+				<framecount>Kehysten määrä</framecount>
+				<filecount>Tiedostojen määrä</filecount>
+				<dynamicpropertydefinitioncount>Dynaamisten ominaisuusmääritysten määrä</dynamicpropertydefinitioncount>
+				<tabdefinitioncount>Kehysten määrä</tabdefinitioncount>
+				<importcompleted>Tuonti on valmis</importcompleted>
+				<importsucceeded>Tuonti onnistui</importsucceeded>
+				<testsucceeded>Tuontitiedosto tarkistettiin. Virheilmoituksia tai varoituksia ei annettu.</testsucceeded>
+				<errorsoccured>Seuraavat virheet havaittiin</errorsoccured>
+				<warningsoccured>Seuraavat varoitukset annettiin</warningsoccured>
+				<show>Näytä</show>
+				<selectpageroot>Valitse sivujen kohde</selectpageroot>
+			</importdata>
+			<exportdata>
+				<displayname>Vie tiedot</displayname>
+				<description/>
+				<heading>Vie tiedot</heading>
+				<info>Vie tiedot EPiServer-palvelimesta toiseen EPiServer-palvelimeen.</info>
+				<exportbutton>Vie</exportbutton>
+				<testexportbutton>Tarkista virheloki</testexportbutton>
+				<exportpages>Vie sivut</exportpages>
+				<exportpagedependencies>Vie automaattisesti yhdistetyt sivutyypit</exportpagedependencies>
+				<exportpagetypes>Vie sivutyypit</exportpagetypes>
+				<exportframes>Vie kehykset</exportframes>
+				<exportdynamicpropertydefinitions>Vie dynaamiset ominaisuusmääritykset</exportdynamicpropertydefinitions>
+				<exporttabdefinitions>Vie välilehdet</exporttabdefinitions>
+				<exportcategories>Vie luokat</exportcategories>
+				<exportfiles>Vie tiedostot</exportfiles>
+				<exportsucceeded>Vienti suoritettiin. Virheilmoituksia tai varoituksia ei annettu.</exportsucceeded>
+				<errorsoccured>Seuraavat virheet havaittiin</errorsoccured>
+				<warningsoccured>Seuraavat varoitukset annettiin</warningsoccured>
+				<selectpage>Valitse rakenteen osa</selectpage>
+				<exportpagelanguages>Vie globalisoidut sivut</exportpagelanguages>
+				<exportpagefiles>Vie tiedostot, joihin sivut linkittyvät</exportpagefiles>
+			</exportdata>
+			<categories>
+				<deleteprefix>			Haluatko poistaa luokan </deleteprefix>
+				<deletesuffix>			?</deletesuffix>
+				<heading>			Muokkaa kohdetta {0}</heading>
+				<info>				Määritä luokat, joita WWW-sivustosi käyttää. Ne ovat käytettävissä muokkaustilassa kohdan &quot;Luokat&quot; alasivuilla.</info>
+				<tablename>			Nimi</tablename>
+				<tabledescription>		Kuvaus</tabledescription>
+				<tablevisible>			Näkyvä</tablevisible>
+				<tableselectable>		Valittavissa</tableselectable>
+				<helpgeneral>			Valitse luokka, jonka tietoja haluat muokata, napsauttamalla luokan nimeä</helpgeneral>
+				<helpadd>			Lisää luokka valittuun luokkaan. Huomaa, että sinun täytyy tallentaa muutokset, jotta ne otetaan käyttöön</helpadd>
+				<helpdelete>			Poista luokka. Huomaa, että jos luokka sisältää alaluokkia, ne siirtyvät yhtä tasoa ylemmäksi</helpdelete>
+				<moveup>			Siirrä ylöspäin</moveup>
+				<movedown>			Siirrä alaspäin</movedown>
+				<helpmoveup>Siirtää luokkaa luettelossa yhden askeleen ylöspäin.</helpmoveup>
+				<helpmovedown>Siirtää luokkaa luettelossa yhden askeleen alaspäin.</helpmovedown>
+				<delreferenceprefix>		Yhdellä tai useammalla sivulla on viittauksia luokkaan (</delreferenceprefix>
+				<delreferencesuffix>		), jota yrität poistaa</delreferencesuffix>
+				<delreferenceconfirm>		Haluatko silti poistaa tämän luokan?</delreferenceconfirm>
+			</categories>
+			<cleanupupload>
+				<heading>			Poista käyttämättömät tiedostot</heading>
+				<infodeleting>			Älä poista lataushakemistosta tiedostoja, joihin on viittauksia</infodeleting>
+				<nothing>			Poistettavaa ei ole</nothing>
+				<info>				Valitse OK, jos haluat poistaa käyttämättömät tiedostot lataushakemistosta.</info>
+				<notdeleted>			Ei voitu poistaa&amp;nbsp;</notdeleted>
+				<norefprefix>			Viittauksia kohteeseen &quot;</norefprefix>
+				<norefsuffix>			&quot; ei ole, mutta se on liian uusi poistettavaksi.</norefsuffix>
+			</cleanupupload>
+			<copypagetype>
+				<heading>			Kopioi sivutyyppi</heading>
+				<info>				Valitse kopioitava sivutyyppi</info>
+				<caption>			Kopioi</caption>
+			</copypagetype>
+			<editdynprop>
+				<heading>			Muokkaa dynaamisia ominaisuuksia</heading>
+				<info>				Dynaamiset ominaisuudet ovat käytettävissä valitusta sivutyypistä riippumatta.</info>
+			</editdynprop>
+			<editdynpropfield>
+				<heading>			Muokkaa dynaamista ominaisuutta</heading>
+				<headingnew>			Luo uusi dynaaminen ominaisuus</headingnew>
+				<info></info>
+				<tabinfo>			Tiedot</tabinfo>
+				<namecaption see="/admin/editpagetypefield/namecaption" />
+				<typecaption see="/admin/editpagetypefield/typecaption" />
+				<advancedcaption see="/admin/editpagetypefield/advancedcaption" />
+				<editcaption see="/admin/editpagetypefield/editcaption" />
+				<helptextcaption see="/admin/editpagetypefield/helpcaption" />
+				<longstringsettingscaption see="/admin/editpagetypefield/editorhelp" />
+			</editdynpropfield>
+			<editpagetype>
+				<addproperty>	Lisää ominaisuus</addproperty>
+			</editpagetype>
+			<editpagetypebase>
+				<tabinfo>					Tiedot</tabinfo>
+				<tabdefaultvalues>			Oletusarvot</tabdefaultvalues>
+				<tabtypetotype>				Käytettävissä olevat sivutyypit</tabtypetotype>
+				<delete>			Haluatko poistaa tämän sivutyypin?</delete>
+				<heading>			Muokkaa kohdetta {0}</heading>
+				<headingnew>		Luo uusi sivutyyppi</headingnew>
+				<info>				Tässä voit muokata sivutyypin perustietoja. Jos haluat muokata yksittäisiä ominaisuuksia, valitse ne vasemmalla olevasta valikosta. Valikossa voit myös vaihtaa ominaisuuksien järjestystä sekä lisätä ja poistaa ominaisuuksia</info>
+				<namecaption>		Nimi</namecaption>
+				<descriptioncaption>Kuvaus</descriptioncaption>
+				<filenamecaption>		Tiedoston nimi</filenamecaption>
+				<editpagecaption>	Mukautettu muokkaussivu</editpagecaption>
+				<availablecaption>	Käytettävissä muokkaustilassa</availablecaption>
+				<workfloweditfieldscaption>	Näytä aina kenttään liittyvä työvirta</workfloweditfieldscaption>
+				<sortordercaption>	Lajitteluhakemisto</sortordercaption>
+				<headingsaved>		Sivutyyppi on tallennettu</headingsaved>
+				<headingdeleted>	Sivutyyppi on poistettu</headingdeleted>
+				<headingdeletefailed>		Sivutyyppiä ei voitu poistaa - tämän tyyppisiä sivuja on olemassa</headingdeletefailed>
+				<usecustomdefaultcaption>	Käytä mukautettuja oletusarvoja</usecustomdefaultcaption>
+				<usecustomdefaulthelp>		Käytä mukautettuja oletusarvoja, jos et halua, että järjestelmä valitsee ne automaattisesti</usecustomdefaulthelp>
+				<defaultstartpublishcaption>Julkaisun aloituspäivämäärä sivun luontiajankohdan mukaan</defaultstartpublishcaption>
+				<defaultstartpublishhelp>	Määritä julkaisupäivämäärä sivun luontipäivämäärän mukaan</defaultstartpublishhelp>
+				<defaultstoppublishcaption>	Julkaisun lopetuspäivämäärä sivun luontiajankohdan mukaan</defaultstoppublishcaption>
+				<defaultstoppublishhelp>	Määritä julkaisupäivämäärä sivun luontipäivämäärän mukaan</defaultstoppublishhelp>
+				<typetotype>		Valitse, mitä sivutyyppejä tämän sivutyypin alaisuudessa saa luoda</typetotype>
+				<alltypeavailable>	Kaikki sivutyypit käytettävissä</alltypeavailable>
+				<defaultidcaption see="#usecustomdefaultcaption" />
+				<defaultidhelp see="#usecustomdefaulthelp" />
+				<defaultnamecaption see="/pagetypes/common/property[@name='PageName']/caption" />
+				<defaultnamehelp see="/pagetypes/common/property[@name='PageName']/help" />
+				<visibleinmenucaption see="/pagetypes/common/property[@name='PageVisibleInMenu']/caption" />
+				<visibleinmenuhelp see="/pagetypes/common/property[@name='PageVisibleInMenu']/help" />
+				<peerordercaption see="/pagetypes/common/property[@name='PagePeerOrder']/caption" />
+				<peerorderhelp see="/pagetypes/common/property[@name='PagePeerOrder']/help" />
+				<childorderrulecaption see="/pagetypes/common/property[@name='PageChildOrderRule']/caption" />
+				<childorderrulehelp see="/pagetypes/common/property[@name='PageChildOrderRule']/help" />
+				<frameidcaption see="/pagetypes/common/property[@name='PageFrameID']/caption" />
+				<frameidhelp see="/pagetypes/common/property[@name='PageFrameID']/help" />
+				<archivepagelinkcaption see="/pagetypes/common/property[@name='PageArchiveLink']/caption" />
+				<archivepagelinkhelp see="/pagetypes/common/property[@name='PageArchiveLink']/help" />
+			</editpagetypebase>
+			<editlanguage>
+				<heading>			Kielikoodaus</heading>
+				<info>				&lt;b&gt;VAROITUS!&lt;/b&gt; Jos teet sivulle vääränlaisia muutoksia, seurauksena voi olla, että WWW-sivustosi 				lakkaa toimimasta.</info>
+				<languageidcaption>		Kielikoodi</languageidcaption>
+				<languagenamecaption>		Paikallinen kielen nimi</languagenamecaption>
+				<languagenameencaption>		Englanninkielinen kielen nimi</languagenameencaption>
+				<charsetcaption>		Merkistö</charsetcaption>
+				<fontcharsetcaption>		Editorin fontti</fontcharsetcaption>
+				<localecaption>			Päivämäärän/kellonajan esitys</localecaption>
+				<mailcodepagecaption>		Sähköpostin merkistö</mailcodepagecaption>
+				<setsystemdefaultcaption>	Aseta järjestelmän vakiokoodaukseksi</setsystemdefaultcaption>
+				<currentsystemdefaultcaption>	Järjestelmän tämänhetkinen vakiokoodaus</currentsystemdefaultcaption>
+			</editlanguage>
+			<editpagetypedel>
+				<heading>	Poista ominaisuus</heading>
+				<deleted>	Ominaisuus on poistettu</deleted>
+				<inuse>		Ominaisuutta käytetään seuraavilla sivuilla</inuse>
+				<confirm>	Haluatko silti poistaa ominaisuuden?</confirm>
+			</editpagetypedel>
+			<editpagetypefield>
+				<heading>			Muokkaa ominaisuutta</heading>
+				<headingnew>			Luo uusi ominaisuus</headingnew>
+				<info />
+				<tabinfo>			Tiedot</tabinfo>
+				<saved>				Ominaisuus on tallennettu</saved>
+				<namecaption>			Nimi</namecaption>
+				<editcaption>			Muokkausotsikko</editcaption>
+				<helpcaption>			Ohjeteksti</helpcaption>
+				<typecaption>			Tyyppi</typecaption>
+				<typeboolean>			Valittu/ei valittu</typeboolean>
+				<typenumber>			Kokonaisluku</typenumber>
+				<typefloatnumber>		Liukuluku</typefloatnumber>
+				<typepagetype>			Sivutyyppi</typepagetype>
+				<typepagelink>			Sivu</typepagelink>
+				<typedate>				Kellonaika/päivämäärä</typedate>
+				<typestring>			Merkkijono (&lt;= 255)</typestring>
+				<typelongstring>		Pitkä merkkijono (&gt;255)</typelongstring>
+				<typexhtmlstring>		Xhtml-merkkijono (&gt;255)</typexhtmlstring>				
+				<typecategory>			Luokan valinta</typecategory>
+				<typeform>				Lomake</typeform>
+				<typeurl>Sivun ulkoinen tai URL-osoite</typeurl>
+				<typedocumenturl>Asiakirjan URL-osoite</typedocumenturl>
+				<typeimageurl>Kuvan URL-osoite</typeimageurl>
+				<typeweekday>Viikonpäivä</typeweekday>
+				<typeframe>Kehys</typeframe>
+				<typefilesortorder>Tiedostojen lajittelujärjestys</typefilesortorder>
+				<typepagereference>Sivu</typepagereference>
+				<typelanguage>Kieli</typelanguage>
+				<typepassword>Salasana</typepassword>
+				<typesortorder>Sivujen lajittelujärjestys</typesortorder>
+				<typeselector>Sivun ominaisuus</typeselector>
+				<typesid>Käyttäjä</typesid>
+				<advancedcaption>		Sijoita otsikon alle</advancedcaption>
+				<objectcaption>			Erikoismuokkaus objektin kautta</objectcaption>
+				<searchablecaption>		Etsittävä ominaisuus</searchablecaption>
+				<requiredcaption>		Arvo määritettävä</requiredcaption>
+				<useeditorcaption>		Käytä Editoria</useeditorcaption>
+				<nodefaultcaption>		Ei oletusarvoa</nodefaultcaption>
+				<inheritcaption>		Perii arvon</inheritcaption>
+				<defaultcaption>		Oletusarvo</defaultcaption>
+				<editorboldcaption>		Lihavointi</editorboldcaption>
+				<editoritaliccaption>		Kursivointi</editoritaliccaption>
+				<editorunderlinecaption>	Alleviivaus</editorunderlinecaption>
+				<editorbulletscaption>		Merkkiluettelo</editorbulletscaption>
+				<editornumbercaption>		Numerointi</editornumbercaption>
+				<editorleftcaption>		Tasaa vasemmalle</editorleftcaption>
+				<editorcentercaption>		Keskitä</editorcentercaption>
+				<editorrightcaption>		Tasaa oikealle</editorrightcaption>
+				<editorfontcaption>		Fontti</editorfontcaption>
+				<editorrefreshcaption>		Päivitä</editorrefreshcaption>
+				<editortogglehtmlcaption>	Näytä/piilota HTML-koodi</editortogglehtmlcaption>
+				<editorinsertanchorcaption>	Lisää kirjanmerkki</editorinsertanchorcaption>
+				<editorinsertimagecaption>	Lisää kuva tiedostosta</editorinsertimagecaption>
+				<editorinsertdoccaption>	Lisää asiakirja</editorinsertdoccaption>
+				<editorinserturlcaption>	Lisää hyperlinkki</editorinserturlcaption>
+				<editorinserttablecaption>	Lisää taulukko</editorinserttablecaption>
+				<editorundocaption>		Kumoa</editorundocaption>
+				<editorredocaption>		Tee uudelleen</editorredocaption>
+				<editorfindcaption>		Etsi</editorfindcaption>
+				<editorhelp>			Editorin ominaisuudet - poista kaikki valintamerkit, jos haluat käyttää tekstialuetta Editorin asemesta</editorhelp>
+				<editorcutcaption>				Leikkaa</editorcutcaption>
+				<editorcopycaption>				Kopioi</editorcopycaption>
+				<editorpastecaption>			Liitä</editorpastecaption>
+				<editorpasteunformattedcaption>	Liitä muotoilemattomana</editorpasteunformattedcaption>
+				<editorremoveformattingcaption>	Poista muotoilu</editorremoveformattingcaption>
+				<editortablesubmenucaption>		Taulukko</editortablesubmenucaption>
+				<editorformatparagraphcaption>	Muotoile kappale</editorformatparagraphcaption>
+				<editortablepropertiescaption>	Taulukon ominaisuudet...</editortablepropertiescaption>
+				<editorcellpropertiescaption>	Solun ominaisuudet...</editorcellpropertiescaption>
+				<editoraboutcaption>			Tietoja...</editoraboutcaption>
+				<editorspellcheckcaption>		Oikeinkirjoituksen tarkistus</editorspellcheckcaption>
+				<editorspellcheckmenucaption>	Oikeinkirjoituksen tarkistus...</editorspellcheckmenucaption>
+				<editorfontmenucaption>			Merkki...</editorfontmenucaption>
+				<editorinsertanchormenucaption>	Kirjanmerkki...</editorinsertanchormenucaption>
+				<editorinsertimagemenucaption>	Kuva...</editorinsertimagemenucaption>
+				<editorinsertdocmenucaption>	Asiakirja...</editorinsertdocmenucaption>
+				<editorinserturlmenucaption>	Hyperlinkki...</editorinserturlmenucaption>
+				<editorinserttablemenucaption>	Taulukko...</editorinserttablemenucaption>
+				<editorfindmenucaption>			Etsi tekstiä...</editorfindmenucaption>
+				<editortogglehtmlmenucaption>	Näytä lähde</editortogglehtmlmenucaption>
+				<editortableinsertcolbeforecaption>	Lisää sarake ennen</editortableinsertcolbeforecaption>
+				<editortableinsertcolaftercaption>	Lisää sarake jälkeen</editortableinsertcolaftercaption>
+				<editortableinsertrowbeforecaption>	Lisää rivi ennen</editortableinsertrowbeforecaption>
+				<editortableinsertrowaftercaption>	Lisää rivi jälkeen</editortableinsertrowaftercaption>
+				<editortabledeletecolscaption>		Poista sarakkeita</editortabledeletecolscaption>
+				<editortabledeleterowscaption>		Poista rivejä</editortabledeleterowscaption>
+				<editortabledeletetablecaption>		Poista taulukko</editortabledeletetablecaption>
+				<editortablemergecellscaption>		Yhdistä soluja</editortablemergecellscaption>
+				<editortablesplithorizontalcaption>	Jaa solu vaakasuunnassa</editortablesplithorizontalcaption>
+				<editortablesplitverticalcaption>	Jaa solu pystysuunnassa</editortablesplitverticalcaption>
+				<editorinsertsubmenucaption>	Lisää</editorinsertsubmenucaption>
+				<editorloading>	Ladataan editoria...</editorloading>
+				<reservedproperty>{0} on varattu ohjelman sisäisten toimintojen nimeksi</reservedproperty>
+				<inuseproperty>Nimi {0} on jo käytössä.</inuseproperty>
+				<editorimagepropertiescaption>Kuvan ominaisuudet...</editorimagepropertiescaption>
+				<editorinserthrcaption>Vaakaviiva</editorinserthrcaption>
+				<editorselectsubmenucaption>Merkitse</editorselectsubmenucaption>
+				<editorselecttablecaption>Taulukko</editorselecttablecaption>
+				<editorselecttablecellcaption>Solu</editorselecttablecellcaption>
+				<editorselecttablerowcaption>Rivi</editorselecttablerowcaption>
+				<editorselecttablecolumncaption>Sarake</editorselecttablecolumncaption>
+				<editorselectallcaption>Kaikki</editorselectallcaption>
+				<editorselectsectioncaption>Kappale</editorselectsectioncaption>
+				<editorselectexpandcaption>Laajenna</editorselectexpandcaption>
+				<editorselectcontractcaption>Kutista</editorselectcontractcaption>
+				<editorselectpreviouscaption>Edellinen</editorselectpreviouscaption>
+				<editorselectnextcaption>Seuraava</editorselectnextcaption>
+				<editormaximizercaption>Suurenna tai palauta muokkausohjelma</editormaximizercaption>					
+				<editorcellsubmenucaption>Solu</editorcellsubmenucaption>
+				<typexform>XForms-lomake</typexform>	
+				<editorhyperlinkpropertiescaption>Linkin ominaisuudet...</editorhyperlinkpropertiescaption>
+				<languagespecificcaption>Yksilöivä arvo kieltä kohti</languagespecificcaption>
+				<typeuilanguage>Järjestelmän kieli</typeuilanguage>
+				<typelanguagebranch>Sivun kieli (yksi vaihtoehto)</typelanguagebranch>
+				<typelanguagebranchlist>Sivun kieli (useita vaihtoehtoja)</typelanguagebranchlist>
+			</editpagetypefield>
+			<frames>
+				<deleteprefix>			Haluatko poistaa kehyksen </deleteprefix>
+				<deletesuffix>		 	?</deletesuffix>
+				<heading>			Muokkaa kehystä</heading>
+				<info>				Määritä kehykset, joita WWW-sivustosi käyttää. Ne tulevat olemaan käytettävissä "Kohdekehys"-vaihtoehtoina erityyppisissä linkityksissä.</info>
+				<tablename>			Kehyksen nimi</tablename>
+				<tabledescription>		Kuvaus</tabledescription>
+			</frames>
+			<headings>
+				<deleteprefix>			Haluatko poistaa välilehden </deleteprefix>
+				<deletesuffix>			?</deletesuffix>
+				<heading>			Muokkaa välilehtiä</heading>
+				<info>				Määritä muokkaustilassa käytettävissä olevat välilehdet. Kun luot ominaisuuden tai muokkaat ominaisuutta, voit valita, missä välilehdessä ominaisuus näytetään.</info>
+				<tablename>			Välilehti</tablename>
+				<tablevisible>			Näkyvä</tablevisible>
+				<tablesortindex>		Lajitteluindeksi</tablesortindex>
+				<tableaccesslevel>		Edellyttää valvojan oikeuksia</tableaccesslevel>
+			</headings>
+			<loglevel>
+				<heading>			Kirjaustaso</heading>
+				<saved>				Muutokset tallennettu</saved>
+				<caption>			Valitse uusi kirjaustaso</caption>
+				<typeread>			Lue sivu</typeread>
+				<typecreate>			Luo sivu</typecreate>
+				<typechange>			Muuta sivua</typechange>
+				<typesecurity>			Muuta oikeuksia</typesecurity>
+			</loglevel>
+			<workflowdefinition>
+				<heading>			Työvirta</heading>
+				<namecaption>			Nimi</namecaption>
+			</workflowdefinition>
+			<workflowdefinitionedit>
+				<heading>			Muokkaa työvirtaa</heading>
+				<workflowdefname>		Nimi</workflowdefname>
+				<workflowdefowner>		Omistaja</workflowdefowner>
+				<newtask>			Uusi tehtävä</newtask>
+				<taskstate>			Huomautus</taskstate>
+				<taskheading>			Nimi</taskheading>
+				<taskdescription>		Kuvaus</taskdescription>
+				<tasktype>			Tyyppi</tasktype>
+				<taskpagetype>			Sivun tyyppi</taskpagetype>
+				<taskcontainer>			Sijainti puussa</taskcontainer>
+				<taskurl>			Oma URL</taskurl>
+				<taskowner>			Omistaja</taskowner>
+				<taskmailnotification>		Lähetä ilmoitus omistajalle sähköpostitse</taskmailnotification>
+				<taskondone>			Toimenpide, jos tehtävä on suoritettu</taskondone>
+				<taskonfail>			Toimenpide, jos tehtävä hylätään</taskonfail>
+				<taskontimeout>			Toimenpide, jos eräpäivä kuluu umpeen</taskontimeout>
+				<tasktimeout>			Aikaa eräpäivään</tasktimeout>
+				<taskeditfields>		Tämän työvirran viimeksi luodulta sivulta näytettävä kenttä</taskeditfields>
+				<taskinheritededitfieldicon>	Polku kuvaan, joka näytetään viimeksi luodulta sivulta peräisin olevan kentän yhteydessä </taskinheritededitfieldicon>
+				<taskcurrenteditfieldicon>	Polku kuvaan, joka näytetään kentän yhteydessä tällä sivulla</taskcurrenteditfieldicon>
+				<buttonpagelist>		Näytä yhdistetyt sivut</buttonpagelist>
+			</workflowdefinitionedit>
+			<workflowpropertybrowser>
+				<heading>			Valitse viimeksi luodulta sivulta näytettävä kenttä</heading>
+				<metacaption>			Oletuskenttä</metacaption>
+				<propertycaption>		Kenttä</propertycaption>
+			</workflowpropertybrowser>
+			<menu>
+				<delpropertyprefix>			Poista ominaisuus</delpropertyprefix>
+				<delpropertysuffix>			" ?</delpropertysuffix>
+				<tooltipedit>				Muokkaustila</tooltipedit>
+				<tooltipview>				Näyttötila</tooltipview>
+				<tooltiphelp>				Ohje</tooltiphelp>
+				<systemadministration>		Järjestelmänvalvonta</systemadministration>
+				<settings>					Järjestelmäasetukset</settings>
+				<editheadings>				Muokkaa välilehtiä</editheadings>
+				<editframes>				Muokkaa kehyksiä</editframes>
+				<editcategories>			Muokkaa luokkia</editcategories>
+				<editfiletypes>				Muokkaa tiedostotyyppejä</editfiletypes>
+				<cleanupupload see="/admin/cleanupupload/heading" />
+				<clearcache>				Tyhjennä välimuisti</clearcache>
+				<rebuildlinks>Muodosta Web-osoite uudelleen</rebuildlinks>
+				<robotsearch>Web-osoitteiden hallinta</robotsearch>
+				<changeskin>				Muuta ulkoasua</changeskin>
+				<language>					Kieli</language>
+				<editlanguage>				Kielikoodi</editlanguage>
+				<productupdate>				Tuotepäivitykset</productupdate>
+				<databasemaintenance>		Tietokannan ylläpito</databasemaintenance>
+				<backup>					Varmuuskopio</backup>
+				<archive>					Arkistointitoiminto</archive>
+				<wastebasket>				Roskakorin tyhjentäminen</wastebasket>
+				<workflowdefinition>		Työnkulku</workflowdefinition>
+				<workflowdefinitionnew>		Luo uusi työnkulku</workflowdefinitionnew>
+				<workflowdefinitionedit>	Muokkaa työnkulkua</workflowdefinitionedit>
+				<security>					Käyttöoikeudet</security>
+				<setsecurity>				Määritä käyttöoikeudet</setsecurity>
+				<admingroups>				Hallitse ryhmiä</admingroups>
+				<defaultgroup>				Määritä rekisteröinnin vakioryhmä</defaultgroup>
+				<searchuser>				Etsi käyttäjiä tai ryhmiä</searchuser>
+				<createuser>				Luo käyttäjiä</createuser>
+				<createlocalgroup>			Luo ryhmä</createlocalgroup>
+				<logging>					Sisäänkirjautuminen</logging>
+				<systemmessages>			Näytä järjestelmäsanomat</systemmessages>
+				<setloglevel>				Määritä lokitaso</setloglevel>
+				<clearlog>					Tyhjennä lokitiedot</clearlog>
+				<pagetype>					Sivutyypit</pagetype>
+				<newpagetype>				Luo uusi sivutyyppi</newpagetype>
+				<copypagetype>				Kopioi sivutyyppi</copypagetype>
+				<datatypes>					Muokkaa ominaisuustyyppejä</datatypes>
+				<editdynamicproperty>		Dynaamiset ominaisuudet</editdynamicproperty>
+				<editremotesite>			Ulkoiset sivustot</editremotesite>
+				<plugins>					Työkalut</plugins>
+				<setpermission>Säädä toimintojen käyttöoikeudet</setpermission>
+				<license>Käyttöoikeustiedot</license>
+				<scheduledjobs>Ajoitetut työt</scheduledjobs>
+				<editlanguages>Muokaa kielikoodeja</editlanguages>
+				<editlanguagebranches>Käytä sivuston kieliä</editlanguagebranches>
+			</menu>
+			<pagedefinitiontype>
+				<heading>			Muokkaa ominaisuustyyppejä</heading>
+				<info>				Täällä voit määrittää EPiServer-palvelimessa käytettävät uudet ominaisuutyypit.</info>
+			</pagedefinitiontype>
+			<pagedefinitiontypeedit>
+				<property name="property">
+					<caption>		Perustyyppi</caption>
+				</property>
+				<namecaption>			Nimi</namecaption>
+				<namehelp>				Määritä perustyypin nimi</namehelp>
+				<typenamecaption>		Luokkanimi</typenamecaption>
+				<typenamehelp>			Luokkanimi ja namespace (esim. EPiServer.SpecializedProperties.PropertyPassword)</typenamehelp>
+				<assemblynamecaption>	Assembly-nimi</assemblynamecaption>
+				<assemblynamehelp>		Assembly-nimi johon luokka on sisällytetty (esim EPiServerSample)</assemblynamehelp>
+				<heading>			Muokkaa tietotyyppiä</heading>
+				<headingnew>		Luo uusi tietotyyppi</headingnew>
+				<info></info>
+				<tabinfo>			Määritelmä</tabinfo>
+				<typeinuse>Tätä tyyppiä ei voi poistaa, sillä sitä käytetään seuraavissa ominaisuuksissa:</typeinuse>
+			</pagedefinitiontypeedit>
+			<rebuildlinks>
+				<heading>Muodosta Web-osoite uudelleen</heading>
+				<rebuilddone>Sisäiset Web-osoitteet on muodostettu uudelleen.</rebuilddone>
+				<info>Web-osoitteet on muodostettava uudelleen, jos juurikansiota (järjestelmäasetusten alla) on muutettu. Jos sitä ei tehdä, kaikki sisäiset linkit osoittavat väärään paikkaan.</info>
+				<normalrebuild>Päivitä kaikkien sivujen Web-osoitteet</normalrebuild>
+				<newdirectoryrebuild>		Kirjoita korvattavan päähakemiston aiempi arvo</newdirectoryrebuild>
+				<currentroot>			Nykyinen arvo on {0}</currentroot>
+			</rebuildlinks>
+			<changeskin>
+				<heading>			Vaihda ulkonäköä</heading>
+				<skinsaved>			Uusi ulkonäky on toiminnassa</skinsaved>
+			</changeskin>
+			<savecategories>
+				<heading>			Luokat</heading>
+				<infosaved>			Uudet tiedot on tallennettu</infosaved>
+				<infochanged>			Tiedot on muutettu</infochanged>
+			</savecategories>
+			<saveframes>
+				<heading>			Kehykset</heading>
+				<infosaved>			Uudet tiedot on tallennettu</infosaved>
+				<referencedframeprefix>		Viittaukset kohteeseen&amp;nbsp;</referencedframeprefix>
+				<referencedframesuffix></referencedframesuffix>
+				<reflinkpageprefix>		Sivu&amp;nbsp;</reflinkpageprefix>
+				<reflinkframeprefix>		&amp;nbsp;avataan kehyksessä &quot;</reflinkframeprefix>
+				<reflinkframesuffix>		&quot;</reflinkframesuffix>
+				<referencedframehelp>		Jos haluat edelleen poistaa tämän kehyksen, valitse, mihin kehykseen yllä olevat sivut sen asemesta viittaavat.</referencedframehelp>
+				<noframe>			-- Ei kehyksiä --</noframe>
+			</saveframes>
+			<saveheadings>
+				<heading>			Välilehdet</heading>
+				<infosaved>			Uudet tiedot on tallennettu</infosaved>
+				<referencedheadingmessage>	Viittaukset kohteeseen "{0}"</referencedheadingmessage>
+				<reflinkprop>		Ominaisuus &quot;{0}&quot; sijoitetaan välilehteen &quot;{1}&quot;</reflinkprop>
+				<referencedheadinghelp>		Jos haluat edelleen poistaa tämän välilehden, valitse, mihin välilehteen yllä olevat ominaisuudet sen asemesta sijoitetaan.</referencedheadinghelp>
+			</saveheadings>
+			<registrationsettings>
+				<saved see="/admin/settings/saved" />
+				<heading>			Ekstranetin käyttäjien rekisteröintiasetukset</heading>
+				<info>				Täällä voit määrittää rekisteröintisäännöt ja päättää, onko käyttäjillä oikeus rekisteröityä itse.</info>
+				<allowselfregistration>		Salli itsenäinen rekisteröityminen</allowselfregistration>
+				<setdefaultgroup>		Automaattisen rekisteröinnin vakioryhmä</setdefaultgroup>
+				<activateusers>			Aktivoi käyttäjät automaattisesti rekisteröidyttäessä</activateusers>
+				<emailfromaddress>		Lähtevän sähköpostin lähettäjän osoite</emailfromaddress>
+				<emailtoaddress>		Uudelleenrekisteröitymisiä käsittelevä sähköpostiosoite</emailtoaddress>
+				<confirmationsubject>		Rekisteröinnin yhteydessä lähetettävän viestin aihe</confirmationsubject>
+				<confirmationbody>		Rekisteröinnin yhteydessä lähetettävän viestin teksti</confirmationbody>
+				<activationsubject>		Aktivoinnin yhteydessä lähetettävän viestin aihe</activationsubject>
+				<activationbody>		Aktivoinnin yhteydessä lähetettävän viestin teksti</activationbody>
+				<requiredpasswordlength>Salasanan vähimmäispituus.</requiredpasswordlength>
+				<maxfailedattempts>		Enimmäismäärä epäonnistuneitä kirjautumisyrityksiä ennen kuin käyttäjä lukitaan.</maxfailedattempts>
+				<disablemaxattempts>	Poista salansanan vahvistus.</disablemaxattempts>
+				<passwordrequirealpha>	Vaadi kirjaimia salasanassa.</passwordrequirealpha>
+				<passwordrequirenumber>	Vaadi numeroita salasanassa.</passwordrequirenumber>
+				<passwordrequiresymbol>	Vaadi symboleja salasanassa.</passwordrequiresymbol>
+			</registrationsettings>
+			<secedit>
+				<info />
+				<newgroupheading>		Uusi ryhmä</newgroupheading>
+				<newuserheading>		Uusi käyttäjä</newuserheading>
+				<editgroupheading>		Muokkaa ryhmää</editgroupheading>
+				<edituserheading>		Muokkaa käyttäjää</edituserheading>
+				<listmemberof>			Jäsenenä ryhmässä</listmemberof>
+				<listnotmemberof>		Ei jäsenenä ryhmässä</listnotmemberof>
+				<listcontains>			Sisältää</listcontains>
+				<listnotcontains>		Ei sisällä</listnotcontains>
+				<editname>			Käyttäjänimi</editname>
+				<editpassword>			Salasana</editpassword>
+				<editconfirmpassword>		Vahvista salasana</editconfirmpassword>
+				<editadspath> 			ActiveDirectory name</editadspath>
+				<editdescription>		Kuvaus</editdescription>
+				<editvalidto>			Voimassa</editvalidto>
+				<editactive>			Aktivoitu</editactive>
+				<editemail>			Sähköpostiosoite</editemail>
+				<editcompany>			Yritys</editcompany>
+				<editaddress>			Osoite</editaddress>
+				<editpostalnumber>		Postinumero</editpostalnumber>
+				<editpostaladdress>		Postitoimipaikka</editpostaladdress>
+				<edittelephone>			Puhelinnumero</edittelephone>
+				<editlanguage>			Kieli</editlanguage>
+				<firstname>			Etunimi</firstname>
+				<lastname>			Sukunimi</lastname>
+				<title>				Ammatti</title>
+				<mobile>			Matkapuhelin</mobile>
+				<tooshortpassword>		Password must have at least {0} characters</tooshortpassword>
+				<missingpassword>		Sinun on syötettävä salasana.</missingpassword>
+				<alpharequiredpassword>	Salasanan on sisällettävä kirjaimia.</alpharequiredpassword>
+				<numberrequiredpassword>Salasanan on sisällettävä numeroita.</numberrequiredpassword>
+				<symbolrequiredpassword>Salasanan on sisällettävä symboleja (muita merkkejä kuin numeroita ja kirjaimia).</symbolrequiredpassword>
+				<usernameexists>		Käyttäjänimi {0} on jo käytössä.</usernameexists>
+				<lockedout>				Käyttäjä on lukittu (liian monta epäonnistunutta kirjautumisyritystä)</lockedout>
+				<ipaddress>				Kirjautuminen ainoastaan tästä IP-osoitteesta</ipaddress>
+				<ipmask>				Aliverkon peite (Subnet mask) yllä olevaan IP-osoitteeseen</ipmask>
+				<editcountry>Maa</editcountry>
+				<editcreated>Luotu</editcreated>
+				<editchanged>Muutettu</editchanged>
+				<editlanguage>Järjestelmän kieli</editlanguage>
+			</secedit>
+			<searchusers>
+				<heading>			Etsi käyttäjiä/ryhmiä</heading>
+				<info/>
+				<namecaption>			Nimi</namecaption>
+				<descriptioncaption>		Kuvaus</descriptioncaption>
+				<typecaption>			Tyyppi</typecaption>
+				<typeall>			Kaikki</typeall>
+				<typegroup>			Ryhmät</typegroup>
+				<typeuser>			Käyttäjät</typeuser>
+				<pagingsize>		Tulosten määrä sivua kohden</pagingsize>
+			</searchusers>
+			<security>
+				<heading>			Määritä käyttöoikeudet</heading>
+				<info>				Täällä voi palauttaa esimerkiksi käytöstä poistettujen EPiServer-palvelimen sivujen käyttöoikeudet. Voit muuttaa kaikkien sivujen kaikkia oikeuksia.</info>
+				<savemessage>			Uudet käyttöoikeudet on tallennettu</savemessage>
+				<buttonrecursive>		Rekursiivisesti</buttonrecursive>
+				<buttonrecursiveadd>		Lisää rekursiivisesti</buttonrecursiveadd>
+				<buttonrecursiveremove>		Poista rekursiivisesti</buttonrecursiveremove>
+				<subheadingwindowsgroups>	Olet jäsenenä seuraavissa Windows-ryhmissä</subheadingwindowsgroups>
+				<subheadingepiservergroups>	Olet jäsenenä seuraavissa EPiServer-ryhmissä</subheadingepiservergroups>
+			</security>
+			<robotsearch>
+				<heading>Web-osoitteiden hallinta</heading>
+				<linkinfo>Web-osoitteet on määritetty kohteeksi {0}</linkinfo>
+				<linkinforobots>salli hakukoneiden haravoida tietoja Internetissä.</linkinforobots>
+				<linkinfonorobots>tue vain vuorovaikutteista käyttöä.</linkinfonorobots>
+				<info>Valitse EPiServerissä käytettävän Web-osoitteen tyyppi.</info>
+				<robotlinkcaption>Käytä Web-osoitteita, jotka sallivat hakukoneiden haravoida sivustoa</robotlinkcaption>
+				<norobotlinkcaption>Käytä Web-osoitteita, jotka tukevat vain vuorovaikutteista käyttöä</norobotlinkcaption>
+				<warning>Varoitus Varmista, että tässä sivustossa käytetyt mallipohjat sovitetaan Web-osoitteen tyypin mukaisiksi ennen tämän asetuksen muuttamista.</warning>
+				<friendlylinkcaption>Käytä Web-osoitteita, jotka kuvastavat tämän sivuston sisällön rakennetta (/sivu1/sivu2)</friendlylinkcaption>
+				<linkinfofriendly>sisällön rakenteen kuvastaminen.</linkinfofriendly>
+				<friendlyurlnotinstalled>Tätä toimintoa ei ole määritetty tässä sivustossa.</friendlyurlnotinstalled>
+			</robotsearch>
+			<settings>
+				<heading>				Järjestelmäasetukset</heading>
+				<info>					&lt;b&gt;VAROITUS!&lt;/b&gt; Jos teet sivulle vääränlaisia muutoksia, seurauksena voi olla, että WWW-sivustosi lakkaa toimimasta.</info>
+				<saved>					Uudet arvot on tallennettu</saved>
+				<inforequired>				Kenttä, joka on täytettävä, on merkitty *</inforequired>
+				<licensetab>				Käyttöoikeus</licensetab>
+				<databasetab>				Tietokanta</databasetab>
+				<sitetab>				Yleistä</sitetab>
+				<edittab>				Muokkaa</edittab>
+				<linktooltab>				Linkkityökalu</linktooltab>
+				<cachetab>				Välimuisti</cachetab>
+				<subscriptiontab>			Tilaus</subscriptiontab>
+				<licensedcompanycaption>		Käyttöoikeus myönnetty yritykselle</licensedcompanycaption>
+				<licensedtocaption>			Käyttöoikeus myönnetty henkilölle</licensedtocaption>
+				<licensekeycaption>			Käyttöoikeuskoodi</licensekeycaption>
+				<epslanguagecaption>Järjestelmän kieli</epslanguagecaption>
+				<epsconnectioncaption>			Tietokantayhteys</epsconnectioncaption>
+				<epshosturlcaption>			Sivuston URL-osoite (esimerkiksi http://www.x.y)</epshosturlcaption>
+				<epsbugemailcaption>			Tuotetuen sähköpostiosoite</epsbugemailcaption>
+				<epsrootdircaption>			Päähakemisto</epsrootdircaption>
+				<epsuploaddircaption>			Lataushakemisto</epsuploaddircaption>
+				<createdircaption>			Luo hakemisto linkkityökalussa</createdircaption>
+				<deletefilecaption>			Poista tiedosto linkkityökalussa</deletefilecaption>
+				<deletedircaption>			Poista hakemisto linkkityökalussa</deletedircaption>
+				<renamefiledircaption>			Nimeä tiedosto/hakemisto uudelleen linkkityökalussa</renamefiledircaption>
+				<pageuploadcaption>			Lataa tiedostot määrätylle sivulle</pageuploadcaption>
+				<restricteduploadcaption>		Rajoitettu lataustoiminto</restricteduploadcaption>
+				<unrestricteduploadcaption>		Rajoittamaton lataustoiminto</unrestricteduploadcaption>
+				<maxfilesize>				Ladattavien tiedostojen suurin sallittu koko (kilotavua)</maxfilesize>
+				<editordivonreturncaption>		Käytä editorissa DIV:tä P:n asemesta</editordivonreturncaption>
+				<epssitenamecaption>			Sivuston nimi</epssitenamecaption>
+				<epsframedefinitioncaption>		Kehysmääritystiedoston polku</epsframedefinitioncaption>
+				<epseditcsscaption>			Editorin CSS-tiedoston polku</epseditcsscaption>
+				<epscharsetcaption>			Merkistö (sisältötyyppimerkistö)</epscharsetcaption>
+				<epfenableunicodecaption>		Käytä järjestelmätoiminnoissa Unicodea</epfenableunicodecaption>
+				<epnrootidcaption>			Sivuston pääsivu</epnrootidcaption>
+				<epnstartpagecaption>			Sivuston aloitussivu</epnstartpagecaption>
+				<epnwastebasketidcaption>		Roskakorisivu</epnwastebasketidcaption>
+				<epncategoryidcaption>			Luokkien aloituskohta</epncategoryidcaption>
+				<epnversioncountcaption>		Sivun aiempien versioiden enimmäismäärä</epnversioncountcaption>
+				<epfkeeploggedoncaption>		Aktivoi kirjautumistiedot säilyttävät evästeet </epfkeeploggedoncaption>
+				<epfenablepersonalizationcaption>	Aktivoi mukauttaminen</epfenablepersonalizationcaption>
+				<epssubmailfromcaption>			Sähköpostin lähettäjän osoite</epssubmailfromcaption>
+				<epssubmailbcccaption>			Kaikkien viestien kopio osoitteeseen </epssubmailbcccaption>
+				<epssubtemplatecaption>			Sähköpostimallin XSL-tiedosto (esimerkiksi C:\mail.xsl)</epssubtemplatecaption>
+				<cachesyncinterval>			Oheispalvelimen välimuistin päivittämisväli (sekunteina, 0 = ei viivettä)</cachesyncinterval>
+				<epneditorheightcaption>		Editorin korkeus (kuvapisteinä)</epneditorheightcaption>
+				<epneditorwidthcaption>			Editorin leveys (kuvapisteinä, 0 = enimmäisleveys)</epneditorwidthcaption>
+				<epseditcontrolversion>			ActiveX-editorin nykyinen versio (esimerkiksi 2,0,0,31)</epseditcontrolversion>
+				<ldaptab>				LDAP</ldaptab>
+				<epsldapservercaption>			LDAP-palvelin (esimerkiksi yritys.com; ohita, jos LDAP ei ole käytössä)</epsldapservercaption>
+				<epsldapusercaption>			LDAP-palvelimen tietojen lukemiseen oikeuttava käyttäjänimi</epsldapusercaption>
+				<epsldappasswordcaption>		Käyttäjänimen salasana</epsldappasswordcaption>
+				<epfencryptsensitiveinformationcaption>Salakoodaa web.config-tiedosto</epfencryptsensitiveinformationcaption>
+				<clearldapcache>	Tyhjennä LDAP-välimuisti</clearldapcache>
+				<ldapcachedcleared>	LDAP-välimuisti on tyhjennetty</ldapcachedcleared>
+				<epserrorhandling>	EPiServer-palvelimen virheenkäsittely</epserrorhandling>
+				<epserrorhandlingon>			Käytössä kaikkia varten</epserrorhandlingon>
+				<epserrorhandlingoff>			Pois käytöstä</epserrorhandlingoff>
+				<epserrorhandlingremoteonly>	Käytössä ulkoisia käyttäjiä varten</epserrorhandlingremoteonly>
+				<epserrormail>		Sähköpostiosoite, johon virheraportit lähetetään </epserrormail>
+				<epssubscriptionhandler>Tilaustoiminta</epssubscriptionhandler>
+				<defaultsubscriptionhandler>
+					<displayname>EPiServer standarditoiminta</displayname>
+					<description>EPiServerin sisäänrakennettu tilaajasähköpostin toiminta</description>
+				</defaultsubscriptionhandler>
+				<multilanguagesubscriptionhandler>
+					<displayname>EPiServer-vakiomuoto ja useiden kielten tuki</displayname>
+					<description>EPiServer-palvelimen sisäinen toiminto monikielisten palveluiden tilaamiseksi</description>
+				</multilanguagesubscriptionhandler>
+				<epfenableglobalizationsupportcaption>Ota käyttöön globalisointi</epfenableglobalizationsupportcaption>
+				<epfbrowserlanguagedetectioncaption>Hae kieli selaimen kieliasetusten kautta</epfbrowserlanguagedetectioncaption>
+			</settings>
+			<updateconfirm>
+				<heading>				Hyväksy yhteys ulkoiseen järjestelmään</heading>
+				<info>					Tämä toiminto edellyttää paikallisia järjestelmänvalvojan oikeuksia. Muussa tapauksessa kirjautumisruutu tulee näyttöön. Nykyisen version tiedot ja käyttöoikeustiedot lähetetään ElektroPostiin salattujen yhteyksien avulla mukautettua tuoteluetteloa varten.</info>
+			</updateconfirm>
+			<update>
+				<heading>				Päivitystiedot</heading>
+				<info />
+				<name>					Tuotteen nimi</name>
+				<description>				Kuvaus</description>
+				<updateversion>				Uusi versio</updateversion>
+				<installedversion>			Asennettu versio</installedversion>
+				<action />
+				<downloadbutton>			Lataa tiedostot</downloadbutton>
+				<installbutton>				Asenna</installbutton>
+				<upgradebutton>				Päivitä</upgradebutton>
+				<alreadinstalled>			Jo asennettuna</alreadinstalled>
+				<requiresproducts>			Vaatimukset</requiresproducts>
+				<licensenotfound>			Käyttöoikeuksia ei ole tietokannassa. Tarkista, että oikeudet ovat oikeat. Saat lisätietoja toimittajalta.</licensenotfound>
+				<licenseexpired>			Käyttöoikeudet ovat vanhentuneet. Saat lisätietoja toimittajalta.</licenseexpired>
+				<licensereplaced>			Käyttöoikeudet on korvattu toisilla käyttöoikeuksilla, eivätkä ne ole enää aktiiviset. Saat lisätietoja toimittajalta.</licensereplaced>
+				<licensenosoftwareagreement>		Käyttöoikeuksiin ei liity ohjelmistosopimusta. Saat lisätietoja toimittajalta.</licensenosoftwareagreement>
+			</update>
+			<siteinfo>
+				<heading>				Tilastotietoja</heading>
+				<info />
+				<dbstatcaption>				Tietokantatietoja</dbstatcaption>
+				<dbstatpagecount>			Tietokannan sivujen kokonaismäärä</dbstatpagecount>
+				<dbstatchangedlastweek>			Viime viikolla muokatut sivut</dbstatchangedlastweek>
+				<dbstatepisecusercount>			Ekstranet-käyttäjät (EPiSec)</dbstatepisecusercount>
+				<dbstatntusercount>			Windows-käyttäjät (NT)</dbstatntusercount>
+				<dbstatsubscribercount>			Tilaajat</dbstatsubscribercount>
+				<dbcachehitpercentage>			Käyntien määrä</dbcachehitpercentage>
+				<dbcachecaption>			Tietokantavälimuistin tila</dbcachecaption>
+				<countersince>				Laskuri nollattiin</countersince>
+				<countergetitem>			Välimuistista haettuja sivuja</countergetitem>
+				<counterreadsinglepage>			Tietokannan lukuja sivuja kohden</counterreadsinglepage>
+				<counterlistchildren>			Välimuistista haettuja luetteloita</counterlistchildren>
+				<counterreadchildpages>			Tietokannan lukuja luetteloita kohden</counterreadchildpages>
+				<processstarted>			Käsittely aloitettu</processstarted>
+				<processpeakmemory>			Muistin enimmäiskäyttö (Mt)</processpeakmemory>
+				<processid>				Prosessin tunnus</processid>
+				<processconfigfile>			Kokoonpanotiedosto</processconfigfile>
+				<processpubpolicy>			Julkaisukäytännöt</processpubpolicy>
+				<processshadowcopy>			Ohjelmatiedostojen tilannevedos</processshadowcopy>
+				<processshadowdir>			Tilannevedosten hakemisto</processshadowdir>
+				<buttonresetcounters>			Nollaa laskuri</buttonresetcounters>
+				<counterpages>				Välimuistissa olevat sivut</counterpages>
+				<counteroutputvalid>			HTML-välimuistista lähetettyjä sivuja</counteroutputvalid>
+				<counteroutputinvalid>			HTML-välimuistin epäkelpoja sivuja</counteroutputinvalid>
+				<outputcachecaption>			Tietokantavälimuistin tila ajankohdasta </outputcachecaption>
+				<dbsystemprocessinfocaption>Järjestelmän ja prosessin tiedot</dbsystemprocessinfocaption>
+			</siteinfo>
+			<syncgroup>
+				<heading>				Ryhmän synkronointi</heading>
+				<info>					Tämä sivu synkronoi Windowsin ja EPiServerin väliset ryhmätiedot</info>
+				<saved>					Päivitykset on suoritettu</saved>
+				<syncnotneeded>				EPiServerin tiedot vastaavat Windowsin ryhmätietoja. Muutoksia ei tarvita</syncnotneeded>
+				<notinwindows>				Ryhmät, joita ei ole Windowsissa</notinwindows>
+				<notinwindowsinfo>			Merkityt ryhmät poistetaan EPiServeristä</notinwindowsinfo>
+				<notindatabase>				Ryhmät, joita ei ole EPiServerissä</notindatabase>
+				<notindatabaseinfo>			Merkityt ryhmät lisätään EPiServeriin</notindatabaseinfo>
+				<ldapgroupname>				Nimi</ldapgroupname>
+				<ldapgroupqualifiedname>	Koko nimi</ldapgroupqualifiedname>
+				<ldapgroupimport>			Tuo</ldapgroupimport>
+				<useinepiserver>	Käytä EPiServerissä</useinepiserver>
+				<groupname>			Ryhmänimi</groupname>
+				<description>		Kuvaus</description>
+				<ldapname>			LDAP-nimi</ldapname>
+				<groupsupdated>		Ryhmätiedot päivitetty</groupsupdated>
+			</syncgroup>
+			<systemerror>
+				<askclearlog>				Haluatko poistaa järjestelmälokin?</askclearlog>
+				<heading>				Järjestelmäloki</heading>
+				<info>					Näytä järjestelmälokin tiedot. Tänne tallennetaan tiedot virheistä ja tapahtumista, jotka saattavat edellyttää toimenpiteitä</info>
+				<deleted>				Lokin sisältö on poistettu</deleted>
+				<showstartdate>				Näytä alkaen päivämäärästä</showstartdate>
+				<showstopdate>				Näytä päättyen päivämäärään</showstopdate>
+				<tabledate>				Päivämäärä</tabledate>
+				<tabletype>				Tyyppi</tabletype>
+				<tabledescription>			Kuvaus</tabledescription>
+				<tableerrorcode>			Virhekoodi</tableerrorcode>
+				<tablesource>				Lähde</tablesource>
+				<tableinformation>			Tiedot</tableinformation>
+			</systemerror>
+			<databasejob>
+				<delayedpublish>
+					<displayname>Aikaohjattujen versioiden julkaiseminen</displayname>
+				</delayedpublish>
+				<wastebasket>
+					<displayname>	Roskakorin automaattinen tyhjentäminen</displayname>
+					<description>	Määritä, onko tyhjennystoiminto aktiivinen ja kuinka usein roskakori tyhjennetään. Toiminto tarkoittaa sitä, että 30:tä päivää vanhemmat sivut poistetaan pysyvästi roskakorista.</description>
+				</wastebasket>
+				<subscription>
+					<displayname>Tilaus</displayname>
+					<description>Tilaustoiminto lähettää sähköpostiviestin käyttäjille, jotka ovat tilanneet tiedot sivuston eri osien päivityksistä.</description>
+				</subscription>
+				<archive>
+					<displayname>	Arkistointitoiminto</displayname>
+					<description>	Määritä, onko arkistointitoiminto aktiivinen ja kuinka usein arkistointi tapahtuu. Arkistointitoiminto siirtää sivut, joiden julkaisupäivämäärä on ohitettu, määritettyyn arkistokansioon.</description>
+				</archive>
+				<schedulecaption>			Toiminto tapahtuu joka</schedulecaption>
+				<activecaption>				Käytössä</activecaption>
+				<savemessage>				Asetukset on tallennettu</savemessage>
+				<testbutton>				Testaa manuaalisesti</testbutton>
+				<startokmessage>			Toiminto käynnistyi ongelmitta.</startokmessage>
+				<starterrormessage>			Microsoft SQL Agent ei pystynyt käynnistämään toimintoa: {0}</starterrormessage>
+				<tabsettings>				Asetukset</tabsettings>
+				<logstatus>					Tila</logstatus>
+				<logdate>					Tyyppi</logdate>
+				<tabhistory>Historia</tabhistory>
+				<logmessage>Viesti</logmessage>
+				<nextexecution>Seuraava ajoajankohta</nextexecution>
+			</databasejob>
+			<edituser>
+				<changepassword>		Muuta salasana</changepassword>
+				<keeppassword>			Säilytä vanha salasana</keeppassword>
+				<enterpassword>			Kirjoita salasana</enterpassword>
+				<repeatpassword>		Toista salasana</repeatpassword>
+				<usersaved>				Käyttäjä tai ryhmä on tallennettu</usersaved>
+				<usernotsaved>			Käyttäjää tai ryhmää ei voitu tallentaa</usernotsaved>
+				<confirmdeleteuser>		Haluatko poistaa käyttäjän tai ryhmän {0}?</confirmdeleteuser>
+				<notificationquestion>	Käyttäjälle ilmoitetaan automaattisesti sähköpostin avulla, että tili on aktivoitu.</notificationquestion>
+				<notificationfailed>	Sähköpostiviestin lähettäminen epäonnistui, koska kaikkia ekstranet-käyttäjäasetuksia ei ole määritetty </notificationfailed>
+				<mailsent>				Sähköpostiviesti on lähetetty käyttäjälle</mailsent>
+				<maintabname>			Asetukset</maintabname>
+				<userdeleted>			Käyttäjä tai ryhmä on poistettu</userdeleted>
+				<passwordmismatch>		Salasanat tekstikentissä eroavat toisistaan</passwordmismatch>
+				<userguisettings>
+					<displayname>Näytön asetukset</displayname>
+					<settings>
+						<usedefaultsettings>Käytä oletusasetuksia</usedefaultsettings>
+						<toolbar>Työkalurivi</toolbar>
+						<limitedtoolbar>Rajoitettu työkalurivi</limitedtoolbar>
+						<extendedtoolbar>Laajennettu työkalurivi</extendedtoolbar>
+						<treesymbols>Puurakenteen symbolit</treesymbols>
+						<statusexpired>Tälle sivulle määritetyn ajoitetun julkaisemisen päivämäärä ja aika ovat vanhentuneet</statusexpired>
+						<statusnotstarted>Tälle sivulle on määritetty ajoitettu julkaisu, ja sivua ei ole vielä julkaistu</statusnotstarted>
+						<statusnotpublished>Tätä sivua ei ole julkaistu</statusnotpublished>
+						<statusnotvisibleinmenu>Sivu ei näy valikoissa</statusnotvisibleinmenu>
+						<statusreadonly>Sinulla ei ole oikeutta muuttaa tätä sivua</statusreadonly>
+						<statusnew>Viimeisen 48 tunnin aikana luotu uusi sivu</statusnew>
+						<statuslanguagemissing>Käytössä olevan kielen mukainen sivu puuttuu, eikä sitä näytetä</statuslanguagemissing>
+						<statuslanguagefallback>Käytössä olevan kielen mukainen sivu puuttuu, ja sivu näytetään jollakin toisella kielellä. Jos toiselle kielelle on kuvake, sitä käytetään osoittamiseen.</statuslanguagefallback>
+					</settings>
+				</userguisettings>
+			</edituser>
+			<remotesite>
+				<heading>Ulkoiset sivustot</heading>
+				<info>Lähtevän liikenteen ja allekirjoitetun lähtevän sekä tulevan liikenteen rekisteröidyt ulkoiset sivustot.  Sivustojen oikeudet eli se, mitkä anonyymit sivustot voivat muodostaa yhteyden tähän sivustoon, määritetään kohdassa web.config.</info>
+				<url>URL</url>
+				<name>Nimi</name>
+				<ping>Testaa yhteys</ping>
+				<pingtrue>Sivusto {0} vastasi ja hyväksyi allekirjoituksen</pingtrue>
+				<pingfalse>Sivusto {0} vastasi, mutta ei hyväksynyt allekirjoitusta tai allekirjoitusta ei ollut</pingfalse>
+				<localsite>Paikallisen sivuston nimi</localsite>
+			</remotesite>
+			<remotesiteedit>
+				<heading>Muokkaa ulkoista sivustoa</heading>
+				<info>Muista, että nimeä ei kannata enää muuttaa, jos se on jo käytössä sivustossa. Luo jaettu salasana, joka kopioidaan manuaalisesti toiseen sivustoon lähtevän ja tulevan liikenteen allekirjoittamista varten. Tämän tarkoituksena on varmistaa, ettei tietoja voi muuttaa, kun niitä siirretään sivustosta toiseen.</info>
+				<url>URL</url>
+				<name>Nimi</name>
+				<username>Käyttäjänimi</username>
+				<password>Salasana</password>
+				<domain>Toimialue</domain>
+				<sharedsecret>Allekirjoituksen jaettu salasana</sharedsecret>
+				<istrusted>Salli toimiminen edustalla</istrusted>
+				<istrustedwarning>Suojausvaroitus. Sivusto pystyy lukemaan ominaisuuksien kokoonpanotiedot ja käyttöoikeusasetukset. Tämä edellyttää myös kelvollista allekirjoitusta ja sivustojen yhteistä jaettua salasanaa.</istrustedwarning>
+				<allowurllookup>Salli nimen käyttö url-osoitteessa (esim. page.aspx?id=30__mysite)</allowurllookup>
+			</remotesiteedit>
+			<languages>
+					<deleteprefix>	Haluatko poistaa kielen</deleteprefix>
+					<deletesuffix>	?</deletesuffix>
+					<heading>Muokkaa kielikoodeja</heading>
+					<info>			Määritä sivustossa käytettävät kielet.</info>
+					<languagekey>	Kielen avain</languagekey>
+					<languagename>	Nimi</languagename>
+					<locale>		Kansallisuus</locale>
+			</languages>
+				
+			<plugin>
+				<heading>Moduulinhallinta</heading>
+				<info>EPiServer-palvelimeen rekisteröidyt moduulit näkyvät alla olevassa luettelossa. Näet yksittäisen lisäohjelman tiedot napsauttamalla sen nimeä.</info>
+				<displayname see="/admin/plugin/heading" />
+				<plugintab>Moduulit</plugintab>
+				<overviewtab>Yleiskatsaus</overviewtab>
+				<guipluginattribute>Käyttöliittymä</guipluginattribute>
+				<editorpluginattribute>Muokkaus</editorpluginattribute>
+				<subscriptionpluginattribute>Tilaus</subscriptionpluginattribute>
+				<pagedefinitiontypepluginattribute>Omatoimisesti rekisteröidyt ominaisuustyypit</pagedefinitiontypepluginattribute>
+				<scheduledpluginattribute>Ajoitettujen töiden hallinta</scheduledpluginattribute>
+				<workflowpluginattribute>Työvirran vaihetyypit</workflowpluginattribute>
+			</plugin>
+			<pluginlist>
+				<enabled>Aktivoitu</enabled>
+				<name>Nimi</name>
+				<description>Kuvaus</description>
+				<license>Käyttöoikeudet</license>
+				<plugin>Moduulit</plugin>
+			</pluginlist>
+			<pluginadminsettings>
+				<nosettings>Tämän moduulin asetuksia ei ole määritetty</nosettings>
+			</pluginadminsettings>
+			<plugingrouplist>
+				<name>Nimi</name>
+				<description>Kuvaus</description>
+				<version>Versio</version>
+				<company>Yritys</company>
+				<license>Käyttöoikeudet</license>
+				<moreinfo>Lisätietoja</moreinfo>
+			</plugingrouplist>
+			<pluginedit>
+				<heading>Moduulin asetusten muokkaaminen</heading>
+				<info></info>
+				<configurationtab>Asetukset</configurationtab>
+				<overviewtab>Yleiskatsaus</overviewtab>
+			</pluginedit>
+			<pluginlicense>
+				<heading>Käyttöoikeustiedot kohteelle</heading>
+				<info></info>
+				<tabinfo>Tiedot</tabinfo>
+				<tabinstallnew>Asenna uusi käyttöoikeus</tabinstallnew>
+				<licenserestrictions>Rajoitukset</licenserestrictions>
+				<selectfile>Valitse uusi käyttöoikeustiedosto</selectfile>
+				<uploadlicense>Lataa ja tarkista</uploadlicense>
+				<newfileinstalled>Uusi käyttöoikeus on asennettu</newfileinstalled>
+				<licenseid>Käyttöoikeuden tunnus</licenseid>
+			</pluginlicense>
+			<filemanagement>
+				<displayname>Tiedostonhallinta</displayname>
+				<description>Tiedostojen ja hakemistojen lataaminen ja tarkistaminen.</description>
+			</filemanagement>
+			<menutabs>
+				<admin>Hallinta</admin>
+				<config>Asetukset</config>
+				<pagetypes see="/pagetypes/common/property[@name='PageTypeName']/caption"/>
+			</menutabs>	
+			<menuheadings>
+				<systemadministration see="/admin/menu/systemadministration"/>
+				<systemconfiguration>Järjestelmän asetukset</systemconfiguration>
+				<accessrights see="/admin/menu/security"/>
+				<scheduledjobs see="/admin/menu/scheduledjobs"/>
+				<noscheduledjobstext>Ajoitettuja töitä ei ole määritetty</noscheduledjobstext>
+				<security>Turvallisuus</security>
+				<tools see="/admin/menu/plugins"/>
+				<notoolstext>Työkaluja ei ole määritetty</notoolstext>
+				<toolsettings>Työkalujen asetukset</toolsettings>
+				<notoolsettingstext>Työkalujen asetuksia ei ole määritetty</notoolsettingstext>
+				<generalsettings>Yleiset asetukset</generalsettings>
+				<managepagetypes>Sivutyyppien hallinta</managepagetypes>
+				<pagetypes see="/admin/menu/pagetype"/>
+				<nopagetypestext>Sivutyyppejä ei ole määritetty</nopagetypestext>
+				<pagetypesorting>
+					<sortbyindex>Lajittele indeksin mukaan</sortbyindex>
+					<sortalphabetically>Lajittele aakkosjärjestykseen</sortalphabetically>
+				</pagetypesorting>
+			</menuheadings>
+			<convertformtoxform>
+				<displayname>Muunna lomake</displayname>
+				<description>Muunna lomake XForms-lomakkeeksi.</description>
+				<heading see="/admin/convertformtoxform/displayname" />
+				<availableforms>Valitse muunnettava lomake</availableforms>
+				<availablexforms>Muunnetut lomakkeet</availablexforms>
+				<convert>Muunna</convert>
+				<converted>Muunnettu lomake: </converted>
+				<errorconverting>Virheen muunto:</errorconverting>
+			</convertformtoxform>
+			<contentmirroringmanager>
+				<displayname>Peilauspalvelu</displayname>
+				<description/>
+			</contentmirroringmanager>
+			<contentmirroring>
+				<displayname see="/admin/contentmirroring/heading"/>
+				<description>Järjestelmässä määritettyinä olevat kanavat</description>
+				<heading>Peilauksen hallinta </heading>
+				<info>Määrittää EPiServer-palvelimesta ulkoiseen järjestelmään peilattavat sisältökanavat.</info>
+				<name>Kanavan nimi</name>
+        <order>Suoritusjärjestys</order>
+        <moveup>			Siirrä ylöspäin</moveup>
+        <movedown>			Siirrä alaspäin</movedown>
+			</contentmirroring>
+			<contentmirroringview>
+				<heading>Peilausasetusten yleiskatsaus</heading>
+				<info>Tälle kanavalle määritettyjen kohteiden yleiskatsaus.</info>
+				<name>Kohteet</name>
+				<reset>Nollaa tila</reset>
+				<createdestination>Luo kohde</createdestination>
+				<continuereset>Nollaa ja jatka</continuereset>
+				<resetwarning1>Jos jatkat tällä toiminnolla, kaikki sivut näkyvät sellaisina kuin ne on luotu.</resetwarning1>
+				<resetwarning2>Tämä toiminto poistaa osat, joita ei ole peilattu kohteeseen.</resetwarning2>
+				<lastchanges>Viime hetken muutokset lisätty</lastchanges>
+				<noaction>Ei lisättyjä muutoksia</noaction>
+				<queuelength>Jonon pituus</queuelength>
+				<laststatus>Viimeinen tila</laststatus>
+				<lastexecution>Suoritettu viimeksi</lastexecution>
+				<editqueue>Muokkaa jonoa</editqueue>
+				<editmappings>Vastaavuudet</editmappings>
+				<settingslocked>Tämän kanavan ja sen kohteiden asetukset on lukittu, koska peilaustyö on jo tehty nykyisillä asetuksilla. Kaikki seuraavat työt vaativat samat asetukset, jotta peilaus voidaan tehdä oikein. Muuta asetuksia valitsemalla tilan palautus, jotta edellisten töiden tiedot palautetaan.</settingslocked>
+        <errorsamechannelname>Kanavan nimi "{0}" on jo toisen kanavan käytössä.</errorsamechannelname>
+        <title>Kanavan "{0}" kohde</title>
+				<type>Kohdetyyppi</type>
+				<xmlmirroring>XML</xmlmirroring>
+				<htmlmirroring>HTML</htmlmirroring>
+				<pagemirroring>EPiServer</pagemirroring>
+			</contentmirroringview>
+			<contentpublisheredit>
+				<tabsettings>Tiedot</tabsettings>
+				<tabqueue>Jono</tabqueue>
+				<heading>Kohde</heading>
+				<info>Määrittää kanavasta lähetettyjen muutosten vastaanottajan.</info>
+				<name>Nimi</name>
+				<remotesite>Etäsivusto</remotesite>
+				<topagelink>Kohteen perussivu</topagelink>
+				<selecttype>Valitse kohteen tyyppi</selecttype>
+				<instantpublish>Julkaise sivut</instantpublish>
+				<targetdirectory>Palvelimen kohdehakemisto</targetdirectory>
+				<xmloutputstyle>Luo tuloste</xmloutputstyle>
+				<flatfiles>Kustakin sivusta yksi tiedosto</flatfiles>
+				<sitemap>Sivustokartta</sitemap>
+				<changelog>Muutoslokitiedosto</changelog>
+				<xslfile>XSL-mallin polku</xslfile>
+				<rootdir>Suhteellinen juuripolku</rootdir>
+				<verifychecksum>Tarkista kaikkien sivujen tarkistussumma joka kerta</verifychecksum>
+				<defaultdocument>Tiedostojen oletusnimi</defaultdocument>
+				<usedirectoryweblinks>Älä lisää tiedostojen nimiä linkkeihin</usedirectoryweblinks>
+				<pathnameproperty>Käytä seuraavaa ominaisuutta kansioiden nimissä</pathnameproperty>
+				<applyfilterontemplates>Käytä kanavan suodatinta</applyfilterontemplates>
+				<linktootherchannels>Salli vastaanottajan noutaa linkkejä muista kanavista</linktootherchannels>
+				<queueid>Jonon numero</queueid>
+				<queuecreated>Kohde luotu</queuecreated>
+			</contentpublisheredit>
+			<contentmirroringedit>
+				<tabinformation>Tiedot</tabinformation>
+				<tabfilter>Ominaisuussuodatin</tabfilter>
+				<heading>Peilausasetukset</heading>
+				<info>Määrittää tämän kanavan asetukset.</info>
+				<name>Nimi</name>
+				<frompagelink>Aloitussivu</frompagelink>
+				<automatic>Siirtotapa</automatic>
+				<activatefilter>Aktiivinen suodatin</activatefilter>
+				<filterpropertyname>Suodata ominaisuuden nimen mukaan</filterpropertyname>
+				<filterpropertyvalue>Suodata ominaisuuden arvon mukaan</filterpropertyvalue>
+				<automaticapproval>Hyväksy muutokset automaattisesti</automaticapproval>
+				<runasanonymoususer>Suorita nimettömänä käyttäjänä</runasanonymoususer>
+				<impersonateusername>Käyttäjänimi</impersonateusername>
+				<impersonatepassword>Aseta salasana</impersonatepassword>
+				<language>Kieli</language>
+				<channeltype>Peilauksen tyyppi</channeltype>
+				<includeroot>Lisää aloitussivu</includeroot>
+				<types>
+					<tree>Puu </tree>
+					<list>Luettelo</list>
+					<search>Etsi (vain päivitetyt sivut)</search>
+				</types>
+				<impersonatedomain>Verkkoalue</impersonatedomain>
+				<globalizationsupport>Globalisoinnin tuki</globalizationsupport>
+				<noglobalizationsupport>Ei käytössä (alkuperäinen kieli peilataan kohteeseen ilman globalisoinnin tukea)</noglobalizationsupport>
+				<alllanguages>Käytössä (kaikki kielet peilataan kohteeseen globalisoinnin tuen avulla)</alllanguages>
+				<singlelanguage>Vain "{0}" peilataan kohteeseen ilman globalisoinnin tukea</singlelanguage>
+			</contentmirroringedit>
+			<wsrpadmin>
+				<heading>WSRP-lähteet</heading>
+				<info>Määritä WSRP-lähteet, joiden tulisi olla käytettävissä</info>
+				<displayname see="/admin/wsrpadmin/heading" />
+				<description see="/admin/wsrpadmin/info" />
+				<detailederror>Virheen tarkka kuvaus:</detailederror>
+			</wsrpadmin>
+			<filebrowser>
+				<heading>Valitse tiedosto</heading>
+			</filebrowser>         
+			<confirmlanguagespecific>
+				<title>Varoitus</title>
+				<heading>Arvot poistetaan</heading>
+				<info>Ominaisuuksien arvot poistetaan sivuilta, joiden kieli on jokin muu kuin alkuperäinen kieli.</info>
+				<pagelist>Muutoksen kohteena olevat sivut ({0})</pagelist>
+			</confirmlanguagespecific>
+			<editlanguagebranches>
+				<heading>Käytä sivuston kieliä</heading>
+				<info>Määritä kielet, joiden on oltava sivustosi kävijöiden käytettävissä.</info>				
+				<namecaption>Nimi</namecaption>
+				<idcaption>Kielikoodi</idcaption>
+				<enabledcaption>Käytössä</enabledcaption>
+				<iconcaption>Kuvake</iconcaption>
+				<addlanguage>Lisää kieli</addlanguage>
+				<defaultlanguagebranch>Oletuskieli</defaultlanguagebranch>
+			</editlanguagebranches>
+			<editlanguagebranch>
+				<headingnew>Luo uusi sivuston kieli</headingnew>
+				<info>Määritä uusi sivuston kieli, jonka on oltava sivustosi kävijöiden käytettävissä.</info>
+				<namecaption>Nimi</namecaption>
+				<idcaption>Kielikoodi</idcaption>
+				<iconcaption>Kuvake</iconcaption>
+				<sortindexcaption>Lajitteluindeksi</sortindexcaption>
+				<enabledcaption>Käytössä</enabledcaption>
+				<cantsave>Sivuston kieltä ei voi tallentaa.</cantsave>
+				<cantsavelanguagebranchexists>Valitun kielikoodin "{0}" sivustokieli on jo olemassa.</cantsavelanguagebranchexists>
+				<urlsegmentcaption>Web-osoitteen etuliite</urlsegmentcaption>
+				<warningchangelanguage>Varoitus Kielikoodia käytetään järjestelmän eri osissa, kuten linkeissä ja varakielissä. Muuta tätä asetusta vain järjestelmän alustavan kokoonpanon aikana.</warningchangelanguage>
+			</editlanguagebranch>
+			<contentmirroringmapping>
+				<title>Kohteen "{0}" peilausvastaavuudet</title>
+				<pagemapping>Sivun vastaavuudet</pagemapping>
+				<foldermapping>Kansion vastaavuudet</foldermapping>
+				<sourceid>Lähteen tunnus</sourceid>
+				<targetid>Kohteen tunnus</targetid>
+				<pagename>Sivun nimi</pagename>
+				<delete>Poista</delete>
+				<deleteall>Poista kaikki vastaavuudet</deleteall>
+				<message>Tässä luettelossa esitetään, miten lähdesivuston ja etäsivuston väliset sivun ja kansion tunnusten vastaavuudet on määritetty. Jos vastaavuus poistetaan, poistuu samalla kohdesivun tai kohdekansion ja sen lähteen välinen yhteys. Myöhemmät peilauspäivitykset luovat kohdesivun tai kohdekansion uudelleen sekä puhtaan kopion kansion sisällöistä.</message>
+				<deletemessage>Haluatko varmasti poistaa tämän vastaavuuden?</deletemessage>
+				<deleteallmessage>Haluatko varmasti poistaa tämän kanavan kaikki vastaavuudet?</deleteallmessage>
+			</contentmirroringmapping>
+			<contentmirroringqueue>
+				<title>Kohteen "{0}" peilausjono kohteessa "{1}"</title>
+				<info>Luetteloi sivut, jotka peilataan, kun peilauspalvelu ajateaan seuraavan kerran.</info>
+				<warning>Varoitus Paketista poistettavia sivuja ei oteta mukaan, kun sivusto peilataan. Tällä voi olla seurauksia tuleviin peilauksiin. Älä valitse Poista-vaihtoehtoa, jos haluat ottaa mukaan paketin kaikki sivut, kun peilauspalvelu ajetaan seuraavan kerran.</warning>
+				<packagetitle>Paketti</packagetitle>
+				<created>Luotu</created>
+				<type>Muutoksen tyyppi</type>
+				<pagename>Sivun nimi</pagename>
+				<pageid>Sivun tunnus</pageid>
+				<deletepackage>Poista paketti</deletepackage>
+				<deletewarningi0>Haluatko varmasti poistaa muutokset jonosta?</deletewarningi0>
+				<deletewarningi1>Siirtäminen ja poistaminen on tehtävä manuaalisesti kohdesivustossa</deletewarningi1>
+				<deletewarningi2>Julkaise päivitetyt ja luodut sivut uudelleen</deletewarningi2>
+			</contentmirroringqueue>
+			<webpartadmin>
+				<heading>Rekisteröi Web-osat</heading>
+        <displayname see="/admin/webpartadmin/heading" />
+				<info>Määritä Web-osat, joiden on oltava käytettävissä kulutusta varten</info>
+				<name>Nimi</name>
+				<description>Kuvaus</description>
+				<control>Hallinta</control>
+				<producer>Tuottaja</producer>
+				<portlet>Portlet</portlet>
+				<install>Asenna Web-osa</install>
+				<consume>Käytä Portlet-sovellusta</consume>
+      </webpartadmin>
+			<webpartadminedit>
+				<heading>Muokkaa kohteen "{0}" rekisteröintiä</heading>
+				<headinginstall>Asenna Web-osa</headinginstall>
+				<headingconsume>Käytä Portlet-sovellusta</headingconsume>
+				<info>Määritä Web-osan ominaisuudet</info>
+				<infoconsume>Määritä Portlet-sovelluksen ominaisuudet</infoconsume>
+				<name>Nimi</name>
+				<description>Kuvaus</description>
+				<control>Hallinta</control>
+				<producer>Tuottaja</producer>
+				<portlet>Portlet</portlet>
+				<parameters>Parametrit</parameters>
+				<parametername>Nimi</parametername>
+				<parametervalue>Arvo</parametervalue>
+				<parametertype>Tyyppi</parametertype>				
+				<requiredfield>Arvo on syötettävä kohteelle:</requiredfield>
+				<emptyvalueerror>Parametriarvo on syötettävä</emptyvalueerror>
+				<typeconversionerror>Parametriarvoa ei voitu muuntaa valituksi tyypiksi</typeconversionerror>
+				<nameexists>Web-osa on jo olemassa nimellä "{0}"</nameexists>
+        <resolvecontrol>Komponentin selvitys</resolvecontrol>
+        <typenameresolved>Komponentti on selvitetty.</typenameresolved>
+        <typenameblank>Sinun on kirjoitettava nimi tai näennäispolku.</typenameblank>
+        <virtualpathloadfailed>Näennäispolkua ei voi ladata.</virtualpathloadfailed>
+        <assemblyloadfailed>Kokoonpanoa ladattaessa ilmeni virhe.</assemblyloadfailed>
+        <typenamenotfound>Komponenttia, jolla on määritetty tyypin nimi, ei löydy.</typenamenotfound>
+        <ambiguoustypename>Määritetty tyypin nimi on monitulkintainen. Nimi vastaa seuraavia kvalifioituja nimiä.</ambiguoustypename>
+        <invalidcontrol>Määritettyä komponenttia ei voi ladata.</invalidcontrol>
+			</webpartadminedit>
+			<contentmirroringview>
+				<heading>Kohteen yleiskuvaus</heading>
+				<info>Tälle kanavalle määritettyjen kohteiden yleiskuvaus.</info>
+			</contentmirroringview>
+		</admin>
+		<personalization>
+			<task>
+				<owner>				Tehtävän omistaja</owner>
+				<assignedto>		Henkilö jolle tehtävä on annettu</assignedto>
+				<reminder>			Muistutus</reminder>
+				<changed>			Muutettu</changed>
+				<statusrejected>		Hylätty</statusrejected>
+				<statuscompleted>		Valmis</statuscompleted>
+				<statusinprogress>		Aloitettu</statusinprogress>
+				<statusnotstarted>		Uusi</statusnotstarted>
+				<timeout see="/system/taskinc/statustimeout"/>
+				<buttonreject see="/system/taskinc/buttonreject"/>
+				<buttoncompleted see="/system/taskinc/buttondone"/>				
+				<subject see="/templates/newsgrouplist/subject"/>
+				<description>			Kuvaus</description>
+				<status>				Tila</status>
+				<comments>				Kommentit</comments>
+				<duedate>				Viimeinen eräpäivä</duedate>
+				<assignto>				Anna tehtävä</assignto>
+
+				<typenewpage>			Luo uusi sivu</typenewpage>
+				<typeapprovepage>		Olemassa oleva sivu</typeapprovepage>
+				<typeurl>				Näytä oma URL</typeurl>
+				<typeautomail>			Lähetä raportti sähköpostilla</typeautomail>
+				<buttoncontinue>		Jatka</buttoncontinue>
+				<createdby>				Luonut</createdby>
+			</task>
+		</personalization>
+		<labels>
+			<description>			Kuvaus</description>
+		</labels>
+		<multilanguageruntime>
+			<firstlanguage>Ensimmäinen kieli</firstlanguage>
+			<secondlanguage>Toinen kieli</secondlanguage>
+			<noversionexists>Valitun kielistä versiota ei ole</noversionexists>
+			<verticaldisplay>Näytä pystysuorassa</verticaldisplay>
+		</multilanguageruntime>
+		<filemanagernavigator>
+			<startingpoints>Aloituskohdat</startingpoints>
+			<myfavorites>Omat suosikit</myfavorites>
+			<uploaddir see="/util/linkeditor/uploaddir" />
+			<currentpage see="/util/linkeditor/pageuploaddir" />
+			<folders>Kansiot</folders>
+			<show>Näytä</show>
+			<hide>Piilota</hide>
+			<favoritesinfo>Voit lisätä minkä tahansa oikeanpuoleisessa luettelossa olevan kansion suosikkeihin käyttämällä hiiren kakkospainikkeella avattavaa valikkoa</favoritesinfo>			
+		</filemanagernavigator>
+		<filemanager>
+			<invalidcharacters>Nimessä on virheellisiä merkkejä</invalidcharacters>
+			<path>Polku</path>
+			<pagefoldernotcreated>Tälle sivulle ei vielä ole luotu luetteloa. Haluatko luoda sen nyt?</pagefoldernotcreated>
+			<directorytools>
+				<create>Luo hakemisto</create>
+				<createtooltip>Luo hakemisto</createtooltip>
+				<rename>Muuta nimi</rename>
+				<renametooltip>Muuta valitun tiedoston tai kansion nimi</renametooltip>
+				<delete>Poista</delete>
+				<deletetooltip>Poista valittu tiedosto tai kansio</deletetooltip>
+				<addfile>Lisää tiedosto</addfile>
+				<addfiletooltip>Lisää uusi tiedosto</addfiletooltip>
+				<security>Suojaus</security>
+				<securitytooltip>Muuta käyttöoikeudet</securitytooltip>
+				<search>Etsi</search>
+				<searchtooltip>Etsi tiedostot</searchtooltip>
+				<viewthumbnails>Näytä pikkukuvat</viewthumbnails>
+				<viewthumbnailstooltip>Näytä kaikki kuvat pikkukuvina</viewthumbnailstooltip>
+				<gouptooltip>Ylös</gouptooltip>
+			</directorytools>
+			<dhtmlsupport>
+				<viewfile>Näytä tiedostojen yhteenveto</viewfile>
+				<openfile>Avaa tiedosto</openfile>
+				<renamefile>Muuta tiedostonimi</renamefile>
+				<editsummary>Muokkaa tiedoston tietoja</editsummary>
+				<createdirectory>Luo hakemisto</createdirectory>
+				<renamedirectory>Muuta hakemiston nimi</renamedirectory>
+				<directorysecurity>Muuta käyttöoikeuksia</directorysecurity>
+				<deleteselection>Poista</deleteselection>
+				<cutselection>Leikkaa</cutselection>
+				<copyselection>Kopioi</copyselection>
+				<pasteselection>Liitä</pasteselection>
+				<addfavorite>Lisää suosikkeihin</addfavorite>
+				<removefavorite>Poista suosikki</removefavorite>
+				<uploadfile see="/filemanager/directorytools/addfile"/>
+				<uploadmultiplefiles>Lisää useita tiedostoja</uploadmultiplefiles>
+				<renameselection see="/filemanager/directorytools/rename"/>
+				<checkinselection>Kirjaa sisään</checkinselection>
+				<checkoutselection>Kirjaa ulos</checkoutselection>
+				<undocheckoutselection>Peruuta uloskirjaus</undocheckoutselection>
+				<versionlist>Versiohistoria</versionlist>
+				<addversion>Luo uusi versio</addversion>
+				<editinoffice>Muokkaa Office-ohjelmassa</editinoffice>
+			</dhtmlsupport>
+			<filetools>
+				<rename>Muuta nimi</rename>
+				<renametooltip>Muuttaa nykyisen tiedoston nimen</renametooltip>
+				<delete>Poista</delete>
+				<deletetooltip>Poista nykyinen tiedosto</deletetooltip>
+				<replacefile>Korvaa tiedosto</replacefile>
+				<replacefiletooltip>Korvaa nykyisen tiedoston uudella</replacefiletooltip>
+				<editfilesummary>Muokkaa tiedoston tietoja</editfilesummary>
+				<editfilesummarytooltip>Muuttaa nykyisen tiedoston tietoja</editfilesummarytooltip>
+				<open>Avaa</open>
+				<opentooltip>Avaa nykyisen tiedoston</opentooltip>
+			</filetools>
+			<browse>
+				<goback>Takaisin</goback>
+				<name>Nimi</name>
+				<size>Koko</size>
+				<modified>Muokattu</modified>
+				<created>Luotu</created>
+				<thumbnail>Pikkukuva</thumbnail>
+				<emptyfolder>Tämä kansio on tyhjä</emptyfolder>
+				<checkedoutby>Uloskirjaaja</checkedoutby>
+			</browse>
+			<createdirectory>
+				<title>Luo uusi hakemisto</title>
+				<name>Hakemiston nimi</name>
+				<alreadyexists>Hakemisto on jo luotu</alreadyexists>
+			</createdirectory>
+			<deleteselection>
+				<title>Poista "{0}"</title>
+				<confirmmultidelete>{0} objektia on merkitty. Haluatko varmasti poistaa ne?</confirmmultidelete>
+				<confirmfiledelete>Haluatko varmasti poistaa tiedoston?</confirmfiledelete>
+				<confirmdirectorydelete>Haluatko varmasti poistaa koko hakemiston?</confirmdirectorydelete>
+				<warningnotempty>Varoitus! Hakemisto ei ole tyhjä.</warningnotempty>
+				<warningmultinotempty>Varoitus! Kaikki hakemistot eivät ole tyhjiä.</warningmultinotempty>
+			</deleteselection>
+			<editfilesummary>
+				<title>Muokkaa kohteen {0} tietoja</title>
+				<inputtitle>Ammatti</inputtitle>
+				<inputsubject>Kuvaus</inputsubject>
+				<inputauthor>Tekijä</inputauthor>
+				<inputcategory>Luokka</inputcategory>
+				<inputcomments>Kommentit</inputcomments>
+				<inputkeywords>Avainsanat</inputkeywords>		
+			</editfilesummary>
+			<filereferencelist>
+				<gotopage>Näytä sivu</gotopage>
+				<xlinkstoy>{0} linkkiä kohteeseen {1}</xlinkstoy>
+				<referencewarning>Jos jatkat, seuraavat linkit katkeavat</referencewarning>
+				<noreferences>Ei viitteitä</noreferences>
+			</filereferencelist>
+			<pasteselection>
+				<title>Liitä {0}</title>
+				<confirmcopy>{0} objektia on merkitty. Haluatko kopioida ne tänne?</confirmcopy>
+				<confirmmove>{0} objektia on merkitty. Haluatko siirtää ne tänne?</confirmmove>
+				<alreadyexists>Toiminto keskeytettiin, sillä seuraavat objektit ovat jo olemassa</alreadyexists>
+				<cannotcopyinsideitselfmessage>Toiminto keskeytettiin, sillä kopiota seuraavasta hakemistosta ei voi liittää itseensä</cannotcopyinsideitselfmessage>
+				<cannotmoveinsideitselfmessage>Toiminto keskeytettiin, sillä seuraavaa ulosleikattua hakemistoa ei voi siirtää itseensä</cannotmoveinsideitselfmessage>
+			</pasteselection>
+			<renamedirectory>
+				<title>Muuta kohteen {0} nimi</title>
+				<newname>Anna uusi hakemiston nimi</newname>		
+			</renamedirectory>
+			<renamefile>
+				<title>Muuta kohteen {0} nimi</title>
+				<newname>Anna uusi tiedoston nimi</newname>
+				<alreadyexists>Tämänniminen tiedosto on jo olemassa</alreadyexists>
+			</renamefile>
+			<viewfile>
+				<linkingpages>Sivut linkkeinä</linkingpages>
+				<backtofolder>Takaisin hakemistoon</backtofolder>
+			</viewfile>
+			<uploadfile>
+				<title>Lisää tiedosto</title>
+				<selectfile>Valitse lisättävä tiedosto</selectfile>
+				<confirmreplacefile>Tämänniminen tiedosto on jo olemassa. Haluatko korvata sen?</confirmreplacefile>
+			</uploadfile>
+			<directorysecurity>
+				<title>Kohteen {0} oikeuksien muuttaminen</title>
+				<inheritsecurity>Käytä ylemmän kansion käyttöoikeuksia</inheritsecurity>
+			</directorysecurity>
+			<search>
+				<locations>Kansiot</locations>
+				<query>Etsi tekstiä</query>
+				<currentdirectory>Nykyinen kansio</currentdirectory>
+				<numberofhits>Osumien määrä</numberofhits>
+				<modifiedfrom>Muokattu aikaisintaan</modifiedfrom>
+				<modifiedto>Muokattu viimeistään</modifiedto>
+				<filename>Tiedoston nimi</filename>
+				<filedirectory>Hakemisto</filedirectory>
+				<searchlimited>Tulokset rajoitetaan {0} parhaaseen osumaan</searchlimited>
+				<filenamepattern>Tiedoston nimi</filenamepattern>
+				<allpagefolders>Sivujen omat hakemistot</allpagefolders>
+				<viewfileinfo see="/filemanager/dhtmlsupport/viewfile"/>
+				<gotodirectory>Siirry kansioon</gotodirectory>
+				<advancedoptions>Lisäasetukset</advancedoptions>
+			</search>
+						<newpage>Uusi sivu</newpage>
+			<checkinselection>
+				<title>Tiedoston sisäänkirjaus</title>
+				<currentfile see="/filemanager/search/filename"/>
+				<selectversion>Valitse uusi versio</selectversion>
+				<comments>Kommentit</comments>
+				<filexofy>tiedosto {0}/{1}</filexofy>
+				<filenotcheckedout>Tiedostoa ei ole kirjattu ulos</filenotcheckedout>
+			</checkinselection>
+			<addversion>
+				<title>Luo uusi versio</title>
+			</addversion>
+			<versionlisttoolbar>
+				<restore>Palauta versio</restore>
+				<restoretooltip>Palauta täksi versioksi</restoretooltip>
+				<delete>Poista</delete>
+				<deletetooltip>Poista versio</deletetooltip>
+				<addversion>Luo versio</addversion>
+				<addversiontooltip>Luo uusi versio</addversiontooltip>
+				<download>Lataa</download>
+				<downloadtooltip>Lataa versio</downloadtooltip>
+				<copyshortcut>Kopioi pikavalinta</copyshortcut>
+			</versionlisttoolbar>
+			<versionlist>
+				<title>Versiohistoria: {0}</title>
+				<version>Versio</version>
+				<created see="/filemanager/browse/created"/>
+				<createdby>Tekijä</createdby>
+				<size see="/filemanager/browse/size"/>
+				<comments>Kommentit</comments>
+			</versionlist>
+      <unauthorizedpagefoldercreation>Sinulla ei ole oikeuksia luoda sivukansiota tätä sivua varten.</unauthorizedpagefoldercreation>
+		</filemanager>
+		<webcontrols>
+			<explorertree>
+			<!--
+				<infonotpublished>	Ej publicerad</infonotpublished>
+				<infoexpired>		, löpte ut {0}</infoexpired>
+				<infonotstarted>	, börjar {0}</infonotstarted>
+			-->	
+				<statuscreator>				Olet laatinut tämän sivun</statuscreator>
+				<statusexpired>				Sivu vanheni {0}</statusexpired>
+				<statusnotstarted>			Sivu tulee näkyviin {0}</statusnotstarted>
+				<statusnotpublished>		Sivua ei ole julkaistu</statusnotpublished>
+				<statusnotvisibleinmenu>	Sivua ei näy valikoissa.</statusnotvisibleinmenu>
+				<statusreadonly>			Oikeutesi eivät riitä sivun muuttamiseen</statusreadonly>
+				<statusnew>					Sivu laadittiin äsken</statusnew>
+				<statusrestricted>			Kaikki eivät voi käyttää sivua</statusrestricted>
+				<statuslanguagemissing>Käytössä olevan kielen mukainen sivu puuttuu, eikä sitä näytetä</statuslanguagemissing>
+				<statuslanguagefallback>Sivu näytetään jollakin toisella kielellä</statuslanguagefallback>
+			</explorertree>
+			<paging>
+				<firstpage>Ensimmäinen sivu</firstpage>
+				<prevpage>Edellinen sivu</prevpage>
+				<currentpage>Nykyinen sivu</currentpage>
+				<pagenumber>Sivu {0}</pagenumber>
+				<nextpage>Seuraava sivu</nextpage>
+				<lastpage>Viimeinen sivu</lastpage>
+			</paging>
+		</webcontrols>
+		<exceptionmanager>
+			<errorform>
+				<description>Otamme mielellämme vastaan tietoja virhetilanteista, jotta voimme korjata mahdolliset virheet. Kerro myös, mitä napsautit virheen tapahtuessa.</description>
+				<sendbutton>Lähetä viesti</sendbutton>
+				<messagesenttitle>Viesti on lähetetty</messagesenttitle>
+				<messagesentdescription>Viestisi on lähetetty. Perehdymme virheen kuvaukseen ja ryhdymme tarvittaviin toimenpiteisiin.</messagesentdescription>
+			</errorform>
+			<httperrors>
+				<status code="500">
+					<title>Sivua ei voi ladata</title>
+					<description>Antamasi linkki ei toimi. Syynä voi olla tilapäinen käyttökatkos tai virheellinen linkki.</description>
+				</status>
+				<status code="404">
+					<title>Virheellinen linkki</title>
+					<description>Antamasi linkki ei toimi. Sivu on joko poistettu tai sen osoite on muuttunut. Jos napsautit linkkiä, ole hyvä ja ilmoita virheestä sivuston vastuuhenkilölle.</description>
+				</status>
+			</httperrors>
+			<exceptions>
+				<exception type="EPiServer.Core.AccessDeniedException">
+					<title>Käyttö kielletty</title>
+					<description>Oikeutesi eivät riitä sivun katseluun.</description>
+				</exception>
+				<exception type="EPiServer.Core.PageNotFoundException">
+					<title>Sivua ei ole</title>
+					<description>Antamasi linkki ei toimi. Sivu on joko poistettu tai sen osoite on muuttunut. Jos napsautit linkkiä, ole hyvä ja ilmoita virheestä sivuston vastuuhenkilölle.</description>
+				</exception>
+			</exceptions>
+		</exceptionmanager>
+		<clienttools>
+			<wizard>
+				<selectpagelanguage>Kieli</selectpagelanguage>
+				<createpage>Valitse asiakirjan pohjalta laadittavan sivun tyyppi.</createpage>
+				<editpage>Sivun tyypiksi on valittu {0}. Täytä tiedot, kuten sivun nimi ja mahdolliset julkaisuajat.</editpage>
+				<doneblock1>Siinä kaikki!</doneblock1>
+				<doneblock2>Voit sulkea tämän valintaikkunan ja aloittaa sivun esikatselun valitsemalla Tallenna-vaihtoehdon.</doneblock2>
+				<nosupport>{0}-tunnistetta ei tueta.</nosupport>
+				<noextension>Tiedoston {0} tunniste puuttuu, joten tiedostoa ei tunnisteta.</noextension>
+			</wizard>
+			<preview>
+				<tooltipclose>Sulje ikkuna ja kumoa muutokset.</tooltipclose>
+			</preview>
+			<installstatus>
+				<heading>Työasemaohjelma</heading>
+				<registersite>Rekisteröi sivusto</registersite>
+				<componentname>Osa</componentname>
+				<componentdescription see="/labels/description" />
+				<componentversion>Versio</componentversion>
+				<componentstatus>Tila</componentstatus>
+				<statusinstalled>Osa on asennettu</statusinstalled>
+				<statusnotinstalled>Osaa ei ole asennettu</statusnotinstalled>
+				<statusloading>Tarkistetaan tilaa...</statusloading>
+				<upgrade>Päivitä</upgrade>
+				<install>Asenna</install>
+				<installversion>Asenna versio {0}</installversion>
+				
+				<officeaddin>
+					<noaccess>Tämän lisäohjelman asentaminen ja käyttäminen edellyttää pääkäyttäjän oikeuksia.</noaccess>
+					<heading>Microsoft Office -lisäohjelma</heading>
+					<intro>Tämä lisäohjelma mahdollistaa tietojen julkaisemisen EPiServer-palvelimeen Microsoft Word-, Microsoft Excel- ja Microsoft PowerPoint -ohjelmistoista.</intro>
+					<installation>Asentaminen</installation>
+					<activated>Tämä sivusto on aktivoitu julkaisemista varten tietokoneestasi</activated>
+					<notactivated>Tämä sivusto ei ole aktivoitu julkaisemista varten tietokoneestasi</notactivated>
+					<confirmactivate>Haluatko aktivoida tämän sivuston julkaisemista varten</confirmactivate>
+					<confirmdeactivate>Haluatko inaktivoida tämän sivuston julkaisemista varten</confirmdeactivate>
+					<needssave>Asiakirja on tallennettava ennen julkaisemista EPiServeriin, haluatko tehdä sen heti?</needssave>
+				</officeaddin>
+				
+				<components>
+					<heading>Osat</heading>
+					<intro>Tietyt toiminnot edellyttävät, että tietokoneeseen on asennettu EPiServer Client Components -osat. Osien tila näkyy alla olevassa luettelossa.</intro>
+					<currentversion>Käytössä on {1} -versio {0}.</currentversion>
+					<componentshelltools>
+						<heading>Työasematukitoiminnot</heading>
+						<description>EPiServer-yhteyden tukitoiminnot, joita esimerkiksi Microsoft Office -lisäohjelma käyttää</description>
+					</componentshelltools>
+					<componentspellchecker>
+						<heading>Oikeinkirjoituksen tarkistus, Microsoft Office -yhteys</heading>
+						<description>Microsoft Wordin oikeinkirjoituksen tarkistusta käyttävä osa</description>	
+					</componentspellchecker>
+					<componentexcelexport>
+						<heading>Excel-vienti, Microsoft Office -yhteys</heading>
+						<description>Lomaketietoja Microsoft Exceliin vievä osa</description>
+					</componentexcelexport>
+					<componentmultiupload>
+						<heading>Kehittyneet tiedoston lataustoiminnot</heading>
+						<description>Komponentti, joka tukee kehittyneitä tiedoston lataustoimintoja, kuten vetämistä ja pudottamista.</description>
+					</componentmultiupload>
+				</components>
+			</installstatus>
+		</clienttools>
+		<pagetypes>
+			<common>				
+				<property name="PageName">
+					<caption>	Nimi</caption>
+					<help>		Sivun nimi, näkyy esimerkiksi otsikkona valikoissa.</help>
+				</property>
+				<property name="PageLink">
+					<caption>	Sivun tunnus</caption>
+					<help>		Määritä sivun yksilöivä tunnusnumero.</help>
+				</property>
+				<property name="PageChangedOnPublish">
+					<caption>   Merkitse sivu muutetuksi</caption>
+					<help>		Sivun muuttamispäivämäärä päivitetään, jos tämä ruutu on valittu. On vaatimuksena, jotta sivu otetaan mukaan esimerkiksi tilauksiin.</help>
+				</property>
+				<property name="PageStartPublish">
+					<caption>	Aloita julkaisu</caption>
+					<help>		Julkaise tästä päivämäärästä alkaen. Jos kenttä jätetään tyhjäksi, sivu julkaistaan heti, kun napsautat julkaisupainiketta.</help>
+				</property>
+				<property name="PageStopPublish">
+					<caption>	Lopeta julkaisu</caption>
+					<help>		Julkaise tähän päivämäärään asti. Jos kenttä jätetään tyhjäksi, sinun on poistettava sivu itse, jotta sen julkaisu lopetetaan.</help>
+				</property>
+				<property name="PageDelayedPublish">
+					<caption>	Tuleva julkaiseminen</caption>
+					<help>		Jos merkitset ruutuun rastin, tämä versio julkaistaan automaattisesti julkaisemisen aloituspäivänä.</help>
+				</property>
+				<property name="PageChildOrderRule">
+					<caption>	Lajittelujärjestys</caption>
+					<help>		Määrittää, missä järjestyksessä tämän sivun alasivut näytetään.</help>
+				</property>
+				<property name="PagePeerOrder">
+					<caption>	Lajitteluindeksi</caption>
+					<help>		Määritä kokonaisluku, joka vastaa tämän sivun indeksilukua. Jos valitset yläsivulle lajittelujärjestyksen &quot;Lajitteluindeksin mukaan&quot;, sivu, jonka indeksi on pienin, näytetään ylimpänä.</help>
+				</property>
+				<property name="PageVisibleInMenu">
+					<caption>	Näytä sivu valikoissa</caption>
+					<help>		Merkitse tämä valintaruutu, jos haluat, että sivu näytetään valikoissa. Jos ruutu on tyhjä, sivu näytetään ainoastaan luetteloissa.</help>
+				</property>
+				<property name="PageFrameID">
+					<caption>	Kohdekehys</caption>
+					<help>		Määrittää kuinka linkki avataan (target &lt;a href&gt; tagissa).</help>
+				</property>
+				<property name="PageArchiveLink">
+					<caption>	Arkistoi sivulle</caption>
+					<help>		Tämä sivu voidaan arkistoida tiettyyn paikkaan, kun &quot;Lopeta julkaisu -päivämäärä&quot; on ohitettu. Määritä, mitä sivua käytetään arkistona.</help>
+				</property>
+				<property name="PageCreated">
+					<caption>	Luotu</caption>
+					<help>		Päivämäärä jolloin sivu luotiin.</help>
+				</property>
+				<property name="PageChanged">
+					<caption>	Muutettu</caption>
+					<help>		Päivämäärä jolloin sivu viimeksi muutettiin.</help>
+				</property>
+				<property name="PageTypeName">
+					<caption>	Sivun tyyppi</caption>
+					<help>		Tämän sivun tyypin nimi.</help>
+				</property>
+				<property name="PageExternalURL">
+					<caption>	Sivun yksinkertainen osoite</caption>
+					<help>		Kertoo sivuston pääosoitteesta lähtevän sivun polun, esimerkiksi &quot;/tuotteet&quot;. Sivun osoite voidaan lyhentää niin, ettei lainausmerkkejä tai muita symboleja käytetä. Käyttäjä kirjoittaa pelkästään www.yritys.fi/tuotteet, ja sivu tulee näkyviin. </help>
+				</property>
+				<property name="PageCategory">
+					<caption>	Luokat</caption>
+					<help>		Valitse luokka, johon sivusto yhdistetään. </help>
+				</property>
+				<property name="PageShortcutType">
+					<caption>	Linkin tyyppi</caption>
+					<help>		Valitse luettelosta minkä tyyppistä linkkiä haluat käyttää</help>
+				</property>
+				<property name="PageShortcutLink">
+					<caption>	Sisäinen pikakuvake/Tietojen noutaminen</caption>
+					<help>		Sivu avaa toisen sivun ja siirtää käyttäjän rakenteen oikealle sivulle (Tietojen noutaminen näyttää toisen sivun sisällön). </help>
+				</property>
+				<property name="PageLinkURL">
+					<caption>	Ulkoinen linkki</caption>
+					<help>		Näyttöön tulee ulkoisen sivun tai asiakirjan tiedot.</help>
+				</property>
+				<property name="PageTargetFrame">
+					<caption>	Kohdekehys</caption>
+					<help>		Määrää, kuinka linkki avautuu (&lt;a href&gt;-osoitteen kohde)</help>
+				</property>
+				<property name="PageLanguageID">
+					<caption>	Sivun kielikoodi</caption>
+					<help>		Käytetään sivun avaamisen jollakin muulla kuin järjestelmän kielellä</help>
+				</property>
+				<property name="PageURLSegment">
+					<caption>	Sivun nimi Web-osoitteessa</caption>
+					<help>		Anna sivulle nimilyhenne, jota käytetään Web-osoitteessa</help>
+				</property>	
+			</common>	
+			<pagetype name="SysRoot">
+ 				<name>Tervetuloa-sivu muokkaustilassa</name>
+ 				<description>Ensimmäinen sivu muokkaustilassa</description>
+			</pagetype>  
+			<pagetype name="SysRecycleBin">
+ 				<name>Roskakori</name>
+ 				<description>Sivuston roskakorin puurakenne.</description>
+			</pagetype>					
+		</pagetypes>
+		<episerver.webparts>
+			<verbs>
+				<add>Lisää</add>
+				<apply>Käytä</apply>
+				<cancel>Peruuta</cancel>
+				<close>Sulje</close>
+				<configure>Määritä kokoonpano</configure>
+				<connect>Yhdistä</connect>
+				<delete>Poista</delete>
+				<disconnect>Katkaise yhteys</disconnect>
+				<edit>Muokkaa</edit>
+				<editwsrp>Muokkaa Portlet-sovellusta</editwsrp>
+				<export>Vie</export>
+				<help>Ohje</help>
+				<maximize>Maksimoi</maximize>
+				<minimize>Minimoi</minimize>
+				<ok>OK</ok>
+				<restore>Palauta</restore>
+				<solo>Solo</solo>
+				<view>Näytä</view>
+			</verbs>
+			<webcontrols>
+				<wsrp>
+					<portletcatalogpart>
+						<producer>Tuottaja</producer>
+					</portletcatalogpart>
+				</wsrp>
+				<catalogzone>
+					<emptyzonetext>Luettelovyöhyke ei sisällä luettelon osia.</emptyzonetext>
+					<selecttargetzonetext>Lisää kohteeseen:</selecttargetzonetext>
+					<headertext>Luettelovyöhyke</headertext>
+					<instructiontext>Valitse luettelo, jota haluat selata.</instructiontext>
+				</catalogzone>
+				<connectionszone>
+					<configureconnectiontitle>Määritä yhteys</configureconnectiontitle>
+					<connecttoconsumerinstructiontext>Luo kuluttajan yhteydet tätä Web-osaa varten.</connecttoconsumerinstructiontext>
+					<connecttoconsumertext>Luo yhteys kuluttajaan</connecttoconsumertext>
+					<connecttoconsumertitle>Lähetä tiedot Web-osaan</connecttoconsumertitle>
+					<connecttoproviderinstructiontext>Luo tuottajan yhteydet tätä Web-osaa varten.</connecttoproviderinstructiontext>
+					<connecttoprovidertext>Luo yhteys tuottajaan</connecttoprovidertext>
+					<connecttoprovidertitle>Hae tiedot Web-osasta</connecttoprovidertitle>
+					<consumersinstructiontext>Web-osat, joihin nykyinen Web-osa lähettää tietoja:</consumersinstructiontext>
+					<consumertitle>Kuluttajat</consumertitle>
+					<existingconnectionerrormessage></existingconnectionerrormessage>
+					<getfromtext>Mistä:</getfromtext>
+					<gettext>Hae:</gettext>
+					<headertext>Yhteyksien vyöhyke</headertext>
+					<instructiontext>Käytä nykyisen Web-osan yhteyksiä.</instructiontext>
+					<instructiontitle>Käytä kohteen {0} yhteyksiä</instructiontitle>
+					<newconnectionerrormessage></newconnectionerrormessage>
+					<noexistingconnectioninstructiontext>Web-osassa ei ole käytettävissä aktiivisia yhteyksiä. Voit luoda uuden yhteyden valitsemalla yllä olevat linkit, jos sivulla on yhteensopivia Web-osia.</noexistingconnectioninstructiontext>
+					<noexistingcinnectiontitle>Ei aktiivisia yhteyksiä</noexistingcinnectiontitle>
+					<providersinstructiontext>Web-osat, joista nykyinen Web-osa saa tietoja:</providersinstructiontext>
+					<providerstitle>Tuottajat</providerstitle>
+					<sendtext>Lähetä:</sendtext>
+					<sendtotext>Mihin:</sendtotext>
+				</connectionszone>
+				<displaymodedropdown>
+					<browse>Selaa</browse>
+					<design>Malli</design>
+					<catalog>Luettelo</catalog>
+					<edit>Muokkaa</edit>
+					<connect>Yhdistä</connect>
+				</displaymodedropdown>
+				<editorzone>
+					<emptyzonetext>Editorivyöhyke ei sisällä editorin osia.</emptyzonetext>
+					<errortext>Virhe käytettäessä yhtä tai useampaa editorin osaa.</errortext>
+					<headertext>Editorivyöhyke</headertext>
+					<instructiontext>Muuta Web-osan ominaisuuksia, valitse sitten OK tai Käytä, jotta muutoksen tulevat voimaan.</instructiontext>
+				</editorzone>
+				<scopedropdown>
+					<user>Muutokset ovat yksityisiä</user>
+					<all>Muutokset ovat jaettuja</all>
+				</scopedropdown>
+				<extendedwebpartzone>
+					<emptyzonetext>Lisää Web-osa tähän vyöhykkeeseen vetämällä RSS-syöte tai valitsemalla se kansiosta.</emptyzonetext>
+				</extendedwebpartzone>
+			</webcontrols>
+		</episerver.webparts>
+		<wsrp>
+			<portlets>
+				<wsrpinfoservicecontrol>
+				    <title>EPiServer-tietojen katseluohjelman Portlet-sovellus</title>
+					<description>Näytä EPiServerin tiedot</description>
+					<shorttitle>Tietojen katseluohjelma</shorttitle>
+					<displayname>Tietojen katseluohjelma</displayname>
+					<keywords>EPiServer</keywords>
+					<keywords>Tiedot</keywords>
+				</wsrpinfoservicecontrol>
+				<wsrpiframecontrol>
+					<title>EPiServer IFrame -Portlet-sovellus</title>
+					<description>Näytä tiedot IFramessa</description>
+					<shorttitle>IFrame-Portlet-sovellus</shorttitle>
+					<displayname>IFrame</displayname>
+					<keywords>IFrame</keywords>
+				</wsrpiframecontrol>
+				<wsrprsscontrol>
+					<title>EPiServer RSS -Portlet-sovellus</title>
+					<description>Näytä RSS-lähteen tiedot</description>
+					<shorttitle>RSS -Portlet-sovellus</shorttitle>
+					<displayname>RSS</displayname>
+					<keywords>RSS</keywords>
+					<keywords>Rich-sivuston yhteenveto</keywords>
+					<keywords>Real Simple Syndication</keywords>
+				</wsrprsscontrol>
+				<wsrpnewschannelcontrol>
+					<title>EPiServer-uutiskanavan Portlet-sovellus</title>
+					<description>Näytä EPiServerin uutiset</description>
+					<shorttitle>Uutiskanavan Portlet-sovellus</shorttitle>
+					<displayname>Uutiskanava</displayname>
+					<keywords>Uutiset</keywords>
+				</wsrpnewschannelcontrol>
+				<wsrpusersettingscontrol>
+					<title>EPiServerin käyttäjäasetusten Portlet-sovellus</title>
+					<description>Määritä käyttäjäasetukset</description>
+					<shorttitle>Käyttäjän asetusten Portlet-sovellus</shorttitle>
+					<displayname>Käyttäjän asetukset</displayname>
+				</wsrpusersettingscontrol>
+			</portlets>
+		</wsrp>
+	</language>
+</languages>

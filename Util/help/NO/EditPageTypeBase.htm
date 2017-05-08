@@ -1,0 +1,107 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjelp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/EditPageTypeBase.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="../SV/EditPageTypeBase.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+    <a href="../NO/EditPageTypeBase.htm">
+    <img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Opprette ny sidetype</h1>
+	En administrator oppretter vanligvis ikke nye sidetyper. Dette er som regel 
+	en utviklers oppgave. Hver sidetype er koblet til en ASPX-side (sidemal) der 
+	all funksjonalitet på siden programmeres. Hvis du ikke har kunnskaper om 
+	hvordan du programmerer i ASP.NET, bør du ikke lage nye sidetyper. Det som 
+	gjøres i administratormodus er at man oppretter de skjemafeltene som 
+	redaktørene skal fylle ut.
+    <p>Hvis du vil skape en ny sidetype, velger du <i>Opprett ny sidetype</i> 
+	til venstre på menyen i administratormodus. Fyll ut feltene som vises på de 
+	tre fanene Informasjon, Standardverdi og Tilgjengelige sidetyper. </p><h2>Informasjon</h2>
+
+    <p>
+    <img border="0" src="images/admin_pagetypes_default.png" width="490" height="220"></p>
+    <h3>Navn</h3>
+	Her angis navnet på sidetypen.<br>
+	<h3>Beskrivelse</h3>
+	Her angis teksten som beskriver sidetypen. Navn og beskrivelse er 
+	informasjonen som vises når en redaktør velger å opprette en ny side. <br>
+	<h3>Filnavn</h3>
+	Her angis banen og filnavnet til sidemalen som skal brukes til å opprette 
+	selve websiden for den besøkende. Dette navnet bør ikke endres, fordi hver 
+	sidetype er knyttet til en bestemt sidemal slik at den får riktig design og 
+	alle data kommer med. 
+	<h3>Tilgjengelig i redigeringsmodus</h3>
+	Hvis du merker av for Tilgjengelig i redigeringsmodus, kan redaktørene 
+	opprette sider basert på denne sidetypen. I enkelte moduser kan det være 
+	hensiktsmessig å skjule enkelte sidetyper for redaktørene. Ett eksempel kan 
+	være sidetypen Diskusjonsforum. Det er ganske vanlig at man bare vil ha ett 
+	diskusjonsforum på webområdet, og ikke flere på ulike steder. Da oppretter 
+	du det ene forumet og skjuler deretter sidetypen. Da får redaktørene ikke 
+	tilgang til malen, og de kan dermed ikke opprette flere.<br>
+	<h3>Sorteringsindeks</h3>
+	Sorteringsindeksen avgjør hvordan de ulike sidetypene skal sorteres i 
+	listen, når redaktøren velger å opprette en ny side. Sidetypen med lavest 
+	sorteringsindeks kommer først.Standardvärden</h2>
+    För att hjälpa och underlätta för redaktörerna kan det vara 
+    lämpligt att använda sig av standardvärden. Du som administratör kan då 
+    anpassa en specifik sidtyp så att redaktören inte behöver förändra så mycket 
+    på sidan. Ett exempel kan vara att man vill att publiceringstiden skall 
+    fyllas i automatiskt. Man kan då bestämma hur lång tid efter skapandet av 
+    sidan som sidan skall börja publiceras.<h2>Standardverdi</h2>
+	Hvis du vil hjelpe redaktørene og gjøre arbeidet lettere for dem, kan det 
+	være hensiktsmessig å bruke standardverdier. Du som administrator kan da 
+	tilpasse en bestemt sidetype slik at redaktøren ikke trenger endre så mye på 
+	siden. Et eksempel kan være å la publiseringstidspunktet fylles ut 
+	automatisk. Da kan du bestemme hvor lang tid det skal gå før siden 
+	publiseres etter at den er opprettet. Standardverdiene som angis i malen, 
+	kan om nødvendig endres av redaktøren</p>
+	<p>
+<img border="0" src="images/admin_pagetypes_defaultvalu.png" width="490" height="259"></p>
+    <p>
+    <h2>Tilgjengelige sidetyper</h2>
+	Her kan du velge hvilke sidetyper som skal være tilgjengelige for redaktøren 
+	når denne oppretter en underside til sidetypen du redigerer. Velg alle 
+	sidetyper eller velg ut noen bestemte. Dette kan være praktisk for eksempel 
+	for kalender eller nyhetsliste. Undersider til sidetypen kalender bør være 
+	av sidetypen kalenderhendelse. Ved å gi redaktøren tilgang bare til denne 
+	sidetypen unngår du at det oppstår feil.<p>
+    <img border="0" src="images/admin_pagetypes_avaible.png" width="490" height="328"><h1>Redigere sidetype</h1>
+	Når du skal redigere en sidetype, klikker du sidetypens navn i venstre kant. 
+	Sidetypens ulike egenskaper vises til høyre. Ved å velge <i>Innstillinger</i> kan 
+	du endre hovedinformasjonen om sidetypen etter behov. Innstillingene for 
+	hver sidetype finnes på tre faner, <i>Informasjon</i>, <i>Standardverdi</i> og 
+	<i>Tilgjengelige sidetyper</i>.</td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Les mer i <a href="Redaktørhåndbok_online.pdf">
+    Redaktørhåndbok</a> - Les mer i <a href="Adminhåndbok_online.pdf">
+    Administratørhåndbok</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

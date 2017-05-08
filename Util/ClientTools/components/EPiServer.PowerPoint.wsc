@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?component debug="false" error="true"?>
+<component>
+
+	<registration
+		description="EPiServer.ClientTools.PowerPoint"
+		progid="EPiServer.ClientTools.PowerPoint"
+		version="1.00"
+		classid="{9B82664A-37A5-4ff6-B099-8880FA5DF384}"
+	>
+	</registration>
+
+	<public>
+		<method name="Convert">
+			<parameter name="oConfig"/>
+		</method>
+		
+		<method name="Cleanup">
+		</method>
+	</public>
+
+	<!-- bring in the EPiServer.ShellTools typelibrary -->
+	<reference guid="{C4326BBC-1DC1-4935-94BF-0911866090B8}" />
+	
+	<!-- internals -->
+	<object id="fso" progid="Scripting.FileSystemObject"/>
+
+	<script language="VBScript">
+	<![CDATA[
+
+		Option Explicit
+
+		Dim deleteFolder
+
+		'** std COM error codes
+		Const S_OK				= &H00000000
+		Const E_FAIL			= &H80004005
+
+		Const xlDoNotSaveChanges	= 0
+		Const ppSaveAsPNG			= 18
+		Const ppSaveAsHtml			= 12
+		Const msoEncodingUTF8		= 65001
+		Const msoScreenSize544x376  = 0
+
+		Function Cleanup()
+
+			
+		End Function
+
+		Function Convert( oConfig )
+		
+			oConfig.DebugWrite "Entering PowerPoint Convertor (script file)"
+						
+			Convert = S_OK
+			'On Error Resume Next
+
+			Dim app
+
+			Set app = CreateObject( "PowerPoint.Application" )
+
+			Dim ResourceFolder
+			Dim TempFolder
+			TempFolder = fso.GetSpecialFolder(2).Path
+
+			If Err.Number = 0 Then 
+
+				Dim doc
+
+				Set doc = app.Presentations.Open( oConfig.FilePath, false, false, false )
+
+				If Err.Number = 0 Then 
+					
+					Dim fileName
+					Dim slashPos, dotPos, originalFolderPath, resourceFolderName,newFilePath
+					
+					' Create temp dir
+					slashPos = InstrRev( oConfig.FilePath, "\" )
+					dotPos = InstrRev( fileName, "." )
+					
+					fileName = Right( oConfig.FilePath, Len(oConfig.FilePath) - slashPos )
+					originalFolderPath = Right( oConfig.FilePath, Len(oConfig.FilePath) - slashPos )
+					oConfig.PageName = fileName
+					newFilePath = TempFolder & "\" & Replace(fileName, ".", "_")
+
+					ResourceFolder = newFilePath
+
+					If fso.FolderExists(ResourceFolder) Then
+						fso.DeleteFolder( ResourceFolder )
+					End If
+					
+					Set folder = fso.CreateFolder(ResourceFolder)
+					
+					With doc.WebOptions
+						.OrganizeInFolder = true
+						.UseLongFileNames = true
+						.RelyOnVML = false
+						.AllowPNG = false
+						.ScreenSize = msoScreenSize544x376
+						.Encoding = msoEncodingUTF8
+					End With
+					
+					doc.SaveAs ResourceFolder, ppSaveAsPNG										
+					
+					Dim folder,html,files, file
+					html = "<html><body>"
+					
+					Set files = folder.Files
+					
+					For Each file in files
+						html = html & "<img src=""<%RESOURCEFOLDER%>/" & file.Name & """width=""100%"" />"
+					Next
+					
+					html = html & "</body></html>"
+					
+					Dim htmlFile
+					
+					Set htmlFile = fso.CreateTextFile(ResourceFolder + "\episerver.html", true)
+					
+					htmlFile.Write html
+					htmlFile.Close
+										
+					doc.SaveAs ResourceFolder + "\page.html", ppSaveAsHtml
+					doc.Close		
+					
+					resourceFolderName = MoveResourceFilesUpOnLevel(folder)
+					Call MakeResourceLinksRelative(ResourceFolder + "\page.html", resourceFolderName)
+					
+					Set doc				= Nothing
+					oConfig.UploadFolder= ResourceFolder
+					
+				End If
+
+				' Powerpoint may open presentation in existing app
+				If Not app.Visible Then
+					app.Quit
+				End If
+
+			End If
+
+			If Err.Number > 0 Then 
+				Convert = E_FAIL
+			End If
+
+			Set app = Nothing
+
+			oConfig.DebugWrite "Leaving PowerPoint Convertor (script file)"
+			
+		End Function
+		
+		Function MoveResourceFilesUpOnLevel(folder)
+		
+			Dim subFolders,subFolder
+			
+			Set subFolders = folder.SubFolders
+					
+			If subFolders.Count > 0 Then
+				For Each subFolder in subFolders
+					fso.CopyFile subFolder.Path + "\*.*", folder.Path + "\"
+					MoveResourceFilesUpOnLevel = subFolder.Name
+					subFolder.Delete
+				Next
+			End If
+		
+		End Function
+		
+		Function MakeResourceLinksRelative(filePath, resourceFolderName)
+			
+			Dim htmlFile
+			Set htmlFile = fso.OpenTextFile(filePath , 1, False )
+	
+			Dim sLine
+			Dim fCollect
+			
+			Dim parsedHtml
+			
+			parsedHtml = ""
+			
+			fCollect = False
+			While Not htmlFile.AtEndOfStream
+			
+				sLine = htmlFile.ReadLine					
+				parsedHtml = parsedHtml & Replace(sLine, Replace(resourceFolderName," ", "%20"), "<%RESOURCEFOLDER%>" ) & vbCrLf
+
+			Wend
+			
+			Set htmlFile = Nothing
+			
+			Set htmlFile = fso.CreateTextFile(filePath, true)
+			htmlFile.Write parsedHtml
+			htmlFile.Close
+			
+			Set htmlFile = Nothing
+			
+		End Function
+
+	]]>
+	</script>
+
+</component>

@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Help in EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="Rebuildlinks.htm">
+    <img border="0" src="images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="../SV/Rebuildlinks.htm">
+    <img border="0" src="images/sv.gif" alt="Svenska" width="20" height="14"></a>
+     <a href="../NO/Rebuildlinks.htm">
+    <img border="0" src="images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Rebuild Web Addresses</h1>
+    
+	<p>The <i>Rebuild Web Addresses</i> function is not often 
+	used, but you may need to rebuild links if the root directory has been 
+	changed or if you have replaced the page template that is linked to a 
+	specific page type. </p>
+	<p>The <i>Update Web addresses for all pages</i> option is very 
+	rarely used because another EPiServer functionality handles the problem. 
+	However, errors may occur that this function will correct. One scenario: You 
+	have a page type, such as a normal Web page, that is linked to the page 
+	template Page.aspx. You change it so that it is linked to page template 
+	Page2.aspx instead. Normally, EPiServer re-associates all pages created with 
+	the former page type, and they display using the new page template. There 
+	may be exceptions, though, where pages still display using Page.aspx. In 
+	this case, you will need to rebuild the links with the <i>Update addresses 
+	for all pages</i> function. </p>
+	<p>Use the function <i>Specify old root folder to be replaced</i> if you have moved the root directory on the 
+	server. If you do not rebuild the links, the internal links for the whole 
+	Web site will be incorrect. To rebuild links, specify the old root directory 
+	and select <i>OK</i>.</p>
+
+	<p>
+    <img border="0" src="images/admin_rebuildlinks.png" width="490" height="234"></td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Read more in <a href="Editorsmanual_online.pdf">Editor's Manual</a> - Read more in 
+    <a href="Administratorsmanual_online.pdf">Administrator’s Manual</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

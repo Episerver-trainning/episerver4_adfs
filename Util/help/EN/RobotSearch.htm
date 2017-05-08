@@ -1,0 +1,73 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Help in EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="RobotSearch.htm">
+    <img border="0" src="images/uk.gif" alt="English"></a>
+    <a href="../SV/RobotSearch.htm">
+    <img border="0" src="images/sv.gif" alt="Svenska"></a>
+	<a href="../NO/RobotSearch.htm">
+	<img border="0" src="images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Manage Web Addresses</h1>
+ 
+	<p>The adress to the Web site can be shown in the address 
+	field in three different ways with EPiServer. It can be completely dynamic 
+	and reproduce the unique page’s ID number. The dynamic address can also be 
+	adapted so that the search engines can index the Web site. It is also 
+	possible to show the address based upon the structure of the Web site. This 
+	can be controlled by the editor adding a name for each page or it being 
+	controlled by the name of the page.</p>
+
+
+	<p>Most Internet search engines search Web sites for information and then 
+	store the information in their databases. This is known as indexing Web 
+	sites. Most search engines cannot index Web sites when the address includes 
+	a question mark (?). By default, all EPiServer page addresses contain a 
+	question mark and a unique number. You must adjust the page addresses to 
+	allow search engines to index the Web site automatically. </p>
+	<p>If you want Internet search engines to be able to index your Web site, 
+	mark the option <i>Use Web addresses that allow search engines to crawl the Web site</i>, 
+	and then select <i>Save</i>. <br>
+	If you now look at the address for a specific page, EPiServer has changed it 
+	from www.foretaget.se/templates/page.aspx?id=1234 to 
+	www.foretaget.se/templates/page____1234.aspx. This shows that the page can 
+	be indexed.</p>
+	<p>If you want the address to be shown based upon the 
+	structure, you activate this by selecting the <i>Use web addresses that 
+	reflect the structure structure of the content for this Web site’s </i>&nbsp;option and select <i>Save</i>. 
+	If you have upgraded a previous version of EPiServer to 4.60, this option is 
+	not active. To activate this you must change a setting in web.config. </p>
+    <p>
+    <img border="0" src="images/admin_robotsearch.png" width="490" height="221"></td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#666666" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Read more in <a href="Editorsmanual_online.pdf">Editor's Manual</a> - Read more in 
+    <a href="Administratorsmanual_online.pdf">Administrator’s Manual</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+BODY
+{
+	margin: 0px;
+	background-color:#FFFFFF;
+}
+INPUT, TD
+{
+	font:normal 11px tahoma;
+}
+TD.login 
+{ 
+	font-weight: bold;
+}
+INPUT.loginInput 
+{ 
+	width:150px; 
+	border:solid 1px #6D8CA8
+}
+INPUT.loginButton 
+{ 
+}
+
+.loginCheckbox
+{
+	margin-left: -4px;
+}
+
+H2.login 
+{ 
+	font-size:12px;
+}
+.loginBox 
+{ 
+	border: #6D8CA8 1px solid; 
+	width:300px; 
+	padding-left:20px; 
+	padding-top:30px; 
+	padding-bottom:5px; 
+	padding-right:20px;
+	background-image: url(../images/loginbackground.gif); 
+	background-repeat: no-repeat; 
+	background-color: #ECEFF3; 
+}
+
+.loginBoxAlternate
+{
+	width:100%;
+	height:100%;
+	padding: 0px 0px 0px 0px;
+	background-color: #ECEFF3; 
+}
+
+.cookieBox
+{ 
+	border: #6D8CA8 1px solid; 
+	border-top: 0px;
+	width:300px; 
+	padding-left:20px; 
+	padding-top:5px; 
+	padding-bottom:5px; 
+	padding-right:20px;
+	background-color: #ECEFF3; 
+}
+
+TD.loginPopup
+{ 
+	font-weight: bold;
+	padding: 1px 20px 1px 20px;
+}

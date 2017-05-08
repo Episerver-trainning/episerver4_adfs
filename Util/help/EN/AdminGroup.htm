@@ -1,0 +1,143 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Help in EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="AdminGroup.htm">
+    <img border="0" src="images/uk.gif" alt="In English" width="20" height="14"></a>
+    <a href="../SV/AdminGroup.htm">
+    <img border="0" src="images/sv.gif" alt="På svenska" width="20" height="14"></a>
+     <a href="../NO/AdminGroup.htm">
+    <img border="0" src="images/no.gif" alt="På svenska" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Administer Groups</h1>
+    <p>
+    EPiServer uses the same authorization model as Windows. This means that it 
+	is also possible to use existing groups from Windows in EPiServer. From an 
+	administrative point of view, this can save you a great deal of work. It is 
+	also possible to create your own groups in EPiServer. A third option is to 
+	load users via LDAP. There is a protocol that is to be used to communicate 
+	with a directory service. In EPiServer, it is used with Active Directory.</p>
+	<h2 ALIGN="LEFT">
+    Groups created in EPiServer</h2>
+	<p ALIGN="LEFT">
+    Use EPiServer’s own management of groups and users if part of your Web site 
+	is an extranet. You can also make groups and give them specific read access 
+	rights to parts of the Web site. It is also common practice to use 
+	EPiServer’s management if the Web site is operated by an operations 
+	supplier. In those cases, the server cannot be accessed in the same way, so 
+	a simple solution for managing the Web browser is required. </p>
+	<p ALIGN="LEFT">
+	Create groups in EPiServer as follows:</p>
+	<ol>
+		<li>
+		<p ALIGN="LEFT">Select Administer groups on the Admin tab. </p></li>
+		<li>
+		<p ALIGN="LEFT">Select New group.</p></li>
+		<li>
+		<p ALIGN="LEFT">Enter the name and description of the group. </p></li>
+		<li>
+		<p ALIGN="LEFT">Select Add group. </p></li>
+	</ol>
+	<p ALIGN="LEFT">
+	Note that the groups you create in EPiServer are only available here. It is 
+	not possible to create groups in EPiServer in such a way that they are also 
+	created in Windows.</p>
+	<p ALIGN="LEFT">
+    <img border="0" src="images/admin_administergroups.png" width="490" height="281"></p>
+	<h2 ALIGN="LEFT">
+    Deleting a Group</h2>
+	<p ALIGN="LEFT">
+    If you have created groups that you no longer require, you can delete them. 
+	There are several ways to delete groups. You can delete a group from 
+	Administrate groups by selecting the Delete button displayed to the right 
+	after the group. </p>
+	<p ALIGN="LEFT">
+    <b>You can also delete a group in the same way as deleting a user.</b></p>
+	<ol>
+		<li>
+		<p ALIGN="LEFT">Select Search for user/group.</p></li>
+		<li>
+		<p ALIGN="LEFT">Select the group you want to delete by clicking the 
+		group name. </p></li>
+		<li>
+		<p ALIGN="LEFT">Select Delete at the top of the page.</p></li>
+		<li>
+		<p ALIGN="LEFT">Confirm that you want to delete the group in the pop up 
+		dialog box.</p></li>
+	</ol>
+	<p ALIGN="LEFT">
+    It is not possible to change the name of an existing group. Delete the 
+	existing group and add a new group instead.</p>
+    <h2 ALIGN="LEFT">Groups from Windows</h2>
+    <p>It is also common practice to use groups and users from Windows if 
+	EPiServer is used in the intranet. All employees are usually already part of 
+	the network with a unique user name; they also have group authorizations 
+	that can be used. Usually all those surfing the intranet are automatically 
+	identified using a log in on the computer and the network. </p>
+	<p><b>Synchronize groups from Windows in EPiServer as follows:</b></p>
+	<ol>
+		<li>Select <i>Administer groups</i> on the <i>Admin</i> tab. </li>
+		<li>Select <i>Synchronize</i>. A list of all user groups in Windows is 
+		displayed. </li>
+		<li>Mark the groups to be synchronized </li>
+		<li>Select <i>Save</i> </li>
+	</ol>
+	<p>The groups are now synchronized in EPiServer, which means that you can 
+	determine which rights should apply for which groups. Each time a person 
+	tries to log on to the Web site the authorization is checked against 
+	windows. This means that you do not need to synchronize before you want new 
+	groups. All administration of users is carried out in Windows, for example 
+	user name, password and group designation. <br>
+	When a user with a Windows account has logged on to the Web site for the 
+	first time, they are presented as a user in EPiServer’s database. This is to 
+	save personalized information about the user. </p>
+	<p ALIGN="LEFT">
+    <img border="0" src="images/admin_synchronize.png" width="490" height="321"></p>
+    <h2>Groups from LDAP</h2>
+	<p>In addition to Windows, it is possible to synchronize other directory 
+	services such as Novell or AD. An LDAP server, which is a protocol for 
+	communicating with a directory service, is used to synchronize groups and 
+	users from another directory service. Specify which LDAP server is to be 
+	used under the Config tab and System settings. You can read more about how 
+	to set up an LDAP server with EPiServer in the document Using LDAP for User 
+	Authentication.</p>
+	<p><b>Synchronize groups in EPiServer via LDAP as follows:</b></p>
+	<ol>
+		<li>Select <i>Administer groups</i> on the <i>Admin</i> tab. </li>
+		<li>Select <i>Import from LDAP server</i>, or enter a user name / group and 
+		click the button. </li>
+		<li>Mark the groups to be synchronized.</li>
+		<li>Select <i>Save.</i> </li>
+	</ol>
+	</td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#666666" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Read more in <a href="Editorsmanual_online.pdf">Editor's Manual</a> - Read more in 
+    <a href="Administratorsmanual_online.pdf">Administrator’s Manual</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

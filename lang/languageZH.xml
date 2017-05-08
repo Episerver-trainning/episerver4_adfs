@@ -1,0 +1,2832 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+	<language name="Chinese" id="ZH">
+		<cookie>
+			<logincaption>		如果登录，则会使用 Cookie。</logincaption>
+			<logininfo>			包含登录信息的 Cookie 将发送到您的 Web 浏览器。 如果您不希望接收 Cookie，则无法登录 Web 站点。</logininfo>
+			<usagecaption>		关于 Cookie</usagecaption>
+			<usageinfo>			根据 2003 年 7 月 25 日生效的瑞典电子通信法案，使用 Cookie 的 Web 站点必须通知所有访问者: Web 站点使用 Cookie，Cookie 的用途是什么以及如何阻止 Cookie。 在此网站上，Cookie 用于如下情况:</usageinfo>
+			<usageform>			如果未登录并回复/提交表单，则会向您的计算机发送 Cookie，提示已提交了该表单。</usageform>
+			<usageloginform>	在登录时，Cookie 用于存储您的登录信息。 如果在登录过程中阻止 Cookie，则每个需要身份验证的新页都会显示登录对话框。</usageloginform>
+			<usageloginwindows>	在登录时，Cookie 用作已进行登录的提示。如果阻止 Cookie，则无法保持已登录到网站上的状态，每次访问用密码保护的资料时，都会要求您输入登录详细信息。</usageloginwindows>								
+		</cookie>
+		<headings>
+			<heading name="Information">
+				<description>信息</description>
+			</heading>
+			<heading name="Advanced">
+				<description>高级信息</description>
+			</heading>
+			<heading name="Categories">
+				<description>类别</description>
+			</heading>
+			<heading name="Shortcut">
+				<description>快捷方式/外部链接</description>
+			</heading>
+			<heading name="Subscription">
+				<description>订阅</description>
+			</heading>
+			<heading name="Portal settings">
+				<description>门户设置</description>
+			</heading>
+			<heading name="Simple portal mode">
+				<description>简单门户模式</description>
+			</heading>
+			<heading name="Advanced portal mode">
+				<description>高级门户模式</description>
+			</heading>
+			<heading name="DelayedPublish">
+				<description>	延迟发布</description>
+			</heading>
+				<heading name="General">
+				<description>常规</description>
+			</heading>
+			<heading name="Advanced_short">
+				<description>高级</description>
+			</heading>
+		</headings>
+		<frames>
+			<frame name="_blank">
+				<description>在新窗口中打开链接</description>
+			</frame>
+			<frame name="_top">
+				<description>在整个窗口中打开链接</description>
+			</frame>
+		</frames>
+		<accesslevels>
+			<accesslevel name="Read">
+				<description>读取</description>
+			</accesslevel>
+			<accesslevel name="Create">
+				<description>创建</description>
+			</accesslevel>
+			<accesslevel name="Edit">
+				<description>更改</description>
+			</accesslevel>
+			<accesslevel name="Delete">
+				<description>删除</description>
+			</accesslevel>
+			<accesslevel name="Publish">
+				<description>发布</description>
+			</accesslevel>
+			<accesslevel name="Administer">
+				<description>管理</description>
+			</accesslevel>
+		</accesslevels>
+		<multilanguageruntime>
+			<firstlanguage>第一语言</firstlanguage>
+			<secondlanguage>第二语言</secondlanguage>
+			<noversionexists>没有所选语言的版本。</noversionexists>
+			<verticaldisplay>垂直显示</verticaldisplay>
+		</multilanguageruntime>
+
+		<day>天</day>
+		<hour>小时</hour>
+		<minute>分钟</minute>
+		<second>秒</second>
+		<week>星期</week>
+		<month>月</month>
+		<sunday>星期日</sunday>
+		<monday>星期一</monday>
+		<tuesday>星期二</tuesday>
+		<wednesday>星期三</wednesday>
+		<thursday>星期四</thursday>
+		<friday>星期五</friday>
+		<saturday>星期六</saturday>
+		<january>一月</january>
+		<february>二月</february>
+		<march>三月</march>
+		<april>四月</april>
+		<may>五月</may>
+		<june>六月</june>
+		<july>七月</july>
+		<august>八月</august>
+		<september>九月</september>
+		<october>十月</october>
+		<november>十一月</november>
+		<december>十二月</december>
+		<savenochanges>未做任何更改</savenochanges>
+		<pleasewait>请稍候</pleasewait>
+		<button>
+			<yes>			是</yes>
+			<no>			否</no>
+			<ok>			确定</ok>
+			<cancel>		取消</cancel>
+			<reset>			重置</reset>
+			<save>			保存</save>
+			<create>		创建</create>
+			<add>			添加</add>
+			<addusersid>	添加用户</addusersid>
+			<addgroupsid>	添加组</addgroupsid>
+			<delete>		删除</delete>
+			<next>			&gt;&gt;</next>
+			<prev>			&lt;&lt;</prev>
+			<search>		搜索</search>
+			<send>			发送</send>
+			<help>			帮助</help>
+			<activate>		激活</activate>
+			<deactivate>	停用</deactivate>
+			<clear>			清除</clear>
+			<copy>			复制</copy>
+			<publish>		发布</publish>
+			<preview>		预览</preview>
+			<checkin>		准备发布</checkin>
+			<select>		选择</select>
+			<compare>		比较</compare>
+			<refresh>		刷新</refresh>
+			<print>			打印</print>
+			<settings>		设置</settings>
+			<insert>		插入</insert>
+			<login>			登录</login>
+			<edit>			编辑</edit>
+			<compare>       比较</compare> 
+			<saveandpublish>保存并发布</saveandpublish>
+			<saveandview>	保存并查看</saveandview>
+			<saveandclose>	保存并关闭</saveandclose>
+			<findnext>		查找下一个</findnext>
+			<ignore>		忽略</ignore>
+			<ignoreall>		全部忽略</ignoreall>
+			<change>		更改</change>
+			<close>			关闭</close>
+			<browse>		浏览...</browse>
+			<delaypublish>延迟发布</delaypublish>
+			<unpublish>		取消发布</unpublish>			
+			<saveonly>保存</saveonly>
+			<continue>继续</continue>
+			<resize>调整大小</resize>
+		</button>
+		<permissions>
+			<linktoolcreatefolder>		在链接工具中创建文件夹</linktoolcreatefolder>
+			<linktooldeletefile>		在链接工具中删除文件</linktooldeletefile>
+			<linktooldeletefolder>		在链接工具中删除文件夹</linktooldeletefolder>
+			<linktoolrename>			在链接工具中重命名文件/文件夹</linktoolrename>
+			<linktooluploadtopage>		将文件上载到页特定文件夹中</linktooluploadtopage>
+			<linktooluploadtocommon>	将文件上载到公共文件夹中</linktooluploadtocommon>
+			<editorunlimitedfunctions>	编辑器中提供的所有功能</editorunlimitedfunctions>
+			<detailederrormessage>用于故障排除的详细错误消息</detailederrormessage>
+			<clienttools>从 Microsoft Office Add-In 中查看和发布页</clienttools>
+			<multifileupload>允许高级文件上载 (例如使用拖放操作)</multifileupload>
+		</permissions>
+		<webcontrols>
+			<explorertree>
+			<!--
+				<infonotpublished>	Ej publicerad</infonotpublished>
+				<infoexpired>		, löpte ut {0}</infoexpired>
+				<infonotstarted>	, börjar {0}</infonotstarted>
+			-->	
+				<statuscreator>				您创建的页</statuscreator>
+				<statusexpired>				过期的页 {0}</statusexpired>
+				<statusnotstarted>			页将可见 {0}</statusnotstarted>
+				<statusnotpublished>		尚未发布页</statusnotpublished>
+				<statusnotvisibleinmenu>	页在菜单中不可见</statusnotvisibleinmenu>
+				<statusreadonly>			您尚未给用户分配对该页进行更改的权限</statusreadonly>
+				<statusnew>					新页</statusnew>
+				<statusrestricted>			页访问受到限制</statusrestricted>
+				<statuslanguagemissing>找不到当前语言的页，将不对其进行显示</statuslanguagemissing>
+				<statuslanguagefallback>页以其他语言显示</statuslanguagefallback>
+			</explorertree>
+			<paging>
+				<firstpage>第一页</firstpage>
+				<prevpage>上一页</prevpage>
+				<currentpage>当前页</currentpage>
+				<pagenumber>第 {0} 页</pagenumber>
+				<nextpage>下一页</nextpage>
+				<lastpage>最后一页</lastpage>
+			</paging>
+		</webcontrols>
+		<status>
+			<active>		活动</active>
+			<inactive>		不活动</inactive>
+		</status>
+		<versionstatus>
+			<rejected>				注释</rejected>
+			<checkedout>			未准备就绪</checkedout>
+			<checkedin>				准备发布</checkedin>
+			<published>				发布的版本</published>
+			<previouslypublished>	以前发布的</previouslypublished>
+			<delayedpublish>	延迟发布</delayedpublish>
+		</versionstatus>
+		<validation>
+			<summary>		必须纠正以下问题:</summary>
+			<required>		“{0}”不能为空。</required>
+			<invalidvalue>	“{1}”不是“{0}”的有效值。</invalidvalue>
+			<invalidvalueexception>	“{1}”不是“{0}”的有效值。 ({2})</invalidvalueexception>
+			<outofrange>	您必须为“{0}”输入介于 {1} 和 {2} 之间的值。</outofrange>
+			<stringoverflow>“{0}”超过了其 {1} 个字符的限制。</stringoverflow>
+			<formrequired>	* 字段不能为空。</formrequired>
+			<valuealreadyused>{2} 已使用值为“{1}”的“{0}”。</valuealreadyused>
+			<dateorder>“{0}”的日期必须在“{1}”之前。</dateorder>
+			<valuesameasfolder>无法使用值为“{1}”的“{0}”，因为该值与文件夹“{2}”的路径相同。</valuesameasfolder>
+			<urlcharactersonly>只能使用字符 a-z、0-9 以及连字符 (-)。</urlcharactersonly>		
+		</validation>
+		<dope>
+			<new>新建</new>
+			<edit>编辑</edit>
+			<delete>删除</delete>
+			<security>访问权限</security>
+			<createsibling>创建同级</createsibling>
+			<editmode>编辑模式</editmode>
+			<viewmode>查看模式</viewmode>
+			<print>打印</print>
+			<refresh>刷新</refresh>
+			<copy>复制到剪贴板</copy>
+			<newwindow>在新窗口中打开</newwindow>
+			<disablemenu>禁用菜单</disablemenu>
+			<properties>属性</properties>
+			<adminmode>管理模式</adminmode>
+			<save>保存</save>
+			<cancel>取消</cancel>
+			<quickedit>快速编辑</quickedit>
+		</dope>
+		<login>
+			<username>				名称</username>
+			<password>				密码</password>
+			<persistentlogin>		允许自动登录到此网站</persistentlogin>
+			<usernamerequired>		您必须输入名称</usernamerequired>
+			<missingpassword>		您必须输入密码</missingpassword>
+			<loginfailed>			登录失败</loginfailed>
+		</login>
+		<workflow>
+			<notificationmail>
+				<task>任务</task>
+				<duedate>截止日期</duedate>
+				<description>说明</description>
+				<contact>联系人</contact>
+			</notificationmail>
+			<reportmail>
+				<statusreport>状态报告</statusreport>
+				<taskname>名称</taskname>
+				<owner>所有者</owner>
+				<changedby>更改者</changedby>
+				<status>状态</status>
+				<statuscomments>注释</statuscomments>
+				<pagelink>页</pagelink>
+				<changed>更改日期</changed>
+				<created>创建日期</created>
+				<deleted>删除日期</deleted>
+				<contact>联系人</contact>
+			</reportmail>
+			<statusmail>
+				<taskstatus>任务具有新状态</taskstatus>
+				<task>任务</task>
+				<description>说明</description>
+				<owner>所有者</owner>
+				<status>状态</status>
+				<statuscomments>注释</statuscomments>
+			</statusmail>
+		</workflow>
+		<exceptionmanager>
+			<errorform>
+				<description>如果发现任何部分无法正常工作，请通知我们，以便纠正可能造成问题的错误 (不要忘记说明您执行了哪些操作而导致产生错误)。</description>
+				<sendbutton>发送邮件</sendbutton>
+				<messagesenttitle>邮件已发送</messagesenttitle>
+				<messagesentdescription>您的邮件现已发送。 我们将查看您的错误说明并采取措施以纠正该错误。</messagesentdescription>
+			</errorform>
+			<httperrors>
+				<status code="500">
+					<title>无法加载页</title>
+					<description>指定的链接无法正常工作。 这可能是临时维护造成的，也可能是链接不正确。</description>
+				</status>
+				<status code="404">
+					<title>不正确的链接</title>
+					<description>您提供的链接无法正常工作，因为链接指向的页已被删除或移动。 如果单击了某个链接，请通知站点的网站管理员该链接不正确。</description>
+				</status>
+			</httperrors>
+			<exceptions>
+				<exception type="EPiServer.Core.AccessDeniedException">
+					<title>拒绝访问</title>
+					<description>您没有足够的权限查看该页。</description>
+				</exception>
+				<exception type="EPiServer.Core.PageNotFoundException">
+					<title>页不存在</title>
+					<description>您提供的链接无法正常工作，因为链接指向的页已被删除或移动。 如果单击了某个链接，请通知站点的网站管理员该链接不正确。</description>
+				</exception>
+			</exceptions>
+		</exceptionmanager>
+		<util>
+			<linkeditor>
+				<textfieldcaption>		文本:</textfieldcaption>
+				<urlfieldcaption>		地址:</urlfieldcaption>
+				<targetfieldcaption>	目标框架:</targetfieldcaption>
+				<filefieldcaption>		文件名:</filefieldcaption>
+				<mailfieldcaption>		电子邮件地址:</mailfieldcaption>
+				<anchorfieldcaption>	选择书签:</anchorfieldcaption>
+				<selectpagecaption>		选择页:</selectpagecaption>
+				<douploadcaption>		选择上载</douploadcaption>
+				<pageuploaddir>			页文件</pageuploaddir>
+				<uploaddir>				全局文件</uploaddir>
+				<showfullsize>			查看完整大小</showfullsize>
+				<alttextfieldcaption>	替换文本:</alttextfieldcaption>
+				<linktitlefieldcaption>	链接标题:</linktitlefieldcaption>
+			</linkeditor>
+			<linktoolbar>
+				<deletefilemsg>			是否确实要删除此文件?</deletefilemsg>
+				<deletefilecaption>		删除文件</deletefilecaption>
+				<deletefoldermsg>		是否确实要删除此文件夹?</deletefoldermsg>
+				<deletefoldercaption>	删除文件夹</deletefoldercaption>
+				<renamefoldermsg>		输入文件夹的新名称</renamefoldermsg>
+				<renamefoldercaption>	重命名文件夹</renamefoldercaption>
+				<renamefilemsg>			输入文件的新名称</renamefilemsg>
+				<renamefilecaption>		重命名文件</renamefilecaption>
+				<createfoldermsg>		输入文件夹的名称</createfoldermsg>
+				<createfoldercaption>	创建文件夹</createfoldercaption>
+				<notemptyfoldermsg>		文件夹不为空</notemptyfoldermsg>
+				<folderisreadonly>		无法修改此文件夹。</folderisreadonly>
+				<toobigfile>			文件超过最大上载大小。 </toobigfile>
+				<maxuploadsize>			上载文件的最大允许大小:</maxuploadsize>
+				<renamefileerror>		无法更改文件名。 原因:</renamefileerror>
+				<fileareadyexists>		名称为“{0}”的文件已存在。</fileareadyexists>
+			</linktoolbar>
+			<plugins>
+				<viewtask>
+					<displayname>显示分配的任务</displayname>
+					<description>显示已分配给某个用户的任务。</description>
+				</viewtask>
+				<edittask>
+					<displayname>新建任务</displayname>
+					<description>创建一个任务并将其分配给用户或组。</description>
+				</edittask>
+			</plugins>
+		</util>
+		<system>
+			<datebrowser>
+				<selectmonthcaption>选择月份 (1-12)</selectmonthcaption>
+				<selectyearcaption>选择年份</selectyearcaption>
+				<time>时间</time>
+				<heading>选择日期</heading>
+			</datebrowser>
+			<pagebrowser>
+				<title>指向页的链接</title>
+				<infoselflink>本页</infoselflink>
+				<buttonnolink>无链接</buttonnolink>
+				<buttonselflink>指向同一页的链接</buttonselflink>
+				<heading>选择页</heading>
+				<notfound see="/edit/quicksearch/notfound" />
+			</pagebrowser>
+			<taskinc>
+				<statusrejected>已拒绝</statusrejected>
+				<statusdone>完成</statusdone>
+				<statustimeout>截止日期已过</statustimeout>
+				<statusactive>活动</statusactive>
+				<typenewpage>新建页</typenewpage>
+				<typeapprovepage>现有页</typeapprovepage>
+				<typeurl>显示自定义 URL</typeurl>
+				<typeautomail>通过电子邮件发送报告</typeautomail>
+				<buttonreject>拒绝</buttonreject>
+				<buttondone>完成</buttondone>
+				<buttoncontinue>继续</buttoncontinue>
+				<createdby>创建者</createdby>
+			</taskinc>
+			<editutil>
+				<reqfield>您必须在此字段中输入一个值</reqfield>
+				<badintegerfield>无效值，仅允许输入数字</badintegerfield>
+				<badfloatfield>无效值，需要输入十进制数字</badfloatfield>
+				<baddatefield>输入的日期格式应为 YYYY-MM-DD HH:MM</baddatefield>
+				<captionheading>名称</captionheading>
+				<helpheading>页的名称，例如，将其用作菜单标题。</helpheading>
+				<captioncreated>创建日期</captioncreated>
+				<helpcreated>页的创建日期</helpcreated>
+				<captionstartpublish>开始发布</captionstartpublish>
+				<helpstartpublish>从此日期开始发布该页。 如果此字段留空，单击“发布”按钮时即会发布该页。</helpstartpublish>
+				<captionstoppublish>停止发布</captionstoppublish>
+				<helpstoppublish>在此日期之前发布该页。 如果此字段留空，则必须手动删除该页才能停止发布。</helpstoppublish>
+				<captionupdatechanged>&amp;nbsp;将页标记为已更改&amp;nbsp;</captionupdatechanged>
+				<helpupdatechanged>如果选中此框，则会更新页的更改日期。 例如，对于要包含在订阅中的页，这是所需的。</helpupdatechanged>
+				<captionsortorder>排序顺序</captionsortorder>
+				<helpsortorder>定义该页的子页的显示顺序。</helpsortorder>
+				<captionsortindex>排序索引</captionsortindex>
+				<helpsortindex>指定一个整数作为该页的索引号。 通过为该页的父页选择“根据排序索引”，具有最低索引的页将显示在最前面。</helpsortindex>
+				<captionvisibleinmenu>在菜单中显示页</captionvisibleinmenu>
+				<helpvisibleinmenu>如果要在菜单中显示页，请选中此框。 如果此框为空，则仅在列表中显示页。</helpvisibleinmenu>
+				<captionoutputcache>使用 HTML 缓存</captionoutputcache>
+				<helpoutputcache>如果希望将页存储在 HTML 缓存中，无需 ASP 代码重新创建即可进行呈现，请选中此框。 这可显著改善性能。</helpoutputcache>
+				<captionlanguage>		语言编码</captionlanguage>
+				<helplanguage>		如果不同于默认值，请设置页的语言编码</helplanguage>
+				<captionmoderated>激活版面管理</captionmoderated>
+				<helpmoderated>在此文件夹中添加的页必须经具有“版主”访问权限的人员批准后，才能进行显示。</helpmoderated>
+				<captionexternalurl>该页的简单地址</captionexternalurl>
+				<helpexternalurl>从网站的根指定路径，如“/products”。 然后，可通过没有“?”或任何其他符号的简单地址访问该页。 访问者输入 www.foretaget.se/products 后，将显示该页。 </helpexternalurl>
+				<helpdynprop>选中此框可为所有子页设置指定的值</helpdynprop>
+				<helpdynpropdef>此属性在该页上定义了一个值</helpdynpropdef>
+				<helpdynpropundef>该属性没有值</helpdynpropundef>
+				<defframe>正常 (同一窗口/框架)</defframe>
+				<sortorder1>最后创建的页在列表最前面</sortorder1>
+				<sortorder2>最后创建的页在列表最后面</sortorder2>
+				<sortorder3>字母</sortorder3>
+				<sortorder4>根据排序索引</sortorder4>
+				<sortorder5>最后更改的页在列表最前面</sortorder5>
+				<sortorder7>根据开始发布日期 (最早的页放在最前面)</sortorder7>
+				<sortorder8>根据开始发布日期 (最晚的页放在最前面)</sortorder8>
+				<unloadmessage>您对该页进行了更改</unloadmessage>
+				<reloadmessage>			您所做的更改要求重新加载该页，可能会丢失所有新信息。</reloadmessage>
+				<languagecommonpropertyicontooltiporiginal>此属性是所有语言的公共属性，只能在此处进行编辑</languagecommonpropertyicontooltiporiginal>
+				<languagecommonpropertyicontooltiptranslation>此属性是所有语言的公共属性，只能在页的原始语言中进行编辑</languagecommonpropertyicontooltiptranslation>
+			</editutil>
+		</system>
+		<edit>
+			<actionwindow>
+				<heading>“操作”窗口</heading>
+				<hide>隐藏</hide>
+			</actionwindow>
+			<linkdocument>
+				<heading>				插入文档</heading>
+			</linkdocument>
+			<linkimage>
+				<heading>				插入图像</heading>
+			</linkimage>
+			<linkgeneric>
+				<heading>					插入链接</heading>
+				<LinkGenericAnchorCaption>	当前页上的书签</LinkGenericAnchorCaption>
+				<LinkGenericExternalCaption>其他网站上的页</LinkGenericExternalCaption>
+				<LinkGenericFileCaption>	其他服务器上的文件</LinkGenericFileCaption>
+				<LinkGenericInternalCaption>EPiServer 中的页</LinkGenericInternalCaption>
+				<LinkGenericMailCaption>	电子邮件地址</LinkGenericMailCaption>
+			</linkgeneric>
+			<quicksearch>
+				<notfound>找不到匹配 ID 或页名称</notfound>
+			</quicksearch>
+			<editform>
+				<heading>表单设置</heading>
+				<info></info>
+				<placefieldsinmatrix>将字段放在下面的矩阵中</placefieldsinmatrix>
+				<namecaption>名称</namecaption>
+				<placementcaption>位置</placementcaption>
+				<horizontal>水平</horizontal>
+				<vertical>垂直</vertical>
+				<optionscaption>选项</optionscaption>
+				<fieldexists>此单元格中已存在一个字段</fieldexists>
+				<textinputproperties>文本字段的属性</textinputproperties>
+				<checkboxproperties>复选框的属性</checkboxproperties>
+				<textareaproperties>文本区域的属性</textareaproperties>
+				<radiobuttonproperties>单选按钮的属性</radiobuttonproperties>
+				<selectboxproperties>选择框的属性</selectboxproperties>
+				<descriptionproperties>标题的属性</descriptionproperties>
+				<inputtext>文本字段</inputtext>
+				<inputtextarea>文本区域</inputtextarea>
+				<inputselectbox>选择框</inputselectbox>
+				<inputradiobutton>单选按钮</inputradiobutton>
+				<inputcheckbox>复选框</inputcheckbox>
+				<inputdescription>标题</inputdescription>
+				<requiredcaption>必须输入值</requiredcaption>
+				<widthcaption>宽度 (字符数)</widthcaption>
+				<heightcaption>高度 (行数)</heightcaption>
+				<textcaption>文本</textcaption>
+				<htmlcode>HTML 代码</htmlcode>
+				<addrowbutton>添加行</addrowbutton>
+				<addcolumnbutton>添加列</addcolumnbutton>
+				<insertrowbutton>插入行</insertrowbutton>
+				<insertcolumnbutton>插入列</insertcolumnbutton>
+				<deleterowbutton>删除行</deleterowbutton>
+				<deletecolumnbutton>删除列</deletecolumnbutton>
+				<confirmdelete>是否确实要删除此字段?</confirmdelete>
+				<formnamecaption>表单名称</formnamecaption>
+				<postresultcaption>发送结果</postresultcaption>
+				<sendemailoption>发送电子邮件</sendemailoption>
+				<savetodatabaseoption>保存到数据库</savetodatabaseoption>
+				<mailanddboption>发送电子邮件并保存到数据库</mailanddboption>
+				<sendtourloption>发送到指定的 URL</sendtourloption>
+				<sendemailtoadresscaption>将电子邮件发送到此地址</sendemailtoadresscaption>
+				<sendemailfromadresscaption>发件人电子邮件地址</sendemailfromadresscaption>
+				<sendformtourlcaption>将表单发送到此 URL</sendformtourlcaption>
+				<allowanonymouspostcaption>无需登录即可发送表单</allowanonymouspostcaption>
+				<allowmultiplepostcaption>一人可以多次发送该表单</allowmultiplepostcaption>
+				<classcaption>CSS 类</classcaption>
+				<buttonproperties>按钮的属性</buttonproperties>
+				<pageafterpost>发送表单后显示的页</pageafterpost>
+				<headingcaption>标题</headingcaption>
+				<buttoncaption>按钮文本</buttoncaption>
+				<tooltipcaption>工具提示</tooltipcaption>
+				<inputsubmit>按钮</inputsubmit>
+				<typecaption>验证方式</typecaption> 
+				<sendemailsubjectcaption>电子邮件主题</sendemailsubjectcaption>
+			</editform>
+			<workspace>
+				<welcome>欢迎使用 EPiServer</welcome>
+				<mysettings>我的设置</mysettings>
+				<license>许可协议</license>
+				<userinfo>用户信息</userinfo>
+				<firstlisting>第一列表</firstlisting>
+				<secondlisting>第二列表</secondlisting>
+			</workspace>
+			<activityloader>
+				<statusreadytopublish>准备发布</statusreadytopublish>
+				<statusnotready>未发布</statusnotready>
+				<statusrejected>已注释</statusrejected>
+				<noactivity>没有正在进行的活动</noactivity>
+				<personaltask>个人任务</personaltask>
+				<grouptask>组任务</grouptask>
+				<workflowowner>工作流程概述</workflowowner>
+				<duedate>截止日期</duedate>
+				<assignedtasks>我的分配任务</assignedtasks>
+				<readytopublishtooltip>准备发布:</readytopublishtooltip>
+				<personaltaskstaskstooltip>个人任务:</personaltaskstaskstooltip>
+			</activityloader>
+			<workflowlog>
+				<heading>工作流程概述</heading>
+				<taskname>名称</taskname>
+				<owner>所有者</owner>
+				<changedby>更改者</changedby>
+				<status>状态</status>
+				<statuscomments>注释</statuscomments>
+				<pagelink>页</pagelink>
+				<changed>更改日期</changed>
+				<created>创建日期</created>
+				<deleted>删除日期</deleted>
+			</workflowlog>
+			<taskoverview>
+				<heading>任务</heading>
+				<name>名称</name>
+				<description>说明</description>
+				<owner>所有者</owner>
+				<status>状态</status>
+				<statuscomments>注释</statuscomments>
+				<pagelink>页</pagelink>
+				<deleted>删除日期</deleted>
+			</taskoverview>
+			<editextension>
+				<heading>附加功能</heading>
+			</editextension>
+			<deletepage>
+				<heading>			确认删除页“{0}”</heading>
+				<info></info>
+				<deletesuffix>“{0}”已被删除</deletesuffix>
+				<movesuffix>“{0}”已被移到回收站</movesuffix>
+				<deletesystempage>	无法删除回收站、起始页和根页</deletesystempage>
+				<headingfailed>无法删除一页或多页</headingfailed>
+				<failedreferenced>以下页是从系统的其他部分引用的，因而无法将其删除:</failedreferenced>
+				<reftypeproperty>{0} 由 {1} 中的属性引用</reftypeproperty>
+				<reftypeshortcut>{0} 是 {1} 中的快捷方式的目标</reftypeshortcut>
+				<reftypearchive>{0} 是 {1} 的存档文件夹</reftypearchive>
+				<reftypedefaultarchive>{1} 用作页类型 {0} 的默认存档页</reftypedefaultarchive>
+			</deletepage>
+			<editdynprop>
+				<heading>编辑页“{0}”上的动态属性</heading>
+				<info/>
+				<nodynprop>未定义动态属性</nodynprop>
+				<save>已保存动态属性</save>
+			</editdynprop>
+			<editsecurity>
+				<heading>		设置页“{0}”的访问权限</heading>
+				<user>			您以 {0} 的身份登录，并且是以下组的成员</user>
+				<info>			您可以选择哪些用户和组具有该页的访问权限，以及允许他们对该页执行哪些操作。</info>
+				<savemessage comment="heading of savesecurity">已保存新的访问权限</savemessage>
+			</editsecurity>
+			<editpage>
+				<newheadingprefix>创建&amp;nbsp;</newheadingprefix>
+				<editheadingprefix>编辑&amp;nbsp;</editheadingprefix>
+				<editheadingsuffix/>
+				<creator>创建者</creator>
+				<createdby>页创建者</createdby>
+				<savedby>页上次保存者</savedby>
+				<publishedby>页发布者</publishedby>
+				<changed>页更改者</changed>
+				<versioncreatedby>版本创建者</versioncreatedby>
+				<versionsavedby>版本保存者</versionsavedby>
+				<versionstatus>版本状态</versionstatus>
+				<updatechanged>&amp;nbsp;将页标记为已更改&amp;nbsp;</updatechanged>
+				<normallinkcaption>正常链接</normallinkcaption>
+				<normallinkhelp>打开页并显示其自己的内容</normallinkhelp>
+				<nolinkcaption>无链接</nolinkcaption>
+				<nolinkhelp>页无链接，不显示任何内容。 例如，这用于树形菜单的标题。</nolinkhelp>
+				<shortcutcaption>EPiServer 中的页的快捷方式</shortcutcaption>
+				<shortcuthelp>该页打开另一页的内容，并使访问者转到结构中的相关页。</shortcuthelp>
+				<fetchdatacaption>从 EPiServer 中的页获取数据</fetchdatacaption>
+				<fetchdatahelp>该页打开另一页的内容，并停留在结构中的当前位置。</fetchdatahelp>
+				<externallinkcaption>指向其他网站上的页的链接</externallinkcaption>
+				<externallinkhelp>打开该页并显示所链接到的外部页或文档的内容。</externallinkhelp>
+				<mustpublishmasterfirst>尚未发布该页的原始语言 ({0})。 必须先发布原始语言，然后才能以其他语言发布页。</mustpublishmasterfirst>
+			</editpage>
+			<editcommand>
+				<askdelete>是否要删除该页 {0}?</askdelete>
+				<askemptywastebasket>是否要清空回收站?</askemptywastebasket>
+				<askmove>是否要移动该页?</askmove>
+				<denycut>您无权剪切该页</denycut>
+				<createnewpagecaption>新建</createnewpagecaption>
+				<createnewpagehelp>新建页</createnewpagehelp>
+				<editpagecaption>编辑</editpagecaption>
+				<editpagehelp>编辑所选页</editpagehelp>
+				<deletepagecaption>删除</deletepagecaption>
+				<deletepagehelp>删除所选页</deletepagehelp>
+				<cutpagecaption>剪切</cutpagecaption>
+				<cutpagehelp>剪切所选页</cutpagehelp>
+				<copypagecaption>复制</copypagecaption>
+				<copypagehelp>复制所选页</copypagehelp>
+				<pastepagecaption>粘贴</pastepagecaption>
+				<pastepagehelp>粘贴所选页</pastepagehelp>
+				<setaccesscaption>访问权限</setaccesscaption>
+				<setaccesshelp>更改访问权限</setaccesshelp>
+				<editdynpropcaption>动态属性</editdynpropcaption>
+				<editdynprophelp>编辑动态属性</editdynprophelp>
+				<adminmodehelp see="/dope/adminmode" />
+				<viewmodehelp see="/dope/viewmode" />
+				<settingshelp see="/edit/workspace/mysettings" />
+				<logouthelp>注销</logouthelp>
+				<editextensionhelp>附加功能</editextensionhelp>
+				<viewmode>结构</viewmode>
+				<editmode>编辑模式</editmode>
+				<personalmode>我的任务</personalmode>
+				<actionwindowhelp>打开“操作”窗口</actionwindowhelp>
+				<favoritesmode>收藏夹</favoritesmode>
+				<addfavoritecaption>添加到收藏夹</addfavoritecaption>
+				<removefavoritecaption>删除收藏夹</removefavoritecaption>
+				<pagetypenotallowed>	页类型不允许在目标位置使用</pagetypenotallowed>
+				<filemanagementhelp>文件管理</filemanagementhelp>
+				<languagepagecaption>页语言</languagepagecaption>
+				<languagepagehelp see="/edit/editcommand/languagepagecaption" />
+				<languageoverviewcaption>语言概述</languageoverviewcaption>
+				<languageoverviewhelp see="/edit/editcommand/languageoverviewcaption" />
+				<languagesettingscaption>语言设置</languagesettingscaption>
+				<languagesettingshelp see="/edit/editcommand/languagesettingscaption" />
+				<deletepagelanguagecaption>删除语言</deletepagelanguagecaption>
+			</editcommand>
+			<editpanel>
+				<statusnew>新版本</statusnew>
+				<statusrejected>注释</statusrejected>
+				<statuscheckedout>未准备就绪</statuscheckedout>
+				<statuscheckedin>准备发布</statuscheckedin>
+				<statuspublished>发布的版本</statuspublished>
+				<statusprevious>以前发布的</statusprevious>
+				<actiondelete>删除版本</actiondelete>
+				<actionapprove>发布</actionapprove>
+				<actioncheckin>准备就绪</actioncheckin>
+				<actionreject>注释</actionreject>
+				<prefixcopyof>副本</prefixcopyof>
+				<tabview>查看</tabview>
+				<tabedit>
+					<displayname>		编辑</displayname>
+					<description>		</description>
+				</tabedit>
+				<tabversionlist>
+					<displayname>		版本列表</displayname>
+					<description>		</description>
+					<oneunpublishedversiontooltip>一个未发布的版本</oneunpublishedversiontooltip>
+					<unpublishedversionstooltip>{0} 个未发布的版本</unpublishedversionstooltip>
+					<oneunpublishedversionglobalizedtooltip>一个以下语言的未发布版本: {0}</oneunpublishedversionglobalizedtooltip>
+					<unpublishedversionsglobalizedtooltip>{0} 个以下语言的未发布版本: {1}</unpublishedversionsglobalizedtooltip>
+				</tabversionlist>
+				<tabformdata>表单数据</tabformdata>
+				<viewstatus>状态</viewstatus>
+				<viewsaveddate>保存日期</viewsaveddate>
+				<viewsavedby>保存者</viewsavedby>
+				<rejectprompt>为作者提供的注释</rejectprompt>
+				<selectversion>版本:</selectversion>
+				<notreadyitem>--- 未发布 ---</notreadyitem>
+				<confirmdelete>是否确实要删除此版本?</confirmdelete>
+				<tooltipedit>编辑此版本</tooltipedit>
+				<tooltipeditnew>编辑新版本 (制作此版本的副本)</tooltipeditnew>
+				<tooltipcheckin>提交版本以进行发布</tooltipcheckin>
+				<tooltipdelete>删除此版本</tooltipdelete>
+				<tooltipapprove>发布此版本</tooltipapprove>
+				<tooltipreject>对此版本的注释</tooltipreject>
+				<tooltipsave>保存此版本</tooltipsave>
+				<creatingnewpage>新建页</creatingnewpage>
+				<showversionlist>       显示版本列表</showversionlist> 
+				<confirmnavigate>您对该页进行了更改</confirmnavigate>
+				<tooltipcancel>取消编辑此版本</tooltipcancel>
+				<tabtranslate>
+					<displayname>		转换</displayname>
+					<description>		</description>
+				</tabtranslate>
+				<tabcomparelanguages>
+					<displayname>		比较语言</displayname>
+					<description>		</description>
+				</tabcomparelanguages>
+				<tablanguagecommon>
+					<displayname>		公共</displayname>
+					<description>		</description>
+				</tablanguagecommon>
+				<delayinfo>					管理该页版本的延迟发布。</delayinfo>
+				<delaystartpublishinfo>		输入延迟发布的日期/时间</delaystartpublishinfo>
+				<delaypublishinfo>			选中此框可启用延迟发布</delaypublishinfo>
+				<savedelaypublishbutton>	保存</savedelaypublishbutton>
+				<unpublishedlanguage>		未发布的语言</unpublishedlanguage>
+				<compareto>比较对象</compareto>
+				<translateto>转换为</translateto>
+				<tooltipsaveonly>保存此版本</tooltipsaveonly>
+				<tooltipsave>保存并查看此版本</tooltipsave>
+				<creatingnewpagelanguage>以新语言创建页</creatingnewpagelanguage>				
+			</editpanel>
+			<editversionlist>
+				<columnheadingversion>版本</columnheadingversion>
+				<columnheadingname>名称</columnheadingname>
+				<columnheadingstatus>状态</columnheadingstatus>
+				<columnheadingdatesaved>保存日期</columnheadingdatesaved>
+				<columnheadingsavedby>保存者</columnheadingsavedby>
+				<buttoncompareversion>比较版本</buttoncompareversion>
+				<columnheadinglanguage>语言</columnheadinglanguage>
+				<showalllanguages>显示所有语言</showalllanguages>
+			</editversionlist>
+			<wastebasketpage>
+				<emptywastebasket>清空回收站</emptywastebasket>
+				<info></info>
+				<emptiedmessage>已清空回收站</emptiedmessage>
+				<reftypeproperty see="/edit/deletepage/reftypeproperty" />
+				<reftypeshortcut see="/edit/deletepage/reftypeshortcut" />
+				<reftypearchive see="/edit/deletepage/reftypearchive" />
+				<askemptywastebasket see="/edit/editcommand/askemptywastebasket" />
+				<heading>回收站</heading>
+				<numdeletedpages>回收站中的页数</numdeletedpages>
+			</wastebasketpage>
+			<newpage>
+				<heading>		新建页</heading>
+				<info>			从下面的列表中选择要创建的页类型</info>
+				<nopagetype>	该页没有可用的页类型</nopagetype>
+				<tooltipcancel>取消新建页</tooltipcancel>
+			</newpage>
+			<sidbrowser>
+				<heading>添加用户/组</heading>
+				<info/>
+				<orgsid>现有:</orgsid>
+				<newsid>添加:</newsid>
+			</sidbrowser>
+			<editformdata>
+				<heading>			表单数据</heading>
+				<selectform>		选择表单</selectform>
+				<fromdate>			开始日期</fromdate>
+				<todate>			结束日期</todate>
+				<sortorder>			排序</sortorder>
+				<export>			导出</export>
+				<newestfirst>		后进先出</newestfirst>
+				<oldestfirst>		先进先出</oldestfirst>
+				<confirmdelete>		是否确实要删除在此搜索中找到的所有项?</confirmdelete>
+				<nohits>			无命中项</nohits>
+				<matches>			匹配项</matches>
+				<pagingsize>		每页的命中数</pagingsize>
+				<excelexport>		导出到 Excel</excelexport>
+				<errorexportingdata>导出数据时出错</errorexportingdata>
+				<date>				日期</date>
+				<user>				用户</user>
+			</editformdata>
+			<formpostings>
+				<displayname>		表单数据</displayname>
+				<description>		显示表单数据。</description>
+			</formpostings>
+			<extension>
+				<task>
+					<heading>分配任务</heading>
+					<taskheading>名称</taskheading>
+					<taskdescription>说明</taskdescription>
+					<tasktype>类型</tasktype>
+					<taskpagetype>页类型</taskpagetype>
+					<taskcontainer>树中的位置</taskcontainer>
+					<taskpage>选择页</taskpage>
+					<taskowner>将任务分配给</taskowner>
+					<taskmailnotification>通过电子邮件向所有者发送邮件</taskmailnotification>
+					<taskduedate>截止日期</taskduedate>
+					<taskassign>分配任务</taskassign>
+					<taskassigned>任务已分配</taskassigned>
+				</task>
+			</extension>
+			<conflicteditor>
+				<heading>冲突编辑器</heading>
+				<info>在签出此版本后，发布版本上的信息已更改</info>
+				<tabmychanges>我的更改</tabmychanges>
+				<tabpublishedchanges>发布的更改</tabpublishedchanges>
+			</conflicteditor>
+			<edittree>
+				<nofavoritesfound>			未定义收藏夹</nofavoritesfound>
+				<notasksfound>				找不到活动任务</notasksfound>
+				<copypage>将“{0}”复制到“{1}”</copypage>
+				<movepage>将“{0}”移动到“{1}”</movepage>
+			</edittree>
+			<editxform>
+				<heading>编辑表单</heading>
+				<confirmdelete>是否确实要删除此字段?</confirmdelete>
+				<selectform>选择表单</selectform>
+				<fromdate>开始日期</fromdate>
+				<todate>结束日期</todate>
+				<allpages>显示所有页的数据</allpages>
+				<createdby>创建者:</createdby>
+				<created>创建日期:</created>
+				<changedby>更改者:</changedby>
+				<changed>上次更改日期:</changed>
+				<useformbutton>使用</useformbutton>
+				<editformbutton>编辑</editformbutton>
+				<createformbutton>新建</createformbutton>
+				<existonpages>请注意，在多个页上使用此表单。 因此，表单更改将影响以下页:</existonpages>
+				<savewarninginfo>在多个页上使用此表单。</savewarninginfo>
+				<savewarningquestion>是否确实要保存更改?</savewarningquestion>
+				<noformbutton>无表单</noformbutton>
+				<nameempty>必须指定所有字段的名称。</nameempty>
+				<nameexistsmorethanonce>多个字段具有相同名称:“{0}”。</nameexistsmorethanonce>
+				<namenotallowedcharacters>不正确的字段名称:“{0}”。 名称只能包含字母数字字符 (a-z、A-Z、1-9 和“_”，不允许使用空格)。</namenotallowedcharacters>
+				<invalid>不正确的表单。</invalid>
+				<namerequired>必须指定字段的名称。</namerequired>
+				<nameinvalid>不正确的字段名称。 名称必须以字母开头，并且只能包含字母数字字符 (a-z、A-Z、1-9 和“_”，不允许使用空格)。</nameinvalid>
+				<saveas>另存为新表单</saveas>
+				<datatypes>
+					<integer>
+						<caption>整数</caption> 
+						<errormessage>“{0}”不是有效整数。</errormessage> 
+					</integer>
+					<positiveinteger>
+						<caption>正整数</caption> 
+						<errormessage>“{0}”不是有效正整数。</errormessage> 
+					</positiveinteger>
+					<email>
+						<caption>电子邮件地址</caption> 
+						<errormessage>“{0}”不是有效电子邮件地址。</errormessage> 
+					</email>
+					<isodate>
+						<caption>日期 (YYYY-MM-DD)</caption> 
+						<errormessage>“{0}”不是有效日期。 请输入格式为“YYYY-MM-DD”的日期。</errormessage>
+					</isodate>
+					<date1>
+						<caption>日期 (DD/MM/YYYY)</caption> 
+						<errormessage>“{0}”不是有效日期。 请输入格式为“DD/MM/YYYY”的日期。</errormessage>
+					</date1>
+					<date2>
+						<caption>日期 (MM/DD/YYYY)</caption> 
+						<errormessage>“{0}”不是有效日期。 请输入格式为“MM/DD/YYYY”的日期。</errormessage>
+					</date2>
+					<defaulttype>
+						<errormessage>您输入了不允许使用的字符 (“&lt;”或“&gt;”)。</errormessage> 
+					</defaulttype>
+				</datatypes>
+				<formnameempty>输入表单的名称。</formnameempty>
+				<formdatamailsubject>来自“{0}”的表单数据 ({1})</formdatamailsubject>
+				<formusedonpages>在以下页上使用表单:</formusedonpages>
+				<formnotused>在任何页上均未使用表单。</formnotused>
+				<multiplevalueinvalid>无效的选项值 (选项不能包含 ' 字符)。</multiplevalueinvalid>
+				<forminformation>表单信息</forminformation>
+				<folder>文件夹</folder>
+				<allforms>所有表单</allforms>
+				<formfoldercaption>表单文件夹</formfoldercaption>
+				<createnewformfoldertooltip>新建表单文件夹</createnewformfoldertooltip>
+				<renameformfoldertooltip>重命名所选表单文件夹</renameformfoldertooltip>
+				<deleteformfoldertooltip>删除所选表单文件夹</deleteformfoldertooltip>
+				<folderdialog>
+					<createnewformfolderheading>新建表单文件夹</createnewformfolderheading>
+					<renameformfolderheading>重命名表单文件夹</renameformfolderheading>
+					<createnewformfoldertext>新文件夹的名称:</createnewformfoldertext>
+					<renameformfoldertext>新文件夹名称:</renameformfoldertext>
+					<deletequestion>是否确实要删除所选表单文件夹?</deletequestion>
+					<createnewformfoldersavewarning>您必须为新表单文件夹输入有效的名称 (不含字符 \ / " ' &lt; &gt;)。</createnewformfoldersavewarning>
+					<renameformfoldersavewarning>您必须为表单文件夹输入有效的新名称 (不含字符 \ / " ' &lt; &gt;)。</renameformfoldersavewarning>
+				</folderdialog>
+				<nofolder>无文件夹</nofolder>
+			</editxform>			
+			<editxformdata>
+				<selectform>选择表单</selectform>
+				<fromdate>开始日期</fromdate>
+				<todate>结束日期</todate>
+				<allpages>显示所有页的数据</allpages>
+				<pagingsize>同时显示的行数</pagingsize>
+			</editxformdata>	
+			<contentmirroringadmin>
+				<displayname>批准镜像更新</displayname>
+				<description>此系统上提供的一组已定义频道。</description>
+				<itemdeleted>删除日期</itemdeleted>
+				<itemupdated>更新日期</itemupdated>
+				<itemcreated>创建日期</itemcreated>
+				<itemmoved>移动日期</itemmoved>
+			</contentmirroringadmin>
+			<logservice>
+				<timespananalyzer>
+					<selectinterval>选择时间跨度</selectinterval>
+					<min5interval>5 分钟</min5interval>
+					<hourinterval>小时</hourinterval> 
+					<dayinterval>天</dayinterval>
+					<monthinterval>月</monthinterval>
+					<yearinterval>年</yearinterval>
+					<total>总计</total>
+					
+					<statisticsdate>日期</statisticsdate>
+					<statisticshits>命中数</statisticshits>
+					
+					<problemconnecting>无法连接到日志服务。</problemconnecting>
+					<nodatabase>日志服务未配置数据库， 将不显示保存的历史纪录。</nodatabase>
+				</timespananalyzer>
+				<realtimeanalyzer>
+					<referrerurl>URL</referrerurl>
+					<referrercount>引用数</referrercount>
+					<noreferrer>直接访问页</noreferrer>
+				</realtimeanalyzer>
+			</logservice>
+			<timespanview>
+				<displayname>统计信息</displayname>
+			</timespanview>
+			<filemanagerbrowser>
+				<selectimage>选择图像</selectimage>
+				<selectfile>选择文件</selectfile>
+				<selectfolder>选择文件夹</selectfolder>
+				<imageselectionerrormessage>请先选择一个图像。</imageselectionerrormessage>
+				<fileselectionerrormessage>请先选择一个文件。</fileselectionerrormessage>
+				<directoryselectionerrormessage>请先选择一个文件夹。</directoryselectionerrormessage>
+			</filemanagerbrowser>
+			<editorguide>
+				<displayname>使用指南</displayname>
+				<description>该指南可帮助您创建可用和可访问的 Web 内容。</description>
+				<showsection>显示版面</showsection>
+				<hidesection>隐藏版面</hidesection>
+			</editorguide>	
+			<globalizationcontrol>
+				<heading>页“{0}”的语言</heading>
+				<displayname>页语言</displayname>
+				<description>查看当前页的状态并访问其他语言。</description>
+				<published>发布日期</published>
+				<saved>保存日期</saved>
+			</globalizationcontrol>
+			<globalizationmatrix>
+				<heading>页“{0}”的语言概述</heading>
+				<description></description>
+				<page>页</page>
+				<languagestatuspublished>已发布页</languagestatuspublished>
+				<languagestatusnotpublished>尚未发布页</languagestatusnotpublished>
+				<goup>向上</goup>
+			</globalizationmatrix>
+			<languagesettings>
+				<heading>页“{0}”的语言设置</heading>
+				<description></description>
+				<inheritsettings>从父页继承设置:“{0}”</inheritsettings>
+				<availablelanguagestitle>可用语言</availablelanguagestitle>
+				<availablelanguagesdescriptionfirst>这部分站点中的页应提供以下语言版本。 这意味着，只能使用这些语言创建页，或将其转换为这些语言。</availablelanguagesdescriptionfirst>
+				<availablelanguagesdescriptionsecond>此设置影响编辑器可以访问的这部分站点的语言。</availablelanguagesdescriptionsecond>
+				<replacementlanguagestitle>替换语言</replacementlanguagestitle>
+				<replacementlanguagesdescriptionfirst>在下面的情况下，这部分站点中的页应以访问者所选语言之外的语言显示。 这意味着，不提供这些语言的页可以换用其他语言显示。</replacementlanguagesdescriptionfirst>
+				<replacementlanguagesdescriptionsecond>例如，如果无论选择哪种语言，都应向所有访问者提供特定语言的一般信息，则可以使用此设置。</replacementlanguagesdescriptionsecond>
+				<fallbacklanguagestitle>后备语言</fallbacklanguagestitle>
+				<fallbacklanguagesdescriptionfirst>这部分站点中的页具有访问者所选语言之外的语言版本。 这意味着，尚未以所选语言转换和发布的页可临时换用其他语言显示。</fallbacklanguagesdescriptionfirst>
+				<fallbacklanguagesdescriptionsecond>请注意，此设置可能使导航和列表中出现语言混用的情况，这可能会使访问者感到非常不便。</fallbacklanguagesdescriptionsecond>
+				<visitorlanguageheading>访问者语言</visitorlanguageheading>
+				<replacementlanguageheading>替换语言</replacementlanguageheading>
+				<fallbacklanguageheading>后备语言</fallbacklanguageheading>
+				<addwarning>是否确实要在该页中使用您自己的语言设置而不是从父页继承设置?</addwarning>
+				<deletewarning>是否确实要删除该页的语言设置并从父页继承设置?</deletewarning>
+			</languagesettings>
+			<deletepagelanguage>
+				<heading>			删除页“{0}”的语言</heading>
+				<info>				删除页的其中一种语言，而不删除整个页。 注意！ 如果删除页的语言，将永久删除该语言。 这意味着不会将其移到回收站。 该语言的所有子页不会被删除。</info>
+				<selectlanguage>	删除语言</selectlanguage>
+				<selectlanguageitem>选择要删除的语言</selectlanguageitem>
+				<deletedlanguage>	已删除该页的语言“{0}”。</deletedlanguage>				
+				<nothingtodelete>	该页仅使用一种语言。 如果要删除该页及其子页，请使用“删除”功能。</nothingtodelete>
+				<confirmdeletemessage>如果继续，则会永久删除该页的所选语言。</confirmdeletemessage>
+				<confirmdeletequestion>是否确实要删除该语言?</confirmdeletequestion>
+				<alertlangnotselected>您必须选择一种语言。</alertlangnotselected>
+			</deletepagelanguage>
+		</edit>
+		<editor>
+			<tools>
+				<font>
+					<toolheading>字体</toolheading>
+					<fontheading>字体:</fontheading>
+					<styleheading>样式:</styleheading>
+					<sizeheading>大小:</sizeheading>
+					<effectheading>效果:</effectheading>
+					<underline>下划线</underline>
+					<colorheading>颜色:</colorheading>
+					<samlpeheading>范例</samlpeheading>
+					<styleregular>		常规</styleregular>
+					<styleitalic>		斜体</styleitalic>
+					<stylebold>			粗体</stylebold>
+					<stylebolditalic>	粗斜体</stylebolditalic>
+				</font>
+				<search>
+					<toolheading>查找</toolheading>
+					<findheading>查找内容:</findheading>
+					<matchwhole>全字匹配</matchwhole>
+					<matchcase>区分大小写</matchcase>
+					<directionheading>方向</directionheading>
+					<directonup>向上</directonup>
+					<directiondown>向下</directiondown>
+					<reachedend>		已到达文档的结尾。 是否要从开头继续搜索?</reachedend>
+					<finisheddocument>	文档搜索完毕。</finisheddocument>
+				</search>
+				<insertanchor>
+					<toolheading>插入书签</toolheading>
+					<anchorname>书签名称:</anchorname>
+				</insertanchor>
+				<inserttable>
+					<toolheading>插入表</toolheading>
+					<previewheading>预览</previewheading>
+					<rows>行数</rows>
+					<columns>列数</columns>
+					<border>边框</border>
+					<width>宽度</width>
+				</inserttable>
+				<spellcheck>
+					<toolheading>拼写</toolheading>
+					<notindictionary>不在字典中:</notindictionary>
+					<suggestions>建议:</suggestions>
+					<cannotspellcheck>	无法对当前选择的内容进行拼写检查。</cannotspellcheck>
+					<finishedselection>	已完成所选内容的检查。</finishedselection>
+					<finisheddocument>	文档检查完毕。</finisheddocument>
+					<initializing>		(正在初始化拼写检查，请稍候...)</initializing>
+					<textnotfound>		在文本中未找到。</textnotfound>
+					<nosuggestions>		(无拼写建议)</nosuggestions>
+				</spellcheck>
+				<tableproperties>
+					<toolheading>表属性</toolheading>
+					<layoutheading>布局</layoutheading>
+					<alignmentheading>对齐方式:</alignmentheading>
+					<alignmentdefault>默认</alignmentdefault>
+					<alignmentright>右对齐</alignmentright>
+					<alignmentcenter>居中对齐</alignmentcenter>
+					<alignmentleft>左对齐</alignmentleft>
+					<cellpadding>单元格填充:</cellpadding>
+					<cellspacing>单元格间距:</cellspacing>
+					<specifywidth>指定宽度:</specifywidth>
+					<specifyheight>指定高度:</specifyheight>
+					<pixels>像素</pixels>
+					<percent>百分比</percent>
+					<borderheading>边框</borderheading>
+					<bordersize>大小:</bordersize>
+					<bordercolor>颜色:</bordercolor>
+					<borderlight>浅色边框:</borderlight>
+					<borderdark>深色边框:</borderdark>
+					<backgroundheading>背景</backgroundheading>
+					<backgroundcolor>颜色:</backgroundcolor>
+					<usepicture>使用背景图片</usepicture>
+					<sizeheading>大小</sizeheading>
+					<descriptionheading>说明</descriptionheading>
+					<caption>标题:</caption>
+					<summary>摘要:</summary>
+				</tableproperties>
+				<cellproperties>
+					<toolheading>单元格属性</toolheading>
+					<layoutheading>布局</layoutheading>
+					<halignmentheading>水平对齐:</halignmentheading>
+					<halignmentdefault>默认</halignmentdefault>
+					<halignmentright>右对齐</halignmentright>
+					<halignmentcenter>居中对齐</halignmentcenter>
+					<halignmentleft>左对齐</halignmentleft>
+					<valignmentheading>垂直对齐:</valignmentheading>
+					<valignmentdefault>默认</valignmentdefault>
+					<valignmentbaseline>基线</valignmentbaseline>
+					<valignmentbottom>底对齐</valignmentbottom>
+					<valignmentmiddle>中间对齐</valignmentmiddle>
+					<valignmenttop>顶对齐</valignmenttop>
+					<specifywidth>指定宽度:</specifywidth>
+					<specifyheight>指定高度:</specifyheight>
+					<pixels>像素</pixels>
+					<percent>百分比</percent>
+					<borderheading>边框</borderheading>
+					<bordercolor>颜色:</bordercolor>
+					<borderlight>浅色边框:</borderlight>
+					<borderdark>深色边框:</borderdark>
+					<backgroundheading>背景</backgroundheading>
+					<backgroundcolor>颜色:</backgroundcolor>
+					<usepicture>使用背景图片</usepicture>
+					<sizeheading>大小</sizeheading>
+					<headersheading>标题</headersheading>
+					<type>单元格类型:</type>
+					<scope>范围:</scope>
+					<axis>轴:</axis>
+					<axiswindowtitle>选择轴</axiswindowtitle>
+					<axiswindowtext>选择下面的一个或多个现有轴，或者在文本框中输入名称以新建轴。</axiswindowtext>
+					<headers>标题:</headers>
+					<headerswindowtitle>选择标题</headerswindowtitle>
+					<headerswindowtext>选择下面的一个或多个可用标题 (ID 值)，或者在文本框中输入以后要添加的 ID。</headerswindowtext>
+					<id>ID:</id>
+					<datacell>数据单元格</datacell>
+					<headercell>标题单元格</headercell>
+					<scopecol>列</scopecol>
+					<scoperow>行</scoperow>
+					<multiplevalues>多个</multiplevalues>
+				</cellproperties>
+				<selectvalue>
+					<newvalue>新值:</newvalue>
+				</selectvalue>
+				<imageproperties>
+					<toolheading>图像属性</toolheading>
+					<sizeheading>显示大小</sizeheading>
+					<specifywidth>指定宽度:</specifywidth>
+					<specifyheight>指定高度:</specifyheight>
+					<pixels>像素</pixels>
+					<percent>百分比</percent>
+					<lockproportions>锁定纵横比</lockproportions>
+					<layoutheading>布局和边框</layoutheading>
+					<alignment>对齐方式:</alignment>
+					<alignmentleft>左对齐</alignmentleft>
+					<alignmentright>右对齐</alignmentright>
+					<alignmentbottom>底对齐</alignmentbottom>
+					<alignmentmiddle>中间对齐</alignmentmiddle>
+					<alignmenttop>顶对齐</alignmenttop>
+					<borderwidth>边框宽度:</borderwidth>
+					<hspace>水平间距:</hspace>
+					<vspace>垂直间距:</vspace>
+					<cssclass>CSS 类:</cssclass>
+					<informationheading>信息</informationheading>
+					<filesize>文件大小:</filesize>
+					<filename>文件名:</filename>
+					<alttext>替换文本:</alttext>
+					<unitbytes>字节</unitbytes>
+					<hyperlinkheading>超链接</hyperlinkheading>
+					<hyperlinkaddress>链接到:</hyperlinkaddress>
+					<uselink>将链接连接到图像</uselink>
+					<invalidlink>无效链接</invalidlink>
+					<edithyperlinkproperties>编辑链接属性</edithyperlinkproperties>
+					<imagefile>图像文件:</imagefile>
+					<noimagevalidationmessage>请在保存之前指定图像。</noimagevalidationmessage>
+					<nolinkinfovalidationmessage>您指示图像将连接到链接。</nolinkinfovalidationmessage>
+					<specifylinkinfomessage>请在保存之前指定链接信息或删除该指示。</specifylinkinfomessage>
+				</imageproperties>
+				<hyperlinkproperties>
+					<toolheading>链接属性</toolheading>
+					<tabs>
+						<webpage>网页</webpage>
+						<document>文档</document>
+						<email>电子邮件</email>
+					</tabs>
+					<informationheading see="/editor/tools/imageproperties/informationheading"/>
+					<clickabletext>可单击文本:</clickabletext>
+					<clickableimage>可单击图像:</clickableimage>
+					<linktitle see="/util/linkeditor/linktitlefieldcaption"/>
+					<targetframe see="/util/linkeditor/targetfieldcaption"/>
+					<linktargetheading>链接目标</linktargetheading>
+					<internallink>此网站上的页</internallink>
+					<externallink see="/edit/linkgeneric/LinkGenericExternalCaption"/>
+					<anchorlink>该页上的书签</anchorlink>
+					<page>页:</page>
+					<language>语言:</language>
+					<automatically>自动</automatically>
+					<address see="/util/linkeditor/urlfieldcaption"/>
+					<anchor>书签:</anchor>
+					<internaldocumentlink>此网站上的文档</internaldocumentlink>
+					<networkdocumentlink>网络上的文档</networkdocumentlink>
+					<externaldocumentlink>其他网站上的文档</externaldocumentlink>
+					<path>路径:</path>
+					<emailaddress see="/util/linkeditor/mailfieldcaption"/>
+					<editimageproperties>编辑图像属性</editimageproperties>
+					<pagenotfoundmessage>此链接指向的页不再存在。</pagenotfoundmessage>
+					<pageaccessdeniedmessage>您无权访问此链接指向的页。</pageaccessdeniedmessage>
+					<selectnewpagemessage>在保存之前选择新页，或更改为其他链接类型。</selectnewpagemessage>
+					<documentnotfoundmessage>此链接指向的文档不再存在，或已移动。</documentnotfoundmessage>
+					<documentaccessdeniedmessage>您无权访问此链接指向的文档。</documentaccessdeniedmessage>
+					<selectnewdocumentmessage>在保存之前选择新文档，或更改为其他链接类型。</selectnewdocumentmessage>
+					<nourlvalidationmessage>请在保存之前指定链接目标。</nourlvalidationmessage>
+					<noimageinfovalidationmessage>您已选择该链接应为可单击图像。</noimageinfovalidationmessage>
+					<specifyimagemessage>请在保存之前指定图像，或改为选择可单击文本。</specifyimagemessage>					
+				</hyperlinkproperties>
+				<resizeimage>
+					<toolheading>调整图像大小</toolheading>
+					<sizeheading>大小</sizeheading>
+					<qualityheading>质量</qualityheading>
+					<alternativesheading>选项</alternativesheading>
+					<lockproportions see="/editor/tools/imageproperties/lockproportions"/>
+					<specifywidth see="/editor/tools/imageproperties/specifywidth"/>
+					<specifyheight see="/editor/tools/imageproperties/specifyheight"/>
+					<pixels>像素</pixels>
+					<lockproportions see="/editor/tools/imageproperties/lockproportions"/>
+					<nosizevalidationmessage>请在保存之前指定所选内容的宽度和高度。</nosizevalidationmessage>
+					<quality>图像质量</quality>
+					<qualitylevel>
+						<low>低</low>
+						<medium>中</medium>
+						<high>高</high>
+						<maximum>最佳</maximum>
+					</qualitylevel>
+					<qualityinfo>
+						<info>信息:</info>
+						<low>与原始图像相比，低质量选项提供的清晰度较低，但文件大小很小。</low>
+						<medium>与原始图像相比，中等质量选项提供中等清晰度，但文件大小较小。</medium>
+						<high>与原始图像相比，高质量选项的清晰度较好，文件大小稍有减小。</high>
+						<maximum>最佳质量选项保持原始图像的清晰度，文件大小不变。</maximum>
+					</qualityinfo>
+					<saveoption>
+						<saveascopy>将调整过大小的图像另存为副本，保留原始图像。</saveascopy>
+						<replaceoriginal>用调整过大小的图像替换原始图像 (仅 jpg 图像)。</replaceoriginal>
+					</saveoption>
+					<imagemissingmessage>在调整大小之前指定图像。</imagemissingmessage>
+					<imagenotfoundmessage>找不到指定图像。</imagenotfoundmessage>
+					<notauthorizedmessage>您无权更改此文件夹中的图像，也无权向此文件夹添加图像。</notauthorizedmessage>
+				</resizeimage>
+			</tools>
+		</editor>
+		<admin>
+			<admingroup>
+				<heading>			管理组</heading>
+				<info>				删除或添加用于分配访问权限的组。</info>
+				<group>				组</group>
+				<description see="/labels/description"/>
+				<ldappath>			LDAP 服务器</ldappath>
+				<groupdeleted>		“{0}”组已删除</groupdeleted>
+				<deleteprefix>		是否删除组</deleteprefix>
+				<deletesuffix>		?</deletesuffix>
+				<groupexists>		名称为 {0} 的组已存在</groupexists>
+				<localgroup>		Windows 组</localgroup>
+				<syncbutton>		同步</syncbutton>
+				<syncldapbutton>	从 LDAP 服务器导入</syncldapbutton>
+				<newgroupinfo>创建用于 EPiServer 的组</newgroupinfo>
+				<syncinfo>	同步有关 EPiServer 本地组的信息</syncinfo>
+				<ldapinfo>	从 LDAP 服务器导入组信息。 在字段中输入搜索表达式，如 User* 将列出所有以 User 开头的组/组织单位。</ldapinfo>
+			</admingroup>
+			<backup>
+				<heading>			备份</heading>
+				<abortedinfo>		操作已中止</abortedinfo>
+				<completedinfo>		备份完成。</completedinfo>
+				<devicequeryinfo>	注意！ 只有分配了“sysadmin”角色的数据库用户才能执行此操作。</devicequeryinfo>
+				<info>				备份数据库。 注意，此操作只备份数据库的内容。 此信息将保留在数据库服务器上，必须将其与其他 EPiServer 文件一起复制到其他位置，才能在发生灾难性系统故障时还原系统。</info>
+			</backup>
+			<license>
+				<heading>许可信息</heading>
+				<info></info>
+				<tabinfo>信息</tabinfo>
+				<tabinstallnew>安装新许可</tabinstallnew>
+				<licensenumber>许可号</licensenumber>
+				<licensedto>使用权属于</licensedto>
+				<licensedcompany>公司</licensedcompany>
+				<licensedescription>许可说明</licensedescription>
+				<licenserestrictions>限制</licenserestrictions>
+				<selectfile>选择新许可文件</selectfile>
+				<uploadlicense>上载并验证许可</uploadlicense>
+				<newfileinstalled>新许可文件已安装</newfileinstalled>
+				<licenseid>许可 ID</licenseid>
+			</license>
+			<categories>
+				<deleteprefix>是否要删除类别</deleteprefix>
+				<deletesuffix>?</deletesuffix>
+				<heading>类别</heading>
+				<info>定义网站要使用的类别。 这些类别将出现在每个“编辑”模式页的标题“类别”下。</info>
+				<tablename>名称</tablename>
+				<tabledescription>说明</tabledescription>
+				<tablevisible>可见</tablevisible>
+				<tableselectable>可选</tableselectable>
+				<helpgeneral>单击类别名称可编辑类别的有关信息。</helpgeneral>
+				<helpadd>在所选类别下添加类别。 注意，单击“保存”之前，不会进行任何更改。</helpadd>
+				<helpdelete>删除类别。 注意，如果类别具有子类别，子类别将上移一级。</helpdelete>
+				<moveup>上移</moveup>
+				<movedown>下移</movedown>
+				<helpmoveup>将类别在列表中上移一步。</helpmoveup>
+				<helpmovedown>将类别在列表中下移一步。</helpmovedown>
+				<delreferenceprefix>一个或多个页引用您要删除的类别 (</delreferenceprefix>
+				<delreferencesuffix>)</delreferencesuffix>
+				<delreferenceconfirm>是否仍要删除此类别?</delreferenceconfirm>
+				
+			</categories>
+			<cleanupupload>
+				<heading>删除未使用的文件</heading>
+				<infodeleting>不从上载文件夹中删除引用的文件</infodeleting>
+				<nothing>无可删除内容。</nothing>
+				<info>单击“确定”删除页已不再存在的未使用页文件。</info>
+				<notdeleted>无法删除&amp;nbsp;</notdeleted>
+				<norefprefix>没有文件引用“</norefprefix>
+				<norefsuffix>”，但该文件太新，因而不能删除。</norefsuffix>
+			</cleanupupload>
+			<copypagetype>
+				<heading>复制页类型</heading>
+				<info>选择要复制的页类型。</info>
+				<caption>复制</caption>
+			</copypagetype>
+			<editdynprop>
+				<heading>	编辑动态属性</heading>
+				<info>		无论使用哪种页类型，都可以使用动态属性。</info>
+			</editdynprop>
+			<editdynpropfield>
+				<heading>	编辑动态属性</heading>
+				<headingnew>新建动态属性</headingnew>
+				<info></info>
+				<tabinfo>	信息</tabinfo>
+				<namecaption see="/admin/editpagetypefield/namecaption"/>
+				<typecaption see="/admin/editpagetypefield/typecaption"/>
+				<advancedcaption see="/admin/editpagetypefield/advancedcaption"/>
+				<editcaption see="/admin/editpagetypefield/editcaption"/>
+				<helptextcaption see="/admin/editpagetypefield/helpcaption"/>
+				<longstringsettingscaption see="/admin/editpagetypefield/editorhelp"/>
+			</editdynpropfield>
+			<editpagetype>
+				<addproperty>			添加属性</addproperty>
+			</editpagetype>
+			<editpagetypebase>
+				<tabinfo>信息</tabinfo>
+				<tabdefaultvalues>默认值</tabdefaultvalues>
+				<tabtypetotype>可用页类型</tabtypetotype>
+				<delete>是否要删除该页类型?</delete>
+				<heading>编辑“{0}”</heading>
+				<headingnew>新建页类型</headingnew>
+				<info>编辑页类型的基本信息。</info>
+				<namecaption>名称</namecaption>
+				<descriptioncaption>说明</descriptioncaption>
+				<filenamecaption>文件名</filenamecaption>
+				<editpagecaption>自定义编辑页</editpagecaption>
+				<availablecaption>在“编辑”模式中可用</availablecaption>
+				<workfloweditfieldscaption>始终显示链接到工作流程的字段</workfloweditfieldscaption>
+				<sortordercaption>排序索引</sortordercaption>
+				<headingsaved>页类型已保存</headingsaved>
+				<headingdeleted>页类型已删除</headingdeleted>
+				<headingdeletefailed>无法删除页类型 -- 已存在此类型的页</headingdeletefailed>
+				<usecustomdefaultcaption>使用自定义默认值</usecustomdefaultcaption>
+				<usecustomdefaulthelp>如果不希望系统自动设置这些值，请使用自定义默认值</usecustomdefaulthelp>
+				<defaultstartpublishcaption>设置相对于页创建时间的“开始发布日期”</defaultstartpublishcaption>
+				<defaultstartpublishhelp>设置相对于页创建时间的“开始发布日期”</defaultstartpublishhelp>
+				<defaultstoppublishcaption>设置相对于页创建时间的“停止发布日期”</defaultstoppublishcaption>
+				<defaultstoppublishhelp>设置相对于页创建时间的“停止发布日期”</defaultstoppublishhelp>
+				<typetotype>选择在该页类型下可以创建的页类型</typetotype>
+				<alltypeavailable>所有页类型都可用</alltypeavailable>
+				<defaultidcaption see="#usecustomdefaultcaption"/>
+				<defaultidhelp see="#usecustomdefaulthelp"/>
+				<defaultnamecaption see="/pagetypes/common/property[@name='PageName']/caption"/>
+				<defaultnamehelp see="/pagetypes/common/property[@name='PageName']/help"/>
+				<visibleinmenucaption see="/pagetypes/common/property[@name='PageVisibleInMenu']/caption"/>
+				<visibleinmenuhelp see="/pagetypes/common/property[@name='PageVisibleInMenu']/help"/>
+				<peerordercaption see="/pagetypes/common/property[@name='PagePeerOrder']/caption"/>
+				<peerorderhelp see="/pagetypes/common/property[@name='PagePeerOrder']/help"/>
+				<childorderrulecaption see="/pagetypes/common/property[@name='PageChildOrderRule']/caption"/>
+				<childorderrulehelp see="/pagetypes/common/property[@name='PageChildOrderRule']/help"/>
+				<frameidcaption see="/pagetypes/common/property[@name='PageFrameID']/caption"/>
+				<frameidhelp see="/pagetypes/common/property[@name='PageFrameID']/help"/>
+				<archivepagelinkcaption see="/pagetypes/common/property[@name='PageArchiveLink']/caption"/>
+				<archivepagelinkhelp see="/pagetypes/common/property[@name='PageArchiveLink']/help"/>
+			</editpagetypebase>
+			<editlanguage>
+				<heading>				语言编码</heading>
+				<info>					&lt;b&gt;警告！&lt;/b&gt; 对该页进行错误的更改将使网站停止响应。</info>
+				<languageidcaption>		语言代码</languageidcaption>
+				<languagenamecaption>	本地语言名称</languagenamecaption>
+				<languagenameencaption>	英语语言名称</languagenameencaption>
+				<charsetcaption>		字符集</charsetcaption>
+				<fontcharsetcaption>	编辑器中使用的字体</fontcharsetcaption>
+				<localecaption>			日期/时间的格式设置</localecaption>
+				<mailcodepagecaption>	电子邮件的字符集</mailcodepagecaption>
+				<setsystemdefaultcaption>设置为系统默认编码</setsystemdefaultcaption>
+				<currentsystemdefaultcaption>当前系统默认编码</currentsystemdefaultcaption>
+			</editlanguage>
+			<editpagetypedel>
+				<heading>删除属性</heading>
+				<deleted>属性已删除</deleted>
+				<inuse>正在下面的页中使用属性</inuse>
+				<confirm>是否仍要删除此属性?</confirm>
+			</editpagetypedel>
+			<editpagetypefield>
+				<heading>编辑属性</heading>
+				<headingnew>				新建属性</headingnew>
+				<info></info>
+				<tabinfo>					信息</tabinfo>
+				<saved>属性已保存</saved>
+				<namecaption>名称</namecaption>
+				<editcaption>编辑标题</editcaption>
+				<helpcaption>帮助文本</helpcaption>
+				<typecaption>类型</typecaption>
+				<typeboolean>选择/未选择</typeboolean>
+				<typenumber>整数</typenumber>
+				<typefloatnumber>浮点数</typefloatnumber>
+				<typepagetype>页类型</typepagetype>
+				<typepagelink>页</typepagelink>
+				<typedate>时间/日期</typedate>
+				<typestring>字符串 (&lt;= 255)</typestring>
+				<typelongstring>长字符串 (&gt;255)</typelongstring>
+				<typexhtmlstring>XHTML 字符串 (&gt;255)</typexhtmlstring>
+				<typecategory>类别选择</typecategory>
+				<typeform>表单</typeform>
+				<typeurl>到页/外部地址的 URL</typeurl>
+				<typedocumenturl>到文档的 URL</typedocumenturl>
+				<typeimageurl>到图像的 URL</typeimageurl>
+				<typeweekday>工作日</typeweekday>
+				<typeframe>框架</typeframe>
+				<typefilesortorder>文件的排序顺序</typefilesortorder>
+				<typepagereference>页</typepagereference>
+				<typelanguage>语言</typelanguage>
+				<typepassword>密码</typepassword>
+				<typesortorder>页的排序顺序</typesortorder>
+				<typeselector>当前页的属性</typeselector>
+				<typesid>用户</typesid>
+				<advancedcaption>放在标题之下</advancedcaption>
+				<objectcaption>通过对象自定义编辑处理</objectcaption>
+				<searchablecaption>可搜索属性</searchablecaption>
+				<requiredcaption>必须输入值</requiredcaption>
+				<useeditorcaption>使用编辑器</useeditorcaption>
+				<nodefaultcaption>无默认值</nodefaultcaption>
+				<inheritcaption>继承值</inheritcaption>
+				<defaultcaption>默认值</defaultcaption>
+				<editorboldcaption>粗体</editorboldcaption>
+				<editoritaliccaption>斜体</editoritaliccaption>
+				<editorunderlinecaption>下划线</editorunderlinecaption>
+				<editorbulletscaption>项目符号列表</editorbulletscaption>
+				<editornumbercaption>编号列表</editornumbercaption>
+				<editorleftcaption>左对齐</editorleftcaption>
+				<editorcentercaption>居中对齐</editorcentercaption>
+				<editorrightcaption>右对齐</editorrightcaption>
+				<editorfontcaption>字体</editorfontcaption>
+				<editorrefreshcaption>刷新</editorrefreshcaption>
+				<editortogglehtmlcaption>显示/隐藏 HTML 代码</editortogglehtmlcaption>
+				<editorinsertanchorcaption>插入书签</editorinsertanchorcaption>
+				<editorinsertimagecaption>从文件中插入图像</editorinsertimagecaption>
+				<editorinsertdoccaption>插入文档</editorinsertdoccaption>
+				<editorinserturlcaption>插入超链接</editorinserturlcaption>
+				<editorinserttablecaption>插入表</editorinserttablecaption>
+				<editorundocaption>撤消</editorundocaption>
+				<editorredocaption>恢复</editorredocaption>
+				<editorfindcaption>搜索</editorfindcaption>
+				<editorhelp>编辑器的属性 –– 全部清除以使用文本区域而不是编辑器</editorhelp>
+				<editorcutcaption>				剪切</editorcutcaption>
+				<editorcopycaption>				复制</editorcopycaption>
+				<editorpastecaption>			粘贴</editorpastecaption>
+				<editorpasteunformattedcaption>	不带格式粘贴</editorpasteunformattedcaption>
+				<editorremoveformattingcaption>	删除格式设置</editorremoveformattingcaption>
+				<editortablesubmenucaption>		表</editortablesubmenucaption>
+				<editorformatparagraphcaption>	设置段落格式</editorformatparagraphcaption>
+				<editortablepropertiescaption>	表属性...</editortablepropertiescaption>
+				<editorcellpropertiescaption>	单元格属性...</editorcellpropertiescaption>
+				<editoraboutcaption>			关于...</editoraboutcaption>
+				<editorspellcheckcaption>		拼写</editorspellcheckcaption>
+				<editorspellcheckmenucaption>	拼写...</editorspellcheckmenucaption>
+				<editorfontmenucaption>			字体...</editorfontmenucaption>
+				<editorinsertanchormenucaption>	书签...</editorinsertanchormenucaption>
+				<editorinsertimagemenucaption>	图像...</editorinsertimagemenucaption>
+				<editorinsertdocmenucaption>	文档...</editorinsertdocmenucaption>
+				<editorinserturlmenucaption>	超链接...</editorinserturlmenucaption>
+				<editorinserttablemenucaption>	表...</editorinserttablemenucaption>
+				<editorfindmenucaption>			查找...</editorfindmenucaption>
+				<editortogglehtmlmenucaption>	查看源</editortogglehtmlmenucaption>
+				<editortableinsertcolbeforecaption>	在此位置前插入列</editortableinsertcolbeforecaption>
+				<editortableinsertcolaftercaption>	在此位置后插入列</editortableinsertcolaftercaption>
+				<editortableinsertrowbeforecaption>	在此位置前插入行</editortableinsertrowbeforecaption>
+				<editortableinsertrowaftercaption>	在此位置后插入行</editortableinsertrowaftercaption>
+				<editortabledeletecolscaption>		删除列</editortabledeletecolscaption>
+				<editortabledeleterowscaption>		删除行</editortabledeleterowscaption>
+				<editortabledeletetablecaption>		删除表</editortabledeletetablecaption>
+				<editortablemergecellscaption>		合并单元格</editortablemergecellscaption>
+				<editortablesplithorizontalcaption>	水平拆分单元格</editortablesplithorizontalcaption>
+				<editortablesplitverticalcaption>	垂直拆分单元格</editortablesplitverticalcaption>
+				<editorinsertsubmenucaption>		插入</editorinsertsubmenucaption>
+				<editorloading>正在加载编辑器...</editorloading>
+				<reservedproperty>“{0}”是元数据的保留名称</reservedproperty>
+				<inuseproperty>名称为“{0}”的属性已存在</inuseproperty>
+				<editorimagepropertiescaption>图像属性...</editorimagepropertiescaption>
+				<editorinserthrcaption>水平标尺</editorinserthrcaption>
+				<editorselectsubmenucaption>选择</editorselectsubmenucaption>
+				<editorselecttablecaption>表</editorselecttablecaption>
+				<editorselecttablecellcaption>表单元格</editorselecttablecellcaption>
+				<editorselecttablerowcaption>表行</editorselecttablerowcaption>
+				<editorselecttablecolumncaption>表列</editorselecttablecolumncaption>
+				<editorselectallcaption>全部</editorselectallcaption>
+				<editorselectsectioncaption>段落</editorselectsectioncaption>
+				<editorselectexpandcaption>展开</editorselectexpandcaption>
+				<editorselectcontractcaption>折叠</editorselectcontractcaption>
+				<editorselectpreviouscaption>上一个</editorselectpreviouscaption>
+				<editorselectnextcaption>下一个</editorselectnextcaption>
+				<editormaximizercaption>最大化/还原编辑器</editormaximizercaption>			
+				<editorcellsubmenucaption>单元格</editorcellsubmenucaption>
+				<typexform>XForms 表单</typexform>	
+				<editorhyperlinkpropertiescaption>链接属性...</editorhyperlinkpropertiescaption>
+				<languagespecificcaption>每种语言一个唯一值</languagespecificcaption>
+				<typeuilanguage>系统语言</typeuilanguage>
+				<typelanguagebranch>页语言 (一个选项)</typelanguagebranch>
+				<typelanguagebranchlist>页语言 (多个选项)</typelanguagebranchlist>
+			</editpagetypefield>
+			<frames>
+				<deleteprefix>是否要删除框架</deleteprefix>
+				<deletesuffix>?</deletesuffix>
+				<heading>编辑框架</heading>
+				<info>定义网站使用的框架。 创建链接时，这些将作为“目标框架”选项。</info>
+				<tablename>框架名称</tablename>
+				<tabledescription>说明</tabledescription>
+			</frames>
+			<headings>
+				<deleteprefix>是否要删除选项卡</deleteprefix>
+				<deletesuffix>?</deletesuffix>
+				<heading>编辑选项卡</heading>
+				<info>定义“编辑”选项卡下面的选项卡。 创建或编辑属性时，您可以选择要在其下面显示该属性的选项卡。</info>
+				<tablename>选项卡</tablename>
+				<tablevisible>可见</tablevisible>
+				<tablesortindex>排序索引</tablesortindex>
+				<tableaccesslevel>需要访问级别</tableaccesslevel>
+			</headings>
+			<loglevel>
+				<heading>日志级别</heading>
+				<saved>更改已保存</saved>
+				<caption>选择新日志级别</caption>
+				<typeread>读取页</typeread>
+				<typecreate>创建页</typecreate>
+				<typechange>更改页</typechange>
+				<typesecurity>更改权限</typesecurity>
+			</loglevel>
+			<workflowdefinition>
+				<heading>工作流程</heading>
+				<namecaption>名称</namecaption>
+			</workflowdefinition>
+			<workflowdefinitionedit>
+				<heading>编辑工作流程</heading>
+				<workflowdefname>名称</workflowdefname>
+				<workflowdefowner>所有者</workflowdefowner>
+				<newtask>新任务</newtask>
+				<taskstate>状态</taskstate>
+				<taskheading>名称</taskheading>
+				<taskdescription>说明</taskdescription>
+				<tasktype>类型</tasktype>
+				<taskpagetype>页类型</taskpagetype>
+				<taskcontainer>树中的位置</taskcontainer>
+				<taskurl>自定义 URL</taskurl>
+				<taskowner>所有者</taskowner>
+				<taskmailnotification>通过电子邮件发送给所有者的通知</taskmailnotification>
+				<taskondone>任务完成时</taskondone>
+				<taskonfail>任务被拒绝时</taskonfail>
+				<taskontimeout>超过任务截止日期时</taskontimeout>
+				<tasktimeout>距离截止日期的时间</tasktimeout>
+				<taskeditfields>显示的工作流程中最新创建的页的字段</taskeditfields>
+				<taskinheritededitfieldicon>最新创建的页的字段中要显示的图像的路径</taskinheritededitfieldicon>
+				<taskcurrenteditfieldicon>该页字段中要显示的图像的路径</taskcurrenteditfieldicon>
+				<buttonpagelist>显示链接页</buttonpagelist>
+			</workflowdefinitionedit>
+			<workflowpropertybrowser>
+				<heading>从显示的最新创建的页中选择字段</heading>
+				<metacaption>默认字段</metacaption>
+				<propertycaption>字段</propertycaption>
+			</workflowpropertybrowser>
+			<menu>
+				<delpropertyprefix>是否删除属性“</delpropertyprefix>
+				<delpropertysuffix>”?</delpropertysuffix>
+				<tooltipedit>编辑模式</tooltipedit>
+				<tooltipview>查看模式</tooltipview>
+				<tooltiphelp>帮助</tooltiphelp>
+				<systemadministration>系统管理</systemadministration>
+				<settings>系统设置</settings>
+				<editheadings>编辑选项卡</editheadings>
+				<editframes>编辑框架</editframes>
+				<editcategories>编辑类别</editcategories>
+				<editfiletypes>编辑文件类型</editfiletypes>
+				<cleanupupload see="/admin/cleanupupload/heading"/>
+				<clearcache>清除页缓存</clearcache>
+				<changeskin>更改外观</changeskin>
+				<rebuildlinks>重新生成 Web 地址</rebuildlinks>
+				<productupdate>			产品更新</productupdate>
+				<robotsearch>管理 Web 地址</robotsearch>
+				<language>				语言</language>
+				<editlanguage>			语言编码</editlanguage>
+				<databasemaintenance>数据库维护</databasemaintenance>
+				<backup>备份</backup>
+				<archive>存档功能</archive>
+				<wastebasket>清空回收站</wastebasket>
+				<workflowdefinition>工作流程</workflowdefinition>
+				<workflowdefinitionnew>新建工作流程</workflowdefinitionnew>
+				<workflowdefinitionedit>编辑工作流程</workflowdefinitionedit>
+				<security>访问权限</security>
+				<setsecurity>设置访问权限</setsecurity>
+				<admingroups>管理组</admingroups>
+				<defaultgroup see="/admin/registrationsettings/heading"/>
+				<searchuser>搜索用户/组</searchuser>
+				<createuser>创建用户</createuser>
+				<createlocalgroup>创建组</createlocalgroup>
+				<logging>日志记录</logging>
+				<systemmessages>显示系统消息</systemmessages>
+				<setloglevel>设置日志级别</setloglevel>
+				<clearlog>清除日志信息</clearlog>
+				<pagetype>页类型</pagetype>
+				<newpagetype>新建页类型</newpagetype>
+				<datatypes>编辑自定义属性类型</datatypes>
+				<copypagetype>复制页类型</copypagetype>
+				<editdynamicproperty>动态属性</editdynamicproperty>
+				<editremotesite>远程网站</editremotesite>
+				<plugins>工具</plugins>
+				<setpermission>功能权限</setpermission>
+				<license>许可信息</license>
+				<scheduledjobs>计划任务</scheduledjobs>
+				<editlanguages>编辑语言代码</editlanguages>
+				<editlanguagebranches>管理网站语言</editlanguagebranches>
+			</menu>
+			<permission>
+				<heading>功能权限</heading>
+				<info>	向用户/组提供 EPiServer中特定功能的访问权限。</info>
+				<editpermission>具有权限“{0}”的用户/组</editpermission>
+				<sidsaved>		功能的新权限已保存</sidsaved>
+			</permission>
+			<pagedefinitiontype>
+				<heading>				编辑属性类型</heading>
+				<info>					您可以编辑和新建用于 EPiServer 页属性的数据类型。</info>
+			</pagedefinitiontype>
+			<pagedefinitiontypeedit>
+				<heading>				编辑数据类型</heading>
+				<headingnew>			新建数据类型</headingnew>
+				<tabinfo>				定义</tabinfo>
+				<info></info>
+				<property name="property">
+					<caption>				基类型</caption>
+			</property>
+			<namecaption>			名称</namecaption>
+			<namehelp>				选择属性类型的名称</namehelp>
+			<typenamecaption>		类名</typenamecaption>
+			<typenamehelp>			类名和命名空间 (如 EPiServer.SpecializedProperties.PropertyPassword)</typenamehelp>
+			<assemblynamecaption>	程序集名称</assemblynamecaption>
+			<assemblynamehelp>		包含类的程序集的名称 (如 EPiServerSample)</assemblynamehelp>
+			<typeinuse>正在以下属性中使用此类型，因而将其无法删除:</typeinuse>
+			</pagedefinitiontypeedit>
+			<rebuildlinks>
+				<heading>重新生成 Web 地址</heading>
+				<rebuilddone>内部 Web 地址已重新生成。</rebuilddone>
+				<info>如果更改了根文件夹 (在“系统设置”下)，则需要重新生成 Web 地址。 否则，所有内部链接都将指向错误的位置。</info>
+				<normalrebuild>更新所有页的 Web 地址</normalrebuild>
+				<newdirectoryrebuild>	设置要替换的旧根文件夹</newdirectoryrebuild>
+				<currentroot>				当前值为 {0}</currentroot>
+			</rebuildlinks>
+			<changeskin>
+				<heading>		更改外观</heading>
+				<skinsaved>		新外观已应用</skinsaved>
+			</changeskin>
+			<savecategories>
+				<heading>类别</heading>
+				<infosaved>新信息已保存</infosaved>
+				<infochanged>信息已更改</infochanged>
+			</savecategories>
+			<saveframes>
+				<heading>框架</heading>
+				<infosaved>新信息已保存</infosaved>
+				<referencedframeprefix>引用&amp;nbsp;</referencedframeprefix>
+				<referencedframesuffix/>
+				<reflinkpageprefix>页&amp;nbsp;</reflinkpageprefix>
+				<reflinkframeprefix>&amp;nbsp;在框架中打开“</reflinkframeprefix>
+				<reflinkframesuffix>”</reflinkframesuffix>
+				<referencedframehelp>如果仍要删除此框架，请另选择将在其下面放置上述页的框。</referencedframehelp>
+				<noframe>-- 无框架 --</noframe>
+			</saveframes>
+			<saveheadings>
+				<heading>标题</heading>
+				<infosaved>新信息已保存</infosaved>
+				<referencedheadingmessage>引用“{0}”</referencedheadingmessage>
+				<reflinkprop>属性“{0}”放置在标题“{1}”之下</reflinkprop>
+				<referencedheadinghelp>如果仍要删除此标题，请另选择将在其下面放置上述属性的标题。</referencedheadinghelp>
+			</saveheadings>
+			<registrationsettings>
+				<saved see="/admin/settings/saved"/>
+				<heading>				Extranet 用户设置</heading>
+				<info>					修改允许 Extranet 用户自己注册的设置。 如果用户是自动激活的，则会接收激活电子邮件，而不是确认电子邮件。</info>
+				<allowselfregistration>	允许自己注册</allowselfregistration>
+				<setdefaultgroup>		新用户的标准组</setdefaultgroup>
+				<activateusers>			注册时自动激活用户?</activateusers>
+				<emailfromaddress>		外发电子邮件的发件人地址</emailfromaddress>
+				<emailtoaddress>		处理新申请的电子邮件地址</emailtoaddress>
+				<confirmationsubject>	新申请外发电子邮件的主题</confirmationsubject>
+				<confirmationbody>		新申请外发电子邮件的正文</confirmationbody>
+				<activationsubject>		激活用户外发电子邮件的主题</activationsubject>
+				<activationbody>		激活用户外发电子邮件的正文</activationbody>
+				<requiredpasswordlength>密码要求的最小长度</requiredpasswordlength>
+			<maxfailedattempts>		锁定帐户前允许的最大失败登录次数</maxfailedattempts>
+			<disablemaxattempts>	无验证</disablemaxattempts>
+			<passwordrequirealpha>	密码要求的字母</passwordrequirealpha>
+			<passwordrequirenumber>	密码要求的数字</passwordrequirenumber>
+			<passwordrequiresymbol>	密码要求的符号</passwordrequiresymbol>
+			</registrationsettings>
+			<secedit>
+				<info>&amp;nbsp;</info>
+				<newgroupheading>		新建组</newgroupheading>
+				<newuserheading>		新建用户</newuserheading>
+				<editgroupheading>		编辑组</editgroupheading>
+				<edituserheading>		编辑用户</edituserheading>
+				<listmemberof>			隶属于</listmemberof>
+				<listnotmemberof>		非隶属于</listnotmemberof>
+				<listcontains>			包含</listcontains>
+				<listnotcontains>		不包含</listnotcontains>
+				<editname>				用户名</editname>
+				<editpassword>			密码</editpassword>
+				<editconfirmpassword>	确认密码</editconfirmpassword>
+				<editadspath>			ActiveDirectory 名称</editadspath>
+				<editdescription>		说明</editdescription>
+				<editvalidto>			有效终止日期</editvalidto>
+				<editactive>			活动</editactive>
+				<editemail>				电子邮件地址</editemail>
+				<editcompany>			公司</editcompany>
+				<editaddress>			地址</editaddress>
+				<editpostalnumber>		邮政编码</editpostalnumber>
+				<editpostaladdress>		邮政地址</editpostaladdress>
+				<edittelephone>			电话号码</edittelephone>
+				<editlanguage>系统语言</editlanguage>
+				<firstname>				名</firstname>
+				<lastname>				姓</lastname>
+				<title>					职务</title>
+				<mobile>				手机</mobile>
+				<tooshortpassword>		密码必须至少为 {0} 个字符</tooshortpassword>
+				<missingpassword>		您必须输入密码。</missingpassword>
+				<alpharequiredpassword>	密码必须包含字母。</alpharequiredpassword>
+				<numberrequiredpassword>密码必须包含数字。</numberrequiredpassword>
+				<symbolrequiredpassword>密码必须包含符号 (字母和数字之外的字符)。</symbolrequiredpassword>
+				<usernameexists>		用户名 {0} 已存在。</usernameexists>
+				<lockedout>				帐户已锁定 (登录失败次数过多)</lockedout>
+				<ipaddress>				仅从此 IP 地址登录</ipaddress>
+				<ipmask>				上述 IP 地址的子网掩码</ipmask>
+				<editcountry>国家/地区</editcountry>
+				<editcreated>创建日期</editcreated>
+				<editchanged>更改日期</editchanged>
+			</secedit>
+			<searchusers>
+				<heading>				搜索用户/组</heading>
+				<info/>
+				<namecaption>			名称</namecaption>
+				<descriptioncaption>	说明</descriptioncaption>
+				<typecaption>			类型</typecaption>
+				<typeall>				全部</typeall>
+				<typegroup>				组</typegroup>
+				<typeuser>				用户</typeuser>
+				<pagingsize>		每页的命中数</pagingsize>
+			</searchusers>
+			<security>
+				<heading>					设置访问权限</heading>
+				<info>						在 EPiServer 中还原页 (如已完全删除访问权限的页) 的访问权限。 您可以更改所有页上的所有权限。</info>
+				<savemessage>				保存新访问权限</savemessage>
+				<buttonrecursive>			递归</buttonrecursive>
+				<buttonrecursiveadd>		递归添加</buttonrecursiveadd>
+				<buttonrecursiveremove>		递归删除</buttonrecursiveremove>
+				<subheadingwindowsgroups>	您是以下 Windows 组的成员</subheadingwindowsgroups>
+				<subheadingepiservergroups>	您是以下 EPiServer 组的成员</subheadingepiservergroups>
+			</security>
+			<robotsearch>
+				<heading>管理 Web 地址</heading>
+				<linkinfo>Web 地址设置为 {0}</linkinfo>
+				<linkinforobots>		允许通过搜索引擎在 Internet 上抓取。</linkinforobots>
+				<linkinfonorobots>		仅支持交互式使用。</linkinfonorobots>
+				<info>选择 EPiServer 中要使用的 Web 地址的类型。</info>
+				<robotlinkcaption>使用允许搜索引擎抓取网站的 Web 地址</robotlinkcaption>
+				<norobotlinkcaption>使用仅支持交互式使用的 Web 地址</norobotlinkcaption>
+				<warning>警告！ 在更改此设置之前，请确保此网站上使用的模板已根据特定 Web 地址类型进行了调整。</warning>
+				<friendlylinkcaption>使用反映此网站内容的结构的 Web 地址 (/page1/page2)</friendlylinkcaption>
+				<linkinfofriendly>反映内容的结构。</linkinfofriendly>
+				<friendlyurlnotinstalled>此网站尚未配置此功能。</friendlyurlnotinstalled>
+			</robotsearch>
+			<settings>
+				<heading>					系统设置</heading>
+				<info>						&lt;b&gt;警告！&lt;/b&gt; 对该页进行错误的更改将使网站停止响应。</info>
+				<saved>						系统设置已保存</saved>
+				<inforequired>				必须填写的字段由 * 标记</inforequired>
+				<licensetab>				许可</licensetab>
+				<databasetab>				数据库</databasetab>
+				<sitetab>					常规</sitetab>
+				<edittab>					编辑</edittab>
+				<linktooltab>				链接工具</linktooltab>
+				<cachetab>					缓存</cachetab>
+				<subscriptiontab>			订阅</subscriptiontab>
+				<licensedcompanycaption>	使用权属于公司</licensedcompanycaption>
+				<licensedtocaption>			使用权属于个人</licensedtocaption>
+				<licensekeycaption>			许可代码</licensekeycaption>
+				<epslanguagecaption>系统语言</epslanguagecaption>
+				<epsconnectioncaption>		数据库连接</epsconnectioncaption>
+				<epshosturlcaption>			网站的地址 (如 http://www.x.y)</epshosturlcaption>
+				<epsbugemailcaption>		支持的电子邮件</epsbugemailcaption>
+				<epsrootdircaption>			根文件夹</epsrootdircaption>
+				<epsuploaddircaption>		上载文件夹</epsuploaddircaption>
+				<createdircaption>			从链接工具创建文件夹</createdircaption>
+				<deletefilecaption>			从链接工具删除文件</deletefilecaption>
+				<deletedircaption>			从链接工具删除文件夹</deletedircaption>
+				<renamefiledircaption>		从链接工具重命名文件/文件夹</renamefiledircaption>
+				<pageuploadcaption>			将文件上载到特定页中</pageuploadcaption>
+				<restricteduploadcaption>	受限制的文件上载</restricteduploadcaption>
+				<unrestricteduploadcaption>	不受限制的文件上载</unrestricteduploadcaption>
+				<maxfilesize>				上载文件的最大允许文件大小 (KB)</maxfilesize>
+				<editordivonreturncaption>	在编辑器中使用 DIV 而不是 P</editordivonreturncaption>
+				<epssitenamecaption>			网站的名称</epssitenamecaption>
+				<epsframedefinitioncaption>			框架定义文件的路径</epsframedefinitioncaption>
+				<epseditcsscaption>			编辑器的 CSS 文件路径</epseditcsscaption>
+				<epscharsetcaption>			字符集 (内容类型字符集)</epscharsetcaption>
+				<epfenableunicodecaption>				对系统功能启用 Unicode</epfenableunicodecaption>
+				<epnrootidcaption>				网站的根页</epnrootidcaption>
+				<epnstartpagecaption>			网站的起始页</epnstartpagecaption>
+				<epnwastebasketidcaption>		用作回收站的页</epnwastebasketidcaption>
+				<epncategoryidcaption>			类别的根</epncategoryidcaption>
+				<epnversioncountcaption>		页的旧版本的最大编号</epnversioncountcaption>
+				<epfkeeploggedoncaption>				激活 Cookie 以使访问者保持为登录状态</epfkeeploggedoncaption>
+				<epfenablepersonalizationcaption>		启用个性化设置</epfenablepersonalizationcaption>
+				<epssubmailfromcaption>				发件人电子邮件地址</epssubmailfromcaption>
+				<epssubmailbcccaption>				将所有电子邮件的副本发送到</epssubmailbcccaption>
+				<epssubtemplatecaption>				电子邮件外观的 XSL 文件 (如 C:\mail.xsl)</epssubtemplatecaption>
+				<cachesyncinterval>			从服务器更新缓存的频率 (秒，0 = 无延迟)</cachesyncinterval>
+				<epneditorheightcaption>				编辑器的高度 (像素)</epneditorheightcaption>
+				<epneditorwidthcaption>				编辑器的宽度 (像素，0 = 最大宽度)</epneditorwidthcaption>
+				<epseditcontrolversion>		ActiveX 编辑器的当前版本 (如 2,0,0,31)</epseditcontrolversion>
+				<ldaptab>					LDAP</ldaptab>
+				<epsldapservercaption>		LDAP 服务器，如 company.com。 留空可禁用 LDAP 功能</epsldapservercaption>
+				<epsldapusercaption>		以此用户的身份连接到 LDAP 服务器</epsldapusercaption>
+				<epsldappasswordcaption>	用户的密码</epsldappasswordcaption>
+				<saved>						新值已保存</saved>
+				<epfencryptsensitiveinformationcaption>加密 web.config 文件</epfencryptsensitiveinformationcaption>
+				<clearldapcache>	清除 LDAP 缓存</clearldapcache>
+				<ldapcachedcleared>	LDAP 缓存已清除</ldapcachedcleared>
+				<epserrorhandling>	在 EPiServer 中处理时出错</epserrorhandling>
+				<epserrorhandlingon>			对所有访问者是活动的</epserrorhandlingon>
+				<epserrorhandlingoff>			处理关闭时出错</epserrorhandlingoff>
+				<epserrorhandlingremoteonly>	对远程访问者是活动的</epserrorhandlingremoteonly>
+				<epserrormail>		发送错误报告的目标电子邮件地址 </epserrormail>
+				<epssubscriptionhandler>订阅更新的处理程序</epssubscriptionhandler>
+				<defaultsubscriptionhandler>
+					<displayname>EPiServer 默认值</displayname>
+					<description>EPiServer 订阅电子邮件的内置处理程序。</description>
+				</defaultsubscriptionhandler>
+				<multilanguagesubscriptionhandler>
+					<displayname>支持多语言的 EPiServer 标准格式</displayname>
+					<description>EPiServer 的多语言订阅电子邮件内置处理程序</description>
+				</multilanguagesubscriptionhandler>
+				<epfenableglobalizationsupportcaption>启用全球化</epfenableglobalizationsupportcaption>
+				<epfbrowserlanguagedetectioncaption>通过浏览器的语言首选项检测语言</epfbrowserlanguagedetectioncaption>
+			</settings>
+			<updateconfirm>
+				<heading>					确认对远程系统的权限</heading>
+				<info>						此功能要求本地管理员权限。 如果还不能以管理员身份登录，将会向您显示登录提示。 关于当前版本和许可的信息将使用加密连接发送到 ElektroPost 以显示自定义产品列表。</info>
+			</updateconfirm>
+			<update>
+				<heading>					升级信息</heading>
+				<info></info>
+				<name>						产品名称</name>
+				<description>				说明</description>
+				<updateversion>				新版本</updateversion>
+				<installedversion>			安装的版本</installedversion>
+				<action></action>
+				<downloadbutton>			下载文件</downloadbutton>
+				<installbutton>				安装</installbutton>
+				<upgradebutton>				升级</upgradebutton>
+				<alreadinstalled>			已安装</alreadinstalled>
+				<requiresproducts>			需要产品</requiresproducts>
+				<licensenotfound>			我们的数据库中无法找到许可。 有关详细信息，请与您的供应商联系。</licensenotfound>
+				<licenseexpired>			许可已过期。 有关详细信息，请与您的供应商联系。</licenseexpired>
+				<licensereplaced>			许可已替换，并且不再是活动的。 有关详细信息，请与您的供应商联系。</licensereplaced>
+				<licensenosoftwareagreement>许可没有软件协议。 有关详细信息，请与您的供应商联系。</licensenosoftwareagreement>
+			</update>
+			<siteinfo>
+				<heading>					统计信息</heading>
+				<info></info>
+				<dbstatcaption>				数据库信息</dbstatcaption>
+				<dbstatpagecount>			数据库中的总页数</dbstatpagecount>
+				<dbstatchangedlastweek>		上星期更改的页</dbstatchangedlastweek>
+				<dbstatepisecusercount>		Extranet 用户 (EPiSec)</dbstatepisecusercount>
+				<dbstatntusercount>			Windows 用户 (NT)</dbstatntusercount>
+				<dbstatsubscribercount>		订户</dbstatsubscribercount>
+				<dbcachehitpercentage>		缓存命中率</dbcachehitpercentage>
+				<dbcachecaption>			数据库缓存使用情况</dbcachecaption>
+				<countersince>				计数器重置 </countersince>
+				<countergetitem>			从缓存发送的页</countergetitem>
+				<counterreadsinglepage>		数据库读取单个页</counterreadsinglepage>
+				<counterlistchildren>			从缓存发送的列表</counterlistchildren>
+				<counterreadchildpages>		数据库读取列表</counterreadchildpages>
+				<processstarted>			辅助进程已开始</processstarted>
+				<processpeakmemory>			内存使用峰值 (MB)</processpeakmemory>
+				<processid>					进程 ID</processid>
+				<processconfigfile>			配置文件</processconfigfile>
+				<processpubpolicy>			发布者策略</processpubpolicy>
+				<processshadowcopy>			程序集的影像副本</processshadowcopy>
+				<processshadowdir>			影像文件夹</processshadowdir>
+				<buttonresetcounters>		重置计数器</buttonresetcounters>
+				<counterpages>				缓存中的页数</counterpages>
+				<counteroutputvalid>从 HTML 缓存发送的页数</counteroutputvalid>
+				<counteroutputinvalid>HTML 缓存中的无效页数</counteroutputinvalid>
+				<outputcachecaption>HTML 缓存使用情况</outputcachecaption>
+				<dbsystemprocessinfocaption>系统/进程信息</dbsystemprocessinfocaption>
+			</siteinfo>
+			<syncgroup>
+				<heading>			组同步</heading>
+				<info>				该页将同步 EPiServer 数据库和 Windows 之间的组信息。</info>
+				<saved>				组信息已更新</saved>
+				<syncnotneeded>		EPiServer 中的信息与 Windows 组信息相同。 不需要任何更改。</syncnotneeded>
+				<notinwindows>		Windows 中不存在组</notinwindows>
+				<notinwindowsinfo>	所选组将从 EPiServer 删除</notinwindowsinfo>
+				<notindatabase>		EPiServer 中不存在组</notindatabase>
+				<notindatabaseinfo>	所选组将添加到 EPiServer</notindatabaseinfo>
+				<ldapgroupname>				名称</ldapgroupname>
+				<ldapgroupqualifiedname>	完全限定名</ldapgroupqualifiedname>
+				<ldapgroupimport>			导入</ldapgroupimport>
+				<useinepiserver>在 EPiServer 中使用</useinepiserver>
+				<groupname>组名</groupname>
+				<description>说明</description>
+				<ldapname>LDAP 名称</ldapname>
+				<groupsupdated>组信息已更新</groupsupdated>
+			</syncgroup>
+			<systemerror>
+				<askclearlog>是否要清除系统日志?</askclearlog>
+				<heading>系统日志</heading>
+				<info>显示系统日志的信息。 需要由管理员修复的错误和事件的有关信息存储在此处。</info>
+				<deleted>日志已清除</deleted>
+				<showstartdate>显示起始日期</showstartdate>
+				<showstopdate>显示结束日期</showstopdate>
+				<tabledate>日期</tabledate>
+				<tabletype>类型</tabletype>
+				<tabledescription>说明</tabledescription>
+				<tableerrorcode>错误代码</tableerrorcode>
+				<tablesource>源</tablesource>
+				<tableinformation>信息</tableinformation>
+			</systemerror>
+			<databasejob>
+				<delayedpublish>	
+					<displayname>发布延迟页版本</displayname>
+				</delayedpublish>
+				
+				<wastebasket>
+					<displayname>	自动清空回收站</displayname>
+					<description>	指定清空功能处于活动/不活动状态以及清空回收站的频率。 回收站任务将从回收站永久删除超过 30 天的页。</description>
+				</wastebasket>
+				<subscription>
+					<displayname>订阅</displayname>
+					<description>订阅任务向订阅接收网站各部分更新的用户发送电子邮件。</description>
+				</subscription>
+				<archive>
+					<displayname>	存档功能</displayname>
+					<description>	指定存档功能处于活动/不活动状态以及存档页的频率。 如果指定，该功能将超过停止发布日期的页移动到所选存档文件夹中。</description>
+				</archive>
+				<schedulecaption>	此任务的运行间隔为</schedulecaption>
+				<activecaption>		活动</activecaption>
+				<savemessage>		设置已保存。</savemessage>
+				<testbutton>		手动启动</testbutton>
+				<startokmessage>	启动任务时无任何问题。</startokmessage>
+				<starterrormessage>	任务失败: {0}</starterrormessage>
+				<tabsettings>		设置</tabsettings>
+				<logstatus>			状态</logstatus>
+				<logdate>			日期</logdate>
+				<tabhistory>历史纪录</tabhistory>
+				<logmessage>消息</logmessage>
+				<nextexecution>下次计划日期</nextexecution>
+			</databasejob>
+			<edituser>
+				<changepassword>		更改密码</changepassword>
+				<keeppassword>			保留密码</keeppassword>
+				<enterpassword>			输入密码</enterpassword>
+				<repeatpassword>		重复密码</repeatpassword>
+				<usersaved>				用户/组已保存</usersaved>
+				<usernotsaved>			无法保存用户/组</usernotsaved>
+				<confirmdeleteuser>		是否要删除用户/组 {0}?</confirmdeleteuser>
+				<notificationquestion>	用户将自动获得帐户已激活的电子邮件通知。</notificationquestion>
+				<notificationfailed>	无法发送电子邮件，因为未正确设置“Extranet 用户设置”。</notificationfailed>
+				<mailsent>				已向用户发送电子邮件</mailsent>
+				<maintabname>			设置</maintabname>
+				<userdeleted>			用户/组已删除</userdeleted>
+				<passwordmismatch>		输入字段的密码不相同</passwordmismatch>
+				<userguisettings>
+					<displayname>显示选项</displayname>
+					<settings>
+						<usedefaultsettings>使用默认设置</usedefaultsettings>
+						<toolbar>工具栏</toolbar>
+						<limitedtoolbar>限制工具栏</limitedtoolbar>
+						<extendedtoolbar>扩展工具栏</extendedtoolbar>
+						<treesymbols>树结构中的符号</treesymbols>
+						<statusexpired>页已在超过日期和时间的位置计划了发布</statusexpired>
+						<statusnotstarted>页已计划了发布但尚未进行发布</statusnotstarted>
+						<statusnotpublished>页尚未发布</statusnotpublished>
+						<statusnotvisibleinmenu>页未显示在菜单中</statusnotvisibleinmenu>
+						<statusreadonly>您没有该页的更改权限</statusreadonly>
+						<statusnew>在过去 48 小时中创建了新页</statusnew>
+						<statuslanguagemissing>该页缺少当前语言，因此不会显示</statuslanguagemissing>
+						<statuslanguagefallback>该页缺少当前语言，因此将以其他语言显示。 如果其他语言具有图标，则该图标将用做指示符。</statuslanguagefallback>
+					</settings>
+				</userguisettings>
+			</edituser>
+			<remotesite>
+				<heading>远程网站</heading>
+				<info>用于传入和传出通信的注册远程网站。 远程站点的访问权限和是否能连接匿名站点是在 web.config 中配置的。</info>
+				<url>URL</url>
+				<name>名称</name>
+				<ping>Ping</ping>
+				<pingtrue>网站“{0}”响应并接受签名</pingtrue>
+				<pingfalse>网站“{0}”响应但不接受签名，或者尚未设置签名</pingfalse>
+				<localsite>本地站点名称</localsite>
+			</remotesite>
+			<remotesiteedit>
+				<heading>编辑远程网站</heading>
+				<info>不要更改外部站点的名称，它可能在代码中使用。 创建必须手动复制到远程站点的共享密钥，以便对通信签名。 这是为了确保数据在不安全频道中传输时无法篡改。</info>
+				<url>URL</url>
+				<name>名称</name>
+				<username>用户名</username>
+				<password>密码</password>
+				<domain>域</domain>
+				<sharedsecret>签名的共享密钥</sharedsecret>
+				<istrusted>充当前端</istrusted>
+				<istrustedwarning>安全警告！ 此站点将能读取属性和权限级设置的程序集信息。 两个站点都要有共享密钥和有效签名才能正常工作。</istrustedwarning>
+				<allowurllookup>URL 中允许使用站点名称 (如 page.aspx?id=30__mysite)</allowurllookup>
+			</remotesiteedit>
+			<setup>
+				<heading>安装基本内容</heading>
+				<info>必须首先提供一些基本内容，才能开始使用 EPiServer。 选择下列选项之一以及系统语言。 单击“完成安装”结束。</info>
+				<startpageexists>起始页已为您配置就绪</startpageexists>
+				<progress>系统更新时请稍候</progress>
+				<selectlanguage>选择系统语言</selectlanguage>
+				<selectcontent>选择内容</selectcontent>
+				<setupbutton>完成安装</setupbutton>
+				<cancelmessage>稍后请返回该页完成安装</cancelmessage>
+				<swedishsample>所有模板的瑞典语示例模板已安装</swedishsample>
+				<englishsample>所有模板的英语示例模板已安装</englishsample>
+				<emptysample>	仅起始页而无页类型或内容</emptysample>
+				<globalizationsample>所有模板的全球化示例模板 (英语和瑞典语) 已安装</globalizationsample>
+			</setup>
+			<importdata>
+				<displayname>导入数据</displayname>
+				<description/>
+				<heading>导入数据</heading>
+				<info>从其他 EPiServer 导入数据。</info>
+				<uploadfile>上载并验证文件</uploadfile>
+				<selectfile>选择导出文件并上载</selectfile>
+				<nofileuploaded>未上载任何文件</nofileuploaded>
+				<beginimport>开始导入</beginimport>
+				<pagecount>页数</pagecount>
+				<pagetypecount>页类型数</pagetypecount>
+				<categorycount>类别数</categorycount>
+				<framecount>框架数</framecount>
+				<filecount>文件数</filecount>
+				<dynamicpropertydefinitioncount>动态属性定义数</dynamicpropertydefinitioncount>
+				<tabdefinitioncount>标题数</tabdefinitioncount>
+				<importcompleted>导入完成</importcompleted>
+				<importsucceeded>导入成功</importsucceeded>
+				<testsucceeded>已验证导入的文件，未出现错误或警告</testsucceeded>
+				<errorsoccured>出现以下错误</errorsoccured>
+				<warningsoccured>产生以下警告</warningsoccured>
+				<show>显示</show>
+				<selectpageroot>选择页目标</selectpageroot>
+			</importdata>
+			<exportdata>
+				<displayname>导出数据</displayname>
+				<description/>
+				<heading>导出数据</heading>
+				<info>将数据从一个 EPiServer 导出到另一个 EPiServer。</info>
+				<exportbutton>导出</exportbutton>
+				<testexportbutton>使用错误日志测试运行</testexportbutton>
+				<exportpages>导出页</exportpages>
+				<exportpagedependencies>自动导出相关页类型</exportpagedependencies>
+				<exportpagetypes>导出页类型</exportpagetypes>
+				<exportframes>导出框架</exportframes>
+				<exportdynamicpropertydefinitions>导出动态属性定义</exportdynamicpropertydefinitions>
+				<exporttabdefinitions>导出选项卡</exporttabdefinitions>
+				<exportcategories>导出类别</exportcategories>
+				<exportfiles>导出文件</exportfiles>
+				<exportsucceeded>导出完成，未出现错误或警告</exportsucceeded>
+				<errorsoccured>出现以下错误</errorsoccured>
+				<warningsoccured>产生以下警告</warningsoccured>
+				<selectpage>选择部分结构</selectpage>
+				<exportpagelanguages>导出全球化页</exportpagelanguages>
+				<exportpagefiles>导出页链接到的文件</exportpagefiles>
+			</exportdata>
+			<languages>
+				<deleteprefix>	是否要删除语言</deleteprefix>
+				<deletesuffix>	?</deletesuffix>
+				<heading>编辑语言代码</heading>
+				<info>			定义网站使用的语言。</info>
+				<languagekey>	语言关键字</languagekey>
+				<languagename>	名称</languagename>
+				<locale>		区域设置</locale>
+			</languages>
+			<plugin>
+				<heading>插件管理器</heading>
+				<info>下表显示的是在 EPiServer 中注册为插件的组件。</info>
+				<displayname see="/admin/plugin/heading"/>
+				<plugintab>插件</plugintab>
+				<overviewtab>概述</overviewtab>
+				<guipluginattribute>用户界面</guipluginattribute>
+				<editorpluginattribute>编辑器</editorpluginattribute>
+				<subscriptionpluginattribute>订阅</subscriptionpluginattribute>
+				<pagedefinitiontypepluginattribute>自动注册属性类型</pagedefinitiontypepluginattribute>
+				<scheduledpluginattribute>计划程序任务管理</scheduledpluginattribute>
+				<workflowpluginattribute>工作流程步骤类型</workflowpluginattribute>
+			</plugin>
+			<pluginlist>
+				<enabled>启用</enabled>
+				<name>显示名称</name>
+				<description>说明</description>
+				<license>许可</license>
+				<plugin>插件</plugin>
+			</pluginlist>
+			<pluginadminsettings>
+				<nosettings>此插件无任何设置</nosettings>
+			</pluginadminsettings>
+			<plugingrouplist>
+				<name>名称</name>
+				<description>说明</description>
+				<version>版本</version>
+				<company>公司</company>
+				<license>许可</license>
+				<moreinfo>详细信息</moreinfo>
+			</plugingrouplist>
+			<pluginedit>
+				<heading>编辑插件</heading>
+				<info></info>
+				<configurationtab>配置</configurationtab>
+				<overviewtab>概述</overviewtab>
+			</pluginedit>
+			<pluginlicense>
+				<heading>许可信息</heading>
+				<info></info>
+				<tabinfo>信息</tabinfo>
+				<tabinstallnew>安装新许可</tabinstallnew>
+				<licenserestrictions>限制</licenserestrictions>
+				<selectfile>选择新许可文件</selectfile>
+				<uploadlicense>上载并验证许可</uploadlicense>
+				<newfileinstalled>新许可文件已安装</newfileinstalled>
+				<licenseid>许可 ID</licenseid>
+			</pluginlicense>
+			<filemanagement>
+				<displayname>文件管理</displayname>
+				<description>上载并管理文件和文件夹。</description>
+			</filemanagement>
+			<menutabs>
+				<admin>管理</admin>
+				<config>配置</config>
+				<pagetypes see="/pagetypes/common/property[@name='PageTypeName']/caption"/>
+			</menutabs>
+			<menuheadings>
+				<systemadministration see="/admin/menu/systemadministration"/>
+				<systemconfiguration>系统配置</systemconfiguration>
+				<accessrights see="/admin/menu/security"/>
+				<scheduledjobs see="/admin/menu/scheduledjobs"/>
+				<noscheduledjobstext>未定义任何计划任务</noscheduledjobstext>
+				<security>安全</security>
+				<tools see="/admin/menu/plugins"/>
+				<notoolstext>未定义任何工具</notoolstext>
+				<toolsettings>工具设置</toolsettings>
+				<notoolsettingstext>未定义任何工具设置</notoolsettingstext>
+				<generalsettings>常规设置</generalsettings>
+				<managepagetypes>管理页类型</managepagetypes>
+				<pagetypes see="/admin/menu/pagetype"/>
+				<nopagetypestext>未定义任何页类型</nopagetypestext>
+				<pagetypesorting>
+					<sortbyindex>按索引排序</sortbyindex>
+					<sortalphabetically>按字母顺序排序</sortalphabetically>
+				</pagetypesorting>
+			</menuheadings>
+			<convertformtoxform>
+				<displayname>转换表单</displayname>
+				<description>将表单转换为 XForms 表单。</description>
+				<heading see="/admin/convertformtoxform/displayname"/>
+				<availableforms>选择要转换的表单</availableforms>				
+				<availablexforms>转换的表单</availablexforms>
+				<convert>转换</convert>
+				<converted>转换的表单: </converted>
+				<errorconverting>转换时出错:</errorconverting>
+			</convertformtoxform>
+			<contentmirroringmanager>
+				<displayname>镜像服务</displayname>
+				<description/>
+			</contentmirroringmanager>
+			<contentmirroring>
+				<displayname see="/admin/contentmirroring/heading"/>
+				<description>系统中定义的频道。</description>
+				<heading>镜像管理</heading>
+				<info>定义内容频道以将 EPiServer 的内容镜像到外部系统。</info>
+				<name>频道名称</name>
+        <order>执行顺序</order>
+        <moveup>上移</moveup>
+        <movedown>下移</movedown>
+			</contentmirroring>
+			<contentmirroringview>
+				<heading>目标概述</heading>
+				<info>为此频道定义的目标的概述。</info>
+				<name>目标</name>
+				<reset>重置状态</reset>
+				<createdestination>创建目标</createdestination>
+				<continuereset>继续重置</continuereset>
+				<resetwarning1>如果继续此操作，所有页都将显示为已创建。</resetwarning1>
+				<resetwarning2>此操作将导致丢失尚未镜像到目标的所有项目。</resetwarning2>
+				<lastchanges>应用上次更改</lastchanges>
+				<noaction>不应用任何更改</noaction>
+				<queuelength>队列长度</queuelength>
+				<laststatus>上一状态</laststatus>
+				<lastexecution>上次执行</lastexecution>
+				<editqueue>编辑队列</editqueue>
+				<editmappings>映射</editmappings>
+				<settingslocked>此频道的设置及其目标已锁定，因为已使用当前设置执行了镜像任务。 所有后续任务都需要同样的设置才能正确执行镜像。 单击“重置状态”更改这些设置，以重置以前任务的有关信息。</settingslocked>
+				<errorsamechannelname>频道名称“{0}”已由其他频道使用</errorsamechannelname>
+				<title>频道“{0}”的目标</title>
+				<type>目标类型</type>
+				<xmlmirroring>XML</xmlmirroring>
+				<htmlmirroring>HTML</htmlmirroring>
+				<pagemirroring>EPiServer</pagemirroring>
+			</contentmirroringview>
+			<contentpublisheredit>
+				<tabsettings>信息</tabsettings>
+				<tabqueue>队列</tabqueue>
+				<heading>目标</heading>
+				<info>定义接收器用于频道发出的更改。</info>
+				<name>名称</name>
+				<remotesite>远程站点</remotesite>
+				<topagelink>目标上的根页</topagelink>
+				<selecttype>选择目标类型</selecttype>
+				<instantpublish>发布页</instantpublish>
+				<targetdirectory>服务器上的目标目录</targetdirectory>
+				<xmloutputstyle>创建输出</xmloutputstyle>
+				<flatfiles>每页一个文件</flatfiles>
+				<sitemap>全局站点地图</sitemap>
+				<changelog>更改日志文件</changelog>
+				<xslfile>到 XSL 模板的路径</xslfile>
+				<rootdir>相对根路径</rootdir>
+				<verifychecksum>每次都验证所有页的校验和</verifychecksum>
+				<defaultdocument>文件的默认名称</defaultdocument>
+				<usedirectoryweblinks>不要在链接中包含文件名</usedirectoryweblinks>
+				<pathnameproperty>对文件夹名称使用如下属性</pathnameproperty>
+				<applyfilterontemplates>应用频道筛选器</applyfilterontemplates>
+				<linktootherchannels>允许接收器从其他频道获取链接</linktootherchannels>
+				<queueid>队列号</queueid>
+				<queuecreated>创建的项目</queuecreated>
+			</contentpublisheredit>
+			<contentmirroringedit>
+				<tabinformation>信息</tabinformation>
+				<tabfilter>属性筛选器</tabfilter>
+				<heading>镜像设置</heading>
+				<info>定义此频道的设置。</info>
+				<name>名称</name>
+				<frompagelink>起始页</frompagelink>
+				<automatic>传输类型</automatic>
+				<activatefilter>启用筛选器</activatefilter>
+				<filterpropertyname>按属性名称筛选</filterpropertyname>
+				<filterpropertyvalue>按属性值筛选</filterpropertyvalue>
+				<automaticapproval>自动批准更改</automaticapproval>
+				<runasanonymoususer>以匿名用户运行</runasanonymoususer>
+				<impersonateusername>用户名</impersonateusername>
+				<impersonatepassword>设置密码</impersonatepassword>
+				<language>语言</language>
+				<channeltype>镜像类型</channeltype>
+				<includeroot>包含起始页</includeroot>
+				<types>
+					<tree>树</tree>
+					<list>列表</list>
+					<search>搜索 (仅更新页)</search>
+				</types>
+				<impersonatedomain>域</impersonatedomain>
+				<globalizationsupport>全球化支持</globalizationsupport>
+				<noglobalizationsupport>不活动 (原始语言镜像到目标，无全球化支持)</noglobalizationsupport>
+				<alllanguages>活动 (所有语言镜像到目标，带全球化支持)</alllanguages>
+				<singlelanguage>仅“{0}”镜像到目标，无全球化支持</singlelanguage>
+			</contentmirroringedit>
+			<wsrpadmin>
+				<heading>WSRP 源</heading>
+				<info>定义可用的 WSRP 源。</info>
+				<displayname see="/admin/wsrpadmin/heading"/>
+				<description see="/admin/wsrpadmin/info"/>
+				<detailederror>详细错误说明:</detailederror>
+			</wsrpadmin>
+			<filebrowser>
+				<heading>选择文件</heading>
+			</filebrowser>    
+			<confirmlanguagespecific>
+				<title>警告</title>
+				<heading>值将被删除</heading>
+				<info>不是原始语言的页的属性值将被删除。</info>
+				<pagelist>将受影响的页 ({0})</pagelist>
+			</confirmlanguagespecific>
+			<editlanguagebranches>
+				<heading>管理网站语言</heading>
+				<info>定义网站应向访问者提供的语言。</info>				
+				<namecaption>名称</namecaption>
+				<idcaption>语言代码</idcaption>
+				<enabledcaption>启用</enabledcaption>
+				<iconcaption>图标</iconcaption>
+				<addlanguage>添加语言</addlanguage>
+				<defaultlanguagebranch>默认语言</defaultlanguagebranch>
+			</editlanguagebranches>
+			<editlanguagebranch>
+				<headingnew>新建网站语言</headingnew>
+				<info>定义网站应向访问者提供的新网站语言。</info>
+				<namecaption>名称</namecaption>
+				<idcaption>语言代码</idcaption>
+				<iconcaption>图标</iconcaption>
+				<sortindexcaption>排序索引</sortindexcaption>
+				<enabledcaption>启用</enabledcaption>
+				<cantsave>无法保存网站语言。</cantsave>
+				<cantsavelanguagebranchexists>所选语言代码“{0}”的网站语言已存在。</cantsavelanguagebranchexists>
+				<urlsegmentcaption>Web 地址前缀</urlsegmentcaption>
+				<warningchangelanguage>警告！ 语言代码在系统中多处使用，如链接和后备语言。 只在系统的初始配置过程中更改此设置。</warningchangelanguage>
+			</editlanguagebranch>
+			<contentmirroringmapping>
+				<title>“{0}”的镜像映射</title>
+				<pagemapping>页映射</pagemapping>
+				<foldermapping>文件夹映射</foldermapping>
+				<sourceid>源 ID</sourceid>
+				<targetid>目标 ID</targetid>
+				<pagename>页名称</pagename>
+				<delete>删除</delete>
+				<deleteall>删除所有映射</deleteall>
+				<message>此列表显示页和文件夹 ID 在源站点和远程站点之间的映射方式。 删除映射，目标页或文件夹可从其源断开。 后续镜像更新将重新创建目标页或文件夹，以及所有文件夹内容的无变动副本。</message>
+				<deletemessage>是否确实要删除此映射?</deletemessage>
+				<deleteallmessage>是否确实要删除此频道的所有映射?</deleteallmessage>
+			</contentmirroringmapping>
+			<contentmirroringqueue>
+				<title>“{1}”上目标“{0}”的镜像队列</title>
+				<info>列出下次运行镜像服务时将镜像的页。</info>
+				<warning>警告！ 镜像网站时将不包含从包删除的页。 这样可能会影响以后的镜像操作。 如果希望下次运行镜像服务时包含包中的所有页，请不要单击“删除”。</warning>
+				<packagetitle>包</packagetitle>
+				<created>创建日期</created>
+				<type>更改类型</type>
+				<pagename>页名称</pagename>
+				<pageid>页 ID</pageid>
+				<deletepackage>删除包</deletepackage>
+				<deletewarningi0>是否确实要从队列中删除更改?</deletewarningi0>
+				<deletewarningi1>您必须在目标站点上手动应用移动和删除操作</deletewarningi1>
+				<deletewarningi2>您必须重新发布更新页和创建页</deletewarningi2>
+			</contentmirroringqueue>
+			<webpartadmin>
+				<heading>注册 Web 部件</heading>
+				<info>定义应提供的 Web 部件</info>
+				<name>名称</name>
+				<description>说明</description>
+				<control>控件</control>
+				<producer>制作者</producer>
+				<portlet>Portlet</portlet>
+				<install>安装 Web 部件</install>
+				<consume>使用 Portlet</consume>
+				<displayname see="/admin/webpartadmin/heading"/>
+			</webpartadmin>
+			<webpartadminedit>
+				<heading>修改“{0}”的注册</heading>
+				<headinginstall>安装 Web 部件</headinginstall>
+				<headingconsume>使用 Portlet</headingconsume>
+				<info>设置 Web 部件的属性</info>
+				<infoconsume>设置 Portlet 的属性</infoconsume>
+				<name>名称</name>
+				<description>说明</description>
+				<control>控件</control>
+				<producer>制作者</producer>
+				<portlet>Portlet</portlet>
+				<parameters>参数</parameters>
+				<parametername>名称</parametername>
+				<parametervalue>值</parametervalue>
+				<parametertype>类型</parametertype>
+				<requiredfield>必须输入此字段的值:</requiredfield>
+				<emptyvalueerror>必须输入参数值</emptyvalueerror>
+				<typeconversionerror>参数值无法转换为所选类型</typeconversionerror>
+				<nameexists>名称为“{0}”的 Web 部件已存在</nameexists>        
+		        <resolvecontrol>解析控件</resolvecontrol>
+		        <typenameresolved>控件已解析。</typenameresolved>
+		        <typenameblank>您必须输入类型名称或虚拟路径。</typenameblank>
+		        <virtualpathloadfailed>无法加载虚拟路径。</virtualpathloadfailed>
+		        <assemblyloadfailed>加载程序集时出错。</assemblyloadfailed>
+		        <typenamenotfound>找不到指定类型名称的控件。</typenamenotfound>
+		        <ambiguoustypename>指定的类型名称不明确。 名称与以下限定名称匹配。</ambiguoustypename>
+		        <invalidcontrol>无法加载指定控件。</invalidcontrol>
+			</webpartadminedit>
+		</admin>
+		<personalization>
+			<task>
+				<owner>				分配者</owner>
+				<assignedto>		分配给</assignedto>
+				<reminder>			提示</reminder>
+				<changed>			已更新</changed>
+				<statusrejected>		已拒绝</statusrejected>
+				<statuscompleted>		完成</statuscompleted>
+				<statusinprogress>		正在处理</statusinprogress>
+				<statusnotstarted>		新建</statusnotstarted>
+
+				<timeout>				截止日期已过</timeout>
+				<buttonreject>			拒绝</buttonreject>
+				<buttoncompleted>		完成</buttoncompleted>
+					
+				<subject>				主题</subject>
+				<description>			说明</description>
+				<status>				状态</status>
+				<comments>				注释</comments>
+				<duedate>				截止日期</duedate>
+				<assignto>				分配给</assignto>
+				<typenewpage>			新建页</typenewpage>
+				<typeapprovepage>		现有页</typeapprovepage>
+				<typeurl>				显示 URL</typeurl>
+				<typeautomail>			通过邮件发送报告</typeautomail>
+				<buttoncontinue>		继续</buttoncontinue>
+				<createdby>				创建者</createdby>
+			</task>
+		</personalization>
+		<labels>
+			<description>			说明</description>
+		</labels>
+		<filemanagernavigator>
+			<startingpoints>起始点</startingpoints>
+			<myfavorites>我的收藏夹</myfavorites>
+			<uploaddir see="/util/linkeditor/uploaddir"/>
+			<currentpage see="/util/linkeditor/pageuploaddir"/>
+			<folders>文件夹</folders>
+			<show>显示</show>
+			<hide>隐藏</hide>
+			<favoritesinfo>使用右侧列表任一文件夹的右键单击菜单添加文件夹收藏夹</favoritesinfo>			
+		</filemanagernavigator>
+		<filemanager>
+			<invalidcharacters>名称包含无效字符</invalidcharacters>
+			<path>路径</path>
+			<pagefoldernotcreated>尚未创建此包的文件夹，是否立即创建一个?</pagefoldernotcreated>
+			<directorytools>
+				<create>创建文件夹</create>
+				<createtooltip>新建文件夹</createtooltip>
+				<rename>重命名</rename>
+				<renametooltip>重命名所选文件或文件夹</renametooltip>
+				<delete>删除</delete>
+				<deletetooltip>删除所选文件或文件夹</deletetooltip>
+				<addfile>添加文件</addfile>
+				<addfiletooltip>添加新文件</addfiletooltip>
+				<security>访问权限</security>
+				<securitytooltip>更改访问权限</securitytooltip>
+				<search>搜索</search>
+				<searchtooltip>搜索文件</searchtooltip>
+				<viewthumbnails>显示缩略图</viewthumbnails>
+				<viewthumbnailstooltip>将所有图像显示为缩略图</viewthumbnailstooltip>
+				<gouptooltip>向上</gouptooltip>
+			</directorytools>
+			<dhtmlsupport>
+				<viewfile>显示文件摘要</viewfile>
+				<openfile>打开文件</openfile>
+				<renamefile>重命名文件</renamefile>
+				<editsummary>编辑文件摘要</editsummary>
+				<createdirectory>创建文件夹</createdirectory>
+				<renamedirectory>重命名文件夹</renamedirectory>
+				<directorysecurity>编辑访问权限</directorysecurity>
+				<deleteselection>删除</deleteselection>
+				<cutselection>剪切</cutselection>
+				<copyselection>复制</copyselection>
+				<pasteselection>粘贴</pasteselection>
+				<addfavorite>添加收藏夹</addfavorite>
+				<removefavorite>删除收藏夹</removefavorite>
+				<uploadfile see="/filemanager/directorytools/addfile"/>
+				<uploadmultiplefiles>添加多个文件</uploadmultiplefiles>
+				<renameselection see="/filemanager/directorytools/rename"/>
+				<checkinselection>签入</checkinselection>
+				<checkoutselection>签出</checkoutselection>
+				<undocheckoutselection>取消签出</undocheckoutselection>
+				<versionlist>版本历史纪录</versionlist>
+				<addversion>新建版本</addversion>
+				<editinoffice>在 Office 中编辑</editinoffice>
+			</dhtmlsupport>
+			<filetools>
+				<rename>重命名</rename>
+				<renametooltip>重命名当前文件</renametooltip>
+				<delete>删除</delete>
+				<deletetooltip>删除当前文件</deletetooltip>
+				<replacefile>替换文件</replacefile>
+				<replacefiletooltip>用新文件替换当前文件</replacefiletooltip>
+				<editfilesummary>编辑文件摘要</editfilesummary>
+				<editfilesummarytooltip>编辑当前文件的文件摘要</editfilesummarytooltip>
+				<open>打开</open>
+				<opentooltip>打开当前文件</opentooltip>
+			</filetools>
+			<browse>
+				<goback>返回</goback>
+				<name>名称</name>
+				<size>大小</size>
+				<modified>修改日期</modified>
+				<created>创建日期</created>
+				<thumbnail>缩略图</thumbnail>
+				<emptyfolder>此文件夹为空</emptyfolder>
+				<checkedoutby>签出者</checkedoutby>
+			</browse>
+			<createdirectory>
+				<title>创建文件夹</title>
+				<name>文件夹名称</name>
+				<alreadyexists>文件夹已存在</alreadyexists>
+			</createdirectory>
+			<deleteselection>
+				<title>删除“{0}”</title>
+				<confirmmultidelete>已选择 {0} 对象，是否确实要将它们删除?</confirmmultidelete>
+				<confirmfiledelete>是否确实要删除此文件?</confirmfiledelete>
+				<confirmdirectorydelete>是否确实要删除此文件夹?</confirmdirectorydelete>
+				<warningnotempty>警告！ 文件夹不为空。</warningnotempty>
+				<warningmultinotempty>警告！ 部分所选文件夹不为空。</warningmultinotempty>
+			</deleteselection>
+			<editfilesummary>
+				<title>编辑“{0}”的文件摘要</title>
+				<inputtitle>标题</inputtitle>
+				<inputsubject>说明</inputsubject>
+				<inputauthor>作者</inputauthor>
+				<inputcategory>类别</inputcategory>
+				<inputcomments>注释</inputcomments>
+				<inputkeywords>关键字</inputkeywords>		
+			</editfilesummary>
+			<filereferencelist>
+				<gotopage>转到页</gotopage>
+				<xlinkstoy>{0} 链接到 {1}</xlinkstoy>
+				<referencewarning>如果选择继续，以下链接将断开</referencewarning>
+				<noreferences>无引用</noreferences>
+			</filereferencelist>
+			<pasteselection>
+				<title>粘贴“{0}”</title>
+				<confirmcopy>已选择 {0} 对象。 是否要将它们复制到当前文件夹?</confirmcopy>
+				<confirmmove>已选择 {0} 对象。 是否要将它们移动到当前文件夹?</confirmmove>
+				<alreadyexists>操作已取消。 部分对象已存在于当前文件夹中</alreadyexists>
+				<cannotcopyinsideitselfmessage>以下文件夹无法粘贴到自己内部，操作已取消</cannotcopyinsideitselfmessage>
+				<cannotmoveinsideitselfmessage>剪切文件夹无法移动到自己内部，操作已取消</cannotmoveinsideitselfmessage>
+			</pasteselection>
+			<renamedirectory>
+				<title>重命名“{0}”</title>
+				<newname>选择新文件夹名称</newname>		
+			</renamedirectory>
+			<renamefile>
+				<title>重命名“{0}”</title>
+				<newname>选择新文件名</newname>
+				<alreadyexists>已存在与此同名的文件</alreadyexists>
+			</renamefile>
+			<viewfile>
+				<linkingpages>链接页</linkingpages>
+				<backtofolder>返回文件夹</backtofolder>
+			</viewfile>
+			<uploadfile>
+				<title>添加文件</title>
+				<selectfile>选择要添加的文件</selectfile>
+				<confirmreplacefile>已存在与此同名的文件。 是否要替换此文件?</confirmreplacefile>
+			</uploadfile>
+			<directorysecurity>
+				<title>更改“{0}”的访问权限</title>
+				<inheritsecurity>从父文件夹继承权限</inheritsecurity>
+			</directorysecurity>
+			<search>
+				<locations>文件夹</locations>
+				<query>搜索文本</query>
+				<currentdirectory>当前文件夹</currentdirectory>
+				<numberofhits>命中数</numberofhits>
+				<modifiedfrom>修改开始日期</modifiedfrom>
+				<modifiedto>修改结束日期</modifiedto>
+				<filename>文件名</filename>
+				<filedirectory>文件夹</filedirectory>
+				<searchlimited>已将结果限制到前 {0} 个匹配项</searchlimited>
+				<filenamepattern>文件名</filenamepattern>
+				<allpagefolders>页文件夹</allpagefolders>
+				<viewfileinfo see="/filemanager/dhtmlsupport/viewfile"/>
+				<gotodirectory>转到文件夹</gotodirectory>
+				<advancedoptions>高级选项</advancedoptions>
+			</search>
+			<newpage>新页</newpage>
+			<checkinselection>
+				<title>签入文件</title>
+				<currentfile see="/filemanager/search/filename"/>
+				<selectversion>选择新版本</selectversion>
+				<comments>注释</comments>
+				<filexofy>{1} 的文件 {0}</filexofy>
+				<filenotcheckedout>文件未签出</filenotcheckedout>
+			</checkinselection>
+			<addversion>
+				<title>新建版本</title>
+			</addversion>
+			<versionlisttoolbar>
+				<restore>还原版本</restore>
+				<restoretooltip>还原为此版本</restoretooltip>
+				<delete>删除</delete>
+				<deletetooltip>删除版本</deletetooltip>
+				<addversion>创建版本</addversion>
+				<addversiontooltip>新建版本</addversiontooltip>
+				<download>下载</download>
+				<downloadtooltip>下载版本</downloadtooltip>
+				<copyshortcut>复制快捷方式</copyshortcut>
+			</versionlisttoolbar>
+			<versionlist>
+				<title>版本历史纪录: {0}</title>
+				<version>版本</version>
+				<created see="/filemanager/browse/created"/>
+				<createdby>创建者</createdby>
+				<size see="/filemanager/browse/size"/>
+				<comments>注释</comments>
+			</versionlist>
+			<unauthorizedpagefoldercreation>您未被授权创建该页的页文件夹。</unauthorizedpagefoldercreation>
+		</filemanager>
+		<clienttools>
+			<wizard>
+				<selectpagelanguage>选择页语言</selectpagelanguage>
+				<createpage>选择此文档要基于的页类型。</createpage>
+				<editpage>所选页类型是 {0}。 输入页名称和发布日期等信息。</editpage>
+				<doneblock1>完成！</doneblock1>
+				<doneblock2>选择“保存”和“查看”结束此向导并创建该页的预览。</doneblock2>
+				<nosupport>尚未配置对扩展名“{0}”的支持</nosupport>
+				<noextension>文件“{0}没有扩展名，无法识别</noextension>
+			</wizard>
+			<preview>
+				<tooltipclose>关闭预览并删除更改</tooltipclose>
+			</preview>
+			<installstatus>
+				<heading>客户端工具</heading>
+				<registersite>注册站点</registersite>
+				<componentname>组件</componentname>
+				<componentdescription see="/labels/description"/>
+				<componentversion>版本</componentversion>
+				<componentstatus>状态</componentstatus>
+				<statusinstalled>组件已安装</statusinstalled>
+				<statusnotinstalled>组件未安装</statusnotinstalled>
+				<statusloading>正在检查状态...</statusloading>
+				<upgrade>升级</upgrade>
+				<install>安装</install>
+				<installversion>安装版本 {0}</installversion>
+				
+				<officeaddin>
+					<noaccess>要安装和使用此外接程序，需要具备某些功能权限。 管理员可以为您分配这些权限。</noaccess>
+					<heading>Microsoft Office Add-In</heading>
+					<intro>使用此外接程序可以在 Microsoft Word、Microsoft Excel 和 Microsoft PowerPoint 中将信息发布到 EPiServer。</intro>
+					<installation>安装</installation>
+					<activated>此网站已启用，可从您的计算机上进行发布</activated>
+					<notactivated>此网站未启用，不能从您的计算机上进行发布</notactivated>					<confirmactivate>是否要激活发布到以下站点?</confirmactivate>					<confirmdeactivate>是否要停用发布到以下站点?</confirmdeactivate>
+					<needssave>发布到 EPiServer 之前，必须先保存文档。 是否要立即保存文档?</needssave>
+				</officeaddin>
+
+				<components>
+					<heading>组件</heading>
+					<intro>EPiServer 中的部分功能要求本地计算机安装 EPiServer 客户端组件。 下表显示可用组件及其状态。</intro>
+					<currentversion>您使用的是 {0} 版本的 {1}</currentversion>
+					<componentshelltools>
+						<heading>客户端支持功能</heading>
+						<description>与 EPiServer 通信的支持功能，由 Microsoft Office Add-In 等使用。</description>
+					</componentshelltools>			
+					<componentspellchecker>
+						<heading>拼写检查程序，Microsoft Office 支持</heading>
+						<description>通过此组件，编辑器可使用拼写检查程序。</description>	
+					</componentspellchecker>
+					<componentexcelexport>
+						<heading>导出至 Excel，Microsoft Office 支持</heading>
+						<description>可将表单数据导出至 Microsoft Excel 的组件。</description>
+					</componentexcelexport>
+					<componentmultiupload>
+						<heading>高级文件上载</heading>
+						<description>提供高级文件上载 (如拖放操作) 支持的组件。</description>
+					</componentmultiupload>
+				</components>
+			</installstatus>
+		</clienttools>	
+			
+		<pagetypes>
+			<common>				
+				<property name="PageName">
+					<caption>名称</caption>
+					<help>页的名称，例如，将其用作菜单标题。</help>
+				</property>
+				<property name="PageLink">
+					<caption>	页 ID</caption>
+					<help>		指定页的唯一 ID</help>
+				</property>
+				<property name="PageChangedOnPublish">
+					<caption>	将页标记为已更改</caption>
+					<help>		如果选中此框，则会更新页的更改日期。 例如，对于要包含在订阅中的页，这是所需的。</help>
+				</property>
+				<property name="PageStartPublish">
+					<caption>	开始发布</caption>
+					<help>		从此日期开始发布该页。 如果此字段留空，只要单击“发布”按钮，即会发布该页。</help>
+				</property>
+				<property name="PageStopPublish">
+					<caption>	停止发布</caption>
+					<help>		在此日期之前发布该页。 如果此字段留空，则必须手动删除该页才能停止发布。</help>
+				</property>
+				<property name="PageDelayedPublish">
+					<caption>	将来发布</caption>
+					<help>		选中此框将在“开始发布”日期自动发布此版本。</help>
+				</property>
+				<property name="PageChildOrderRule">
+					<caption>	排序顺序</caption>
+					<help>		定义该页的子页的显示顺序。</help>
+				</property>
+				<property name="PagePeerOrder">
+					<caption>	排序索引</caption>
+					<help>		指定一个整数作为该页的索引号。 通过为该页的父页选择“根据排序索引”，具有最低索引的页将显示在最前面。</help>
+				</property>
+				<property name="PageVisibleInMenu">
+					<caption>	在菜单中显示页</caption>
+					<help>		如果要在菜单中显示页，请选中此框。 如果未选中此框，则页只显示在列表中。</help>
+				</property>
+				<property name="PageFrameID">
+					<caption>	目标框架</caption>
+					<help>		确定链接的打开方式 (位于 &lt;a href> 中的目标)。</help>
+				</property>
+				<property name="PageArchiveLink">
+					<caption>	存档至页</caption>
+					<help>		超过“停止发布日期”时，该页可存档至一个特殊位置。 指定要用作存档的页。</help>
+				</property>
+				<property name="PageCreated">
+					<caption>	创建日期</caption>
+					<help>		页的创建日期。</help>
+				</property>
+				<property name="PageChanged">
+					<caption>	更改日期</caption>
+					<help>		页标记为更改的日期。</help>
+				</property>
+				<property name="PageTypeName">
+					<caption>	页类型</caption>
+					<help>		页类型的名称。</help>
+				</property>
+				<property name="PageExternalURL">
+					<caption>	该页的简单地址</caption>
+					<help>		从网站的根指定路径，如“/products”。 然后，可通过没有“?”或任何其他符号的简单地址访问该页。 访问者输入 www.foretaget.se/products 后，将显示该页。 </help>
+				</property>
+				<property name="PageCategory">
+					<caption>	类别</caption>
+					<help>		选择页要连接的类别。 </help>
+				</property>
+				<property name="PageShortcutType">
+					<caption>	链接类型</caption>
+					<help>		选择要创建的链接类型。</help>
+				</property>
+				<property name="PageShortcutLink">
+					<caption>	内部快捷方式/获取数据的源</caption>
+					<help>		该页打开另一页的内容，并使访问者转到结构中的相关页。 /  该页打开另一页的内容，并停留在结构中的当前位置。</help>
+				</property>
+				<property name="PageLinkURL">
+					<caption>外部链接</caption>
+					<help>打开该页并显示所链接到的外部页或文档的内容。</help>
+				</property>
+				<property name="PageTargetFrame">
+					<caption>目标框架</caption>
+					<help>确定链接的打开方式 (位于 &lt;a href> 中的目标)。</help>
+				</property>
+				<property name="PageLanguageID">
+					<caption>语言编码</caption>
+					<help>如果不同于默认值，请设置页的语言编码。</help>
+				</property>
+				<property name="PageURLSegment">
+					<caption>	Web 地址中的页名称</caption>
+					<help>		指定 Web 地址中的页要使用的简称</help>
+				</property>							
+			</common>
+			<pagetype name="SysRoot">
+				<name>“编辑”模式中的欢迎页</name>
+				<description>“编辑”模式中的第一页</description>
+			</pagetype>		
+			<pagetype name="SysRecycleBin"> 
+				<name>回收站</name>
+				<description>网站回收站的树结构</description>
+			</pagetype>			
+		</pagetypes>
+		<episerver.webparts>
+			<verbs>
+				<add>添加</add>
+				<apply>应用</apply>
+				<cancel>取消</cancel>
+				<close>关闭</close>
+				<configure>配置</configure>
+				<connect>连接</connect>
+				<delete>删除</delete>
+				<disconnect>断开连接</disconnect>
+				<edit>编辑</edit>
+				<editwsrp>编辑 Portlet</editwsrp>
+				<export>导出</export>
+				<help>帮助</help>
+				<maximize>最大化</maximize>
+				<minimize>最小化</minimize>
+				<ok>确定</ok>
+				<restore>还原</restore>
+				<solo>单独</solo>
+				<view>查看</view>
+			</verbs>
+			<webcontrols>
+				<wsrp>
+					<portletcatalogpart>
+						<producer>制作者</producer>
+					</portletcatalogpart>
+				</wsrp>
+				<catalogzone>
+					<emptyzonetext>目录区域不包含任何目录部件。</emptyzonetext>
+					<selecttargetzonetext>添加到:</selecttargetzonetext>
+					<headertext>目录区域</headertext>
+					<instructiontext>选择要浏览的目录。</instructiontext>
+				</catalogzone>
+				<connectionszone>
+					<configureconnectiontitle>配置连接</configureconnectiontitle>
+					<connecttoconsumerinstructiontext>创建此 Web 部件的使用者连接。</connecttoconsumerinstructiontext>
+					<connecttoconsumertext>创建到使用者的连接</connecttoconsumertext>
+					<connecttoconsumertitle>将数据发送到 Web 部件</connecttoconsumertitle>
+					<connecttoproviderinstructiontext>创建此 Web 部件的提供者连接。</connecttoproviderinstructiontext>
+					<connecttoprovidertext>创建到提供者的连接</connecttoprovidertext>
+					<connecttoprovidertitle>从 Web 部件获取数据</connecttoprovidertitle>
+					<consumersinstructiontext>当前 Web 部件将信息发送到的目标 Web 部件:</consumersinstructiontext>
+					<consumertitle>使用者</consumertitle>
+					<existingconnectionerrormessage></existingconnectionerrormessage>
+					<getfromtext>从:</getfromtext>
+					<gettext>获取:</gettext>
+					<headertext>连接区域</headertext>
+					<instructiontext>管理当前 Web 部件的连接。</instructiontext>
+					<instructiontitle>管理 {0} 的连接</instructiontitle>
+					<newconnectionerrormessage></newconnectionerrormessage>
+					<noexistingconnectioninstructiontext>您的 Web 部件中没有可用的活动连接。 如果页上有兼容的 Web 部件，通过选择上述链接，可以创建新的连接。</noexistingconnectioninstructiontext>
+					<noexistingcinnectiontitle>没有活动连接</noexistingcinnectiontitle>
+					<providersinstructiontext>当前 Web 部件获取信息的源 Web 部件:</providersinstructiontext>
+					<providerstitle>提供者</providerstitle>
+					<sendtext>发送:</sendtext>
+					<sendtotext>到:</sendtotext>
+				</connectionszone>
+				<displaymodedropdown>
+					<browse>浏览</browse>
+					<design>设计</design>
+					<catalog>目录</catalog>
+					<edit>编辑</edit>
+					<connect>连接</connect>
+				</displaymodedropdown>
+				<editorzone>
+					<emptyzonetext>编辑器区域不包含任何编辑器部件。</emptyzonetext>
+					<errortext>应用一个或多个编辑器部件时出错。</errortext>
+					<headertext>编辑器区域</headertext>
+					<instructiontext>修改 Web 部件的属性，然后单击“确定”或“应用”以应用更改。</instructiontext>
+				</editorzone>
+				<scopedropdown>
+					<user>更改是私有的</user>
+					<all>更改是共享的</all>
+				</scopedropdown>
+				<extendedwebpartzone>
+					<emptyzonetext>通过拖动或从文件夹中选择 RSS 源，向此区域添加 Web 部件。</emptyzonetext>
+				</extendedwebpartzone>
+			</webcontrols>
+		</episerver.webparts>
+		<wsrp>
+			<portlets>
+				<wsrpinfoservicecontrol>
+				    <title>EPiServer 信息查看器 Portlet</title>
+					<description>查看 EPiServer 的信息</description>
+					<shorttitle>信息查看器</shorttitle>
+					<displayname>信息查看器</displayname>
+					<keywords>EPiServer</keywords>
+					<keywords>信息</keywords>
+				</wsrpinfoservicecontrol>
+				<wsrpiframecontrol>
+					<title>EPiServer IFrame Portlet</title>
+					<description>在 IFrame 中查看信息</description>
+					<shorttitle>IFrame Portlet</shorttitle>
+					<displayname>IFrame</displayname>
+					<keywords>IFrame</keywords>
+				</wsrpiframecontrol>
+				<wsrprsscontrol>
+					<title>EPiServer RSS Portlet</title>
+					<description>查看 RSS 源的信息</description>
+					<shorttitle>RSS Portlet</shorttitle>
+					<displayname>RSS</displayname>
+					<keywords>RSS</keywords>
+					<keywords>丰富站点摘要</keywords>
+					<keywords>简易信息聚合</keywords>
+				</wsrprsscontrol>
+				<wsrpnewschannelcontrol>
+					<title>EPiServer 新闻频道 Portlet</title>
+					<description>查看 EPiServer 的新闻</description>
+					<shorttitle>新闻频道 Portlet</shorttitle>
+					<displayname>新闻频道</displayname>
+					<keywords>新闻</keywords>
+				</wsrpnewschannelcontrol>
+				<wsrpusersettingscontrol>
+					<title>EPiServer 用户设置 Portlet</title>
+					<description>配置用户设置</description>
+					<shorttitle>用户设置 Portlet</shorttitle>
+					<displayname>用户设置</displayname>
+				</wsrpusersettingscontrol>
+			</portlets>
+		</wsrp>
+	</language>
+</languages>

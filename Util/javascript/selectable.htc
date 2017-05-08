@@ -1,0 +1,96 @@
+<PUBLIC:COMPONENT	LIGHTWEIGHT=true>
+<PUBLIC:METHOD		NAME="Register"/>
+<PUBLIC:METHOD		NAME="Toggle"/>
+<PUBLIC:METHOD		NAME="Select"/>
+<PUBLIC:PROPERTY	NAME="SelectedClass"/>
+<PUBLIC:PROPERTY	NAME="Selected"/>
+<PUBLIC:PROPERTY	NAME="OriginalClass"/>
+<PUBLIC:ATTACH		EVENT="oncontentready" FOR="element" ONEVENT="Register()"/>
+<PUBLIC:ATTACH		EVENT="onclick" FOR="element" ONEVENT="OnClick()"/>
+
+<SCRIPT type='text/javascript'>
+
+/*
+ * selectable.htc	- JavaScript support routines for EPiServer
+ * Copyright (c) 2003 ElektroPost Stockholm AB
+*/
+
+function Register()
+{
+	if(this.OriginalClass == null)
+		this.OriginalClass = this.className;
+
+	if(this.Selected == "True")
+	{
+		window.SelectedBySelectable = this;
+		this.className = SelectedClass;
+	}
+}
+
+function OnClick()
+{
+	Toggle();
+	try
+	{
+		CloseOpenMenu();
+	}
+	catch(oError)
+	{
+	}
+
+	if (this.Action)
+	{
+		var timeOutInMS = 10;
+		setTimeout(this.Action, timeOutInMS);
+	}
+	
+	// Cancel the mouseclick event for this element (since we are overriding the standard functionality)
+	event.cancelBubble = true;
+	event.returnValue = false;
+}
+
+function Toggle()
+{
+	if(window.SelectedBySelectable)
+	{
+		try
+		{
+			var obj = window.SelectedBySelectable;
+			window.SelectedBySelectable = null;
+			obj.Toggle();
+		}
+		catch(oError)
+		{
+		}
+	}
+		
+	if(this.className == this.SelectedClass)
+		this.className = this.OriginalClass;
+	else
+	{
+		window.SelectedBySelectable = this;
+		this.className = this.SelectedClass;
+	}
+}
+
+function Select()
+{
+	if(window.SelectedBySelectable && window.SelectedBySelectable!=this)
+	{
+		try
+		{
+			var obj = window.SelectedBySelectable;
+			window.SelectedBySelectable = null;
+			obj.Toggle();
+		}
+		catch(oError)
+		{
+		}
+	}
+		
+	window.SelectedBySelectable = this;
+	this.className = this.SelectedClass;
+}
+
+</SCRIPT>
+</PUBLIC:COMPONENT>

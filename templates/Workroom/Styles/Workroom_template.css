@@ -1,0 +1,420 @@
+/* ---Tab strip---*/
+.tabbackground
+{
+	background-image:url($RootDir$templates/Workroom/Images/Tab/tabrow_background.gif);
+	text-align: left; 
+	height: 26px; 
+	background-position: top; 
+	background-repeat: repeat-x;	
+}
+.tabOuterContainer 
+{
+	display: inline-block;
+}
+.tabContainer 
+{
+	display: block; 
+	float: left;
+}
+.tabActive
+{
+	font-weight: bold; 
+	font-size: 1.1em; 
+	z-index: 10; 
+	background-image:url($RootDir$templates/Workroom/Images/Tab/tab_background_active.gif);
+	cursor: hand; 
+	padding-top: 6px; 
+	height: 26px; 
+	text-align: center; 
+	float: left; 
+	background-repeat: repeat-x;
+
+}
+.tabActiveLeft
+{
+	width: 7px; 
+	height: 26px; 
+	float: left; 
+	background-repeat: no-repeat;
+	background-image:url($RootDir$templates/Workroom/Images/Tab/tab_background_left_active.gif);
+}
+.tabActiveRight
+{
+	width: 7px; 
+	position: relative; 
+	height: 26px; 
+	float: left; 
+	background-repeat: no-repeat;
+	background-image:url($RootDir$templates/Workroom/Images/Tab/tab_background_right_active.gif);
+}
+.tabInactive
+{
+	font-size: 1.1em; 
+	background-image:url($RootDir$templates/Workroom/Images/Tab/tab_background.gif);
+	cursor: hand; 
+	padding-top: 6px;
+	height: 26px; 
+	text-align: center; 
+	float: left; 
+	background-repeat: repeat-x; 
+	display: inline;
+}
+.tabInactiveLeft
+{
+	width: 7px; 
+	height: 26px; 
+	float: left; 
+	background-repeat: no-repeat;
+	background-image:url($RootDir$templates/Workroom/Images/Tab/tab_background_left.gif);
+}
+.tabInactiveRight
+{
+	width: 7px; 
+	height: 26px; 
+	float: left; 
+	background-repeat: no-repeat;
+	background-image:url($RootDir$templates/Workroom/Images/Tab/tab_background_right.gif);
+}
+.tabDisabled
+{
+	font-size: 1.1em; 
+	background-image:url($RootDir$templates/Workroom/Images/Tab/tab_background.gif); 
+	color: gray; 
+	padding-top: 6px; 
+	height: 26px; 
+	text-align: center; 
+	float: left; 
+	background-repeat: repeat-x;
+}
+.tabDisabledLeft
+{
+	width: 7px; 
+	height: 26px; 
+	float: left; 
+	background-repeat: no-repeat;
+	background-image:url($RootDir$templates/Workroom/Images/Tab/tab_background_left.gif);
+}
+.tabDisabledRight
+{
+	width: 7px; 
+	height: 26px; 
+	float: left; 
+	background-repeat: no-repeat;
+	background-image:url($RootDir$templates/Workroom/Images/Tab/tab_background_right.gif);
+}
+.tabObjectActive
+{
+	display:block;
+	float: left;
+	width: 99%;
+	text-align: left;
+}
+.tabObjectInactive
+{
+	display: none;
+}
+
+.WorkroomContainer
+{
+	text-align:left;
+	float: left;
+	width: 100%;
+}
+
+.WorkroomList
+{
+	border-style:outset;
+	border-width:1px;
+	width: 100%;
+}
+
+.ListHeader
+{
+	background-color:	#ccc;
+	font-weight:		bold;
+	height:             1.6em;
+	padding-top:		0.2em;	
+	vertical-align:		middle;
+}
+
+.ColSize1
+{
+	float:				left;
+	width:				15%;
+	padding-left:		1em;	
+	padding-right:		1em;
+}
+
+.ColSize2
+{
+	float:				left;
+	width:				22%;
+	padding-left:		1em;	
+	padding-right:		1em;
+}
+
+.ColSize3
+{
+	float:				left;
+	width:				40%;
+	padding-left:		1em;	
+	padding-right:		1em;
+}
+
+.ListRowEven
+{
+	background-color:	#f0f0f0;
+	height:				2.1em;
+	margin-top:         0.2em;
+	vertical-align:		middle;
+}
+
+.ListRowUneven
+{
+	background-color:	#ffffff;
+	height:				2.1em;
+	margin-top:         0.2em;
+	vertical-align:		middle;
+}
+
+.NewLine
+{
+	clear:				left;
+}
+
+.TextData
+{
+	padding-top:		0.3em;	
+}
+
+.WorkroomLink
+{
+	text-decoration:	none;
+	cursor:				hand;
+}
+
+.EP-systemMessage
+{
+	font: messagebox;
+	display:block;
+	border:solid 0.1em #ccc;
+	background-color:#eee;
+	margin-top: 1.3em;
+	margin-bottom: 1.3em;
+	width: 99%;
+}
+
+.EP-systemMessage td
+{
+	padding: 0.3em;
+}
+
+fieldset
+{
+	margin-top: 0;
+}
+
+div.content
+{
+	float: left;
+	width: Auto;
+}
+
+div.descriptionxsmall
+{
+	float: left;
+	width: 25%;
+}
+
+div.descriptionsmall
+{
+	float: left;
+	width: 10em;
+}
+
+div.descriptionmedium
+{
+	float: left;
+	width: 35%;
+}
+
+div.descriptionlarge
+{
+	float: left;
+	width: 50%;
+}
+
+div.descriptionxlarge
+{
+	float: left;
+	width: 70%;
+}
+div.workroomoverviewcolumn
+{
+	width: 48%;
+	float: left;
+	text-align: left;
+}
+
+div.workroomoverviewcolumnseparator
+{
+	width: 2%;
+	float: left;
+}
+
+.small
+{
+	width: 10em;
+}
+
+.medium
+{
+	width: 20em;
+}
+
+.large
+{
+	width: 30em;
+}
+div.labelarea
+{
+	width: 5em;
+	float: left;
+}
+div.inputarea
+{
+	float: right;
+	clear: left;
+}
+div.inputrow
+{
+	width: 2em;
+}
+.fullwidth
+{
+	width: 98%;
+}
+.inputarea
+{
+	height: 5em;
+}
+div.narrowcolumn
+{
+	width: 20%;
+}
+
+div.workroomoverviewcolumn
+{
+	width: 48%;
+	float: left;
+}
+
+div.calendarlistingarea
+{
+	float: left;
+	width: 61%;
+	text-align: left;	
+}
+
+div.calendarbookingarea
+{
+	width: 100%;
+	border: solid 0.1em #000;
+}
+
+div.calendarbookingareaheader
+{
+	background-color: silver;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.5em;
+}
+
+div.calendarbookingareacontent
+{
+	text-align: left;
+	padding: 0.5em;
+}
+
+div.calendarbookingcontent
+{
+	float: left;
+	width: Auto;
+}
+
+div.calendarbookingdescription
+{
+	float: left;
+	width: 28%;
+}
+
+.WorkroomButton
+{
+	width: 6em;
+}
+
+.WorkroomButtonWide
+{
+	width: 10em;
+}
+
+.WorkroomListHeader
+{
+	background-color: #ccc;
+	height: 2em;
+	padding-top: 0.4em;
+	padding-left: 0.4em;
+	font-weight:bold;
+}
+
+.RightContainer
+{
+	float:right;
+	margin-left:0.7em;
+	margin-top: 0.4em;
+	width: 49%;
+}
+
+.LeftContainer
+{
+	float:left;
+	width: 49%;
+	margin-right:0.7em;
+	margin-top: 0.4em;
+}
+
+.LeftContainer79
+{
+	float:left;
+	margin-right:0.7em;
+	margin-top: 0.4em;
+	width: 79%;
+}
+
+.RightContainer19
+{
+	float:right;
+	margin-left:0.7em;
+	margin-top: 0.4em;
+	width: 19%;
+}
+
+.WorkroomLinkImage
+{
+	border:0;
+	vertical-align: middle;
+}
+
+.WorkroomPadded
+{
+	padding: 0.2em;
+}
+
+.disclaimer
+{
+	color: Red;
+	font-size: xx-small;
+	border: outset 1px red;
+	width: 60em;
+	padding: 0.7em;
+}

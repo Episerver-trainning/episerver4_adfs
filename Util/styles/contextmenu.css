@@ -1,0 +1,123 @@
+.ContextMenu
+{
+    border:				1px solid #6D8CA8;
+	width:				200px;
+	background-color:	white;
+	cursor:				default;
+}
+
+.ContextMenuDropDown
+{
+    border:				1px solid #6D8CA8;
+	width:				200px;
+	background-color:	white;
+	cursor:				default;
+}
+
+.ContextMenuDropDownImage
+{
+	margin-right:		5px;
+	margin-left:		1px;
+	margin-top:			2px;
+	margin-bottom:		0px;
+	cursor:		        hand;
+}
+
+.ContextMenuItem
+{
+	width:				100%;
+	border:				1px solid white;
+	height:				14px;
+	cursor:				default;
+	margin-left:        1px;
+    margin-right:       1px;
+
+	text-align:			left;
+	font-family:		Tahoma, MS Sans Serif, Arial, Geneva, Helvetica;
+	font-size:			11px;
+
+	color:				black;
+	background-color:	white;
+
+}
+
+.ContextMenuItem-Active
+{
+    background:			#FFEEC2;
+    border:				1px solid #6D8CA8;
+    margin-left:        1px;
+    margin-right:       1px;
+
+	width:				100%;
+	height:				14px;
+	cursor:				hand;
+
+	text-align:			left;
+	font-family:		Tahoma, MS Sans Serif, Arial, Geneva, Helvetica;
+	font-size:			11px;
+
+	color:				black;
+}
+
+.ContextMenuItemDisabled
+{
+	width:				100%;
+	height:				14px;
+	cursor:				default;
+	border:				1px solid white;
+	margin-left:        1px;
+    margin-right:       1px;
+
+	text-align:			left;
+	font-family:		Tahoma, MS Sans Serif, Arial, Geneva, Helvetica;
+	font-size:			11px;
+
+	color:				gray;
+	background-color:	white;
+
+}
+
+.ContextMenuItemDisabled-Active
+{
+    background:			#FFEEC2;
+    border:				1px solid #6D8CA8;
+    margin-left:        1px;
+    margin-right:       1px;
+
+	width:				100%;
+	height:				14px;
+	cursor:				default;
+
+	text-align:			left;
+	font-family:		Tahoma, MS Sans Serif, Arial, Geneva, Helvetica;
+	font-size:			11px;
+
+	color:				gray;
+}
+
+.ContextMenuItem-Separator 
+{
+	font-size:		0.001mm;
+	padding:		2px 95px 2px 95px;
+	margin:			2 2 2 2;
+	overflow:		hidden;
+	border-top:		1px solid #6D8CA8;
+	border-bottom:	1px solid #EDF2FC;
+	height:			2px;
+}
+
+.ContextMenuImage
+{
+	margin-right:		8px;
+	margin-left:		1px;
+	margin-top:			0px;
+	margin-bottom:		0px;
+}
+
+.ArrowMenuImage
+{
+	margin-right:		5px;
+	margin-left:		1px;
+	margin-top:			0px;
+	margin-bottom:		0px;
+}

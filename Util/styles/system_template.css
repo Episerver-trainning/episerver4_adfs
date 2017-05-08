@@ -1,0 +1,663 @@
+/* Basic configuration for EPiServer system pages */
+body 
+{
+	padding:2px;
+	margin:2px;
+	border:none;
+	font:normal 11px tahoma;
+	background-color:#ECEFF3;
+}
+textarea
+{
+	padding:2px;
+	margin:2px;
+	font:normal 11px tahoma;
+}
+input, td, select
+{
+	font:normal 11px tahoma;
+}
+h1
+{
+	font-size:18px;
+}
+h2
+{
+	font-size:14px;
+	margin-bottom:0.3em;
+}
+li
+{
+	list-style-type:disc;
+}
+A 
+{
+	color:#333333;
+	text-decoration:none;
+}
+A:hover
+{
+	text-decoration:underline;
+}
+A.comment 
+{
+	text-decoration:underline;
+	
+}
+.EP-PopupTitle {
+	background-image:url($RootDir$Util/images/titleBarBackground.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+	background-color:#838FA7;
+	height:40px;
+	font:18px arial;
+	color:#000000;
+	padding:10px;
+}
+body.EP-Popup {
+	background-color:#ECEFF3;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+/* The EP-system... classes are used by the EPiServer:SystemPrefix web control */
+.EP-systemHeading
+{
+	margin-bottom: 0.5em;
+}
+.EP-systemInfo
+{
+	font-style:italic;
+}
+.EP-systemMessage
+{
+	display:block;
+	font:messagebox;
+	border:solid 1px #6D8CA8;
+	background-color:#FFEEC2;
+	padding: 0.3em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+/* Generic classes used for formatting tables */
+table.EP-tableGrid
+{
+	border-collapse: collapse;
+	border: solid 1px #ffffff;
+	border-bottom-color: #6B7C9B;
+	border-right-color: #6B7C9B;
+}
+.EP-tableHeading, .EP-tableHeading td
+{
+	height:20px;
+	font-weight:bold;
+	border-bottom: solid 1px #6B7C9B;
+	padding:2px;
+}
+.EP-tableHeadingGrid, .EP-tableHeadingGrid td
+{
+	height:20px;
+	font-weight:bold;
+	border: solid 1px #ffffff;
+	border-bottom: solid 1px #6B7C9B;
+	padding: 2px 5px 2px 5px;
+}
+.EP-tableHeadingNoBorder, .EP-tableHeadingNoBorder td
+{
+	height:20px;
+	font-weight:bold;
+	padding:2px;
+}
+.EP-tableCaptionCell
+{
+	width: 15em;
+}
+.EP-tableDisabledCaptionCell
+{
+	width: 15em;
+	color: gray;
+}
+.EP-tableCell, .EP-tableCell td 
+{
+	padding:2px;
+	border-bottom:solid 1px #6B7C9B;
+}
+.EP-tableCellGrid, .EP-tableCellGrid td 
+{
+	padding: 2px 5px 2px 5px;
+	border: solid 1px #ffffff;
+}
+.EP-tableRowHighlight
+{
+	height:20px;
+	background-color:#ffffff;
+}
+.EP-tablePager td
+{
+	height:20px;
+	font-weight:bold;
+	padding: 2px 5px 2px 5px;
+}
+.EP-tablePager td a
+{
+	font-weight:normal;
+}
+.EP-tableRow
+{
+	height:20px;
+	border-bottom:solid 1px #6B7C9B;
+}
+/* Button styles used in edit & admin */
+.EP-largeButton
+{
+
+}
+.EP-smallButton
+{
+	
+}
+.EP-tinyButton
+{
+	font:menu;
+	width:3em;
+}
+.EP-systemPanel
+{
+	border:inset 2px #ECEFF3;
+	background:white;
+	width:100%
+}
+/* The EPLink-... classes are used by the LinkEdit.aspx file */
+.EPLink-resultingURL
+{
+	width:18em;
+	font:menu;
+	border:solid 1px;
+}
+/* The EPEdit-tab... classes are used by the EPiServer:TabStrip web control */
+.EPEdit-tabbackground
+{
+	background-image:url($RootDir$Util/images/tabrow_background.gif);
+}
+.EPEdit-tabActive
+{
+	height:27px;
+	background-image:url($RootDir$Util/images/tab_background_active.gif);
+	text-align:center;
+	padding-top:9px;
+	position:relative;
+	z-index:10;
+	font:bold 11px tahoma;
+	cursor: hand;
+
+}
+.EPEdit-tabActiveLeft
+{
+	height:27px;
+	width:7px;
+	background-image:url($RootDir$Util/images/tab_background_left_active.gif);
+	position:relative;
+}
+.EPEdit-tabActiveRight
+{
+	height:27px;
+	width:7px;
+	background-image:url($RootDir$Util/images/tab_background_right_active.gif);
+	position:relative;
+}
+.EPEdit-tabInactive
+{
+	font:normal 11px tahoma;
+	height:27px;
+	background-image:url($RootDir$Util/images/tab_background.gif);
+	text-align:center;
+	padding-top:9px;
+	position:relative;
+	z-index:10;
+	cursor:hand;
+	position:relative;
+}
+.EPEdit-tabInactiveLeft
+{
+	height:27px;
+	width:7px;
+	background-image:url($RootDir$Util/images/tab_background_left.gif);
+	position:relative;
+}
+.EPEdit-tabInactiveRight
+{
+	height:27px;
+	width:7px;
+	background-image:url($RootDir$Util/images/tab_background_right.gif);
+	position:relative;
+}
+.EPEdit-tabDisabled
+{
+	font:normal 11px tahoma;
+	color: Gray;
+	height:27px;
+	background-image:url($RootDir$Util/images/tab_background.gif);
+	text-align:center;
+	padding-top:9px;
+	position:relative;
+	z-index:10;
+	cursor:default;
+	position:relative;
+}
+.EPEdit-tabDisabledLeft
+{
+	height:27px;
+	width:7px;
+	background-image:url($RootDir$Util/images/tab_background_left.gif);
+	position:relative;
+}
+.EPEdit-tabDisabledRight
+{
+	height:27px;
+	width:7px;
+	background-image:url($RootDir$Util/images/tab_background_right.gif);
+	position:relative;
+}
+.EPEdit-tabObjectActive
+{
+	display:block;
+}
+.EPEdit-tabObjectInactive
+{
+	display:none;
+}
+/* Styles that define the edit-mode frames */
+
+.EPEdit-TitleFrame 
+{
+	width:100%;height:40px;
+	background-color:#838FA7;
+	padding-top:4px;
+	padding-left:10px;
+	background-image:url($RootDir$Util/images/titleBarBackground.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+
+#epCommandDIV
+{
+	position:absolute;top:40px;left:0px;width:260px;height:35px;
+}
+.EPEdit-commandFrame
+{
+	width:260px;
+	height:35px;
+}
+.EPEdit-commandBody
+{
+	padding-top:6px;
+	margin:0px;
+	overflow:hidden;
+}
+.EPEdit-commandSep 
+{
+	width:2px;
+	height:20px;
+	margin-left:10px;
+	margin-right:10px;
+	background-image:url($RootDir$Util/images/command_toolseparator.gif);
+}
+
+.EPEdit-commandRowSep 
+{
+	background-image:url($RootDir$Util/images/command_toolrowseparator.gif);
+}
+
+#epTreeDIV
+{
+	position:absolute;
+	top:75px;
+	left:0px;
+	width:260px;
+	height:500px;
+}
+.EPEdit-treeFrame
+{
+	width:100%;
+	height:100%;
+}
+#epPanelDIV
+{
+	position:absolute;top:40px;left:250px;width:800px;height:800px;
+}
+
+.EPEdit-panelFrame
+{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+.EPEdit-panelBody
+{
+	margin:0px;
+	padding:0px;
+}
+#epSearchDIV
+{
+	position:absolute;top:400px;left:0px;width:260px;height:40px;
+}
+
+.EPEdit-searchFrame
+{
+	width:259px;
+	height:40px;
+}
+.EPEdit-searchBody 
+{
+	
+}
+.EPEdit-editBody,.EPEdit-adminBody
+{
+	padding:0px;
+	margin:0px;
+	border:none;
+}
+
+body.EPEdit-languageSelectionBody
+{
+	padding: 5 0 0 20;
+	margin: 0;
+	border: none;
+}
+
+
+
+#epCustomDIV
+{
+	position:absolute;top:40px;left:800px;width:180px;height:800px;
+	
+}
+.EPEdit-customFrame
+{
+	
+	height:100%;
+	width:100%;
+}
+.EPEdit-customBody
+{
+	padding: 0px;	
+	background-color:#7F9DB9;
+	padding:0px;
+	margin:0px;
+}
+#epCustomCommandDIV
+{
+	top:0px;left:0px;
+	padding-top:6px;
+	margin:0px;
+	overflow:hidden;
+	height:30px;
+	padding-left:0px;
+}
+#epCustomPanel 
+{
+	background-color:#FFFFFF;
+	position:absolute;
+	width:180px;
+	height:500px;
+	overflow:hidden;
+}
+.EPEdit-CustomPanelFrame
+{
+	width:100%;
+	height:100%;
+}
+.EPEdit-CustomPanelBody
+{
+	padding:5px;
+	background-color:#ffffff;
+	border:inset 2px #ECEFF3;
+}
+.EPEdit-CustomDrag
+{
+	background-image:url($RootDir$Util/images/ActionWindow/cw_drag.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-color:#ECEFF3;
+}
+
+.EPEdit-treeBody
+{
+	background-color:#ECEFF3;
+	padding:5px;
+	
+}
+/* The EPEdit-page... classes are used in EditPanel.aspx */
+.EPEdit-EditPanelTitle 
+{
+	
+}
+.EPEdit-pageName
+{
+	/*display:block;*/
+	overflow:hidden;
+	font-weight:bold;
+	font-size:18px;
+}
+.EPEdit-pageType
+{
+	font-size:11px;
+	font-weight:normal;
+	font-style:italic;
+	margin-right: 5px;
+}
+.EPEdit-pageWorkStatus
+{
+	font-size:11px;
+}
+.EPEdit-pageVersionList
+{
+	border:None;
+}
+.EPEdit-sidAccessLevel
+{
+	width: 4em;
+}
+.EPEdit-sidSelectList
+{
+	width:18em;
+}
+
+.EPEdit-CommandTool
+{
+	behavior:url($RootDir$Util/javascript/mouseover.htc);
+	margin:1px;
+}
+
+.EPEdit-CommandToolClicked
+{
+	border-bottom 	: solid 1px #FFFFFF;
+	border-right 	: solid 1px #FFFFFF;
+	border-left 	: solid 1px #BDBCA7;
+	border-top 		: solid 1px #BDBCA7;
+	cursor			: default;
+}
+
+/* The EPEdit-Workspace... classes are used by the Workspace.aspx file */
+.EPEdit-WorkspaceTabContent
+{
+	margin: 1em;
+}
+.EPEdit-WorkspaceTaskHeader
+{
+	font-weight: bold;
+	margin-top: 1em;
+	display:block;
+}
+
+/* Input classes */
+.EPEdit-inputNumber 
+{
+	behavior:url($RootDir$Util/javascript/changedinput.htc);
+}
+.EPEdit-inputFloatNumber
+{
+	behavior:url($RootDir$Util/javascript/changedinput.htc);
+}
+.EPEdit-inputDate
+{
+	behavior:url($RootDir$Util/javascript/changedinput.htc);
+}
+.EPEdit-inputBoolean 
+{
+	behavior:url($RootDir$Util/javascript/changedboolean.htc);
+}
+.EPEdit-inputPageLink
+{
+	behavior:url($RootDir$Util/javascript/changedinput.htc);
+}
+.EPEdit-inputPageType
+{
+	behavior:url($RootDir$Util/javascript/changedinput.htc);
+}
+.EPEdit-inputFrame
+{
+	behavior:url($RootDir$Util/javascript/changedinput.htc);
+}
+.EPEdit-inputSortOrder
+{
+	behavior:url($RootDir$Util/javascript/changedinput.htc);
+}
+.EPEdit-inputDropDownList
+{
+	behavior:url($RootDir$Util/javascript/changedinput.htc);
+}
+.EPEdit-inputString
+{
+	behavior:url($RootDir$Util/javascript/changedinput.htc);
+}
+.EPEdit-inputLongString
+{
+	width: 100%;
+	behavior:url($RootDir$Util/javascript/changedinput.htc);
+}
+.EPEdit-inputEditor
+{
+	behavior:url($RootDir$Util/javascript/changededitor.htc);
+}
+.EPEdit-formProperties
+{
+	padding: 5px;
+	background: white;
+	border: 1px solid black;
+	display: none;
+	width: 250px;
+}
+
+.EPEdit-formPropertyTitle
+{
+	background: #EEEEEE;
+	color: black;
+}
+
+/* The EPAdmin-... classes are used by the admin files */
+.EPAdmin-menuHeader
+{
+	margin-top: 12px;
+	width: 100%;
+}
+
+.EPAdmin-menuHeading
+{
+	vertical-align: top;
+	font-weight: bold;
+	display: block;
+	float: left;
+}
+
+.EPAdmin-menuIcon
+{
+	vertical-align: top;
+	display: block;
+	float: left;
+}
+
+.EPAdmin-menuItems
+{
+	margin-left: 22px;
+}
+
+.EPAdmin-menuItem
+{
+	margin-bottom: 2px;
+}
+
+.EPAdmin-menuPageTypeSorting
+{
+	display: block;
+	float: left;
+	padding-left: 20px;
+}
+
+/* Classes used by the multi language runtime */
+div.leftarea
+{
+	float:left;
+	width: 49.5%;
+	height: 100%;
+}
+
+div.versiondiv 
+{
+	width: 100%;
+	height: 90%;
+}
+
+div.rightarea
+{
+	float:right;
+	width: 49.5%;
+	height: 100%;
+}
+div.vertical
+{
+	width: 100%;
+	height: 50%;
+}
+
+/* The EPEdit-Form... classes are used by EditForm.aspx, FormControl.ascx */
+
+/* Used for the editor HTML mode */
+textarea.codeview
+{
+	font-family: Lucida Console;
+}
+
+.hidden
+{
+	display: none;
+}
+
+/* Used for the page language viw in the action window. */
+table.pagelanguagestable
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+table.pagelanguagestable td
+{
+	vertical-align: top;
+	border-top: solid 1px #6D8CA8;
+	border-bottom: solid 1px #6D8CA8;
+	padding: 7px 0px;
+}
+table.pagelanguagestable tr.pagelanguagerow td
+{
+	border-bottom: 0;
+	padding-bottom: 3px;
+}
+table.pagelanguagestable tr.pageinforow td
+{
+	border-top: 0;
+	padding-top: 0px;
+}
+table.pagelanguagestable img
+{
+	border: 0;
+}

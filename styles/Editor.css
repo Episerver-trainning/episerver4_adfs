@@ -1,0 +1,320 @@
+/* ------ Text items -------- */
+body
+{
+	font-family: Verdana, Arial, Helvetica, Tahoma;
+	font-size: 0.65em;
+	color: #333;
+	padding: 0; 
+	margin: 0;
+}
+p
+{
+	font-family: Verdana, Arial, Helvetica, Tahoma;
+	color: #333;
+}
+h1, .heading1
+{
+	font-weight: bold;
+	font-size: 1.5em; 
+	color: #333;
+	EditMenuName: Heading 1;
+}
+h2, .heading2
+{
+	font-weight: bold; 
+	font-size: 1.2em; 
+	color: #95632F;
+	EditMenuName: Heading 2;
+}
+h3, .heading3
+{
+	font-weight: bold;
+	font-size: 1em;
+	color: #333;
+	EditMenuName: Heading 3;
+}
+.introduction
+{
+	font-weight: bold;
+	EditMenuName: Introduction;
+}
+.imagetext 
+{
+	font-style: italic; 
+	font-size: 0.9em; 
+	EditMenuName: Image text;
+}
+.red
+{
+	color: #CC0000;
+	EditMenuName: Normal red text;
+}
+hr
+{
+	height: 0.1em;
+	color: #95632F;
+}
+
+hr.light
+{
+	height: 0.1em;
+	color: #F0E5CE;
+}
+
+/* ------ Links -------- */
+a
+{
+	color: #95632F;
+}
+a:hover
+{
+	color: #333333;
+}
+
+/* --------- Links in Top menu ----------- */
+a.menuhead
+{
+	padding: 0em 0em 0em 0.55em;
+	font-size: 1em;
+	color: #333;
+	text-decoration: none;
+	margin: auto;
+}
+a.activemenuhead
+{
+	padding: 0em 0em 0em 0.55em;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	margin: auto;
+}
+
+/* --------- Left menu ----------- */
+
+div.menuitem
+{
+	background-image: url(../images/submenu_rulerbg.gif);
+	background-position: 0em bottom;
+	background-repeat: repeat-x;
+	width: 100%;
+	padding: 0.5em 0em 0.5em 0em;
+	float: left;
+	
+}
+div.menuitemselected
+{
+	background-image: url(../images/submenu_rulerbg.gif);
+	background-position: 0em bottom;
+	background-repeat: repeat-x;
+	width: 100%;
+	padding: 0.5em 0em 0.5em 0em;
+	float: left;
+	font-weight: bold;
+	background-color: #dddddd;
+}
+div.menuitemexpanded
+{
+	background-image: url(../images/submenu_rulerbg.gif);
+	background-position: 0em bottom;
+	background-repeat: repeat-x;
+	width: 100%;
+	padding: 0.5em 0em 0.5em 0em;
+	float: left;
+	background-color: #dddddd;
+}
+div.menuitemchild
+{
+	width: 100%;
+	padding: 0.4em 0em 0.6em 0em;
+	float: left;
+	background-color: #F0F0F0;
+}
+
+/* --------- Input ----------- */
+input, textarea
+{
+	font-family: Verdana, Arial, Helvetica, Tahoma;
+	color: #333;
+	font-size: 1em;
+}
+
+select
+{
+	font-size: 1em;
+}
+fieldset
+{
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+legend
+{
+	color: #333;
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+}
+fieldset label
+{
+	margin-right: 1em;
+}
+
+.inputlabel
+{
+	width: 6em;
+	float: left;
+	padding-top: 0.4em;
+	font-weight: bold;
+}
+.inputlabelwide
+{
+	width: 10em;	
+	float: left;
+	padding-top: 0.4em;
+	font-weight: bold;
+}
+span.errormessage
+{
+	color: #CC0000;
+	font-size: 1em;
+}
+
+/* --------- Image format ----------- */
+img.topleftfloatingimage
+{
+    margin-right: 1em;
+    margin-bottom: 1em;
+    EditMenuName: Top left;
+	float: left;
+}
+img.toprightfloatingimage
+{
+	float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    EditMenuName: Top right;
+}
+img.shadow
+{
+	position: relative;
+	EditMenuName: Shadow;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#555555,direction=135,strength=5);
+}
+img.opacity
+{
+	position: relative;
+	EditMenuName: Semi transparent;
+	filter: alpha(opacity=40,finishopacity=24,style=3);
+}
+img.fliph
+{
+	position: relative;
+	EditMenuName: Flip horisontally;
+	filter: fliph;
+}
+img.flipv
+{
+	position: relative;
+	EditMenuName: Flip vertically;
+	filter: flipv;
+}
+img.dashedborder
+{
+	position: relative;
+	border: dashed 1px grey;
+	EditMenuName: Dashed border;
+}
+img.circularfade
+{
+	position: relative;
+	EditMenuName: Circular fade;
+	filter: alpha(opacity=100,finishopacity=0,style=2);
+}
+
+/* --------- Table format ----------- */
+table
+{
+	font-size: 1em;
+}
+th
+{
+	text-align: left;
+}
+.evenrow
+{
+	background-color:  #fff;
+}
+.unevenrow
+{
+	background-color:#F0E5CE;
+}
+.headerrow
+{
+	background-color: #F0E5CE;
+}
+table.classic
+{
+	border-collapse: collapse;
+	border: solid 0.1em #777777;
+	EditMenuName: Classic;
+}
+table.classic th
+{
+	border: solid 0.1em #777777;
+	background-color: #DADADA;
+	padding: 0.4em;
+}
+table.classic td
+{
+	border: solid 0.1em #777777;
+	padding: 0.2em 0.4em;
+}
+table.color
+{
+	border-collapse: collapse;
+	border: solid 0.1em #95632F;
+	EditMenuName: Color;
+}
+table.color th
+{
+	border: solid 0.1em #95632F;
+	background-color: #E1CC9D;
+	padding: 0.4em;
+}
+table.color td
+{
+	border: solid 0.1em #95632F;
+	padding: 0.2em 0.4em;
+}
+th.highlighted, td.highlighted
+{
+	EditMenuName: Highlighted;
+}
+table.classic th.highlighted
+{
+	background-color: #AAAAAA;
+}
+table.classic td.highlighted
+{
+	background-color: #F0F0F0;
+}
+table.color th.highlighted
+{
+	background-color: #95632F;
+}
+table.color td.highlighted
+{
+	background-color: #F0E5CE;
+}
+th.leftalignedcontent, td.leftalignedcontent
+{
+	text-align: left;
+	EditMenuName: Left aligned;
+}
+th.rightalignedcontent, td.rightalignedcontent
+{
+	text-align: right;
+	EditMenuName: Right aligned;
+}
+

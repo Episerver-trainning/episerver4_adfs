@@ -1,0 +1,95 @@
+A
+{
+	background-color:Yellow;
+}
+
+TABLE.borderless
+{
+	border-style:solid;
+	border-width:1;
+	border-color:Silver;	
+}
+
+TABLE.selectable
+{
+	border-style:solid;
+	border-width:1;
+	border-color:Silver;	
+}
+
+/* TD classes */
+TD.selectable
+{
+}
+
+TABLE.selectable TD.selected, TABLE.borderless TD.selected
+{
+	color: White;
+	background-color: #6666aa;
+}
+
+TABLE.selectable TD.borderless, TABLE.borderless TD.borderless
+{
+	border-style:solid;
+	border-width:1;
+	border-color:Silver;
+}
+
+TABLE.selectable TD.rowheader, TABLE.borderless TD.rowheader
+{
+	border-right: 2px solid #0077cc;
+}
+
+TABLE.selectable TD.colheader, TABLE.borderless TD.colheader
+{
+	border-bottom: 2px solid #0077cc;
+}
+
+/* TH classes */
+TH
+{
+	border-style:solid;
+	border-width:1;
+	border-color:#0077cc;
+}
+TH.selectable
+{
+}
+
+TABLE.selectable TH.selected, TABLE.borderless TH.selected
+{
+	color: White;
+	background-color: #6666aa;
+}
+
+TABLE.selectable TH.rowheader, TABLE.borderless TH.rowheader
+{
+	border-right: 2px solid #0077cc;
+}
+
+TABLE.selectable TH.colheader, TABLE.borderless TH.colheader
+{
+	border-bottom: 2px solid #0077cc;
+}
+
+TABLE.selectable TH.borderless, TABLE.borderless TH.borderless
+{
+}
+
+CAPTION
+{
+	border-style:dotted;
+	border-width:1;
+	border-color:#6666aa;
+}
+
+IMG.selected
+{
+	border: 1px dashed highlight;
+}
+
+BODY.editmode
+{
+	text-align: left;
+	padding-left: 3px;
+}

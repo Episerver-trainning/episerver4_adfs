@@ -1,0 +1,110 @@
+/* These element style definitions and classes are used by the editor guide plug-in */
+
+a
+{
+	color: #336699;
+}
+
+div.hidden
+{
+	display: none;
+}
+
+div.subsection
+{
+	margin-left: 12px;
+}
+
+div.visible
+{
+	display: block;
+}
+
+h1
+{
+	font-weight: bold;
+	font-size: 120%;
+	margin: 0 0 10px 0;
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 100%;
+	margin: 0 0 7px 0;
+}
+
+h3
+{
+	font-weight: normal;
+	font-size: 100%;
+	color: #336699;
+	margin: 7px 0 7px 0;
+}
+
+hr
+{
+	color: #336699;
+	height: 1px;
+}
+
+img
+{
+	border: none;
+}
+
+ol
+{
+	margin: 7px 0px 7px 24px;
+}
+
+ol li
+{
+	list-style: decimal;
+}
+
+p
+{
+	margin: 7px 0 7px 0;
+}
+
+table 
+{
+	border-collapse: collapse;
+}
+
+th  
+{
+	border: solid 1px #000000;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background: #336699;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: left;
+	color: #ffffff;
+}
+
+td  
+{
+	border: solid 1px #000000;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+tr.colored  
+{
+	background: #cccccc;
+}
+
+ul
+{
+	margin: 7px 0px 7px 17px;
+}
+
+ul li
+{
+	list-style: url($RootDir$Util/images/EditorGuide/listdot.gif) disc;
+}

@@ -1,0 +1,1260 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+	<language name="Suomi" id="FI">
+		<templates>
+			<document>
+				<openinnewwindow>Avaa uudessa ikkunassa</openinnewwindow>
+				<backtolist>Paluu luetteloon</backtolist>
+			</document>
+			<documentlist>
+				<download>Lataa asiakirja</download>
+			</documentlist>
+			<news>
+				<errorbindingrsssource>	Virhe rss-tietojen noutamisen aikana</errorbindingrsssource>
+			</news>
+			<form>
+				<numberofvotes>Äänestysten lukumäärä: {0}</numberofvotes>
+				<showform>Näytä lomake</showform>
+				<requirelogon>Sinun on kirjauduttava jotta saisit vastatat.</requirelogon>
+				<denymultipleposts>Sinä olet jo vastannut tähän lomakkeeseen.</denymultipleposts>
+				<postedmessage>Kiitos vastauksesta!</postedmessage>
+				<thankyouforyourreply>Kiitos vastauksesta!</thankyouforyourreply>
+				<showstat>Näytä tilatiedostot</showstat>
+			</form>
+			<register>
+				<invalidemail>Sinun on syötettävä voimassa oleva sähköpostiosoite jotta voimme käsitellä anomuksesi.</invalidemail>						<invalidpassword>Sinun on syötettävä salasana. Kirjoita sama salasana molempiin tekstikenttiin.</invalidpassword>
+				<expiredidentity>Sinun sisäänkirjautumistiedot eivät enää ole saatavissa, ole hyvä ja kirjaudu uudestaan.</expiredidentity>
+				<usernotsaved>Käyttäjätietoja ei voi tallentaa, syötä toinen käyttäjänimi.</usernotsaved>
+				<errorwhilesavinguser>Virhe tallennuksen aikana, käyttäjää ei voi tallentaa.</errorwhilesavinguser>
+				<invalidsettings>Itsenäinen rekisteröityminen ei vielä toimi, kaikkia ominaisuuksia ei ole määritelty.</invalidsettings>
+				<applyemailsubject>Uusi käyttäjä on anonut Ekstranet-käyttäjäksi.</applyemailsubject>
+				<applyemailbodyprefix>Menemällä tähän sivuun käyttäjä aktivoituu.</applyemailbodyprefix>
+				<usersaved>Tulet saamaan sähköpostin heti kun käyttäjäsi on hyväksytty ja aktivoitu.</usersaved>
+				<usersavedandactivated>Nyt voit kirjautua sivustoon.</usersavedandactivated>
+				<couldnotsave see="/admin/edituser/usernotsaved"/>
+				<saved see="/admin/edituser/usersaved"/>
+				<notallowed>Tämä sivusto ei salli itsenäistä rekisteröitymistä.</notallowed>
+			</register>
+			<page>
+				<login>Kirjaudu sisään</login>
+				<logout>Kirjaudu ulos</logout>
+				<notproperlyconfigured>Pikahaku ei ole määritetty oikein (dynaaminen ominaisuus "Yleinen hakusivu" on määriteltävä)</notproperlyconfigured>
+				<readmore>Lue lisää</readmore>
+			</page>
+			<newsgrouplist>
+				<search>Hae</search>
+				<subscribe>Tilaa</subscribe>
+				<unsubscribe>Poista tilaus</unsubscribe>
+			</newsgrouplist>
+			<search>
+				<searchfiles>			Etsi myös asiakirjoja ja tiedostoja</searchfiles>
+				<onlywholewords>		Etsi vain kokonaisia sanoja</onlywholewords>
+				<searchresult>			Haun tulos:</searchresult>
+				<rank>					Järjestys</rank>
+				<match>					Tulos</match>
+				<matches>				tulosta</matches>
+				<nomatches>				Ei hakutuloksia. Yritä uudelleen.</nomatches>
+				<help>
+					&lt;b&gt;Hakuvihje&lt;/b&gt;
+					&lt;ul&gt;
+					&lt;li&gt;Voit kirjoittaa jopa 10 hakusanaa, jotka on erotettu välilyönnillä, esimerkiksi &lt;i&gt;&lt;b&gt;&lt;nobr&gt;hakusana1 hakusana2 hakusana3&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br/&gt;&lt;/li&gt;
+					&lt;li&gt;Voit rajoittaa hakua kirjoittamalla plusmerkin (+) niiden sanojen eteen, joiden on oltava kaikissa tuloksissa, esimerkiksi &lt;i&gt;&lt;b&gt;&lt;nobr&gt;+hakusana1 +hakusana2 +hakusana3&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;/li&gt;
+					&lt;li&gt;Voit rajoittaa hakua kirjoittamalla miinusmerkin (-) niiden sanojen eteen, jotka eivät saa olla missään hakutuloksissa, esimerkiksi &lt;i&gt;&lt;b&gt;&lt;nobr&gt;+hakusana1 +hakusana2 -hakusana3&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;/li&gt;
+					&lt;li&gt;Jos olet valinnut vaihtoehdon Etsi vain kokonaisia sanoja, mutta haluat etsiä silti sanan osilla, kirjoita sanan loppuun tähti (*), esimerkiksi &lt;i&gt;&lt;b&gt;&lt;nobr&gt;sana1* sana2&lt;/nobr&gt;&lt;/b&gt;&lt;/i&gt;. Tämä antaa tulokseksi yhdistelmän sana123 sana2, mutta ei yhdistelmää sana123 sana234&lt;/li&gt;
+					&lt;/ul&gt;	
+				</help>
+				<indexservererror>Asiakirjojen ja tiedostojen hakupalvelu ei valitettavasti ole juuri nyt käytettävissä. Toistaiseksi voit etsiä vain Webistä.</indexservererror>
+				<quicksearch>Pikahaku</quicksearch>
+				<alllanguages>Etsi kaikilla kielillä</alllanguages>
+			</search>
+			<login>
+				<logintitle>			Kirjautuminen</logintitle>
+				<loginheading>			Salatut tiedot - sinun on kirjauduttava sisään</loginheading>
+				<username>		Käyttäjänimi</username>
+				<password>		Salasana</password>
+				<persistentlogin>	Automaattinen kirjautuminen tähän sivustoon</persistentlogin>
+				<usernamerequired>	Käyttäjänimi on annettava</usernamerequired>
+				<loginfailed>		Sisäänkirjautuminen epäonnistui</loginfailed>
+			</login>
+			<calendar>
+				<next>Seuraava</next>
+				<previous>Edellinen</previous>
+			</calendar>
+			<changedpages>
+					<header>			Viimeksi muutetut tiedostot</header>
+					<lastmodified>		Viimeksi muutettu</lastmodified>
+					<page>				Sivu</page>
+					<updatedpages>		Viimeksi muutetut sivut</updatedpages>
+			</changedpages>
+			<conference>
+				<deleteconfirm>Haluatko poistaa sivun?</deleteconfirm>
+				<createnew>Luo uusi palaute</createnew>
+				<post>Palaute</post>
+				<heading>Otsikko</heading>
+				<message>Teksti</message>
+				<author>Nimi</author>
+				<previous>Edellinen</previous>
+				<next>Seuraava</next>
+				<reply>Vastaa</reply>
+				<change>Muuta</change>
+				<delete>Poista</delete>
+				<replies>Vastauksia</replies>
+				<uponelevel>Ylös yksi taso</uponelevel>
+			</conference>
+			<newsgroupitem>
+				<reply see="/templates/conference/reply"/>
+				<name see="/templates/conference/author"/>
+				<email see="/templates/newsgroupitem/email"/>
+				<subject see="/templates/newsgrouplist/subject"/>
+			</newsgroupitem>
+			<newsgrouplist>
+				<newpost>Uusi palaute</newpost>
+				<settings>Asetukset</settings>
+				<subject>Aihe</subject>
+				<author>Kirjoittaja</author>
+				<created>Luomispäivämäärä</created>
+			</newsgrouplist>
+			<newsgroupsettings>
+				<personalsettings>Henkilökohtaiset asetukset</personalsettings>
+				<firstname see="/admin/secedit/firstname"/>
+				<lastname see="/admin/secedit/lastname"/>
+				<email see="/templates/newsgroupitem/email"/>
+				<interval see="/templates/subscribe/interval"/>
+				<fastaspossible see="/templates/subscribe/fastaspossible"/>
+				<daily see="/templates/subscribe/daily"/>
+				<everysecondday see="/templates/subscribe/everysecondday"/>
+				<weekly see="/templates/subscribe/weekly"/>
+				<everysecondweek see="/templates/subscribe/everysecondweek"/>
+				<everyfourthweek see="/templates/subscribe/everyfourthweek"/>
+			</newsgroupsettings>
+			<newsgrouptree>
+				<back>Takaisin</back>
+			</newsgrouptree>
+			<notimplemented>
+				<notimplemented>Tämä toiminta ei ole vielä toiminnassa.</notimplemented>
+			</notimplemented>
+			<subscribe>
+				<interval>Aikajakso</interval>
+				<fastaspossible>Niin pian kuin mahdollista</fastaspossible>
+				<daily>Päivittäin</daily>
+				<everysecondday>Joka toinen päivä</everysecondday>
+				<weekly>Joka viikko</weekly>
+				<everysecondweek>Joka toinen viikko</everysecondweek>
+				<everyfourthweek>Joka neljäs viikko</everyfourthweek>
+				<subscriptions>Tilaukset</subscriptions>
+			</subscribe>
+			<mobileinfo>
+				<maininfo>
+	&lt;b&gt;How to enable WAP-functions in EPiServer&lt;/b&gt;
+					&lt;p&gt;Since the wap/mobile device support in EPiServer is based on the Microsoft 
+						Mobile Internet Toolkit it is not enabled by default. If you want to activate 
+						the mobile device support, follow the instructions below.&lt;/p&gt;
+					&lt;ul&gt;
+						&lt;li&gt;
+							Download and install the Microsoft Mobile Internet Toolkit on your development 
+							machine. It can be downloaded from &lt;a href="http://www.msdn.microsoft.com/downloads/default.asp?url=/downloads/sample.asp?url=/msdn-files/027/001/817/msdncompositedoc.xml" target="_blank"&gt;
+								http://www.msdn.microsoft.com&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;
+							Go to EPiServers Admin-mode and open the page type definition for Mobile page&lt;/li&gt;
+						&lt;ul&gt;
+							&lt;li&gt;
+								Enter Settings for this page type.
+							&lt;/li&gt;
+							&lt;li&gt;
+								Change "Filename" to point to templates/Mobile.aspx instead of 
+								templates/MobileInfo.aspx
+							&lt;/li&gt;
+							&lt;li&gt;
+								Save changes.
+							&lt;/li&gt;
+						&lt;/ul&gt;
+						&lt;li&gt;
+							Add a reference to System.Web.Mobile (installed with the Mobile Internet 
+							Toolkit) to your EPiServer devlopment project.&lt;/li&gt;
+						&lt;li&gt;
+							Include the file /templates/Mobile.aspx in your EPiServer development project.&lt;/li&gt;
+						&lt;li&gt;
+							Recompile your EPiServer project.&lt;/li&gt;
+					&lt;/ul&gt;
+				</maininfo>
+			</mobileinfo>
+			<profile>
+				<image>						Kuva</image>
+				<profile>					Profiili</profile>
+				<department>				Osasto</department>
+			</profile>
+			<profilefinder>											
+				<limitamountofhits>			Rajoita tulosten määrää</limitamountofhits>
+				<myprofile>					Oma profiili</myprofile>
+				<backtosearch>				Takaisin hakuun</backtosearch>
+				<showdetailedlist>			Näytä yksityiskohtainen luettelo</showdetailedlist>
+			</profilefinder>
+			<emailpage>
+				<to>						Kohteeseen</to>
+				<from>						Kohteesta</from>
+				<subject>					Aihe</subject>
+				<other>						Muuta</other>
+				<send>						Lähetä</send>
+			</emailpage>
+			<common>
+				<printpage>					Tulosta sivu</printpage>
+				<emailpage>					Kerro tästä sivusta muille</emailpage>
+				<sitemap>					Näytä sivuston sisältörakenne</sitemap>
+				<register>					Rekisteröidy</register>
+				<editdetails>				Omien tietojen muuttaminen</editdetails>
+				<login>						Kirjaudu sisään</login>
+				<logout>					Kirjaudu ulos</logout>
+				<numberofhits>				Tulosten määrä</numberofhits>
+				<pagehaschildren>Sivuun liittyy alisivuja.</pagehaschildren>
+				<startpage>				Aloitussivu</startpage>
+				<changelanguage>Muuta kieleksi {0}</changelanguage>
+			</common>
+			<portal>
+				<back>						Takaisin</back>
+				<reloadportal>				Lataa portaalin aloitussivu uudelleen</reloadportal>
+				<opensettingsheader>		Asetukset</opensettingsheader>
+				<opensettingstooltip>		Avaa portaaliasetukset</opensettingstooltip>
+				<actionrequiresauthentication>Tämä toimi edellyttää sisäänkirjausta</actionrequiresauthentication>
+				<mysettingprefix>			Omat asetukset </mysettingprefix>
+				<myportalsettings>			Omat portaaliasetukset</myportalsettings>
+				<saveresizesettingstooltip> Tallenna korkeus- ja leveysasetukset</saveresizesettingstooltip>
+				<saveresizesettingsheader>	Tallenna</saveresizesettingsheader>
+				<resetsettings>				Palauta perusasetukset</resetsettings>
+				<selectedframework>			Valittu kehys</selectedframework>
+				<advancedframework>			Kehittynyt kehys</advancedframework>
+				<simpleframework>			Yksinkertainen kehys</simpleframework>
+				<parts>						Portaalin osat</parts>
+				<expandregion>				Laajenna</expandregion>
+				<minimizeregion>			Pienennä</minimizeregion>
+				<restoreregion>				Palauta koko</restoreregion>
+				<refreshregion>				Lataa uudelleen</refreshregion>
+				<regionsettings>			Avaa asetukset</regionsettings>
+			</portal>
+			<filelisting>
+				<rootpatherror>				Päätason hakemistoa ei ole määritetty</rootpatherror>
+				<sortordername>				Nimi</sortordername>
+				<sortorderdatecreated>		Luotu</sortorderdatecreated>
+				<sortorderdatelastaccessed>	Edellinen käyttökerta</sortorderdatelastaccessed>
+				<sortorderdatelastmodified>	Viimeksi tallennettu</sortorderdatelastmodified>
+				<sortordertype>				Tiedostotyyppi</sortordertype>
+				<sortordersize>				Koko</sortordersize>
+				<sortordernone>				</sortordernone>
+				<sortordernamedesc>				Nimi laskeva</sortordernamedesc>
+				<sortorderdatecreateddesc>		Luotu laskeva</sortorderdatecreateddesc>
+				<sortorderdatelastaccesseddesc>	Viimeksi käytetty laskeva</sortorderdatelastaccesseddesc>
+				<sortorderdatelastmodifieddesc>	Viimeksi tallennettu laskeva</sortorderdatelastmodifieddesc>
+				<sortordertypedesc>				Tiedostotyyppi laskeva</sortordertypedesc>
+				<sortordersizedesc>				Tiedoston koko laskeva</sortordersizedesc>
+			</filelisting>
+			<xform>
+				<postedmessage>Kiitos vastauksestasi</postedmessage>
+				<requirelogon>Sinun on kirjauduttava sisään, ennen kuin voit vastata.</requirelogon>
+				<denymultipleposts>Olet jo täyttänyt tämän lomakkeen.</denymultipleposts>
+				<fieldisrequired>Ole hyvä ja määritä "{0}"</fieldisrequired>
+				<requiredfields>Kaikkia pakollisia tietoja ei ole määritetty (merkitty *)</requiredfields>
+				<errorpostingtodatabase>Lomaketta ei voitu lähettää.</errorpostingtodatabase>
+				<errorpostingtoemail>Lomaketta ei voitu lähettää.</errorpostingtoemail>
+				<errorpostingtocustomurl>Lomaketta ei voitu lähettää.</errorpostingtocustomurl>
+			</xform>
+			<workroom>
+				<common>
+					<active>Aktivoi</active>
+					<captionsingle>Työhuone</captionsingle>
+					<captionmany>Työhuoneet</captionmany>
+					<changed see="/workflow/reportmail/changed"/>
+					<createnew>Luo uusi työhuone</createnew>
+					<name see="/workflow/reportmail/taskname"/>
+					<owner see="/workflow/reportmail/owner"/>
+					<showonlyactive>Näytä vain aktiiviset työhuoneet</showonlyactive>
+				</common>
+				<members>
+					<activemembers>Aktiiviset jäsenet</activemembers>
+					<addmember>Lisää jäsenet</addmember>
+					<addmembercaption>Lisää jäsen</addmembercaption>
+					<activemembercaption>Peruuta</activemembercaption>
+					<removemembercaption>Poista</removemembercaption>
+					<searchbuttoncaption>Etsi</searchbuttoncaption>
+					<searchdescription>Etsi käyttäjä</searchdescription>
+					<canceleditcaption>Peruuta</canceleditcaption>
+					<memberstatusheader>Jäsenen tila</memberstatusheader>
+					<editmembercaption>Muokkaa</editmembercaption>
+				</members>
+				<memberstatus>
+					<guest>Vieras</guest>
+					<administrator>Järjestelmänhallitsija</administrator>
+					<user>Käyttäjä</user>
+					<none>Ei jäsen</none>
+				</memberstatus>				
+				<plugins>
+					<overview>
+						<displayname>Yleiskatsaus</displayname>
+					</overview>
+					<bulletinboard>
+						<displayname>Ilmoitustaulu</displayname>
+					</bulletinboard>
+					<calendar>
+						<displayname>Kalenteri</displayname>
+						<newentry>Uusi kalenterimerkintä</newentry>
+						<editentry>Muokkaa kalenterimerkintää</editentry>
+						<subject>Aihe</subject>
+						<starttime>Alkamisaika</starttime>
+						<endtime>Päättymisaika</endtime>
+						<startdategreaterthanenddate>Virheellisiä päivämääriä: "{0}" ei voi olla myöhempi päivämäärä kuin "{1}"</startdategreaterthanenddate>
+					</calendar>
+					<document>
+						<displayname>Dokumentti</displayname>
+					</document>
+					<forum>
+						<displayname>Keskustelufoorumi</displayname>
+					</forum>
+					<members>
+						<displayname>Jäsenet</displayname>
+					</members>
+					<news>
+						<displayname>Uutiset</displayname>
+						<newentry>Luo uusi</newentry>
+						<title>Otsikko</title>
+						<mainintro>Esittely</mainintro>
+						<mainbody>Runko</mainbody>
+					</news>
+					<settings>
+						<displayname>Asetukset</displayname>
+						<active>on aktiivinen</active>
+					</settings>
+				</plugins>
+				<unabletocreateworkroom>Työtilaa ei voi luoda: </unabletocreateworkroom>
+				<unabletofindworkroomtemplates>Työtilan mallipohjia ei löydy</unabletofindworkroomtemplates>
+				<invalidworkroompage>Sivu ei ole sallittu työtilan sivu</invalidworkroompage>
+				<invalidpageinstance>Työtilan mallipohja vaatii sallitun sivun instanssin</invalidpageinstance>
+				<invalidrootdir>Asiakirjan juurihakemistoa ei voi käyttää</invalidrootdir>
+				<undefinedrootdir>Asiakirjan juurihakemistoa ei ole määritetty</undefinedrootdir>
+			</workroom>
+			<logservice>
+				<lastusers>
+					<heading>5 viimeistä aktiivista kävijää</heading>
+					<totalusers>Sivustossa on parhaillaan {0} vierailijaa.</totalusers>
+					<noconnection>Yhteyttä kirjauspalveluun ei voitu muodostaa.</noconnection>
+				</lastusers> 
+				<pagehits>
+					<heading>Sivut, joilla on vierailtu eniten</heading>
+					<totalpagehits>Tällä hetkellä näytetään {0} sivua minuutissa.</totalpagehits>
+					<noconnection>Yhteyttä kirjauspalveluun ei voitu muodostaa.</noconnection>
+				</pagehits> 
+				<publishedpages>
+					<heading>5 viimeksi julkaistua sivua</heading>
+					<noconnection>Yhteyttä kirjauspalveluun ei voitu muodostaa.</noconnection>
+				</publishedpages> 
+				<notactive>Tilastoa ei ole otettu käyttöön sivustoa varten.</notactive>
+			</logservice>
+			<wsrp>
+				<common>
+					<configuration>Asetukset</configuration>
+				</common>
+				<infoservicecontrol>
+					<selecttitle>Valitse otsikko: </selecttitle>
+					<selectwidth>Luettelon leveys suurennetussa tai soolotilassa (pikseliä): </selectwidth>
+					<selectsinglepage>Näytä yksittäinen sivu normaalissa tilassa: </selectsinglepage>
+					<selectchannel>Valitse tietokanava: </selectchannel>
+					<save>Tallenna</save>
+				</infoservicecontrol>
+				<newscontrol>
+					<selecttitle>Valitse otsikko: </selecttitle>
+					<selectchannels>Valitse uutiskanavat: </selectchannels>
+					<selectnoofitems>Rivien määrä: </selectnoofitems>
+					<selectchannels>Valitse tietokanava: </selectchannels>
+					<save>Tallenna</save>
+				</newscontrol>
+				<usersettingscontrol>
+					<selecttitle>Valitse otsikko: </selecttitle>
+					<save>Tallenna</save>
+				</usersettingscontrol>
+				<iframecontrol>
+					<selecttitle>Valitse otsikko: </selecttitle>
+					<selecturl>Valitse URL-osoite: </selecturl>
+					<selectheight>Valitse korkeus (pikseliä): </selectheight>
+					<save>Tallenna</save>
+				</iframecontrol>
+				<rsscontrol>
+					<selecttitle>Valitse otsikko: </selecttitle>
+					<selecturl>Valitse URL-osoite: </selecturl>
+					<selectnoofitems>Rivien määrä: </selectnoofitems>
+					<save>Tallenna</save>
+				</rsscontrol>
+			</wsrp>
+			<wsrpadmin>
+				<heading>WSRP-lähteet</heading>
+				<info>Määritä WSRP-lähteet, joiden tulisi olla käytettävissä</info>
+			</wsrpadmin>
+			<wsrpfx>
+				<admin>
+					<test>Testaa</test>
+					<delete>Poista</delete>
+					<createnew>Uusi</createnew>
+					<sourcename>Nimi</sourcename>
+					<markupurl>Markup-URL-osoite</markupurl>
+					<servicedescriptionurl>Palvelukuvauksen URL-osoite</servicedescriptionurl>
+					<registrationurl>Rekisteröinnin URL-osoite</registrationurl>
+					<portletmanagementurl>Portlet-ohjelman hallinnan URL-osoite</portletmanagementurl>
+					<offeredportletstitle>Seuraavat tämän tuottajan portlet-ohjelmat ovat käytettävissä</offeredportletstitle>
+					<messages>
+						<producerinvalid>Tuottaja {0} ei vastannut odotetulla tavalla</producerinvalid>
+						<producerok>Tuottaja {0} vastasi odotetulla tavalla</producerok>
+					</messages>
+					<usewsdlradio>Rekisteröi WSDL</usewsdlradio>
+					<wsdlurl>WSDL</wsdlurl>
+					<useservicesradio>Rekisteröi Web-palvelut</useservicesradio>
+				</admin>
+				<portal>
+					<home>Aloitussivu</home>
+					<resetportal>Nollaa omat asetukset</resetportal>
+					<displaymode>Näyttötila</displaymode>
+					<viewmode>
+						<view>Yksi sivu</view>
+						<viewanduse>Portaali-sivu</viewanduse>
+						<design>Suunnittelu</design>
+					</viewmode>
+					<newtab>Uusi välilehti</newtab>
+					<deletetab>Poista välilehti</deletetab>
+					<savesource>Tallenna mallina</savesource>
+					<tabname>Välilehden nimi</tabname>
+					<disposition>Asettelu</disposition>
+					<savetabsettings>Muuta</savetabsettings>
+					<selectedportlet>Portlet-ohjelma</selectedportlet>
+					<selectedarea>Alue</selectedarea>
+					<addportlet>Lisää</addportlet>
+					<errorlayoutcontrolls>Ongelma haettaessa asettelun hallintaa portaalin asiakasta varten.</errorlayoutcontrolls>
+				</portal>
+				<layouts>
+					<wsrpsinglecolumnlayout>
+						<layoutname>Yksi sarake</layoutname>
+					</wsrpsinglecolumnlayout>
+					<wsrpthreecolumnlayout>
+						<layoutname>Kolme saraketta</layoutname>
+					</wsrpthreecolumnlayout>
+				</layouts>
+				<button>
+					<view>Näytä</view>
+					<edit>Muokkaa</edit>
+					<preview>Esikatsele</preview>
+					<help>Ohje</help>
+					<minimized>Pienennä</minimized>
+					<normal>Palauta</normal>
+					<maximized>Suurenna</maximized>
+					<solo>Solo</solo>
+				</button>
+			</wsrpfx>
+			<readspeaker>
+				<readme>Lue</readme>
+				<readmealttext>Lue valittu teksti / valitun sivun teksti</readmealttext>
+			</readspeaker>
+			<webparts>
+				<portal>
+					<displaymode>Näyttötila</displaymode>
+					<scope>Laajuus</scope>
+					<leftzone>Vasen sarake</leftzone>
+					<rightzone>Oikea sarake</rightzone>
+					<catalogzone>Web-osan luettelot</catalogzone>
+					<editorzone>Muuta Web-osaa</editorzone>
+					<connectionzone>Yhdistä Web-osat</connectionzone>
+					<importzone>Tuo Web-osat</importzone>
+				</portal>
+        <units>
+          <rsscontrol>
+            <emptyurl>URL ei voi olla tyhjä.</emptyurl>
+          </rsscontrol>
+        </units>
+			</webparts>
+			<blog>
+				<createnewblog>Luo uusi blogi</createnewblog>
+				<name>Nimi:</name>
+				<createblog>Luo blogi</createblog>
+				<archive>Arkistot</archive>
+				<noarchiveentries>Tälle blogille ei ole kirjoituksia.</noarchiveentries>
+				<rsssource>RSS-lähde</rsssource>
+				<postcomment>Lähetä huomautus</postcomment>
+				<comments>Huomautukset</comments>
+				<title>Otsikko:</title>
+				<createnewpost>Luo uusi kirjoitus</createnewpost>
+				<post>Kirjoitus</post>
+				<date>Päivämäärä</date>
+				<changestatus>Muuta tila</changestatus>
+			</blog>
+		</templates>
+		<common>
+			<headerimagedescription>Sivun pääkuva, jossa on EPiServer-logo</headerimagedescription>
+		</common>
+		<pagetypes>
+			<common>
+				<property name="DefaultLanguage">
+					<caption>Vakiokieli</caption>
+					<help>Sivulla käytettävä kieli, jos valitun kielistä versiota ei ole.</help>
+				</property>
+				<property name="AudioFormat">
+					<caption>Äänimuoto</caption>
+					<help>Anna äänimuoto. Kirjoita mp3-tiedostoja varten 2 ja wav-tiedostoja varten 3.</help>
+				</property> 
+				<property name="ReadspeakerLanguage">
+					<caption>Luettaessa käytettävä kieli</caption>
+					<help>Määritä luettaessa käytettävä kieli.</help>
+				</property> 
+				<property name="AllowInPortal">
+					<caption>	Käytä tätä sivua portaalissa</caption>
+					<help>		Valitse tämä vaihtoehto, jos haluat, että sivu voidaan näyttää portaalitilassa.</help>
+				</property>
+				<property name="PersonalizableProperties">
+					<caption>	Ominaisuudet, joita kaikki portaalin käyttäjät voivat muuttaa </caption>
+					<help>		Valitse vaihtoehdot, joita voidaan mukauttaa tässä portaalin osassa.</help>
+				</property>
+				<property name="WebBaseURL">
+					<caption>	Näytettävän hakemiston polku</caption>
+					<help>		Määritä sen hakemiston osoite, jonka sisältö näytetään luettelossa.</help>
+				</property>
+				<property name="SortFileBy">
+					<caption>	Luettelon lajitteluperuste</caption>
+					<help>		Valitse, kuinka luettelo lajitellaan.</help>
+				</property>
+     			<property name="FirstName">
+					<caption>	Etunimi</caption>
+					<help>		Kirjoita tämän profiilin etunimi.</help>
+				</property>
+    			<property name="LastName">
+					<caption>	Sukunimi</caption>
+					<help>		Kirjoita tämän profiilin sukunimi.</help>
+				</property>¨
+				<property name="Email">
+					<caption>	Sähköpostiosoite</caption>
+					<help>		Kirjoita tämän profiilin sähköpostiosoite.</help>
+				</property>
+				<property name="Company">
+					<caption>	Yritys</caption>
+					<help>		Kirjoita tämän profiilin yrityksen nimi.</help>
+				</property>
+     			<property name="Sid">
+					<caption>	Käyttäjänimi</caption>
+					<help>		Kirjoita tähän profiiliin liittyvä käyttäjä- tai kirjautumisnimi.</help>
+				</property>
+				<property name="Profile">
+					<caption>	Profiili</caption>
+					<help>		Kirjoita tämän profiilin osaamisalue. </help>
+				</property>
+				<property name="Title">
+					<caption>	Ammatti</caption>
+					<help>		Kirjoita tämän profiilin ammatti.</help>
+				</property>
+				<property name="AddedPropDepartment">
+					<caption>	Osasto</caption>
+					<help>		Kirjoita tämän profiilin osasto.</help>
+				</property>
+				<property name="Image">
+					<caption>	Kuva</caption>
+					<help>		Määritä tähän profiiliin liittyvä kuva.</help>
+				</property>
+				<property name="Telephone">
+					<caption>	Puhelin</caption>
+					<help>		Määritä tähän profiiliin liittyvä puhelinnumero.</help>
+				</property>
+     
+    				<property name="ExternalURL">
+					<caption>	Ulkoisen linkin polku</caption>
+					<help>		Kirjoita sen Internet-sivuston osoite, johon haluat muodostaa linkin. Osoitteen on sisällettävä merkkijono "http://".</help>
+				</property>
+ 				<property name="ListingSlideContainer">
+					<caption>	Nouda kuvaesitys kohteesta</caption>
+					<help>		Valitse sivu, jolta kuvaesitys noudetaan.</help>
+				</property>
+				<property name="ListingSlideCount">
+					<caption>	Näytä kuvaesityksen sivujen määrä</caption>
+					<help>		Määritä kokonaislukuna, kuinka monta sivua kuvaesityksessä on.</help>
+				</property>
+				<property name="RefreshRate">
+					<caption>	Sivun näyttämisaika sekunteina</caption>
+					<help>		Määritä kokonaislukuna, kuinka monta sekuntia kuvaesityksen sivut näkyvät.</help>
+				</property>
+				<property name="RssUrl">
+					<caption>	RSS-lähteen polku</caption>
+					<help>		Määritä RSS-muotoisten uutisten osoite. Osoite on tavallisesti Internet-osoite.</help>
+				</property>
+				<property name="RssHeading">
+					<caption>	Heading for RSS source</caption>
+					<help>		Specify a heading to news in RSS format.</help>
+				</property>
+				<property name="PagingSize">
+					<caption>	Näytä RSS-luettelon uutisten määrä</caption>
+					<help>		Määritä kokonaislukuna, kuinka monta uutista luettelossa näytetään.</help>
+				</property>
+				<property name="OnlyShowHeaders">
+					<caption>	Näytä RSS-luettelossa vain otsikot</caption>
+					<help>		Jos valitset tämän vaihtoehdon, luettelossa näytetään vain RSS-uutisten otsikot.</help>
+				</property>
+				<property name="ExchangeServer">
+					<caption>	Exchange-palvelin</caption>
+					<help>		Kirjoita Exchange-palvelimen nimi.</help>
+				</property>
+				<property name="ExchangeUser">
+					<caption>	Käyttäjänimi</caption>
+					<help>		Kirjoita näytettävän Exchange-hakemiston käyttäjänimi.</help>
+				</property>
+				<property name="ExchangeAction">
+					<caption>	Näytä Exchange-näkymä</caption>
+					<help>		Kirjoita näytettävän Exchange-näkymän nimi, esimerkiksi saapuneet-kansio tai kalenteri.</help>
+				</property>
+				<property name="AdvancedPortalModeLeftTopContent">
+					<caption>	Sisällytä vasempaan yläalueeseen</caption>
+					<help>		Valitse sivu, joka näkyy oletusarvoisesti vasemmalla yläalueella.</help>
+				</property>
+				<property name="AdvancedPortalModeLeftBottomContent">
+					<caption>	Sisällytä vasempaan ala-alueeseen</caption>
+					<help>		Valitse sivu, joka näkyy oletusarvoisesti vasemmalla ala-alueella.</help>
+				</property>
+				<property name="AdvancedPortalModeMainContent">
+					<caption>	Sisällytä pääalueeseen</caption>
+					<help>		Valitse sivu, joka näkyy oletusarvoisesti pääalueella.</help>
+				</property>
+				<property name="AdvancedPortalModeRightTopContent">
+					<caption>	Sisällytä oikeanpuoleiseen yläalueeseen</caption>
+					<help>		Valitse sivu, joka näkyy oletusarvoisesti oikeanpuoleisella yläalueella.</help>
+				</property>
+				<property name="AdvancedPortalModeRightCenterContent">
+					<caption>	Sisällytä oikeanpuoleiseen keskialueeseen</caption>
+					<help>		Valitse sivu, joka näkyy oletusarvoisesti oikeanpuoleisella keskialueella.</help>
+				</property>
+				<property name="AdvancedPortalModeRightBottomContent">
+					<caption>	Sisällytä oikeanpuoleiseen ala-alueeseen</caption>
+					<help>		Valitse sivu, joka näkyy oletusarvoisesti oikeanpuoleisella ala-alueella.</help>
+				</property>
+				<property name="SimplePortalModeMainContent">
+					<caption>	Sisällytä pääalueeseen</caption>
+					<help>		Valitse sivu, joka näkyy oletusarvoisesti pääalueella.</help>
+				</property>
+				<property name="SimplePortalModeRightTopContent">
+					<caption>	Sisällytä oikeanpuoleiseen yläalueeseen</caption>
+					<help>		Valitse sivu, joka näkyy oletusarvoisesti oikeanpuoleisella yläalueella.</help>
+				</property>
+				<property name="SimplePortalModeRightMiddleContent">
+					<caption>	Sisällytä oikeanpuoleiseen keskialueeseen</caption>
+					<help>		Valitse sivu, joka näkyy oletusarvoisesti oikeanpuoleisella keskialueella.</help>
+				</property>
+				<property name="SimplePortalModeRightBottomContent">
+					<caption>	Sisällytä oikeanpuoleiseen ala-alueeseen</caption>
+					<help>		Valitse sivu, joka näkyy oletusarvoisesti oikeanpuoleisella ala-alueella.</help>
+				</property>
+				<property name="NewsCount">
+					<caption>	Näytä luettelon uutisten määrä</caption>
+					<help>		Määritä kokonaislukuna, kuinka monta uutista näytetään.</help>
+				</property>
+				<property name="EventsContainer">
+					<caption>	Nouda kalenteritapahtuma kohteesta</caption>
+					<help>		Valitse sivu, jolta kalenteritapahtumat noudetaan.</help>
+				</property>
+				<property name="EventsCount">
+					<caption>	Näytä luettelon kalenteritapahtumien määrä</caption>
+					<help>		Määritä kokonaislukuna, kuinka monta tapahtumaa näytetään.</help>
+				</property>
+				<property name="MainImage">
+					<caption>	Aloitussivun pääkuva</caption>
+					<help>		Määritä aloitussivulla näkyvä kuva.</help>
+				</property>
+				<property name="MainNewsItem">
+					<caption>	Main news</caption>
+					<help>		Specify the main news for the start page</help>
+				</property>
+				<property name="HeaderImage">
+					<caption>	Sivuston ylin kuva</caption>
+					<help>		Määritä sivuston pääkuvana näkyvä kuva.</help>
+				</property>
+				<property name="EPsPortalRegionName">
+					<caption>	Nimi</caption>
+					<help>		Alueen nimi.</help>
+				</property>
+				<property name="EPsPortalRegionColor">
+					<caption>	Väri</caption>
+					<help>		Alueen väri.</help>
+				</property>
+				<property name="EPsPortalRegionRefreshRate">
+					<caption>	Päivitysnopeus</caption>
+					<help>		Määritä minuutteina, kuinka usein tämä portaalin osa päivitetään. Nolla merkitsee, että portaalin osaa ei ladata uudelleen automaattisesti. Tämä on oletusarvo.</help>
+				</property>
+				<property name="NewsContainer">
+					<caption>Uutisluettelo</caption>
+					<help>Valitse sivu josta uutiset haetaan</help>
+				</property>	
+				<property name="EmbeddedURL">
+					<caption>Flash-filmin hakutie</caption>
+					<help>Määritä hakutie Flash-filmille, paina nappia ja valitse tiedosto</help>
+				</property>
+					<property name="Height">
+					<caption>Korkeus</caption>
+					<help>Flash-filmin korkeus</help>
+				</property>
+				<property name="Width">
+					<caption>Leveys</caption>
+					<help>Flash-filmin leveys</help>
+				</property>
+				<property name="StartPublishOffset">
+					<caption>	Julkaisun aloituspäivämäärä sivun luontiajankohdan mukaan</caption>
+					<help>		Määritä julkaisupäivämäärä sivun luontipäivämäärän mukaan</help>
+				</property>
+				<property name="StopPublishOffset">
+					<caption>	Julkaisun lopetuspäivämäärä sivun luontiajankohdan mukaan</caption>
+					<help>		Määritä julkaisupäivämäärä sivun luontipäivämäärän mukaan</help>
+				</property>
+				<property name="MainContainer">
+					<caption>		Haun aloitussivu</caption>
+					<help>			Jos kenttä jätetään tyhjäksi haku alkaa aloitussivulta</help>
+				</property>
+				<property name="RightListingContainer">
+ 					<caption>Luettelo oikealla</caption>
+ 					<help>Määrittää aloituspisteen apusivuille jotka näkyvät oikeanpuolisessa luettelossa.</help>
+				</property>
+				<property name="EnableStatistics">
+					<caption>Näytä sivumallin tilastotiedot sivumallissa.</caption>
+				<help>Näyttää käyttäjälle tuloksen postitetuista tiedoista</help>
+				</property>
+				<property name="MainBody">
+					<caption>	Editori</caption>
+					<help>		Sivusi sisältö. Täällä voit kirjoittaa tekstiä tai lisätä kuvia, asiakirjan, taulukoita ym.</help>
+				</property>
+				<property name="ListingContainer">
+					<caption>Hae luettelo sivulta</caption>
+					<help>Määritä sivu, jolta haluat hakea luettelon</help>
+				</property>
+				<property name="ListingCount">
+					<caption>Näytä luettelon sivumäärä</caption>
+					<help>Määritä kokonaislukua käyttäen, montako sivua luettelossa näytetään</help>
+				</property>
+				<property name="ListingType">
+					<caption>Luettelon sivutyyppi</caption>
+					<help>Määritä, mikä sivutyyppi luettelossa näytetään</help>
+				</property>
+				<property name="ListingCategoryList">
+					<caption>Näytä seuraavat luokat</caption>
+					<help>Määritä, mitkä luokat tällä sivulla näytetään</help>
+				</property>
+				<property name="EPSUBSCRIBE">
+					<caption>Aktivoi tilauksen juureksi</caption>
+					<help>Valitse tämä valintaruutu, jotta kävijät voivat tilata tämän sivun ja sen alasivut.</help>
+				</property>
+				<property name="WriterName">
+					<caption>	Kirjoittaja</caption>
+					<help>		Sisällöstä vastaavan henkilön nimi</help>
+				</property>
+				<property name="MailTo">
+					<caption>Vastaanottajan sähköpostiosoite</caption>
+					<help>Tiedot vastaanottavan henkilön sähköpostiosoite</help>
+				</property>
+				<property name="MainIntro">
+					<caption>Johdanto</caption>
+					<help>Johdantoteksti, joka näytetään yleensä luetteloissa</help>
+				</property>
+				<property name="MainBodyLoggedIn">
+					<caption>Editori sisäänkirjautuneille käyttäjille</caption>
+					<help>Kuvaus siitä, mitä sisäänkirjautunut käyttäjä voi tehdä</help>
+				</property>
+				<property name="MainScope">
+					<caption>IndexServer-haun kohdentaminen</caption>
+					<help>Määritä hakemisto, josta haku tapahtuu. Jos jätät kentän tyhjäksi, haku suoritetaan Upload-hakemistosta</help>
+				</property>
+				<property name="MainCatalog">
+					<caption>Index Serverin hakemisto</caption>
+					<help>Määritä hakemisto, joka ilmoitettiin Index Serverissä</help>
+				</property>
+				<property name="RecentContainer">
+					<caption>Näytä sivut kohteesta</caption>
+					<help>Määritä, mistä kohteesta äskettäin muutetut sivut näytetään</help>
+				</property>
+				<property name="RecentHours">
+					<caption>Näytä viimeisten x tunnin aikana muutetut sivut</caption>
+					<help>Määritä kokonaislukua käyttäen, kuinka monta tuntia sitten muutettuja sivuja haluat näyttää</help>
+				</property>
+				<property name="IndexContainer">
+					<caption>Näytä sisältö sivulta</caption>
+					<help>Määritä, miltä sivulta sisältökuvaus aloitetaan  </help>
+				</property>
+				<property name="IndexLevel">
+					<caption>Näytä sisältökuvaus ja alatasojen lukumäärä</caption>
+					<help>Määritä kokonaislukua käyttäen, montako alatasoa sisältökuvauksessa näytetään</help>
+				</property>
+				<property name="IndexColumns">
+					<caption>Sisältökuvauksen sarakkeiden lukumäärä</caption>
+					<help>Määritä kokonaislukua käyttäen, montako saraketta sisältökuvauksessa näytetään</help>
+				</property>
+				<property name="MailFrom">
+					<caption>Vastaanottajan sähköpostiosoite</caption>
+					<help>Lomakkeet vastaanottavan henkilön sähköpostiosoite</help>
+				</property>
+				<property name="MainForm">
+					<caption>Lomake</caption>
+					<help>Määritä, mikä lomake sivulla näytetään. Painiketta napsauttamalla voit luoda oman lomakkeen</help>
+				</property>
+				<property name="EPSUBSCRIBEHIDDEN">
+					<caption>Älä näytä tilaussivua</caption>
+					<help>Valitsemalla tämän vaihtoehdon sallit että käyttäjät saavat tilata tämän sivun yleiseltä tilaussivulta</help>
+				</property>
+				<property name="NewsGroupRoot">
+					<caption>Uutisryhmien pääsivu</caption>
+					<help>Määritä, mitä sivua käytetään uutisryhmän pääsivuna</help>
+				</property>
+				<property name="NewsGroupPageTypeID">
+					<caption>Liitteen sivutyyppi</caption>
+					<help>Määritä, mitä sivutyyppiä liitteessä käytetään</help>
+				</property>
+				<property name="AllowNewsItem">
+					<caption>Salli liitteet</caption>
+					<help>Valitsemalla tämän vaihtoehdon sallit palautteiden kirjoittamisen ryhmässä</help>
+				</property>
+				<property name="WriterEmail">
+					<caption>Sähköpostiosoite</caption>
+					<help>Liitteen luoneen henkilön sähköpostiosoite</help>
+				</property>
+				<property name="NewsGroupContainer">
+					<caption>Kuuluu seuraavaan uutisryhmään</caption>
+					<help>Määritä, mihin uutisryhmään tämä liite kuuluu</help>
+				</property>
+				<property name="MainMenuContainer">
+					<caption>Näytä valikot kohteesta</caption>
+					<help>Määritä valikkopuun sivu, josta haluat näyttää valikot valitulla sivulla</help>
+				</property>
+				<property name="MainSearchPage">
+					<caption>Yleinen hakusivu</caption>
+					<help>Määritä WWW-sivuston yleinen hakusivu</help>
+				</property>
+				<property name="MetaDescription">
+					<caption>Sivunselostus</caption>
+					<help>Syötä lyhyt selostus sivun sisällöstä</help>
+				</property>
+				<property name="MetaKeywords">
+					<caption>Sivujen vakiohakusana</caption>
+					<help>Luetteloi pilkulla erottaen hakusanat, jotka vastaavat tätä sivua</help>
+				</property>
+				<property name="EventInputGuide">
+					<caption>Toistuva tehtävä</caption>
+					<help>Luo toistuva tehtävä valitsemalla tämä vaihtoehto</help>
+				</property>
+				<property name="EventStartDate">
+					<caption>Alkamisaika</caption>
+					<help>Määritä tehtävän alkamisaika</help>
+				</property>
+				<property name="EventStopDate">
+					<caption>Päättymisaika</caption>
+					<help>Määritä tehtävän päättymisaika</help>
+				</property>
+				<property name="ValidDays">
+					<caption>Toistuvuus</caption>
+					<help>Määritä päivä jolloin tehtävä toistuu tasaisin aikajaksoin</help>					
+				</property>
+				<property name="nDaysToRender">
+					<caption>Näytä päivien lukumäärä alkaen</caption>
+					<help></help>
+				</property>
+				<property name="CalendarType">
+					<caption>Kalenterissa näytettävien sivujen tyyppi</caption>
+					<help></help>
+				</property>
+				<property name="CalendarContainer">
+					<caption>Näytä kalenteri alkaen</caption>
+					<help></help>
+				</property>
+				<property name="Box1Caption">
+					<caption>1. Nimi</caption>
+				</property>
+				<property name="Box1Container">
+					<caption>1. Hae luettelo sivulta</caption>
+					<help>Määritä sivu, jolta haluat hakea luettelon</help>
+				</property>
+				<property name="Box1Count">
+					<caption>1. Näytä luettelon sivumäärä</caption>
+					<help>Määritä kokonaislukua käyttäen, montako sivua luettelossa näytetään</help>
+				</property>
+				<property name="Box1SortOrder">
+					<caption>1. Lajittelujärjestys</caption>
+					<help>Määrittää, missä järjestyksessä tämän sivun alasivut näytetään</help>
+				</property>
+				<property name="Box2Caption">
+					<caption>2. Nimi</caption>
+				</property>
+				<property name="Box2Container">
+					<caption>2. Hae luettelo sivulta</caption>
+					<help>Määritä sivu, jolta haluat hakea luettelon</help>
+				</property>
+				<property name="Box2Count">
+					<caption>2. Näytä luettelon sivumäärä</caption>
+					<help>Määritä kokonaislukua käyttäen, montako sivua luettelossa näytetään</help>
+				</property>
+				<property name="Box2SortOrder">
+					<caption>2. Lajittelujärjestys</caption>
+					<help>Määrittää, missä järjestyksessä tämän sivun alasivut näytetään</help>
+				</property>
+				<property name="MailSubject">
+					<caption>	Sähköpostiviestin aiherivi</caption>
+					<help>		Tähän kirjoitettu teksti näkyy lähetettävän viestin otsikkona. </help>
+				</property>
+				<property name="MailReadMore">
+					<caption>	Viestin sivustolinkkinä toimiva teksti</caption>
+					<help>		Tämä teksti on muuttuneiden ja tilaustoiminnon julkaisemien sivujen linkki. </help>
+				</property>
+				<property name="MailBody">
+					<caption>	Viestin teksti</caption>
+					<help>		Tämä teksti lähetetään kaikille tilaajille uuden tilaajaviestin johdantona. </help>
+				</property>
+				<property name="EPSUBSCRIBE-ROOT">
+					<caption>	Tilausotos</caption>
+					<help>		Kertoo, mistä kohdasta alkaen tämä tilaussivu etsii uusia ja muuttuneita sivuja. </help>
+				</property>
+				<property name="ConferenceContainer">
+					<caption>Kokouksen aloitussivu</caption>
+					<help>Määritä, mitä sivua käytetään tämän keskustelupaikan aloitussivuna (usein tämä sivu)</help>
+				</property>
+				<property name="Sitemap">
+					<caption>Hae sivukartta sivulta</caption>
+					<help>Määritä sivu jota käytetään sivukarttana pikalinkeissä</help>
+				</property>
+				<property name="RegisterPage">
+					<caption>Hae pätevyystietokanta sivulta</caption>
+					<help>Määritä sivu jota käytetään pätevyystietokantana pikalinkeissä</help>
+				</property>
+								<property name="ProfileContainer">
+					<caption>Hae profiilit kohteesta</caption>
+					<help>Valitse valikkorakenteesta paikka, josta profiilit noudetaan. Tavallisesti tämä sivu.</help>
+				</property>
+				<property name="DisableName">
+					<caption>Piilota nimi</caption>
+					<help>Älä salli käyttäjän muuttavan nimeä</help>
+				</property>
+				<property name="DisableDescription">
+					<caption>Piilota kuvaus</caption>
+					<help>Älä salli käyttäjän muuttavan kuvausta</help>
+				</property>
+				<property name="DisableFirstname">
+					<caption>Piilota etunimi</caption>
+					<help>Älä salli käyttäjän muuttavan etunimeä</help>
+				</property>
+				<property name="DisableLastname">
+					<caption>Piilota sukunimi</caption>
+					<help>Älä salli käyttäjän muuttavan sukunimeä</help>
+				</property>
+				<property name="DisableEmail">
+					<caption>Piilota sähköpostiosoite</caption>
+					<help>Älä salli käyttäjän muuttavan sähköpostiosoitetta</help>
+				</property>
+				<property name="DisableCompany">
+					<caption>Piilota yritys</caption>
+					<help>Älä salli käyttäjän muuttavan yritystä</help>
+				</property>
+				<property name="DisableTitle">
+					<caption>Piilota tehtävänimike</caption>
+					<help>Älä salli käyttäjän muuttavan tehtävänimikettä</help>
+				</property>
+				<property name="DisableAddress">
+					<caption>Piilota osoite</caption>
+					<help>Älä salli käyttäjän muuttavan osoitetta</help>
+				</property>
+				<property name="DisablePostalNumber">
+					<caption>Piilota postinumero</caption>
+					<help>Älä salli käyttäjän muuttavan postinumeroa</help>
+				</property>
+				<property name="DisableTelephone">
+					<caption>Piilota puhelinnumero</caption>
+					<help>Älä salli käyttäjän muuttavan puhelinnumeroa</help>
+				</property>
+				<property name="DisableMobile">
+					<caption>Piilota matkapuhelinnumero</caption>
+					<help>Älä salli käyttäjän muuttavan matkapuhelinnumeroa</help>
+				</property>
+				<property name="DisableLanguage">
+					<caption>Piilota kieli</caption>
+					<help>Älä salli käyttäjän muuttavan kieltä</help>
+				</property>
+				<property name="DisablePassword">
+					<caption>Piilota salasana</caption>
+					<help>Älä salli käyttäjän muuttavan salasanaa</help>
+				</property>
+				<property name="DisablePostalAddress">
+					<caption>Piilota postiosoite</caption>
+					<help>Älä salli käyttäjän muuttavan postiosoitetta</help>
+				</property>
+				<property name="ProfilePageType">
+					<caption>Sivutyyppit jotka ovat näkyvissä kompetenssitietokannassa</caption>
+					<help>Valitse sivutyyppi jota käytetään henkilökohtaisena sivuna kompetenssitietokannassa</help>
+				</property>
+					<property name="DocumentInternalPath">
+					<caption>Asiakirjan polku</caption>
+					<help>Lähdeasiakirjan kopion suhteellinen polku. Tämä kenttä päivitetään automaattisesti.</help>
+				</property>
+				<property name="DocumentInternalHtmlPath">
+					<caption>HTML-version polku</caption>
+					<help>Täydellisen HTML-version suhteellinen polku. Tämä kenttä päivitetään automaattisesti.</help>
+				</property>
+				<property name="DocumentExternalPath">
+					<caption>Lähdeasiakirjan ulkoinen polku</caption>
+					<help>Sivua päivitettäessä käytettävän lähdeasiakirjan täydellinen polku. Tämä kenttä päivitetään automaattisesti.</help>
+				</property>
+				<property name="IsDocumentPageType">
+					<caption>Lataa täydellinen HTML-versio ja lähdeasiakirja</caption>
+					<help>Jos valitset tämän vaihtoehdon, täydellinen HTML-versio tulee näkyviin.</help>
+				</property>
+				<property name="AllowDocumentUpdate">
+					<caption>Salli sivun päivittäminen asiakirjasta</caption>
+					<help>Valitse tämä vaihtoehto, jos haluat, että asiakirjaan lisätään viite tälle sivulle.</help>
+				</property>
+				<property name="DisplayDownloadLink">
+					<caption>Näytä lähdeasiakirjan lataamislinkki</caption>
+					<help>Jos valitset tämän vaihtoehdon, luetteloon tulee linkki lähdeasiakirjaan.</help>
+				</property>
+				<property name="Document">
+					<caption>Asiakirjan polku</caption>
+					<help>Näytettävän PDF-tiedoston polku.</help>
+				</property>
+				<property name="RssHeading">
+					<caption>	RSS-lähteen otsikko</caption>
+					<help>		Määritä uutisten otsikko RSS-muodossa.</help>
+				</property>
+				<property name="MainNewsItem">
+					<caption>	Pääuutiset</caption>
+					<help>		Määritä aloitussivun pääuutiset</help>
+				</property>
+				<property name="InformationChannel">
+					<caption>Informaatiokanava</caption>
+					<help>Jos valittuna, Information Viewer -WSRP-portlet-ohjelma mahdollistaa puun tämän haaran valitsemisen.</help>
+				</property>
+				<property name="MainXForm">
+					<caption>Lomake</caption>
+					<help>Määrittää lomakkeen, joka näkyy tällä sivulla. Napsauttamalla painiketta voit luoda omia lomakkeita.</help>
+				</property>
+				<property name="WorkroomsConfigPage">
+					<caption>Hae mallipohja työtilaa varten kohteesta</caption>
+					<help>Määritä sivu, jota haluat käyttää mallipohjana, kun luot työtiloja.</help>
+				</property>
+				<property name="DocumentRootDirectory">
+					<caption>Asiakirjahallinnan kansio</caption>
+					<help>Määritä sen kansion hakupolku, johon haluat tallentaa työtilan asiakirjoja.</help>
+				</property> 
+				<property name="IsActiveWorkroom">
+					<caption>Työtila on aktiivinen</caption>
+					<help>Valitse tämä valintaruutu, jos haluat työtilan olevan aktiivinen.</help>
+				</property> 
+				<property name="BulletinBoardContainer">
+					<caption>Hae ilmoitustaulu kohteesta</caption>
+					<help>Määritä sivu, jonka haluat olevan ilmoitustaulun juurisivu.</help>
+				</property>
+				<property name="IsActiveCalendar">
+					<caption>Kalenteri on aktiivinen</caption>
+					<help>Valitse tämä valintaruutu, jos haluat kalenterin olevan aktiivinen.</help>
+				</property>
+				<property name="IsActiveBulletinBoard">
+					<caption>Ilmoitustaulu on aktiivinen</caption>
+					<help>Valitse tämä valintaruutu, jos haluat ilmoitustaulun olevan aktiivinen.</help>
+				</property>
+				<property name="IsActiveFileList">
+					<caption>Asiakirjanhallinta on aktiivinen</caption>
+					<help>Valitse tämä valintaruutu, jos haluat asiakirjanhallinnan olevan aktiivinen.</help>
+				</property>
+				<property name="IsActiveNewsList">
+					<caption>Uutisluettelo on aktiivinen</caption>
+					<help>Valitse tämä valintaruutu, jos haluat uutisluettelon olevan aktiivinen.</help>
+				</property>
+				<property name="IsActiveOverview">
+					<caption>Yleiskuvaus on aktiivinen</caption>
+					<help>Valitse tämä valintaruutu, jos haluat yleiskuvauksen olevan aktiivinen.</help>
+				</property>
+				<property name="MemberStatusInfo">
+					<caption>Jäsenen tilan tiedot</caption>
+					<help>Näyttää eri jäsenten tilojen tiedot.</help>
+				</property>
+				<property name="FileRoot">
+					<caption>Työtilan juurikansio</caption>
+					<help>Määritä kansio, johon työtilan alakansiot luodaan.</help>
+				</property>								
+				<property name="_wsrpCommonPortalInfo">
+					<caption>Portaalin yleiset tiedot</caption>
+					<help>Tietoa portaalin yleisistä tiedoista.</help>
+				</property>				
+				<property name="_wsrpLayoutControl">
+					<caption>Asettelun hallinta</caption>
+					<help>Asettelun hallinta, pilkuin erotettu.</help>
+				</property>	
+				<property name="EPSUBSCRIBE-EXCLUDE">
+					<caption>Estä tämän sivun tilaus</caption>
+					<help>Valitsemalla tämän valintaruudun voit estää tämän sivun tilauspäivitykset.</help>
+				</property>
+				<property name="BlogPostForm">
+					<caption>Lomake blogikirjoituksia varten</caption>
+					<help>Määritä lomake, jota käytetään tämän sivun blogikirjoituksia varten. Valitsemalla painikkeen voi luoda omat lomakkeet.</help>
+				</property>			
+				<property name="BlogCommentForm">
+					<caption>Lomake huomautuksia varten</caption>
+					<help>Määritä lomake, jota käytetään tämän sivun blogikirjoitusten huomautuksia varten. Valitsemalla painikkeen voi luoda omat lomakkeet.</help>
+				</property>			
+				<property name="BlogListLayout">
+					<caption>Blogiluettelon alustus</caption>
+					<help>Määritä muoto, jota käytetään tämän sivun blogikirjoitusten luetteloa varten.</help>
+				</property>		
+			</common>
+			<pagetype name="My Settings">
+				<name>Omat asetukset</name>
+				<description>Asetussivu, jolla käyttäjä voi muuttaa esimerkiksi salasanaa ja muita omia asetuksiaan.</description>
+			</pagetype>
+			<pagetype name="Ordinary web page">
+				<name>Tavallinen WWW-sivu</name>
+				<description>Tavallinen tiedotussivu</description>
+			</pagetype>
+			<pagetype name="Subscription">
+				<name>Tilaus</name>
+				<description>Tilaustietojen valintasivu</description>
+			</pagetype>
+			<pagetype name="Calendar">
+				<name>Kalenteri</name>
+				<description>Kalenterin pääsivu</description>
+			</pagetype>
+			<pagetype name="Calendar event">
+				<name>Kalenteritapahtuma</name>
+				<description>Sivu, jolla voidaan lisätä kalenteriin uusi tapahtuma</description>
+			</pagetype>
+			<pagetype name="Discussion forum">
+				<name>Keskustelupaikka</name>
+				<description>Keskustelupaikan luomisen pääsivu</description>
+			</pagetype>
+			<pagetype name="Search">
+				<name>Etsi</name>
+				<description>Sivu, jota käytetään tietojen etsimiseen WWW-sivustosta</description>
+			</pagetype>
+			<pagetype name="Changed recently">
+				<name>Muutettu äskettäin</name>
+				<description>Sivu, joka sisältää luettelon hiljattain muutetuista sivuista</description>
+			</pagetype>
+			<pagetype name="Index">
+				<name>Sisältökuvaus</name>
+				<description>Sivu, jolla näytetään koko WWW-sivuston tai sen osan sisältö</description>
+			</pagetype>
+			<pagetype name="File listing">
+				<name>Tiedostoluettelo</name>
+				<description>Sivu, joka sisältää luettelon WWW-palvelimen hakemiston tiedostoista</description>
+			</pagetype>
+			<pagetype name="Start page">
+				<name>Aloitussivu</name>
+				<description>WWW-sivuston aloitussivu </description>
+			</pagetype>
+			<pagetype name="News groups, main page">
+				<name>Uutisryhmät, pääsivu</name>
+				<description>Uutisryhmien pääsivu </description>
+			</pagetype>
+			<pagetype name="News groups, category">
+				<name>Uutisryhmät, luokka</name>
+				<description>Uutisryhmän luokka</description>
+			</pagetype>
+			<pagetype name="News groups, news group">
+				<name>Uutisryhmät, uutisryhmä</name>
+				<description>Uutisryhmän sivu</description>
+			</pagetype>
+			<pagetype name="News groups, news item">
+				<name>Uutisryhmät, lisää</name>
+				<description>Sivu, jolla voidaan lisätä uutisryhmä</description>
+			</pagetype>
+			<pagetype name="Register users">
+				<name>Rekisteröi käyttäjä</name>
+				<description>Sivu, jolla kävijä voi rekisteröityä WWW-sivuston käyttäjäksi</description>
+			</pagetype>
+			<pagetype name="Form page">
+				<name>Lomakesivu</name>
+				<description>Sivu, joka sisältää lomakkeen</description>
+			</pagetype>
+			<pagetype name="Alphabetical index">
+				<name>		Sisällysluettelo aakkosjärjestyksessä</name>
+				<description>	Näytä sivut aakkosjärjestyksessä</description>
+			</pagetype>
+			<pagetype name="Flash page">
+				<name>Flash-sivu</name>
+				<description>Flash-filmin lataus-sivu</description>
+			</pagetype>		
+			<pagetype name="Mobile page">
+				<name>Mobiililaitteita</name>
+				<description>Sivu mobiililaitteille</description>
+			</pagetype>		
+			<pagetype name="Vote">
+				<name>Äänestä</name>
+				<description>Äänestyssivu vierailijoille</description>
+			</pagetype>
+			<pagetype name="News list">
+				<name>Uutisluettelo</name>
+				<description>Näytä sivuston sisäiset uutiset tai ulkoiset uutiset RSS-lähteestä.</description>
+			</pagetype>
+			<pagetype name="Profile search">
+				<name>Osaamisaluetietokanta</name>
+				<description>Henkilörekisterin hakusivu</description>
+			</pagetype>
+			<pagetype name="Personal profile">
+				<name>Oma profiili</name>
+				<description>Henkilön tietojen oma sivu. Käytetään henkilörekisterissä.</description>
+			</pagetype>
+			<pagetype name="Slide show">
+				<name>Kuvaesitys</name>
+				<description>Näyttää tiettyjen sivujen sisällön kuvaesityksenä, jossa kuvat vaihtuvat valituin välein.</description>
+			</pagetype>
+			<pagetype name="EPiServer Portal Framework">
+				<name>EPiServer Portal Framework</name>
+				<description>Vakioasetuksia käyttävä portaali, jonka kaikki käyttäjät voivat mukauttaa omaksi portaalikseen.</description>
+			</pagetype>
+			<pagetype name="RSS source">
+				<name>RSS-lähde</name>
+				<description>Näyttää EpiServer-palvelimen tiedot RSS-muodossa</description>
+			</pagetype>
+			<pagetype name="External link">
+					<name>Ulkoinen linkki</name>
+			<description>Näyttää toisen sivuston tiedot.</description>
+			</pagetype>
+			<pagetype name="News page">
+				<name>Uutissivu</name>
+				<description>Tälle sivulle voi lisätä yhden uutisen. Sivu ei näy valikoissa.</description>
+			</pagetype>
+			<pagetype name="ReadSpeaker">
+				<name>ReadSpeaker</name>
+				<description>Tiedotussivu, jonka sisältö kuullaan kaiuttimista</description>
+			</pagetype>
+			<pagetype name="Multilanguage page">
+				<name>Monikielisivu</name>
+				<description>Tiedotussivu, jonka sisältö voidaan kirjoittaa samanaikaisesti useilla kielillä </description>
+			</pagetype>
+			<pagetype name="Document">
+				<name>Asiakirjasivu</name>
+				<description>Microsoft Office -ohjelmistosta julkaistu asiakirja</description>
+			</pagetype>
+			<pagetype name="Document list">
+				<name>Asiakirjaluettelo</name>
+				<description>Näkyviin tulee luettelo Microsoft Office -ohjelmistosta julkaistuista asiakirjoista.</description>
+			</pagetype>
+			<pagetype name="PDF Form">
+				<name>PDF-lomake</name>
+				<description>Sivu laatii PDF-tiedoston, joka sisältää sivun tiedot.</description>
+			</pagetype>
+			<pagetype name="WorkroomList">
+				<name>Työtilojen pääsivu</name>
+				<description>Näyttää työtilojen listan</description>
+			</pagetype>
+			<pagetype name="Workroom">
+				<name>Työtila</name>
+				<description>Työtilan sivu</description>
+			</pagetype>	
+			<pagetype name="BlogStartPage">
+				<name>Blogien pääsivu</name>
+				<description>Blogien luonnin pääsivu</description>
+			</pagetype>
+			<pagetype name="BlogPage">
+				<name>Blogisivu</name>
+				<description>Blogin sivu</description>
+			</pagetype>
+		</pagetypes>
+		<categories>
+			<category name="News">
+				<description>Uutiset</description>
+			</category>
+			<category name="Technical">
+				<description>Tekniikka</description>
+			</category>
+			<category name="Data">
+				<description>Data</description>
+			</category>
+			<category name="Support">
+				<description>Tukiasia</description>
+			</category>
+		</categories>
+	</language>
+</languages>

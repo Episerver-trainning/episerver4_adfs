@@ -1,0 +1,84 @@
+<PUBLIC:COMPONENT	LIGHTWEIGHT=true>
+<PUBLIC:ATTACH		EVENT="onmouseover" FOR="element" ONEVENT="HandleMouseEnter()"/>
+<PUBLIC:ATTACH		EVENT="onmouseout" FOR="element" ONEVENT="HandleMouseLeave()"/>
+<PUBLIC:ATTACH		EVENT="onmousedown" FOR="element" ONEVENT="HandleMouseDown()"/>
+
+<SCRIPT LANGUAGE="JScript">
+
+/*
+ * mouseover.htc	- JavaScript support routines for EPiServer
+ * Copyright (c) 2003 ElektroPost Stockholm AB
+*/
+
+/* ------------------------------------------------------------------------------------------------
+   NOTE: All style properties must be set directly (and not using a class), otherwise bad things
+   will happen to all editable iframes on the page (for instance, the html editor). Also, for the 
+   same reason, do not modify any font properties such as fontWeight etc.
+   ------------------------------------------------------------------------------------------------ */
+
+// The mouse events will bubble for contained classes and we need to distinguish contained elements 
+// that do not have the class EPEdit-CommandTool from parent classes that has the class set.
+function IsCommandToolElement(source)
+{	
+	return source.className == "EPEdit-CommandTool";
+}
+
+function HandleMouseEnter()
+{
+	if (IsCommandToolElement(this))
+	{
+		var style = this.style;
+
+		style.cursor 		= "hand";
+		style.borderBottom 	= "1px solid #BDBCA7";
+		style.borderRight 	= "1px solid #BDBCA7";
+		style.borderLeft 	= "1px solid #FFFFFF";
+		style.borderTop 	= "1px solid #FFFFFF";
+		style.margin 		= "0px";
+		style.color 		= "#000000";
+	}
+}
+
+function HandleMouseLeave()
+{
+	var style = this.style;
+
+	if (IsCommandToolElement(this))
+	{
+		if (event.toElement != null && event.toElement.parentElement == this)
+		{
+			// no action since mouse pointer just moved to a contained element
+		}
+		else			
+		{		
+			style.cursor 		= "default";
+			style.border	 	= "0px";
+			style.margin 		= "1px";
+			style.color 		= "#000000";
+		}
+	}
+	else if (IsCommandToolElement(this.parentElement) && event.toElement != this.parentElement)
+	{
+		style.cursor 		= "default";
+		style.border	 	= "0px";
+		style.margin 		= "1px";
+		style.color 		= "#000000";
+	}
+}
+
+function HandleMouseDown()
+{
+	if (IsCommandToolElement(this))
+	{
+		var style = this.style;
+		
+		style.cursor 		= "hand";
+		style.borderBottom 	= "1px solid #FFFFFF";
+		style.borderRight 	= "1px solid #FFFFFF";
+		style.borderLeft 	= "1px solid #BDBCA7";
+		style.borderTop 	= "1px solid #BDBCA7";
+		style.color 		= "#000000";
+	}
+}
+</SCRIPT>
+</PUBLIC:COMPONENT>

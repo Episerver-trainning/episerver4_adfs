@@ -1,0 +1,129 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Hjelp i EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="../EN/security.htm">
+    <img border="0" src="../EN/images/uk.gif" alt="English" width="20" height="14"></a>
+	<a href="../SV/Security.htm">
+    <img border="0" src="../EN/images/sv.gif" alt="Svenska" width="20" height="14"></a>
+    <a href="../NO/Security.htm">
+    <img border="0" src="../EN/images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Angi rettigheter</h1>
+
+	<p>Når du har opprettet gruppen, eventuelt synkronisert gruppen fra en annen 
+	katalogtjeneste, angir du hvor i trestrukturen gruppen skal ha tilgang. Da 
+	bestemmer du også hvilke rettigheter en bestemt gruppe skal ha i denne delen 
+	av strukturen. <br>
+	I EPiServer finnes det seks forskjellige nivåer for hva en gruppe eller 
+	bruker kan gjøre på en bestemt side. Hver gruppe eller bruker kan ha 
+	forskjellige rettigheter på hver side. Det finnes intet som helst hierarki 
+	mellom de forskjellige nivåene. Dette innebærer at en gruppe kan ha 
+	rettigheter til bare å lese og publisere, uten å ha rettigheter til å 
+	opprette, endre og slette. </p>
+	<ul>
+		<li><b>Lese</b> innebærer at gruppen/brukeren har rettigheter til å lese 
+		den aktuelle siden.</li>
+		<li><b>Opprette</b> innebærer at gruppen/brukeren har rettigheter til å 
+		opprette sider under den aktuelle siden.</li>
+		<li><b>Endre</b> innebærer at gruppen/brukeren har rettigheter til å 
+		endre den aktuelle siden.</li>
+		<li><b>Slett</b> innebærer at gruppen/brukeren har rettigheter til å 
+		slette den aktuelle siden.</li>
+		<li><b>Publiser</b> innebærer at gruppen/brukeren har rettigheter til å 
+		publisere den aktuelle siden. </li>
+		<li><b>Administrere</b> innebærer at gruppen/brukeren har rett til å 
+		endre dynamiske egenskaper og angi rettigheter for den aktuelle siden. 
+		Dette nivået har ingen ting å gjøre med administratormodus. Det 
+		innebærer bare administrasjon av en eller flere sider i 
+		redigeringsmodus.</li>
+	</ul>
+	<p>
+    <b>Slik angir du rettigheter på en eller flere sider:</b></p>
+	<ol>
+		<li>Velg Angi rettigheter på fanen Admin. Trestrukturen vises i den 
+		nedre delen av vinduet.</li>
+		<li>Merk siden i trestrukturen som du vil angi rettigheter for. Når 
+		siden er merket, er navnet på siden formatert med fet skrift. </li>
+		<li>Gruppene og brukerne som har rettigheter på den merkede siden, vises 
+		med de sist lagrede rettighetene ovenfor strukturen. Hvis du vil at 
+		andre grupper eller personer også skal ha rettigheter, velger du Legg 
+		til gruppe eller Legg til bruker og velger rettighetene du ønsker. Når 
+		du har lagt til en gruppe eller bruker, har ingen innstillinger blitt 
+		lagret. Du viser bare informasjonen i vinduet. </li>
+		<li>Angi hvilket nivå av rettigheter hver gruppe eller bruker skal ha. 
+		</li>
+		<li>Lagre de nye rettighetene ved å velge riktig knapp ovenfor gruppene. 
+		De fire like knappene har alle ulike funksjoner og brukes ved ulike 
+		tilfeller.</li>
+	</ol>
+	<p>
+    &nbsp;<img border="0" src="images/admin_setaccessrights.png" width="490" height="292" ></p>
+    <table border="0" cellpadding="2" cellspacing="1" width="100%" style="border-collapse: collapse" bordercolor="#111111">
+      <tr>
+        <td width="16%" valign="top"><b>Lagre</b></td>
+        <td width="84%" valign="top">Hvis du velger Lagre, lagres rettighetene 
+		som vises på skjermen, på siden som er merket. Alle rettigheter som er 
+		lagret tidligere, overskrives</td>
+      </tr>
+      <tr>
+        <td width="16%" valign="top"><b>Rekursiv</b></td>
+        <td width="84%" valign="top">Hvis du velger Rekursiv, lagres 
+		rettighetene som vises på skjermen, for merket side og dennes 
+		undersider. Du lagrer med andre ord rettighetene for flere sider 
+		samtidig. Alle rettigheter som er lagret tidligere, overskrives.</td>
+      </tr>
+      <tr>
+        <td width="16%" valign="top"><b>Legg til gjentagende</b></td>
+        <td width="84%" valign="top">Hvis du velger Legg til gjentagende, legger 
+		du til rettighetene som vises på skjermen, for den merkede siden med 
+		undersider uten å endre rettighetene som gjelder for andre 
+		grupper/brukere. Hvis du fjerner gruppene som ikke skal endres, fra 
+		vinduet, blir disse gruppene ikke påvirket. Når du klikker alternativet 
+		for å tømme, betyr dette at du bare fjerner gruppen fra alternativet. Du 
+		fjerner med andre ord ikke gruppen fra systemet. Legg til gjentagende er 
+		svært nyttig hvis du har mange forskjellige rettigheter i en struktur og 
+		vil legge til eller endre en eller flere grupper.</td>
+      </tr>
+      <tr>
+        <td width="16%" valign="top"><b>Slett gjentagende</b></td>
+        <td width="84%" valign="top">Hvis du velger Slett gjentagende, slettes 
+		alle rettighetene som vises på skjermen, for merket side og dennes 
+		undersider. Brukes primært ved sletting av alle rettigheter for en 
+		enkelt gruppe/bruker.</td>
+      </tr>
+    </table>
+    <p>
+    &nbsp;</p> </td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#6D8CA8" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Les mer i <a href="Redaktørhåndbok_online.pdf">
+    Redaktørhåndbok</a> - Les mer i <a href="Adminhåndbok_online.pdf">
+    Administratørhåndbok</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

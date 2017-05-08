@@ -1,0 +1,2 @@
+<%@ Control Language="c#" AutoEventWireup="false" Codebehind="WriterInfo.ascx.cs" Inherits="development.Templates.Units.WriterInfo" TargetSchema="http://schemas.microsoft.com/intellisense/ie5"%>
+<asp:Panel Runat="Server" ID="WriterArea" />

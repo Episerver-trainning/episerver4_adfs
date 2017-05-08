@@ -1,0 +1,205 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Help in EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="settings.htm">
+    <img border="0" src="images/uk.gif" alt="English"></a>
+    <a href="../SV/settings.htm">
+    <img border="0" src="images/sv.gif" alt="Svenska"></a>
+	<a href="../NO/Settings.htm">
+	<img border="0" src="images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>System Settings</h1>
+    <p>[<a href="#General">General</a>] [<a href="#Editing">Editing</a>] [<a href="#Link tool">Link 
+    tool</a>] 
+    [<a href="#LDAP">LDAP</a>]</p>
+    <p>In system settings, you make settings which apply to the 
+    whole of EPiServer. You can change language, paths to various parts of the 
+    web server, etc. These settings are usually set during installation and are 
+    rarely changed.</p>
+ 
+      <h2><a name="General"></a>General</h2>
+    
+      <p>
+      <img border="0" src="images/systemsettings_general.png" width="490" height="297"></p>
+    
+      <h3>Name of the web site</h3>
+      The name that will be displayed in the title bar at 
+      the top of the web browser's window.
+	<h3>Address to your web site</h3>
+      The URL of a website is used in several contexts in 
+      EPiServer, for example in subscriptions. In this instance you enter the 
+      URL of your website so that the correct information is sent to the users.
+     
+      <h3>Default language</h3>
+      Edit and Admin mode can be displayed in different 
+      languages. This allows you to select the language which is appropriate for 
+      your EPiServer. Remember that the information stored in the database does 
+      not change when you change language in this case. You can read more about 
+      changing languages in the section Language selection in EPiServer . If the 
+      editor has actually selected a language under My settings, this language 
+      will apply to the editor, regardless of what the default language is.
+      
+    <h3>Encrypting the web.config file </h3>
+    The web.config file contains information about the system that could be 
+    sensitive in the wrong hands. This includes information to and from the 
+    database. To ensure that nobody can see what the information contains, you 
+    encrypt the file. Select the alternative you want and save system sett-ings. 
+    The information on the database connection is then encrypted. 
+	<h3>Error handling in EPiServer</h3>
+	If a technical error occurs in EPiServer, an error message will appear 
+	that is not much help to an editor. However, this is useful to a developer 
+	in solving the problem. By activating this function, the editor receives a 
+	form that is to be filled in whenever a technical problem arises. This 
+	information is then sent to the e-mail address specified in the E-mail 
+	address to send the error report field. 
+	<h3>E-mail address to send error reports to</h3>
+	The e-mail address that is to receive the error report from website 
+	users.
+      <h3>Handler for subscription updates</h3>
+	EPiServer has a subscription functionality that makes it possible for visitors to the Web site&nbsp;to 
+	subscribe to information about new and updated pages. It is possible to 
+	change how subscriptions are managed depending on whether your Web site uses 
+	EPiServer's multi-language functionality. This list can also contain 
+	customised solutions from the subscription function.
+    
+	<h3>Enable globalization</h3>
+		EPiServer supports management of contents in several 
+	languages/variations of the same page. The way of working for contents 
+	management changes when in edit mode. To gain access to this support, 
+	globalization must be activated. This is done by selecting the <i>Enabel 
+	Globalization</i> option.</p>
+	
+	<h3>Detect language via browser's language preference</h3>
+	
+	It is possible to show languages based upon the visitor’s 
+	browser settings. For this to work, the function must be activated. Do this 
+	by selecting the <i>Detect language via browser’s language preference</i> 
+	option. Then the language that each visitor has chosen as their default 
+	language comes up in their own browser. </p>
+      <p align="right">
+      <a href="#top">
+      <img border="0" src="images/arrow_up.gif" width="9" height="10"></a>
+      <hr noshade color="#666666" size="1">
+    
+  
+      <h2><a name="Editing"></a>Editing</h2>
+      <p>
+      <img border="0" src="images/systemsettings_editing.png" width="490" height="247"></p>
+     
+      <h3>Selecting an editor</h3>
+	Version 4.20 of EPiServer launched a new editor. This is a 
+	dhtml-based editor with increased functionality compared with the previous 
+	version. The previous editor, which was an Active-X component, can still be 
+	used. The version that is to be used, is specified in the web.config file 
+	that is stored in the root of the website. The string &lt;add 
+	key=&quot;EPfHtmlEditor&quot; value=&quot;True&quot;/&gt; states that the DHTML-editor is being 
+	used. The string &lt;add key=&quot;EPfHtmlEditor&quot; value=&quot;False&quot;/&gt; states that the 
+	Active-X component is being used.
+	<h3>Use DIV in editor instead of P</h3>
+      In HTML there are different ways of indicating that 
+      you want a paragraph break. When you use the symbol &lt;P&gt; there will always 
+      be a gap between the rows to indicate the beginning of a new paragraph. If 
+      you do not want the extra distance to be visible when pressing ENTER you 
+      can instead use the symbol &lt;DIV&gt;. If you place a tick in the box, &lt;DIV&gt; is 
+      used instead of &lt;P&gt;. Note that the change will only apply to pages created 
+      after the change has been made.
+      <h3>Height of the Editor </h3>
+      The height of the Editor expressed in pixels. This 
+      value applies for all edit fields, regardless of page type.
+      <h3>Width of the Editor </h3>
+      The width of the Editor expressed in pixels. If the 
+      value is zero, the width of the Editor is changed in proportion to the 
+      window. 
+      <h3>Max number of old versions of a page</h3>
+      Specifies how many old versions of each page that can 
+      be stored by the editor. The value zero (0) allows editors to store an 
+      unlimited number of old versions. If you enter a value here, for example 
+      3, three old versions are stored plus the published version, i.e. four 
+      versions in all. When a fifth version is created the first version of the 
+      stored page will disappear. 
+      <h3>Path to CSS file for the Editor</h3>
+      The path to the CSS file that controls the profile of 
+      the editor. This should be the same as the one that controls the profile 
+      of the website, to make it easy for the editors. 
+      <h3>Current version of ActiveX editor</h3>
+      In this field, you can specify the version of the Active-X Editor that you 
+	want your editors to use. If you specify a version that is older than the 
+	one already installed on the editor’s computer, the latest version will be 
+	downloaded the next time the editor edits a page. 
+      <p align="right">
+      <a href="#top">
+      <img border="0" src="images/arrow_up.gif" width="9" height="10"></a>
+      <hr noshade color="#666666" size="1">
+    
+  
+      <h3><a name="Link tool"></a>Link tool</h3>
+ 
+      <p>
+      <img border="0" src="images/systemsettings_linktool.png" width="490" height="247"></p>
+ 
+      <h3>Upload directory</h3>
+      The standard directory which should be opened when the 
+      editor opens the link tool to upload files to the web server.
+        
+      
+  
+      <p align="right">
+      <a href="#top">
+      <img border="0" src="images/arrow_up.gif" width="9" height="10"></a>
+      <hr noshade color="#666666" size="1">
+    
+  
+      <h2><a name="LDAP"></a>LDAP</h2>
+    LDAP stands for Lightweight Directory Access Protocol and is a 
+      protocol which is used for communicating with a directory service. This is 
+      used in EPiServer, along with Active Directory, for monitoring users and 
+      groups in the various types of network.</p>
+      <p>
+      <img border="0" src="images/systemsettings_ldap.png" width="490" height="247"></p>
+      <h3>LDAP server</h3>
+      Enter in this field the LDAP server address
+      <h3>Username for reading info from LDAP server</h3>
+      In this field you enter the username for a Windows account which has 
+      rights to read data from the LDAP server. 
+      <h3>Password for username</h3>
+      Enter in this field the password for the user specified above.
+&nbsp;<h3>Clear LDAP cache</h3>
+	By selecting Clear, you will empty the cache storing information from the 
+	LDAP server. The cache is there to speed up the system, however it may need 
+	to be emptied occasionally, if extensive changes have been made.&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <p align="right">
+      <a href="#top">
+      <img border="0" src="images/arrow_up.gif" width="9" height="10"></a>
+      </td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#666666" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Read more in <a href="Editorsmanual_online.pdf">Editor's Manual</a> - Read more in 
+    <a href="Administratorsmanual_online.pdf">Administrator’s Manual</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>

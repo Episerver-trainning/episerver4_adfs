@@ -1,0 +1,198 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="sv">
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" TYPE="text/css" HREF="../styles/help.css">
+<title>Help in EPiServer</title>
+
+</head>
+
+<body>
+
+<table border="0" cellspacing="0" cellpadding="1" width="500">
+  <tr>
+    <td width="100%" align="right">
+    <a href="EditForm.htm">
+    <img border="0" src="images/uk.gif" alt="English" width="20" height="14"></a>
+    <a href="../SV/EditForm.htm">
+    <img border="0" src="images/sv.gif" alt="Svenska" width="20" height="14"></a>
+     <a href="../NO/EditForm.htm">
+    <img border="0" src="images/no.gif" alt="Norsk" width="20" height="14"></a></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <h1>Form Settings</h1>
+    <p>
+    <img border="0" src="images/form_inst.png" align="right" width="237" height="295">The form settings dialogue box is used to create the form. Here, you can 
+	build up a table and enter the different form fields as you want. You can 
+	also select the properties each field is to have. <br>
+	At the top of the window you set how you will deal with the information that 
+	is sent. 
+	<ol>
+		<li>In the <i>Name of form</i> field, you select a name for the form. If you are going 
+	to send the form by e–mail, the name will be shown in the Subject row on the 
+	e-mail message which is sent.</li>
+		<li>In the <i>Result from posting</i> field, select what will happen when the visitor 
+	sends in the form. You can select to save it in a database and/or send it by 
+	e-mail. You can also specify that the form be sent to a web address where 
+	you can have a separate application to deal with the information. </li>
+		<li>In the <i>Thank you page shown upon response</i> field, you can point to a page 
+	that is to be shown when a visitor submits a response. Create the page on 
+	the Ordinary web page page template and then select the page as a thank you 
+	page.</li>
+		<li>The <i>Form can be posted anonymously</i> field should be selected if you want 
+	anyone on your website to be able to send in the form. If it is not checked, 
+	it will be necessary to be logged on in order to reply. </li>
+		<li>The <i>Same person can post the form several times</i> field should be selected if 
+	you want the same person (computer) to be able to send the form several 
+	times. If this option is left empty, people will only be able to send in the 
+	form once per computer. This works by placing a cookie on the visitor's 
+	computer. 
+	</li>
+		</ol>
+	<hr size="1">
+	
+    <h2>Build up the form</h2>
+	In the lower part of Form settings you create a table with the buttons under 
+	the table. Add row is always placed at the bottom of the table. Add column 
+	is always placed furthest right in the table. If you select Insert row you 
+	can insert a row above the row that is currently selected. Insert column 
+	gives a column to the left of the column that is selected. Select a row or 
+	column by clicking on an inserted field in the cell. If there are no fields 
+	in the table, you should start by dragging in a field. 
+	<p>Position the various fields by grabbing the field in question at the 
+	right-hand edge and dragging it to the required position in the table. Each 
+	cell in the table can only contain one form field. </p>
+	<p>When you have dragged a form field into the cell, the settings for the 
+	relevant field type will be opened under the table. Depending on the field 
+	you have selected, you have various settings to make. All fields have the 
+	property CSS class. Here, you can fill in an CSS class which exists in the 
+	CSS file which is used for the website. Contact your system administrator 
+	for more information. </p>
+	<p>When all the properties for each field have been 
+	completed, the button <i>Save</i> will be shown at the bottom of the window. You 
+	must save each individual field and its settings. If you want to Delete a 
+	field, click on the <i>Delete</i> button under the settings for the field.
+	</p>
+	<h3>Heading</h3>
+	Heading is the field type which is used so that visitors know what they 
+	should enter in each field. 
+	<ol>
+		<li>In the <i>Name field</i>, enter the text which is to be shown to visitors. 
+		</li>
+		</ol>
+	<p>
+	<h3>Text field</h3>
+	Text field is the field type which gives visitors an input field in the form 
+	of a row in which they can enter text. This is used for short text 
+	information you want the visitor to enter. 
+	<ol>
+		<li>In the <i>Name field</i>, enter a name for the field which enables you to know 
+	which field the visitor has completed. It is easier to use the same or a 
+	similar name to the name you used in the heading field which belongs to the 
+	field. </li>
+		<li>In the <i>Width</i> field, enter how wide the field is to be in terms of 
+	characters. <br>The Value must be entered field should be selected if you do not want 
+	visitors to be able to send in the form without filling in this particular 
+	field. </li>
+	</ol>
+	<h3>Text area</h3>
+	Text area is the field type which gives visitors a large area in which to 
+	type in text. You can decide the width of the area in terms of characters 
+	and how many rows the field should have. 
+	<ol>
+		<li>In the <i>Name</i> field, enter a name for the field which enables you to know 
+	which field the visitor has completed. It is easier to use the same or a 
+	similar name to the name you used in the heading field which belongs to the 
+	field. </li>
+		<li>In the <i>Width</i> field, enter how wide the field is to be in terms of 
+	characters. </li>
+		<li>In the <i>Height</i> field, specify the number of rows that the text area should 
+	have.</li>
+		<li>The <i>Value must be entered</i> field should be selected if you do not want 
+	visitors to be able to send in the form without filling in this particular 
+	field. </li>
+	</ol>
+	<h3>Select box</h3>
+	The Select box is the field type which gives visitors a pull-down menu in 
+	which they can select one of several alternatives which you have specified. 
+	<ul>
+		<li>In the <i>Name</i> field, enter a name for the field which enables you to know 
+	which field the visitor has completed. It is easier to use the same or a 
+	similar name to the name you used in the heading field which belongs to the 
+	field. </li>
+		<li>In the <i>Options</i> field, enter the various options which visitors are to choose 
+	from. Type in the options and separate them by pressing ENTER between each 
+	option. </li>
+	</ul>
+	<h3>Radio button</h3>
+	The Radio button is the field type which gives visitors a list of options in 
+	which they can select one of several alternatives which you have specified. 
+	<ul>
+		<li>In the <i>Name</i> field, enter a name for the field which enables you to know 
+	which field the visitor has completed. It is easier to use the same or a 
+	similar name to the name you used in the heading field which belongs to the 
+	field. </li>
+		<li>In the <i>Placement</i> field, select whether you want the option to be shown 
+	horizontally or vertically. </li>
+		<li>In the <i>Options</i> field, enter the various options which the visitors are to 
+	choose from. Type in the options and separate them by pressing ENTER between 
+	each option. </li>
+	</ul>
+	</p>
+	<h3>Checkbox</h3>
+	Checkbox is the field type which gives visitors a list of various options in 
+	which they can select one of several alternatives which you have specified. 
+	<ul>
+		<li>In the <i>Name</i> field, enter a name for the field which enables you to know 
+	which field the visitor has completed. It is easier to use the same or a 
+	similar name to the name you used in the heading field which belongs to the 
+	field. </li>
+		<li>In the <i>Placement</i>, select whether you want the option to be shown 
+	horizontally or vertically. </li>
+		<li>In the <i>Options field</i>, enter the various options which the visitors are to 
+	choose from. Type in the options and separate them by pressing ENTER between 
+	each option. </li>
+	</ul>
+	<p>When the form is complete and all the fields and their properties have been 
+	saved. <i>Save</i> the entire form by clicking the Save button in the middle of the 
+	Form settings dialog box. Save and publish the page. </p>
+	<hr size="1">
+	
+    </p>
+	<h2>The Form data tab</h2>
+	<p>If you chose to save the information in the database in your form, you can 
+	find all the forms which have been submitted under the Form data tab. This 
+	tab is shown next to the Version list when you saved and published you form 
+	page.<br>
+	Select the Form data tab and a search form will be shown. Here, you can 
+	specify whether you want to search for a specific date and the number of 
+	hits you want per page. If you want to show all contributions, you can click 
+	the Search button directly. 
+	<p>When you have searched for the submitted forms, they will be listed below 
+	the search form. You can browse amongst pages if there are a lot of them and 
+	you can also choose to delete all visible contributions from here.<p>If you want to process the information in Microsoft Excel, click the Export 
+	to Excel. button. The first time you do this, you will be asked whether you 
+	accept the integration between EPiServer and Office; answer YES to this 
+	question and data from your form will be shown in Excel and can be processed 
+	there.<p>
+	<img border="0" src="images/form_data.png" width="490" height="245"></td>
+  </tr>
+  <tr>
+    <td width="100%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%"><hr noshade color="#666666" size="1"></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <p align="center">Read more in <a href="Editorsmanual_online.pdf">Editor's Manual</a> - Read more in 
+    <a href="Administratorsmanual_online.pdf">Administrator’s Manual</a></td>
+  </tr>
+</table>
+
+</body>
+
+</html>
