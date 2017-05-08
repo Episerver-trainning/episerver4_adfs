@@ -169,6 +169,22 @@
                     BuildAction = "Content"
                 />
                 <File
+                    RelPath = "ADFS_Services\ADFSSync.asmx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ADFS_Services\ADFSSync.asmx.cs"
+                    DependentUpon = "ADFSSync.asmx"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ADFS_Services\ADFSSync.asmx.resx"
+                    DependentUpon = "ADFSSync.asmx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
                     RelPath = "images\archive.gif"
                     BuildAction = "Content"
                 />
@@ -1888,7 +1904,6 @@
                     RelPath = "templates\wsrp\portletcontrols\util\SudokuControl.cs"
                     SubType = "Code"
                     BuildAction = "Compile"
-                />
                 />
                 <File
                     RelPath = "templates\wsrp\services\markup.asmx"
