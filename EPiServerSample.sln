@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPiServerSample", "http://localhost/EPiServerSample.csproj", "{F0B7B8DB-29EF-4298-AA52-37509D2FA9E7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F0B7B8DB-29EF-4298-AA52-37509D2FA9E7}.Debug.ActiveCfg = Debug|.NET
+		{F0B7B8DB-29EF-4298-AA52-37509D2FA9E7}.Debug.Build.0 = Debug|.NET
+		{F0B7B8DB-29EF-4298-AA52-37509D2FA9E7}.Release.ActiveCfg = Release|.NET
+		{F0B7B8DB-29EF-4298-AA52-37509D2FA9E7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
